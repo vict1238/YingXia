@@ -2,59 +2,6 @@
 
 当前版本：[2.3.0](https://github.com/vict1238/YingXia/releases/tag/v2.3.0)。历史日期沿用原交付或验证记录，GitHub 发布日期为本次归档日期。
 
-# 来源与匹配预检 · 20261010 历史包
-
-保存正式应用之前的来源预检、匹配问题复现和复测工具。
-
-- 对应88lin/video_vip3.2.9 固定源码快照，覆盖1 条目录与7 条解析线路。
-- 提供 HTML 报告、Python 标准库请求检查器、Node.js 匹配回归与原始记录。
-- 原脚本10 个定向匹配用例中4 个符合预设要求、6 个未符合；新检查器另有10 个单元测试通过。
-
-当时环境对普通对照网站也出现 DNS 失败，完整第三方搜索至解码链路未取得验证结果。该包用于阅读报告与复测。
-
-原文件：`video_source_audit_20261010.zip`、`video_source_audit_20261010.html`。20261010 保留原始包标识；项目交接说明提醒勿据文件名推断所有步骤的精确发生时刻。
-
-依据：`original_deliverables/video_source_audit_20261010.zip` 内 README 与 `02_PROJECT_CONTEXT.md`。
-
-本次统一归档保留原文件。Git 标签定位完整项目导入；历史版本源码以本 Release 附件中的原始源码包为准。
-
-
----
-
-# 映匣 Python v1.0 · 历史源码版
-
-这是映匣早期可运行源码交付，随后演进为 Go 单文件 Windows 版。
-
-- 使用 Python 标准库 HTTP 后台、HTML／CSS／JavaScript 与 Edge／Chrome 应用窗口。
-- 提供来源目录搜索、候选核对、多组选集、平台播放页逐集绑定、收藏、历史与 SQLite 本地存储。
-- 包含 START.bat、START_CHROME.bat、离线合成演示、测试与可选 Windows 构建脚本。
-
-运行需要 Python3.10+ 与 Edge／Chrome。原包未包含已构建验收的 Windows EXE。历史验证记录为76 项后端／启动检查和17 项前端流程，素材为合成目录与本机测试视频。
-
-原文件：`yingxia_v1_0.zip`、`yingxia_v1_0_guide.html`。具体首次发布日期未另行推断。
-
-依据：`02_PROJECT_CONTEXT.md`、`legacy_python/README_zh.md`、原始 ZIP 内的 README、CHANGELOG 和 docs/VALIDATION.md。
-
-本次统一归档保留原文件。Git 标签定位完整项目导入；历史版本源码以本 Release 附件中的原始源码包为准。
-
-
----
-
-# 映匣三版合集 · 2026-10-14
-
-- 汇集 WebView Windows1.3.2、原生 Windows2.0.0 与 Android2.0.0，以及说明、源码、许可和验证材料。
-- 三版均包含清空记录修复；Windows 两版共享本机数据并需先退出另一版，Android 独立保存本机记录。
-- 保留当时交付的原始压缩包和审计／打包／验证文件，各独立版本也有对应 Release。
-
-按需选择一种 Windows EXE 或 Android APK；WebView 版需 Microsoft WebView2 Runtime，原生 Windows／Android 采用 libmpv。
-
-合集验证报告分别记录 WebView10 项、原生 Windows10 项及 Android正式包8 项／合成包13 项检查。Android 范围为拥有的 API35 x86_64 模拟器；合成解码与真实来源观测分别保存。
-
-历史验证／交付记录日期：2026-10-14。
-
-
----
-
 # 映匣 v2.3.0 · 断点续播、缓存与播放区控件
 
 - 加入 HLS 明确标记广告跳过、有限提前缓存、卡顿换源提示，以及核对作品／年份／季数／当前集数后继续播放。
@@ -114,6 +61,21 @@ Windows x64，启动前退出其他 Windows 版本。本次更新 Windows 原生
 Windows x64 单 EXE；Android 8.0+ 通用 APK。原生播放器需要直接或静态解析得到的媒体地址。
 
 原生 Windows 最终 EXE 10 项窗口、保存和合成播放检查通过；Android API35 x86_64 模拟器正式 APK 8 项及同版界面／播放器合成包13 项检查通过。报告分开记录正式包、合成解码与三 ABI 对应关系。
+
+历史验证／交付记录日期：2026-10-14。
+
+
+---
+
+# 映匣三版合集 · 2026-10-14
+
+- 汇集 WebView Windows1.3.2、原生 Windows2.0.0 与 Android2.0.0，以及说明、源码、许可和验证材料。
+- 三版均包含清空记录修复；Windows 两版共享本机数据并需先退出另一版，Android 独立保存本机记录。
+- 保留当时交付的原始压缩包和审计／打包／验证文件，各独立版本也有对应 Release。
+
+按需选择一种 Windows EXE 或 Android APK；WebView 版需 Microsoft WebView2 Runtime，原生 Windows／Android 采用 libmpv。
+
+合集验证报告分别记录 WebView10 项、原生 Windows10 项及 Android正式包8 项／合成包13 项检查。Android 范围为拥有的 API35 x86_64 模拟器；合成解码与真实来源观测分别保存。
 
 历史验证／交付记录日期：2026-10-14。
 
@@ -234,4 +196,42 @@ Windows x64，需已安装 Edge／Chrome。该历史版使用浏览器应用窗�
 历史记录为 Linux 后台 119 条 PASS、Chromium 17 项界面检查和 9 项生产 Linux CLI 检查；当时未执行 Windows 发布 EXE 的运行验证。
 
 02_PROJECT_CONTEXT.md 与 00_READ_ME_FIRST.md 记载 2026-10-12 原始交接；未据此指定该文件的首次发布日期。
+
+
+---
+
+# 映匣 Python v1.0 · 历史源码版
+
+这是映匣早期可运行源码交付，随后演进为 Go 单文件 Windows 版。
+
+- 使用 Python 标准库 HTTP 后台、HTML／CSS／JavaScript 与 Edge／Chrome 应用窗口。
+- 提供来源目录搜索、候选核对、多组选集、平台播放页逐集绑定、收藏、历史与 SQLite 本地存储。
+- 包含 START.bat、START_CHROME.bat、离线合成演示、测试与可选 Windows 构建脚本。
+
+运行需要 Python3.10+ 与 Edge／Chrome。原包未包含已构建验收的 Windows EXE。历史验证记录为76 项后端／启动检查和17 项前端流程，素材为合成目录与本机测试视频。
+
+原文件：`yingxia_v1_0.zip`、`yingxia_v1_0_guide.html`。具体首次发布日期未另行推断。
+
+依据：`02_PROJECT_CONTEXT.md`、`legacy_python/README_zh.md`、原始 ZIP 内的 README、CHANGELOG 和 docs/VALIDATION.md。
+
+本次统一归档保留原文件。Git 标签定位完整项目导入；历史版本源码以本 Release 附件中的原始源码包为准。
+
+
+---
+
+# 来源与匹配预检 · 20261010 历史包
+
+保存正式应用之前的来源预检、匹配问题复现和复测工具。
+
+- 对应88lin/video_vip3.2.9 固定源码快照，覆盖1 条目录与7 条解析线路。
+- 提供 HTML 报告、Python 标准库请求检查器、Node.js 匹配回归与原始记录。
+- 原脚本10 个定向匹配用例中4 个符合预设要求、6 个未符合；新检查器另有10 个单元测试通过。
+
+当时环境对普通对照网站也出现 DNS 失败，完整第三方搜索至解码链路未取得验证结果。该包用于阅读报告与复测。
+
+原文件：`video_source_audit_20261010.zip`、`video_source_audit_20261010.html`。20261010 保留原始包标识；项目交接说明提醒勿据文件名推断所有步骤的精确发生时刻。
+
+依据：`original_deliverables/video_source_audit_20261010.zip` 内 README 与 `02_PROJECT_CONTEXT.md`。
+
+本次统一归档保留原文件。Git 标签定位完整项目导入；历史版本源码以本 Release 附件中的原始源码包为准。
 
