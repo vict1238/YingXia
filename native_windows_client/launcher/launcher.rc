@@ -1,0 +1,34 @@
+#pragma code_page(65001)
+#include <windows.h>
+
+1 ICON "../../current_source/assets/windows/yingxia.ico"
+1 RT_MANIFEST "launcher.manifest"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,2,0,0
+ PRODUCTVERSION 2,2,0,0
+ FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+ FILEFLAGS 0
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_APP
+ FILESUBTYPE 0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904e4"
+    BEGIN
+      VALUE "CompanyName", "YingXia\0"
+      VALUE "FileDescription", "映匣 · YingXia 原生版\0"
+      VALUE "FileVersion", "2.2.0\0"
+      VALUE "InternalName", "YingXia.Native\0"
+      VALUE "LegalCopyright", "Copyright (C) 2026 YingXia. GPL-3.0-or-later.\0"
+      VALUE "OriginalFilename", "YingXia_v2.2.0_Native_Windows_x64.exe\0"
+      VALUE "ProductName", "映匣 · YingXia\0"
+      VALUE "ProductVersion", "2.2.0\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1252
+  END
+END

@@ -1,0 +1,104 @@
+{
+  "software": [
+    {
+      "file": "YingXia_v2.2.0_Android.apk",
+      "size": 124905502,
+      "sha256": "423289feea2dccb2d9ebd019e73d8a12d3b81b4bb9ba6b1253289ea4e6133e23"
+    }
+  ],
+  "production_aar": {
+    "path": "native_android_client/android/app/libs/yingxia_core.aar",
+    "size": 11819592,
+    "sha256": "1cc925bb13eb46fd5aeb8078504e24f579fc06bfe4941a568df8486f82a448b2",
+    "android_api": 26,
+    "abis": [
+      "jni/arm64-v8a/libgojni.so",
+      "jni/armeabi-v7a/libgojni.so",
+      "jni/x86_64/libgojni.so"
+    ],
+    "native_fixture_tag": false
+  },
+  "source_archive": {
+    "file": "YingXia_v2.2.0_Android_Source.zip",
+    "size": 38565324,
+    "sha256": "b1c48ae890df6b6af832d110db4fb4d5567d30f6b2373f2dc8b2d852b2957274",
+    "verified_files": 871,
+    "crc_verified": true,
+    "all_decompressed_file_sha256_verified": true,
+    "manifest_crc32_verified": true
+  },
+  "scope": [
+    "native_android_client",
+    "native_android_core",
+    "required current_source license texts",
+    "final release readme and validation"
+  ],
+  "excluded": [
+    ".apk",
+    ".bin",
+    ".class",
+    ".cxx",
+    ".dart_tool",
+    ".dex",
+    ".dill",
+    ".dll",
+    ".exe",
+    ".flutter-plugins",
+    ".flutter-plugins-dependencies",
+    ".git",
+    ".gradle",
+    ".idea",
+    ".jks",
+    ".key",
+    ".keystore",
+    ".kotlin",
+    ".o",
+    ".obj",
+    ".p12",
+    ".pdb",
+    ".pem",
+    ".pfx",
+    ".plugin_symlinks",
+    ".pyc",
+    ".pyo",
+    ".res",
+    ".so",
+    ".syso",
+    ".test",
+    ".tools",
+    "__pycache__",
+    "aar_fixture",
+    "aar_production",
+    "bootstrap.json",
+    "build",
+    "cache",
+    "debug_current.png",
+    "ephemeral",
+    "http",
+    "kazumi_current_pinned_registry.json",
+    "key.properties",
+    "keys",
+    "library.json",
+    "local.properties",
+    "node_modules",
+    "payload",
+    "runtime_overview.log",
+    "settings.json",
+    "subscription_probes.json",
+    "user_data",
+    "userdata",
+    "video_quality.json",
+    "workbook_extracted.json"
+  ],
+  "generated_evidence_excluded": [
+    "source_extract_check*",
+    "aar_production",
+    "aar_fixture",
+    "native_android_client/evidence/android/runtime"
+  ],
+  "binary_allowlist": [
+    "verified production client AAR",
+    "Gradle wrapper JAR",
+    "pinned upstream source archives"
+  ]
+}

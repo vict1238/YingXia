@@ -1,0 +1,27 @@
+{
+  "fixture_included": false,
+  "version": "2.0.0-native",
+  "browser_dependencies": [],
+  "release_go_files": [
+    "availability.go",
+    "catalog.go",
+    "media.go",
+    "models.go",
+    "network.go",
+    "platform_windows.go",
+    "providers.go",
+    "rules.go",
+    "runtime.go",
+    "search_jobs.go",
+    "security.go",
+    "server.go",
+    "service.go",
+    "storage.go",
+    "updates.go"
+  ],
+  "release_embedded_assets": [
+    "LICENSE.txt",
+    "providers.json",
+    "sources.json"
+  ]
+}

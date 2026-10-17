@@ -1,0 +1,194 @@
+{
+  "synthetic_only": true,
+  "generated_utc_epoch": 1791974250.9819257,
+  "source_original_untouched": true,
+  "backend": "build\\qa_core\\yingxia_backend_fsr_fixture.exe",
+  "backend_sha256": "0f1803480545b72b01353071ac8a543f41d4dabb6c8eea824728ef13486f4a46",
+  "backend_bytes": 146344960,
+  "source_fixture_sha256": "ff66953f015771bb47669c6cd53dee6fe095f22aa6a88ec88b418b98d68a6078",
+  "ffmpeg_version": "ffmpeg version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "samples": [
+    {
+      "file": "720p24.mp4",
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "duration_seconds": 120,
+      "decoded_frames": 2880,
+      "bytes": 29303313,
+      "sha256": "c72ace0d8b3206825a2f7aaf7fb014aeb5fd09b09438546f0df986b031205587"
+    },
+    {
+      "file": "720p30.mp4",
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "duration_seconds": 120,
+      "decoded_frames": 3600,
+      "bytes": 32428987,
+      "sha256": "a2f7204b479b12c36d96c99863215a8f67a7c80ee22e873e75637458642b9825"
+    },
+    {
+      "file": "720p60.mp4",
+      "width": 1280,
+      "height": 720,
+      "fps": 60,
+      "duration_seconds": 120,
+      "decoded_frames": 7200,
+      "bytes": 39173915,
+      "sha256": "3f5b6d9e824e75139900ccf7d550b24d7900ec6e2dcd00b24ffacd5b8a6f449f"
+    }
+  ],
+  "hls_assets": [
+    {
+      "file": "720hls000.ts",
+      "bytes": 1122360,
+      "sha256": "6f125e032e93157a17a18cd5806ed82dd2155ae94c9e4be23204f86b66deb439"
+    },
+    {
+      "file": "720hls001.ts",
+      "bytes": 1120480,
+      "sha256": "03ea3310ee87e667f2371b78c42912dbe24b868ae4f0f4e691911415eed3cfe2"
+    },
+    {
+      "file": "720hls002.ts",
+      "bytes": 1104688,
+      "sha256": "88ad25162ffada4751af617b4ee555e3653878479953e6ed69c816eb574d8f64"
+    },
+    {
+      "file": "720hls003.ts",
+      "bytes": 1117284,
+      "sha256": "476dcab07fb7c9a4389607c869ae92c2dcd0aabfbcce8b0e375ad7c9ea992cad"
+    },
+    {
+      "file": "720hls004.ts",
+      "bytes": 1135144,
+      "sha256": "7f6a823a9847c95638aa0f5afce3365943bad5555ee21b72b5938766d64fea7e"
+    },
+    {
+      "file": "720hls005.ts",
+      "bytes": 1110892,
+      "sha256": "8941e780f08a068f7e2a34a8ece0acd43b4ae2a579dcc27db76cc81ddd3caa2a"
+    },
+    {
+      "file": "720hls006.ts",
+      "bytes": 1135332,
+      "sha256": "35f960642dc85efce0581bc2c0ad5243f56ce6086ca06112106798722e3b84ef"
+    },
+    {
+      "file": "720hls007.ts",
+      "bytes": 1127436,
+      "sha256": "323d5c2c01e1496ff64a36a71c920a7ed0d0655a9c567e2ce0a5750b0e43b91f"
+    },
+    {
+      "file": "720hls008.ts",
+      "bytes": 1120104,
+      "sha256": "55da40d04ee44013678725ea693b7ef824c1d6bb31aa5afbe9b7a37c20383bef"
+    },
+    {
+      "file": "720hls009.ts",
+      "bytes": 1121044,
+      "sha256": "1f407d1c59912737f6a0abfa6002a70577862c7f7f71106e940aa0aea9f27423"
+    },
+    {
+      "file": "720hls010.ts",
+      "bytes": 1123300,
+      "sha256": "04df3007eefd66a91a141bda712ffa704aec7055377aede198042e4adb5ea556"
+    },
+    {
+      "file": "720hls011.ts",
+      "bytes": 1114276,
+      "sha256": "8fb672f274aae436bd07a7df61c64d9209d68781c151d637ec2987e68c908c2a"
+    },
+    {
+      "file": "720hls012.ts",
+      "bytes": 1122360,
+      "sha256": "b1df94520a1bd414bd97e50f995f0ada94793c24ee5d9f65a0ec10f5ad80c856"
+    },
+    {
+      "file": "720hls013.ts",
+      "bytes": 1115780,
+      "sha256": "03b7fe2dda6bd3d1aa88cf37440f24c739a76a87b37d2ece5bd5390ba17c868e"
+    },
+    {
+      "file": "720hls014.ts",
+      "bytes": 1106004,
+      "sha256": "5046c911901e88bfa8dec9ccb1bb8787562054efe8cb8e675b1146b6fab17b95"
+    },
+    {
+      "file": "720hls015.ts",
+      "bytes": 1115968,
+      "sha256": "e6ca7018f2b9f69a8518fd4e0b0fac927efd020ddf4d412ce410423c621126d1"
+    },
+    {
+      "file": "720hls016.ts",
+      "bytes": 1113524,
+      "sha256": "38e101672e438c7cea7851c13c21449c7578fa4dceb45ca2b8afb51a67f5992b"
+    },
+    {
+      "file": "720hls017.ts",
+      "bytes": 1103560,
+      "sha256": "edd7b60cedbe1c67eab541cc9478d57a28566890989204f13d738965ad085802"
+    },
+    {
+      "file": "720hls018.ts",
+      "bytes": 1124992,
+      "sha256": "09dbc54346940520ce4e84cf132c2f6cf6a8d472cea17e9bdf63864979295f22"
+    },
+    {
+      "file": "720hls019.ts",
+      "bytes": 1127812,
+      "sha256": "8b346ec4910f9fdbe593993339623bd9663eb58171c1f1f558442cfcf51a46cd"
+    },
+    {
+      "file": "720hls020.ts",
+      "bytes": 1125180,
+      "sha256": "b8e8747e98cf96b67fa4308e211e41cbd924cfe73f6a60b5d5b9189a1c89fa87"
+    },
+    {
+      "file": "720hls021.ts",
+      "bytes": 1135332,
+      "sha256": "5ab2e9ba4aa4c934678f926b9d6a86bcfd0e872f5c3c21cf9302efe9103bf184"
+    },
+    {
+      "file": "720hls022.ts",
+      "bytes": 1128376,
+      "sha256": "707f024b23287d414a7f4e6aa22cd1167433f74ff0b5d352cd65f4d8fe024821"
+    },
+    {
+      "file": "720hls023.ts",
+      "bytes": 1112772,
+      "sha256": "6690810ef795466bf8fa251e6b864665e7bc1b44dd37a86bd0a520ce5af9879d"
+    },
+    {
+      "file": "720hls024.ts",
+      "bytes": 1137024,
+      "sha256": "8acd0ecea4f2d3cb5cea874d1d4d9f878357ef462e1aa6ac3de7d4d8744b7027"
+    },
+    {
+      "file": "720hls025.ts",
+      "bytes": 1112208,
+      "sha256": "d5da16c7a679cb96fa9f33f335d5721487f8d66eb18acd10e325f7d4b66a3a5c"
+    },
+    {
+      "file": "720hls026.ts",
+      "bytes": 1102244,
+      "sha256": "fc6ccb3a74550589621dd98e2bf02e33675d43765fe563fcd7b043633e279524"
+    },
+    {
+      "file": "720hls027.ts",
+      "bytes": 1126496,
+      "sha256": "c8e324f612b26f520df83c477a5e32e1981f694b7eec5e807e3e094c741628b9"
+    },
+    {
+      "file": "720hls028.ts",
+      "bytes": 1125556,
+      "sha256": "663731690a4bb3528f55ccccb6dd3a5564c9d1a7b7b93dd00a353481830bb593"
+    },
+    {
+      "file": "720hls029.ts",
+      "bytes": 1095476,
+      "sha256": "8afe6355693ea320d2ae346257ddc4f6981c6d18ddeac3fb08415d3646638aec"
+    }
+  ]
+}

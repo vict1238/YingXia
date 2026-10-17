@@ -1,0 +1,27 @@
+{
+  "pid": 18188,
+  "arguments": [
+    "-avd",
+    "YingXia_QA_API35",
+    "-accel",
+    "on",
+    "-gpu",
+    "host",
+    "-no-window",
+    "-no-audio",
+    "-no-snapshot",
+    "-no-boot-anim",
+    "-no-metrics",
+    "-show-kernel",
+    "-memory",
+    "2560",
+    "-cores",
+    "2",
+    "-port",
+    "5554"
+  ],
+  "same_avd": "YingXia_QA_API35",
+  "preserved_data": true,
+  "boot_completed": false,
+  "elapsed_seconds": 56.7
+}

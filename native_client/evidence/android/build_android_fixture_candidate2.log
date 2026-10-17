@@ -1,0 +1,32 @@
+Running Gradle task 'assembleRelease'...                        
+Picked up JAVA_TOOL_OPTIONS: -Djava.net.preferIPv4Stack=true -Djava.net.useSystemProxies=true -Dhttp.proxyHost=127.0.0.1 -Dhttp.proxyPort=10808 -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=10808 -Dhttp.nonProxyHosts=localhost|127.*|[::1]
+WARNING: Your Android app project: app located at: C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_client\android\app\build.gradle.kts
+applies the Kotlin Gradle Plugin, which will cause build failures in future versions of Flutter.
+Please migrate your app to Built-in Kotlin using this guide: https://docs.flutter.dev/release/breaking-changes/migrate-to-built-in-kotlin/for-app-developers
+
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+Running Gradle task 'assembleRelease'...                           93.6s
+√ Built build\app\outputs\flutter-apk\app-release.apk (120.9MB)
+Picked up JAVA_TOOL_OPTIONS: -Djava.net.preferIPv4Stack=true -Djava.net.useSystemProxies=true -Dhttp.proxyHost=127.0.0.1 -Dhttp.proxyPort=10808 -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=10808 -Dhttp.nonProxyHosts=localhost|127.*|[::1]
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=YingXia Local, OU=Private Development, O=YingXia, L=Local, ST=Local, C=CN
+Signer #1 certificate SHA-256 digest: 6f3e4d81152657ba0b0fa9304763d0f47035e56a74161d8a9d27d3a12cc6085c
+Signer #1 certificate SHA-1 digest: d318ee85f74fba50b3c1ea553d991b356e55ee67
+Signer #1 certificate MD5 digest: dc3ebf5737f7a13d2fcadd8608c434d3
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: ac60d1f93d32adca8c7b48c5c6a9e0a80509f0d7b7adc909e3af9e8c0301b58f
+Signer #1 public key SHA-1 digest: e4823b0465e90206b868487bcdc77bae6dae4a19
+Signer #1 public key MD5 digest: 26dbad4782174785f67c22c184c62a67
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          5B1F48537BA86C37D4EB0CA0DFC5C28AE6570C0312F4DBFF87AE193501469D4B       C:\Users\vict1238\Documents\Chat…
+

@@ -1,0 +1,30 @@
+{
+  "sha256": "d72fe7b4f8f4f07ebb8726198004ca15f1e42fc25593b23eb2379c0c6ac1d517",
+  "rebuild_sha256": "d72fe7b4f8f4f07ebb8726198004ca15f1e42fc25593b23eb2379c0c6ac1d517",
+  "identical": true,
+  "machine_x64": true,
+  "pe32_plus": true,
+  "windows_gui": true,
+  "old_releases": [
+    {
+      "unchanged": true,
+      "sha256": "e7d47fe49c185c1d682c52713150f1098a19beda61e6e70128ddba21768a238b",
+      "file": "YingXia_v1.0_Windows_x64.exe"
+    },
+    {
+      "unchanged": true,
+      "sha256": "12b9648f97f2fa463f4531ae0b565089de3e37f2d435132613de0e77927351ba",
+      "file": "YingXia_v1.0.2_Windows_x64.exe"
+    },
+    {
+      "unchanged": true,
+      "sha256": "59e58b34770cade899c9ca66902e776da63080224d5eced3bf146444ce547543",
+      "file": "YingXia_v1.1.0_Windows_x64.exe"
+    },
+    {
+      "unchanged": true,
+      "sha256": "ef0b36d556da8fcfa027f3e80358ee0cb7061cf982402bc834237344e1ba38cd",
+      "file": "YingXia_v1.2.0_Windows_x64.exe"
+    }
+  ]
+}

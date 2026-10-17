@@ -1,0 +1,891 @@
+{
+  "checked_at_utc": "2026-10-14T17:42:14.396308+08:00",
+  "apk": "releases/YingXia_v2.0.0_Android.apk",
+  "apk_sha256": "b9d470913a117005b89006e137b7517e6bafafd717ba96b91efe934677a4f9a6",
+  "apk_bytes": 124097983,
+  "native_libraries": [
+    {
+      "entry": "lib/arm64-v8a/libapp.so",
+      "abi": "arm64-v8a",
+      "size_bytes": 6488968,
+      "sha256": "149fefaaff2a3fc194e00b434cfd2aa9ed55dcc2b495ab5a8293ad322412074d",
+      "elf_class_bits": 64,
+      "pt_load_segments": [
+        {
+          "vaddr_hex": "0x0",
+          "offset_hex": "0x0",
+          "file_bytes": 2452109,
+          "memory_bytes": 2452109,
+          "alignment_bytes": 65536,
+          "flags_mask": 4,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x260000",
+          "offset_hex": "0x260000",
+          "file_bytes": 3952256,
+          "memory_bytes": 3952256,
+          "alignment_bytes": 65536,
+          "flags_mask": 5,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x630000",
+          "offset_hex": "0x630000",
+          "file_bytes": 104,
+          "memory_bytes": 104,
+          "alignment_bytes": 65536,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        }
+      ],
+      "minimum_load_alignment_bytes": 65536,
+      "all_pt_load_16kb_aligned": true,
+      "gnu_relro_segments": [],
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "zip_compression_method": 0,
+      "zip_data_offset": 262144,
+      "uncompressed_entry_aligned_16kb": true
+    },
+    {
+      "entry": "lib/arm64-v8a/libflutter.so",
+      "abi": "arm64-v8a",
+      "size_bytes": 11747864,
+      "sha256": "34f4113ae93b2c7069030f0bcfede18e7c83ed548b71a75c9ebb749403d3a060",
+      "elf_class_bits": 64,
+      "pt_load_segments": [
+        {
+          "vaddr_hex": "0x0",
+          "offset_hex": "0x0",
+          "file_bytes": 11370224,
+          "memory_bytes": 11370224,
+          "alignment_bytes": 65536,
+          "flags_mask": 5,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0xae7ef0",
+          "offset_hex": "0xad7ef0",
+          "file_bytes": 369400,
+          "memory_bytes": 373008,
+          "alignment_bytes": 65536,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0xb521e8",
+          "offset_hex": "0xb321e8",
+          "file_bytes": 5864,
+          "memory_bytes": 67576,
+          "alignment_bytes": 65536,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        }
+      ],
+      "minimum_load_alignment_bytes": 65536,
+      "all_pt_load_16kb_aligned": true,
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0xae7ef0",
+          "memory_bytes": 373008,
+          "end_hex": "0xb43000",
+          "end_mod_16kb": 12288
+        }
+      ],
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "zip_compression_method": 0,
+      "zip_data_offset": 6766592,
+      "uncompressed_entry_aligned_16kb": true
+    },
+    {
+      "entry": "lib/arm64-v8a/libgojni.so",
+      "abi": "arm64-v8a",
+      "size_bytes": 9366704,
+      "sha256": "4eb8806d0e5679922367ef4b36ac60736f84ac5f28abdfd230771cd3ced55f34",
+      "elf_class_bits": 64,
+      "pt_load_segments": [
+        {
+          "vaddr_hex": "0x0",
+          "offset_hex": "0x0",
+          "file_bytes": 4302000,
+          "memory_bytes": 4302000,
+          "alignment_bytes": 16384,
+          "flags_mask": 4,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x41e4b0",
+          "offset_hex": "0x41a4b0",
+          "file_bytes": 3624640,
+          "memory_bytes": 3624640,
+          "alignment_bytes": 16384,
+          "flags_mask": 5,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x797380",
+          "offset_hex": "0x78f380",
+          "file_bytes": 931128,
+          "memory_bytes": 932992,
+          "alignment_bytes": 16384,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x87e8c0",
+          "offset_hex": "0x8728c0",
+          "file_bytes": 506176,
+          "memory_bytes": 34368656,
+          "alignment_bytes": 16384,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        }
+      ],
+      "minimum_load_alignment_bytes": 16384,
+      "all_pt_load_16kb_aligned": true,
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0x797380",
+          "memory_bytes": 932992,
+          "end_hex": "0x87b000",
+          "end_mod_16kb": 12288
+        }
+      ],
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "zip_compression_method": 0,
+      "zip_data_offset": 18530304,
+      "uncompressed_entry_aligned_16kb": true
+    },
+    {
+      "entry": "lib/arm64-v8a/libmediakitandroidhelper.so",
+      "abi": "arm64-v8a",
+      "size_bytes": 386696,
+      "sha256": "ab55b1d34665dba8fa7a451e82c466ee71b9698e7da6c9a3cb68a7c0ee7610d4",
+      "elf_class_bits": 64,
+      "pt_load_segments": [
+        {
+          "vaddr_hex": "0x0",
+          "offset_hex": "0x0",
+          "file_bytes": 366672,
+          "memory_bytes": 366672,
+          "alignment_bytes": 16384,
+          "flags_mask": 5,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x5d850",
+          "offset_hex": "0x59850",
+          "file_bytes": 17472,
+          "memory_bytes": 17472,
+          "alignment_bytes": 16384,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x65c90",
+          "offset_hex": "0x5dc90",
+          "file_bytes": 360,
+          "memory_bytes": 4688,
+          "alignment_bytes": 16384,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        }
+      ],
+      "minimum_load_alignment_bytes": 16384,
+      "all_pt_load_16kb_aligned": true,
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0x5d850",
+          "memory_bytes": 18352,
+          "end_hex": "0x62000",
+          "end_mod_16kb": 8192
+        }
+      ],
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "zip_compression_method": 0,
+      "zip_data_offset": 27901952,
+      "uncompressed_entry_aligned_16kb": true
+    },
+    {
+      "entry": "lib/arm64-v8a/libmpv.so",
+      "abi": "arm64-v8a",
+      "size_bytes": 12369680,
+      "sha256": "adf83fde58a9f6751ce6e83b9b187f651425d53ec0e20da04deb8dfb4aa775e1",
+      "elf_class_bits": 64,
+      "pt_load_segments": [
+        {
+          "vaddr_hex": "0x0",
+          "offset_hex": "0x0",
+          "file_bytes": 3752060,
+          "memory_bytes": 3752060,
+          "alignment_bytes": 16384,
+          "flags_mask": 4,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x398080",
+          "offset_hex": "0x394080",
+          "file_bytes": 8053696,
+          "memory_bytes": 8053696,
+          "alignment_bytes": 16384,
+          "flags_mask": 5,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0xb4a440",
+          "offset_hex": "0xb42440",
+          "file_bytes": 549192,
+          "memory_bytes": 549192,
+          "alignment_bytes": 16384,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0xbd4588",
+          "offset_hex": "0xbc8588",
+          "file_bytes": 12972,
+          "memory_bytes": 4757576,
+          "alignment_bytes": 16384,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        }
+      ],
+      "minimum_load_alignment_bytes": 16384,
+      "all_pt_load_16kb_aligned": true,
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0xb4a440",
+          "memory_bytes": 551872,
+          "end_hex": "0xbd1000",
+          "end_mod_16kb": 4096
+        }
+      ],
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "zip_compression_method": 0,
+      "zip_data_offset": 28295168,
+      "uncompressed_entry_aligned_16kb": true
+    },
+    {
+      "entry": "lib/armeabi-v7a/libapp.so",
+      "abi": "armeabi-v7a",
+      "size_bytes": 7144008,
+      "sha256": "67dee844053b1796c432f33a557a17a0b5bf5077877b4a43b2037c0ad74a7693",
+      "elf_class_bits": 32,
+      "pt_load_segments": [
+        {
+          "vaddr_hex": "0x0",
+          "offset_hex": "0x0",
+          "file_bytes": 2888773,
+          "memory_bytes": 2888773,
+          "alignment_bytes": 16384,
+          "flags_mask": 4,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x2c4000",
+          "offset_hex": "0x2c4000",
+          "file_bytes": 4232792,
+          "memory_bytes": 4232792,
+          "alignment_bytes": 16384,
+          "flags_mask": 5,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x6d0000",
+          "offset_hex": "0x6d0000",
+          "file_bytes": 52,
+          "memory_bytes": 52,
+          "alignment_bytes": 16384,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        }
+      ],
+      "minimum_load_alignment_bytes": 16384,
+      "all_pt_load_16kb_aligned": true,
+      "gnu_relro_segments": [],
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "zip_compression_method": 0,
+      "zip_data_offset": 40665088,
+      "uncompressed_entry_aligned_16kb": true
+    },
+    {
+      "entry": "lib/armeabi-v7a/libflutter.so",
+      "abi": "armeabi-v7a",
+      "size_bytes": 8615900,
+      "sha256": "c408a309f798148edc33993334e5636fc035dba2aac375066f691da8be4480f8",
+      "elf_class_bits": 32,
+      "pt_load_segments": [
+        {
+          "vaddr_hex": "0x0",
+          "offset_hex": "0x0",
+          "file_bytes": 8416864,
+          "memory_bytes": 8416864,
+          "alignment_bytes": 65536,
+          "flags_mask": 5,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x816e60",
+          "offset_hex": "0x806e60",
+          "file_bytes": 194488,
+          "memory_bytes": 197024,
+          "alignment_bytes": 65536,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x856618",
+          "offset_hex": "0x836618",
+          "file_bytes": 2720,
+          "memory_bytes": 38440,
+          "alignment_bytes": 65536,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        }
+      ],
+      "minimum_load_alignment_bytes": 65536,
+      "all_pt_load_16kb_aligned": true,
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0x816e60",
+          "memory_bytes": 197024,
+          "end_hex": "0x847000",
+          "end_mod_16kb": 12288
+        }
+      ],
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "zip_compression_method": 0,
+      "zip_data_offset": 47824896,
+      "uncompressed_entry_aligned_16kb": true
+    },
+    {
+      "entry": "lib/armeabi-v7a/libgojni.so",
+      "abi": "armeabi-v7a",
+      "size_bytes": 9283764,
+      "sha256": "ec2d55ff1a340d93b86c1caee6acfd65ed164751003bb87fe88276cd5d4a6ae1",
+      "elf_class_bits": 32,
+      "pt_load_segments": [
+        {
+          "vaddr_hex": "0x0",
+          "offset_hex": "0x0",
+          "file_bytes": 3395717,
+          "memory_bytes": 3395717,
+          "alignment_bytes": 4096,
+          "flags_mask": 4,
+          "at_least_16kb": false,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x33e088",
+          "offset_hex": "0x33d088",
+          "file_bytes": 4792808,
+          "memory_bytes": 4792808,
+          "alignment_bytes": 4096,
+          "flags_mask": 5,
+          "at_least_16kb": false,
+          "offset_vaddr_congruent_mod_16kb": false
+        },
+        {
+          "vaddr_hex": "0x7d1270",
+          "offset_hex": "0x7cf270",
+          "file_bytes": 637152,
+          "memory_bytes": 638352,
+          "alignment_bytes": 4096,
+          "flags_mask": 6,
+          "at_least_16kb": false,
+          "offset_vaddr_congruent_mod_16kb": false
+        },
+        {
+          "vaddr_hex": "0x86db50",
+          "offset_hex": "0x86ab50",
+          "file_bytes": 456056,
+          "memory_bytes": 34199256,
+          "alignment_bytes": 4096,
+          "flags_mask": 6,
+          "at_least_16kb": false,
+          "offset_vaddr_congruent_mod_16kb": false
+        }
+      ],
+      "minimum_load_alignment_bytes": 4096,
+      "all_pt_load_16kb_aligned": false,
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0x7d1270",
+          "memory_bytes": 638352,
+          "end_hex": "0x86d000",
+          "end_mod_16kb": 4096
+        }
+      ],
+      "relro_rounding_overlaps_non_relro_writable_load": [
+        {
+          "start_hex": "0x86db50",
+          "end_hex": "0x870000"
+        }
+      ],
+      "zip_compression_method": 0,
+      "zip_data_offset": 56442880,
+      "uncompressed_entry_aligned_16kb": true
+    },
+    {
+      "entry": "lib/armeabi-v7a/libmediakitandroidhelper.so",
+      "abi": "armeabi-v7a",
+      "size_bytes": 286812,
+      "sha256": "506d0bc7775fe9888be6b6e889d8556ca0574dba65813866e2158cbf52a8c8b1",
+      "elf_class_bits": 32,
+      "pt_load_segments": [
+        {
+          "vaddr_hex": "0x0",
+          "offset_hex": "0x0",
+          "file_bytes": 276336,
+          "memory_bytes": 276336,
+          "alignment_bytes": 16384,
+          "flags_mask": 5,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x47770",
+          "offset_hex": "0x43770",
+          "file_bytes": 8764,
+          "memory_bytes": 8764,
+          "alignment_bytes": 16384,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x4d9ac",
+          "offset_hex": "0x459ac",
+          "file_bytes": 164,
+          "memory_bytes": 913,
+          "alignment_bytes": 16384,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        }
+      ],
+      "minimum_load_alignment_bytes": 16384,
+      "all_pt_load_16kb_aligned": true,
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0x47770",
+          "memory_bytes": 10384,
+          "end_hex": "0x4a000",
+          "end_mod_16kb": 8192
+        }
+      ],
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "zip_compression_method": 0,
+      "zip_data_offset": 65732608,
+      "uncompressed_entry_aligned_16kb": true
+    },
+    {
+      "entry": "lib/armeabi-v7a/libmpv.so",
+      "abi": "armeabi-v7a",
+      "size_bytes": 11746532,
+      "sha256": "8aa2b23d16d941a8d685b8eb995b1cb31677ed3e28c55c776954eb1618ab1a2e",
+      "elf_class_bits": 32,
+      "pt_load_segments": [
+        {
+          "vaddr_hex": "0x0",
+          "offset_hex": "0x0",
+          "file_bytes": 2264554,
+          "memory_bytes": 2264554,
+          "alignment_bytes": 16384,
+          "flags_mask": 4,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x22ce00",
+          "offset_hex": "0x228e00",
+          "file_bytes": 9108640,
+          "memory_bytes": 9108640,
+          "alignment_bytes": 16384,
+          "flags_mask": 5,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0xae0aa0",
+          "offset_hex": "0xad8aa0",
+          "file_bytes": 364452,
+          "memory_bytes": 364452,
+          "alignment_bytes": 16384,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0xb3da48",
+          "offset_hex": "0xb31a48",
+          "file_bytes": 7676,
+          "memory_bytes": 4733832,
+          "alignment_bytes": 16384,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        }
+      ],
+      "minimum_load_alignment_bytes": 16384,
+      "all_pt_load_16kb_aligned": true,
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0xae0aa0",
+          "memory_bytes": 365920,
+          "end_hex": "0xb3a000",
+          "end_mod_16kb": 8192
+        }
+      ],
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "zip_compression_method": 0,
+      "zip_data_offset": 66027520,
+      "uncompressed_entry_aligned_16kb": true
+    },
+    {
+      "entry": "lib/x86_64/libapp.so",
+      "abi": "x86_64",
+      "size_bytes": 6685576,
+      "sha256": "efe4a33b91cba551e37daf9be2b4bff2680937329053a35d5e76a6fcdc63bbf0",
+      "elf_class_bits": 64,
+      "pt_load_segments": [
+        {
+          "vaddr_hex": "0x0",
+          "offset_hex": "0x0",
+          "file_bytes": 2445997,
+          "memory_bytes": 2445997,
+          "alignment_bytes": 65536,
+          "flags_mask": 4,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x260000",
+          "offset_hex": "0x260000",
+          "file_bytes": 4157152,
+          "memory_bytes": 4157152,
+          "alignment_bytes": 65536,
+          "flags_mask": 5,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x660000",
+          "offset_hex": "0x660000",
+          "file_bytes": 104,
+          "memory_bytes": 104,
+          "alignment_bytes": 65536,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        }
+      ],
+      "minimum_load_alignment_bytes": 65536,
+      "all_pt_load_16kb_aligned": true,
+      "gnu_relro_segments": [],
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "zip_compression_method": 0,
+      "zip_data_offset": 77774848,
+      "uncompressed_entry_aligned_16kb": true
+    },
+    {
+      "entry": "lib/x86_64/libflutter.so",
+      "abi": "x86_64",
+      "size_bytes": 13051424,
+      "sha256": "207ff0aa7a5f6926cae6403a6f63c0b6ede457ae430546cbef8550845471abfc",
+      "elf_class_bits": 64,
+      "pt_load_segments": [
+        {
+          "vaddr_hex": "0x0",
+          "offset_hex": "0x0",
+          "file_bytes": 12676720,
+          "memory_bytes": 12676720,
+          "alignment_bytes": 65536,
+          "flags_mask": 5,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0xc26e70",
+          "offset_hex": "0xc16e70",
+          "file_bytes": 362064,
+          "memory_bytes": 364944,
+          "alignment_bytes": 65536,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0xc8f4c0",
+          "offset_hex": "0xc6f4c0",
+          "file_bytes": 10264,
+          "memory_bytes": 73456,
+          "alignment_bytes": 65536,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        }
+      ],
+      "minimum_load_alignment_bytes": 65536,
+      "all_pt_load_16kb_aligned": true,
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0xc26e70",
+          "memory_bytes": 364944,
+          "end_hex": "0xc80000",
+          "end_mod_16kb": 0
+        }
+      ],
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "zip_compression_method": 0,
+      "zip_data_offset": 84475904,
+      "uncompressed_entry_aligned_16kb": true
+    },
+    {
+      "entry": "lib/x86_64/libgojni.so",
+      "abi": "x86_64",
+      "size_bytes": 10089392,
+      "sha256": "51d4827c50b0daf3b1dd55c01b1fcfc6017dae8624dc52de91b8f455c40ab434",
+      "elf_class_bits": 64,
+      "pt_load_segments": [
+        {
+          "vaddr_hex": "0x0",
+          "offset_hex": "0x0",
+          "file_bytes": 4452076,
+          "memory_bytes": 4452076,
+          "alignment_bytes": 16384,
+          "flags_mask": 4,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x442f00",
+          "offset_hex": "0x43ef00",
+          "file_bytes": 4194608,
+          "memory_bytes": 4194608,
+          "alignment_bytes": 16384,
+          "flags_mask": 5,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x847040",
+          "offset_hex": "0x83f040",
+          "file_bytes": 933784,
+          "memory_bytes": 933824,
+          "alignment_bytes": 16384,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x92efe0",
+          "offset_hex": "0x922fe0",
+          "file_bytes": 506144,
+          "memory_bytes": 34341816,
+          "alignment_bytes": 16384,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        }
+      ],
+      "minimum_load_alignment_bytes": 16384,
+      "all_pt_load_16kb_aligned": true,
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0x847040",
+          "memory_bytes": 933824,
+          "end_hex": "0x92b000",
+          "end_mod_16kb": 12288
+        }
+      ],
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "zip_compression_method": 0,
+      "zip_data_offset": 97533952,
+      "uncompressed_entry_aligned_16kb": true
+    },
+    {
+      "entry": "lib/x86_64/libmediakitandroidhelper.so",
+      "abi": "x86_64",
+      "size_bytes": 367528,
+      "sha256": "6ca2d827a892b8ddd60df64fab81456ad6fd05180dd6c4a0974549858025abc9",
+      "elf_class_bits": 64,
+      "pt_load_segments": [
+        {
+          "vaddr_hex": "0x0",
+          "offset_hex": "0x0",
+          "file_bytes": 347712,
+          "memory_bytes": 347712,
+          "alignment_bytes": 16384,
+          "flags_mask": 5,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x58e40",
+          "offset_hex": "0x54e40",
+          "file_bytes": 17328,
+          "memory_bytes": 17328,
+          "alignment_bytes": 16384,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x611f0",
+          "offset_hex": "0x591f0",
+          "file_bytes": 368,
+          "memory_bytes": 4672,
+          "alignment_bytes": 16384,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        }
+      ],
+      "minimum_load_alignment_bytes": 16384,
+      "all_pt_load_16kb_aligned": true,
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0x58e40",
+          "memory_bytes": 20928,
+          "end_hex": "0x5e000",
+          "end_mod_16kb": 8192
+        }
+      ],
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "zip_compression_method": 0,
+      "zip_data_offset": 107626496,
+      "uncompressed_entry_aligned_16kb": true
+    },
+    {
+      "entry": "lib/x86_64/libmpv.so",
+      "abi": "x86_64",
+      "size_bytes": 15816336,
+      "sha256": "f030e9a1a4d4664e89d7160a3d4528cd5875ee023ff6262e16e95aac28ffaec5",
+      "elf_class_bits": 64,
+      "pt_load_segments": [
+        {
+          "vaddr_hex": "0x0",
+          "offset_hex": "0x0",
+          "file_bytes": 4226100,
+          "memory_bytes": 4226100,
+          "alignment_bytes": 16384,
+          "flags_mask": 4,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0x40bc40",
+          "offset_hex": "0x407c40",
+          "file_bytes": 11030448,
+          "memory_bytes": 11030448,
+          "alignment_bytes": 16384,
+          "flags_mask": 5,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0xe94bf0",
+          "offset_hex": "0xe8cbf0",
+          "file_bytes": 545016,
+          "memory_bytes": 545016,
+          "alignment_bytes": 16384,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        },
+        {
+          "vaddr_hex": "0xf1dcf0",
+          "offset_hex": "0xf11cf0",
+          "file_bytes": 13072,
+          "memory_bytes": 4763744,
+          "alignment_bytes": 16384,
+          "flags_mask": 6,
+          "at_least_16kb": true,
+          "offset_vaddr_congruent_mod_16kb": true
+        }
+      ],
+      "minimum_load_alignment_bytes": 16384,
+      "all_pt_load_16kb_aligned": true,
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0xe94bf0",
+          "memory_bytes": 545808,
+          "end_hex": "0xf1a000",
+          "end_mod_16kb": 8192
+        }
+      ],
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "zip_compression_method": 0,
+      "zip_data_offset": 108003328,
+      "uncompressed_entry_aligned_16kb": true
+    }
+  ],
+  "runtime_16kb_device_tested": false,
+  "inspection": "Read-only final signed production APK ELF program headers, libapp and ZIP local entry offsets",
+  "reference": "https://developer.android.com/guide/practices/page-sizes#elf-alignment",
+  "scope_limits": [
+    "ELF/ZIP static alignment does not prove execution on a 16 KB page-size device.",
+    "This alignment check is distinct from APK installation, application lifecycle, clear-history and playback tests."
+  ],
+  "summary": {
+    "native_library_count": 15,
+    "native_64bit_library_count": 10,
+    "abis": [
+      "arm64-v8a",
+      "armeabi-v7a",
+      "x86_64"
+    ],
+    "all_64bit_pt_load_16kb_aligned": true,
+    "all_uncompressed_native_entries_aligned_16kb": true,
+    "libapp_entries": [
+      {
+        "entry": "lib/arm64-v8a/libapp.so",
+        "minimum_load_alignment_bytes": 65536,
+        "pt_load_16kb_aligned": true
+      },
+      {
+        "entry": "lib/armeabi-v7a/libapp.so",
+        "minimum_load_alignment_bytes": 16384,
+        "pt_load_16kb_aligned": true
+      },
+      {
+        "entry": "lib/x86_64/libapp.so",
+        "minimum_load_alignment_bytes": 65536,
+        "pt_load_16kb_aligned": true
+      }
+    ],
+    "relro_rounding_writable_conflicts_64bit": []
+  },
+  "zipalign": {
+    "tool": "Android SDK build-tools 36.0.0 zipalign",
+    "command": "zipalign -c -P 16 -v 4 releases/YingXia_v2.0.0_Android.apk",
+    "exit_code": 0,
+    "verification_successful": true,
+    "log": "native_client/evidence/android/zipalign.log",
+    "log_sha256": "f807dbe838da7819d61c132281f0aae0aaa10b0f2a57767ff626706745f73196"
+  }
+}

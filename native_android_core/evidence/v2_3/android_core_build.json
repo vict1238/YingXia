@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "version": "2.3.0-native-android",
+  "aar": "native_android_core/build/yingxia_core.aar",
+  "bytes": 13180281,
+  "sha256": "0b963acdc1cf61609ebf9b090aae3e82d9cab1e21eca9fc0c537496187fd947e",
+  "manifest": "<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" package=\"go.core.gojni\">\n<uses-sdk android:minSdkVersion=\"26\"/></manifest>",
+  "android_api": 26,
+  "abis": [
+    "jni/arm64-v8a/libgojni.so",
+    "jni/x86_64/libgojni.so",
+    "jni/armeabi-v7a/libgojni.so"
+  ],
+  "gomobile_version": "v0.0.0-20261011034528-197770444867",
+  "go_version": "go1.27.2",
+  "ndk": "28.2.13676358",
+  "native_fixture_tag": false,
+  "recorded_at": "2026-10-16T04:12:16.702790+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "replay": {
+    "created_at": "2026-10-14T09:47:37Z",
+    "episode": "第01集",
+    "evidence": "browser_time_advanced",
+    "film_id": "vod:wsyzy:OTAwMDE",
+    "id": "d789a90bac873312ad4bd6ab7ab4cadd",
+    "mode": "media",
+    "position": 0.125,
+    "source": "无损云 / WebM 测试",
+    "title": "原生播放测试 WebM",
+    "updated_at": "2026-10-14T09:47:39Z"
+  },
+  "next": {
+    "created_at": "2026-10-14T09:47:44Z",
+    "episode": "第02集",
+    "evidence": "browser_time_advanced",
+    "film_id": "vod:wsyzy:OTAwMDE",
+    "id": "54c1d106bb9a2bf0daa3bf53fc20f255",
+    "mode": "media",
+    "position": 0.125,
+    "source": "无损云 / WebM 测试",
+    "title": "原生播放测试 WebM",
+    "updated_at": "2026-10-14T09:47:45Z"
+  },
+  "nextEpisodeCorrect": true,
+  "stopCompleted": true,
+  "first": {
+    "created_at": "2026-10-14T09:47:20Z",
+    "episode": "第01集",
+    "evidence": "browser_time_advanced",
+    "film_id": "vod:wsyzy:OTAwMDE",
+    "id": "6ee6c7d8c0e5ff72bd451a859edf880f",
+    "mode": "media",
+    "position": 0.125,
+    "source": "无损云 / WebM 测试",
+    "title": "原生播放测试 WebM",
+    "updated_at": "2026-10-14T09:47:21Z"
+  }
+}

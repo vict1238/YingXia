@@ -1,0 +1,107 @@
+{
+  "apk": "native_android_client/build/candidates/YingXia_v2.3.0_Android_fixture.apk",
+  "bytes": 139277442,
+  "sha256": "13eaf972a7b1e2aec3bcba8533021096550620b46251d00858c6baa9f287b31d",
+  "package": "com.yingxia.yingxia_native.fixture",
+  "version_name": "2.3.0",
+  "version_code": 20300,
+  "min_sdk": 26,
+  "target_sdk": 36,
+  "release_aot": true,
+  "debuggable": false,
+  "certificate_sha256": "6f3e4d81152657ba0b0fa9304763d0f47035e56a74161d8a9d27d3a12cc6085c",
+  "fixture": true,
+  "aar_sha256": "dbf1383150eb463373c318948184bb602e9a1d6cd8720df75efb7c04830747ba",
+  "go_jni_matches_aar_after_ndk_strip": true,
+  "jni_normalization": "NDK 28.2.13676358 llvm-strip --strip-unneeded",
+  "permissions": [
+    "android.permission.INTERNET",
+    "com.yingxia.yingxia_native.fixture.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "libraries": [
+    {
+      "abi": "arm64-v8a",
+      "name": "libgojni.so",
+      "bytes": 14360016,
+      "sha256": "0d832472a0b94f95d42070898fc256d465066a8c6f1f7339ff04adae3209789b",
+      "elf_machine": 183
+    },
+    {
+      "abi": "arm64-v8a",
+      "name": "libapp.so",
+      "bytes": 6816648,
+      "sha256": "e17c1f23f735c467efc05774c44f53016ceaeee9197bcd47fe3e5e7ddfc18658",
+      "elf_machine": 183
+    },
+    {
+      "abi": "arm64-v8a",
+      "name": "libflutter.so",
+      "bytes": 11747864,
+      "sha256": "34f4113ae93b2c7069030f0bcfede18e7c83ed548b71a75c9ebb749403d3a060",
+      "elf_machine": 183
+    },
+    {
+      "abi": "arm64-v8a",
+      "name": "libmpv.so",
+      "bytes": 12369680,
+      "sha256": "adf83fde58a9f6751ce6e83b9b187f651425d53ec0e20da04deb8dfb4aa775e1",
+      "elf_machine": 183
+    },
+    {
+      "abi": "armeabi-v7a",
+      "name": "libgojni.so",
+      "bytes": 13099884,
+      "sha256": "2745b5c6429773fe0c4babfa51e25d98c8d2c14fa653f5a26c62da512a3cfd0c",
+      "elf_machine": 40
+    },
+    {
+      "abi": "armeabi-v7a",
+      "name": "libapp.so",
+      "bytes": 7488072,
+      "sha256": "f0796a0af13c469281e57ddf96ae5949a58f66c742a7881ba5f413e769f58861",
+      "elf_machine": 40
+    },
+    {
+      "abi": "armeabi-v7a",
+      "name": "libflutter.so",
+      "bytes": 8615900,
+      "sha256": "c408a309f798148edc33993334e5636fc035dba2aac375066f691da8be4480f8",
+      "elf_machine": 40
+    },
+    {
+      "abi": "armeabi-v7a",
+      "name": "libmpv.so",
+      "bytes": 11746532,
+      "sha256": "8aa2b23d16d941a8d685b8eb995b1cb31677ed3e28c55c776954eb1618ab1a2e",
+      "elf_machine": 40
+    },
+    {
+      "abi": "x86_64",
+      "name": "libgojni.so",
+      "bytes": 15109072,
+      "sha256": "0d7f0f1c435da0fa1fa61ea2e98b6f16c63901a33688ae974ed80b4777a1fbce",
+      "elf_machine": 62
+    },
+    {
+      "abi": "x86_64",
+      "name": "libapp.so",
+      "bytes": 7078792,
+      "sha256": "03e72e7f229bfd00f5e7118fff86d8dae2652fbbc182dabcfc8f3d7f0aba8c51",
+      "elf_machine": 62
+    },
+    {
+      "abi": "x86_64",
+      "name": "libflutter.so",
+      "bytes": 13051424,
+      "sha256": "207ff0aa7a5f6926cae6403a6f63c0b6ede457ae430546cbef8550845471abfc",
+      "elf_machine": 62
+    },
+    {
+      "abi": "x86_64",
+      "name": "libmpv.so",
+      "bytes": 15816336,
+      "sha256": "f030e9a1a4d4664e89d7160a3d4528cd5875ee023ff6262e16e95aac28ffaec5",
+      "elf_machine": 62
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "path": "android/app/libs/yingxia_core.aar",
+    "source_sha256": "1cc925bb13eb46fd5aeb8078504e24f579fc06bfe4941a568df8486f82a448b2",
+    "clone_sha256": "8755f6274120e9ee6d234a50405412b4830bba2186ce47ec264d8e9c7cbcb297",
+    "reason": "Fixture AAR copied only into isolated clone"
+  },
+  {
+    "path": "vendor/media_kit_video/lib/src/video_controller/android_video_controller/real.dart",
+    "source_sha256": "1774971a6c66643aa3df48e96ee482695afd4d6230c371d35e09e7c2763ecc62",
+    "clone_sha256": "dd62b2657521f2691f6730ca93b94b52bf55249c88accb871b06a65f8dcb6e98",
+    "reason": "Single GPU context debug attribute QA change"
+  }
+]

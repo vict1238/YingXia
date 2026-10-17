@@ -1,0 +1,4 @@
+=== RUN   TestBrowserMediaSniff
+--- PASS: TestBrowserMediaSniff (1.49s)
+PASS
+ok  	yingxia.local/desktop	2.907s

@@ -1,0 +1,10 @@
+Computing fixes in native_android_client...
+Applying fixes...
+
+lib\yingxia_app.dart
+  curly_braces_in_flow_control_structures - 1 fix
+
+test\playback_features_test.dart
+  curly_braces_in_flow_control_structures - 1 fix
+
+2 fixes made in 2 files.

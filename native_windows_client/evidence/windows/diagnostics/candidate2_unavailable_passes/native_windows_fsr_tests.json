@@ -1,0 +1,154 @@
+{
+  "platform": "win32/x64",
+  "executable": "YingXia_candidate2.exe",
+  "sha256": "788c1bfe34c2cf1144ca47e92a4a44f851c0b930585e372227844626d264518f",
+  "shipping_gui_tested": true,
+  "production_backend_history_tested": true,
+  "media_backend": "separately compiled native_fixture Go child via explicit developer override",
+  "fixture_backend_sha256": "0f1803480545b72b01353071ac8a543f41d4dabb6c8eea824728ef13486f4a46",
+  "synthetic_media_only": true,
+  "real_third_party_playback_tested": false,
+  "checks": [
+    {
+      "name": "Single release EXE extracts runtime and opens its own visible Flutter window with no browser/WebView children",
+      "passed": true
+    },
+    {
+      "name": "All four approved pages load in the production Flutter/Go app",
+      "passed": true
+    },
+    {
+      "name": "Exact two developer names and emails are shown at the top of sources and diagnostics",
+      "passed": true
+    },
+    {
+      "name": "Simple three-choice quality dropdown can change and persist the Windows-only preference",
+      "passed": true
+    },
+    {
+      "name": "Production in-app clear confirmation can cancel without changing persistent records",
+      "passed": true
+    },
+    {
+      "name": "Actual read-only library write failure retains rows and allows retry",
+      "passed": true
+    },
+    {
+      "name": "Actual production backend clears disk history while preserving favorites, bindings and settings",
+      "passed": true
+    },
+    {
+      "name": "Repeated single-file launch restores the existing native window",
+      "passed": true
+    },
+    {
+      "name": "Full release EXE restart keeps history empty and favorite available; window close ends child family",
+      "passed": true
+    },
+    {
+      "name": "A viewport smaller than the source leaves the original 720p texture and avoids shader work",
+      "passed": true
+    }
+  ],
+  "observations": [
+    {
+      "initial_window": {
+        "action": "Snapshot",
+        "visible": true,
+        "pid": 2768,
+        "minimized": false,
+        "rect": [
+          10,
+          10,
+          1350,
+          910
+        ],
+        "title": "映匣 · YingXia",
+        "hwnd": 6227916
+      }
+    },
+    {
+      "production_process_family": [
+        {
+          "ProcessId": 25328,
+          "ParentProcessId": 10964,
+          "Name": "YingXia_candidate2.exe"
+        },
+        {
+          "ProcessId": 2768,
+          "ParentProcessId": 25328,
+          "Name": "yingxia_native.exe"
+        },
+        {
+          "ProcessId": 31828,
+          "ParentProcessId": 2768,
+          "Name": "yingxia_backend.exe"
+        }
+      ]
+    }
+  ],
+  "failure": "Error: actual 720p to 1080p shader render passes not verified in enhanced\n    at eventually (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:18:212)\n    at async main (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:100:88)",
+  "failure_accessibility": [
+    {
+      "rect": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "role": 16,
+      "name": null,
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "role": 41,
+      "name": "",
+      "value": "",
+      "action": null
+    }
+  ],
+  "check_count": 10
+}

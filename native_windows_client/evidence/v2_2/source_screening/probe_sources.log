@@ -1,0 +1,131 @@
+S008 no_compatible_cms 0 gaierror: [Errno 11001] getaddrinfo failed
+S009 no_compatible_cms 0 200
+S018 no_compatible_cms 0 200
+S001 no_compatible_cms 0 200
+S012 parsed_cms_candidates 2 200
+S010 no_compatible_cms 0 URLError: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1010)>
+C012 not_usable_now URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
+S007 no_compatible_cms 0 200
+S026 parsed_cms_candidates 2 200
+S011 parsed_cms_candidates 9 200
+S027 no_compatible_cms 0 200
+C001 accepted_json 200
+C006 accepted_json 200
+S030 no_compatible_cms 0 401
+S005 no_compatible_cms 0 200
+S024 parsed_cms_candidates 5 200
+S006 no_compatible_cms 0 200
+S017 no_compatible_cms 0 200
+S032 no_compatible_cms 0 200
+C018 accepted_json 200
+C014 accepted_json 200
+S023 parsed_cms_candidates 12 200
+S016 no_compatible_cms 0 200
+S002 no_compatible_cms 0 200
+C005 accepted_json 200
+S013 no_compatible_cms 0 200
+S037 no_compatible_cms 0 403
+C010 accepted_json 200
+C013 accepted_json 200
+S021 no_compatible_cms 0 200
+S020 no_compatible_cms 0 404
+C004 accepted_json 200
+C015 accepted_json 200
+S028 no_compatible_cms 0 200
+C019 not_usable_now 503
+S029 parsed_cms_candidates 12 200
+C011 accepted_json 200
+C023 accepted_json 200
+C002 not_usable_now 200
+C003 accepted_json 200
+S034 parsed_cms_candidates 15 200
+C009 not_usable_now 200
+C030 not_usable_now 403
+S019 no_compatible_cms 0 200
+S035 no_compatible_cms 0 200
+C020 accepted_json 200
+S033 parsed_cms_candidates 33 200
+C007 accepted_json 200
+C024 accepted_json 200
+C040 not_usable_now gaierror: [Errno 11001] getaddrinfo failed
+S003 no_compatible_cms 0 200
+S036 no_compatible_cms 0 404
+C017 not_usable_now 200
+S031 no_compatible_cms 0 200
+C028 accepted_json 200
+C031 accepted_json 200
+C026 accepted_json 200
+C038 not_usable_now URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+C048 not_usable_now gaierror: [Errno 11001] getaddrinfo failed
+C046 not_usable_now gaierror: [Errno 11001] getaddrinfo failed
+C029 accepted_json 200
+C051 not_usable_now gaierror: [Errno 11001] getaddrinfo failed
+C052 not_usable_now gaierror: [Errno 11001] getaddrinfo failed
+C053 not_usable_now gaierror: [Errno 11001] getaddrinfo failed
+C032 accepted_json 200
+C008 accepted_json 200
+C025 accepted_json 200
+C033 accepted_json 200
+C035 accepted_json 200
+C034 accepted_json 200
+C036 accepted_json 200
+C055 not_usable_now URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>
+C021 accepted_json 200
+C041 accepted_json 200
+C027 not_usable_now 200
+C039 accepted_json 200
+S025 no_compatible_cms 0 200
+C050 accepted_json 200
+C056 not_usable_now 200
+C022 accepted_json 200
+C037 accepted_json 200
+C059 accepted_json 200
+C054 accepted_json 200
+C042 accepted_json 200
+C045 not_usable_now 200
+C057 not_usable_now 200
+C049 accepted_json 200
+S022 no_compatible_cms 0 200
+S038 parsed_cms_candidates 14 200
+S015 no_compatible_cms 0 TimeoutError: timed out
+S004 no_compatible_cms 0 TimeoutError: timed out
+S014 no_compatible_cms 0 TimeoutError: timed out
+C016 not_usable_now TimeoutError: The read operation timed out
+C058 accepted_json 200
+C047 not_usable_now URLError: <urlopen error _ssl.c:993: The handshake operation timed out>
+EXPANDED_CANDIDATES 37
+E001 not_usable_now gaierror: [Errno 11001] getaddrinfo failed
+E010 not_usable_now gaierror: [Errno 11001] getaddrinfo failed
+E003 not_usable_now gaierror: [Errno 11001] getaddrinfo failed
+E016 not_usable_now gaierror: [Errno 11001] getaddrinfo failed
+E020 not_usable_now gaierror: [Errno 11001] getaddrinfo failed
+E021 not_usable_now gaierror: [Errno 11001] getaddrinfo failed
+E005 accepted_json 200
+E004 not_usable_now 404
+E006 accepted_json 200
+E030 not_usable_now gaierror: [Errno 11001] getaddrinfo failed
+E015 accepted_json 200
+E014 accepted_json 200
+E025 accepted_json 200
+E011 not_usable_now 404
+E024 accepted_json 200
+E022 accepted_json 200
+E012 not_usable_now 404
+E019 not_usable_now 400
+E036 not_usable_now URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+E033 accepted_json 200
+E013 accepted_json 200
+E023 accepted_json 200
+E034 accepted_json 200
+E035 accepted_json 200
+E008 accepted_json 200
+E031 accepted_json 200
+E027 not_usable_now 200
+E032 accepted_json 200
+E002 not_usable_now 200
+E037 not_usable_now 200
+E017 not_usable_now URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
+E009 accepted_json 200
+E018 accepted_json 200
+E026 not_usable_now TimeoutError: The read operation timed out
+ACCEPTED 52 BASELINE_OR_DUPLICATE 2

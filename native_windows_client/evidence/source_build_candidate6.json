@@ -1,0 +1,341 @@
+{
+  "unchanged_during_build": true,
+  "files": [
+    {
+      "path": "assets/shaders/fsr1_enhanced.glsl",
+      "sha256": "2b09775acb4a61baa343e9a6ab25f71f123be5e33b7db0b6089bfdcb4a090224"
+    },
+    {
+      "path": "assets/shaders/fsr1_light.glsl",
+      "sha256": "cf2fd095a8ab1a6f09cccba8ee67826414f1c381c805eb8fee0db15cde5161bd"
+    },
+    {
+      "path": "assets/shaders/LICENSE_AMD_FSR1.txt",
+      "sha256": "db089274ce766da70f5b7d791029c3486f9f9e27c8c79c652689603d3192e802"
+    },
+    {
+      "path": "assets/shaders/README_zh.md",
+      "sha256": "a68b6b6c111843a38622761b3ea7fe16e79a11975be5d96202c077046f8032e9"
+    },
+    {
+      "path": "assets/shaders/upstream/ffx_a.h",
+      "sha256": "f60e2722fcd13989523b9164d776ab382b3692791767f3bf8bb19967f763f3fb"
+    },
+    {
+      "path": "assets/shaders/upstream/ffx_fsr1.h",
+      "sha256": "93c3922362ea7fc99cbcc698ca30c98de4f8c246d1fbb0b09e015ddef38ce3a5"
+    },
+    {
+      "path": "build_windows_native.ps1",
+      "sha256": "dcc64501b25433de244d94087c455971b9a67022e5fa9c892a4e3734630cff69"
+    },
+    {
+      "path": "launcher/build_launcher.ps1",
+      "sha256": "38dfebc8b8394f90df4af33ad5f334897d0f88f6965b95e80b4e74f596a50ab3"
+    },
+    {
+      "path": "launcher/build_resources.ps1",
+      "sha256": "f4d40208990f7812f9e74321544b657953fb2062b01be5929ed46bdb6194fe4a"
+    },
+    {
+      "path": "launcher/extract_test.go",
+      "sha256": "18306ac831b45a6c85fcd72d86aaf79ae453aff0283b5cbf71250a98d3fec224"
+    },
+    {
+      "path": "launcher/extract.go",
+      "sha256": "a6bcf009f69c940168e002d33f51bc518a670af43be05895111d144e8499a47f"
+    },
+    {
+      "path": "launcher/go.mod",
+      "sha256": "77bc5fc888db7a88450681c0cf9b6a962a6173aec7fb94f1421a9415c79dfa6d"
+    },
+    {
+      "path": "launcher/job_windows_test.go",
+      "sha256": "2e9de333b4f38ae80a7f452497badf6545a8f636e62c5ce04d3d265e91748492"
+    },
+    {
+      "path": "launcher/job_windows.go",
+      "sha256": "141c2707fd367e0e3378abe3c29f29bbed3bb4a066fff1d019681be14edd9716"
+    },
+    {
+      "path": "launcher/launcher.manifest",
+      "sha256": "7cdf08e8a7a9c682123bdaf1a5ddcd0592cf42c04c135a1cbca15b97abcbb1ad"
+    },
+    {
+      "path": "launcher/launcher.rc",
+      "sha256": "37252f1a70467338892e1ef6edc6797278b5687f9dc57ac27588102d93079d5d"
+    },
+    {
+      "path": "launcher/main.go",
+      "sha256": "ab819c049a590e07e453d25cb7ce72cba9e3b732face5f487927ec83dc1342c2"
+    },
+    {
+      "path": "launcher/resource_windows_amd64.syso",
+      "sha256": "ecc96a771d0889accdd07bc54ade0536d414ef4bc98848ebc7cf88300e44b302"
+    },
+    {
+      "path": "lib/backend.dart",
+      "sha256": "a1f2a0193d5d13e8339a9c172c687768d7cc57dc3c0c7e4986014bf98aee3bdb"
+    },
+    {
+      "path": "lib/main.dart",
+      "sha256": "cd312ff232144b06d228e21569fd4e5a5ca10096da1a8c3bc9f28c1a243113cb"
+    },
+    {
+      "path": "lib/mpv_nodes.dart",
+      "sha256": "a827f6e584e7bf493c6bcbe121791a7ed8c9cc95ddaa44a6851bcb8538db9f5b"
+    },
+    {
+      "path": "lib/playback_evidence.dart",
+      "sha256": "f73fb9008cce9d6b26eaad74da97f170893ada5d3defb88abbf31896ab77bd9f"
+    },
+    {
+      "path": "lib/video_quality.dart",
+      "sha256": "4a2fbb990532952a3bb3d63724608469323f96785599bbf986161c2cce4d03cf"
+    },
+    {
+      "path": "lib/yingxia_app.dart",
+      "sha256": "64d4a30fed7b66bc090cb2db919dbe7b80807fea92d7d1ee8298e67751379ff3"
+    },
+    {
+      "path": "pubspec.lock",
+      "sha256": "39cb0db8da3a9747efa9b22e2d012f13a3a67cb298771e8291c384eb75a84664"
+    },
+    {
+      "path": "pubspec.yaml",
+      "sha256": "5d86dec572d2781a03a257d449b3cd2d98eeabc11e9b7c5b160277a1782fb891"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "e5302e9c927d43088cc575e45802ca77fa5c236313306fd660f563370a44a3bb"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/media_kit_video_controls/media_kit_video_controls.dart",
+      "sha256": "4901d14792106c468c04b3d2d15dda597801a656b368dda90579d7e58702289e"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/media_kit_video_controls/src/controls/adaptive.dart",
+      "sha256": "e28dc90a2372db010a854180a8e1915e492f3e58769e2ddbc7f4a2ec53c84f94"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/media_kit_video_controls/src/controls/extensions/duration.dart",
+      "sha256": "1af8a711442f244bce06351ab4c887ea3474a0d2e58b24a169204a02b50f8153"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/media_kit_video_controls/src/controls/material_desktop.dart",
+      "sha256": "df95cfb1befe513c42f79e45a08e95ab1118901dfe7899b54d19bd567ccf96bd"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/media_kit_video_controls/src/controls/material.dart",
+      "sha256": "d5a85321c74fda473fe990f63928f769cf92d51e7132053038edadb354de6917"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/media_kit_video_controls/src/controls/methods/fullscreen.dart",
+      "sha256": "9ce478242e56e1f4cc9c89004db0dd061b4998bb0d19d45eb4bffea676087468"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/media_kit_video_controls/src/controls/methods/video_state.dart",
+      "sha256": "2cee29a9dcc7b36b040a9259f9d1d532a3538270484e4f640e6752033e03e388"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/media_kit_video_controls/src/controls/no.dart",
+      "sha256": "cf65a946fc93263e32b673709c5071d438962708aef8d7ba90f3472ad2e0040a"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/media_kit_video_controls/src/controls/widgets/fullscreen_inherited_widget.dart",
+      "sha256": "72b5b61e02d4af30e8f87f779d69cd16fd711d3f8e925f53afa9d2adc520d423"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/media_kit_video_controls/src/controls/widgets/video_controls_theme_data_injector.dart",
+      "sha256": "00eb7df746abcf93fe0a04cf44769df62cd0489a8c5e0450893cae02f62e77bf"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/media_kit_video_controls/src/controls/widgets/video_state_inherited_widget.dart",
+      "sha256": "bc4eca3b14a6ae5f3d9bed2998c995fe32a0ca40bb7808e0453f8722bb009463"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/media_kit_video.dart",
+      "sha256": "4ea6d06788b4b6f4ace41a489b4f92fed2b682e7e756a67c6814e03b10d7e3be"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/src/subtitle/subtitle_view.dart",
+      "sha256": "9cea28cd5ddacffcf7ee8a1adbdd6e01050987f6360eeb491be19e87066711d3"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/src/utils/dispose_safe_notifer.dart",
+      "sha256": "f1ab18fc70b1021fd81c8964436deb437fa11ab8ff48eef645870f3d62e5b686"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/src/utils/query_decoders.dart",
+      "sha256": "517150e00cfb951617a086cb50f53f0bc77707b74dd689161eab876dc0182e20"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/src/utils/wakelock.dart",
+      "sha256": "7e5aeaa38de5a58672839efc9433e3d1088db1952263a41b5d2749011c4818f4"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/src/video_controller/android_video_controller/android_video_controller.dart",
+      "sha256": "6f20c3f792fe44d6046f6c87c7e0183283b4e68ead85dd90de271b88770d2bb0"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/src/video_controller/android_video_controller/real.dart",
+      "sha256": "d76d0b93457df4ec05c2f599d253fcee8136ba09a8c9dc3484b55180dbaefbae"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/src/video_controller/android_video_controller/stub.dart",
+      "sha256": "581527fdc99bfc7fb637a9e04865ae46a94097be181bdceaff4d09ecf1d891cc"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/src/video_controller/native_video_controller/native_video_controller.dart",
+      "sha256": "6f20c3f792fe44d6046f6c87c7e0183283b4e68ead85dd90de271b88770d2bb0"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/src/video_controller/native_video_controller/real.dart",
+      "sha256": "3959dde661ca9bdd8002b6a530a3d779bac4f12e71e1c508d7235ded6953d058"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/src/video_controller/native_video_controller/stub.dart",
+      "sha256": "b6d251ca079f745bb2ea42e9dbe10aa0ee234eddb23061ef4bb9a60bb3a301e0"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/src/video_controller/platform_video_controller.dart",
+      "sha256": "20879ee1e66eb35dcd742ce5e8f04e088bb0feee4272180b77057f00c0bfeac2"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/src/video_controller/video_controller.dart",
+      "sha256": "ebf6cc4aae5acbc15280ecac75afba4fae73625bcd2fbffe64b399e6cc6a77d7"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/src/video_controller/web_video_controller/real.dart",
+      "sha256": "cad0db2985b177f61f66ac6ad6ef64dd6940f0113c48de690c41bbffdee39b9d"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/src/video_controller/web_video_controller/stub.dart",
+      "sha256": "ba0300ce573f254b16a7c71dc64a78d41203a0e9d1cd7cad23389453cbba480e"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/src/video_controller/web_video_controller/web_video_controller.dart",
+      "sha256": "3d480e2682e16a617e50fa23a452bcb9863d380da6d0a800a5c2787aea1d065d"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/src/video_view_parameters.dart",
+      "sha256": "6ef2a305b5c52f0a4ee9eb0d6039aaa869b4f860659617976af5459935bf2436"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/src/video/video_texture.dart",
+      "sha256": "aa6857facfb9c4695be1c7d11328bc81a3e2d459cbdce0a4b3c578df5a94c134"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/src/video/video_web.dart",
+      "sha256": "387bb0bfa916730c9cdf123fa048e74c8114fa078051d1dfe538efad91463eb3"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/src/video/video.dart",
+      "sha256": "71e7e33a98dc03a90faf61e4c1dcf41b89150e35aceaf15ae1e30589fefd743c"
+    },
+    {
+      "path": "vendor/media_kit_video/windows/angle_surface_manager.cc",
+      "sha256": "adf40ed64ce91b68ce78004b4523a97adfc598e05b4ece536ce39ddf99fac79b"
+    },
+    {
+      "path": "vendor/media_kit_video/windows/angle_surface_manager.h",
+      "sha256": "fa109a5ef613a49653d84b99a9c5e576200d8446ce8d208b93409553d13517a4"
+    },
+    {
+      "path": "vendor/media_kit_video/windows/CMakeLists.txt",
+      "sha256": "b147d9ab05b1ede23a86f9b73d56f3ad244dfb97acd65ceb3bf1e818edd2ef40"
+    },
+    {
+      "path": "vendor/media_kit_video/windows/include/media_kit_video/media_kit_video_plugin_c_api.h",
+      "sha256": "3e77e3cf6dee4025f146a2f4e7b5e899805208b290e7f81870c5212aa34274b7"
+    },
+    {
+      "path": "vendor/media_kit_video/windows/media_kit_video_plugin_c_api.cc",
+      "sha256": "ec649f6f81c8d90c3c5c31382e641133cb44596129dc5f0cb902826efa828093"
+    },
+    {
+      "path": "vendor/media_kit_video/windows/media_kit_video_plugin.cc",
+      "sha256": "3060eb0c1602a73775157b892c4feb05576e7f3a4edad482b7db8d705f25caa1"
+    },
+    {
+      "path": "vendor/media_kit_video/windows/media_kit_video_plugin.h",
+      "sha256": "bdda89b0d544eacd39be71c7bfcf21e1b47add28267f6cb0198c2c2567ac8526"
+    },
+    {
+      "path": "vendor/media_kit_video/windows/thread_pool.h",
+      "sha256": "1c767f4ae025e8e6f9d4274cddd023744f0cabb8998cdbc89b4d75a6f19c0be1"
+    },
+    {
+      "path": "vendor/media_kit_video/windows/utils.cc",
+      "sha256": "e5161298b1c4c464e9171cd82368d579d177b185fab5fd558efaf5ea550f56da"
+    },
+    {
+      "path": "vendor/media_kit_video/windows/utils.h",
+      "sha256": "ad314a7d96702e7dc3ede782b6953cfcfce4fdc87d952d8b16c032cae51e0770"
+    },
+    {
+      "path": "vendor/media_kit_video/windows/video_output_manager.cc",
+      "sha256": "934493b4c89a09a56021a26e01054f27d893a1e577b069f51dabbd5d5a9efb5d"
+    },
+    {
+      "path": "vendor/media_kit_video/windows/video_output_manager.h",
+      "sha256": "d2fd814b285db3f089850be3eb12952172a265abb79639ccf3ee2c8df2072a60"
+    },
+    {
+      "path": "vendor/media_kit_video/windows/video_output.cc",
+      "sha256": "0f169ccb1af47f5a84bbc01380f3c77a2c1bdadeb5f2bcbb3cd5a0d9aa1da4ee"
+    },
+    {
+      "path": "vendor/media_kit_video/windows/video_output.h",
+      "sha256": "b13e125d0e97fd5849fc8db309550b56adcf5538271db0d5f40fdccb9fcbda77"
+    },
+    {
+      "path": "windows/runner/CMakeLists.txt",
+      "sha256": "805848d398016fb26fb191c63dede59e495ccbdc5e92b380b523ae534bf2d3cb"
+    },
+    {
+      "path": "windows/runner/flutter_window.cpp",
+      "sha256": "d615eedc06ae37321e59c2c00c7687d1887dcd97904eb7225fafd8dcb5b83da6"
+    },
+    {
+      "path": "windows/runner/flutter_window.h",
+      "sha256": "0252b804f5da380c7709cbe1daff2b8d18daf6c49d7e6dd43e5af3c99c19f56c"
+    },
+    {
+      "path": "windows/runner/main.cpp",
+      "sha256": "753c647e32e5e592ca294f497e47f6257b1e919dd17211af27f7b5d72096edbc"
+    },
+    {
+      "path": "windows/runner/resource.h",
+      "sha256": "d0e8bf7835468b4b6b1f8f0747f2e8f25c19841f2df2ac60aaa584ddae3aa7c6"
+    },
+    {
+      "path": "windows/runner/resources/app_icon.ico",
+      "sha256": "168b58d488ecec313fbf00ee42470447163e1d04235cfbeab9ee3da745f0e000"
+    },
+    {
+      "path": "windows/runner/runner.exe.manifest",
+      "sha256": "f10d28d7e320fb6b35410158bb4a692252e4c33ba1792ef94aa7f7f8e3783126"
+    },
+    {
+      "path": "windows/runner/Runner.rc",
+      "sha256": "0267b1828629fe965d6b17ebcc22db53347393c63ff065c533beb45e2c2c1fa3"
+    },
+    {
+      "path": "windows/runner/utils.cpp",
+      "sha256": "a128b67b9f3c2579e2ecef5b0dde2c33f222a097cdfe5da2a3067c73d1485b39"
+    },
+    {
+      "path": "windows/runner/utils.h",
+      "sha256": "832e246b6758253f89016fb0374b30791242e97ad950d27fc678b3d9feacfdc4"
+    },
+    {
+      "path": "windows/runner/win32_window.cpp",
+      "sha256": "978d80307353b17a00c3d3d8d75f13d53b7053dd13d6901220418434d7c1836d"
+    },
+    {
+      "path": "windows/runner/win32_window.h",
+      "sha256": "d154cf89ba85f820631a9b5bedacbe64fc5815e428fe6bc5da579ce649f69841"
+    }
+  ]
+}

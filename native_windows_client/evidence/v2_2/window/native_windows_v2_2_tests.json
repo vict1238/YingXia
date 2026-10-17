@@ -1,0 +1,638 @@
+{
+  "schema": 1,
+  "finished_at": "2026-10-15T04:10:13.2845749Z",
+  "executable": "YingXia_v2_2_candidate2.exe",
+  "sha256": "4e91a204a6bd868fd788938efd34c01bce263cd4c518f713a63fe605116203f6",
+  "shipping_sfx_tested": true,
+  "production_backend": true,
+  "isolated_data_and_cache": true,
+  "checks": [
+    {
+      "name": "Shipping SFX extracts and runs Flutter with its bundled production backend, without browser children",
+      "passed": true
+    },
+    {
+      "name": "Fresh startup has super resolution Off and the empty playback surface contains the text prompt",
+      "passed": true
+    },
+    {
+      "name": "Production source panel contains 47 providers, developer credits and startup default control",
+      "passed": true
+    },
+    {
+      "name": "Explicit default survives full EXE restarts while temporary playback selections never change it",
+      "passed": true
+    },
+    {
+      "name": "Source search, paging and custom add/edit/enabled controls work in the production window",
+      "passed": true
+    },
+    {
+      "name": "All-source measurement exposes progress and cancellation",
+      "passed": true
+    },
+    {
+      "name": "Custom source removal restores 47 providers and the filtered list updates",
+      "passed": true
+    },
+    {
+      "name": "Final native close exits normally with no owned orphan processes",
+      "passed": true
+    }
+  ],
+  "staged_raw_reports": [
+    {
+      "path": "native_windows_client/evidence/v2_2/window/candidate2_background_msaa/native_windows_v2_2_tests.json",
+      "selected_check_names": [
+        "Shipping SFX extracts and runs Flutter with its bundled production backend, without browser children",
+        "Fresh startup has super resolution Off and the empty playback surface contains the text prompt",
+        "Production source panel contains 47 providers, developer credits and startup default control",
+        "Explicit default survives full EXE restarts while temporary playback selections never change it"
+      ],
+      "scope": "Four successful actual shipping-window checks are preserved. The run stopped at a harness-only visibility requirement for an offscreen Next Page control: background WM_MOUSEWHEEL did not move the viewport. MSAA had already enumerated that control. The later source stage invoked the same owned MSAA control directly and verified paging; no product failure or external-window input occurred.",
+      "sha256": "7b2c1a1f5bfdcee5c3808b5da40e1c4940386407dbc7fc8bf7f8227e3c87143f"
+    },
+    {
+      "path": "native_windows_client/evidence/v2_2/window/candidate2_sources_msaa/native_windows_v2_2_tests.json",
+      "selected_check_names": [
+        "Source search, paging and custom add/edit/enabled controls work in the production window"
+      ],
+      "scope": "One successful actual source CRUD/paging/enabled check is preserved. The single-source measurement also completed 1/1 with a correct unavailable/HTTP404 result, as recorded in failure_owned_elements and single_measurement.png. The run then stopped at a harness selector that expected an unchanged hint name after filling an unlabeled TextField. A following short stage resumed only this isolated test data with an empty query and verified all-source progress/cancel and removal, without rerunning prior successful checks.",
+      "sha256": "f0d7bee1c8c03bb711eabe9d8c979c34d8ebfe4f3296ca3436bed1e6939e872a"
+    },
+    {
+      "path": "native_windows_client/evidence/v2_2/window/candidate2_measurement_msaa/native_windows_v2_2_tests.json",
+      "selected_check_names": [
+        "All-source measurement exposes progress and cancellation",
+        "Custom source removal restores 47 providers and the filtered list updates",
+        "Final native close exits normally with no owned orphan processes"
+      ],
+      "scope": "Three remaining actual checks passed: all-source progress/cancellation, custom-source removal and final no-orphan normal close. This stage resumed only the preceding isolated test data and did not repeat the four startup/default checks or the source CRUD check.",
+      "sha256": "308cf70ac07fa500c7aa2a621d7f3cfd6163b0b87e2ed190dc52167324433705"
+    }
+  ],
+  "scope": "Eight actual Windows checks selected from three same-SHA staged runs (4+1+3), using only the owned app MSAA / HWND message interfaces while another application remained foreground. This is not a claim of one uninterrupted run. No activation attempt, global pointer/keyboard input, external-app content read or external-window capture occurred.",
+  "observations": [
+    {
+      "background_msaa_only": true,
+      "native_activation_calls_removed_for_all_used_actions": true
+    },
+    {
+      "launch": {
+        "foreground": false,
+        "action": "Snapshot",
+        "minimized": false,
+        "visible": true,
+        "foreground_activation_used_owned_pointer": false,
+        "rect": [
+          10,
+          10,
+          1350,
+          910
+        ],
+        "title": "映匣 · YingXia",
+        "pid": 21824,
+        "hwnd": 527442
+      }
+    },
+    {
+      "process_family": [
+        {
+          "ProcessId": 6832,
+          "ParentProcessId": 3576,
+          "Name": "YingXia_v2_2_candidate2.exe"
+        },
+        {
+          "ProcessId": 21824,
+          "ParentProcessId": 6832,
+          "Name": "yingxia_native.exe"
+        },
+        {
+          "ProcessId": 17568,
+          "ParentProcessId": 21824,
+          "Name": "yingxia_backend.exe"
+        }
+      ]
+    },
+    {
+      "empty_playback_elements": [
+        {
+          "name": null,
+          "role": 16,
+          "state": 0,
+          "rect": [
+            18,
+            41,
+            1324,
+            861
+          ]
+        },
+        {
+          "name": "",
+          "role": 20,
+          "state": 3145728,
+          "rect": [
+            18,
+            41,
+            1324,
+            861
+          ]
+        },
+        {
+          "name": "",
+          "role": 20,
+          "state": 3145728,
+          "rect": [
+            18,
+            41,
+            1324,
+            861
+          ]
+        },
+        {
+          "name": "",
+          "role": 20,
+          "state": 3145728,
+          "rect": [
+            18,
+            41,
+            1324,
+            861
+          ]
+        },
+        {
+          "name": "",
+          "role": 20,
+          "state": 3145728,
+          "rect": [
+            18,
+            41,
+            1324,
+            861
+          ]
+        },
+        {
+          "name": "映\n映匣\nYINGXIA",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            36,
+            74,
+            167,
+            44
+          ]
+        },
+        {
+          "name": "搜索影片",
+          "role": 43,
+          "state": 3145728,
+          "rect": [
+            36,
+            165,
+            167,
+            49
+          ]
+        },
+        {
+          "name": "播放工作台",
+          "role": 43,
+          "state": 3145730,
+          "rect": [
+            36,
+            221,
+            167,
+            49
+          ]
+        },
+        {
+          "name": "收藏与记录",
+          "role": 43,
+          "state": 3145728,
+          "rect": [
+            36,
+            277,
+            167,
+            49
+          ]
+        },
+        {
+          "name": "来源与诊断",
+          "role": 43,
+          "state": 3145728,
+          "rect": [
+            36,
+            333,
+            167,
+            49
+          ]
+        },
+        {
+          "name": "播放工作台",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            260,
+            67,
+            62,
+            20
+          ]
+        },
+        {
+          "name": "",
+          "role": 20,
+          "state": 3145728,
+          "rect": [
+            222,
+            114,
+            1120,
+            788
+          ]
+        },
+        {
+          "name": "播放工作台",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            260,
+            148,
+            127,
+            38
+          ]
+        },
+        {
+          "name": "＋ 收藏",
+          "role": 43,
+          "state": 3145728,
+          "rect": [
+            1230,
+            148,
+            74,
+            32
+          ]
+        },
+        {
+          "name": "选集",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            1055,
+            233,
+            35,
+            27
+          ]
+        },
+        {
+          "name": "0 集",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            1251,
+            238,
+            22,
+            17
+          ]
+        },
+        {
+          "name": "片源",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            1055,
+            277,
+            228,
+            19
+          ]
+        },
+        {
+          "name": "暂无来源",
+          "role": 43,
+          "state": 3146752,
+          "rect": [
+            1055,
+            303,
+            228,
+            44
+          ]
+        },
+        {
+          "name": "请选择集数",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            1055,
+            359,
+            228,
+            19
+          ]
+        },
+        {
+          "name": "选集之后请点击下方播放所选集",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            535,
+            412,
+            201,
+            23
+          ]
+        },
+        {
+          "name": "作品信息",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            1055,
+            446,
+            228,
+            19
+          ]
+        },
+        {
+          "name": "",
+          "role": 20,
+          "state": 3145728,
+          "rect": [
+            1055,
+            474,
+            228,
+            21
+          ]
+        },
+        {
+          "name": "待播放",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            274,
+            660,
+            34,
+            18
+          ]
+        },
+        {
+          "name": "超分",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            824,
+            660,
+            23,
+            18
+          ]
+        },
+        {
+          "name": "关闭",
+          "role": 43,
+          "state": 3146752,
+          "rect": [
+            854,
+            645,
+            95,
+            49
+          ]
+        },
+        {
+          "name": "全屏 ⛶",
+          "role": 43,
+          "state": 3145728,
+          "rect": [
+            948,
+            653,
+            63,
+            33
+          ]
+        },
+        {
+          "name": "上一集",
+          "role": 43,
+          "state": 3145728,
+          "rect": [
+            260,
+            705,
+            70,
+            33
+          ]
+        },
+        {
+          "name": "▷ 播放所选集",
+          "role": 43,
+          "state": 3145728,
+          "rect": [
+            338,
+            704,
+            118,
+            35
+          ]
+        },
+        {
+          "name": "下一集",
+          "role": 43,
+          "state": 3145728,
+          "rect": [
+            463,
+            705,
+            71,
+            33
+          ]
+        },
+        {
+          "name": "停止",
+          "role": 43,
+          "state": 3145728,
+          "rect": [
+            541,
+            705,
+            59,
+            33
+          ]
+        },
+        {
+          "name": "播放方式 / 解析线路",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            260,
+            780,
+            111,
+            20
+          ]
+        },
+        {
+          "name": "实际播放来源",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            645,
+            780,
+            74,
+            20
+          ]
+        },
+        {
+          "name": "内置播放",
+          "role": 43,
+          "state": 3146752,
+          "rect": [
+            260,
+            806,
+            366,
+            45
+          ]
+        },
+        {
+          "name": "尚未选择",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            645,
+            811,
+            50,
+            20
+          ]
+        },
+        {
+          "name": "绑定播放页",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            260,
+            865,
+            751,
+            37
+          ]
+        }
+      ]
+    },
+    {
+      "normal_close_exit": 0,
+      "no_child_family_remaining": true
+    },
+    {
+      "launch": {
+        "foreground": false,
+        "action": "Snapshot",
+        "minimized": false,
+        "visible": true,
+        "foreground_activation_used_owned_pointer": false,
+        "rect": [
+          10,
+          10,
+          1350,
+          910
+        ],
+        "title": "映匣 · YingXia",
+        "pid": 32756,
+        "hwnd": 396316
+      }
+    },
+    {
+      "normal_close_exit": 0,
+      "no_child_family_remaining": true
+    },
+    {
+      "launch": {
+        "foreground": false,
+        "action": "Snapshot",
+        "minimized": false,
+        "visible": true,
+        "foreground_activation_used_owned_pointer": false,
+        "rect": [
+          10,
+          10,
+          1350,
+          910
+        ],
+        "title": "映匣 · YingXia",
+        "pid": 24516,
+        "hwnd": 461852
+      }
+    },
+    {
+      "normal_close_exit": 0,
+      "no_child_family_remaining": true
+    },
+    {
+      "background_msaa_only": true,
+      "native_activation_calls_removed_for_all_used_actions": true
+    },
+    {
+      "launch": {
+        "foreground": false,
+        "action": "Snapshot",
+        "minimized": false,
+        "visible": true,
+        "foreground_activation_used_owned_pointer": false,
+        "rect": [
+          10,
+          10,
+          1350,
+          910
+        ],
+        "title": "映匣 · YingXia",
+        "pid": 24484,
+        "hwnd": 920590
+      }
+    },
+    {
+      "source_registry_after_edit": {
+        "provider_count": 48,
+        "custom_source": {
+          "id": "custom_8fc70ed411467819",
+          "name": "QA 临时来源 已修改",
+          "enabled": false
+        },
+        "previous_enabled": true
+      }
+    },
+    {
+      "normal_close_exit": 0,
+      "no_child_family_remaining": true
+    },
+    {
+      "background_msaa_only": true,
+      "native_activation_calls_removed_for_all_used_actions": true
+    },
+    {
+      "launch": {
+        "foreground": false,
+        "action": "Snapshot",
+        "minimized": false,
+        "visible": true,
+        "foreground_activation_used_owned_pointer": false,
+        "rect": [
+          10,
+          10,
+          1350,
+          910
+        ],
+        "title": "映匣 · YingXia",
+        "pid": 32560,
+        "hwnd": 1313258
+      }
+    },
+    {
+      "normal_close_exit": 0,
+      "no_child_family_remaining": true
+    }
+  ],
+  "additional_actual_observation": {
+    "single_source_status": [
+      "测速完成 · 1 / 1",
+      "QA 临时来源 已修改\nCMS · 未响应. QA 临时来源 已修改\nhttps://example.com/api.php/provide/vod/\n来源返回 HTTP 404\n10-15 12:08"
+    ],
+    "evidence": "native_windows_client/evidence/v2_2/window/candidate2_sources_msaa/single_measurement.png",
+    "interpretation": "The test endpoint responded HTTP404 and was correctly labelled unavailable; this is a metadata test, not video playback."
+  },
+  "visual_review": {
+    "empty_playback_surface": "The owned PrintWindow image was inspected. Only the selection instruction remains in the center; the misleading play-shaped decoration is absent.",
+    "evidence": "native_windows_client/evidence/v2_2/window/candidate2_background_msaa/playback_empty_off.png"
+  },
+  "limitations": [
+    "This iteration did not repeat video playback, FSR rendering/performance, integrated-GPU throughput or real third-party movie playback tests.",
+    "Actual window interaction used owned background MSAA actions and messages rather than global foreground pointer input; source CRUD, startup preference persistence, progress/cancel and cleanup were verified against UI and isolated disk state."
+  ],
+  "previous_diagnostics": [
+    "candidate1/native_windows_v2_2_tests.json: Code Integrity blocked a newly linked plugin before GUI creation; not the final candidate.",
+    "candidate2/native_windows_v2_2_tests.json: the same final candidate opened and closed normally; foreground-gated interaction stopped because an external app was foreground."
+  ]
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "path": "LICENSE-Kotlin-2.4.0.txt",
+    "url": "https://raw.githubusercontent.com/JetBrains/kotlin/v2.4.0/license/LICENSE.txt",
+    "size": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "NOTICE-Kotlin-2.4.0.txt",
+    "url": "https://raw.githubusercontent.com/JetBrains/kotlin/v2.4.0/license/NOTICE.txt",
+    "size": 482,
+    "sha256": "0b09a83d3ef7795c7dec65e815866597c066c53898f2852a76599b8f5552941a"
+  },
+  {
+    "path": "Kotlin-2.4.0-license-reference.md",
+    "url": "https://raw.githubusercontent.com/JetBrains/kotlin/v2.4.0/license/README.md",
+    "size": 20285,
+    "sha256": "fae7d348841a6af205dcc5a99ab4e466e1537c839e423501d469df0c4e85f23e"
+  },
+  {
+    "path": "Kotlin-stdlib-GWT-license.txt",
+    "url": "https://raw.githubusercontent.com/JetBrains/kotlin/v2.4.0/license/third_party/gwt_license.txt",
+    "size": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "Kotlin-stdlib-ThreeTenBP-license.txt",
+    "url": "https://raw.githubusercontent.com/JetBrains/kotlin/v2.4.0/license/third_party/threetenbp_license.txt",
+    "size": 1520,
+    "sha256": "d1bc53b493a3ab387b42717ed5c4b1976a5048996f81154278100bff86d39331"
+  },
+  {
+    "path": "Kotlin-stdlib-Guava-license.txt",
+    "url": "https://raw.githubusercontent.com/JetBrains/kotlin/v2.4.0/license/third_party/guava_license.txt",
+    "size": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "Kotlin-stdlib-Boost-license.txt",
+    "url": "https://raw.githubusercontent.com/JetBrains/kotlin/v2.4.0/license/third_party/boost_LICENSE.txt",
+    "size": 1337,
+    "sha256": "8d8291caf1cee26d23acf3eb67c9f9a2d58f1c681b16a4fbe8cbfb9e3c0b5a9b"
+  },
+  {
+    "path": "LICENSE-AndroidX-reference.txt",
+    "url": "https://raw.githubusercontent.com/androidx/androidx/androidx-main/LICENSE.txt",
+    "size": 10175,
+    "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0"
+  },
+  {
+    "path": "LICENSE-ReLinker-1.4.5.txt",
+    "url": "https://raw.githubusercontent.com/KeepSafe/ReLinker/1.4.5/LICENSE",
+    "size": 11353,
+    "sha256": "91a9b0c4e997e34a8ff7206807d2da9b69a4fb979d417d6cdde550e0cf52aac4"
+  },
+  {
+    "path": "LICENSE-kotlinx-coroutines-1.9.0.txt",
+    "url": "https://raw.githubusercontent.com/Kotlin/kotlinx.coroutines/1.9.0/LICENSE.txt",
+    "size": 11398,
+    "sha256": "b1febe6399dffb10d19d35e7663ab16300c93cb0476a94115df1cc0097a8ffd8"
+  },
+  {
+    "path": "flutter_embedding_release.pom",
+    "url": "https://storage.googleapis.com/download.flutter.io/io/flutter/flutter_embedding_release/1.0.0-deb287481e3ce9468f3434937ced4240a70539ca/flutter_embedding_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.pom",
+    "size": 2544,
+    "sha256": "97efb7667dd458b140f90c92c67aed92b05a69cfda412a8bace3623f252b1ea7"
+  },
+  {
+    "path": "kotlin-stdlib-2.4.0.pom",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.4.0/kotlin-stdlib-2.4.0.pom",
+    "size": 2299,
+    "sha256": "8194ff79a9ee24a7fa3f74a6b179c04a1859de8b987a4f0983056e59451721de"
+  },
+  {
+    "path": "LICENSE-JetBrains-annotations-23.0.0.txt",
+    "url": "https://raw.githubusercontent.com/JetBrains/java-annotations/23.0.0/LICENSE.txt",
+    "size": 11352,
+    "sha256": "8c1e966c7855fb54027bcaf6ebe7a43abe4785791e8cf9148c363761d493d097"
+  },
+  {
+    "path": "LICENSE-JSpecify-1.0.0.txt",
+    "url": "https://raw.githubusercontent.com/jspecify/jspecify/v1.0.0/LICENSE",
+    "size": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "LICENSE-kotlinx-coroutines-1.7.1.txt",
+    "url": "https://raw.githubusercontent.com/Kotlin/kotlinx.coroutines/1.7.1/LICENSE.txt",
+    "size": 11398,
+    "sha256": "b1febe6399dffb10d19d35e7663ab16300c93cb0476a94115df1cc0097a8ffd8"
+  },
+  {
+    "path": "LICENSE-Kotlin-1.8.20.txt",
+    "url": "https://raw.githubusercontent.com/JetBrains/kotlin/v1.8.20/license/LICENSE.txt",
+    "size": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "NOTICE-Kotlin-1.8.20.txt",
+    "url": "https://raw.githubusercontent.com/JetBrains/kotlin/v1.8.20/license/NOTICE.txt",
+    "size": 482,
+    "sha256": "ea7099352103ade6a6918bc7efb00f8bcd43db0e76b2da2e83237c0bc0ff1b19"
+  }
+]

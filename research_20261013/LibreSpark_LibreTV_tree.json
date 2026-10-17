@@ -1,0 +1,1399 @@
+{
+  "sha": "a24ad336a3f7c8a16ca93d1f1198e08ac6b7e943",
+  "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/a24ad336a3f7c8a16ca93d1f1198e08ac6b7e943",
+  "tree": [
+    {
+      "path": ".dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfdfe191b03d73aa8649547d47d12a2cbc2d7507",
+      "size": 315,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/dfdfe191b03d73aa8649547d47d12a2cbc2d7507"
+    },
+    {
+      "path": ".env.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea921e1258a961eaf287f6a24d91f11a65454af1",
+      "size": 1040,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/ea921e1258a961eaf287f6a24d91f11a65454af1"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "37a6cfb4858fa20f0247f817c66b6d3b910028ba",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/37a6cfb4858fa20f0247f817c66b6d3b910028ba"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dfd494c46d730a9f26e0cd6698e5df64971b44e1",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/dfd494c46d730a9f26e0cd6698e5df64971b44e1"
+    },
+    {
+      "path": ".github/workflows/docker-publish.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "982a09faa48c828b502507f2eeb09d5661f67b16",
+      "size": 7480,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/982a09faa48c828b502507f2eeb09d5661f67b16"
+    },
+    {
+      "path": ".github/workflows/docker-sync-hub.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ef62491c1d887289d97b82be8a9b5fa22474810",
+      "size": 4370,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/7ef62491c1d887289d97b82be8a9b5fa22474810"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "539650130aec8cf165503493da2d0daac5bc0abe",
+      "size": 191,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/539650130aec8cf165503493da2d0daac5bc0abe"
+    },
+    {
+      "path": "Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37fe68bd0daf7ccb69270ef70f107ba6614e3508",
+      "size": 643,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/37fe68bd0daf7ccb69270ef70f107ba6614e3508"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be3f7b28e564e7dd05eaf59d64adba1a4065ac0e",
+      "size": 34523,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/be3f7b28e564e7dd05eaf59d64adba1a4065ac0e"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99572f3cbe2569ef84a90789441fdd1a673a3d3b",
+      "size": 19499,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/99572f3cbe2569ef84a90789441fdd1a673a3d3b"
+    },
+    {
+      "path": "docker-compose.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b344e41f52faf9da1eb800d1fc883af31726c701",
+      "size": 2823,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/b344e41f52faf9da1eb800d1fc883af31726c701"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "004d5b21bd4d1b7ab4a1806a4cdf32d07520ec6a",
+      "size": 699,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/004d5b21bd4d1b7ab4a1806a4cdf32d07520ec6a"
+    },
+    {
+      "path": "next-env.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "830fb594ca2970a827555c28a253b097367e08d8",
+      "size": 262,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/830fb594ca2970a827555c28a253b097367e08d8"
+    },
+    {
+      "path": "next.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08023793c2689baa5bd63de40d04e493b822d558",
+      "size": 975,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/08023793c2689baa5bd63de40d04e493b822d558"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "632bc91477127ffb2d081b46f0cc84fa55dd45fe",
+      "size": 271188,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/632bc91477127ffb2d081b46f0cc84fa55dd45fe"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dda7c5c2a1eb289d85badd797d84dd43ccb79c7",
+      "size": 1076,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/1dda7c5c2a1eb289d85badd797d84dd43ccb79c7"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a982c6414e3e58a4171f4698f72577613b605af2",
+      "size": 105,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/a982c6414e3e58a4171f4698f72577613b605af2"
+    },
+    {
+      "path": "public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7bbaca46d1362586aeb8396447d1cc63c9490561",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/7bbaca46d1362586aeb8396447d1cc63c9490561"
+    },
+    {
+      "path": "public/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab28078b6c1c4db6a13128ce2ffd117a9da709b1",
+      "size": 2992,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/ab28078b6c1c4db6a13128ce2ffd117a9da709b1"
+    },
+    {
+      "path": "public/icons",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a96978ab5eb20a4c9af3ae4df9d890414d057c46",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/a96978ab5eb20a4c9af3ae4df9d890414d057c46"
+    },
+    {
+      "path": "public/icons/apple-touch-icon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bad550c98eb49394cce5d3383f812acb893e20fa",
+      "size": 12613,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/bad550c98eb49394cce5d3383f812acb893e20fa"
+    },
+    {
+      "path": "public/icons/icon-144.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fec291aa51f45791feb811239c4954e6118a4a4",
+      "size": 8630,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/6fec291aa51f45791feb811239c4954e6118a4a4"
+    },
+    {
+      "path": "public/icons/icon-192.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ddd81cb7c41db57af84b1f32e3fe344060dda70",
+      "size": 14293,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/3ddd81cb7c41db57af84b1f32e3fe344060dda70"
+    },
+    {
+      "path": "public/icons/icon-48.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b333dfa4315c277d9c45db9e1477fdd3eb7bd741",
+      "size": 1609,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/b333dfa4315c277d9c45db9e1477fdd3eb7bd741"
+    },
+    {
+      "path": "public/icons/icon-512.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "feaca51d1e2298d13638d7695644b4803411a4f5",
+      "size": 83284,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/feaca51d1e2298d13638d7695644b4803411a4f5"
+    },
+    {
+      "path": "public/icons/icon-96.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5373a42140c5f184bf512166e74901c313e6c36d",
+      "size": 4537,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/5373a42140c5f184bf512166e74901c313e6c36d"
+    },
+    {
+      "path": "public/player-poster.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "946d083a1c46e0dd72669a8b2ee22fd688517ef2",
+      "size": 16537,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/946d083a1c46e0dd72669a8b2ee22fd688517ef2"
+    },
+    {
+      "path": "public/robots.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2a49f4fb82f19ffa9089fcf8630e5a2870d3feb",
+      "size": 23,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/c2a49f4fb82f19ffa9089fcf8630e5a2870d3feb"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "64c1c53f9b679fe460b0a912be22be9801aedc12",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/64c1c53f9b679fe460b0a912be22be9801aedc12"
+    },
+    {
+      "path": "src/app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a163aa9548591f4ce00480c986d95c2c15b8baa",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/2a163aa9548591f4ce00480c986d95c2c15b8baa"
+    },
+    {
+      "path": "src/app/about",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1b9655228d36246f7fa2e4c709049f51270f3d4d",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/1b9655228d36246f7fa2e4c709049f51270f3d4d"
+    },
+    {
+      "path": "src/app/about/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45bc91ef8641833d12e45f871341224db655cbe0",
+      "size": 2437,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/45bc91ef8641833d12e45f871341224db655cbe0"
+    },
+    {
+      "path": "src/app/api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "948f5773eb3921284db3e2bcdb7716ebfb416454",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/948f5773eb3921284db3e2bcdb7716ebfb416454"
+    },
+    {
+      "path": "src/app/api/auth",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb7d2adcffbafff994a648e3a0347a2335c475a7",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/eb7d2adcffbafff994a648e3a0347a2335c475a7"
+    },
+    {
+      "path": "src/app/api/auth/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1282a1624d323d47b6d36679d2e8832bc7fcee16",
+      "size": 2309,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/1282a1624d323d47b6d36679d2e8832bc7fcee16"
+    },
+    {
+      "path": "src/app/api/bangumi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ac816a958388ccee03bc76b242d6c36de442c6d7",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/ac816a958388ccee03bc76b242d6c36de442c6d7"
+    },
+    {
+      "path": "src/app/api/bangumi/calendar",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "68c10cd102877143da74f02ad1633a3793d9316f",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/68c10cd102877143da74f02ad1633a3793d9316f"
+    },
+    {
+      "path": "src/app/api/bangumi/calendar/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04de3dd53055e94ce1674f8347a36ab3c0c81cd8",
+      "size": 760,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/04de3dd53055e94ce1674f8347a36ab3c0c81cd8"
+    },
+    {
+      "path": "src/app/api/detail",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c001e1021447809ecc8a29d8234ee82cad074928",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/c001e1021447809ecc8a29d8234ee82cad074928"
+    },
+    {
+      "path": "src/app/api/detail/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fafb44c8ae0980e836d38ad9676eef3eb66843f9",
+      "size": 4015,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/fafb44c8ae0980e836d38ad9676eef3eb66843f9"
+    },
+    {
+      "path": "src/app/api/douban",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c49009e0b40a5642c5e68467664072fc25fafc64",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/c49009e0b40a5642c5e68467664072fc25fafc64"
+    },
+    {
+      "path": "src/app/api/douban/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a4f86c70f32836110524510d089314d1b44e500",
+      "size": 1060,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/5a4f86c70f32836110524510d089314d1b44e500"
+    },
+    {
+      "path": "src/app/api/hot-list",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "12d986437301501ced80177c64c4c998b856770a",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/12d986437301501ced80177c64c4c998b856770a"
+    },
+    {
+      "path": "src/app/api/hot-list/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f795c1357c6eec8a5a0f6a72188267c97fbdf93",
+      "size": 849,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/6f795c1357c6eec8a5a0f6a72188267c97fbdf93"
+    },
+    {
+      "path": "src/app/api/live",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e0aeec45ef5595b12821a54bf8aae1de2e986ecd",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/e0aeec45ef5595b12821a54bf8aae1de2e986ecd"
+    },
+    {
+      "path": "src/app/api/live/epg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "30cee788520a20268064eddf5b03f31f5babeb1a",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/30cee788520a20268064eddf5b03f31f5babeb1a"
+    },
+    {
+      "path": "src/app/api/live/epg/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f91fc988b64ce3fffde8fde641d3c847242c798",
+      "size": 2484,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/3f91fc988b64ce3fffde8fde641d3c847242c798"
+    },
+    {
+      "path": "src/app/api/live/playlist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a02202b828bd1b4c66b6b0a192b922ad483e5f0",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/2a02202b828bd1b4c66b6b0a192b922ad483e5f0"
+    },
+    {
+      "path": "src/app/api/live/playlist/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7190b94a73a360d484dfd5f691472ca0054cc6c",
+      "size": 3877,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/e7190b94a73a360d484dfd5f691472ca0054cc6c"
+    },
+    {
+      "path": "src/app/api/live/probe",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f33c7a4f0e4abad4addbf5d4c6c206af2352f3d2",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/f33c7a4f0e4abad4addbf5d4c6c206af2352f3d2"
+    },
+    {
+      "path": "src/app/api/live/probe/route.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb682acffae06f6b7e92e119d4d77929df0b913b",
+      "size": 10836,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/eb682acffae06f6b7e92e119d4d77929df0b913b"
+    },
+    {
+      "path": "src/app/api/live/probe/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "683da7b4127b78345fa5c3c0175a53411fa2fa77",
+      "size": 22088,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/683da7b4127b78345fa5c3c0175a53411fa2fa77"
+    },
+    {
+      "path": "src/app/api/live/stream",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6d671e615526fbec8cda8a498afa46c0f171ee18",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/6d671e615526fbec8cda8a498afa46c0f171ee18"
+    },
+    {
+      "path": "src/app/api/live/stream/[url]",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d8f7ef14f354fd6bc7fc99b2a7a7ae8c899ca0bc",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/d8f7ef14f354fd6bc7fc99b2a7a7ae8c899ca0bc"
+    },
+    {
+      "path": "src/app/api/live/stream/[url]/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "308a5076dacc47b31bdc741a6374d8696592650d",
+      "size": 465,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/308a5076dacc47b31bdc741a6374d8696592650d"
+    },
+    {
+      "path": "src/app/api/live/stream/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f84cf60fe10b6afe4ac389d88e7884a288d31300",
+      "size": 688,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/f84cf60fe10b6afe4ac389d88e7884a288d31300"
+    },
+    {
+      "path": "src/app/api/proxy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "403981d5d3a18f6b70d9d992c9d3b4f10ad8096c",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/403981d5d3a18f6b70d9d992c9d3b4f10ad8096c"
+    },
+    {
+      "path": "src/app/api/proxy/[url]",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ea1213faab2e15ce838463c29ada68db414b8e72",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/ea1213faab2e15ce838463c29ada68db414b8e72"
+    },
+    {
+      "path": "src/app/api/proxy/[url]/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f24ed262da5f65d6c774afc965a5b7afe442baf3",
+      "size": 436,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/f24ed262da5f65d6c774afc965a5b7afe442baf3"
+    },
+    {
+      "path": "src/app/api/proxy/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "903d9ae5edef8ab58d0fce6907aaf24113e7272e",
+      "size": 651,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/903d9ae5edef8ab58d0fce6907aaf24113e7272e"
+    },
+    {
+      "path": "src/app/api/publish",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ea82a2941bf5e81cdcc474d45a59efef5ca363e9",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/ea82a2941bf5e81cdcc474d45a59efef5ca363e9"
+    },
+    {
+      "path": "src/app/api/publish/route.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fed807b4aadb1efe751e4958dd5f410492de34e",
+      "size": 3837,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/1fed807b4aadb1efe751e4958dd5f410492de34e"
+    },
+    {
+      "path": "src/app/api/publish/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d855625f588b51f70026932ea3690cf9957bac3",
+      "size": 3522,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/9d855625f588b51f70026932ea3690cf9957bac3"
+    },
+    {
+      "path": "src/app/api/search",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb063a80625ceb51ce73e5a209777bf85486da80",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/fb063a80625ceb51ce73e5a209777bf85486da80"
+    },
+    {
+      "path": "src/app/api/search/route.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b48b40d64f3663155d8f9490ed8c4282e9dd76e",
+      "size": 5614,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/5b48b40d64f3663155d8f9490ed8c4282e9dd76e"
+    },
+    {
+      "path": "src/app/api/search/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be3b7126f5a2f3fc589c9f222c6aee91ca2e6df3",
+      "size": 10766,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/be3b7126f5a2f3fc589c9f222c6aee91ca2e6df3"
+    },
+    {
+      "path": "src/app/api/source-list",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0905ff4092edf8eb8d7b760c21bc3328c2a631c1",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/0905ff4092edf8eb8d7b760c21bc3328c2a631c1"
+    },
+    {
+      "path": "src/app/api/source-list/route.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58fdf209db5ed79c0cffdb4ee1a04bb22c4faedd",
+      "size": 6441,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/58fdf209db5ed79c0cffdb4ee1a04bb22c4faedd"
+    },
+    {
+      "path": "src/app/api/source-list/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aea29b7c38e156bd27db27eb51fb5f7af4546630",
+      "size": 3743,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/aea29b7c38e156bd27db27eb51fb5f7af4546630"
+    },
+    {
+      "path": "src/app/api/source",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3859abb81c53e83537fbdd8a3b3bf0f11debfe86",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/3859abb81c53e83537fbdd8a3b3bf0f11debfe86"
+    },
+    {
+      "path": "src/app/api/source/test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0de0db3f508a8457d172b1527cc7c42fffcc16fe",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/0de0db3f508a8457d172b1527cc7c42fffcc16fe"
+    },
+    {
+      "path": "src/app/api/source/test/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d2c28a79d9e7fbb34f722977177f680792c36db",
+      "size": 1841,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/2d2c28a79d9e7fbb34f722977177f680792c36db"
+    },
+    {
+      "path": "src/app/api/status",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4e017e8f12e5f2130408098bef6a1b90877990ef",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/4e017e8f12e5f2130408098bef6a1b90877990ef"
+    },
+    {
+      "path": "src/app/api/status/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ec09d2bb9ae20cf90bc3cec5bdb9da2b694a228",
+      "size": 1635,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/0ec09d2bb9ae20cf90bc3cec5bdb9da2b694a228"
+    },
+    {
+      "path": "src/app/error.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be19ecbd67feb6f56ce2c70e834e0fbae6b138cb",
+      "size": 1171,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/be19ecbd67feb6f56ce2c70e834e0fbae6b138cb"
+    },
+    {
+      "path": "src/app/global-error.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d92a981beccd70c6d9e320800c9705a7f5867912",
+      "size": 1437,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/d92a981beccd70c6d9e320800c9705a7f5867912"
+    },
+    {
+      "path": "src/app/globals.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4afe960abdc60d9c1cd2ebb1433287e30bf581b",
+      "size": 6688,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/c4afe960abdc60d9c1cd2ebb1433287e30bf581b"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b453f666198d3a23a3fb984fb7c4e667eb600ead",
+      "size": 1898,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/b453f666198d3a23a3fb984fb7c4e667eb600ead"
+    },
+    {
+      "path": "src/app/live",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "37d30cb2fcb2721951b088b45361c6960c0fa40f",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/37d30cb2fcb2721951b088b45361c6960c0fa40f"
+    },
+    {
+      "path": "src/app/live/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a000cc517a4037e4ab4880ce16f4240822ead250",
+      "size": 20612,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/a000cc517a4037e4ab4880ce16f4240822ead250"
+    },
+    {
+      "path": "src/app/manifest.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f460d2d3997a8386529da03ff12c8679ee86e961",
+      "size": 661,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/f460d2d3997a8386529da03ff12c8679ee86e961"
+    },
+    {
+      "path": "src/app/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9c6b78df569939f69e098e89cd745d093620052",
+      "size": 18720,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/f9c6b78df569939f69e098e89cd745d093620052"
+    },
+    {
+      "path": "src/app/watch",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "91612e62b22ce2d12ac9c248f01d8ba5fadf9a7f",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/91612e62b22ce2d12ac9c248f01d8ba5fadf9a7f"
+    },
+    {
+      "path": "src/app/watch/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eda2361272789de4371e68317153102e66e27a75",
+      "size": 15321,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/eda2361272789de4371e68317153102e66e27a75"
+    },
+    {
+      "path": "src/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55b3736422e8b2b8a4843fe327c241ffbc24b933",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/55b3736422e8b2b8a4843fe327c241ffbc24b933"
+    },
+    {
+      "path": "src/components/auth.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c1362c2ba45112d728f4c0dbbf36cf981e0b263",
+      "size": 7003,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/5c1362c2ba45112d728f4c0dbbf36cf981e0b263"
+    },
+    {
+      "path": "src/components/confirm-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "361af869bcc40b98ef5412577575dde756f9d185",
+      "size": 2894,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/361af869bcc40b98ef5412577575dde756f9d185"
+    },
+    {
+      "path": "src/components/detail-modal.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "637b81fcf36b82fe914824d0e26cbf5adb7f7814",
+      "size": 9234,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/637b81fcf36b82fe914824d0e26cbf5adb7f7814"
+    },
+    {
+      "path": "src/components/douban-section.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a0c475cb2bafa00d6d1d030ecda37107fdb86e7",
+      "size": 7836,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/3a0c475cb2bafa00d6d1d030ecda37107fdb86e7"
+    },
+    {
+      "path": "src/components/download-manager.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b2081906dc4393a98149bea9dc8e828b440c4f5",
+      "size": 13206,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/9b2081906dc4393a98149bea9dc8e828b440c4f5"
+    },
+    {
+      "path": "src/components/drawer.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f12bc77d3bd1d6bf4a9f210fd48e1c358d79dbe",
+      "size": 6172,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/3f12bc77d3bd1d6bf4a9f210fd48e1c358d79dbe"
+    },
+    {
+      "path": "src/components/dropdown.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4858ed5caafee10765c880526f2112fc59729f6f",
+      "size": 5161,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/4858ed5caafee10765c880526f2112fc59729f6f"
+    },
+    {
+      "path": "src/components/header.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "220407a70e446071efde2b58dd6219dc1a92412d",
+      "size": 5685,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/220407a70e446071efde2b58dd6219dc1a92412d"
+    },
+    {
+      "path": "src/components/history-panel.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28bbccae46229c5a0b1cddaff32f7523d2fed17f",
+      "size": 9381,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/28bbccae46229c5a0b1cddaff32f7523d2fed17f"
+    },
+    {
+      "path": "src/components/icon.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc32623ebdb9afa8ef045681c4e7bd587be80952",
+      "size": 5499,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/dc32623ebdb9afa8ef045681c4e7bd587be80952"
+    },
+    {
+      "path": "src/components/live-channel-list.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "587d048059ebf459b5c5824ef4266b63bd62788c",
+      "size": 23898,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/587d048059ebf459b5c5824ef4266b63bd62788c"
+    },
+    {
+      "path": "src/components/live-epg-panel.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24b329c3e6d35d007d4ba983586e43fbc21badea",
+      "size": 4464,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/24b329c3e6d35d007d4ba983586e43fbc21badea"
+    },
+    {
+      "path": "src/components/live-player.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93b1a8082789f154039d155f3268137b5fb432b0",
+      "size": 16328,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/93b1a8082789f154039d155f3268137b5fb432b0"
+    },
+    {
+      "path": "src/components/live-source-manager.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df2c42ca2b2cab841e03cd0afb6ce24ee92d1bf5",
+      "size": 15578,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/df2c42ca2b2cab841e03cd0afb6ce24ee92d1bf5"
+    },
+    {
+      "path": "src/components/player-shell.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c0d7869c141e91120a5fad73dde86f2e859e96c",
+      "size": 22460,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/8c0d7869c141e91120a5fad73dde86f2e859e96c"
+    },
+    {
+      "path": "src/components/providers.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3b29a83157a7f4fe7b339780455f28277d21e1f",
+      "size": 2589,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/a3b29a83157a7f4fe7b339780455f28277d21e1f"
+    },
+    {
+      "path": "src/components/search-history.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4967d05da8530315c78c2b8c57cf282b060625f",
+      "size": 6714,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/e4967d05da8530315c78c2b8c57cf282b060625f"
+    },
+    {
+      "path": "src/components/settings-shared.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "688f82bf8d9db4d00f2449dea528a9fc0c8d969b",
+      "size": 9455,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/688f82bf8d9db4d00f2449dea528a9fc0c8d969b"
+    },
+    {
+      "path": "src/components/site-footer.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3665ce9ef295ccd0029d0f65d8b79e334fc097e5",
+      "size": 3787,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/3665ce9ef295ccd0029d0f65d8b79e334fc097e5"
+    },
+    {
+      "path": "src/components/smart-image.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a420c8468010e536be0d128fb6b6c886eb72027",
+      "size": 1718,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/8a420c8468010e536be0d128fb6b6c886eb72027"
+    },
+    {
+      "path": "src/components/source-manager.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9aeabde55a90f2260ba57245ed0181e79cfd7be",
+      "size": 48663,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/f9aeabde55a90f2260ba57245ed0181e79cfd7be"
+    },
+    {
+      "path": "src/components/states.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f44cf3e5270e6546ac7c5159f6712bc87816aa7b",
+      "size": 3192,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/f44cf3e5270e6546ac7c5159f6712bc87816aa7b"
+    },
+    {
+      "path": "src/components/switch-source.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d94df0cef0a354587d451a9c9b13334091cc1e39",
+      "size": 10405,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/d94df0cef0a354587d451a9c9b13334091cc1e39"
+    },
+    {
+      "path": "src/components/theme.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbb9ce6efe5ddee88230c51b72662aebbe27d2a1",
+      "size": 3930,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/bbb9ce6efe5ddee88230c51b72662aebbe27d2a1"
+    },
+    {
+      "path": "src/components/toast.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcdeac164f48d32535a4b1e180b521a4d41bf31c",
+      "size": 3569,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/fcdeac164f48d32535a4b1e180b521a4d41bf31c"
+    },
+    {
+      "path": "src/components/use-focus-trap.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e210faf887388c217049979f3af04c121822d6a2",
+      "size": 2277,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/e210faf887388c217049979f3af04c121822d6a2"
+    },
+    {
+      "path": "src/components/use-live-probe.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fad5bf5bbd96fcb09d31dcc816f64f25aeb056b4",
+      "size": 8329,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/fad5bf5bbd96fcb09d31dcc816f64f25aeb056b4"
+    },
+    {
+      "path": "src/components/use-source-probe.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "046baa9e917bd5975e6b1536cbd31b106abb65b5",
+      "size": 3353,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/046baa9e917bd5975e6b1536cbd31b106abb65b5"
+    },
+    {
+      "path": "src/components/video-card.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6efdf4824c286ae15c4bd7e3e982fb8dd069d3d2",
+      "size": 13462,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/6efdf4824c286ae15c4bd7e3e982fb8dd069d3d2"
+    },
+    {
+      "path": "src/lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "90ba7b1faa9d043ac2e474ee0089f2e042c0446e",
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/trees/90ba7b1faa9d043ac2e474ee0089f2e042c0446e"
+    },
+    {
+      "path": "src/lib/api-guard.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e42afaff55ee91243ada68bac29f26c9162d861f",
+      "size": 711,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/e42afaff55ee91243ada68bac29f26c9162d861f"
+    },
+    {
+      "path": "src/lib/auth.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b949d512f9d8db39d8b561cf66ecac8d78b4df4c",
+      "size": 4461,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/b949d512f9d8db39d8b561cf66ecac8d78b4df4c"
+    },
+    {
+      "path": "src/lib/auth.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bf29948feab1ebc0419dfd620f76825e87c46e2",
+      "size": 3683,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/3bf29948feab1ebc0419dfd620f76825e87c46e2"
+    },
+    {
+      "path": "src/lib/bangumi.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "089458735bc50790cae9e25d6b714b37f50078c2",
+      "size": 2380,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/089458735bc50790cae9e25d6b714b37f50078c2"
+    },
+    {
+      "path": "src/lib/bangumi.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abdb488135c6d30bb14af008d43f79fa1013352b",
+      "size": 2762,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/abdb488135c6d30bb14af008d43f79fa1013352b"
+    },
+    {
+      "path": "src/lib/client-api.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e57383c6284d98d3e78ad3ba39b7476a56d959bf",
+      "size": 11514,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/e57383c6284d98d3e78ad3ba39b7476a56d959bf"
+    },
+    {
+      "path": "src/lib/clipboard.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c198f299dac6aeee969bb5ee0f00571d3bb47ab7",
+      "size": 685,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/c198f299dac6aeee969bb5ee0f00571d3bb47ab7"
+    },
+    {
+      "path": "src/lib/cms-parser.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed04b1f38aa29338164132e6fea16ba9b8e5c541",
+      "size": 7788,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/ed04b1f38aa29338164132e6fea16ba9b8e5c541"
+    },
+    {
+      "path": "src/lib/cms-parser.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a49e75398760238ef1a0ddb907b1e4de9d6766bd",
+      "size": 7813,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/a49e75398760238ef1a0ddb907b1e4de9d6766bd"
+    },
+    {
+      "path": "src/lib/db.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40fecd898b53ed933091a2f01d8c8c3803d3151d",
+      "size": 9333,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/40fecd898b53ed933091a2f01d8c8c3803d3151d"
+    },
+    {
+      "path": "src/lib/douban-weekly.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cad5201d534908d46a3baa4100425b2dceac0336",
+      "size": 2383,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/cad5201d534908d46a3baa4100425b2dceac0336"
+    },
+    {
+      "path": "src/lib/douban-weekly.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f44e35d3a2754652df767aaa8b335c961f466c36",
+      "size": 4911,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/f44e35d3a2754652df767aaa8b335c961f466c36"
+    },
+    {
+      "path": "src/lib/douban.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "366cb379cd00fcd08d39fc20729ed3706e1a6923",
+      "size": 2581,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/366cb379cd00fcd08d39fc20729ed3706e1a6923"
+    },
+    {
+      "path": "src/lib/download-saver.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5259d706937e36c042b772bc84b0491e9deb9d5c",
+      "size": 3979,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/5259d706937e36c042b772bc84b0491e9deb9d5c"
+    },
+    {
+      "path": "src/lib/env-image-mode.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef948ef7cfd5520656a6901483aec761e12b8a74",
+      "size": 1218,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/ef948ef7cfd5520656a6901483aec761e12b8a74"
+    },
+    {
+      "path": "src/lib/env-image-mode.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1241f307503c2f3d7fa322a8164b11fe6e48c05d",
+      "size": 928,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/1241f307503c2f3d7fa322a8164b11fe6e48c05d"
+    },
+    {
+      "path": "src/lib/env-live-sources.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccb76cc84de8af05697cffbfe5e2ad99796e2237",
+      "size": 1553,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/ccb76cc84de8af05697cffbfe5e2ad99796e2237"
+    },
+    {
+      "path": "src/lib/env-recommend-source.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "026387d573b09d39d693fba1b27381d5a81e636e",
+      "size": 1144,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/026387d573b09d39d693fba1b27381d5a81e636e"
+    },
+    {
+      "path": "src/lib/env-recommend-source.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7db8072468e9c07e2abbcf172d76231e71966fac",
+      "size": 826,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/7db8072468e9c07e2abbcf172d76231e71966fac"
+    },
+    {
+      "path": "src/lib/env-sources.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98c6d8b14e2661ebeb94d9bbdf95a36f6f3e1d8e",
+      "size": 1546,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/98c6d8b14e2661ebeb94d9bbdf95a36f6f3e1d8e"
+    },
+    {
+      "path": "src/lib/env-subscriptions.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2920cf4ff39655327f82bc427d00f3417afc1951",
+      "size": 1592,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/2920cf4ff39655327f82bc427d00f3417afc1951"
+    },
+    {
+      "path": "src/lib/fetch-utils.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d79a264ba55d09a021952bbb136255b43cfe443",
+      "size": 2204,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/0d79a264ba55d09a021952bbb136255b43cfe443"
+    },
+    {
+      "path": "src/lib/fetch-utils.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a40fafd2fcb6fae320782411cca49612b00308d",
+      "size": 5725,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/8a40fafd2fcb6fae320782411cca49612b00308d"
+    },
+    {
+      "path": "src/lib/hls-loader.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19182bf6593f72654724f048848ed9492681c3d4",
+      "size": 4153,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/19182bf6593f72654724f048848ed9492681c3d4"
+    },
+    {
+      "path": "src/lib/live-cache.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8efa10f76a2ec3268e0d7967c1118f758ccaf045",
+      "size": 1708,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/8efa10f76a2ec3268e0d7967c1118f758ccaf045"
+    },
+    {
+      "path": "src/lib/live-channel-filter.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f85349df35baa43d0967e39f51c647dc084a5f0",
+      "size": 6464,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/0f85349df35baa43d0967e39f51c647dc084a5f0"
+    },
+    {
+      "path": "src/lib/live-channel-filter.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cf379b784a67a5eb02a1d2ae7d0187e4b407458",
+      "size": 4555,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/8cf379b784a67a5eb02a1d2ae7d0187e4b407458"
+    },
+    {
+      "path": "src/lib/m3u-parser.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a95a73080775a98a7ea91fec164db76a53f356d1",
+      "size": 4093,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/a95a73080775a98a7ea91fec164db76a53f356d1"
+    },
+    {
+      "path": "src/lib/m3u-parser.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbcabe243c58d1b697b8b0529d080fab316af475",
+      "size": 3915,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/cbcabe243c58d1b697b8b0529d080fab316af475"
+    },
+    {
+      "path": "src/lib/m3u8-downloader.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea85434f144a2410bea1073cc595af128f851d64",
+      "size": 3544,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/ea85434f144a2410bea1073cc595af128f851d64"
+    },
+    {
+      "path": "src/lib/m3u8-downloader.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79bfcc7cc4b68ccd458e25011ab37b746597120c",
+      "size": 9516,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/79bfcc7cc4b68ccd458e25011ab37b746597120c"
+    },
+    {
+      "path": "src/lib/m3u8-parse.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7f057f44a43f5ce5eab7e41d2aa596dbf60d8d0",
+      "size": 7344,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/f7f057f44a43f5ce5eab7e41d2aa596dbf60d8d0"
+    },
+    {
+      "path": "src/lib/m3u8.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9038829c4217dadb9719e6d72278db21570c011",
+      "size": 12679,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/e9038829c4217dadb9719e6d72278db21570c011"
+    },
+    {
+      "path": "src/lib/m3u8.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "476741d0f62b27ea553f6a64ad6a3b619e8edec9",
+      "size": 13216,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/476741d0f62b27ea553f6a64ad6a3b619e8edec9"
+    },
+    {
+      "path": "src/lib/mp4-transmuxer.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c7badf7f7e1b74dd33a59deef3241be2c712f82",
+      "size": 2783,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/3c7badf7f7e1b74dd33a59deef3241be2c712f82"
+    },
+    {
+      "path": "src/lib/mp4-transmuxer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af98ff75bfcbf98f394fa920f8885cfb61e0a9a0",
+      "size": 6925,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/af98ff75bfcbf98f394fa920f8885cfb61e0a9a0"
+    },
+    {
+      "path": "src/lib/persist-storage.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39ca3bb1605c34d7dc9a01876e864d49193a53cc",
+      "size": 2270,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/39ca3bb1605c34d7dc9a01876e864d49193a53cc"
+    },
+    {
+      "path": "src/lib/playback-recovery.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f066ca00733a295b51050b56e2c115099dc0999",
+      "size": 3875,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/2f066ca00733a295b51050b56e2c115099dc0999"
+    },
+    {
+      "path": "src/lib/playback-recovery.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e228fe5a3142cd064fb9b6c2a5568533d58f4925",
+      "size": 5762,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/e228fe5a3142cd064fb9b6c2a5568533d58f4925"
+    },
+    {
+      "path": "src/lib/proxy-handlers.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb9b23e758dba67008dd0d1e078a9db4b63fb4d8",
+      "size": 9584,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/cb9b23e758dba67008dd0d1e078a9db4b63fb4d8"
+    },
+    {
+      "path": "src/lib/source-list-publish.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1143468c3196bfc234c5301f670118ebfc5cf057",
+      "size": 2787,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/1143468c3196bfc234c5301f670118ebfc5cf057"
+    },
+    {
+      "path": "src/lib/source-list-publish.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "627355331a78957e9567b78a1ef9d0d18232f78a",
+      "size": 3352,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/627355331a78957e9567b78a1ef9d0d18232f78a"
+    },
+    {
+      "path": "src/lib/source-list.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5491228d7736609e81d42b60413fa0a57365d19",
+      "size": 5598,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/a5491228d7736609e81d42b60413fa0a57365d19"
+    },
+    {
+      "path": "src/lib/source-list.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebf5cca51f8921d32d82f9d766aefbff313c1bed",
+      "size": 3867,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/ebf5cca51f8921d32d82f9d766aefbff313c1bed"
+    },
+    {
+      "path": "src/lib/ssrf.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98d4165fcbef729fd219a8cbe7caebacc04a6de6",
+      "size": 2587,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/98d4165fcbef729fd219a8cbe7caebacc04a6de6"
+    },
+    {
+      "path": "src/lib/ssrf.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c00d1f8ff137c2d4f6f478f8f2e1ccec6d55386",
+      "size": 4566,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/9c00d1f8ff137c2d4f6f478f8f2e1ccec6d55386"
+    },
+    {
+      "path": "src/lib/store.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2c38d2ae7aa3c74cd164cc68bce49414d7f6008",
+      "size": 17549,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/e2c38d2ae7aa3c74cd164cc68bce49414d7f6008"
+    },
+    {
+      "path": "src/lib/store.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd6a73047f7e0adbc423c685bc89b52490c994ff",
+      "size": 38654,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/dd6a73047f7e0adbc423c685bc89b52490c994ff"
+    },
+    {
+      "path": "src/lib/subscription-sync.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79f3d616abc1d9547577564c1b5effdb523ec715",
+      "size": 9739,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/79f3d616abc1d9547577564c1b5effdb523ec715"
+    },
+    {
+      "path": "src/lib/subscription-sync.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e26d88c02dc169567b324e1e131bddd17818a7a",
+      "size": 7437,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/1e26d88c02dc169567b324e1e131bddd17818a7a"
+    },
+    {
+      "path": "src/lib/tvbox-parser.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a09250fbc6818945bddb66097883ddf54fce9236",
+      "size": 11237,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/a09250fbc6818945bddb66097883ddf54fce9236"
+    },
+    {
+      "path": "src/lib/tvbox-parser.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03718ad7ab622e1ecf42218c26fd91d5379c699f",
+      "size": 13861,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/03718ad7ab622e1ecf42218c26fd91d5379c699f"
+    },
+    {
+      "path": "src/lib/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "070dcda634d1fc40710bde7f5219e40e55c728f7",
+      "size": 5920,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/070dcda634d1fc40710bde7f5219e40e55c728f7"
+    },
+    {
+      "path": "src/lib/utils.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df73a4b4604672b95e92e38448021226adaba6ec",
+      "size": 2816,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/df73a4b4604672b95e92e38448021226adaba6ec"
+    },
+    {
+      "path": "src/lib/utils.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd601507a37698bd035a381964e20f4b47ce3d0a",
+      "size": 4683,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/bd601507a37698bd035a381964e20f4b47ce3d0a"
+    },
+    {
+      "path": "src/lib/video-cache.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d19ce571102d91a8c6c42f5d415aae1269bdd4cb",
+      "size": 9447,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/d19ce571102d91a8c6c42f5d415aae1269bdd4cb"
+    },
+    {
+      "path": "src/lib/video-prefetcher.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbd496b898b40963f7f1cbaa1cac7c949fdefe68",
+      "size": 7819,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/cbd496b898b40963f7f1cbaa1cac7c949fdefe68"
+    },
+    {
+      "path": "src/lib/video-prefetcher.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a4a75983f2fbcc750793afa5b8e9fb787be1e33",
+      "size": 12732,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/7a4a75983f2fbcc750793afa5b8e9fb787be1e33"
+    },
+    {
+      "path": "src/lib/xmltv.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdb6e856913ecfa1ea0b0e8666325a4f46f1fdec",
+      "size": 4911,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/fdb6e856913ecfa1ea0b0e8666325a4f46f1fdec"
+    },
+    {
+      "path": "src/lib/xmltv.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8395ebd5414450c3b6bd1909fb8bad44dc4b8a2",
+      "size": 5027,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/d8395ebd5414450c3b6bd1909fb8bad44dc4b8a2"
+    },
+    {
+      "path": "tailwind.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "781300e8386cafdfc5a4131201314db8233dc1de",
+      "size": 2636,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/781300e8386cafdfc5a4131201314db8233dc1de"
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "334fafd8dc87f2832608537c2d7de50f20fd5f33",
+      "size": 566,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/334fafd8dc87f2832608537c2d7de50f20fd5f33"
+    },
+    {
+      "path": "vitest.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d132c77395ae5c9682fc1eace806e0da8dd6742",
+      "size": 253,
+      "url": "https://api.github.com/repos/LibreSpark/LibreTV/git/blobs/6d132c77395ae5c9682fc1eace806e0da8dd6742"
+    }
+  ],
+  "truncated": false
+}

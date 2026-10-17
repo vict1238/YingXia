@@ -1,0 +1,27 @@
+A006 existing_kazumi 403
+A011 existing_kazumi 404
+A012 existing_kazumi 200
+A007 existing_kazumi 200
+A003 existing_kazumi 200
+A008 existing_kazumi 200
+W007 needs_site_or_cloud_adapter gaierror: [Errno 11001] getaddrinfo failed
+A002 existing_kazumi 200
+W005 needs_site_or_cloud_adapter 403
+W008 needs_site_or_cloud_adapter URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
+A014 existing_kazumi 200
+A009 existing_kazumi 200
+A004 existing_kazumi 200
+W010 needs_site_or_cloud_adapter URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
+A001 existing_kazumi 200
+W002 needs_site_or_cloud_adapter 200
+W004 needs_site_or_cloud_adapter 200
+A015 existing_kazumi 200
+W009 needs_site_or_cloud_adapter 200
+A013 existing_kazumi 200
+W003 needs_site_or_cloud_adapter 200
+W011 needs_site_or_cloud_adapter 200
+A005 existing_kazumi 200
+W006 needs_site_or_cloud_adapter 200
+W001 needs_site_or_cloud_adapter 200
+A010 existing_kazumi 200
+KAZUMI_INDEX 16 RULE_VERSION_CHANGES 1

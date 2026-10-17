@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "go_tests": {
+    "platform": "android/amd64",
+    "device": "owned emulator-5560 API35 ranchu",
+    "engine_top_level_pass": 37,
+    "engine_subcase_pass": 15,
+    "core_lifecycle_pass": 1,
+    "exit_codes": [
+      0,
+      0
+    ],
+    "go_vet": "passed",
+    "source_latest_private_routes_test_included": true
+  },
+  "windows_launcher": {
+    "top_level_pass": 4,
+    "subcase_pass": 6,
+    "skip": 1,
+    "exit_code": 0
+  },
+  "unresolved_compatibility_limits": [
+    "AES128 EXT-X-VERSION:1 ad rewrites add explicit IVs preserving segment sequence without raising the version tag to2; version1-specific player acceptance was not separately tested. Standard version3+encrypted/keyrotation/byterange cases passed."
+  ],
+  "windows_full_fixture_attempt": {
+    "passed": 0,
+    "block": "WindowsApplicationControl4551 prevented newlybuiltfixturebackendlaunch; no policy changes."
+  }
+}

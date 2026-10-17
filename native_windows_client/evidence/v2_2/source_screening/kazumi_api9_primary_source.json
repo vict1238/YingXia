@@ -1,0 +1,164 @@
+{
+  "repository": "Predidit/Kazumi",
+  "commit": "025dcb5c2f62db881382c72f191d08b49a9feb41",
+  "commit_probe": {
+    "url": "https://api.github.com/repos/Predidit/Kazumi/commits/main",
+    "checked_at": "2026-10-15T03:56:20.207412+00:00",
+    "redirects": [],
+    "status": 200,
+    "final_url": "https://api.github.com/repos/Predidit/Kazumi/commits/main",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 3990,
+    "sha256": "22dfc5a1065506d9af86dad8b04107ee58b3013dfaa4af38b29f60f8340c116e",
+    "body_file": "http/kazumi_app_latest_commit.txt",
+    "json": true,
+    "elapsed_ms": 712
+  },
+  "files": [
+    {
+      "path": "lib/plugins/api_rule_config.dart",
+      "probe": {
+        "url": "https://raw.githubusercontent.com/Predidit/Kazumi/025dcb5c2f62db881382c72f191d08b49a9feb41/lib/plugins/api_rule_config.dart",
+        "checked_at": "2026-10-15T03:56:20.920633+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://raw.githubusercontent.com/Predidit/Kazumi/025dcb5c2f62db881382c72f191d08b49a9feb41/lib/plugins/api_rule_config.dart",
+        "content_type": "text/plain; charset=utf-8",
+        "bytes": 7907,
+        "sha256": "f1f19510e7608db17830bb9618ca668680e9a7920e71fa1b3d5102bd1ffc34d7",
+        "body_file": "http/kazumi_api9_lib_plugins_api_rule_config.dart.txt",
+        "json": false,
+        "elapsed_ms": 1219
+      },
+      "relevant_excerpts": [
+        {
+          "line": 3,
+          "context": "class RuleMode {\n  static const String xpath = 'xpath';\n  static const String api = 'api';\n\n  static String normalize(Object? value) {\n    return value == api ? api : xpath;\n  }\n}\n\nclass ApiBodyType {\n  static const String none = 'none';"
+        },
+        {
+          "line": 79,
+          "context": "  String namePath;\n  String sourcePath;\n\n  /// Detail page URL built by replacing `@source`; empty keeps the raw value.\n  final String sourceTemplate;\n\n  ApiSearchConfig({\n    ApiRequestConfig? request,\n    this.listPath = r'$.data[*]',\n    this.namePath = r'$.name',\n    this.sourcePath = r'$.url',\n    String sourceTemplate = '',\n  })  : request = request ?? ApiRequestConfig(),"
+        },
+        {
+          "line": 86,
+          "context": "    ApiRequestConfig? request,\n    this.listPath = r'$.data[*]',\n    this.namePath = r'$.name',\n    this.sourcePath = r'$.url',\n    String sourceTemplate = '',\n  })  : request = request ?? ApiRequestConfig(),\n        sourceTemplate = sourceTemplate.trim();\n\n  factory ApiSearchConfig.fromJson(Map<String, dynamic> json) {\n    return ApiSearchConfig(\n      request: ApiRequestConfig.fromJson(_asStringMap(json['request'])),\n      listPath: json['listPath'] as String? ?? r'$.data[*]',\n      namePath: json['namePath'] as String? ?? r'$.name',"
+        },
+        {
+          "line": 88,
+          "context": "    this.namePath = r'$.name',\n    this.sourcePath = r'$.url',\n    String sourceTemplate = '',\n  })  : request = request ?? ApiRequestConfig(),\n        sourceTemplate = sourceTemplate.trim();\n\n  factory ApiSearchConfig.fromJson(Map<String, dynamic> json) {\n    return ApiSearchConfig(\n      request: ApiRequestConfig.fromJson(_asStringMap(json['request'])),\n      listPath: json['listPath'] as String? ?? r'$.data[*]',\n      namePath: json['namePath'] as String? ?? r'$.name',\n      sourcePath: json['sourcePath'] as String? ?? r'$.url',\n      sourceTemplate: json['sourceTemplate'] as String? ?? '',"
+        },
+        {
+          "line": 96,
+          "context": "      request: ApiRequestConfig.fromJson(_asStringMap(json['request'])),\n      listPath: json['listPath'] as String? ?? r'$.data[*]',\n      namePath: json['namePath'] as String? ?? r'$.name',\n      sourcePath: json['sourcePath'] as String? ?? r'$.url',\n      sourceTemplate: json['sourceTemplate'] as String? ?? '',\n    );\n  }\n\n  Map<String, dynamic> toJson() => {\n        'request': request.toJson(),\n        'listPath': listPath,\n        'namePath': namePath,\n        'sourcePath': sourcePath,"
+        },
+        {
+          "line": 105,
+          "context": "        'request': request.toJson(),\n        'listPath': listPath,\n        'namePath': namePath,\n        'sourcePath': sourcePath,\n        if (sourceTemplate.isNotEmpty) 'sourceTemplate': sourceTemplate,\n      };\n}\n\nclass ApiEpisodePageConfig {\n  /// Template for the final playback page URL.\n  String url;\n\n  /// Query parameters rendered with response and episode index variables."
+        }
+      ]
+    },
+    {
+      "path": "lib/services/plugin/api_rule_engine.dart",
+      "probe": {
+        "url": "https://raw.githubusercontent.com/Predidit/Kazumi/025dcb5c2f62db881382c72f191d08b49a9feb41/lib/services/plugin/api_rule_engine.dart",
+        "checked_at": "2026-10-15T03:56:20.920633+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://raw.githubusercontent.com/Predidit/Kazumi/025dcb5c2f62db881382c72f191d08b49a9feb41/lib/services/plugin/api_rule_engine.dart",
+        "content_type": "text/plain; charset=utf-8",
+        "bytes": 94,
+        "sha256": "b8bdd853f17c83a6108cd074ab652430f280a4f23cbb363399d38c5458479f18",
+        "body_file": "http/kazumi_api9_lib_services_plugin_api_rule_engine.dart.txt",
+        "json": false,
+        "elapsed_ms": 753
+      },
+      "relevant_excerpts": []
+    },
+    {
+      "path": "lib/services/plugin/api_rule_strategy.dart",
+      "probe": {
+        "url": "https://raw.githubusercontent.com/Predidit/Kazumi/025dcb5c2f62db881382c72f191d08b49a9feb41/lib/services/plugin/api_rule_strategy.dart",
+        "checked_at": "2026-10-15T03:56:20.920633+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://raw.githubusercontent.com/Predidit/Kazumi/025dcb5c2f62db881382c72f191d08b49a9feb41/lib/services/plugin/api_rule_strategy.dart",
+        "content_type": "text/plain; charset=utf-8",
+        "bytes": 17963,
+        "sha256": "19eba1142614ccbc0408b1da25414b432bd2cc86c627311b56ecf7dc66f81bf6",
+        "body_file": "http/kazumi_api9_lib_services_plugin_api_rule_strategy.dart.txt",
+        "json": false,
+        "elapsed_ms": 764
+      },
+      "relevant_excerpts": [
+        {
+          "line": 146,
+          "context": "  void validateSearchConfig(ApiSearchConfig config) {\n    RestrictedJsonPath.validate(config.listPath);\n    RestrictedJsonPath.validate(config.namePath);\n    RestrictedJsonPath.validate(config.sourcePath);\n    final template = config.sourceTemplate;\n    if (template.isNotEmpty && !template.contains('@source')) {\n      throw const ApiRuleFormatException('详情页地址模板必须引用 @source');\n    }\n  }\n\n  RuleSearchParseResult parseSearch(String raw, ApiSearchConfig config) {\n    validateSearchConfig(config);\n    final document = decodeResponse(raw);"
+        },
+        {
+          "line": 156,
+          "context": "  RuleSearchParseResult parseSearch(String raw, ApiSearchConfig config) {\n    validateSearchConfig(config);\n    final document = decodeResponse(raw);\n    final nodes = RestrictedJsonPath.read(document, config.listPath);\n    final template = config.sourceTemplate;\n    final results = <SearchItem>[];\n    final fragments = <String>[];\n    final diagnostics = <String>[];\n    for (var index = 0; index < nodes.length; index++) {\n      final node = nodes[index];\n      try {\n        final name = _stringValue(\n          RestrictedJsonPath.readFirst(node, config.namePath),"
+        }
+      ]
+    },
+    {
+      "path": "test/api_rule_engine_test.dart",
+      "probe": {
+        "url": "https://raw.githubusercontent.com/Predidit/Kazumi/025dcb5c2f62db881382c72f191d08b49a9feb41/test/api_rule_engine_test.dart",
+        "checked_at": "2026-10-15T03:56:20.920633+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://raw.githubusercontent.com/Predidit/Kazumi/025dcb5c2f62db881382c72f191d08b49a9feb41/test/api_rule_engine_test.dart",
+        "content_type": "text/plain; charset=utf-8",
+        "bytes": 8157,
+        "sha256": "f556512334a7d7812f3aa8306062fc0a8dc416ef241c07ef83f4085f024f3fa7",
+        "body_file": "http/kazumi_api9_test_api_rule_engine_test.dart.txt",
+        "json": false,
+        "elapsed_ms": 760
+      },
+      "relevant_excerpts": []
+    },
+    {
+      "path": "test/plugin_api_config_test.dart",
+      "probe": {
+        "url": "https://raw.githubusercontent.com/Predidit/Kazumi/025dcb5c2f62db881382c72f191d08b49a9feb41/test/plugin_api_config_test.dart",
+        "checked_at": "2026-10-15T03:56:20.953195+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://raw.githubusercontent.com/Predidit/Kazumi/025dcb5c2f62db881382c72f191d08b49a9feb41/test/plugin_api_config_test.dart",
+        "content_type": "text/plain; charset=utf-8",
+        "bytes": 7365,
+        "sha256": "8b46a4d8098ba2a66f38b295cabd2a092fefe04ba3174ae8110fdbc6014ce4e5",
+        "body_file": "http/kazumi_api9_test_plugin_api_config_test.dart.txt",
+        "json": false,
+        "elapsed_ms": 881
+      },
+      "relevant_excerpts": []
+    },
+    {
+      "path": "lib/plugins/plugins.dart",
+      "probe": {
+        "url": "https://raw.githubusercontent.com/Predidit/Kazumi/025dcb5c2f62db881382c72f191d08b49a9feb41/lib/plugins/plugins.dart",
+        "checked_at": "2026-10-15T03:56:20.962723+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://raw.githubusercontent.com/Predidit/Kazumi/025dcb5c2f62db881382c72f191d08b49a9feb41/lib/plugins/plugins.dart",
+        "content_type": "text/plain; charset=utf-8",
+        "bytes": 8614,
+        "sha256": "628069708240af04f1c3872d3f5e6300e0c5c64f83380b26b7b603d772b9e04b",
+        "body_file": "http/kazumi_api9_lib_plugins_plugins.dart.txt",
+        "json": false,
+        "elapsed_ms": 696
+      },
+      "relevant_excerpts": [
+        {
+          "line": 82,
+          "context": "        antiCrawlerConfig = antiCrawlerConfig ?? AntiCrawlerConfig.empty();\n\n  factory Plugin.fromJson(Map<String, dynamic> json) {\n    return Plugin(\n      api: json['api']?.toString() ?? '1',\n      type: json['type'] as String? ?? 'anime',\n      name: json['name'] as String? ?? '',\n      version: json['version']?.toString() ?? '',\n      muliSources: json['muliSources'] as bool? ?? true,\n      useWebview: json['useWebview'] as bool? ?? true,\n      useNativePlayer: json['useNativePlayer'] as bool? ?? true,\n      usePost: json['usePost'] ?? false,\n      useLegacyParser: json['useLegacyParser'] ?? false,"
+        },
+        {
+          "line": 123,
+          "context": "  }\n\n  factory Plugin.fromTemplate() {\n    return Plugin(\n      api: ApiEndpoints.apiLevel.toString(),\n      type: 'anime',\n      name: '',\n      version: '',\n      muliSources: true,\n      useWebview: true,\n      useNativePlayer: true,\n      usePost: false,\n      useLegacyParser: false,"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+# Local toolchains, generated files and user data
+.tools/
+**/.dart_tool/
+**/.gradle/
+**/.cxx/
+**/.kotlin/
+**/.plugin_symlinks/
+**/build/
+**/ephemeral/
+**/node_modules/
+**/__pycache__/
+**/payload/
+**/userdata/
+**/user_data/
+**/browser-profile/
+**/source_extract_check*/
+**/package-stage-*/
+**/local.properties
+**/key.properties
+**/signing.properties
+**/.flutter-plugins-dependencies
+**/.env
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pyc

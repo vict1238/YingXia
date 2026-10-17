@@ -1,0 +1,106 @@
+{
+  "version": "preflight-0.1",
+  "title": "三体",
+  "platform_url_supplied": false,
+  "source_blob": "30260d8fb3db47b4f14fcc1a3faf8efadf99a43a",
+  "controls_all_failed": true,
+  "scope": "HTTP/catalog checks ONLY; no browser execution, no decoding, no verified playback.",
+  "results": [
+    {
+      "name": "网络对照 python.org",
+      "url": "https://www.python.org/",
+      "observed_at": "2026-10-10T13:29:42.053116+00:00",
+      "playback_verified": false,
+      "state": "请求未完成；网络环境或服务原因尚未区分",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "name": "网络对照 example.com",
+      "url": "https://example.com/",
+      "observed_at": "2026-10-10T13:29:42.052106+00:00",
+      "playback_verified": false,
+      "state": "请求未完成；网络环境或服务原因尚未区分",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "name": "无损云搜索",
+      "url": "https://wsyzy.cc/index.php/ajax/suggest?mid=1&wd=%E4%B8%89%E4%BD%93",
+      "observed_at": "2026-10-10T13:29:42.053567+00:00",
+      "playback_verified": false,
+      "state": "请求未完成；网络环境或服务原因尚未区分",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "name": "无损云 API 入口",
+      "url": "https://api.wsyzy.net/api.php/provide/vod/",
+      "observed_at": "2026-10-10T13:29:42.072603+00:00",
+      "playback_verified": false,
+      "state": "请求未完成；网络环境或服务原因尚未区分",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "name": "TXNQ解析",
+      "url": "https://bfq.txnp.cn/player",
+      "observed_at": "2026-10-10T13:29:47.087891+00:00",
+      "playback_verified": false,
+      "state": "请求未完成；网络环境或服务原因尚未区分",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "name": "无损云播放器入口",
+      "url": "https://wsyzy.vip/m3u8/",
+      "observed_at": "2026-10-10T13:29:47.082494+00:00",
+      "playback_verified": false,
+      "state": "请求未完成；网络环境或服务原因尚未区分",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "name": "麒麟解析",
+      "url": "https://free.maccms.xyz/",
+      "observed_at": "2026-10-10T13:29:47.083035+00:00",
+      "playback_verified": false,
+      "state": "请求未完成；网络环境或服务原因尚未区分",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "name": "七哥解析",
+      "url": "https://jx.202617.xyz/tv.php",
+      "observed_at": "2026-10-10T13:29:52.102210+00:00",
+      "playback_verified": false,
+      "state": "请求未完成；网络环境或服务原因尚未区分",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "name": "fongmi解析",
+      "url": "https://json.fongmi.cc/web",
+      "observed_at": "2026-10-10T13:29:52.102867+00:00",
+      "playback_verified": false,
+      "state": "请求未完成；网络环境或服务原因尚未区分",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "name": "冰豆解析",
+      "url": "https://bd.jx.cn/",
+      "observed_at": "2026-10-10T13:29:52.103189+00:00",
+      "playback_verified": false,
+      "state": "请求未完成；网络环境或服务原因尚未区分",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "name": "HLS解析",
+      "url": "https://jx.hls.one/",
+      "observed_at": "2026-10-10T13:29:57.117582+00:00",
+      "playback_verified": false,
+      "state": "请求未完成；网络环境或服务原因尚未区分",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "name": "Player-JY",
+      "url": "https://jx.playerjy.com/",
+      "observed_at": "2026-10-10T13:29:57.123270+00:00",
+      "playback_verified": false,
+      "state": "请求未完成；网络环境或服务原因尚未区分",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ]
+}

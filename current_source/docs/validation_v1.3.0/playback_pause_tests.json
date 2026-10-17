@@ -1,0 +1,242 @@
+{
+  "environment": "win32/x64, isolated headless browser, native local HTTP navigation",
+  "catalogue": "synthetic fixtures",
+  "media": "test-only WebM and H264 HLS",
+  "real_third_party_playback_tested": false,
+  "checks": [
+    {
+      "name": "The paste action/dialog are removed and the initial workspace uses the requested instruction",
+      "passed": true
+    },
+    {
+      "name": "WebM: leaving for search pauses; returning stays paused; Play resumes the same position/player",
+      "passed": true
+    },
+    {
+      "name": "WebM: leaving for library pauses; returning stays paused; Play resumes the same position/player",
+      "passed": true
+    },
+    {
+      "name": "WebM: leaving for settings pauses; returning stays paused; Play resumes the same position/player",
+      "passed": true
+    },
+    {
+      "name": "The simulated hidden-document visibility event pauses playback; visibility restoration does not resume it",
+      "passed": true
+    },
+    {
+      "name": "Stop clears playback and restores the requested instruction",
+      "passed": true
+    },
+    {
+      "name": "A pending play() promise cannot resume playback after leaving the workspace",
+      "passed": true
+    },
+    {
+      "name": "A resolve response arriving after navigation cannot mount or autoplay a player",
+      "passed": true
+    },
+    {
+      "name": "HLS: leaving for search pauses; returning stays paused; Play resumes the same position/player",
+      "passed": true
+    },
+    {
+      "name": "An HLS manifest arriving after navigation leaves the mounted player paused",
+      "passed": true
+    },
+    {
+      "name": "Leaving unloads the external iframe; selection survives and only explicit Play reopens it",
+      "passed": true
+    },
+    {
+      "name": "No uncaught JavaScript errors throughout playback/navigation regression",
+      "passed": true
+    }
+  ],
+  "observations": [
+    {
+      "label": "WebM",
+      "view": "search",
+      "paused": {
+        "time": 0.769659,
+        "paused": true,
+        "ended": false,
+        "source": "http://127.0.0.1:54143/demo/clip1.webm",
+        "frames": 23,
+        "width": 640,
+        "marker": "pause-WebM-search"
+      },
+      "frozen": {
+        "time": 0.769659,
+        "paused": true,
+        "ended": false,
+        "source": "http://127.0.0.1:54143/demo/clip1.webm",
+        "frames": 23,
+        "width": 640,
+        "marker": "pause-WebM-search"
+      },
+      "returned": {
+        "time": 0.769659,
+        "paused": true,
+        "ended": false,
+        "source": "http://127.0.0.1:54143/demo/clip1.webm",
+        "frames": 23,
+        "width": 640,
+        "marker": "pause-WebM-search"
+      },
+      "resumed": {
+        "time": 0.933354,
+        "paused": false,
+        "ended": false,
+        "source": "http://127.0.0.1:54143/demo/clip1.webm",
+        "frames": 26,
+        "width": 640,
+        "marker": "pause-WebM-search"
+      }
+    },
+    {
+      "label": "WebM",
+      "view": "library",
+      "paused": {
+        "time": 0.989441,
+        "paused": true,
+        "ended": false,
+        "source": "http://127.0.0.1:54143/demo/clip1.webm",
+        "frames": 27,
+        "width": 640,
+        "marker": "pause-WebM-library"
+      },
+      "frozen": {
+        "time": 0.989441,
+        "paused": true,
+        "ended": false,
+        "source": "http://127.0.0.1:54143/demo/clip1.webm",
+        "frames": 27,
+        "width": 640,
+        "marker": "pause-WebM-library"
+      },
+      "returned": {
+        "time": 0.989441,
+        "paused": true,
+        "ended": false,
+        "source": "http://127.0.0.1:54143/demo/clip1.webm",
+        "frames": 27,
+        "width": 640,
+        "marker": "pause-WebM-library"
+      },
+      "resumed": {
+        "time": 1.149017,
+        "paused": false,
+        "ended": false,
+        "source": "http://127.0.0.1:54143/demo/clip1.webm",
+        "frames": 31,
+        "width": 640,
+        "marker": "pause-WebM-library"
+      }
+    },
+    {
+      "label": "WebM",
+      "view": "settings",
+      "paused": {
+        "time": 1.187631,
+        "paused": true,
+        "ended": false,
+        "source": "http://127.0.0.1:54143/demo/clip1.webm",
+        "frames": 32,
+        "width": 640,
+        "marker": "pause-WebM-settings"
+      },
+      "frozen": {
+        "time": 1.187631,
+        "paused": true,
+        "ended": false,
+        "source": "http://127.0.0.1:54143/demo/clip1.webm",
+        "frames": 32,
+        "width": 640,
+        "marker": "pause-WebM-settings"
+      },
+      "returned": {
+        "time": 1.187631,
+        "paused": true,
+        "ended": false,
+        "source": "http://127.0.0.1:54143/demo/clip1.webm",
+        "frames": 32,
+        "width": 640,
+        "marker": "pause-WebM-settings"
+      },
+      "resumed": {
+        "time": 1.350585,
+        "paused": false,
+        "ended": false,
+        "source": "http://127.0.0.1:54143/demo/clip1.webm",
+        "frames": 36,
+        "width": 640,
+        "marker": "pause-WebM-settings"
+      }
+    },
+    {
+      "label": "HLS",
+      "view": "search",
+      "paused": {
+        "time": 0.746002,
+        "paused": true,
+        "ended": false,
+        "source": "blob:http://127.0.0.1:54143/d6338ba1-ab34-43ba-9463-2970fe41c62f",
+        "frames": 25,
+        "width": 640,
+        "marker": "pause-HLS-search"
+      },
+      "frozen": {
+        "time": 0.746002,
+        "paused": true,
+        "ended": false,
+        "source": "blob:http://127.0.0.1:54143/d6338ba1-ab34-43ba-9463-2970fe41c62f",
+        "frames": 25,
+        "width": 640,
+        "marker": "pause-HLS-search"
+      },
+      "returned": {
+        "time": 0.746002,
+        "paused": true,
+        "ended": false,
+        "source": "blob:http://127.0.0.1:54143/d6338ba1-ab34-43ba-9463-2970fe41c62f",
+        "frames": 25,
+        "width": 640,
+        "marker": "pause-HLS-search"
+      },
+      "resumed": {
+        "time": 0.907686,
+        "paused": false,
+        "ended": false,
+        "source": "blob:http://127.0.0.1:54143/d6338ba1-ab34-43ba-9463-2970fe41c62f",
+        "frames": 29,
+        "width": 640,
+        "marker": "pause-HLS-search"
+      }
+    }
+  ],
+  "page_errors": [],
+  "intercepted_external_requests": [
+    "https://wsyzy.vip/m3u8/",
+    "https://wsyzy.vip/m3u8/"
+  ],
+  "webm_initial": {
+    "time": 0.714403,
+    "paused": false,
+    "ended": false,
+    "source": "http://127.0.0.1:54143/demo/clip1.webm",
+    "frames": 21,
+    "width": 640
+  },
+  "hls_initial": {
+    "time": 0.707893,
+    "paused": false,
+    "ended": false,
+    "source": "blob:http://127.0.0.1:54143/d6338ba1-ab34-43ba-9463-2970fe41c62f",
+    "frames": 23,
+    "width": 640
+  },
+  "browser": "155.0.8059.39",
+  "resolve_requests": 7,
+  "check_count": 12
+}

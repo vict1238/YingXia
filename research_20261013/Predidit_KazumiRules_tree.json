@@ -1,0 +1,764 @@
+{
+  "sha": "6b5ead789dcdbed2c67b76ca254beb5aa7ec9e95",
+  "url": "https://api.github.com/repos/Predidit/KazumiRules/git/trees/6b5ead789dcdbed2c67b76ca254beb5aa7ec9e95",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "412c624b12ba38b5c95c785e6519718c9d99b99b",
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/trees/412c624b12ba38b5c95c785e6519718c9d99b99b"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a166044cbc0c9b4810269e2c551101ab92673a6e",
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/trees/a166044cbc0c9b4810269e2c551101ab92673a6e"
+    },
+    {
+      "path": ".github/workflows/update-index.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4d37460bb45738881dd07bb41e4787af9a1f4c2",
+      "size": 685,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/c4d37460bb45738881dd07bb41e4787af9a1f4c2"
+    },
+    {
+      "path": "1ANI.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6e15e36cea520b7707788a3ceb34f8393e4b2f6",
+      "size": 552,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/d6e15e36cea520b7707788a3ceb34f8393e4b2f6"
+    },
+    {
+      "path": "233dm.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba5074e427985b178d9517c92ccf52d794ecce22",
+      "size": 531,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/ba5074e427985b178d9517c92ccf52d794ecce22"
+    },
+    {
+      "path": "295yhw.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56e18ddf8faef0c56062416a6bea382b2b754b2f",
+      "size": 592,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/56e18ddf8faef0c56062416a6bea382b2b754b2f"
+    },
+    {
+      "path": "7sefun.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a689d59af0e3f626e68512c46d81777df44cd8b9",
+      "size": 525,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/a689d59af0e3f626e68512c46d81777df44cd8b9"
+    },
+    {
+      "path": "80tv.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eef14563ac1b4283c7090c147945589254eef6f8",
+      "size": 539,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/eef14563ac1b4283c7090c147945589254eef6f8"
+    },
+    {
+      "path": "9ciyuan.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "922a02b105a58bdfaf785625452077e103f6dd1a",
+      "size": 650,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/922a02b105a58bdfaf785625452077e103f6dd1a"
+    },
+    {
+      "path": "AGE.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edbab3972b8bb4cb964b410ef8049368b0bcc4bf",
+      "size": 528,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/edbab3972b8bb4cb964b410ef8049368b0bcc4bf"
+    },
+    {
+      "path": "AnFuns.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "291d93356b88398933a2597ab687a3b62f4dc531",
+      "size": 602,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/291d93356b88398933a2597ab687a3b62f4dc531"
+    },
+    {
+      "path": "BF.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "576cdc26dbb9095d3508214b05301258d5611981",
+      "size": 555,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/576cdc26dbb9095d3508214b05301258d5611981"
+    },
+    {
+      "path": "DM84.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1dd327230e6c3851bace7b698bf390d8dad2947",
+      "size": 485,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/f1dd327230e6c3851bace7b698bf390d8dad2947"
+    },
+    {
+      "path": "FQDM.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d87956790cf99520879fedbd952c0dc004e83e4",
+      "size": 986,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/8d87956790cf99520879fedbd952c0dc004e83e4"
+    },
+    {
+      "path": "Fantuan.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e63bd2ee7c402cffccfd40401366918c16185dd0",
+      "size": 530,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/e63bd2ee7c402cffccfd40401366918c16185dd0"
+    },
+    {
+      "path": "HZDM.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba1cda253236f93fecfdb69a38f3cb49a85d7c86",
+      "size": 557,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/ba1cda253236f93fecfdb69a38f3cb49a85d7c86"
+    },
+    {
+      "path": "IF.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9332a67030bccb969fc9fe6f170746612a524b00",
+      "size": 524,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/9332a67030bccb969fc9fe6f170746612a524b00"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71dce5abb2cca74797cd09d88be2f5a5eb5e60de",
+      "size": 1065,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/71dce5abb2cca74797cd09d88be2f5a5eb5e60de"
+    },
+    {
+      "path": "LMM.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44bc7aa9adf503732b944c987e7f83dd9d288b19",
+      "size": 984,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/44bc7aa9adf503732b944c987e7f83dd9d288b19"
+    },
+    {
+      "path": "MT.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0f5b774fd4aabb2a1a67f6aaef388170c1b1e9c",
+      "size": 566,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/e0f5b774fd4aabb2a1a67f6aaef388170c1b1e9c"
+    },
+    {
+      "path": "MXdm.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4e9bcf8ed82510fdd5897793e0d3549de2f1b36",
+      "size": 539,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/d4e9bcf8ed82510fdd5897793e0d3549de2f1b36"
+    },
+    {
+      "path": "NT.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09fcc07d07edd6209ddd2eed5aee31fd0a240ec5",
+      "size": 531,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/09fcc07d07edd6209ddd2eed5aee31fd0a240ec5"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e38159de23699f3762d2d726e76ecae3b0475dc",
+      "size": 2574,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/2e38159de23699f3762d2d726e76ecae3b0475dc"
+    },
+    {
+      "path": "TvTFun.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f6ff6c3619a4a6e190a60e5a62e01d1038a7745",
+      "size": 1832,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/7f6ff6c3619a4a6e190a60e5a62e01d1038a7745"
+    },
+    {
+      "path": "WYDM.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5781fe6cd50d85cb6ae00997b24b01cc766fb5b",
+      "size": 558,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/c5781fe6cd50d85cb6ae00997b24b01cc766fb5b"
+    },
+    {
+      "path": "XY.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b583f9b88f7f5d5c91b25e1af985e98f3434679",
+      "size": 540,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/0b583f9b88f7f5d5c91b25e1af985e98f3434679"
+    },
+    {
+      "path": "aafun.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3037dc6ebdee6e62a6d3088555f882eace3416cf",
+      "size": 638,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/3037dc6ebdee6e62a6d3088555f882eace3416cf"
+    },
+    {
+      "path": "akianime.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b1c654420b14ad57e67e576f37c1ceae76f4c0d",
+      "size": 603,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/7b1c654420b14ad57e67e576f37c1ceae76f4c0d"
+    },
+    {
+      "path": "anime7.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef27680b87471af1d37b4e71abdec6bbf0d28305",
+      "size": 573,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/ef27680b87471af1d37b4e71abdec6bbf0d28305"
+    },
+    {
+      "path": "ant.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2881bc39d376be67e39737d1d82e89b95611d4e7",
+      "size": 561,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/2881bc39d376be67e39737d1d82e89b95611d4e7"
+    },
+    {
+      "path": "aowu.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62fb1e9ef404bb529e9944c5cb663f7e514b6dc1",
+      "size": 923,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/62fb1e9ef404bb529e9944c5cb663f7e514b6dc1"
+    },
+    {
+      "path": "baimao.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e0b79282ad70779cf3631bfd8e0725abf560a50",
+      "size": 513,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/1e0b79282ad70779cf3631bfd8e0725abf560a50"
+    },
+    {
+      "path": "bobodm.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c65fa9c973d8156b91d94ac54a83c389c3aeca6f",
+      "size": 607,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/c65fa9c973d8156b91d94ac54a83c389c3aeca6f"
+    },
+    {
+      "path": "brovod.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22764db5b41c4900b146737a3904f9acaa228507",
+      "size": 552,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/22764db5b41c4900b146737a3904f9acaa228507"
+    },
+    {
+      "path": "ciyuancheng.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbea9b93930e775c4b75c87e851e9b20a0a9f8ca",
+      "size": 857,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/dbea9b93930e775c4b75c87e851e9b20a0a9f8ca"
+    },
+    {
+      "path": "clicli.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f0b4f5771387de51f289baaa3db6042517299af",
+      "size": 629,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/0f0b4f5771387de51f289baaa3db6042517299af"
+    },
+    {
+      "path": "cyfz.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a3c002a85039b3051153018570d20f3ee3f0a16",
+      "size": 571,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/4a3c002a85039b3051153018570d20f3ee3f0a16"
+    },
+    {
+      "path": "dalvdm.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a21f3bd660b248294ec9019963c4ae23b8e598c",
+      "size": 1285,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/3a21f3bd660b248294ec9019963c4ae23b8e598c"
+    },
+    {
+      "path": "dlma.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ec0d4365df15d355205d1a65e48c8308b259215",
+      "size": 589,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/8ec0d4365df15d355205d1a65e48c8308b259215"
+    },
+    {
+      "path": "dmand.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dea082e8ea6893fface48abf2c4adb30f1c83af",
+      "size": 535,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/3dea082e8ea6893fface48abf2c4adb30f1c83af"
+    },
+    {
+      "path": "dmghg.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a139576837828384623b7a5ec3d719b69b4d236c",
+      "size": 902,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/a139576837828384623b7a5ec3d719b69b4d236c"
+    },
+    {
+      "path": "dms.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c455e300ca5204a812914d61f12b9336e1fa88b1",
+      "size": 549,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/c455e300ca5204a812914d61f12b9336e1fa88b1"
+    },
+    {
+      "path": "eacg.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe80d4070683ce4d01d8068d8ee766a28ca810ef",
+      "size": 539,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/fe80d4070683ce4d01d8068d8ee766a28ca810ef"
+    },
+    {
+      "path": "enlie.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23ba118206cbc5fdd8797d8417ba7affa4f46ebf",
+      "size": 637,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/23ba118206cbc5fdd8797d8417ba7affa4f46ebf"
+    },
+    {
+      "path": "ezdmw.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1f6c72109e58df347d5cafaeeb86b410ffde307",
+      "size": 1076,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/a1f6c72109e58df347d5cafaeeb86b410ffde307"
+    },
+    {
+      "path": "fcdm.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "590e74106a06d456d92b46888917c128cacc8189",
+      "size": 619,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/590e74106a06d456d92b46888917c128cacc8189"
+    },
+    {
+      "path": "ffdm.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "270374d46f3bf3d05fbeb5d15bf69165b8ed3ae9",
+      "size": 542,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/270374d46f3bf3d05fbeb5d15bf69165b8ed3ae9"
+    },
+    {
+      "path": "giriGiriLove.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f24d65bb6fbccfc7f74c45e4f8e4e01abd2a5898",
+      "size": 951,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/f24d65bb6fbccfc7f74c45e4f8e4e01abd2a5898"
+    },
+    {
+      "path": "gpjda.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b206083ec48805aa880a226c2d9ba2d7dc92cc1",
+      "size": 612,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/4b206083ec48805aa880a226c2d9ba2d7dc92cc1"
+    },
+    {
+      "path": "gugu3.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e844ae60b75a426520b9148ae14434cd43305460",
+      "size": 635,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/e844ae60b75a426520b9148ae14434cd43305460"
+    },
+    {
+      "path": "hfkzm.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8561193af6fc1e45d1956842bc17d55c0e13d63e",
+      "size": 551,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/8561193af6fc1e45d1956842bc17d55c0e13d63e"
+    },
+    {
+      "path": "index.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "634da8f414ebf07b2849d6009fd5f0a98cba8079",
+      "size": 2643,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/634da8f414ebf07b2849d6009fd5f0a98cba8079"
+    },
+    {
+      "path": "jzsdm.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f67762f2ab2ecd88e63ec5cd34460afd5e4d5126",
+      "size": 606,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/f67762f2ab2ecd88e63ec5cd34460afd5e4d5126"
+    },
+    {
+      "path": "k8dm.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "545e3f45a20dd979fe271457636afec0bc00beb1",
+      "size": 560,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/545e3f45a20dd979fe271457636afec0bc00beb1"
+    },
+    {
+      "path": "kimani.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90467c4060e63a65eefd40402e13c1daf2d74d03",
+      "size": 562,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/90467c4060e63a65eefd40402e13c1daf2d74d03"
+    },
+    {
+      "path": "libvio.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a8c2215dd58095274179ec5157b054e34a4f573",
+      "size": 576,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/3a8c2215dd58095274179ec5157b054e34a4f573"
+    },
+    {
+      "path": "mandao.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94087c76599aecf312c9f8fcd55a2eca3deba242",
+      "size": 544,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/94087c76599aecf312c9f8fcd55a2eca3deba242"
+    },
+    {
+      "path": "mcy.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c66262a321a015ca555332a22701b6c4971c693",
+      "size": 570,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/1c66262a321a015ca555332a22701b6c4971c693"
+    },
+    {
+      "path": "mengfan.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6f1aa047d5b90dfc628bf9db1d4a2682dc6485d",
+      "size": 627,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/d6f1aa047d5b90dfc628bf9db1d4a2682dc6485d"
+    },
+    {
+      "path": "mgnacg.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad5e99e52cddb97907321d08fd2ccdf448219bee",
+      "size": 830,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/ad5e99e52cddb97907321d08fd2ccdf448219bee"
+    },
+    {
+      "path": "mifun.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd61e18c3c98828cdb21ad61484711fa7ac598d8",
+      "size": 602,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/dd61e18c3c98828cdb21ad61484711fa7ac598d8"
+    },
+    {
+      "path": "milimili.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb5d6adc8851aef7f671a63752998cbdf57c3efb",
+      "size": 1372,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/eb5d6adc8851aef7f671a63752998cbdf57c3efb"
+    },
+    {
+      "path": "mitang.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a261fce76d9b4a8acf1d500dce0b7992881bf8b1",
+      "size": 536,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/a261fce76d9b4a8acf1d500dce0b7992881bf8b1"
+    },
+    {
+      "path": "mitaodm.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6da3f0f18cdc8e218b9284b5bbb93deb3663241e",
+      "size": 541,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/6da3f0f18cdc8e218b9284b5bbb93deb3663241e"
+    },
+    {
+      "path": "moefan.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d98e340a79e4f97a680e0e382f5205d76d5a86cd",
+      "size": 624,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/d98e340a79e4f97a680e0e382f5205d76d5a86cd"
+    },
+    {
+      "path": "moonci.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a53701edcabed4167d02547d348869b1e0438ed1",
+      "size": 1108,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/a53701edcabed4167d02547d348869b1e0438ed1"
+    },
+    {
+      "path": "mutefun.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e9f543ca0fe2604d392a8533e7b655c8830abf5",
+      "size": 965,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/0e9f543ca0fe2604d392a8533e7b655c8830abf5"
+    },
+    {
+      "path": "mwcy.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6311cac74157170aec8d35a70142201d96a66f9d",
+      "size": 556,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/6311cac74157170aec8d35a70142201d96a66f9d"
+    },
+    {
+      "path": "nekodm.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed0935f3f2f350020b36508a588ecf626d62efb4",
+      "size": 494,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/ed0935f3f2f350020b36508a588ecf626d62efb4"
+    },
+    {
+      "path": "nyafun.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9b54f4c2ef5f4e01e619a1cbd7146a2f06b6d2a",
+      "size": 595,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/b9b54f4c2ef5f4e01e619a1cbd7146a2f06b6d2a"
+    },
+    {
+      "path": "omofun.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9add58c3780208f82cddc4e8db78dbad5c199dd6",
+      "size": 705,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/9add58c3780208f82cddc4e8db78dbad5c199dd6"
+    },
+    {
+      "path": "omofun03.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ca05fcb5eb76e385c19cac3c00127bc907d025f",
+      "size": 573,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/7ca05fcb5eb76e385c19cac3c00127bc907d025f"
+    },
+    {
+      "path": "omofunz.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed73b936cd1b5f94d7160b19baa9788d32349c4c",
+      "size": 648,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/ed73b936cd1b5f94d7160b19baa9788d32349c4c"
+    },
+    {
+      "path": "pekolove.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15cd8662598395faa2a6d3f46f2567db8b98ac46",
+      "size": 579,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/15cd8662598395faa2a6d3f46f2567db8b98ac46"
+    },
+    {
+      "path": "qdm.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e57b06f9d6d2812a4e0ca073eb9db352fe8eadc3",
+      "size": 546,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/e57b06f9d6d2812a4e0ca073eb9db352fe8eadc3"
+    },
+    {
+      "path": "qifun.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bca811374120622ef7408aaef67c3c0ae766fe2e",
+      "size": 894,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/bca811374120622ef7408aaef67c3c0ae766fe2e"
+    },
+    {
+      "path": "qimi.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cae596f919e9ba9ecead64061533e0c9e1161cc",
+      "size": 550,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/9cae596f919e9ba9ecead64061533e0c9e1161cc"
+    },
+    {
+      "path": "qkan9.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fd3365f09d4f0bc23037dca4a062e781a15e6f2",
+      "size": 527,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/9fd3365f09d4f0bc23037dca4a062e781a15e6f2"
+    },
+    {
+      "path": "script",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b97994ebbf0a61eb9da0e56cf545e8f1e7e3c11a",
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/trees/b97994ebbf0a61eb9da0e56cf545e8f1e7e3c11a"
+    },
+    {
+      "path": "script/check_deprecated_rules.dart",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2de57b62e65e745c8c7ab3fc98ef129e1198775c",
+      "size": 3386,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/2de57b62e65e745c8c7ab3fc98ef129e1198775c"
+    },
+    {
+      "path": "script/update_index.dart",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed6aba08a1d8b6d9b87b703c271b59b4f672e50a",
+      "size": 6963,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/ed6aba08a1d8b6d9b87b703c271b59b4f672e50a"
+    },
+    {
+      "path": "skr.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcf6e6a6c32c0222721f7f471877a8897a146278",
+      "size": 538,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/dcf6e6a6c32c0222721f7f471877a8897a146278"
+    },
+    {
+      "path": "sorani.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2564a1ddc9f00a3c9de7acbec68b72d2e42b6d8a",
+      "size": 1574,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/2564a1ddc9f00a3c9de7acbec68b72d2e42b6d8a"
+    },
+    {
+      "path": "tt776b.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a96279cd6a719cfc2149976fb896eae99a1d9944",
+      "size": 553,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/a96279cd6a719cfc2149976fb896eae99a1d9944"
+    },
+    {
+      "path": "xfdm.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe66246de549d8d35a7ce344c68971956d903f87",
+      "size": 913,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/fe66246de549d8d35a7ce344c68971956d903f87"
+    },
+    {
+      "path": "xfdmneo.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d43194887f75c3f06dbda04b06781cf6c2ad8295",
+      "size": 637,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/d43194887f75c3f06dbda04b06781cf6c2ad8295"
+    },
+    {
+      "path": "xfdmnext.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f96a9c5d9c5587bf25310b98ca4f4bf5981d9676",
+      "size": 1927,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/f96a9c5d9c5587bf25310b98ca4f4bf5981d9676"
+    },
+    {
+      "path": "xiaobao.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81ccf37a46fd6e424aeccdd1595a874d2690fac9",
+      "size": 579,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/81ccf37a46fd6e424aeccdd1595a874d2690fac9"
+    },
+    {
+      "path": "xiapidm.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f1ac91847c58baed8c96b0a2a99b257043c3d63",
+      "size": 544,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/8f1ac91847c58baed8c96b0a2a99b257043c3d63"
+    },
+    {
+      "path": "xigua.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a78768270a9b0ca07e77e7cb4eaffa552c0a88f",
+      "size": 540,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/6a78768270a9b0ca07e77e7cb4eaffa552c0a88f"
+    },
+    {
+      "path": "yinghua.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a61f13f83684412d46678e14f2e89133c8bd5d48",
+      "size": 535,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/a61f13f83684412d46678e14f2e89133c8bd5d48"
+    },
+    {
+      "path": "yishijie.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8790bed0c5198c674ebabd83aa0a27fc486037d8",
+      "size": 515,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/8790bed0c5198c674ebabd83aa0a27fc486037d8"
+    },
+    {
+      "path": "ylsp.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "035f93bdbe2d7045e67b7f8171525b285d19610a",
+      "size": 517,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/035f93bdbe2d7045e67b7f8171525b285d19610a"
+    },
+    {
+      "path": "ziyedm.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48cdc3090750d9228c8a5007470bf94778ed566b",
+      "size": 507,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/48cdc3090750d9228c8a5007470bf94778ed566b"
+    },
+    {
+      "path": "zkk79.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ef13ca37f4b528a9a06eafa716d53835d598d82",
+      "size": 577,
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/git/blobs/1ef13ca37f4b528a9a06eafa716d53835d598d82"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,1732 @@
+{
+  "version": "2.1.0-native-windows",
+  "generated_utc": "2026-10-14T13:09:42.285491+00:00",
+  "software": [
+    {
+      "file": "YingXia_v2.1.0_Native_Windows_x64.exe",
+      "size": 60420096,
+      "sha256": "6e799468cf8d4ca744b44d2fac915dfa5f58e9982585c8b80c2e2cd61909d08c"
+    }
+  ],
+  "tested_candidate_file": "native_windows_client/build/candidates/YingXia_candidate8.exe",
+  "tested_candidate_sha256": "6e799468cf8d4ca744b44d2fac915dfa5f58e9982585c8b80c2e2cd61909d08c",
+  "delivery_method": "Exact tested candidate bytes copied; no rebuild after runtime QA",
+  "runtime": {
+    "passed": 22,
+    "production_backend_checks": 9,
+    "synthetic_media_checks": 13,
+    "shipping_gui_tested": true,
+    "production_backend_history_tested": true,
+    "synthetic_media_only": true,
+    "real_third_party_playback_tested": false,
+    "fixture_backend_sha256": "0f1803480545b72b01353071ac8a543f41d4dabb6c8eea824728ef13486f4a46",
+    "checks": [
+      {
+        "name": "Single release EXE extracts runtime and opens its own visible Flutter window with no browser/WebView children",
+        "passed": true
+      },
+      {
+        "name": "All four approved pages load in the production Flutter/Go app",
+        "passed": true
+      },
+      {
+        "name": "Exact two developer names and emails are shown at the top of sources and diagnostics",
+        "passed": true
+      },
+      {
+        "name": "Simple three-choice quality dropdown can change and persist the Windows-only preference",
+        "passed": true
+      },
+      {
+        "name": "Production in-app clear confirmation can cancel without changing persistent records",
+        "passed": true
+      },
+      {
+        "name": "Actual read-only library write failure retains rows and allows retry",
+        "passed": true
+      },
+      {
+        "name": "Actual production backend clears disk history while preserving favorites, bindings and settings",
+        "passed": true
+      },
+      {
+        "name": "Repeated single-file launch restores the existing native window",
+        "passed": true
+      },
+      {
+        "name": "Full release EXE restart keeps history empty and favorite available; window close ends child family",
+        "passed": true
+      },
+      {
+        "name": "A viewport smaller than the source leaves the original 720p texture and avoids shader work",
+        "passed": true
+      },
+      {
+        "name": "Actual shipping libmpv renders EASU and RCAS into a 1920x1080 output texture from a 1280x720 source",
+        "passed": true
+      },
+      {
+        "name": "Enhanced 720p30 playback continues through at least ten measured shader and frame-drop samples on the local RTX 4060",
+        "passed": true
+      },
+      {
+        "name": "Light mode renders only mild FSR1 RCAS after bilinear enlargement and avoids EASU",
+        "passed": true
+      },
+      {
+        "name": "Off removes FSR shader passes and restores the 1280x720 native output texture",
+        "passed": true
+      },
+      {
+        "name": "Leaving playback pauses the active synthetic video, restore stays paused and manual resume continues it",
+        "passed": true
+      },
+      {
+        "name": "Stop followed by replay advances video without losing the playback surface",
+        "passed": true
+      },
+      {
+        "name": "Switching episodes keeps native video decoding and time progress",
+        "passed": true
+      },
+      {
+        "name": "Continuous synthetic 720p HLS decodes through the authenticated relay and advances time",
+        "passed": true
+      },
+      {
+        "name": "Actual Windows minimize pauses the native player and restore remains paused",
+        "passed": true
+      },
+      {
+        "name": "Synthetic 720p24 and 720p60 inputs also render the enhanced 1080p texture and progress on the local GPU",
+        "passed": true
+      },
+      {
+        "name": "Three actual own-page pause/fullscreen-resize/mode-change/real-click resume/Stop-replay stress cycles remain responsive with advanced render control",
+        "passed": true
+      },
+      {
+        "name": "Closing during enhanced video playback completes native renderer teardown and leaves no child processes",
+        "passed": true
+      }
+    ],
+    "execution_method": "Completed coverage merged from same-SHA staged runs; not one uninterrupted test run",
+    "staged_raw_reports": [
+      {
+        "path": "native_windows_client/evidence/windows/diagnostics/candidate8_full_verification/native_windows_fsr_tests.json",
+        "sha256": "d6894aaa2572fe97fe6919eea2dd84f22aad99f64047aacd22c92e1706336069",
+        "scope": "Exact candidate8 shipping SFX: nine production-backend checks and nine selected media checks; the initial zero-count Light representative check is excluded.",
+        "selected_check_names": [
+          "Single release EXE extracts runtime and opens its own visible Flutter window with no browser/WebView children",
+          "All four approved pages load in the production Flutter/Go app",
+          "Exact two developer names and emails are shown at the top of sources and diagnostics",
+          "Simple three-choice quality dropdown can change and persist the Windows-only preference",
+          "Production in-app clear confirmation can cancel without changing persistent records",
+          "Actual read-only library write failure retains rows and allows retry",
+          "Actual production backend clears disk history while preserving favorites, bindings and settings",
+          "Repeated single-file launch restores the existing native window",
+          "Full release EXE restart keeps history empty and favorite available; window close ends child family",
+          "A viewport smaller than the source leaves the original 720p texture and avoids shader work",
+          "Actual shipping libmpv renders EASU and RCAS into a 1920x1080 output texture from a 1280x720 source",
+          "Enhanced 720p30 playback continues through at least ten measured shader and frame-drop samples on the local RTX 4060",
+          "Off removes FSR shader passes and restores the 1280x720 native output texture",
+          "Leaving playback pauses the active synthetic video, restore stays paused and manual resume continues it",
+          "Stop followed by replay advances video without losing the playback surface",
+          "Switching episodes keeps native video decoding and time progress",
+          "Continuous synthetic 720p HLS decodes through the authenticated relay and advances time",
+          "Actual Windows minimize pauses the native player and restore remains paused"
+        ],
+        "raw_run_had_later_failure": true,
+        "failure_scope_note": "A later 24fps selection did not advance; readiness was only checked with a common episode marker. The two-fps check was not counted from this run. Corrected current-title/current-FPS verification subsequently passed in the second same-SHA raw run. Prior synthetic-input/route readiness or disabled-control state was not independently isolated."
+      },
+      {
+        "path": "native_windows_client/evidence/windows/diagnostics/candidate8_remaining_verification/native_windows_fsr_tests.json",
+        "sha256": "27e612883c65583679d8905b23321f1c7750a4764d5c359e8a71c8cd5c14b2ab",
+        "scope": "Exact candidate8 shipping SFX: actual 720p24 and 720p60 enhanced1080 playback with continuous measured samples.",
+        "selected_check_names": [
+          "Synthetic 720p24 and 720p60 inputs also render the enhanced 1080p texture and progress on the local GPU"
+        ],
+        "raw_run_had_later_failure": true,
+        "failure_scope_note": "The later pressure attempt did not resume and these pressure checks were not counted from this run. Prior synthetic-input/route readiness or disabled-control state was not independently isolated. Current-node physical SetCursorPos plus SendInput, owned-point verification and explicit route settling subsequently passed all three own-page pause cycles and enhanced close in the third same-SHA raw run."
+      },
+      {
+        "path": "native_windows_client/evidence/windows/diagnostics/candidate8_physical_controls_pressure/native_windows_fsr_tests.json",
+        "sha256": "dd6e668e2fe3c104cfa05b8592c64f764050ac007f097925c26a113c6822c834",
+        "scope": "Exact candidate8 shipping SFX: three own-page pause/fullscreen/quality/actual OS SendInput resume/Stop-replay cycles, then close during real enhanced1080 playback.",
+        "selected_check_names": [
+          "Three actual own-page pause/fullscreen-resize/mode-change/real-click resume/Stop-replay stress cycles remain responsive with advanced render control",
+          "Closing during enhanced video playback completes native renderer teardown and leaves no child processes"
+        ],
+        "raw_run_had_later_failure": false,
+        "failure_scope_note": ""
+      },
+      {
+        "path": "native_windows_client/evidence/windows/diagnostics/candidate8_light_positive_count/native_windows_fsr_tests.json",
+        "sha256": "dcc330ff50581cf040bc9a677297db69c0a7120d0d58141fe0239757bef13831",
+        "scope": "Exact candidate8 shipping SFX: Light1080 actual RCAS execution with three positive-count timed samples and advancing video clock.",
+        "selected_check_names": [
+          "Light mode renders only mild FSR1 RCAS after bilinear enlargement and avoids EASU"
+        ],
+        "raw_run_had_later_failure": false,
+        "failure_scope_note": ""
+      }
+    ]
+  },
+  "actual_renderer_observations": {
+    "enhanced_720_to_1080": {
+      "time": "2026-10-14T12:37:41.301302Z",
+      "requested": "enhanced",
+      "effective": "enhanced",
+      "source": {
+        "width": 1280,
+        "height": 720
+      },
+      "output": {
+        "width": 1920,
+        "height": 1080
+      },
+      "fps": 30,
+      "rate": 1,
+      "position": 5.666666,
+      "vo_drops": 0,
+      "vo_drop_delta": 0,
+      "decoder_drops": 0,
+      "render_ms": 0.924777,
+      "vo_passes": [
+        {
+          "desc": "upload frame (naive)",
+          "avg": 609868,
+          "last": 122208,
+          "count": 162
+        },
+        {
+          "desc": "combining planes + color conversion",
+          "avg": 21462,
+          "last": 20128,
+          "count": 7
+        },
+        {
+          "desc": "user shader: YingXia FSR1 EASU (rgb)",
+          "avg": 171300,
+          "last": 152576,
+          "count": 7
+        },
+        {
+          "desc": "(remainder pass)",
+          "avg": 22820,
+          "last": 22528,
+          "count": 7
+        },
+        {
+          "desc": "scale=bilinear (rgb)",
+          "avg": 23259,
+          "last": 23552,
+          "count": 7
+        },
+        {
+          "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+          "avg": 55442,
+          "last": 55296,
+          "count": 7
+        },
+        {
+          "desc": "(remainder pass) + output to screen",
+          "avg": 20626,
+          "last": 19456,
+          "count": 7
+        },
+        {
+          "desc": "drawing osd",
+          "avg": 0,
+          "last": 0,
+          "count": 0
+        }
+      ],
+      "vo_passes_status": "available",
+      "shader_verified": true,
+      "hwdec": "d3d11va-copy",
+      "renderer": "hardware"
+    },
+    "light_720_to_1080": {
+      "time": "2026-10-14T13:06:34.546086Z",
+      "requested": "light",
+      "effective": "light",
+      "source": {
+        "width": 1280,
+        "height": 720
+      },
+      "output": {
+        "width": 1920,
+        "height": 1080
+      },
+      "fps": 30,
+      "rate": 1,
+      "position": 4.733333,
+      "vo_drops": 0,
+      "vo_drop_delta": 0,
+      "decoder_drops": 0,
+      "render_ms": 0.362683,
+      "vo_passes": [
+        {
+          "desc": "upload frame (naive)",
+          "avg": 126375,
+          "last": 115008,
+          "count": 134
+        },
+        {
+          "desc": "combining planes + color conversion",
+          "avg": 44822,
+          "last": 31040,
+          "count": 24
+        },
+        {
+          "desc": "scale=bilinear (rgb)",
+          "avg": 43764,
+          "last": 43008,
+          "count": 23
+        },
+        {
+          "desc": "user shader: YingXia FSR1 RCAS Light (rgb)",
+          "avg": 107074,
+          "last": 106496,
+          "count": 23
+        },
+        {
+          "desc": "(remainder pass) + output to screen",
+          "avg": 39624,
+          "last": 38912,
+          "count": 23
+        },
+        {
+          "desc": "drawing osd",
+          "avg": 1024,
+          "last": 1024,
+          "count": 2
+        }
+      ],
+      "vo_passes_status": "available",
+      "shader_verified": true,
+      "hwdec": "d3d11va-copy",
+      "renderer": "hardware"
+    },
+    "enhanced_observed_sample_count": 11,
+    "enhanced_observed_video_clock_seconds": 10.0,
+    "enhanced_sample_measurements": [
+      {
+        "time": "2026-10-14T12:37:41.301302Z",
+        "requested": "enhanced",
+        "effective": "enhanced",
+        "source": {
+          "width": 1280,
+          "height": 720
+        },
+        "output": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fps": 30,
+        "rate": 1,
+        "position": 5.666666,
+        "vo_drops": 0,
+        "vo_drop_delta": 0,
+        "decoder_drops": 0,
+        "render_ms": 0.924777,
+        "vo_passes": [
+          {
+            "desc": "upload frame (naive)",
+            "avg": 609868,
+            "last": 122208,
+            "count": 162
+          },
+          {
+            "desc": "combining planes + color conversion",
+            "avg": 21462,
+            "last": 20128,
+            "count": 7
+          },
+          {
+            "desc": "user shader: YingXia FSR1 EASU (rgb)",
+            "avg": 171300,
+            "last": 152576,
+            "count": 7
+          },
+          {
+            "desc": "(remainder pass)",
+            "avg": 22820,
+            "last": 22528,
+            "count": 7
+          },
+          {
+            "desc": "scale=bilinear (rgb)",
+            "avg": 23259,
+            "last": 23552,
+            "count": 7
+          },
+          {
+            "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+            "avg": 55442,
+            "last": 55296,
+            "count": 7
+          },
+          {
+            "desc": "(remainder pass) + output to screen",
+            "avg": 20626,
+            "last": 19456,
+            "count": 7
+          },
+          {
+            "desc": "drawing osd",
+            "avg": 0,
+            "last": 0,
+            "count": 0
+          }
+        ],
+        "vo_passes_status": "available",
+        "shader_verified": true,
+        "hwdec": "d3d11va-copy",
+        "renderer": "hardware"
+      },
+      {
+        "time": "2026-10-14T12:37:42.300490Z",
+        "requested": "enhanced",
+        "effective": "enhanced",
+        "source": {
+          "width": 1280,
+          "height": 720
+        },
+        "output": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fps": 30,
+        "rate": 1,
+        "position": 6.666666,
+        "vo_drops": 0,
+        "vo_drop_delta": 0,
+        "decoder_drops": 0,
+        "render_ms": 0.835031,
+        "vo_passes": [
+          {
+            "desc": "upload frame (naive)",
+            "avg": 533927,
+            "last": 121152,
+            "count": 192
+          },
+          {
+            "desc": "combining planes + color conversion",
+            "avg": 24377,
+            "last": 18112,
+            "count": 37
+          },
+          {
+            "desc": "user shader: YingXia FSR1 EASU (rgb)",
+            "avg": 156201,
+            "last": 151552,
+            "count": 37
+          },
+          {
+            "desc": "(remainder pass)",
+            "avg": 22777,
+            "last": 23552,
+            "count": 37
+          },
+          {
+            "desc": "scale=bilinear (rgb)",
+            "avg": 23109,
+            "last": 23552,
+            "count": 37
+          },
+          {
+            "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+            "avg": 54714,
+            "last": 54272,
+            "count": 37
+          },
+          {
+            "desc": "(remainder pass) + output to screen",
+            "avg": 19926,
+            "last": 19456,
+            "count": 37
+          },
+          {
+            "desc": "drawing osd",
+            "avg": 0,
+            "last": 0,
+            "count": 0
+          }
+        ],
+        "vo_passes_status": "available",
+        "shader_verified": true,
+        "hwdec": "d3d11va-copy",
+        "renderer": "hardware"
+      },
+      {
+        "time": "2026-10-14T12:37:43.299157Z",
+        "requested": "enhanced",
+        "effective": "enhanced",
+        "source": {
+          "width": 1280,
+          "height": 720
+        },
+        "output": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fps": 30,
+        "rate": 1,
+        "position": 7.666666,
+        "vo_drops": 0,
+        "vo_drop_delta": 0,
+        "decoder_drops": 0,
+        "render_ms": 0.77909,
+        "vo_passes": [
+          {
+            "desc": "upload frame (naive)",
+            "avg": 482599,
+            "last": 203776,
+            "count": 222
+          },
+          {
+            "desc": "combining planes + color conversion",
+            "avg": 21742,
+            "last": 17408,
+            "count": 67
+          },
+          {
+            "desc": "user shader: YingXia FSR1 EASU (rgb)",
+            "avg": 154348,
+            "last": 151552,
+            "count": 67
+          },
+          {
+            "desc": "(remainder pass)",
+            "avg": 22787,
+            "last": 23552,
+            "count": 67
+          },
+          {
+            "desc": "scale=bilinear (rgb)",
+            "avg": 23154,
+            "last": 22528,
+            "count": 67
+          },
+          {
+            "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+            "avg": 54638,
+            "last": 54272,
+            "count": 67
+          },
+          {
+            "desc": "(remainder pass) + output to screen",
+            "avg": 19822,
+            "last": 20480,
+            "count": 67
+          },
+          {
+            "desc": "drawing osd",
+            "avg": 0,
+            "last": 0,
+            "count": 0
+          }
+        ],
+        "vo_passes_status": "available",
+        "shader_verified": true,
+        "hwdec": "d3d11va-copy",
+        "renderer": "hardware"
+      },
+      {
+        "time": "2026-10-14T12:37:44.300713Z",
+        "requested": "enhanced",
+        "effective": "enhanced",
+        "source": {
+          "width": 1280,
+          "height": 720
+        },
+        "output": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fps": 30,
+        "rate": 1,
+        "position": 8.666666,
+        "vo_drops": 0,
+        "vo_drop_delta": 0,
+        "decoder_drops": 0,
+        "render_ms": 0.735825,
+        "vo_passes": [
+          {
+            "desc": "upload frame (naive)",
+            "avg": 440936,
+            "last": 121856,
+            "count": 252
+          },
+          {
+            "desc": "combining planes + color conversion",
+            "avg": 21093,
+            "last": 17408,
+            "count": 97
+          },
+          {
+            "desc": "user shader: YingXia FSR1 EASU (rgb)",
+            "avg": 153589,
+            "last": 151552,
+            "count": 97
+          },
+          {
+            "desc": "(remainder pass)",
+            "avg": 22834,
+            "last": 22528,
+            "count": 97
+          },
+          {
+            "desc": "scale=bilinear (rgb)",
+            "avg": 23034,
+            "last": 22528,
+            "count": 97
+          },
+          {
+            "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+            "avg": 54588,
+            "last": 54272,
+            "count": 97
+          },
+          {
+            "desc": "(remainder pass) + output to screen",
+            "avg": 19751,
+            "last": 19456,
+            "count": 97
+          },
+          {
+            "desc": "drawing osd",
+            "avg": 0,
+            "last": 0,
+            "count": 0
+          }
+        ],
+        "vo_passes_status": "available",
+        "shader_verified": true,
+        "hwdec": "d3d11va-copy",
+        "renderer": "hardware"
+      },
+      {
+        "time": "2026-10-14T12:37:45.301842Z",
+        "requested": "enhanced",
+        "effective": "enhanced",
+        "source": {
+          "width": 1280,
+          "height": 720
+        },
+        "output": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fps": 30,
+        "rate": 1,
+        "position": 9.666666,
+        "vo_drops": 0,
+        "vo_drop_delta": 0,
+        "decoder_drops": 0,
+        "render_ms": 1.268254,
+        "vo_passes": [
+          {
+            "desc": "upload frame (naive)",
+            "avg": 450796,
+            "last": 449536,
+            "count": 256
+          },
+          {
+            "desc": "combining planes + color conversion",
+            "avg": 34020,
+            "last": 112640,
+            "count": 127
+          },
+          {
+            "desc": "user shader: YingXia FSR1 EASU (rgb)",
+            "avg": 481078,
+            "last": 2489344,
+            "count": 127
+          },
+          {
+            "desc": "(remainder pass)",
+            "avg": 87233,
+            "last": 163840,
+            "count": 127
+          },
+          {
+            "desc": "scale=bilinear (rgb)",
+            "avg": 42588,
+            "last": 173056,
+            "count": 127
+          },
+          {
+            "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+            "avg": 114696,
+            "last": 418816,
+            "count": 127
+          },
+          {
+            "desc": "(remainder pass) + output to screen",
+            "avg": 56819,
+            "last": 153600,
+            "count": 127
+          },
+          {
+            "desc": "drawing osd",
+            "avg": 1024,
+            "last": 1024,
+            "count": 1
+          }
+        ],
+        "vo_passes_status": "available",
+        "shader_verified": true,
+        "hwdec": "d3d11va-copy",
+        "renderer": "hardware"
+      },
+      {
+        "time": "2026-10-14T12:37:46.302041Z",
+        "requested": "enhanced",
+        "effective": "enhanced",
+        "source": {
+          "width": 1280,
+          "height": 720
+        },
+        "output": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fps": 30,
+        "rate": 1,
+        "position": 10.666666,
+        "vo_drops": 0,
+        "vo_drop_delta": 0,
+        "decoder_drops": 0,
+        "render_ms": 1.864462,
+        "vo_passes": [
+          {
+            "desc": "upload frame (naive)",
+            "avg": 483813,
+            "last": 443392,
+            "count": 256
+          },
+          {
+            "desc": "combining planes + color conversion",
+            "avg": 62333,
+            "last": 195584,
+            "count": 157
+          },
+          {
+            "desc": "user shader: YingXia FSR1 EASU (rgb)",
+            "avg": 793221,
+            "last": 924672,
+            "count": 157
+          },
+          {
+            "desc": "(remainder pass)",
+            "avg": 154389,
+            "last": 1387520,
+            "count": 157
+          },
+          {
+            "desc": "scale=bilinear (rgb)",
+            "avg": 73127,
+            "last": 258048,
+            "count": 157
+          },
+          {
+            "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+            "avg": 207428,
+            "last": 374784,
+            "count": 157
+          },
+          {
+            "desc": "(remainder pass) + output to screen",
+            "avg": 89127,
+            "last": 119808,
+            "count": 157
+          },
+          {
+            "desc": "drawing osd",
+            "avg": 1024,
+            "last": 1024,
+            "count": 1
+          }
+        ],
+        "vo_passes_status": "available",
+        "shader_verified": true,
+        "hwdec": "d3d11va-copy",
+        "renderer": "hardware"
+      },
+      {
+        "time": "2026-10-14T12:37:47.301871Z",
+        "requested": "enhanced",
+        "effective": "enhanced",
+        "source": {
+          "width": 1280,
+          "height": 720
+        },
+        "output": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fps": 30,
+        "rate": 1,
+        "position": 11.666666,
+        "vo_drops": 0,
+        "vo_drop_delta": 0,
+        "decoder_drops": 0,
+        "render_ms": 2.224953,
+        "vo_passes": [
+          {
+            "desc": "upload frame (naive)",
+            "avg": 520632,
+            "last": 450560,
+            "count": 256
+          },
+          {
+            "desc": "combining planes + color conversion",
+            "avg": 72548,
+            "last": 105472,
+            "count": 187
+          },
+          {
+            "desc": "user shader: YingXia FSR1 EASU (rgb)",
+            "avg": 1015074,
+            "last": 2041856,
+            "count": 187
+          },
+          {
+            "desc": "(remainder pass)",
+            "avg": 165510,
+            "last": 120832,
+            "count": 187
+          },
+          {
+            "desc": "scale=bilinear (rgb)",
+            "avg": 93392,
+            "last": 183296,
+            "count": 187
+          },
+          {
+            "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+            "avg": 243531,
+            "last": 407552,
+            "count": 187
+          },
+          {
+            "desc": "(remainder pass) + output to screen",
+            "avg": 113242,
+            "last": 146432,
+            "count": 187
+          },
+          {
+            "desc": "drawing osd",
+            "avg": 1024,
+            "last": 1024,
+            "count": 1
+          }
+        ],
+        "vo_passes_status": "available",
+        "shader_verified": true,
+        "hwdec": "d3d11va-copy",
+        "renderer": "hardware"
+      },
+      {
+        "time": "2026-10-14T12:37:48.301918Z",
+        "requested": "enhanced",
+        "effective": "enhanced",
+        "source": {
+          "width": 1280,
+          "height": 720
+        },
+        "output": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fps": 30,
+        "rate": 1,
+        "position": 12.666666,
+        "vo_drops": 0,
+        "vo_drop_delta": 0,
+        "decoder_drops": 0,
+        "render_ms": 2.458916,
+        "vo_passes": [
+          {
+            "desc": "upload frame (naive)",
+            "avg": 557366,
+            "last": 443392,
+            "count": 256
+          },
+          {
+            "desc": "combining planes + color conversion",
+            "avg": 76850,
+            "last": 192512,
+            "count": 217
+          },
+          {
+            "desc": "user shader: YingXia FSR1 EASU (rgb)",
+            "avg": 1156959,
+            "last": 1956864,
+            "count": 217
+          },
+          {
+            "desc": "(remainder pass)",
+            "avg": 165416,
+            "last": 120832,
+            "count": 217
+          },
+          {
+            "desc": "scale=bilinear (rgb)",
+            "avg": 107623,
+            "last": 143360,
+            "count": 217
+          },
+          {
+            "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+            "avg": 266938,
+            "last": 303104,
+            "count": 217
+          },
+          {
+            "desc": "(remainder pass) + output to screen",
+            "avg": 126740,
+            "last": 139264,
+            "count": 217
+          },
+          {
+            "desc": "drawing osd",
+            "avg": 1024,
+            "last": 1024,
+            "count": 1
+          }
+        ],
+        "vo_passes_status": "available",
+        "shader_verified": true,
+        "hwdec": "d3d11va-copy",
+        "renderer": "hardware"
+      },
+      {
+        "time": "2026-10-14T12:37:49.302466Z",
+        "requested": "enhanced",
+        "effective": "enhanced",
+        "source": {
+          "width": 1280,
+          "height": 720
+        },
+        "output": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fps": 30,
+        "rate": 1,
+        "position": 13.666666,
+        "vo_drops": 0,
+        "vo_drop_delta": 0,
+        "decoder_drops": 0,
+        "render_ms": 2.620486,
+        "vo_passes": [
+          {
+            "desc": "upload frame (naive)",
+            "avg": 593985,
+            "last": 440320,
+            "count": 256
+          },
+          {
+            "desc": "combining planes + color conversion",
+            "avg": 80576,
+            "last": 132096,
+            "count": 247
+          },
+          {
+            "desc": "user shader: YingXia FSR1 EASU (rgb)",
+            "avg": 1262123,
+            "last": 1973248,
+            "count": 247
+          },
+          {
+            "desc": "(remainder pass)",
+            "avg": 160440,
+            "last": 123904,
+            "count": 247
+          },
+          {
+            "desc": "scale=bilinear (rgb)",
+            "avg": 111910,
+            "last": 131072,
+            "count": 247
+          },
+          {
+            "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+            "avg": 278581,
+            "last": 334848,
+            "count": 247
+          },
+          {
+            "desc": "(remainder pass) + output to screen",
+            "avg": 131847,
+            "last": 146432,
+            "count": 247
+          },
+          {
+            "desc": "drawing osd",
+            "avg": 1024,
+            "last": 1024,
+            "count": 1
+          }
+        ],
+        "vo_passes_status": "available",
+        "shader_verified": true,
+        "hwdec": "d3d11va-copy",
+        "renderer": "hardware"
+      },
+      {
+        "time": "2026-10-14T12:37:50.302887Z",
+        "requested": "enhanced",
+        "effective": "enhanced",
+        "source": {
+          "width": 1280,
+          "height": 720
+        },
+        "output": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fps": 30,
+        "rate": 1,
+        "position": 14.666666,
+        "vo_drops": 0,
+        "vo_drop_delta": 0,
+        "decoder_drops": 0,
+        "render_ms": 2.627563,
+        "vo_passes": [
+          {
+            "desc": "upload frame (naive)",
+            "avg": 323173,
+            "last": 442368,
+            "count": 256
+          },
+          {
+            "desc": "combining planes + color conversion",
+            "avg": 89758,
+            "last": 347136,
+            "count": 256
+          },
+          {
+            "desc": "user shader: YingXia FSR1 EASU (rgb)",
+            "avg": 1450220,
+            "last": 2001920,
+            "count": 256
+          },
+          {
+            "desc": "(remainder pass)",
+            "avg": 177852,
+            "last": 120832,
+            "count": 256
+          },
+          {
+            "desc": "scale=bilinear (rgb)",
+            "avg": 123664,
+            "last": 240640,
+            "count": 256
+          },
+          {
+            "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+            "avg": 308080,
+            "last": 350208,
+            "count": 256
+          },
+          {
+            "desc": "(remainder pass) + output to screen",
+            "avg": 153792,
+            "last": 124928,
+            "count": 256
+          },
+          {
+            "desc": "drawing osd",
+            "avg": 1024,
+            "last": 1024,
+            "count": 2
+          }
+        ],
+        "vo_passes_status": "available",
+        "shader_verified": true,
+        "hwdec": "d3d11va-copy",
+        "renderer": "hardware"
+      },
+      {
+        "time": "2026-10-14T12:37:51.301558Z",
+        "requested": "enhanced",
+        "effective": "enhanced",
+        "source": {
+          "width": 1280,
+          "height": 720
+        },
+        "output": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fps": 30,
+        "rate": 1,
+        "position": 15.666666,
+        "vo_drops": 0,
+        "vo_drop_delta": 0,
+        "decoder_drops": 0,
+        "render_ms": 2.984703,
+        "vo_passes": [
+          {
+            "desc": "upload frame (naive)",
+            "avg": 359014,
+            "last": 441344,
+            "count": 256
+          },
+          {
+            "desc": "combining planes + color conversion",
+            "avg": 104213,
+            "last": 101376,
+            "count": 256
+          },
+          {
+            "desc": "user shader: YingXia FSR1 EASU (rgb)",
+            "avg": 1649236,
+            "last": 1976320,
+            "count": 256
+          },
+          {
+            "desc": "(remainder pass)",
+            "avg": 214884,
+            "last": 108544,
+            "count": 256
+          },
+          {
+            "desc": "scale=bilinear (rgb)",
+            "avg": 140716,
+            "last": 132096,
+            "count": 256
+          },
+          {
+            "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+            "avg": 343736,
+            "last": 317440,
+            "count": 256
+          },
+          {
+            "desc": "(remainder pass) + output to screen",
+            "avg": 171880,
+            "last": 245760,
+            "count": 256
+          },
+          {
+            "desc": "drawing osd",
+            "avg": 1024,
+            "last": 1024,
+            "count": 2
+          }
+        ],
+        "vo_passes_status": "available",
+        "shader_verified": true,
+        "hwdec": "d3d11va-copy",
+        "renderer": "hardware"
+      }
+    ],
+    "measurement_scope": "Actual libmpv vo-passes values during synthetic video on the local RTX 4060; not integrated-GPU throughput or end-to-end presentation latency",
+    "enhanced_observed_render_ms": {
+      "count": 11,
+      "minimum": 0.735825,
+      "median": 1.864462,
+      "maximum": 2.984703
+    }
+  },
+  "embedded_runtime_bundle": {
+    "sha256": "4e4bb0247ee980164b32168f17309fb631f14810193b66d264585d0a80892cd9",
+    "file_count": 244,
+    "crc_verified": true,
+    "all_decompressed_file_sha256_verified": true
+  },
+  "other_validation": {
+    "controller_and_widget": {
+      "passed": 27,
+      "analyze_no_issues": true,
+      "automatic_downgrade_scope": "Deterministic controller tests with controlled drop/GPU samples; actual integrated-GPU frame drops were not forced"
+    },
+    "launcher": {
+      "pass_records": 10,
+      "harness_skips": 1,
+      "vet_clean": true
+    },
+    "fixture_transport": {
+      "passed": 6,
+      "synthetic_media_only": true
+    },
+    "shader_rgb": {
+      "passed": true,
+      "glsl_versions": [
+        100,
+        300
+      ],
+      "stages_per_language": 3,
+      "sampled_pixels_per_stage": 8210,
+      "actual_gl_versions": [
+        "OpenGL ES 3.0.0 (ANGLE 2.1.18844 git hash: 2693b03eba82)",
+        "OpenGL ES 3.0.0 (ANGLE 2.1.18844 git hash: 2693b03eba82)"
+      ],
+      "scope": "Synthetic 1280x720 SDR RGBA8 texture -> 1920x1080 private ANGLE pbuffer. Compiler, pixel algorithm and isolated draw/finish timing only; not video playback or integrated-GPU throughput."
+    }
+  },
+  "source_byte_coverage": {
+    "candidate": "YingXia_candidate8.exe",
+    "unchanged_during_build": true,
+    "live_hashes_verified": true,
+    "frozen_file_count": 84,
+    "files": [
+      {
+        "path": "assets/shaders/fsr1_enhanced.glsl",
+        "size": 7470,
+        "sha256": "2b09775acb4a61baa343e9a6ab25f71f123be5e33b7db0b6089bfdcb4a090224"
+      },
+      {
+        "path": "assets/shaders/fsr1_light.glsl",
+        "size": 3078,
+        "sha256": "cf2fd095a8ab1a6f09cccba8ee67826414f1c381c805eb8fee0db15cde5161bd"
+      },
+      {
+        "path": "assets/shaders/LICENSE_AMD_FSR1.txt",
+        "size": 1094,
+        "sha256": "db089274ce766da70f5b7d791029c3486f9f9e27c8c79c652689603d3192e802"
+      },
+      {
+        "path": "assets/shaders/README_zh.md",
+        "size": 3738,
+        "sha256": "a68b6b6c111843a38622761b3ea7fe16e79a11975be5d96202c077046f8032e9"
+      },
+      {
+        "path": "assets/shaders/upstream/ffx_a.h",
+        "size": 181915,
+        "sha256": "f60e2722fcd13989523b9164d776ab382b3692791767f3bf8bb19967f763f3fb"
+      },
+      {
+        "path": "assets/shaders/upstream/ffx_fsr1.h",
+        "size": 60310,
+        "sha256": "93c3922362ea7fc99cbcc698ca30c98de4f8c246d1fbb0b09e015ddef38ce3a5"
+      },
+      {
+        "path": "build_windows_native.ps1",
+        "size": 7122,
+        "sha256": "dcc64501b25433de244d94087c455971b9a67022e5fa9c892a4e3734630cff69"
+      },
+      {
+        "path": "launcher/build_launcher.ps1",
+        "size": 2656,
+        "sha256": "38dfebc8b8394f90df4af33ad5f334897d0f88f6965b95e80b4e74f596a50ab3"
+      },
+      {
+        "path": "launcher/build_resources.ps1",
+        "size": 1689,
+        "sha256": "f4d40208990f7812f9e74321544b657953fb2062b01be5929ed46bdb6194fe4a"
+      },
+      {
+        "path": "launcher/extract_test.go",
+        "size": 3566,
+        "sha256": "18306ac831b45a6c85fcd72d86aaf79ae453aff0283b5cbf71250a98d3fec224"
+      },
+      {
+        "path": "launcher/extract.go",
+        "size": 5756,
+        "sha256": "a6bcf009f69c940168e002d33f51bc518a670af43be05895111d144e8499a47f"
+      },
+      {
+        "path": "launcher/go.mod",
+        "size": 49,
+        "sha256": "77bc5fc888db7a88450681c0cf9b6a962a6173aec7fb94f1421a9415c79dfa6d"
+      },
+      {
+        "path": "launcher/job_windows_test.go",
+        "size": 1496,
+        "sha256": "2e9de333b4f38ae80a7f452497badf6545a8f636e62c5ce04d3d265e91748492"
+      },
+      {
+        "path": "launcher/job_windows.go",
+        "size": 3457,
+        "sha256": "141c2707fd367e0e3378abe3c29f29bbed3bb4a066fff1d019681be14edd9716"
+      },
+      {
+        "path": "launcher/launcher.manifest",
+        "size": 818,
+        "sha256": "7cdf08e8a7a9c682123bdaf1a5ddcd0592cf42c04c135a1cbca15b97abcbb1ad"
+      },
+      {
+        "path": "launcher/launcher.rc",
+        "size": 909,
+        "sha256": "37252f1a70467338892e1ef6edc6797278b5687f9dc57ac27588102d93079d5d"
+      },
+      {
+        "path": "launcher/main.go",
+        "size": 3346,
+        "sha256": "ab819c049a590e07e453d25cb7ce72cba9e3b732face5f487927ec83dc1342c2"
+      },
+      {
+        "path": "launcher/resource_windows_amd64.syso",
+        "size": 10304,
+        "sha256": "ecc96a771d0889accdd07bc54ade0536d414ef4bc98848ebc7cf88300e44b302"
+      },
+      {
+        "path": "lib/backend.dart",
+        "size": 6793,
+        "sha256": "a1f2a0193d5d13e8339a9c172c687768d7cc57dc3c0c7e4986014bf98aee3bdb"
+      },
+      {
+        "path": "lib/main.dart",
+        "size": 280,
+        "sha256": "cd312ff232144b06d228e21569fd4e5a5ca10096da1a8c3bc9f28c1a243113cb"
+      },
+      {
+        "path": "lib/mpv_nodes.dart",
+        "size": 2117,
+        "sha256": "a827f6e584e7bf493c6bcbe121791a7ed8c9cc95ddaa44a6851bcb8538db9f5b"
+      },
+      {
+        "path": "lib/playback_evidence.dart",
+        "size": 1135,
+        "sha256": "f73fb9008cce9d6b26eaad74da97f170893ada5d3defb88abbf31896ab77bd9f"
+      },
+      {
+        "path": "lib/video_quality.dart",
+        "size": 25854,
+        "sha256": "4a2fbb990532952a3bb3d63724608469323f96785599bbf986161c2cce4d03cf"
+      },
+      {
+        "path": "lib/yingxia_app.dart",
+        "size": 97463,
+        "sha256": "64d4a30fed7b66bc090cb2db919dbe7b80807fea92d7d1ee8298e67751379ff3"
+      },
+      {
+        "path": "pubspec.lock",
+        "size": 14276,
+        "sha256": "39cb0db8da3a9747efa9b22e2d012f13a3a67cb298771e8291c384eb75a84664"
+      },
+      {
+        "path": "pubspec.yaml",
+        "size": 614,
+        "sha256": "5d86dec572d2781a03a257d449b3cd2d98eeabc11e9b7c5b160277a1782fb891"
+      },
+      {
+        "path": "THIRD_PARTY_NOTICES.md",
+        "size": 12828,
+        "sha256": "e5302e9c927d43088cc575e45802ca77fa5c236313306fd660f563370a44a3bb"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/media_kit_video_controls/media_kit_video_controls.dart",
+        "size": 952,
+        "sha256": "4901d14792106c468c04b3d2d15dda597801a656b368dda90579d7e58702289e"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/media_kit_video_controls/src/controls/adaptive.dart",
+        "size": 948,
+        "sha256": "e28dc90a2372db010a854180a8e1915e492f3e58769e2ddbc7f4a2ec53c84f94"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/media_kit_video_controls/src/controls/extensions/duration.dart",
+        "size": 1679,
+        "sha256": "1af8a711442f244bce06351ab4c887ea3474a0d2e58b24a169204a02b50f8153"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/media_kit_video_controls/src/controls/material_desktop.dart",
+        "size": 59075,
+        "sha256": "df95cfb1befe513c42f79e45a08e95ab1118901dfe7899b54d19bd567ccf96bd"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/media_kit_video_controls/src/controls/material.dart",
+        "size": 81965,
+        "sha256": "d5a85321c74fda473fe990f63928f769cf92d51e7132053038edadb354de6917"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/media_kit_video_controls/src/controls/methods/fullscreen.dart",
+        "size": 5584,
+        "sha256": "9ce478242e56e1f4cc9c89004db0dd061b4998bb0d19d45eb4bffea676087468"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/media_kit_video_controls/src/controls/methods/video_state.dart",
+        "size": 1848,
+        "sha256": "2cee29a9dcc7b36b040a9259f9d1d532a3538270484e4f640e6752033e03e388"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/media_kit_video_controls/src/controls/no.dart",
+        "size": 506,
+        "sha256": "cf65a946fc93263e32b673709c5071d438962708aef8d7ba90f3472ad2e0040a"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/media_kit_video_controls/src/controls/widgets/fullscreen_inherited_widget.dart",
+        "size": 2295,
+        "sha256": "72b5b61e02d4af30e8f87f779d69cd16fd711d3f8e925f53afa9d2adc520d423"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/media_kit_video_controls/src/controls/widgets/video_controls_theme_data_injector.dart",
+        "size": 2754,
+        "sha256": "00eb7df746abcf93fe0a04cf44769df62cd0489a8c5e0450893cae02f62e77bf"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/media_kit_video_controls/src/controls/widgets/video_state_inherited_widget.dart",
+        "size": 3947,
+        "sha256": "bc4eca3b14a6ae5f3d9bed2998c995fe32a0ca40bb7808e0453f8722bb009463"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/media_kit_video.dart",
+        "size": 723,
+        "sha256": "4ea6d06788b4b6f4ace41a489b4f92fed2b682e7e756a67c6814e03b10d7e3be"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/src/subtitle/subtitle_view.dart",
+        "size": 4696,
+        "sha256": "9cea28cd5ddacffcf7ee8a1adbdd6e01050987f6360eeb491be19e87066711d3"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/src/utils/dispose_safe_notifer.dart",
+        "size": 237,
+        "sha256": "f1ab18fc70b1021fd81c8964436deb437fa11ab8ff48eef645870f3d62e5b686"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/src/utils/query_decoders.dart",
+        "size": 2439,
+        "sha256": "517150e00cfb951617a086cb50f53f0bc77707b74dd689161eab876dc0182e20"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/src/utils/wakelock.dart",
+        "size": 1252,
+        "sha256": "7e5aeaa38de5a58672839efc9433e3d1088db1952263a41b5d2749011c4818f4"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/src/video_controller/android_video_controller/android_video_controller.dart",
+        "size": 343,
+        "sha256": "6f20c3f792fe44d6046f6c87c7e0183283b4e68ead85dd90de271b88770d2bb0"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/src/video_controller/android_video_controller/real.dart",
+        "size": 10545,
+        "sha256": "d76d0b93457df4ec05c2f599d253fcee8136ba09a8c9dc3484b55180dbaefbae"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/src/video_controller/android_video_controller/stub.dart",
+        "size": 937,
+        "sha256": "581527fdc99bfc7fb637a9e04865ae46a94097be181bdceaff4d09ecf1d891cc"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/src/video_controller/native_video_controller/native_video_controller.dart",
+        "size": 343,
+        "sha256": "6f20c3f792fe44d6046f6c87c7e0183283b4e68ead85dd90de271b88770d2bb0"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/src/video_controller/native_video_controller/real.dart",
+        "size": 9738,
+        "sha256": "3959dde661ca9bdd8002b6a530a3d779bac4f12e71e1c508d7235ded6953d058"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/src/video_controller/native_video_controller/stub.dart",
+        "size": 935,
+        "sha256": "b6d251ca079f745bb2ea42e9dbe10aa0ee234eddb23061ef4bb9a60bb3a301e0"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/src/video_controller/platform_video_controller.dart",
+        "size": 5179,
+        "sha256": "20879ee1e66eb35dcd742ce5e8f04e088bb0feee4272180b77057f00c0bfeac2"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/src/video_controller/video_controller.dart",
+        "size": 6870,
+        "sha256": "ebf6cc4aae5acbc15280ecac75afba4fae73625bcd2fbffe64b399e6cc6a77d7"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/src/video_controller/web_video_controller/real.dart",
+        "size": 4652,
+        "sha256": "cad0db2985b177f61f66ac6ad6ef64dd6940f0113c48de690c41bbffdee39b9d"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/src/video_controller/web_video_controller/stub.dart",
+        "size": 933,
+        "sha256": "ba0300ce573f254b16a7c71dc64a78d41203a0e9d1cd7cad23389453cbba480e"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/src/video_controller/web_video_controller/web_video_controller.dart",
+        "size": 343,
+        "sha256": "3d480e2682e16a617e50fa23a452bcb9863d380da6d0a800a5c2787aea1d065d"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/src/video_view_parameters.dart",
+        "size": 3247,
+        "sha256": "6ef2a305b5c52f0a4ee9eb0d6039aaa869b4f860659617976af5459935bf2436"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/src/video/video_texture.dart",
+        "size": 18989,
+        "sha256": "aa6857facfb9c4695be1c7d11328bc81a3e2d459cbdce0a4b3c578df5a94c134"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/src/video/video_web.dart",
+        "size": 16112,
+        "sha256": "387bb0bfa916730c9cdf123fa048e74c8114fa078051d1dfe538efad91463eb3"
+      },
+      {
+        "path": "vendor/media_kit_video/lib/src/video/video.dart",
+        "size": 358,
+        "sha256": "71e7e33a98dc03a90faf61e4c1dcf41b89150e35aceaf15ae1e30589fefd743c"
+      },
+      {
+        "path": "vendor/media_kit_video/windows/angle_surface_manager.cc",
+        "size": 13269,
+        "sha256": "adf40ed64ce91b68ce78004b4523a97adfc598e05b4ece536ce39ddf99fac79b"
+      },
+      {
+        "path": "vendor/media_kit_video/windows/angle_surface_manager.h",
+        "size": 4547,
+        "sha256": "fa109a5ef613a49653d84b99a9c5e576200d8446ce8d208b93409553d13517a4"
+      },
+      {
+        "path": "vendor/media_kit_video/windows/CMakeLists.txt",
+        "size": 2474,
+        "sha256": "b147d9ab05b1ede23a86f9b73d56f3ad244dfb97acd65ceb3bf1e818edd2ef40"
+      },
+      {
+        "path": "vendor/media_kit_video/windows/include/media_kit_video/media_kit_video_plugin_c_api.h",
+        "size": 855,
+        "sha256": "3e77e3cf6dee4025f146a2f4e7b5e899805208b290e7f81870c5212aa34274b7"
+      },
+      {
+        "path": "vendor/media_kit_video/windows/media_kit_video_plugin_c_api.cc",
+        "size": 999,
+        "sha256": "ec649f6f81c8d90c3c5c31382e641133cb44596129dc5f0cb902826efa828093"
+      },
+      {
+        "path": "vendor/media_kit_video/windows/media_kit_video_plugin.cc",
+        "size": 9472,
+        "sha256": "ac55ec8b6d7320b79769ae44c2bc85a297f1a49ca8b6a17d6fd3d903e52d58d2"
+      },
+      {
+        "path": "vendor/media_kit_video/windows/media_kit_video_plugin.h",
+        "size": 1904,
+        "sha256": "bdda89b0d544eacd39be71c7bfcf21e1b47add28267f6cb0198c2c2567ac8526"
+      },
+      {
+        "path": "vendor/media_kit_video/windows/thread_pool.h",
+        "size": 2382,
+        "sha256": "1c767f4ae025e8e6f9d4274cddd023744f0cabb8998cdbc89b4d75a6f19c0be1"
+      },
+      {
+        "path": "vendor/media_kit_video/windows/utils.cc",
+        "size": 3884,
+        "sha256": "e5161298b1c4c464e9171cd82368d579d177b185fab5fd558efaf5ea550f56da"
+      },
+      {
+        "path": "vendor/media_kit_video/windows/utils.h",
+        "size": 748,
+        "sha256": "ad314a7d96702e7dc3ede782b6953cfcfce4fdc87d952d8b16c032cae51e0770"
+      },
+      {
+        "path": "vendor/media_kit_video/windows/video_output_manager.cc",
+        "size": 3349,
+        "sha256": "786d23499f251eafd8671351866b2bd4de68d5b14fdbd0ab33ce40ba11af9967"
+      },
+      {
+        "path": "vendor/media_kit_video/windows/video_output_manager.h",
+        "size": 4382,
+        "sha256": "b5a160bbe8f4be420a4318c82f1eeccfd1c3d80d63fed2628fd481d2d1422321"
+      },
+      {
+        "path": "vendor/media_kit_video/windows/video_output.cc",
+        "size": 20119,
+        "sha256": "0f169ccb1af47f5a84bbc01380f3c77a2c1bdadeb5f2bcbb3cd5a0d9aa1da4ee"
+      },
+      {
+        "path": "vendor/media_kit_video/windows/video_output.h",
+        "size": 4593,
+        "sha256": "b13e125d0e97fd5849fc8db309550b56adcf5538271db0d5f40fdccb9fcbda77"
+      },
+      {
+        "path": "windows/runner/CMakeLists.txt",
+        "size": 1891,
+        "sha256": "805848d398016fb26fb191c63dede59e495ccbdc5e92b380b523ae534bf2d3cb"
+      },
+      {
+        "path": "windows/runner/flutter_window.cpp",
+        "size": 2193,
+        "sha256": "d615eedc06ae37321e59c2c00c7687d1887dcd97904eb7225fafd8dcb5b83da6"
+      },
+      {
+        "path": "windows/runner/flutter_window.h",
+        "size": 961,
+        "sha256": "0252b804f5da380c7709cbe1daff2b8d18daf6c49d7e6dd43e5af3c99c19f56c"
+      },
+      {
+        "path": "windows/runner/main.cpp",
+        "size": 1313,
+        "sha256": "753c647e32e5e592ca294f497e47f6257b1e919dd17211af27f7b5d72096edbc"
+      },
+      {
+        "path": "windows/runner/resource.h",
+        "size": 448,
+        "sha256": "d0e8bf7835468b4b6b1f8f0747f2e8f25c19841f2df2ac60aaa584ddae3aa7c6"
+      },
+      {
+        "path": "windows/runner/resources/app_icon.ico",
+        "size": 7141,
+        "sha256": "168b58d488ecec313fbf00ee42470447163e1d04235cfbeab9ee3da745f0e000"
+      },
+      {
+        "path": "windows/runner/runner.exe.manifest",
+        "size": 819,
+        "sha256": "f10d28d7e320fb6b35410158bb4a692252e4c33ba1792ef94aa7f7f8e3783126"
+      },
+      {
+        "path": "windows/runner/Runner.rc",
+        "size": 3169,
+        "sha256": "0267b1828629fe965d6b17ebcc22db53347393c63ff065c533beb45e2c2c1fa3"
+      },
+      {
+        "path": "windows/runner/utils.cpp",
+        "size": 2237,
+        "sha256": "a128b67b9f3c2579e2ecef5b0dde2c33f222a097cdfe5da2a3067c73d1485b39"
+      },
+      {
+        "path": "windows/runner/utils.h",
+        "size": 691,
+        "sha256": "832e246b6758253f89016fb0374b30791242e97ad950d27fc678b3d9feacfdc4"
+      },
+      {
+        "path": "windows/runner/win32_window.cpp",
+        "size": 8325,
+        "sha256": "978d80307353b17a00c3d3d8d75f13d53b7053dd13d6901220418434d7c1836d"
+      },
+      {
+        "path": "windows/runner/win32_window.h",
+        "size": 3624,
+        "sha256": "d154cf89ba85f820631a9b5bedacbe64fc5815e428fe6bc5da579ce649f69841"
+      }
+    ],
+    "coverage_scope": "Exact files recorded in the selected candidate's before/after build snapshot; release-only helpers and later QA evidence are outside compiled code"
+  },
+  "immutable_older_software_and_backend": [
+    {
+      "file": "YingXia_v1.3.2_Windows_x64.exe",
+      "path": "releases/YingXia_v1.3.2_Windows_x64.exe",
+      "size": 11376128,
+      "sha256": "63ea2d697008c28b9d423c0a803ecc420760fb8d2f6de39e39e03724573ab84e",
+      "unchanged": true
+    },
+    {
+      "file": "YingXia_v2.0.0_Native_Windows_x64.exe",
+      "path": "releases/YingXia_v2.0.0_Native_Windows_x64.exe",
+      "size": 60237824,
+      "sha256": "dd2062a005e12626033ab5f4281be7a540c4616a2f9d0edae16654cbb6889f3b",
+      "unchanged": true
+    },
+    {
+      "file": "YingXia_v2.0.0_Android.apk",
+      "path": "releases/YingXia_v2.0.0_Android.apk",
+      "size": 124097983,
+      "sha256": "b9d470913a117005b89006e137b7517e6bafafd717ba96b91efe934677a4f9a6",
+      "unchanged": true
+    },
+    {
+      "file": "yingxia_backend.exe",
+      "path": "native_core/build/yingxia_backend.exe",
+      "size": 9220096,
+      "sha256": "0e2febcd74110cda5547da784efaccfe7025e68ae65d6219173b2502acd24077",
+      "unchanged": true
+    }
+  ],
+  "evidence": [
+    {
+      "path": "native_windows_client/evidence/fsr_shader/angle_rgb_validation.json",
+      "size": 5671,
+      "sha256": "259772a0f20e86f4972d22a6afcc266520bbd06157301493e85847f7ef4649ac",
+      "scope": "Independent shader compilation and sampled RGB algorithm checks"
+    },
+    {
+      "path": "native_windows_client/evidence/controller/analyze.log",
+      "size": 99,
+      "sha256": "d2cdfa785f1b9a2277ae53f49e54996b3c3f1c6a01ab35442491e8ad10b88eda",
+      "scope": "Flutter analysis"
+    },
+    {
+      "path": "native_windows_client/evidence/controller/flutter_tests.log",
+      "size": 5256,
+      "sha256": "56d681ea55d95e2ec56e9229a2b56966bd72fb10b565ccc4e17a626b9ad1a4d8",
+      "scope": "27 unit/controller/widget checks"
+    },
+    {
+      "path": "native_windows_client/evidence/launcher_tests.log",
+      "size": 1483,
+      "sha256": "ec6039366baf4099e7aa2f41c542510f8f9aa8f2db22c99c7432ea86b620efe1",
+      "scope": "10 Go PASS records and one explicit child-harness skip"
+    },
+    {
+      "path": "native_windows_client/evidence/launcher_vet.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "scope": "Go launcher vet"
+    },
+    {
+      "path": "native_windows_client/evidence/fixture/transport.json",
+      "size": 442,
+      "sha256": "fb509131a97f81f1c3b1139000fbd583ba771d6d5d001ee459447ce4c314ed9d",
+      "scope": "Six private synthetic-media transport checks"
+    },
+    {
+      "path": "native_windows_client/evidence/gpu_inventory.json",
+      "size": 352,
+      "sha256": "7f73abf12b534bae8f39ccd80c8b39db55dc9244251d9cec9bab73597093d228",
+      "scope": "Read-only local adapter inventory"
+    },
+    {
+      "path": "native_windows_client/evidence/windows/diagnostics/candidate8_full_verification/native_windows_fsr_tests.json",
+      "size": 46428,
+      "sha256": "d6894aaa2572fe97fe6919eea2dd84f22aad99f64047aacd22c92e1706336069",
+      "scope": "Staged actual runtime evidence: Exact candidate8 shipping SFX: nine production-backend checks and nine selected media checks; the initial zero-count Light representative check is excluded."
+    },
+    {
+      "path": "native_windows_client/evidence/windows/diagnostics/candidate8_remaining_verification/native_windows_fsr_tests.json",
+      "size": 48162,
+      "sha256": "27e612883c65583679d8905b23321f1c7750a4764d5c359e8a71c8cd5c14b2ab",
+      "scope": "Staged actual runtime evidence: Exact candidate8 shipping SFX: actual 720p24 and 720p60 enhanced1080 playback with continuous measured samples."
+    },
+    {
+      "path": "native_windows_client/evidence/windows/diagnostics/candidate8_physical_controls_pressure/native_windows_fsr_tests.json",
+      "size": 3275,
+      "sha256": "dd6e668e2fe3c104cfa05b8592c64f764050ac007f097925c26a113c6822c834",
+      "scope": "Staged actual runtime evidence: Exact candidate8 shipping SFX: three own-page pause/fullscreen/quality/actual OS SendInput resume/Stop-replay cycles, then close during real enhanced1080 playback."
+    },
+    {
+      "path": "native_windows_client/evidence/windows/diagnostics/candidate8_light_positive_count/native_windows_fsr_tests.json",
+      "size": 8778,
+      "sha256": "dcc330ff50581cf040bc9a677297db69c0a7120d0d58141fe0239757bef13831",
+      "scope": "Staged actual runtime evidence: Exact candidate8 shipping SFX: Light1080 actual RCAS execution with three positive-count timed samples and advancing video clock."
+    },
+    {
+      "path": "native_windows_client/evidence/windows/native_windows_fsr_tests.json",
+      "size": 81827,
+      "sha256": "be706eefc31d90360efbb8c18d711b699ab72f9e6c5b21d3e6e9391bb8629e53",
+      "scope": "22 actual selected-candidate GUI/runtime checks: nine production backend and thirteen isolated synthetic-media checks"
+    },
+    {
+      "path": "native_windows_client/evidence/source_build_candidate8.json",
+      "size": 14071,
+      "sha256": "91c51e560a424ec56ed71ec91d9148d66a53e318f4cd9a1da940b75b5660b106",
+      "scope": "Selected candidate build source before/after freeze and current hash correspondence"
+    },
+    {
+      "path": "native_windows_client/evidence/immutable_baseline_sha256.json",
+      "size": 557,
+      "sha256": "81ab4de703c4598efda3fb15f71c526403517e8cc2ba29e4013165af3e15d0ea",
+      "scope": "Older published editions and unchanged shared production backend"
+    },
+    {
+      "path": "native_windows_client/launcher/payload/manifest.json",
+      "size": 44864,
+      "sha256": "086a4b7deb62afa74cd988f831017625a3acc49906570b4a1b4814cf5f4ad34e",
+      "scope": "244-file embedded runtime manifest"
+    }
+  ],
+  "hardware_scope": {
+    "actual_gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "integrated_gpu_benchmarked": false,
+    "older_gles2_context_fallback_runtime_tested": false,
+    "hdr_runtime_tested": false,
+    "automatic_downgrade": "Validated in deterministic controller tests; no forced actual integrated-GPU drop experiment"
+  }
+}

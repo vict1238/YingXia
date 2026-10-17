@@ -1,0 +1,1247 @@
+{
+  "environment": "win32/x64, isolated headless browser, real loopback HTTP",
+  "data": "synthetic catalogue, intentionally failed metadata and accessible test media bytes",
+  "third_party_requests_allowed": false,
+  "real_third_party_playback_tested": false,
+  "checks": [
+    {
+      "name": "Version and initially hidden determinate progress control load through the local server",
+      "passed": true
+    },
+    {
+      "name": "Checking displays real progress and disables untested result cards",
+      "passed": true
+    },
+    {
+      "name": "Actual media-byte probes move accessible results ahead of failed metadata while retaining every candidate",
+      "passed": true
+    },
+    {
+      "name": "Status snapshots report bounded source and candidate counts and reach 100 percent only on completion",
+      "passed": true
+    },
+    {
+      "name": "Opening a result selects the group and episode whose availability check passed",
+      "passed": true
+    },
+    {
+      "name": "Cancel aborts the old job; a delayed old checking response cannot overwrite a replacement query",
+      "passed": true
+    },
+    {
+      "name": "Cancelling before the old start returns serializes its cancellation before a replacement start and preserves the new result",
+      "passed": true
+    },
+    {
+      "name": "Search status requires a session and cancellation retains CSRF protection",
+      "passed": true
+    },
+    {
+      "name": "Progress and result badges fit desktop and narrow windows",
+      "passed": true
+    },
+    {
+      "name": "No uncaught JavaScript errors or third-party browser requests",
+      "passed": true
+    }
+  ],
+  "snapshots": [
+    {
+      "endpoint": "/api/search/start",
+      "id": "7ce8e67cc24260af547ee1439631a0345a81cafc257038c09b69799a97334aaa",
+      "phase": "searching",
+      "percent": 0,
+      "source_completed": 0,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 0,
+      "available_count": 0,
+      "items": [],
+      "message": ""
+    },
+    {
+      "endpoint": "test-start",
+      "id": "7ce8e67cc24260af547ee1439631a0345a81cafc257038c09b69799a97334aaa",
+      "phase": "searching",
+      "percent": 0,
+      "source_completed": 0,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 0,
+      "available_count": 0,
+      "items": [],
+      "message": ""
+    },
+    {
+      "endpoint": "/api/search/status",
+      "id": "7ce8e67cc24260af547ee1439631a0345a81cafc257038c09b69799a97334aaa",
+      "phase": "checking",
+      "percent": 30,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 3,
+      "available_count": 0,
+      "items": [
+        {
+          "id": "vod:wsyzy:OTEx",
+          "title": "筛选测试 无法访问",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:OTEy",
+          "title": "筛选测试 可访问",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:OTEz",
+          "title": "筛选测试 备用线路",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "/api/search/status",
+      "id": "7ce8e67cc24260af547ee1439631a0345a81cafc257038c09b69799a97334aaa",
+      "phase": "checking",
+      "percent": 30,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 3,
+      "available_count": 0,
+      "items": [
+        {
+          "id": "vod:wsyzy:OTEx",
+          "title": "筛选测试 无法访问",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:OTEy",
+          "title": "筛选测试 可访问",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:OTEz",
+          "title": "筛选测试 备用线路",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "test-status",
+      "id": "7ce8e67cc24260af547ee1439631a0345a81cafc257038c09b69799a97334aaa",
+      "phase": "checking",
+      "percent": 30,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 3,
+      "available_count": 0,
+      "items": [
+        {
+          "id": "vod:wsyzy:OTEx",
+          "title": "筛选测试 无法访问",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:OTEy",
+          "title": "筛选测试 可访问",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:OTEz",
+          "title": "筛选测试 备用线路",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "test-status",
+      "id": "7ce8e67cc24260af547ee1439631a0345a81cafc257038c09b69799a97334aaa",
+      "phase": "checking",
+      "percent": 30,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 3,
+      "available_count": 0,
+      "items": [
+        {
+          "id": "vod:wsyzy:OTEx",
+          "title": "筛选测试 无法访问",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:OTEy",
+          "title": "筛选测试 可访问",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:OTEz",
+          "title": "筛选测试 备用线路",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "test-status",
+      "id": "7ce8e67cc24260af547ee1439631a0345a81cafc257038c09b69799a97334aaa",
+      "phase": "checking",
+      "percent": 30,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 3,
+      "available_count": 0,
+      "items": [
+        {
+          "id": "vod:wsyzy:OTEx",
+          "title": "筛选测试 无法访问",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:OTEy",
+          "title": "筛选测试 可访问",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:OTEz",
+          "title": "筛选测试 备用线路",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "test-status",
+      "id": "7ce8e67cc24260af547ee1439631a0345a81cafc257038c09b69799a97334aaa",
+      "phase": "checking",
+      "percent": 30,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 3,
+      "available_count": 0,
+      "items": [
+        {
+          "id": "vod:wsyzy:OTEx",
+          "title": "筛选测试 无法访问",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:OTEy",
+          "title": "筛选测试 可访问",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:OTEz",
+          "title": "筛选测试 备用线路",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "/api/search/status",
+      "id": "7ce8e67cc24260af547ee1439631a0345a81cafc257038c09b69799a97334aaa",
+      "phase": "done",
+      "percent": 100,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 3,
+      "check_total": 3,
+      "available_count": 2,
+      "items": [
+        {
+          "id": "vod:wsyzy:OTEy",
+          "title": "筛选测试 可访问",
+          "availability": {
+            "checked_at": "2026-10-14T03:56:50Z",
+            "episode_key": "e0",
+            "group_key": "g0",
+            "label": "媒体可访问",
+            "latency_ms": 903,
+            "state": "media_ok"
+          }
+        },
+        {
+          "id": "vod:wsyzy:OTEz",
+          "title": "筛选测试 备用线路",
+          "availability": {
+            "checked_at": "2026-10-14T03:56:50Z",
+            "episode_key": "e0",
+            "group_key": "g1",
+            "label": "媒体可访问",
+            "latency_ms": 903,
+            "state": "media_ok"
+          }
+        },
+        {
+          "id": "vod:wsyzy:OTEx",
+          "title": "筛选测试 无法访问",
+          "availability": {
+            "checked_at": "2026-10-14T03:56:50Z",
+            "episode_key": "e0",
+            "error": "测试服务器返回 HTTP 503",
+            "group_key": "g0",
+            "label": "暂不可用",
+            "latency_ms": 902,
+            "state": "failed"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "test-status",
+      "id": "7ce8e67cc24260af547ee1439631a0345a81cafc257038c09b69799a97334aaa",
+      "phase": "done",
+      "percent": 100,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 3,
+      "check_total": 3,
+      "available_count": 2,
+      "items": [
+        {
+          "id": "vod:wsyzy:OTEy",
+          "title": "筛选测试 可访问",
+          "availability": {
+            "checked_at": "2026-10-14T03:56:50Z",
+            "episode_key": "e0",
+            "group_key": "g0",
+            "label": "媒体可访问",
+            "latency_ms": 903,
+            "state": "media_ok"
+          }
+        },
+        {
+          "id": "vod:wsyzy:OTEz",
+          "title": "筛选测试 备用线路",
+          "availability": {
+            "checked_at": "2026-10-14T03:56:50Z",
+            "episode_key": "e0",
+            "group_key": "g1",
+            "label": "媒体可访问",
+            "latency_ms": 903,
+            "state": "media_ok"
+          }
+        },
+        {
+          "id": "vod:wsyzy:OTEx",
+          "title": "筛选测试 无法访问",
+          "availability": {
+            "checked_at": "2026-10-14T03:56:50Z",
+            "episode_key": "e0",
+            "error": "测试服务器返回 HTTP 503",
+            "group_key": "g0",
+            "label": "暂不可用",
+            "latency_ms": 902,
+            "state": "failed"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "/api/search/start",
+      "id": "92d558f08b7069dee1de4bd4d23afb42504a9a7590081e671b7e7691469c42b2",
+      "phase": "searching",
+      "percent": 0,
+      "source_completed": 0,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 0,
+      "available_count": 0,
+      "items": [],
+      "message": ""
+    },
+    {
+      "endpoint": "test-start",
+      "id": "92d558f08b7069dee1de4bd4d23afb42504a9a7590081e671b7e7691469c42b2",
+      "phase": "searching",
+      "percent": 0,
+      "source_completed": 0,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 0,
+      "available_count": 0,
+      "items": [],
+      "message": ""
+    },
+    {
+      "endpoint": "cancelled-status",
+      "id": "92d558f08b7069dee1de4bd4d23afb42504a9a7590081e671b7e7691469c42b2",
+      "phase": "cancelled",
+      "percent": 30,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 3,
+      "available_count": 0,
+      "items": [
+        {
+          "id": "vod:wsyzy:OTIx",
+          "title": "取消测试 无法访问",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:OTIy",
+          "title": "取消测试 可访问",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:OTIz",
+          "title": "取消测试 备用线路",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        }
+      ],
+      "message": "已取消"
+    },
+    {
+      "endpoint": "/api/search/start",
+      "id": "629783d49d2a66e75c2f2d8aea01bd82a8db8fe6eb5c2d7b11baefed7b38cfb9",
+      "phase": "searching",
+      "percent": 0,
+      "source_completed": 0,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 0,
+      "available_count": 0,
+      "items": [],
+      "message": ""
+    },
+    {
+      "endpoint": "test-start",
+      "id": "629783d49d2a66e75c2f2d8aea01bd82a8db8fe6eb5c2d7b11baefed7b38cfb9",
+      "phase": "searching",
+      "percent": 0,
+      "source_completed": 0,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 0,
+      "available_count": 0,
+      "items": [],
+      "message": ""
+    },
+    {
+      "endpoint": "test-status",
+      "id": "629783d49d2a66e75c2f2d8aea01bd82a8db8fe6eb5c2d7b11baefed7b38cfb9",
+      "phase": "checking",
+      "percent": 30,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 2,
+      "available_count": 0,
+      "items": [
+        {
+          "id": "vod:wsyzy:MTAx",
+          "title": "Example Journey 第二季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:MTAy",
+          "title": "Example Journey 第一季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "test-status",
+      "id": "629783d49d2a66e75c2f2d8aea01bd82a8db8fe6eb5c2d7b11baefed7b38cfb9",
+      "phase": "checking",
+      "percent": 30,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 2,
+      "available_count": 0,
+      "items": [
+        {
+          "id": "vod:wsyzy:MTAx",
+          "title": "Example Journey 第二季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:MTAy",
+          "title": "Example Journey 第一季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "test-status",
+      "id": "629783d49d2a66e75c2f2d8aea01bd82a8db8fe6eb5c2d7b11baefed7b38cfb9",
+      "phase": "checking",
+      "percent": 30,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 2,
+      "available_count": 0,
+      "items": [
+        {
+          "id": "vod:wsyzy:MTAx",
+          "title": "Example Journey 第二季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:MTAy",
+          "title": "Example Journey 第一季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "test-status",
+      "id": "629783d49d2a66e75c2f2d8aea01bd82a8db8fe6eb5c2d7b11baefed7b38cfb9",
+      "phase": "checking",
+      "percent": 30,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 2,
+      "available_count": 0,
+      "items": [
+        {
+          "id": "vod:wsyzy:MTAx",
+          "title": "Example Journey 第二季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:MTAy",
+          "title": "Example Journey 第一季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "/api/search/status",
+      "id": "629783d49d2a66e75c2f2d8aea01bd82a8db8fe6eb5c2d7b11baefed7b38cfb9",
+      "phase": "checking",
+      "percent": 30,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 2,
+      "available_count": 0,
+      "items": [
+        {
+          "id": "vod:wsyzy:MTAx",
+          "title": "Example Journey 第二季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:MTAy",
+          "title": "Example Journey 第一季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "test-status",
+      "id": "629783d49d2a66e75c2f2d8aea01bd82a8db8fe6eb5c2d7b11baefed7b38cfb9",
+      "phase": "checking",
+      "percent": 30,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 2,
+      "available_count": 0,
+      "items": [
+        {
+          "id": "vod:wsyzy:MTAx",
+          "title": "Example Journey 第二季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:MTAy",
+          "title": "Example Journey 第一季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "test-status",
+      "id": "629783d49d2a66e75c2f2d8aea01bd82a8db8fe6eb5c2d7b11baefed7b38cfb9",
+      "phase": "checking",
+      "percent": 30,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 2,
+      "available_count": 0,
+      "items": [
+        {
+          "id": "vod:wsyzy:MTAx",
+          "title": "Example Journey 第二季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:MTAy",
+          "title": "Example Journey 第一季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "test-status",
+      "id": "629783d49d2a66e75c2f2d8aea01bd82a8db8fe6eb5c2d7b11baefed7b38cfb9",
+      "phase": "checking",
+      "percent": 30,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 2,
+      "available_count": 0,
+      "items": [
+        {
+          "id": "vod:wsyzy:MTAx",
+          "title": "Example Journey 第二季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:MTAy",
+          "title": "Example Journey 第一季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "test-status",
+      "id": "629783d49d2a66e75c2f2d8aea01bd82a8db8fe6eb5c2d7b11baefed7b38cfb9",
+      "phase": "checking",
+      "percent": 30,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 2,
+      "available_count": 0,
+      "items": [
+        {
+          "id": "vod:wsyzy:MTAx",
+          "title": "Example Journey 第二季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:MTAy",
+          "title": "Example Journey 第一季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "/api/search/status",
+      "id": "629783d49d2a66e75c2f2d8aea01bd82a8db8fe6eb5c2d7b11baefed7b38cfb9",
+      "phase": "checking",
+      "percent": 30,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 2,
+      "available_count": 0,
+      "items": [
+        {
+          "id": "vod:wsyzy:MTAx",
+          "title": "Example Journey 第二季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:MTAy",
+          "title": "Example Journey 第一季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "test-status",
+      "id": "629783d49d2a66e75c2f2d8aea01bd82a8db8fe6eb5c2d7b11baefed7b38cfb9",
+      "phase": "checking",
+      "percent": 30,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 2,
+      "available_count": 0,
+      "items": [
+        {
+          "id": "vod:wsyzy:MTAx",
+          "title": "Example Journey 第二季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:MTAy",
+          "title": "Example Journey 第一季",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "test-status",
+      "id": "629783d49d2a66e75c2f2d8aea01bd82a8db8fe6eb5c2d7b11baefed7b38cfb9",
+      "phase": "done",
+      "percent": 100,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 2,
+      "check_total": 2,
+      "available_count": 2,
+      "items": [
+        {
+          "id": "vod:wsyzy:MTAx",
+          "title": "Example Journey 第二季",
+          "availability": {
+            "checked_at": "2026-10-14T03:56:52Z",
+            "episode_key": "e0",
+            "group_key": "g0",
+            "label": "媒体可访问",
+            "latency_ms": 903,
+            "state": "media_ok"
+          }
+        },
+        {
+          "id": "vod:wsyzy:MTAy",
+          "title": "Example Journey 第一季",
+          "availability": {
+            "checked_at": "2026-10-14T03:56:52Z",
+            "episode_key": "e0",
+            "group_key": "g0",
+            "label": "媒体可访问",
+            "latency_ms": 903,
+            "state": "media_ok"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "/api/search/status",
+      "id": "92d558f08b7069dee1de4bd4d23afb42504a9a7590081e671b7e7691469c42b2",
+      "phase": "checking",
+      "percent": 30,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 3,
+      "available_count": 0,
+      "items": [
+        {
+          "id": "vod:wsyzy:OTIx",
+          "title": "取消测试 无法访问",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:OTIy",
+          "title": "取消测试 可访问",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        },
+        {
+          "id": "vod:wsyzy:OTIz",
+          "title": "取消测试 备用线路",
+          "availability": {
+            "checked_at": "",
+            "label": "检测中",
+            "latency_ms": 0,
+            "state": "pending"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "/api/search/status",
+      "id": "629783d49d2a66e75c2f2d8aea01bd82a8db8fe6eb5c2d7b11baefed7b38cfb9",
+      "phase": "done",
+      "percent": 100,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 2,
+      "check_total": 2,
+      "available_count": 2,
+      "items": [
+        {
+          "id": "vod:wsyzy:MTAx",
+          "title": "Example Journey 第二季",
+          "availability": {
+            "checked_at": "2026-10-14T03:56:52Z",
+            "episode_key": "e0",
+            "group_key": "g0",
+            "label": "媒体可访问",
+            "latency_ms": 903,
+            "state": "media_ok"
+          }
+        },
+        {
+          "id": "vod:wsyzy:MTAy",
+          "title": "Example Journey 第一季",
+          "availability": {
+            "checked_at": "2026-10-14T03:56:52Z",
+            "episode_key": "e0",
+            "group_key": "g0",
+            "label": "媒体可访问",
+            "latency_ms": 903,
+            "state": "media_ok"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "/api/search/start",
+      "id": "4878934b51646bbe8bf8ec459c576e9e88ad52c8511b9c4aef5166fa2676f63e",
+      "phase": "searching",
+      "percent": 0,
+      "source_completed": 0,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 0,
+      "available_count": 0,
+      "items": [],
+      "message": ""
+    },
+    {
+      "endpoint": "/api/search/start",
+      "id": "2ff6c8b3b12a6e9e2d5ccc83aa1ec38fd5265f4cefd214895d6cec443e0097ce",
+      "phase": "searching",
+      "percent": 0,
+      "source_completed": 0,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 0,
+      "available_count": 0,
+      "items": [],
+      "message": ""
+    },
+    {
+      "endpoint": "test-start",
+      "id": "2ff6c8b3b12a6e9e2d5ccc83aa1ec38fd5265f4cefd214895d6cec443e0097ce",
+      "phase": "searching",
+      "percent": 0,
+      "source_completed": 0,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 0,
+      "available_count": 0,
+      "items": [],
+      "message": ""
+    },
+    {
+      "endpoint": "test-status",
+      "id": "2ff6c8b3b12a6e9e2d5ccc83aa1ec38fd5265f4cefd214895d6cec443e0097ce",
+      "phase": "done",
+      "percent": 100,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 2,
+      "check_total": 2,
+      "available_count": 2,
+      "items": [
+        {
+          "id": "vod:wsyzy:MTAx",
+          "title": "Example Journey 第二季",
+          "availability": {
+            "checked_at": "2026-10-14T03:56:52Z",
+            "episode_key": "e0",
+            "group_key": "g0",
+            "label": "媒体可访问",
+            "latency_ms": 903,
+            "state": "media_ok"
+          }
+        },
+        {
+          "id": "vod:wsyzy:MTAy",
+          "title": "Example Journey 第一季",
+          "availability": {
+            "checked_at": "2026-10-14T03:56:52Z",
+            "episode_key": "e0",
+            "group_key": "g0",
+            "label": "媒体可访问",
+            "latency_ms": 903,
+            "state": "media_ok"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "/api/search/status",
+      "id": "2ff6c8b3b12a6e9e2d5ccc83aa1ec38fd5265f4cefd214895d6cec443e0097ce",
+      "phase": "done",
+      "percent": 100,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 2,
+      "check_total": 2,
+      "available_count": 2,
+      "items": [
+        {
+          "id": "vod:wsyzy:MTAx",
+          "title": "Example Journey 第二季",
+          "availability": {
+            "checked_at": "2026-10-14T03:56:52Z",
+            "episode_key": "e0",
+            "group_key": "g0",
+            "label": "媒体可访问",
+            "latency_ms": 903,
+            "state": "media_ok"
+          }
+        },
+        {
+          "id": "vod:wsyzy:MTAy",
+          "title": "Example Journey 第一季",
+          "availability": {
+            "checked_at": "2026-10-14T03:56:52Z",
+            "episode_key": "e0",
+            "group_key": "g0",
+            "label": "媒体可访问",
+            "latency_ms": 903,
+            "state": "media_ok"
+          }
+        }
+      ],
+      "message": ""
+    },
+    {
+      "endpoint": "overlap-old-status",
+      "id": "4878934b51646bbe8bf8ec459c576e9e88ad52c8511b9c4aef5166fa2676f63e",
+      "phase": "cancelled",
+      "percent": 30,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 0,
+      "check_total": 0,
+      "available_count": 0,
+      "items": [],
+      "message": "已取消"
+    },
+    {
+      "endpoint": "overlap-new-status",
+      "id": "2ff6c8b3b12a6e9e2d5ccc83aa1ec38fd5265f4cefd214895d6cec443e0097ce",
+      "phase": "done",
+      "percent": 100,
+      "source_completed": 1,
+      "source_total": 1,
+      "checked_count": 2,
+      "check_total": 2,
+      "available_count": 2,
+      "items": [
+        {
+          "id": "vod:wsyzy:MTAx",
+          "title": "Example Journey 第二季",
+          "availability": {
+            "checked_at": "2026-10-14T03:56:52Z",
+            "episode_key": "e0",
+            "group_key": "g0",
+            "label": "媒体可访问",
+            "latency_ms": 903,
+            "state": "media_ok"
+          }
+        },
+        {
+          "id": "vod:wsyzy:MTAy",
+          "title": "Example Journey 第一季",
+          "availability": {
+            "checked_at": "2026-10-14T03:56:52Z",
+            "episode_key": "e0",
+            "group_key": "g0",
+            "label": "媒体可访问",
+            "latency_ms": 903,
+            "state": "media_ok"
+          }
+        }
+      ],
+      "message": ""
+    }
+  ],
+  "page_errors": [],
+  "external_requests": [],
+  "progress_observation": {
+    "percent": 30,
+    "maximum": 100,
+    "label": "检测访问 · 0 / 3 个结果 · 0 个可访问",
+    "pending_count": 3,
+    "pending_disabled": true,
+    "progress_visible": true
+  },
+  "final_cards": [
+    {
+      "title": "筛选测试 可访问",
+      "state": "media_ok",
+      "label": "媒体可访问",
+      "disabled": false
+    },
+    {
+      "title": "筛选测试 备用线路",
+      "state": "media_ok",
+      "label": "媒体可访问",
+      "disabled": false
+    },
+    {
+      "title": "筛选测试 无法访问",
+      "state": "failed",
+      "label": "暂不可用",
+      "disabled": false
+    }
+  ],
+  "selected_sample": {
+    "group_key": "g1",
+    "episode_key": "e0",
+    "episode_name": "第01集"
+  },
+  "start_overlap": {
+    "order": [
+      "old_start_returned",
+      "old_cancel_acknowledged",
+      "new_start_sent"
+    ],
+    "old_id": "4878934b51646bbe8bf8ec459c576e9e88ad52c8511b9c4aef5166fa2676f63e",
+    "replacement_id": "2ff6c8b3b12a6e9e2d5ccc83aa1ec38fd5265f4cefd214895d6cec443e0097ce",
+    "old_cancel_phase": "cancelled",
+    "old_retained_phase": "cancelled",
+    "replacement_phase": "done"
+  },
+  "browser": "155.0.8059.39",
+  "check_count": 10
+}

@@ -1,0 +1,89 @@
+{
+  "platform": "win32/x64",
+  "executable": "YingXia_candidate6.exe",
+  "sha256": "d826f45a89f9aa8bbed1ed578e666a724c6f984d15756bef0d90fd73af7bd106",
+  "shipping_gui_tested": true,
+  "production_backend_history_tested": true,
+  "media_backend": "separately compiled native_fixture Go child via explicit developer override",
+  "fixture_backend_sha256": "0f1803480545b72b01353071ac8a543f41d4dabb6c8eea824728ef13486f4a46",
+  "synthetic_media_only": true,
+  "real_third_party_playback_tested": false,
+  "checks": [],
+  "observations": [
+    {
+      "native_parent_exit": {
+        "code": null,
+        "signal": "SIGTERM",
+        "time": "2026-10-14T12:07:07.895Z"
+      }
+    }
+  ],
+  "carried_forward_production_evidence": {
+    "executable": "YingXia_candidate5.exe",
+    "sha256": "bd82683efcd94ac1b635e325ab74d1941ec95ef41b749efb89ffe945c7b4b0c3",
+    "checks": [
+      {
+        "name": "Single release EXE extracts runtime and opens its own visible Flutter window with no browser/WebView children",
+        "passed": true
+      },
+      {
+        "name": "All four approved pages load in the production Flutter/Go app",
+        "passed": true
+      },
+      {
+        "name": "Exact two developer names and emails are shown at the top of sources and diagnostics",
+        "passed": true
+      },
+      {
+        "name": "Simple three-choice quality dropdown can change and persist the Windows-only preference",
+        "passed": true
+      },
+      {
+        "name": "Production in-app clear confirmation can cancel without changing persistent records",
+        "passed": true
+      },
+      {
+        "name": "Actual read-only library write failure retains rows and allows retry",
+        "passed": true
+      },
+      {
+        "name": "Actual production backend clears disk history while preserving favorites, bindings and settings",
+        "passed": true
+      },
+      {
+        "name": "Repeated single-file launch restores the existing native window",
+        "passed": true
+      },
+      {
+        "name": "Full release EXE restart keeps history empty and favorite available; window close ends child family",
+        "passed": true
+      }
+    ],
+    "scope": "Same frozen Go, Dart and native C++ runtime; next candidate changes only shader assets. These checks were run on the recorded prior EXE."
+  },
+  "failure": "Error: native GUI did not display without manual restore: Owned native test helper failed: ENAMETOOLONG\n    at eventually (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:22:212)\n    at async start (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:70:15)\n    at async main (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:123:3)",
+  "failure_processes": [
+    {
+      "ProcessId": 9860,
+      "ParentProcessId": 17596,
+      "Name": "YingXia_candidate6.exe"
+    },
+    {
+      "ProcessId": 2224,
+      "ParentProcessId": 9860,
+      "Name": "yingxia_native.exe"
+    },
+    {
+      "ProcessId": 18104,
+      "ParentProcessId": 2224,
+      "Name": "yingxia_backend_fsr_fixture.exe"
+    },
+    {
+      "ProcessId": 29196,
+      "ParentProcessId": 18104,
+      "Name": "conhost.exe"
+    }
+  ],
+  "failure_probe_error": "Error: Owned native test helper failed: ENAMETOOLONG\n    at powershell (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:23:350)\n    at probe (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:30:10)\n    at nodes (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:32:42)\n    at C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:165:137\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)",
+  "check_count": 0
+}

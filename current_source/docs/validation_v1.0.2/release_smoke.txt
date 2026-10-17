@@ -1,0 +1,7 @@
+PASS: Actual Windows GUI EXE starts from a Chinese/space data directory and serves the new embedded UI
+PASS: Local API still requires a session
+PASS: Release has no demo search endpoint or embedded demo video
+PASS: Repeated launch reuses the running instance
+PASS: Production embedded UI loads in isolated headless Edge and all pages open
+PASS: Quit shuts down the backend and clears its session file
+PASS: Saved favorites persist after restarting the release EXE

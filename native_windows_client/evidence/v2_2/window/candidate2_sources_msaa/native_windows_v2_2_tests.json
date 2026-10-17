@@ -1,0 +1,690 @@
+{
+  "schema": 1,
+  "started_at": "2026-10-15T04:08:08.531Z",
+  "executable": "YingXia_v2_2_candidate2.exe",
+  "sha256": "4e91a204a6bd868fd788938efd34c01bce263cd4c518f713a63fe605116203f6",
+  "shipping_sfx_tested": true,
+  "production_backend": true,
+  "isolated_data_and_cache": true,
+  "real_third_party_playback_tested": false,
+  "gpu_benchmark_repeated": false,
+  "input_scope": "Owned PID/HWND only; no global input, activation attempts or external window capture.",
+  "checks": [
+    {
+      "name": "Source search, paging and custom add/edit/enabled controls work in the production window",
+      "passed": true
+    }
+  ],
+  "observations": [
+    {
+      "background_msaa_only": true,
+      "native_activation_calls_removed_for_all_used_actions": true
+    },
+    {
+      "launch": {
+        "foreground": false,
+        "action": "Snapshot",
+        "minimized": false,
+        "visible": true,
+        "foreground_activation_used_owned_pointer": false,
+        "rect": [
+          10,
+          10,
+          1350,
+          910
+        ],
+        "title": "映匣 · YingXia",
+        "pid": 24484,
+        "hwnd": 920590
+      }
+    },
+    {
+      "source_registry_after_edit": {
+        "provider_count": 48,
+        "custom_source": {
+          "id": "custom_8fc70ed411467819",
+          "name": "QA 临时来源 已修改",
+          "enabled": false
+        },
+        "previous_enabled": true
+      }
+    },
+    {
+      "normal_close_exit": 0,
+      "no_child_family_remaining": true
+    }
+  ],
+  "limitations": [],
+  "failure": {
+    "message": "Unique text field: 查找来源\n\n0 !== 1\n",
+    "stack": "AssertionError [ERR_ASSERTION]: Unique text field: 查找来源\n\n0 !== 1\n\n    at textField (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_v2_2_smoke.cjs:112:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async main (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_v2_2_smoke.cjs:192:3)"
+  },
+  "failure_owned_elements": [
+    {
+      "value": "",
+      "name": null,
+      "action": null,
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 16,
+      "state": 0
+    },
+    {
+      "value": "",
+      "name": "",
+      "action": null,
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "",
+      "action": null,
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "",
+      "action": null,
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "",
+      "action": null,
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "映\n映匣\nYINGXIA",
+      "action": null,
+      "rect": [
+        36,
+        74,
+        167,
+        44
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "搜索影片",
+      "action": null,
+      "rect": [
+        36,
+        165,
+        167,
+        49
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "播放工作台",
+      "action": null,
+      "rect": [
+        36,
+        221,
+        167,
+        49
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "收藏与记录",
+      "action": null,
+      "rect": [
+        36,
+        277,
+        167,
+        49
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "来源与诊断",
+      "action": null,
+      "rect": [
+        36,
+        333,
+        167,
+        49
+      ],
+      "role": 43,
+      "state": 3145730
+    },
+    {
+      "value": "",
+      "name": "来源与诊断",
+      "action": null,
+      "rect": [
+        260,
+        67,
+        62,
+        20
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "",
+      "action": null,
+      "rect": [
+        222,
+        114,
+        1120,
+        788
+      ],
+      "role": 20,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "来源与诊断",
+      "action": null,
+      "rect": [
+        260,
+        148,
+        1044,
+        50
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "开发人员",
+      "action": null,
+      "rect": [
+        283,
+        239,
+        69,
+        26
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "翻翻蓄小激光  cqh.vict1238@gmail.com",
+      "name": "",
+      "action": null,
+      "rect": [
+        283,
+        277,
+        253,
+        20
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "流风驻尘闲  yuchihaobo@gmail.com",
+      "name": "",
+      "action": null,
+      "rect": [
+        283,
+        302,
+        234,
+        20
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "设置",
+      "action": null,
+      "rect": [
+        283,
+        388,
+        467,
+        26
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "数据目录",
+      "action": null,
+      "rect": [
+        814,
+        388,
+        467,
+        26
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "",
+      "action": null,
+      "rect": [
+        283,
+        428,
+        26,
+        32
+      ],
+      "role": 44,
+      "state": 3145744
+    },
+    {
+      "value": "",
+      "name": "",
+      "action": null,
+      "rect": [
+        283,
+        467,
+        26,
+        32
+      ],
+      "role": 44,
+      "state": 3145744
+    },
+    {
+      "value": "",
+      "name": "联网搜索与播放",
+      "action": null,
+      "rect": [
+        317,
+        434,
+        433,
+        20
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "保存历史记录",
+      "action": null,
+      "rect": [
+        317,
+        473,
+        433,
+        20
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "C:\\Users\\vict1238\\AppData\\Local\\Temp\\yingxia-v22-window-aGsSxa\\isolated-data",
+      "name": "",
+      "action": null,
+      "rect": [
+        825,
+        442,
+        445,
+        34
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "",
+      "action": null,
+      "rect": [
+        283,
+        506,
+        26,
+        32
+      ],
+      "role": 44,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "自动播放下一集",
+      "action": null,
+      "rect": [
+        317,
+        512,
+        433,
+        20
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "导出诊断",
+      "action": null,
+      "rect": [
+        814,
+        503,
+        82,
+        32
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "默认超分",
+      "action": null,
+      "rect": [
+        283,
+        569,
+        367,
+        20
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "关闭",
+      "action": null,
+      "rect": [
+        650,
+        555,
+        100,
+        48
+      ],
+      "role": 43,
+      "state": 3146752
+    },
+    {
+      "value": "",
+      "name": "下次启动时生效",
+      "action": null,
+      "rect": [
+        283,
+        603,
+        467,
+        17
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "来源管理（48）",
+      "action": null,
+      "rect": [
+        281,
+        692,
+        125,
+        26
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "更新来源",
+      "action": null,
+      "rect": [
+        1015,
+        688,
+        82,
+        32
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "添加来源",
+      "action": null,
+      "rect": [
+        1105,
+        688,
+        82,
+        32
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "全部测速",
+      "action": null,
+      "rect": [
+        1195,
+        688,
+        88,
+        34
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "自动更新来源",
+      "action": null,
+      "rect": [
+        281,
+        742,
+        942,
+        20
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "",
+      "action": null,
+      "rect": [
+        1223,
+        732,
+        60,
+        40
+      ],
+      "role": 44,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "更新详情",
+      "action": null,
+      "rect": [
+        281,
+        773,
+        1002,
+        48
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "QA 临时来源",
+      "name": "",
+      "action": null,
+      "rect": [
+        281,
+        836,
+        245,
+        44
+      ],
+      "role": 42,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "全部",
+      "action": null,
+      "rect": [
+        536,
+        839,
+        130,
+        38
+      ],
+      "role": 43,
+      "state": 3146752
+    },
+    {
+      "value": "100",
+      "name": "",
+      "action": null,
+      "rect": [
+        281,
+        896,
+        1002,
+        4
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "测速完成 · 1 / 1",
+      "action": null,
+      "rect": [
+        281,
+        907,
+        1002,
+        19
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "QA 临时来源 已修改\nCMS · 未响应. QA 临时来源 已修改\nhttps://example.com/api.php/provide/vod/\n来源返回 HTTP 404\n10-15 12:08",
+      "action": null,
+      "rect": [
+        281,
+        952,
+        846,
+        41
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "启用",
+      "action": null,
+      "rect": [
+        1139,
+        952,
+        40,
+        41
+      ],
+      "role": 44,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "测速",
+      "action": null,
+      "rect": [
+        1183,
+        956,
+        56,
+        33
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "管理来源",
+      "action": null,
+      "rect": [
+        1243,
+        952,
+        40,
+        41
+      ],
+      "role": 43,
+      "state": 3146752
+    },
+    {
+      "value": "",
+      "name": "解析线路",
+      "action": null,
+      "rect": [
+        260,
+        1050,
+        1044,
+        48
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "连接诊断",
+      "action": null,
+      "rect": [
+        260,
+        1136,
+        944,
+        26
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "检测连接",
+      "action": null,
+      "rect": [
+        1216,
+        1132,
+        88,
+        34
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "尚未检测",
+      "action": null,
+      "rect": [
+        279,
+        1214,
+        1006,
+        20
+      ],
+      "role": 41,
+      "state": 3145728
+    }
+  ],
+  "finished_at": "2026-10-15T04:08:24.309Z",
+  "failure_scope_note": "One successful actual source CRUD/paging/enabled check is preserved. The single-source measurement also completed 1/1 with a correct unavailable/HTTP404 result, as recorded in failure_owned_elements and single_measurement.png. The run then stopped at a harness selector that expected an unchanged hint name after filling an unlabeled TextField. A following short stage resumed only this isolated test data with an empty query and verified all-source progress/cancel and removal, without rerunning prior successful checks."
+}

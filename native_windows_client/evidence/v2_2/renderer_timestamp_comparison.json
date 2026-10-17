@@ -1,0 +1,19 @@
+{
+  "plugin_identical_after_normalizing_documented_PE_timestamp_fields": true,
+  "timestamp_fields": [
+    {
+      "kind": "COFF",
+      "offset": 280
+    },
+    {
+      "kind": "export",
+      "offset": 144244
+    },
+    {
+      "kind": "debug",
+      "offset": 120132
+    }
+  ],
+  "normalized_sha256": "5c342583a07e59951cc3aa121c237f72d45697724044868758d44b3ad444a471",
+  "comparison_only_original_binaries_unmodified": true
+}

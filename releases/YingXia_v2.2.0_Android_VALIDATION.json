@@ -1,0 +1,865 @@
+{
+  "schema": 1,
+  "version": "2.2.0-native-android",
+  "verified_at": "2026-10-15T12:11:45.203991+00:00",
+  "software": [
+    {
+      "file": "YingXia_v2.2.0_Android.apk",
+      "size": 124905502,
+      "sha256": "423289feea2dccb2d9ebd019e73d8a12d3b81b4bb9ba6b1253289ea4e6133e23"
+    }
+  ],
+  "package": {
+    "apk": "native_android_client/build/candidates/YingXia_v2.2.0_Android.apk",
+    "bytes": 124905502,
+    "sha256": "423289feea2dccb2d9ebd019e73d8a12d3b81b4bb9ba6b1253289ea4e6133e23",
+    "package": "com.yingxia.yingxia_native",
+    "version_name": "2.2.0",
+    "version_code": 20200,
+    "min_sdk": 26,
+    "target_sdk": 36,
+    "release_aot": true,
+    "debuggable": false,
+    "certificate_sha256": "6f3e4d81152657ba0b0fa9304763d0f47035e56a74161d8a9d27d3a12cc6085c",
+    "fixture": false,
+    "aar_sha256": "1cc925bb13eb46fd5aeb8078504e24f579fc06bfe4941a568df8486f82a448b2",
+    "go_jni_matches_aar_after_ndk_strip": true,
+    "jni_normalization": "NDK 28.2.13676358 llvm-strip --strip-unneeded",
+    "permissions": [
+      "android.permission.INTERNET",
+      "com.yingxia.yingxia_native.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "libraries": [
+      {
+        "abi": "arm64-v8a",
+        "name": "libgojni.so",
+        "bytes": 9419184,
+        "sha256": "290b053a2ba47ed6d386b1780967d9c4e2e4feb59fa06b4d148cbad1290ff999",
+        "elf_machine": 183
+      },
+      {
+        "abi": "arm64-v8a",
+        "name": "libapp.so",
+        "bytes": 6685576,
+        "sha256": "8c57ef6c477166c5cc1b3eebf815513876095668a8a029e927a6e0c047ebe444",
+        "elf_machine": 183
+      },
+      {
+        "abi": "arm64-v8a",
+        "name": "libflutter.so",
+        "bytes": 11747864,
+        "sha256": "34f4113ae93b2c7069030f0bcfede18e7c83ed548b71a75c9ebb749403d3a060",
+        "elf_machine": 183
+      },
+      {
+        "abi": "arm64-v8a",
+        "name": "libmpv.so",
+        "bytes": 12369680,
+        "sha256": "adf83fde58a9f6751ce6e83b9b187f651425d53ec0e20da04deb8dfb4aa775e1",
+        "elf_machine": 183
+      },
+      {
+        "abi": "armeabi-v7a",
+        "name": "libgojni.so",
+        "bytes": 9332404,
+        "sha256": "4b94321742ec6dda3bb7c34b406518b3d308619a4cddcda6537dd2b7b3c61b8c",
+        "elf_machine": 40
+      },
+      {
+        "abi": "armeabi-v7a",
+        "name": "libapp.so",
+        "bytes": 7389768,
+        "sha256": "3ea76972c3eac80badd6d65ffc1e6f1cfa62b34e9374fd214a12c4a259455dfd",
+        "elf_machine": 40
+      },
+      {
+        "abi": "armeabi-v7a",
+        "name": "libflutter.so",
+        "bytes": 8615900,
+        "sha256": "c408a309f798148edc33993334e5636fc035dba2aac375066f691da8be4480f8",
+        "elf_machine": 40
+      },
+      {
+        "abi": "armeabi-v7a",
+        "name": "libmpv.so",
+        "bytes": 11746532,
+        "sha256": "8aa2b23d16d941a8d685b8eb995b1cb31677ed3e28c55c776954eb1618ab1a2e",
+        "elf_machine": 40
+      },
+      {
+        "abi": "x86_64",
+        "name": "libgojni.so",
+        "bytes": 10145584,
+        "sha256": "ac6bf1c84d29328886ad32d2dec92e0d153d2a651bcd90aa57ac3ff48f1bfd92",
+        "elf_machine": 62
+      },
+      {
+        "abi": "x86_64",
+        "name": "libapp.so",
+        "bytes": 6882184,
+        "sha256": "198ad13bc792f04d4accb6258af01a57fd8a7a8e2f04b901cee3b0583e20bddd",
+        "elf_machine": 62
+      },
+      {
+        "abi": "x86_64",
+        "name": "libflutter.so",
+        "bytes": 13051424,
+        "sha256": "207ff0aa7a5f6926cae6403a6f63c0b6ede457ae430546cbef8550845471abfc",
+        "elf_machine": 62
+      },
+      {
+        "abi": "x86_64",
+        "name": "libmpv.so",
+        "bytes": 15816336,
+        "sha256": "f030e9a1a4d4664e89d7160a3d4528cd5875ee023ff6262e16e95aac28ffaec5",
+        "elf_machine": 62
+      }
+    ]
+  },
+  "production_android_aar_sha256": "1cc925bb13eb46fd5aeb8078504e24f579fc06bfe4941a568df8486f82a448b2",
+  "flutter": {
+    "analyze": "No issues found",
+    "tests_passed": 49,
+    "logs": [
+      "native_android_client/evidence/android/flutter_analyze.log",
+      "native_android_client/evidence/android/flutter_tests.log"
+    ]
+  },
+  "go": {
+    "android_engine_top_level": 14,
+    "schema_subcases": 5,
+    "lifecycle": 1,
+    "vet": "PASS",
+    "report": "native_android_core/evidence/android_validation.json"
+  },
+  "runtime": {
+    "production": {
+      "apk_sha256": "423289feea2dccb2d9ebd019e73d8a12d3b81b4bb9ba6b1253289ea4e6133e23",
+      "serial": "emulator-5560",
+      "time": "2026-10-15T11:39:24.897864+00:00",
+      "scope": "Installed release APK on owned API35 x86_64 emulator. Only project app private data and synthetic test records.",
+      "checks": [
+        {
+          "id": "startup",
+          "status": "passed",
+          "assertion": "Installed release starts JNI backend and native search UI.",
+          "evidence": [
+            "production_search.xml",
+            "production_search.png"
+          ]
+        },
+        {
+          "id": "workspace_off",
+          "status": "passed",
+          "assertion": "Workspace opens at Off with plain empty-surface text.",
+          "evidence": [
+            "production_workspace.xml",
+            "production_workspace.png"
+          ]
+        },
+        {
+          "id": "library",
+          "status": "passed",
+          "assertion": "Library controls render in the installed APK.",
+          "evidence": [
+            "production_library.xml"
+          ]
+        },
+        {
+          "id": "credits",
+          "status": "passed",
+          "assertion": "Both requested developer names/emails appear before settings.",
+          "evidence": [
+            "production_sources_top.xml"
+          ]
+        },
+        {
+          "id": "default_preference",
+          "status": "passed",
+          "assertion": "Explicit default persists across force-stop; temporary Enhanced does not replace it; restored Off.",
+          "evidence": [
+            "production_default_off.xml",
+            "production_default_light_restarted.xml",
+            "production_default_off_restored.xml"
+          ]
+        },
+        {
+          "id": "registry",
+          "status": "passed",
+          "assertion": "Embedded 47-source registry migrated; 30 reviewed CMS retained through live upstream refresh.",
+          "evidence": [
+            "production_manager.xml",
+            "registry_summary.json"
+          ],
+          "actual_count": 48
+        },
+        {
+          "id": "android_back",
+          "status": "passed",
+          "assertion": "Android Back returns from sources to search.",
+          "evidence": [
+            "production_back_to_search.xml"
+          ]
+        },
+        {
+          "id": "diagnostic_export_cancel",
+          "status": "passed",
+          "assertion": "ACTION_CREATE_DOCUMENT opens Downloads; cancelling returns quietly and allows retry.",
+          "evidence": [
+            "production_export_picker.xml",
+            "production_export_cancelled.xml"
+          ]
+        },
+        {
+          "id": "diagnostic_export_save",
+          "status": "passed",
+          "assertion": "System SAVE writes a parseable JSON document through its content URI; no storage permission required.",
+          "evidence": [
+            "production_export_saved.xml",
+            "diagnostic_export_summary.json"
+          ]
+        }
+      ]
+    },
+    "fixture": {
+      "apk_sha256": "53d0ef1d0af8dec5e8d4ad47beaa63dbb9e15200fb953d06bf8255d080b24076",
+      "serial": "emulator-5560",
+      "scope": "Separate release fixture APK, synthetic local media, identical frontend/decoder native libraries to shipping.",
+      "checks": [
+        {
+          "id": "search_availability",
+          "status": "passed",
+          "assertion": "Synthetic results pass actual private-API media access checks before selection.",
+          "evidence": [
+            "fixture_search_accessible.xml"
+          ]
+        },
+        {
+          "id": "hls_decode_clock",
+          "status": "passed",
+          "assertion": "Continuous 640×360 H264 HLS has decoded frames and advancing saved media time across segment boundaries.",
+          "evidence": [
+            "fixture_hls_frame1.png",
+            "fixture_hls_frame2.png"
+          ],
+          "before": 6.3,
+          "after": 15.5
+        },
+        {
+          "id": "navigation_pause",
+          "status": "passed",
+          "assertion": "Leaving workspace pauses playback; return remains paused with stable stored time.",
+          "evidence": [
+            "fixture_return_paused.xml"
+          ],
+          "before": 18.566,
+          "after": 18.566
+        },
+        {
+          "id": "stop_replay",
+          "status": "passed",
+          "assertion": "Stop completes and the same Surface can decode after replay.",
+          "evidence": [
+            "fixture_stop.xml",
+            "fixture_replay.png"
+          ],
+          "position": 6.266
+        },
+        {
+          "id": "episode_change",
+          "status": "passed",
+          "assertion": "Next episode opens and saves progress under the correct episode.",
+          "evidence": [
+            "fixture_episode2.xml",
+            "fixture_episode2.png"
+          ],
+          "episode": "第02集",
+          "position": 6.3
+        },
+        {
+          "id": "background_pause",
+          "status": "passed",
+          "assertion": "Android Home pauses playback; reopening does not auto-resume.",
+          "evidence": [
+            "fixture_home_paused.xml"
+          ],
+          "before": 6.3,
+          "after": 6.3
+        },
+        {
+          "id": "clear_history",
+          "status": "passed",
+          "assertion": "Cancel keeps all rows; confirm clears persisted history and preserves the favorite across full restart.",
+          "evidence": [
+            "fixture_clear_dialog.xml",
+            "fixture_cleared.xml",
+            "fixture_clear_restarted.xml"
+          ],
+          "rows_before": 4,
+          "favorites_after": 1
+        }
+      ]
+    },
+    "source_management": {
+      "schema": 1,
+      "apk_sha256": "423289feea2dccb2d9ebd019e73d8a12d3b81b4bb9ba6b1253289ea4e6133e23",
+      "serial": "emulator-5560",
+      "started_at": "2026-10-15T11:56:05.876222+00:00",
+      "scope": "Installed final production APK on owned API35 x86_64 emulator; fixed QA source via UI only; app source_registry JSON read-only; no app data clearing or Windows user data access.",
+      "baseline": {
+        "provider_count": 48,
+        "provider_ids": [
+          "wsyzy",
+          "sheet_c001",
+          "sheet_c003",
+          "sheet_c004",
+          "sheet_c006",
+          "sheet_c007",
+          "sheet_c008",
+          "sheet_c010",
+          "sheet_c013",
+          "sheet_c014",
+          "sheet_c018",
+          "sheet_c022",
+          "sheet_c024",
+          "sheet_c025",
+          "sheet_c026",
+          "sheet_c028",
+          "sheet_c031",
+          "sheet_c032",
+          "sheet_c033",
+          "sheet_c034",
+          "sheet_c035",
+          "sheet_c036",
+          "sheet_c037",
+          "sheet_c042",
+          "sheet_c049",
+          "sheet_c054",
+          "sheet_c058",
+          "sheet_e006",
+          "sheet_e023",
+          "sheet_e031",
+          "sheet_e032",
+          "kazumi_7sefun",
+          "kazumi_aafun",
+          "kazumi_age",
+          "kazumi_akianime",
+          "kazumi_baimao",
+          "kazumi_dalvdm",
+          "kazumi_dm84",
+          "kazumi_ezdmw",
+          "kazumi_girigirilove",
+          "kazumi_lmm",
+          "kazumi_mgnacg",
+          "kazumi_moonci",
+          "kazumi_mutefun",
+          "kazumi_mxdm",
+          "kazumi_sorani",
+          "kazumi_xfdmneo",
+          "kazumi_xfdmnext"
+        ],
+        "enabled": {
+          "wsyzy": true,
+          "sheet_c001": true,
+          "sheet_c003": true,
+          "sheet_c004": true,
+          "sheet_c006": true,
+          "sheet_c007": true,
+          "sheet_c008": true,
+          "sheet_c010": true,
+          "sheet_c013": true,
+          "sheet_c014": true,
+          "sheet_c018": true,
+          "sheet_c022": true,
+          "sheet_c024": true,
+          "sheet_c025": true,
+          "sheet_c026": true,
+          "sheet_c028": true,
+          "sheet_c031": true,
+          "sheet_c032": true,
+          "sheet_c033": true,
+          "sheet_c034": true,
+          "sheet_c035": true,
+          "sheet_c036": true,
+          "sheet_c037": true,
+          "sheet_c042": true,
+          "sheet_c049": true,
+          "sheet_c054": true,
+          "sheet_c058": true,
+          "sheet_e006": true,
+          "sheet_e023": true,
+          "sheet_e031": true,
+          "sheet_e032": true,
+          "kazumi_7sefun": true,
+          "kazumi_aafun": true,
+          "kazumi_age": true,
+          "kazumi_akianime": true,
+          "kazumi_baimao": true,
+          "kazumi_dalvdm": true,
+          "kazumi_dm84": true,
+          "kazumi_ezdmw": true,
+          "kazumi_girigirilove": true,
+          "kazumi_lmm": true,
+          "kazumi_mgnacg": true,
+          "kazumi_moonci": true,
+          "kazumi_mutefun": true,
+          "kazumi_mxdm": true,
+          "kazumi_sorani": true,
+          "kazumi_xfdmneo": true,
+          "kazumi_xfdmnext": true
+        },
+        "provider_fingerprint": "c9f875b57acc1c26ff00f01f8f59b689f4203ec1ea6590a22ef15af266f59b34"
+      },
+      "checks": [
+        {
+          "id": "production_identity",
+          "status": "passed",
+          "assertion": "Installed production base.apk SHA-256 matches the frozen release; initial 48 providers and enable states recorded.",
+          "evidence": [
+            "source_qa_baseline_320.xml",
+            "source_qa_baseline_320.png"
+          ],
+          "provider_count": 48
+        },
+        {
+          "id": "custom_add",
+          "status": "passed",
+          "assertion": "UI adds only QA_Source_22 at the fixed example.com CMS URL, enabled by default; persisted count becomes 49.",
+          "evidence": [
+            "source_qa_add_dialog.xml",
+            "source_qa_added.xml",
+            "source_qa_added.png"
+          ],
+          "qa_id": "custom_8fc70ed411467819",
+          "provider_count": 49
+        },
+        {
+          "id": "custom_edit",
+          "status": "passed",
+          "assertion": "UI edits only the QA name; leaving the endpoint empty preserves the original example.com URL and provider count. Keyboard was dismissed before checking the visible edited row.",
+          "evidence": [
+            "source_qa_edit_dialog.xml",
+            "source_qa_edited.xml",
+            "source_qa_edited.png"
+          ],
+          "provider_count": 49
+        },
+        {
+          "id": "custom_delete_restore",
+          "status": "passed",
+          "assertion": "Delete first offers confirmation; Cancel keeps QA source; confirmed deletion restores all original 48 providers and every original enable state byte-for-byte.",
+          "evidence": [
+            "source_qa_delete_confirm.xml",
+            "source_qa_deleted_restored.xml",
+            "source_qa_deleted_restored.png"
+          ],
+          "restored": {
+            "provider_count": 48,
+            "provider_ids": [
+              "wsyzy",
+              "sheet_c001",
+              "sheet_c003",
+              "sheet_c004",
+              "sheet_c006",
+              "sheet_c007",
+              "sheet_c008",
+              "sheet_c010",
+              "sheet_c013",
+              "sheet_c014",
+              "sheet_c018",
+              "sheet_c022",
+              "sheet_c024",
+              "sheet_c025",
+              "sheet_c026",
+              "sheet_c028",
+              "sheet_c031",
+              "sheet_c032",
+              "sheet_c033",
+              "sheet_c034",
+              "sheet_c035",
+              "sheet_c036",
+              "sheet_c037",
+              "sheet_c042",
+              "sheet_c049",
+              "sheet_c054",
+              "sheet_c058",
+              "sheet_e006",
+              "sheet_e023",
+              "sheet_e031",
+              "sheet_e032",
+              "kazumi_7sefun",
+              "kazumi_aafun",
+              "kazumi_age",
+              "kazumi_akianime",
+              "kazumi_baimao",
+              "kazumi_dalvdm",
+              "kazumi_dm84",
+              "kazumi_ezdmw",
+              "kazumi_girigirilove",
+              "kazumi_lmm",
+              "kazumi_mgnacg",
+              "kazumi_moonci",
+              "kazumi_mutefun",
+              "kazumi_mxdm",
+              "kazumi_sorani",
+              "kazumi_xfdmneo",
+              "kazumi_xfdmnext"
+            ],
+            "enabled": {
+              "wsyzy": true,
+              "sheet_c001": true,
+              "sheet_c003": true,
+              "sheet_c004": true,
+              "sheet_c006": true,
+              "sheet_c007": true,
+              "sheet_c008": true,
+              "sheet_c010": true,
+              "sheet_c013": true,
+              "sheet_c014": true,
+              "sheet_c018": true,
+              "sheet_c022": true,
+              "sheet_c024": true,
+              "sheet_c025": true,
+              "sheet_c026": true,
+              "sheet_c028": true,
+              "sheet_c031": true,
+              "sheet_c032": true,
+              "sheet_c033": true,
+              "sheet_c034": true,
+              "sheet_c035": true,
+              "sheet_c036": true,
+              "sheet_c037": true,
+              "sheet_c042": true,
+              "sheet_c049": true,
+              "sheet_c054": true,
+              "sheet_c058": true,
+              "sheet_e006": true,
+              "sheet_e023": true,
+              "sheet_e031": true,
+              "sheet_e032": true,
+              "kazumi_7sefun": true,
+              "kazumi_aafun": true,
+              "kazumi_age": true,
+              "kazumi_akianime": true,
+              "kazumi_baimao": true,
+              "kazumi_dalvdm": true,
+              "kazumi_dm84": true,
+              "kazumi_ezdmw": true,
+              "kazumi_girigirilove": true,
+              "kazumi_lmm": true,
+              "kazumi_mgnacg": true,
+              "kazumi_moonci": true,
+              "kazumi_mutefun": true,
+              "kazumi_mxdm": true,
+              "kazumi_sorani": true,
+              "kazumi_xfdmneo": true,
+              "kazumi_xfdmnext": true
+            },
+            "provider_fingerprint": "c9f875b57acc1c26ff00f01f8f59b689f4203ec1ea6590a22ef15af266f59b34"
+          }
+        },
+        {
+          "id": "all_source_speed",
+          "status": "passed",
+          "assertion": "Real all-provider metadata speed test was started through the UI and genuinely completed 48 / 48 before cancellation could be exercised.",
+          "evidence": [
+            "source_qa_speed_active.xml",
+            "source_qa_speed_active.png",
+            "source_qa_speed_result.xml",
+            "source_qa_speed_result.png"
+          ],
+          "progress": [
+            "测速完成 · 48 / 48"
+          ],
+          "result": [
+            "测速完成 · 48 / 48"
+          ],
+          "cancellation_exercised": false,
+          "completed_count": 48,
+          "total_count": 48
+        },
+        {
+          "id": "short_landscape_four_pages",
+          "status": "passed",
+          "assertion": "At physical/logical 640x360 and density160, all four pages render with four visible bottom navigation tabs and expected page content.",
+          "evidence": [
+            "source_qa_landscape_search.xml",
+            "source_qa_landscape_search.png",
+            "source_qa_landscape_workspace.xml",
+            "source_qa_landscape_workspace.png",
+            "source_qa_landscape_library.xml",
+            "source_qa_landscape_library.png",
+            "source_qa_landscape_sources.xml",
+            "source_qa_landscape_sources.png"
+          ]
+        },
+        {
+          "id": "device_restored",
+          "status": "passed",
+          "assertion": "Device restored to 320x640; production Search foreground; QA source removed; original 48 providers and every enable state restored without clearing app data.",
+          "evidence": [
+            "source_qa_restored_320.xml",
+            "source_qa_restored_320.png"
+          ],
+          "final_state": {
+            "provider_count": 48,
+            "provider_ids": [
+              "wsyzy",
+              "sheet_c001",
+              "sheet_c003",
+              "sheet_c004",
+              "sheet_c006",
+              "sheet_c007",
+              "sheet_c008",
+              "sheet_c010",
+              "sheet_c013",
+              "sheet_c014",
+              "sheet_c018",
+              "sheet_c022",
+              "sheet_c024",
+              "sheet_c025",
+              "sheet_c026",
+              "sheet_c028",
+              "sheet_c031",
+              "sheet_c032",
+              "sheet_c033",
+              "sheet_c034",
+              "sheet_c035",
+              "sheet_c036",
+              "sheet_c037",
+              "sheet_c042",
+              "sheet_c049",
+              "sheet_c054",
+              "sheet_c058",
+              "sheet_e006",
+              "sheet_e023",
+              "sheet_e031",
+              "sheet_e032",
+              "kazumi_7sefun",
+              "kazumi_aafun",
+              "kazumi_age",
+              "kazumi_akianime",
+              "kazumi_baimao",
+              "kazumi_dalvdm",
+              "kazumi_dm84",
+              "kazumi_ezdmw",
+              "kazumi_girigirilove",
+              "kazumi_lmm",
+              "kazumi_mgnacg",
+              "kazumi_moonci",
+              "kazumi_mutefun",
+              "kazumi_mxdm",
+              "kazumi_sorani",
+              "kazumi_xfdmneo",
+              "kazumi_xfdmnext"
+            ],
+            "enabled": {
+              "wsyzy": true,
+              "sheet_c001": true,
+              "sheet_c003": true,
+              "sheet_c004": true,
+              "sheet_c006": true,
+              "sheet_c007": true,
+              "sheet_c008": true,
+              "sheet_c010": true,
+              "sheet_c013": true,
+              "sheet_c014": true,
+              "sheet_c018": true,
+              "sheet_c022": true,
+              "sheet_c024": true,
+              "sheet_c025": true,
+              "sheet_c026": true,
+              "sheet_c028": true,
+              "sheet_c031": true,
+              "sheet_c032": true,
+              "sheet_c033": true,
+              "sheet_c034": true,
+              "sheet_c035": true,
+              "sheet_c036": true,
+              "sheet_c037": true,
+              "sheet_c042": true,
+              "sheet_c049": true,
+              "sheet_c054": true,
+              "sheet_c058": true,
+              "sheet_e006": true,
+              "sheet_e023": true,
+              "sheet_e031": true,
+              "sheet_e032": true,
+              "kazumi_7sefun": true,
+              "kazumi_aafun": true,
+              "kazumi_age": true,
+              "kazumi_akianime": true,
+              "kazumi_baimao": true,
+              "kazumi_dalvdm": true,
+              "kazumi_dm84": true,
+              "kazumi_ezdmw": true,
+              "kazumi_girigirilove": true,
+              "kazumi_lmm": true,
+              "kazumi_mgnacg": true,
+              "kazumi_moonci": true,
+              "kazumi_mutefun": true,
+              "kazumi_mxdm": true,
+              "kazumi_sorani": true,
+              "kazumi_xfdmneo": true,
+              "kazumi_xfdmnext": true
+            },
+            "provider_fingerprint": "c9f875b57acc1c26ff00f01f8f59b689f4203ec1ea6590a22ef15af266f59b34"
+          }
+        }
+      ],
+      "updated_at": "2026-10-15T12:04:08.421075+00:00",
+      "completed_at": "2026-10-15T12:04:08.422066+00:00",
+      "device_returned": true,
+      "tooling_note": "After closing an edit/delete dialog, the focused source filter reopened the soft keyboard. Dismissing that keyboard exposed the persisted edited row; no runtime source change was made.",
+      "landscape_visual_inspection": "All four final 640x360 screenshots were visually inspected: page content remains vertically scrollable and four bottom navigation tabs stay within screen bounds."
+    },
+    "frontend_decoder_correspondence": {
+      "production_sha256": "423289feea2dccb2d9ebd019e73d8a12d3b81b4bb9ba6b1253289ea4e6133e23",
+      "fixture_sha256": "53d0ef1d0af8dec5e8d4ad47beaa63dbb9e15200fb953d06bf8255d080b24076",
+      "identical_native_frontend_decoder_libraries": 12,
+      "libraries": [
+        {
+          "file": "lib/arm64-v8a/libapp.so",
+          "sha256": "8c57ef6c477166c5cc1b3eebf815513876095668a8a029e927a6e0c047ebe444",
+          "identical": true
+        },
+        {
+          "file": "lib/arm64-v8a/libflutter.so",
+          "sha256": "34f4113ae93b2c7069030f0bcfede18e7c83ed548b71a75c9ebb749403d3a060",
+          "identical": true
+        },
+        {
+          "file": "lib/arm64-v8a/libmediakitandroidhelper.so",
+          "sha256": "ab55b1d34665dba8fa7a451e82c466ee71b9698e7da6c9a3cb68a7c0ee7610d4",
+          "identical": true
+        },
+        {
+          "file": "lib/arm64-v8a/libmpv.so",
+          "sha256": "adf83fde58a9f6751ce6e83b9b187f651425d53ec0e20da04deb8dfb4aa775e1",
+          "identical": true
+        },
+        {
+          "file": "lib/armeabi-v7a/libapp.so",
+          "sha256": "3ea76972c3eac80badd6d65ffc1e6f1cfa62b34e9374fd214a12c4a259455dfd",
+          "identical": true
+        },
+        {
+          "file": "lib/armeabi-v7a/libflutter.so",
+          "sha256": "c408a309f798148edc33993334e5636fc035dba2aac375066f691da8be4480f8",
+          "identical": true
+        },
+        {
+          "file": "lib/armeabi-v7a/libmediakitandroidhelper.so",
+          "sha256": "506d0bc7775fe9888be6b6e889d8556ca0574dba65813866e2158cbf52a8c8b1",
+          "identical": true
+        },
+        {
+          "file": "lib/armeabi-v7a/libmpv.so",
+          "sha256": "8aa2b23d16d941a8d685b8eb995b1cb31677ed3e28c55c776954eb1618ab1a2e",
+          "identical": true
+        },
+        {
+          "file": "lib/x86_64/libapp.so",
+          "sha256": "198ad13bc792f04d4accb6258af01a57fd8a7a8e2f04b901cee3b0583e20bddd",
+          "identical": true
+        },
+        {
+          "file": "lib/x86_64/libflutter.so",
+          "sha256": "207ff0aa7a5f6926cae6403a6f63c0b6ede457ae430546cbef8550845471abfc",
+          "identical": true
+        },
+        {
+          "file": "lib/x86_64/libmediakitandroidhelper.so",
+          "sha256": "6ca2d827a892b8ddd60df64fab81456ad6fd05180dd6c4a0974549858025abc9",
+          "identical": true
+        },
+        {
+          "file": "lib/x86_64/libmpv.so",
+          "sha256": "f030e9a1a4d4664e89d7160a3d4528cd5875ee023ff6262e16e95aac28ffaec5",
+          "identical": true
+        }
+      ]
+    }
+  },
+  "gpu_probe": {
+    "collected_at_utc": "2026-10-15T12:08:43.5302580Z",
+    "since_utc": "2026-10-15T12:04:40.2071565Z",
+    "serial": "emulator-5560",
+    "package": "com.yingxia.yingxia_native.fixture",
+    "process_id": "11394",
+    "log_scope": "current_fixture_process",
+    "device": {
+      "ro.build.version.sdk": "35",
+      "ro.product.cpu.abi": "x86_64",
+      "ro.hardware": "ranchu",
+      "ro.kernel.qemu": "1"
+    },
+    "classification": "gpu_shader_verified",
+    "structured_records": 268,
+    "malformed_or_truncated_records": 0,
+    "active_samples": 73,
+    "proven_shader_samples": 60,
+    "verified_modes": [
+      "enhanced",
+      "light"
+    ],
+    "off_at_source_size_samples": 13,
+    "light_enhanced_off_verified": true,
+    "fallback_reasons": [
+      "vo_frame_drops"
+    ],
+    "gpu_error_phrase_counts": {
+      "EGL_BAD_NATIVE_WINDOW": 0,
+      "Could not create EGL surface": 0,
+      "EGL failed to initialize": 0,
+      "Failed to set context": 0,
+      "Failed initializing any suitable GPU context": 0
+    },
+    "performance_scope": "This device and emulator renderer only; no ARM device performance inference.",
+    "gpu_error_time_scope": "Error phrase counts cover the retained log buffer; structured records are filtered by since_utc."
+  },
+  "gpu_variant": {
+    "apk": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_android_client\\build\\gpu_debug_client\\build\\candidates\\YingXia_v2.2.0_Android_fixture_gpu_debug_x64.apk",
+    "bytes": 98428678,
+    "sha256": "066614534393bc41f56747ab7011087058596952c87e3ee7d11d4140be41af71",
+    "target_platform": "android-x64",
+    "package": "com.yingxia.yingxia_native.fixture",
+    "gpu_debug_context": true,
+    "device_executed": false
+  },
+  "gpu_probe_notes": "Standard emulator playback uses mediacodec_embed and explicitly disables FSR. The ordinary GPU fixture could not create its emulator context. The successful GPU QA run uses the separately documented clone with only gpu-debug=yes added, synthetic 640x360 HLS, software decoding and a 1920x1080 fullscreen target. It verifies both actual FSR pass graphs, source-size restoration and observed Enhanced-to-Light downgrade, not the unmodified production GPU context or ARM performance.",
+  "source_registry": {
+    "embedded": 47,
+    "reviewed_cms": 30,
+    "kazumi_pinned": 16,
+    "legacy": 1,
+    "upstream_updates_may_change_count": true
+  },
+  "runtime_source_manifest": "native_android_client/evidence/android/runtime_source_manifest.json",
+  "scope": [
+    "Actual release APK installed over the same signed Android package on an owned API35 x86_64 emulator.",
+    "Synthetic continuous H264 HLS through the same frontend, decoder, private API and storage paths.",
+    "Three-ABI APK signature, AOT, shaders and Go JNI correspondence checked.",
+    "No physical ARM device, 16KB-page device, battery/thermal run or audible sound-quality benchmark.",
+    "External metadata access and source updates are separate from complete third-party video playback availability."
+  ],
+  "historical_artifacts_unchanged": [
+    {
+      "file": "YingXia_v2.0.0_Android.apk",
+      "size": 124097983,
+      "sha256": "b9d470913a117005b89006e137b7517e6bafafd717ba96b91efe934677a4f9a6"
+    },
+    {
+      "file": "YingXia_v2.2.0_Native_Windows_x64.exe",
+      "size": 60509696,
+      "sha256": "4e91a204a6bd868fd788938efd34c01bce263cd4c518f713a63fe605116203f6"
+    },
+    {
+      "file": "YingXia_v2.2.0_Native_Windows_Source.zip",
+      "size": 39328160,
+      "sha256": "8d44d87f02b4f5f47e9586032d565dfee5d1dfee16e3ba95c6a4d1147fccd11d"
+    }
+  ],
+  "private_signing_material_packaged": false,
+  "published_without_rebuild_after_runtime_validation": true
+}

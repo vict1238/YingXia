@@ -1,0 +1,173 @@
+{
+  "platform": "win32/x64",
+  "executable": "YingXia_candidate5.exe",
+  "sha256": "bd82683efcd94ac1b635e325ab74d1941ec95ef41b749efb89ffe945c7b4b0c3",
+  "shipping_gui_tested": true,
+  "production_backend_history_tested": true,
+  "media_backend": "separately compiled native_fixture Go child via explicit developer override",
+  "fixture_backend_sha256": "0f1803480545b72b01353071ac8a543f41d4dabb6c8eea824728ef13486f4a46",
+  "synthetic_media_only": true,
+  "real_third_party_playback_tested": false,
+  "checks": [
+    {
+      "name": "Single release EXE extracts runtime and opens its own visible Flutter window with no browser/WebView children",
+      "passed": true
+    },
+    {
+      "name": "All four approved pages load in the production Flutter/Go app",
+      "passed": true
+    },
+    {
+      "name": "Exact two developer names and emails are shown at the top of sources and diagnostics",
+      "passed": true
+    },
+    {
+      "name": "Simple three-choice quality dropdown can change and persist the Windows-only preference",
+      "passed": true
+    },
+    {
+      "name": "Production in-app clear confirmation can cancel without changing persistent records",
+      "passed": true
+    },
+    {
+      "name": "Actual read-only library write failure retains rows and allows retry",
+      "passed": true
+    },
+    {
+      "name": "Actual production backend clears disk history while preserving favorites, bindings and settings",
+      "passed": true
+    },
+    {
+      "name": "Repeated single-file launch restores the existing native window",
+      "passed": true
+    },
+    {
+      "name": "Full release EXE restart keeps history empty and favorite available; window close ends child family",
+      "passed": true
+    },
+    {
+      "name": "A viewport smaller than the source leaves the original 720p texture and avoids shader work",
+      "passed": true
+    }
+  ],
+  "observations": [
+    {
+      "initial_window": {
+        "action": "Snapshot",
+        "visible": true,
+        "pid": 37244,
+        "minimized": false,
+        "rect": [
+          10,
+          10,
+          1350,
+          910
+        ],
+        "title": "映匣 · YingXia",
+        "hwnd": 5706254
+      }
+    },
+    {
+      "production_process_family": [
+        {
+          "ProcessId": 30192,
+          "ParentProcessId": 3532,
+          "Name": "YingXia_candidate5.exe"
+        },
+        {
+          "ProcessId": 37244,
+          "ParentProcessId": 30192,
+          "Name": "yingxia_native.exe"
+        },
+        {
+          "ProcessId": 9060,
+          "ParentProcessId": 37244,
+          "Name": "yingxia_backend.exe"
+        }
+      ]
+    },
+    {
+      "native_parent_exit": {
+        "code": 0,
+        "signal": null,
+        "time": "2026-10-14T11:45:56.466Z"
+      }
+    },
+    {
+      "native_parent_exit": {
+        "code": 0,
+        "signal": null,
+        "time": "2026-10-14T11:46:05.456Z"
+      }
+    },
+    {
+      "native_parent_exit": {
+        "code": 0,
+        "signal": null,
+        "time": "2026-10-14T11:46:49.107Z"
+      }
+    }
+  ],
+  "failure": "Error: button 全屏 ⛶ must become uniquely available\n    at eventually (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:20:212)\n    at async button (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:31:40)\n    at async fullscreen (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:50:29)\n    at async main (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:113:30)",
+  "failure_processes": [
+    {
+      "ProcessId": 23412,
+      "ParentProcessId": 3532,
+      "Name": "YingXia_candidate5.exe"
+    },
+    {
+      "ProcessId": 31696,
+      "ParentProcessId": 23412,
+      "Name": "yingxia_native.exe"
+    },
+    {
+      "ProcessId": 29780,
+      "ParentProcessId": 31696,
+      "Name": "yingxia_backend_fsr_fixture.exe"
+    },
+    {
+      "ProcessId": 27072,
+      "ParentProcessId": 29780,
+      "Name": "conhost.exe"
+    }
+  ],
+  "failure_accessibility": [
+    {
+      "rect": [
+        -32000,
+        -32000,
+        1324,
+        861
+      ],
+      "role": 16,
+      "name": null,
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        -32000,
+        -32000,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        -32000,
+        -32000,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    }
+  ],
+  "check_count": 10
+}

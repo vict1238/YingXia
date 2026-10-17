@@ -1,0 +1,35 @@
+package engine
+
+import (
+ "context"
+ "testing"
+ "time"
+)
+
+type reviewBlockingNetwork struct {
+ nativeFixtureFetcher
+ started chan struct{}
+ release chan struct{}
+}
+
+func (n *reviewBlockingNetwork) Fetch(ctx context.Context, link string, limit int) ([]byte, Obj, error) {
+ close(n.started)
+ select {case <-n.release: case <-ctx.Done(): return nil,nil,ctx.Err()}
+ return []byte(`<video src="https://media.example.org/video.webm"></video>`),Obj{"content_type":"text/html"},nil
+}
+
+func TestReviewClearDuringPendingResolve(t *testing.T) {
+ n:=&reviewBlockingNetwork{started:make(chan struct{}),release:make(chan struct{})}
+ s,e:=newService(t.TempDir(),n);if e!=nil {t.Fatal(e)}
+ if e=s.store.SetMany(Obj{"network_consent":true});e!=nil {t.Fatal(e)}
+ s.links["review-film"]=Film{ID:"review-film",Title:"review pending resolve",Source:"fixture",Groups:[]Group{{Key:"g0",Name:"fixture",Episodes:[]Episode{{Key:"e0",Name:"1",URL:"https://player.example.org/review"}}}}}
+ done:=make(chan error,1)
+ go func(){_,e:=s.Resolve(context.Background(),Obj{"film_id":"review-film","group_key":"g0","episode_key":"e0","source":"native"});done<-e}()
+ select {case <-n.started:case <-time.After(time.Second):t.Fatal("resolver not waiting")}
+ if e=s.store.ClearHistory();e!=nil {t.Fatal(e)}
+ if len(s.store.History())!=0 {t.Fatal("clear failed")}
+ close(n.release)
+ select {case e=<-done:case <-time.After(time.Second):t.Fatal("resolver did not finish")}
+ if e!=nil {t.Fatal(e)}
+ if len(s.store.History())!=0 {t.Fatalf("pre-clear resolve added %d rows after successful clear",len(s.store.History()))}
+}

@@ -1,0 +1,67 @@
+{
+  "checked_at_utc": "2026-10-15T11:57:20.7624219Z",
+  "original_source_files_checked": 411,
+  "original_source_changes": [],
+  "protected_artifacts": [
+    {
+      "path": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_android_client\\build\\candidates\\YingXia_v2.2.0_Android.apk",
+      "sha256": "423289feea2dccb2d9ebd019e73d8a12d3b81b4bb9ba6b1253289ea4e6133e23",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_android_client\\build\\candidates\\YingXia_v2.2.0_Android_fixture.apk",
+      "sha256": "53d0ef1d0af8dec5e8d4ad47beaa63dbb9e15200fb953d06bf8255d080b24076",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_android_client\\build\\candidates\\YingXia_v2.2.0_Android_fixture_gpu.apk",
+      "sha256": "9db41c8728830ac5575d7a89a6f4b37ce8abf0edd8e50215b4ea4ebae2500a06",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_android_core\\build\\yingxia_core.aar",
+      "sha256": "1cc925bb13eb46fd5aeb8078504e24f579fc06bfe4941a568df8486f82a448b2",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_android_core\\build\\yingxia_core_fixture.aar",
+      "sha256": "8755f6274120e9ee6d234a50405412b4830bba2186ce47ec264d8e9c7cbcb297",
+      "unchanged": true
+    }
+  ],
+  "original_manifest_unchanged": true,
+  "clone_source_differences": [
+    {
+      "path": "android/app/libs/yingxia_core.aar",
+      "source_sha256": "1cc925bb13eb46fd5aeb8078504e24f579fc06bfe4941a568df8486f82a448b2",
+      "clone_sha256": "8755f6274120e9ee6d234a50405412b4830bba2186ce47ec264d8e9c7cbcb297"
+    },
+    {
+      "path": "vendor/media_kit_video/lib/src/video_controller/android_video_controller/real.dart",
+      "source_sha256": "1774971a6c66643aa3df48e96ee482695afd4d6230c371d35e09e7c2763ecc62",
+      "clone_sha256": "dd62b2657521f2691f6730ca93b94b52bf55249c88accb871b06a65f8dcb6e98"
+    }
+  ],
+  "compiled_flutter_abis": [
+    "x86_64"
+  ],
+  "packaged_native_abis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64"
+  ],
+  "native_libraries": [
+    "lib/arm64-v8a/libgojni.so",
+    "lib/arm64-v8a/libmediakitandroidhelper.so",
+    "lib/arm64-v8a/libmpv.so",
+    "lib/armeabi-v7a/libgojni.so",
+    "lib/armeabi-v7a/libmediakitandroidhelper.so",
+    "lib/armeabi-v7a/libmpv.so",
+    "lib/x86_64/libapp.so",
+    "lib/x86_64/libflutter.so",
+    "lib/x86_64/libgojni.so",
+    "lib/x86_64/libmediakitandroidhelper.so",
+    "lib/x86_64/libmpv.so"
+  ],
+  "device_commands_executed": false
+}

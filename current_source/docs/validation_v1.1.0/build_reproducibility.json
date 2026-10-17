@@ -1,0 +1,12 @@
+{
+  "sha256": "59e58b34770cade899c9ca66902e776da63080224d5eced3bf146444ce547543",
+  "rebuild_sha256": "59e58b34770cade899c9ca66902e776da63080224d5eced3bf146444ce547543",
+  "identical": true,
+  "machine_x64": true,
+  "pe32_plus": true,
+  "windows_gui": true,
+  "baseline_v1_0_sha256": "e7d47fe49c185c1d682c52713150f1098a19beda61e6e70128ddba21768a238b",
+  "baseline_v1_0_unchanged": true,
+  "baseline_v1_0_2_sha256": "12b9648f97f2fa463f4531ae0b565089de3e37f2d435132613de0e77927351ba",
+  "baseline_v1_0_2_unchanged": true
+}

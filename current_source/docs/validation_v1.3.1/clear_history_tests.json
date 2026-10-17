@@ -1,0 +1,47 @@
+{
+  "environment": "win32/x64",
+  "executable": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\releases\\YingXia_v1.3.1_Windows_x64.exe",
+  "sha256": "ab1a8321fc885f392b69fd7293f3b24e189eaa0e5ee22098b8f67e163920edb7",
+  "startup": "actual owned Win32/WebView2 window with opt-in loopback CDP and isolated temporary data",
+  "fixtures": "synthetic favorites, history and binding in library.json; no third-party film requests",
+  "checks": [
+    {
+      "name": "Shipping embedded UI contains an app-owned dialog and no browser confirm call",
+      "passed": true
+    },
+    {
+      "name": "In-app confirmation opens; Cancel preserves both records on disk",
+      "passed": true
+    },
+    {
+      "name": "Escape cancels the in-app dialog without clearing data",
+      "passed": true
+    },
+    {
+      "name": "Failed clear request shows an error and retains records; controls allow retry",
+      "passed": true
+    },
+    {
+      "name": "Pending clear disables repeated actions and keeps the dialog open",
+      "passed": true
+    },
+    {
+      "name": "Successful clear awaits refreshed UI and an older library response cannot restore deleted rows",
+      "passed": true
+    },
+    {
+      "name": "Real backend stores an empty history while preserving favorites, bindings and settings",
+      "passed": true
+    },
+    {
+      "name": "After full EXE restart, history remains empty and the favorite remains available",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "browser_dialog_events": [],
+  "external_requests": [],
+  "version": "1.3.1-exe",
+  "webview_version": "155.0.4283.45",
+  "check_count": 8
+}

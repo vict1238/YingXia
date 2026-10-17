@@ -1,0 +1,31 @@
+Compiled from "MainActivity.kt"
+public final class com.yingxia.yingxia_native.MainActivity extends io.flutter.embedding.android.FlutterActivity {
+  public static final com.yingxia.yingxia_native.MainActivity$Companion Companion;
+  private final int hostId;
+  private final android.os.Handler mainHandler;
+  private volatile boolean destroyed;
+  private io.flutter.plugin.common.MethodChannel$Result diagnosticResult;
+  private byte[] diagnosticBytes;
+  private static final java.util.concurrent.ExecutorService worker;
+  private static final java.util.concurrent.ExecutorService documentWorker;
+  private static final java.util.concurrent.atomic.AtomicInteger hosts;
+  private static final java.util.concurrent.atomic.AtomicInteger nextHost;
+  private static final int diagnosticRequest;
+  private static final int diagnosticMaxBytes;
+  public com.yingxia.yingxia_native.MainActivity();
+  protected void onCreate(android.os.Bundle);
+  public void configureFlutterEngine(io.flutter.embedding.engine.FlutterEngine);
+  protected void onActivityResult(int, int, android.content.Intent);
+  protected void onDestroy();
+  private static final void configureFlutterEngine$lambda$0$0$0(com.yingxia.yingxia_native.MainActivity, io.flutter.plugin.common.MethodChannel$Result, org.json.JSONObject);
+  private static final void configureFlutterEngine$lambda$0$0$1(com.yingxia.yingxia_native.MainActivity, io.flutter.plugin.common.MethodChannel$Result);
+  private static final void configureFlutterEngine$lambda$0$0(com.yingxia.yingxia_native.MainActivity, io.flutter.plugin.common.MethodChannel$Result);
+  private static final void configureFlutterEngine$lambda$0$1$0(com.yingxia.yingxia_native.MainActivity, io.flutter.plugin.common.MethodChannel$Result);
+  private static final void configureFlutterEngine$lambda$0$1(com.yingxia.yingxia_native.MainActivity, io.flutter.plugin.common.MethodChannel$Result);
+  private static final void configureFlutterEngine$lambda$0(com.yingxia.yingxia_native.MainActivity, io.flutter.plugin.common.MethodCall, io.flutter.plugin.common.MethodChannel$Result);
+  private static final void onActivityResult$lambda$0$1(com.yingxia.yingxia_native.MainActivity, io.flutter.plugin.common.MethodChannel$Result);
+  private static final void onActivityResult$lambda$0$2(com.yingxia.yingxia_native.MainActivity, io.flutter.plugin.common.MethodChannel$Result);
+  private static final void onActivityResult$lambda$0(com.yingxia.yingxia_native.MainActivity, android.net.Uri, byte[], io.flutter.plugin.common.MethodChannel$Result);
+  private static final void onDestroy$lambda$0();
+  static {};
+}

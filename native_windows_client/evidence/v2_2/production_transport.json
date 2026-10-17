@@ -1,0 +1,93 @@
+{
+  "backend_sha256": "014ead0e0ec4f7e4929d35361be07fbbaee8b8862a5e9a1dab9f1a63ceb20803",
+  "real_third_party_media_playback_tested": false,
+  "live_network_scope": "Three public CMS metadata operations only",
+  "isolated_data": true,
+  "checks": [
+    {
+      "name": "Production backend seeds the expanded registry",
+      "passed": true
+    },
+    {
+      "name": "Private source GET and mutation endpoints retain session and CSRF checks",
+      "passed": true
+    },
+    {
+      "name": "Enabling one provider preserves a different disabled provider",
+      "passed": true
+    },
+    {
+      "name": "Custom provider editing retains its URL when the URL field is left blank",
+      "passed": true
+    },
+    {
+      "name": "Private network source input remains rejected",
+      "passed": true
+    },
+    {
+      "name": "Custom provider removal updates the registry",
+      "passed": true
+    },
+    {
+      "name": "Live catalog speed measurement starts asynchronously",
+      "passed": true
+    },
+    {
+      "name": "Live speed measurement completes with exact progress",
+      "passed": true
+    },
+    {
+      "name": "New providers return actual parseable catalog records in the production Go client",
+      "passed": true
+    },
+    {
+      "name": "First backend exits normally",
+      "passed": true
+    },
+    {
+      "name": "Provider overrides and completed speed results persist across production backend restart",
+      "passed": true
+    },
+    {
+      "name": "Restarted backend exits normally",
+      "passed": true
+    }
+  ],
+  "observations": [
+    {
+      "live_catalog_results": [
+        {
+          "catalog_count": 20,
+          "checked_at": "2026-10-15T04:00:27Z",
+          "id": "sheet_c001",
+          "latency_ms": 725,
+          "message": "目录读取正常",
+          "name": "电影天堂资源",
+          "playback_verified": false,
+          "status": "available"
+        },
+        {
+          "catalog_count": 20,
+          "checked_at": "2026-10-15T04:00:27Z",
+          "id": "sheet_c003",
+          "latency_ms": 2381,
+          "message": "目录读取正常",
+          "name": "如意资源",
+          "playback_verified": false,
+          "status": "available"
+        },
+        {
+          "catalog_count": 20,
+          "checked_at": "2026-10-15T04:00:27Z",
+          "id": "sheet_c004",
+          "latency_ms": 2412,
+          "message": "目录读取正常",
+          "name": "暴风资源",
+          "playback_verified": false,
+          "status": "available"
+        }
+      ]
+    }
+  ],
+  "passed": 12
+}

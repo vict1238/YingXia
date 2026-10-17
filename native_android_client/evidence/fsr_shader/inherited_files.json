@@ -1,0 +1,25 @@
+{
+  "scope": "historical Windows shader provenance and algorithm audit only; Android runtime results are separate",
+  "files": [
+    {
+      "file": "shader_provenance.json",
+      "size": 3319,
+      "sha256": "a4cb8ed6a66403b98e143af5d5207914f3149fdd05daa625baf5aacf200594b9"
+    },
+    {
+      "file": "angle_rgb_validation.json",
+      "size": 5671,
+      "sha256": "259772a0f20e86f4972d22a6afcc266520bbd06157301493e85847f7ef4649ac"
+    },
+    {
+      "file": "mpv_rcas_metadata_fix.md",
+      "size": 1754,
+      "sha256": "008bf96b6555546e203c46cf393eb4ad6db2a52d395e51f065b66b6adf0822f4"
+    },
+    {
+      "file": "render_loop_audit.md",
+      "size": 8986,
+      "sha256": "5f27c0fcf7db0f8edd8099bd8e8440530490a6c4a12e7220ca8310bf6d373993"
+    }
+  ]
+}

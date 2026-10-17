@@ -1,0 +1,813 @@
+{
+  "platform": "win32/x64",
+  "executable": "YingXia_candidate8.exe",
+  "sha256": "6e799468cf8d4ca744b44d2fac915dfa5f58e9982585c8b80c2e2cd61909d08c",
+  "shipping_gui_tested": true,
+  "production_backend_history_tested": false,
+  "media_backend": "separately compiled native_fixture Go child via explicit developer override",
+  "fixture_backend_sha256": "0f1803480545b72b01353071ac8a543f41d4dabb6c8eea824728ef13486f4a46",
+  "synthetic_media_only": true,
+  "real_third_party_playback_tested": false,
+  "checks": [],
+  "observations": [
+    {
+      "fixture_native_process_family": [
+        {
+          "ProcessId": 31524,
+          "ParentProcessId": 36292,
+          "Name": "YingXia_candidate8.exe"
+        },
+        {
+          "ProcessId": 36372,
+          "ParentProcessId": 31524,
+          "Name": "yingxia_native.exe"
+        },
+        {
+          "ProcessId": 32916,
+          "ParentProcessId": 36372,
+          "Name": "yingxia_backend_fsr_fixture.exe"
+        },
+        {
+          "ProcessId": 32436,
+          "ParentProcessId": 32916,
+          "Name": "conhost.exe"
+        }
+      ]
+    },
+    {
+      "native_parent_exit": {
+        "code": 0,
+        "signal": null,
+        "time": "2026-10-14T12:47:53.571Z"
+      }
+    }
+  ],
+  "carried_forward_production_evidence": {
+    "executable": "YingXia_candidate8.exe",
+    "sha256": "6e799468cf8d4ca744b44d2fac915dfa5f58e9982585c8b80c2e2cd61909d08c",
+    "checks": [
+      {
+        "name": "Single release EXE extracts runtime and opens its own visible Flutter window with no browser/WebView children",
+        "passed": true
+      },
+      {
+        "name": "All four approved pages load in the production Flutter/Go app",
+        "passed": true
+      },
+      {
+        "name": "Exact two developer names and emails are shown at the top of sources and diagnostics",
+        "passed": true
+      },
+      {
+        "name": "Simple three-choice quality dropdown can change and persist the Windows-only preference",
+        "passed": true
+      },
+      {
+        "name": "Production in-app clear confirmation can cancel without changing persistent records",
+        "passed": true
+      },
+      {
+        "name": "Actual read-only library write failure retains rows and allows retry",
+        "passed": true
+      },
+      {
+        "name": "Actual production backend clears disk history while preserving favorites, bindings and settings",
+        "passed": true
+      },
+      {
+        "name": "Repeated single-file launch restores the existing native window",
+        "passed": true
+      },
+      {
+        "name": "Full release EXE restart keeps history empty and favorite available; window close ends child family",
+        "passed": true
+      }
+    ],
+    "scope": "These production checks were already run on this exact shipping EXE SHA. This subsequent run executes only the separately labelled fixture checks."
+  },
+  "observed_inputs": [
+    {
+      "label": "quality picker",
+      "method": "Owned Flutter view WM_MOUSE input at previously observed MSAA physical target; same window dimensions enforced",
+      "observed_rect": [
+        854,
+        664,
+        95,
+        49
+      ],
+      "current_window_rect": [
+        10,
+        10,
+        1350,
+        910
+      ],
+      "screen_point": [
+        902,
+        689
+      ],
+      "before_screenshot": "observed_input_0.png"
+    },
+    {
+      "label": "quality picker",
+      "method": "Owned Flutter view WM_MOUSE input at previously observed MSAA physical target; same window dimensions enforced",
+      "observed_rect": [
+        854,
+        664,
+        95,
+        49
+      ],
+      "current_window_rect": [
+        10,
+        10,
+        1350,
+        910
+      ],
+      "screen_point": [
+        902,
+        689
+      ],
+      "before_screenshot": "observed_input_1.png"
+    },
+    {
+      "label": "▷ 播放所选集",
+      "method": "Owned Flutter view WM_MOUSE input at previously observed MSAA physical target; same window dimensions enforced",
+      "observed_rect": [
+        338,
+        723,
+        118,
+        35
+      ],
+      "current_window_rect": [
+        10,
+        10,
+        1350,
+        910
+      ],
+      "screen_point": [
+        397,
+        741
+      ],
+      "before_screenshot": "observed_input_2.png"
+    },
+    {
+      "label": "quality picker",
+      "method": "Owned Flutter view WM_MOUSE input at previously observed MSAA physical target; same window dimensions enforced",
+      "observed_rect": [
+        854,
+        664,
+        95,
+        49
+      ],
+      "current_window_rect": [
+        10,
+        10,
+        1350,
+        910
+      ],
+      "screen_point": [
+        902,
+        689
+      ],
+      "before_screenshot": "observed_input_3.png"
+    },
+    {
+      "label": "quality picker",
+      "method": "Owned Flutter view WM_MOUSE input at previously observed MSAA physical target; same window dimensions enforced",
+      "observed_rect": [
+        854,
+        664,
+        95,
+        49
+      ],
+      "current_window_rect": [
+        10,
+        10,
+        1350,
+        910
+      ],
+      "screen_point": [
+        902,
+        689
+      ],
+      "before_screenshot": "observed_input_4.png"
+    },
+    {
+      "label": "▷ 播放所选集",
+      "method": "Owned Flutter view WM_MOUSE input at previously observed MSAA physical target; same window dimensions enforced",
+      "observed_rect": [
+        338,
+        728,
+        118,
+        35
+      ],
+      "current_window_rect": [
+        10,
+        10,
+        1350,
+        910
+      ],
+      "screen_point": [
+        397,
+        746
+      ],
+      "before_screenshot": "observed_input_5.png"
+    },
+    {
+      "label": "quality picker",
+      "method": "Owned Flutter view WM_MOUSE input at previously observed MSAA physical target; same window dimensions enforced",
+      "observed_rect": [
+        854,
+        664,
+        95,
+        49
+      ],
+      "current_window_rect": [
+        10,
+        10,
+        1350,
+        910
+      ],
+      "screen_point": [
+        902,
+        689
+      ],
+      "before_screenshot": "observed_input_6.png"
+    },
+    {
+      "label": "quality picker",
+      "method": "Owned Flutter view WM_MOUSE input at previously observed MSAA physical target; same window dimensions enforced",
+      "observed_rect": [
+        854,
+        664,
+        95,
+        49
+      ],
+      "current_window_rect": [
+        10,
+        10,
+        1350,
+        910
+      ],
+      "screen_point": [
+        902,
+        689
+      ],
+      "before_screenshot": "observed_input_7.png"
+    },
+    {
+      "label": "▷ 播放所选集",
+      "method": "Owned Flutter view WM_MOUSE input at previously observed MSAA physical target; same window dimensions enforced",
+      "observed_rect": [
+        338,
+        728,
+        118,
+        35
+      ],
+      "current_window_rect": [
+        10,
+        10,
+        1350,
+        910
+      ],
+      "screen_point": [
+        397,
+        746
+      ],
+      "before_screenshot": "observed_input_8.png"
+    }
+  ],
+  "failure": "Error: stress manual resume did not complete\n    at eventually (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:25:212)\n    at async main (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:158:68)",
+  "failure_window": {
+    "foreground": true,
+    "action": "Snapshot",
+    "minimized": false,
+    "visible": true,
+    "foreground_activation_used_owned_pointer": false,
+    "rect": [
+      10,
+      10,
+      1350,
+      910
+    ],
+    "title": "映匣 · YingXia",
+    "pid": 36372,
+    "hwnd": 3344388
+  },
+  "failure_processes": [
+    {
+      "ProcessId": 31524,
+      "ParentProcessId": 36292,
+      "Name": "YingXia_candidate8.exe"
+    },
+    {
+      "ProcessId": 36372,
+      "ParentProcessId": 31524,
+      "Name": "yingxia_native.exe"
+    },
+    {
+      "ProcessId": 32916,
+      "ParentProcessId": 36372,
+      "Name": "yingxia_backend_fsr_fixture.exe"
+    },
+    {
+      "ProcessId": 32436,
+      "ParentProcessId": 32916,
+      "Name": "conhost.exe"
+    }
+  ],
+  "failure_accessibility": [
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 16,
+      "name": null,
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        74,
+        167,
+        44
+      ],
+      "role": 41,
+      "name": "映\n映匣\nYINGXIA",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        165,
+        167,
+        49
+      ],
+      "role": 43,
+      "name": "搜索影片",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        221,
+        167,
+        49
+      ],
+      "role": 43,
+      "name": "播放工作台",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        277,
+        167,
+        49
+      ],
+      "role": 43,
+      "name": "收藏与记录",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        333,
+        167,
+        49
+      ],
+      "role": 43,
+      "name": "来源与诊断",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        67,
+        62,
+        20
+      ],
+      "role": 41,
+      "name": "播放工作台",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        222,
+        114,
+        1120,
+        788
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        148,
+        198,
+        38
+      ],
+      "role": 41,
+      "name": "FSR 720p 60fps",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1230,
+        148,
+        74,
+        32
+      ],
+      "role": 43,
+      "name": "＋ 收藏",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        186,
+        137,
+        19
+      ],
+      "role": 41,
+      "name": "2026 · 合成测试 · 无损云",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        232,
+        749,
+        421
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        232,
+        749,
+        421
+      ],
+      "role": 41,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        252,
+        35,
+        27
+      ],
+      "role": 41,
+      "name": "选集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        296,
+        228,
+        19
+      ],
+      "role": 41,
+      "name": "片源",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        322,
+        228,
+        44
+      ],
+      "role": 43,
+      "name": "FSR 测试（2 项）",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1251,
+        257,
+        22,
+        17
+      ],
+      "role": 41,
+      "name": "2 集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        378,
+        228,
+        19
+      ],
+      "role": 41,
+      "name": "已选：第01集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        412,
+        228,
+        42
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        412,
+        72,
+        42
+      ],
+      "role": 41,
+      "name": "第01集. 第01集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1133,
+        412,
+        72,
+        42
+      ],
+      "role": 41,
+      "name": "第02集. 第02集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        507,
+        228,
+        19
+      ],
+      "role": 41,
+      "name": "作品信息",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        535,
+        228,
+        21
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        274,
+        679,
+        34,
+        18
+      ],
+      "role": 41,
+      "name": "已暂停",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        824,
+        679,
+        23,
+        18
+      ],
+      "role": 41,
+      "name": "超分",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        854,
+        664,
+        95,
+        49
+      ],
+      "role": 43,
+      "name": "增强",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        948,
+        672,
+        63,
+        33
+      ],
+      "role": 43,
+      "name": "全屏 ⛶",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        729,
+        70,
+        33
+      ],
+      "role": 43,
+      "name": "上一集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        338,
+        728,
+        118,
+        35
+      ],
+      "role": 43,
+      "name": "▷ 播放所选集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        463,
+        729,
+        71,
+        33
+      ],
+      "role": 43,
+      "name": "下一集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        541,
+        723,
+        93,
+        45
+      ],
+      "role": 43,
+      "name": "1×",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        641,
+        729,
+        59,
+        33
+      ],
+      "role": 43,
+      "name": "停止",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        809,
+        111,
+        20
+      ],
+      "role": 41,
+      "name": "播放方式 / 解析线路",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        645,
+        809,
+        74,
+        20
+      ],
+      "role": 41,
+      "name": "实际播放来源",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        835,
+        366,
+        45
+      ],
+      "role": 43,
+      "name": "内置播放",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        645,
+        840,
+        101,
+        20
+      ],
+      "role": 41,
+      "name": "无损云 / FSR 测试",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        894,
+        751,
+        8
+      ],
+      "role": 41,
+      "name": "绑定播放页",
+      "value": "",
+      "action": null
+    }
+  ],
+  "check_count": 0
+}

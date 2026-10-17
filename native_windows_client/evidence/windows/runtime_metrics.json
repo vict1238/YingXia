@@ -1,0 +1,82 @@
+{
+  "executable_sha256": "d826f45a89f9aa8bbed1ed578e666a724c6f984d15756bef0d90fd73af7bd106",
+  "source_report": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\evidence\\windows\\diagnostics\\candidate6_media_lifecycle\\native_windows_fsr_tests.json",
+  "source_diagnostics": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\evidence\\windows\\diagnostics\\candidate6_media_lifecycle\\视频测试库_fsr.jsonl",
+  "hardware": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "integrated_gpu_benchmarked": false,
+  "synthetic_media_only": true,
+  "real_third_party_playback_tested": false,
+  "performance_unit": "libmpv actual GPU pass averages summed in milliseconds; not an end-to-end or integrated-GPU throughput guarantee",
+  "fps_runs": [
+    {
+      "fps": 24,
+      "sample_count": 6,
+      "first_time": "2026-10-14T12:03:22.775884Z",
+      "last_time": "2026-10-14T12:03:27.780544Z",
+      "first_position": 11.791666,
+      "last_position": 16.791666,
+      "video_clock_advance_seconds": 5,
+      "render_ms_min": 0.739364,
+      "render_ms_median": 0.895971,
+      "render_ms_max": 1.154814,
+      "vo_drops_first": 2,
+      "vo_drops_last": 2,
+      "vo_drop_delta": 0,
+      "decoder_drops_last": 0,
+      "hardware_decoder": [
+        "d3d11va-copy"
+      ],
+      "renderer": [
+        "hardware"
+      ],
+      "passed": true
+    },
+    {
+      "fps": 30,
+      "sample_count": 17,
+      "first_time": "2026-10-14T12:01:44.774082Z",
+      "last_time": "2026-10-14T12:02:00.774685Z",
+      "first_position": 8.733333,
+      "last_position": 24.733333,
+      "video_clock_advance_seconds": 15.999999999999998,
+      "render_ms_min": 1.009827,
+      "render_ms_median": 1.086853,
+      "render_ms_max": 1.560221,
+      "vo_drops_first": 0,
+      "vo_drops_last": 1,
+      "vo_drop_delta": 1,
+      "decoder_drops_last": 0,
+      "hardware_decoder": [
+        "d3d11va-copy"
+      ],
+      "renderer": [
+        "hardware"
+      ],
+      "passed": true
+    },
+    {
+      "fps": 60,
+      "sample_count": 6,
+      "first_time": "2026-10-14T12:03:45.773569Z",
+      "last_time": "2026-10-14T12:03:50.774840Z",
+      "first_position": 5.25,
+      "last_position": 10.25,
+      "video_clock_advance_seconds": 5,
+      "render_ms_min": 0.791618,
+      "render_ms_median": 1.444348,
+      "render_ms_max": 1.478267,
+      "vo_drops_first": 2,
+      "vo_drops_last": 2,
+      "vo_drop_delta": 0,
+      "decoder_drops_last": 0,
+      "hardware_decoder": [
+        "d3d11va-copy"
+      ],
+      "renderer": [
+        "hardware"
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

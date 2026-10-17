@@ -1,0 +1,32 @@
+--------- beginning of main
+10-14 16:38:07.974   358   358 I Zygote  : Process 1786 exited due to signal 9 (Killed)
+10-14 16:38:08.015  1129  1164 D SessionCommitReceiver: Removing PromiseIcon for package: com.yingxia.yingxia_native, install reason: 0, alreadyAddedPromiseIcon: false
+10-14 16:38:08.016   551   842 I SdkSandboxManager: No SDKs used. Skipping SDK data reconcilation for CallingInfo{mUid=10148, mPackageName='com.yingxia.yingxia_native, mAppProcessToken='null'}
+--------- beginning of system
+10-14 16:38:08.028   551   799 D CompatChangeReporter: Compat change id reported: 297989574; UID 1000; state: ENABLED
+10-14 16:38:08.063   872  2064 I PermissionControllerServiceImpl: Updating user sensitive for uid 10148
+10-14 16:38:08.064   551   591 D CompatChangeReporter: Compat change id reported: 151861875; UID 10063; state: ENABLED
+10-14 16:38:08.073  1022  1022 D CarrierSvcBindHelper: onPackageAdded: com.yingxia.yingxia_native
+10-14 16:38:08.086   358   358 D Zygote  : Forked child process 2306
+10-14 16:38:08.088  1022  1022 D CarrierSvcBindHelper: No carrier app for: 0
+10-14 16:38:08.108   551   592 I ActivityManager: Start proc 2306:com.android.packageinstaller/u0a63 for broadcast {com.android.packageinstaller/com.android.packageinstaller.PackageInstalledReceiver}
+10-14 16:38:08.109   551   799 E AppOps  : attributionTag VCN not declared in manifest of android
+10-14 16:38:08.148   551   652 I RoleService: Granting default roles...
+10-14 16:38:08.181  1022  1022 E SmsApplication: com.android.messaging lost android:receive_wap_push:  (fixing)
+10-14 16:38:08.183   551  1475 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 10114, code = RECEIVE_WAP_PUSH, mode = allow, callingUid = 1001, oldMode = allow
+10-14 16:38:08.190  2306  2306 I ackageinstaller: Using CollectorTypeCMC GC.
+10-14 16:38:08.191  2306  2306 W ackageinstaller: Unexpected CPU variant for x86: x86_64.
+10-14 16:38:08.191  2306  2306 W ackageinstaller: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+10-14 16:38:08.200  2306  2306 E ackageinstaller: Not starting debugger since process cannot load the jdwp agent.
+10-14 16:38:08.202  2306  2306 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-14 16:38:08.202  1022  1022 E SmsApplication: com.android.messaging lost android:read_cell_broadcasts:  (fixing)
+10-14 16:38:08.202   551  1475 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 10114, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+10-14 16:38:08.214   872   872 I SafetyLabelChangedBroadcastReceiver: received broadcast packageName: com.yingxia.yingxia_native, current user: UserHandle{0}, packageChangeEvent: NEW_INSTALL, intent user: UserHandle{0}
+10-14 16:38:08.220   872  2302 E BackupHelper: Could not parse delayed permissions
+10-14 16:38:08.220   872  2302 E BackupHelper: java.io.FileNotFoundException: /data/user_de/0/com.android.permissioncontroller/files/delayed_restore_permissions.xml: open failed: ENOENT (No such file or directory)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:774)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at com.android.permissioncontroller.permission.service.BackupHelper.restoreDelayedState(BackupHelper.java:406)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.onRestoreDelayedRuntimePermissionsBackup(PermissionControllerServiceImpl.java:430)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.lambda$onAppl

@@ -1,0 +1,101 @@
+{
+  "synthetic": true,
+  "encoder": "FFmpeg 9.0.2 Gyan essentials build",
+  "ffmpeg_project_download": "https://ffmpeg.org/download.html",
+  "encoder_archive_sha256": "60f467265b1e312373dbcd92200c2618a74850f98d3d078e94296bb3fa2047ba",
+  "codec": "H264 Constrained Baseline",
+  "width": 640,
+  "height": 360,
+  "fps": 30,
+  "duration_seconds": 30,
+  "decoded_frames": 900,
+  "unique_segments": 15,
+  "segment_seconds": 2,
+  "discontinuities": 0,
+  "pts_first": 1.4,
+  "pts_last": 31.366667,
+  "all_900_pts_strictly_increasing": true,
+  "ffmpeg_decode_errors": 0,
+  "assets": [
+    {
+      "file": "main.m3u8",
+      "bytes": 551,
+      "sha256": "d9411cb96df5bdb3d6cadb18740c7853557a7c6c83e4a9b1cea79a6f754aa1a9"
+    },
+    {
+      "file": "main0.ts",
+      "bytes": 135924,
+      "sha256": "f01ffde27d432fa82c624dea25c2eed3d1721a6c9534c17752f98fda0e670171"
+    },
+    {
+      "file": "main1.ts",
+      "bytes": 158672,
+      "sha256": "eb7912ff2d31286963417ade694cc01c38840722706fdebbab0336f460ef3ccd"
+    },
+    {
+      "file": "main10.ts",
+      "bytes": 142128,
+      "sha256": "975998ba45c59e4887fc797449e0d0facb664c18a2a2b3ae5eb026aedaffb4cc"
+    },
+    {
+      "file": "main11.ts",
+      "bytes": 144008,
+      "sha256": "275b1140e90b0c2a07f4c363ef2813b507a25675e1de7ca4911ecca7f42b22c5"
+    },
+    {
+      "file": "main12.ts",
+      "bytes": 142128,
+      "sha256": "95f92f34cc920281f94e077fb0df65631473ed46a71921ea2ad29c609c0befec"
+    },
+    {
+      "file": "main13.ts",
+      "bytes": 161868,
+      "sha256": "b77fc368ea7c7ad0f0cffc4ede9ede1ad688da5e3f023253dd9cec556d01bb82"
+    },
+    {
+      "file": "main14.ts",
+      "bytes": 144760,
+      "sha256": "a453db3636efe4d0794fa00f6ab1e9efc0fa3701327af5164df2bccf16edd4c3"
+    },
+    {
+      "file": "main2.ts",
+      "bytes": 143820,
+      "sha256": "06089b1981af7c79da4fcc35b49446e9dc408ca54d93f613c3a31e4c4347c8d5"
+    },
+    {
+      "file": "main3.ts",
+      "bytes": 157356,
+      "sha256": "779f2ee69984e9098fa84c21389abfb3a4e3c80f0197fbfce9253d03decc548a"
+    },
+    {
+      "file": "main4.ts",
+      "bytes": 146264,
+      "sha256": "ecf57207c9a1e77ffc5c594dc24e233d2c7b43b723ddf7d123df8949ebf44e32"
+    },
+    {
+      "file": "main5.ts",
+      "bytes": 146452,
+      "sha256": "824001254732ad62b7b4b71277c07b44585211bf81364731354fa90e6db2a61a"
+    },
+    {
+      "file": "main6.ts",
+      "bytes": 138368,
+      "sha256": "d7073c9ff2e1d8ef122f0eb58c816194c480396e84a8820045436a53675d6352"
+    },
+    {
+      "file": "main7.ts",
+      "bytes": 158296,
+      "sha256": "8a78472a8705146c63b1ba22da3e974c9d374c6c53f9a1608008e116f371e3a8"
+    },
+    {
+      "file": "main8.ts",
+      "bytes": 148144,
+      "sha256": "9040ec4967992567b313ab85a171a5f1c460f7a1591551c004f8ce2409cf56db"
+    },
+    {
+      "file": "main9.ts",
+      "bytes": 159988,
+      "sha256": "f3bff1d05f4958247363b19177069777de1967d4f801a588a639345c0ca568fa"
+    }
+  ]
+}

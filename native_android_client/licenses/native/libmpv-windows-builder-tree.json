@@ -1,0 +1,1407 @@
+{
+  "sha": "f5a6f879c9b8bef6a73e52c8c0f35e51636c96e5",
+  "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/trees/f5a6f879c9b8bef6a73e52c8c0f35e51636c96e5",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "918b0cfee2da6a5927e19e467d9a5986abcf4a2f",
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/trees/918b0cfee2da6a5927e19e467d9a5986abcf4a2f"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb445f4fa7dd839b676ecfc2b575dbfe8b1ec646",
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/trees/bb445f4fa7dd839b676ecfc2b575dbfe8b1ec646"
+    },
+    {
+      "path": ".github/workflows/llvm_clang.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67a6ce499fce483eb01518d599f23a2c235e0e3a",
+      "size": 6427,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/67a6ce499fce483eb01518d599f23a2c235e0e3a"
+    },
+    {
+      "path": ".github/workflows/mpv_clang.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d87afaaecf07023cd9f97210e678df058b47273",
+      "size": 13540,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/7d87afaaecf07023cd9f97210e678df058b47273"
+    },
+    {
+      "path": ".github/workflows/mpv_gcc.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03714eb3206fb8da05a967a64c9b0ff889385930",
+      "size": 12447,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/03714eb3206fb8da05a967a64c9b0ff889385930"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5eaccf66a093617c5543d290d85d5a65baa5a53",
+      "size": 53,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/a5eaccf66a093617c5543d290d85d5a65baa5a53"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc58151f1c77b36bec2f93a544308e2990d6ecba",
+      "size": 3919,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/bc58151f1c77b36bec2f93a544308e2990d6ecba"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13fe10feaa3aef56a9e936fa555fb1ae87bf6344",
+      "size": 8536,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/13fe10feaa3aef56a9e936fa555fb1ae87bf6344"
+    },
+    {
+      "path": "cargo_config.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1511fc9d9f107380843b160b8f8535de97560abe",
+      "size": 269,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/1511fc9d9f107380843b160b8f8535de97560abe"
+    },
+    {
+      "path": "cmake",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "14e901435cb02865831bb370f9c0de5139169ad7",
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/trees/14e901435cb02865831bb370f9c0de5139169ad7"
+    },
+    {
+      "path": "cmake/custom_steps.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68fe6c996fb6677b72a6ec59a45f0044d39a448b",
+      "size": 6893,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/68fe6c996fb6677b72a6ec59a45f0044d39a448b"
+    },
+    {
+      "path": "cmake/download_externalproject.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "996693605e48ba80a93706887375ce4eabf7a7d1",
+      "size": 1136,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/996693605e48ba80a93706887375ce4eabf7a7d1"
+    },
+    {
+      "path": "cmake/packages_check.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7f02566d324167931564d06d734c79e71b35dd4",
+      "size": 1487,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/c7f02566d324167931564d06d734c79e71b35dd4"
+    },
+    {
+      "path": "cmake/toolchain_check.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23a6cb391d44624ec5d3d3720812cc7bf4c7dea6",
+      "size": 1032,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/23a6cb391d44624ec5d3d3720812cc7bf4c7dea6"
+    },
+    {
+      "path": "exec.in",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7a98795b2c611664e7a774255f2e8e408e52f120",
+      "size": 287,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/7a98795b2c611664e7a774255f2e8e408e52f120"
+    },
+    {
+      "path": "meson_cross.txt.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c1d0f842d17c811b5e12c0d055c87a9f53ee461",
+      "size": 541,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/2c1d0f842d17c811b5e12c0d055c87a9f53ee461"
+    },
+    {
+      "path": "packages",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0d44d890068917ec9e31cd6112bdaf670eb5dc66",
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/trees/0d44d890068917ec9e31cd6112bdaf670eb5dc66"
+    },
+    {
+      "path": "packages/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c8d29777696b82afb84533349db88c86c5ba29f",
+      "size": 2755,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/9c8d29777696b82afb84533349db88c86c5ba29f"
+    },
+    {
+      "path": "packages/amf-headers.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e99ac274d50cb9b2be30cf11416c0bd275260c9",
+      "size": 701,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/1e99ac274d50cb9b2be30cf11416c0bd275260c9"
+    },
+    {
+      "path": "packages/angle-headers.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f44f3318e8d9cfc59f781267e91ac30e1a4d87b",
+      "size": 473,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/0f44f3318e8d9cfc59f781267e91ac30e1a4d87b"
+    },
+    {
+      "path": "packages/aom.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e227c5a716fdd4084dc3ffc86ac4b74ab9169d73",
+      "size": 1006,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/e227c5a716fdd4084dc3ffc86ac4b74ab9169d73"
+    },
+    {
+      "path": "packages/avisynth-headers.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7251988691a08bd15a232a5369916aa2868ce91",
+      "size": 681,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/b7251988691a08bd15a232a5369916aa2868ce91"
+    },
+    {
+      "path": "packages/brotli.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5a2933bce15913e9591d0e6b5a57bd074297623",
+      "size": 800,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/c5a2933bce15913e9591d0e6b5a57bd074297623"
+    },
+    {
+      "path": "packages/bzip2-1-fixes.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b9b29db1deff742a33cc073f0b63c155d062fcb",
+      "size": 1017,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/4b9b29db1deff742a33cc073f0b63c155d062fcb"
+    },
+    {
+      "path": "packages/bzip2.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8544037a6ee4bdbbd621fc246596fa4634162e7e",
+      "size": 924,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/8544037a6ee4bdbbd621fc246596fa4634162e7e"
+    },
+    {
+      "path": "packages/cmake-0001-ExternalProject-changes.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf76c043acb20481d534f1bf8fcfb6853b5452c6",
+      "size": 3641,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/cf76c043acb20481d534f1bf8fcfb6853b5452c6"
+    },
+    {
+      "path": "packages/cryptopp.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91c39cd4853a3a079bde1d72bf098269ebc556d6",
+      "size": 611,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/91c39cd4853a3a079bde1d72bf098269ebc556d6"
+    },
+    {
+      "path": "packages/curl-0001-Skip-compiling-unnecessary-stuff.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b0144ee20f45649dff9741ab55b2c550a4125d9",
+      "size": 713,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/1b0144ee20f45649dff9741ab55b2c550a4125d9"
+    },
+    {
+      "path": "packages/curl.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c91fd164fafebcf5e89a2f570a38f0ce3ba608e5",
+      "size": 839,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/c91fd164fafebcf5e89a2f570a38f0ce3ba608e5"
+    },
+    {
+      "path": "packages/dav1d.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbfb8b2501c4e75fbd037a7106d5c494b8c5fb63",
+      "size": 747,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/bbfb8b2501c4e75fbd037a7106d5c494b8c5fb63"
+    },
+    {
+      "path": "packages/davs2.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e585bf0efcad4284d432cd4a0a9e36596d49f68",
+      "size": 758,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/8e585bf0efcad4284d432cd4a0a9e36596d49f68"
+    },
+    {
+      "path": "packages/expat.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8703b61a6178124b64d25efff817fe1a20143e28",
+      "size": 548,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/8703b61a6178124b64d25efff817fe1a20143e28"
+    },
+    {
+      "path": "packages/fast_float.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bafdef160fde9a5a331a676e170897d0f0fe507",
+      "size": 394,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/7bafdef160fde9a5a331a676e170897d0f0fe507"
+    },
+    {
+      "path": "packages/ffmpeg.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f518538190ca647c020a9210912bb144318af569",
+      "size": 2899,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/f518538190ca647c020a9210912bb144318af569"
+    },
+    {
+      "path": "packages/flac.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "044dc66b615df96a1e7e44ceea1178acacc361c8",
+      "size": 784,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/044dc66b615df96a1e7e44ceea1178acacc361c8"
+    },
+    {
+      "path": "packages/fontconfig-0001-Custom-changes-for-mpv-builds.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fe99757b6181b782d6018a99d50e3d8aa06fabc",
+      "size": 3668,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/0fe99757b6181b782d6018a99d50e3d8aa06fabc"
+    },
+    {
+      "path": "packages/fontconfig-0002-Do-not-use-dirent.h.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbd27ac6facfee105fb53e59d2f51b43f472eba0",
+      "size": 605,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/bbd27ac6facfee105fb53e59d2f51b43f472eba0"
+    },
+    {
+      "path": "packages/fontconfig.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a56efca120a308af14801dbec03d1f009a754f1",
+      "size": 1030,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/8a56efca120a308af14801dbec03d1f009a754f1"
+    },
+    {
+      "path": "packages/freetype2.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caa130acd626ca4bd8727f31d62df1d76ae92be1",
+      "size": 889,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/caa130acd626ca4bd8727f31d62df1d76ae92be1"
+    },
+    {
+      "path": "packages/fribidi.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cdf05e08c1c1d1e8fd02a9b98eb7bcd18558d90",
+      "size": 796,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/9cdf05e08c1c1d1e8fd02a9b98eb7bcd18558d90"
+    },
+    {
+      "path": "packages/game-music-emu.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0df2d74e8dfcc87c70ba163e58583f77d64c78ad",
+      "size": 695,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/0df2d74e8dfcc87c70ba163e58583f77d64c78ad"
+    },
+    {
+      "path": "packages/glad.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75d2756072fe8929fd9a9125cf527d17de460ea4",
+      "size": 369,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/75d2756072fe8929fd9a9125cf527d17de460ea4"
+    },
+    {
+      "path": "packages/glslang.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3df29f47b1b0904bfac7a07a75265dbb4b4a0757",
+      "size": 385,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/3df29f47b1b0904bfac7a07a75265dbb4b4a0757"
+    },
+    {
+      "path": "packages/gmp.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac5beaa5f9fa2551fb4370cf334d13c85e199dd6",
+      "size": 555,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/ac5beaa5f9fa2551fb4370cf334d13c85e199dd6"
+    },
+    {
+      "path": "packages/graphengine.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a701cc091d363bdc6d1991f138434164db6ef18",
+      "size": 377,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/0a701cc091d363bdc6d1991f138434164db6ef18"
+    },
+    {
+      "path": "packages/harfbuzz.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7c1d34e29fe270f89126da3d6132b45e17a7ab3",
+      "size": 1015,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/d7c1d34e29fe270f89126da3d6132b45e17a7ab3"
+    },
+    {
+      "path": "packages/highway.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "754519aac29f9782bf67fa7c2e4fde35c92aae3b",
+      "size": 943,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/754519aac29f9782bf67fa7c2e4fde35c92aae3b"
+    },
+    {
+      "path": "packages/lame.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e359aeefb879b485b61fdedf6ce462de6b5616e6",
+      "size": 807,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/e359aeefb879b485b61fdedf6ce462de6b5616e6"
+    },
+    {
+      "path": "packages/lcms2.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49d5adce1dbe2ad5fd372d7218fdde1e7b3626e3",
+      "size": 556,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/49d5adce1dbe2ad5fd372d7218fdde1e7b3626e3"
+    },
+    {
+      "path": "packages/libarchive.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24e5783d240f9e79d267cb48731b4a2ba3a3193a",
+      "size": 816,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/24e5783d240f9e79d267cb48731b4a2ba3a3193a"
+    },
+    {
+      "path": "packages/libaribcaption.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be1873cb44152337245079054cde12d0aed422c8",
+      "size": 632,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/be1873cb44152337245079054cde12d0aed422c8"
+    },
+    {
+      "path": "packages/libass.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1e5d38d7340d8a590cb730fd94159e083e0a54d",
+      "size": 650,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/c1e5d38d7340d8a590cb730fd94159e083e0a54d"
+    },
+    {
+      "path": "packages/libbluray.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfdf64367d5b879cb738d5319a6086b0f152b4a9",
+      "size": 770,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/bfdf64367d5b879cb738d5319a6086b0f152b4a9"
+    },
+    {
+      "path": "packages/libbs2b-0001-build-library-only.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44f3be5a54de217ab110f08cfa44371d1abb30eb",
+      "size": 1183,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/44f3be5a54de217ab110f08cfa44371d1abb30eb"
+    },
+    {
+      "path": "packages/libbs2b.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01d7fbc710035b6905d18533d2a72c90a46b5ba5",
+      "size": 648,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/01d7fbc710035b6905d18533d2a72c90a46b5ba5"
+    },
+    {
+      "path": "packages/libdovi.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d8fa6833e0a7110a4244bc358fcbfb5513988fd",
+      "size": 835,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/6d8fa6833e0a7110a4244bc358fcbfb5513988fd"
+    },
+    {
+      "path": "packages/libdvdcss.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cd34dece51782020fc323243dc56d9ae3907101",
+      "size": 580,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/3cd34dece51782020fc323243dc56d9ae3907101"
+    },
+    {
+      "path": "packages/libdvdnav.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "820e643c98de216041a3c0c57c514cece3523490",
+      "size": 581,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/820e643c98de216041a3c0c57c514cece3523490"
+    },
+    {
+      "path": "packages/libdvdread.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5eccd0e322c70430c4d5957f0a8c24af7f18819",
+      "size": 610,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/e5eccd0e322c70430c4d5957f0a8c24af7f18819"
+    },
+    {
+      "path": "packages/libiconv.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d9e25b21c26c5811bee2f09d16207293f3447bf",
+      "size": 1045,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/8d9e25b21c26c5811bee2f09d16207293f3447bf"
+    },
+    {
+      "path": "packages/libiconv.pc.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1359b8ea0ae83699704b48d7a347fb8e0fcfee82",
+      "size": 255,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/1359b8ea0ae83699704b48d7a347fb8e0fcfee82"
+    },
+    {
+      "path": "packages/libjpeg.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75c3d22750cd88479f72683f9ea921dcf10bdf22",
+      "size": 664,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/75c3d22750cd88479f72683f9ea921dcf10bdf22"
+    },
+    {
+      "path": "packages/libjxl.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef380403dbd8cdae0b72da2bfc06cd20a9ac28c3",
+      "size": 2274,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/ef380403dbd8cdae0b72da2bfc06cd20a9ac28c3"
+    },
+    {
+      "path": "packages/libmfx.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa7b605d5f5867ca19bc328b9cc302af7696f908",
+      "size": 565,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/aa7b605d5f5867ca19bc328b9cc302af7696f908"
+    },
+    {
+      "path": "packages/libmodplug-0001-fix-pkgconfig-file.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af855047b4a5ad56ed325a667bf97cc0144bfd12",
+      "size": 541,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/af855047b4a5ad56ed325a667bf97cc0144bfd12"
+    },
+    {
+      "path": "packages/libmodplug.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49a696c5433f174db0b1478e9b6bd6d0aa95f6fd",
+      "size": 644,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/49a696c5433f174db0b1478e9b6bd6d0aa95f6fd"
+    },
+    {
+      "path": "packages/libmysofa.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f41b5ad121d8b5e74b00eaf6a3681e68c97acea",
+      "size": 840,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/8f41b5ad121d8b5e74b00eaf6a3681e68c97acea"
+    },
+    {
+      "path": "packages/libopenmpt.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21df9b58608fb0ca1d738e5697a0ce10ba514771",
+      "size": 865,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/21df9b58608fb0ca1d738e5697a0ce10ba514771"
+    },
+    {
+      "path": "packages/libopusenc.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "116ed9ef65a8e70509b04862a77aeeecb59ec7ea",
+      "size": 647,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/116ed9ef65a8e70509b04862a77aeeecb59ec7ea"
+    },
+    {
+      "path": "packages/libplacebo.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66e4e75fe45571c61258f0feee62ea1898d8e6aa",
+      "size": 1358,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/66e4e75fe45571c61258f0feee62ea1898d8e6aa"
+    },
+    {
+      "path": "packages/libpng.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17c1fcccbfdd974c43803d60c96e3e25273a6435",
+      "size": 699,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/17c1fcccbfdd974c43803d60c96e3e25273a6435"
+    },
+    {
+      "path": "packages/libressl-0001-remove-postfix-in-libs-name.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba96d7b988799e7f97fc9e09fd7ade36035cf156",
+      "size": 1677,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/ba96d7b988799e7f97fc9e09fd7ade36035cf156"
+    },
+    {
+      "path": "packages/libressl.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3740c7b0ef18bee22dd3541d9ce9bd1eb70c5182",
+      "size": 873,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/3740c7b0ef18bee22dd3541d9ce9bd1eb70c5182"
+    },
+    {
+      "path": "packages/libsdl2.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e85aa974f2b9229257acbec1d6b9b61296b85532",
+      "size": 561,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/e85aa974f2b9229257acbec1d6b9b61296b85532"
+    },
+    {
+      "path": "packages/libsixel.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20c0acd1dfe4d3e699b880feb6b2d6c878ed9d99",
+      "size": 677,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/20c0acd1dfe4d3e699b880feb6b2d6c878ed9d99"
+    },
+    {
+      "path": "packages/libsodium.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83731b687705b3a78c605f8123af0d5e2d04838f",
+      "size": 606,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/83731b687705b3a78c605f8123af0d5e2d04838f"
+    },
+    {
+      "path": "packages/libsoxr.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "954c3a75b7d11d57854b4b2dd34c937938b5de0e",
+      "size": 577,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/954c3a75b7d11d57854b4b2dd34c937938b5de0e"
+    },
+    {
+      "path": "packages/libsrt-0001-avoid-name-collision.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ee6be90b19fe50b7b2ac5da8a3d483f498d4dc6",
+      "size": 1297,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/1ee6be90b19fe50b7b2ac5da8a3d483f498d4dc6"
+    },
+    {
+      "path": "packages/libsrt.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a641549ec6ded0ad31d145396bd10033243b9e90",
+      "size": 858,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/a641549ec6ded0ad31d145396bd10033243b9e90"
+    },
+    {
+      "path": "packages/libssh-0001-install-modified-pc-file.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1e195722ab759c7346188c88d1fd0064b6a0de8",
+      "size": 661,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/b1e195722ab759c7346188c88d1fd0064b6a0de8"
+    },
+    {
+      "path": "packages/libssh.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ec0733fd1ddd9aea3280f5a4ceacb60375cc9d5",
+      "size": 1084,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/6ec0733fd1ddd9aea3280f5a4ceacb60375cc9d5"
+    },
+    {
+      "path": "packages/libudfread.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e81440726a8571c493f7e8d58106b68f64c05a5",
+      "size": 563,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/0e81440726a8571c493f7e8d58106b68f64c05a5"
+    },
+    {
+      "path": "packages/libunibreak.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07de8ea4a48681b488a4c4e1f2bb36da7af564b9",
+      "size": 558,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/07de8ea4a48681b488a4c4e1f2bb36da7af564b9"
+    },
+    {
+      "path": "packages/libuv.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b75b45a6d2c12b4a219290f0d5dacd1c84466ba4",
+      "size": 559,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/b75b45a6d2c12b4a219290f0d5dacd1c84466ba4"
+    },
+    {
+      "path": "packages/libva.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa9f6c0d34b9ea4b6cce3e652464feedb1717971",
+      "size": 707,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/aa9f6c0d34b9ea4b6cce3e652464feedb1717971"
+    },
+    {
+      "path": "packages/libvpl.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a687b4fb2d7ac55e9c89e7276145daf20c945ee6",
+      "size": 882,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/a687b4fb2d7ac55e9c89e7276145daf20c945ee6"
+    },
+    {
+      "path": "packages/libvpx.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5990fac63ac747cbc35c399ab784aa79e65620f",
+      "size": 1042,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/b5990fac63ac747cbc35c399ab784aa79e65620f"
+    },
+    {
+      "path": "packages/libwebp.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36091c5da04c3a38fae334ad7cbe1745159d96a5",
+      "size": 781,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/36091c5da04c3a38fae334ad7cbe1745159d96a5"
+    },
+    {
+      "path": "packages/libxml2.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5586736019bad7cb65e6c790c3686737288b60fc",
+      "size": 654,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/5586736019bad7cb65e6c790c3686737288b60fc"
+    },
+    {
+      "path": "packages/libzimg.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef0875a7ecc19bf8c4fa4adc6fbe9aa768bda841",
+      "size": 950,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/ef0875a7ecc19bf8c4fa4adc6fbe9aa768bda841"
+    },
+    {
+      "path": "packages/libzvbi-0001-ssize_max.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a5acfa22999a91fed753929c0174d9c9817910d",
+      "size": 1106,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/1a5acfa22999a91fed753929c0174d9c9817910d"
+    },
+    {
+      "path": "packages/libzvbi-0002-ioctl.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de36112423a4fd214f60d529b70b2422b6c70d1c",
+      "size": 739,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/de36112423a4fd214f60d529b70b2422b6c70d1c"
+    },
+    {
+      "path": "packages/libzvbi-0003-fix-static-linking.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ec7719cc8af15af26425358032b08d4017fd0da",
+      "size": 704,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/1ec7719cc8af15af26425358032b08d4017fd0da"
+    },
+    {
+      "path": "packages/libzvbi-0004-win32.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d915ea9fa20a31076d0bf01ebc9d2453d971488",
+      "size": 3913,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/4d915ea9fa20a31076d0bf01ebc9d2453d971488"
+    },
+    {
+      "path": "packages/libzvbi-0005-win32-undefined.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c93a79dd5ae9a0aef7049d55bdeb6d7692bd3b90",
+      "size": 2287,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/c93a79dd5ae9a0aef7049d55bdeb6d7692bd3b90"
+    },
+    {
+      "path": "packages/libzvbi-0006-skip-directory.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b620c4b01f76f94e22c8002e9a3235ef645b85b9",
+      "size": 482,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/b620c4b01f76f94e22c8002e9a3235ef645b85b9"
+    },
+    {
+      "path": "packages/libzvbi-0007-fix-clang-compilation-on-i686.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b34d662bd45f031b054ac7c5b872aa30a47c7b5",
+      "size": 948,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/2b34d662bd45f031b054ac7c5b872aa30a47c7b5"
+    },
+    {
+      "path": "packages/libzvbi.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62fa18fce6f2667e5011e85ca1f729c294457573",
+      "size": 890,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/62fa18fce6f2667e5011e85ca1f729c294457573"
+    },
+    {
+      "path": "packages/luajit-0001-add-win32-utf-8-filesystem-functions.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e36a4ca2f021d4d8f0600e9404ff6c195bdc5ce",
+      "size": 24702,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/7e36a4ca2f021d4d8f0600e9404ff6c195bdc5ce"
+    },
+    {
+      "path": "packages/luajit.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08347d8ceffa2c8095fd184f64236266de78c9b2",
+      "size": 1738,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/08347d8ceffa2c8095fd184f64236266de78c9b2"
+    },
+    {
+      "path": "packages/luajit.pc.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "506e1501dd63b5b26cd8234a9a5707ae15651106",
+      "size": 606,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/506e1501dd63b5b26cd8234a9a5707ae15651106"
+    },
+    {
+      "path": "packages/lzo.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65d0cf57fec65ca195d3db85e36b0ea6c53221c2",
+      "size": 507,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/65d0cf57fec65ca195d3db85e36b0ea6c53221c2"
+    },
+    {
+      "path": "packages/mbedtls.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c4f13af2f424909607299f7428f0bee8346a7de",
+      "size": 863,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/3c4f13af2f424909607299f7428f0bee8346a7de"
+    },
+    {
+      "path": "packages/megasdk-0001-megacli-remove-warn-never-print-file-attributes.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f923ae4f93ce7da9018fe409d5488bea740d311",
+      "size": 1680,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/5f923ae4f93ce7da9018fe409d5488bea740d311"
+    },
+    {
+      "path": "packages/megasdk-0002-fix-compile.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f60edca02cae95b705cea83ea9c0cf5529223825",
+      "size": 3960,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/f60edca02cae95b705cea83ea9c0cf5529223825"
+    },
+    {
+      "path": "packages/megasdk.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aae049231447082771b9f147c7e97d9823d0530d",
+      "size": 1155,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/aae049231447082771b9f147c7e97d9823d0530d"
+    },
+    {
+      "path": "packages/mpv-packaging.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1658f758582bd437c972e2a9444d09b31273f116",
+      "size": 1103,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/1658f758582bd437c972e2a9444d09b31273f116"
+    },
+    {
+      "path": "packages/mpv-release.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e13f1106c82ba15d0af0526c31498295c95242f",
+      "size": 4021,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/0e13f1106c82ba15d0af0526c31498295c95242f"
+    },
+    {
+      "path": "packages/mpv.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0ace2ffe77df05160655779b57dde47c347272a",
+      "size": 4664,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/e0ace2ffe77df05160655779b57dde47c347272a"
+    },
+    {
+      "path": "packages/mujs-0001-add-exe-to-binary-name.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a46070f6bd35110a1a4e133de3fcc0d8bc6b330",
+      "size": 1819,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/5a46070f6bd35110a1a4e133de3fcc0d8bc6b330"
+    },
+    {
+      "path": "packages/mujs.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "369e1f7f7c750baff49fdf9ee9801a9fcf056037",
+      "size": 854,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/369e1f7f7c750baff49fdf9ee9801a9fcf056037"
+    },
+    {
+      "path": "packages/nettle-0001-skip-compiling-testsuite-and-examples.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0278a55a63ef1bfdeef89eaf785aad8996274bd",
+      "size": 581,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/c0278a55a63ef1bfdeef89eaf785aad8996274bd"
+    },
+    {
+      "path": "packages/nettle.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fad740b77b9bb7cbba717905fe337cdfa1b2383",
+      "size": 678,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/2fad740b77b9bb7cbba717905fe337cdfa1b2383"
+    },
+    {
+      "path": "packages/nvcodec-headers.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77fa0988bf9d923a41e8209329a708caaee10374",
+      "size": 496,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/77fa0988bf9d923a41e8209329a708caaee10374"
+    },
+    {
+      "path": "packages/ogg.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4f42c596767b9682a9601b6e678a3c9e52fe10e",
+      "size": 565,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/a4f42c596767b9682a9601b6e678a3c9e52fe10e"
+    },
+    {
+      "path": "packages/openal-soft.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "992d9163a90b3cfc69c15f14b9b55b8b1a1956cb",
+      "size": 768,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/992d9163a90b3cfc69c15f14b9b55b8b1a1956cb"
+    },
+    {
+      "path": "packages/opus-tools.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5b2b8a2d5846b99b81b19e892dba87ed0a0f004",
+      "size": 750,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/e5b2b8a2d5846b99b81b19e892dba87ed0a0f004"
+    },
+    {
+      "path": "packages/opus.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd489ebed97af91705ff237d72ed07e3a7ff69ec",
+      "size": 782,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/bd489ebed97af91705ff237d72ed07e3a7ff69ec"
+    },
+    {
+      "path": "packages/opusfile.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35c16805a3a62b75fb7201c87653027622031d2c",
+      "size": 662,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/35c16805a3a62b75fb7201c87653027622031d2c"
+    },
+    {
+      "path": "packages/rav1e.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83b4a216fc1caada61b4e94140768e6c9d7c2545",
+      "size": 841,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/83b4a216fc1caada61b4e94140768e6c9d7c2545"
+    },
+    {
+      "path": "packages/readline.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d19d28fead3e0c0dab8488f8300b2108330a6aa6",
+      "size": 632,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/d19d28fead3e0c0dab8488f8300b2108330a6aa6"
+    },
+    {
+      "path": "packages/rubberband.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4568a460eb0ae2d39c46b1f6a279b77d017a6dd6",
+      "size": 832,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/4568a460eb0ae2d39c46b1f6a279b77d017a6dd6"
+    },
+    {
+      "path": "packages/shaderc.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a801a3a9c875a6d2d193558c0ba0b533101fed92",
+      "size": 2107,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/a801a3a9c875a6d2d193558c0ba0b533101fed92"
+    },
+    {
+      "path": "packages/speex.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f5397961aeb323eabd6ad4fd1abcba5107cc974",
+      "size": 619,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/4f5397961aeb323eabd6ad4fd1abcba5107cc974"
+    },
+    {
+      "path": "packages/spirv-cross-0001-static-linking-hacks.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef8349191b80a33d9bfc6f7adc758501a510d9e2",
+      "size": 1109,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/ef8349191b80a33d9bfc6f7adc758501a510d9e2"
+    },
+    {
+      "path": "packages/spirv-cross.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11d46f65e2452f3f72966d479586a8a44de5982d",
+      "size": 1242,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/11d46f65e2452f3f72966d479586a8a44de5982d"
+    },
+    {
+      "path": "packages/spirv-headers.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "567c2b1f5c3cbbf9d2646e89d2cba7a4c1402c8f",
+      "size": 409,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/567c2b1f5c3cbbf9d2646e89d2cba7a4c1402c8f"
+    },
+    {
+      "path": "packages/spirv-tools.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e1e44b1d4dfd2e87248902489244e63b4fcd8c6",
+      "size": 401,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/8e1e44b1d4dfd2e87248902489244e63b4fcd8c6"
+    },
+    {
+      "path": "packages/sqlite.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92ac590dccd557c444ec74ecef71fe30c6b6bb44",
+      "size": 594,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/92ac590dccd557c444ec74ecef71fe30c6b6bb44"
+    },
+    {
+      "path": "packages/termcap.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e24d9205182d0c1e33f7387433c21b644483341e",
+      "size": 689,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/e24d9205182d0c1e33f7387433c21b644483341e"
+    },
+    {
+      "path": "packages/uavs3d.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51d90fcf475738d7b071894afca04c10403cbcaf",
+      "size": 690,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/51d90fcf475738d7b071894afca04c10403cbcaf"
+    },
+    {
+      "path": "packages/uchardet.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60b3dc59374aa4610e8cf9ff2c9caed4e72999a5",
+      "size": 706,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/60b3dc59374aa4610e8cf9ff2c9caed4e72999a5"
+    },
+    {
+      "path": "packages/vapoursynth-script.pc.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81f041537f76d9515c51fa46541ab978ed3cbc63",
+      "size": 329,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/81f041537f76d9515c51fa46541ab978ed3cbc63"
+    },
+    {
+      "path": "packages/vapoursynth.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee09c866a872bf29053831b2996706217d53196d",
+      "size": 3540,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/ee09c866a872bf29053831b2996706217d53196d"
+    },
+    {
+      "path": "packages/vapoursynth.pc.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d2580cdbbae89ef731b5a779f4a3f8f770c0c46",
+      "size": 336,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/2d2580cdbbae89ef731b5a779f4a3f8f770c0c46"
+    },
+    {
+      "path": "packages/vorbis.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02ed563f86cece8c5aa3b53fbfc48b3f6b0e15c5",
+      "size": 574,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/02ed563f86cece8c5aa3b53fbfc48b3f6b0e15c5"
+    },
+    {
+      "path": "packages/vulkan-0001-cross-compile-static-linking-hacks.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54796d7676c553b78668459c03084adfc3ae63d3",
+      "size": 6922,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/54796d7676c553b78668459c03084adfc3ae63d3"
+    },
+    {
+      "path": "packages/vulkan-header.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c248fc2c15b69da67d6417c822dc9163ba3a3232",
+      "size": 546,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/c248fc2c15b69da67d6417c822dc9163ba3a3232"
+    },
+    {
+      "path": "packages/vulkan.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3e6c4a4d1cec3aaf1b693f0cc12f481082e5e41",
+      "size": 1767,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/b3e6c4a4d1cec3aaf1b693f0cc12f481082e5e41"
+    },
+    {
+      "path": "packages/x264.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1aed6ee8170cb211d95c4c8a4c48fbfcbdfa4f22",
+      "size": 696,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/1aed6ee8170cb211d95c4c8a4c48fbfcbdfa4f22"
+    },
+    {
+      "path": "packages/x265.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4128e2d5c9a2443419db997a16a065efe1c46c84",
+      "size": 6113,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/4128e2d5c9a2443419db997a16a065efe1c46c84"
+    },
+    {
+      "path": "packages/xvidcore-2-win64.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36b716884c4e40cb1887c0c9efc8ece705c5519c",
+      "size": 361,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/36b716884c4e40cb1887c0c9efc8ece705c5519c"
+    },
+    {
+      "path": "packages/xvidcore.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "054a4a83ca0a31a0eb6f87b472b1813969213332",
+      "size": 1427,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/054a4a83ca0a31a0eb6f87b472b1813969213332"
+    },
+    {
+      "path": "packages/xxhash.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6d9ff5be40559883a78c8b3a711398bc242de3b",
+      "size": 792,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/e6d9ff5be40559883a78c8b3a711398bc242de3b"
+    },
+    {
+      "path": "packages/xz.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2343b8d32194b5930ffbacd51d5d2110602e663",
+      "size": 637,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/a2343b8d32194b5930ffbacd51d5d2110602e663"
+    },
+    {
+      "path": "packages/zlib-1-win32-static.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adaf0729ac285946818dc217db314add7245ad12",
+      "size": 1250,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/adaf0729ac285946818dc217db314add7245ad12"
+    },
+    {
+      "path": "packages/zlib.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7e2b2d671c91c0cde93235ff804c8f3990a4004",
+      "size": 1004,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/c7e2b2d671c91c0cde93235ff804c8f3990a4004"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "28bdf9f4701f23b5824abbcd289eb1166d312823",
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/trees/28bdf9f4701f23b5824abbcd289eb1166d312823"
+    },
+    {
+      "path": "scripts/autobuild.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "91c02688b90feb37976588e6b5f471cff9a96ee4",
+      "size": 2241,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/91c02688b90feb37976588e6b5f471cff9a96ee4"
+    },
+    {
+      "path": "scripts/update-repo.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "927cfeaea728eba6da567e93885447a716244ed2",
+      "size": 1559,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/927cfeaea728eba6da567e93885447a716244ed2"
+    },
+    {
+      "path": "toolchain.cmake.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "faff5f777e4a5f2c32dcb5fcbb8887564e2024bb",
+      "size": 712,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/faff5f777e4a5f2c32dcb5fcbb8887564e2024bb"
+    },
+    {
+      "path": "toolchain",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8290a66544ba2599cd31a3d73a5170c87645ad2a",
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/trees/8290a66544ba2599cd31a3d73a5170c87645ad2a"
+    },
+    {
+      "path": "toolchain/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c96b299770e03c39ccd6056de1d3731343cc759f",
+      "size": 849,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/c96b299770e03c39ccd6056de1d3731343cc759f"
+    },
+    {
+      "path": "toolchain/binutils.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55f89ae1605813b24823d1b07f2f975a081f5989",
+      "size": 1768,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/55f89ae1605813b24823d1b07f2f975a081f5989"
+    },
+    {
+      "path": "toolchain/gcc.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fe308c359fba09997d526016c5bfd49e42c3b33",
+      "size": 1440,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/8fe308c359fba09997d526016c5bfd49e42c3b33"
+    },
+    {
+      "path": "toolchain/gendef.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a44766d425a1f092d5f976f48c67f45e13e7954e",
+      "size": 389,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/a44766d425a1f092d5f976f48c67f45e13e7954e"
+    },
+    {
+      "path": "toolchain/llvm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "621d9c90a24d7bff83ae6e5324aca5e5e24d5443",
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/trees/621d9c90a24d7bff83ae6e5324aca5e5e24d5443"
+    },
+    {
+      "path": "toolchain/llvm/llvm-clang.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10f4e99bb8579b7c509d098ed813a9258989aabd",
+      "size": 321,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/10f4e99bb8579b7c509d098ed813a9258989aabd"
+    },
+    {
+      "path": "toolchain/llvm/llvm-compiler-rt-builtin.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "611d123b52163a40b3161ea9a5db34a098179f1e",
+      "size": 1394,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/611d123b52163a40b3161ea9a5db34a098179f1e"
+    },
+    {
+      "path": "toolchain/llvm/llvm-compiler-rt.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98fee0c4d596a2a1f54520f2b82b6a94ba2e166f",
+      "size": 1425,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/98fee0c4d596a2a1f54520f2b82b6a94ba2e166f"
+    },
+    {
+      "path": "toolchain/llvm/llvm-compiler.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12c2ab60664c1546b76a88055d2ef39aa4a4924b",
+      "size": 320,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/12c2ab60664c1546b76a88055d2ef39aa4a4924b"
+    },
+    {
+      "path": "toolchain/llvm/llvm-ld.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "928d42d15e85ef6651aa90f076765275bce24ab5",
+      "size": 147,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/928d42d15e85ef6651aa90f076765275bce24ab5"
+    },
+    {
+      "path": "toolchain/llvm/llvm-libcxx.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c35ab657c7402ff9fd48e3ceed5bc04399f88b57",
+      "size": 1744,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/c35ab657c7402ff9fd48e3ceed5bc04399f88b57"
+    },
+    {
+      "path": "toolchain/llvm/llvm-openmp-0001-support-static-lib.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c4e44609fa505c0fa3e794d4e6994f5c43d4015",
+      "size": 2086,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/0c4e44609fa505c0fa3e794d4e6994f5c43d4015"
+    },
+    {
+      "path": "toolchain/llvm/llvm-openmp.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cda53bd02d19084c022fa8a96b2cfb24bf6d427f",
+      "size": 1084,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/cda53bd02d19084c022fa8a96b2cfb24bf6d427f"
+    },
+    {
+      "path": "toolchain/llvm/llvm-wrapper.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "170e07c5ea7981c1a78d088c98e523631011518d",
+      "size": 4063,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/170e07c5ea7981c1a78d088c98e523631011518d"
+    },
+    {
+      "path": "toolchain/llvm/llvm.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a33794c2945a257f246241a033695700368c045",
+      "size": 1816,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/6a33794c2945a257f246241a033695700368c045"
+    },
+    {
+      "path": "toolchain/mingw-headers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2cfc6d4cd8548255ecc3a952c07cb9cb89f10aa3",
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/trees/2cfc6d4cd8548255ecc3a952c07cb9cb89f10aa3"
+    },
+    {
+      "path": "toolchain/mingw-headers/d3dkmthk.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54eaaadbe512b1461f8f3c39fb63dfb17d5dff5c",
+      "size": 24008,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/54eaaadbe512b1461f8f3c39fb63dfb17d5dff5c"
+    },
+    {
+      "path": "toolchain/mingw-headers/d3dukmdt.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0871c9ad8d5b26b5110ef4760b3ed41236fe964e",
+      "size": 8702,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/0871c9ad8d5b26b5110ef4760b3ed41236fe964e"
+    },
+    {
+      "path": "toolchain/mingw-w64-crt.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32ac8f4fe2739fc308774ee8d76b3aacae88b873",
+      "size": 852,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/32ac8f4fe2739fc308774ee8d76b3aacae88b873"
+    },
+    {
+      "path": "toolchain/mingw-w64-headers.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7882beafaabc95e604c473c2b46b84025d8e747",
+      "size": 549,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/f7882beafaabc95e604c473c2b46b84025d8e747"
+    },
+    {
+      "path": "toolchain/mingw-w64.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fefb44cb11897be4423e16b6d1eec69f72a2ac03",
+      "size": 384,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/fefb44cb11897be4423e16b6d1eec69f72a2ac03"
+    },
+    {
+      "path": "toolchain/rustup.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d199d1370df44368ca5270c39ce1258aa88d8e0",
+      "size": 525,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/5d199d1370df44368ca5270c39ce1258aa88d8e0"
+    },
+    {
+      "path": "toolchain/widl.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96d00be2cce2f0a895f4b616e01e694e738488af",
+      "size": 415,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/96d00be2cce2f0a895f4b616e01e694e738488af"
+    },
+    {
+      "path": "toolchain/winpthreads.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f970ef394541e72659899eacc027b139c8fe964",
+      "size": 491,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/1f970ef394541e72659899eacc027b139c8fe964"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,47 @@
+{
+  "handoff_date": "2026-10-12",
+  "original_exe": {
+    "filename": "YingXia_v1.0_Windows_x64.exe",
+    "size_bytes": 7226368,
+    "sha256": "e7d47fe49c185c1d682c52713150f1098a19beda61e6e70128ddba21768a238b",
+    "mz": "MZ",
+    "pe_signature_hex": "50450000",
+    "machine_hex": "0x8664",
+    "optional_header_magic_hex": "0x20b",
+    "subsystem": 2,
+    "security_directory": [
+      0,
+      0
+    ]
+  },
+  "original_exe_matches_exe_inside_original_zip": true,
+  "rebuild": {
+    "compiler": "go version go1.23.2 linux/amd64",
+    "command": "GOOS=windows GOARCH=amd64 CGO_ENABLED=0 go build -trimpath -ldflags='-H windowsgui -s -w' -o rebuilt_windows_x64.exe .",
+    "size_bytes": 7226368,
+    "sha256": "e7d47fe49c185c1d682c52713150f1098a19beda61e6e70128ddba21768a238b",
+    "byte_identical_to_delivered_exe": true,
+    "windows_execution_performed": false
+  },
+  "offline_tests": {
+    "command": "GOTOOLCHAIN=local GOPROXY=off GOSUMDB=off go test -race -count=1 -v ./...",
+    "exit_code": 0,
+    "pass_records": 119,
+    "top_level_pass_records": 9,
+    "subtest_pass_records": 110,
+    "skipped_records": 1,
+    "browser_harness_executed": false,
+    "real_third_party_playback_tested": false
+  },
+  "go_vet_linux": {
+    "exit_code": 0
+  },
+  "go_vet_windows": {
+    "exit_code": 0
+  },
+  "notes": [
+    "交接时未修改应用源码。",
+    "网页实播及 Windows 真机未重测。",
+    "历史 17 项浏览器结果是原交付证据，不是本次新增浏览器验证。"
+  ]
+}

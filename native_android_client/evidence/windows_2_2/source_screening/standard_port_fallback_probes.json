@@ -1,0 +1,24 @@
+[
+  {
+    "url": "http://154.219.117.232/jacloudapi.php/provide/vod?ac=detail&pg=1",
+    "checked_at": "2026-10-15T03:53:55.083068+00:00",
+    "redirects": [],
+    "status": 404,
+    "final_url": "http://154.219.117.232/jacloudapi.php/provide/vod?ac=detail&pg=1",
+    "content_type": "text/html",
+    "bytes": 146,
+    "sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+    "body_file": "http/E009_standard_http.txt",
+    "json": false,
+    "elapsed_ms": 582,
+    "cms_valid": false
+  },
+  {
+    "url": "https://154.219.117.232/jacloudapi.php/provide/vod?ac=detail&pg=1",
+    "checked_at": "2026-10-15T03:53:55.084048+00:00",
+    "redirects": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '154.219.117.232'. (_ssl.c:1010)>",
+    "elapsed_ms": 577,
+    "cms_valid": false
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "file": "service.go",
+    "equivalent": true
+  },
+  {
+    "file": "server.go",
+    "equivalent": true
+  },
+  {
+    "file": "storage.go",
+    "equivalent": true
+  },
+  {
+    "file": "search_jobs.go",
+    "equivalent": true
+  },
+  {
+    "file": "runtime.go",
+    "equivalent": true
+  },
+  {
+    "file": "availability.go",
+    "equivalent": true
+  },
+  {
+    "file": "title_index.go",
+    "equivalent": true
+  },
+  {
+    "file": "title_suggestions.go",
+    "equivalent": true
+  },
+  {
+    "file": "resume.go",
+    "equivalent": true
+  },
+  {
+    "file": "alternatives.go",
+    "equivalent": true
+  },
+  {
+    "file": "v23_catalog_test.go",
+    "equivalent": true
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "coordinate": "io.flutter:armeabi_v7a_release:1.0.0-deb287481e3ce9468f3434937ced4240a70539ca",
+    "file": "io/flutter/armeabi_v7a_release/1.0.0-deb287481e3ce9468f3434937ced4240a70539ca/armeabi_v7a_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.pom",
+    "bytes": 512,
+    "sha256": "fe4fc9b98fe6e2ea361fe7bb7c5e257d4128ad42131b64b1d720946d8388b5eb",
+    "verification": "official GCS object metadata MD5 and size",
+    "origin": "https://storage.googleapis.com/download.flutter.io/",
+    "official_metadata": "https://storage.googleapis.com/storage/v1/b/download.flutter.io/o/io%2Fflutter%2Farmeabi_v7a_release%2F1.0.0-deb287481e3ce9468f3434937ced4240a70539ca%2Farmeabi_v7a_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.pom",
+    "generation": "1791395731244276",
+    "md5": "JqXEYYOs9+rXLhZ7BT/eVQ=="
+  },
+  {
+    "coordinate": "io.flutter:armeabi_v7a_release:1.0.0-deb287481e3ce9468f3434937ced4240a70539ca",
+    "file": "io/flutter/armeabi_v7a_release/1.0.0-deb287481e3ce9468f3434937ced4240a70539ca/armeabi_v7a_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.jar",
+    "bytes": 41264533,
+    "sha256": "3909e6467c1fe6202bbf64f377f158171d6b83a86d9cbc39f67f748b217e55ad",
+    "verification": "official GCS object metadata MD5 and size",
+    "origin": "https://storage.googleapis.com/download.flutter.io/",
+    "official_metadata": "https://storage.googleapis.com/storage/v1/b/download.flutter.io/o/io%2Fflutter%2Farmeabi_v7a_release%2F1.0.0-deb287481e3ce9468f3434937ced4240a70539ca%2Farmeabi_v7a_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.jar",
+    "generation": "1791395722638430",
+    "md5": "7xiJ4OuP7UAYgDGUeVkb5Q=="
+  },
+  {
+    "coordinate": "io.flutter:arm64_v8a_release:1.0.0-deb287481e3ce9468f3434937ced4240a70539ca",
+    "file": "io/flutter/arm64_v8a_release/1.0.0-deb287481e3ce9468f3434937ced4240a70539ca/arm64_v8a_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.pom",
+    "bytes": 510,
+    "sha256": "8fc73533c6eabc9103a5a6d2d9e5cc9bc72eba554762f34d5d0f19610d831baa",
+    "verification": "official GCS object metadata MD5 and size",
+    "origin": "https://storage.googleapis.com/download.flutter.io/",
+    "official_metadata": "https://storage.googleapis.com/storage/v1/b/download.flutter.io/o/io%2Fflutter%2Farm64_v8a_release%2F1.0.0-deb287481e3ce9468f3434937ced4240a70539ca%2Farm64_v8a_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.pom",
+    "generation": "1791395071490697",
+    "md5": "2VwwMhx3RjrW/DR4BcLcLg=="
+  },
+  {
+    "coordinate": "io.flutter:arm64_v8a_release:1.0.0-deb287481e3ce9468f3434937ced4240a70539ca",
+    "file": "io/flutter/arm64_v8a_release/1.0.0-deb287481e3ce9468f3434937ced4240a70539ca/arm64_v8a_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.jar",
+    "bytes": 42168220,
+    "sha256": "d940eba5aca3b58c785ef7f093cb351c871e1410c6b122c7eb1b31a9ca18225f",
+    "verification": "official GCS object metadata MD5 and size",
+    "origin": "https://storage.googleapis.com/download.flutter.io/",
+    "official_metadata": "https://storage.googleapis.com/storage/v1/b/download.flutter.io/o/io%2Fflutter%2Farm64_v8a_release%2F1.0.0-deb287481e3ce9468f3434937ced4240a70539ca%2Farm64_v8a_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.jar",
+    "generation": "1791395068196483",
+    "md5": "byzUia+CSPjWUUEmnN9xYw=="
+  },
+  {
+    "coordinate": "io.flutter:x86_64_release:1.0.0-deb287481e3ce9468f3434937ced4240a70539ca",
+    "file": "io/flutter/x86_64_release/1.0.0-deb287481e3ce9468f3434937ced4240a70539ca/x86_64_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.pom",
+    "bytes": 507,
+    "sha256": "5cd8300c4bd98caa5bc36bcfc8574d5b21cf27d0b694a5a698d0fd3e0e82b9d5",
+    "verification": "official GCS object metadata MD5 and size",
+    "origin": "https://storage.googleapis.com/download.flutter.io/",
+    "official_metadata": "https://storage.googleapis.com/storage/v1/b/download.flutter.io/o/io%2Fflutter%2Fx86_64_release%2F1.0.0-deb287481e3ce9468f3434937ced4240a70539ca%2Fx86_64_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.pom",
+    "generation": "1791394965841840",
+    "md5": "bwqAjPK6OYsderiy9SPXAQ=="
+  },
+  {
+    "coordinate": "io.flutter:x86_64_release:1.0.0-deb287481e3ce9468f3434937ced4240a70539ca",
+    "file": "io/flutter/x86_64_release/1.0.0-deb287481e3ce9468f3434937ced4240a70539ca/x86_64_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.jar",
+    "bytes": 42484349,
+    "sha256": "75b8ec46ceb0a3813a78efd4dc631b188a2e507c6f10655c217d4ac761320347",
+    "verification": "official GCS object metadata MD5 and size",
+    "origin": "https://storage.googleapis.com/download.flutter.io/",
+    "official_metadata": "https://storage.googleapis.com/storage/v1/b/download.flutter.io/o/io%2Fflutter%2Fx86_64_release%2F1.0.0-deb287481e3ce9468f3434937ced4240a70539ca%2Fx86_64_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.jar",
+    "generation": "1791394962703666",
+    "md5": "uTF5dbHcZ0lO6g1VgVq9Ww=="
+  },
+  {
+    "coordinate": "io.flutter:flutter_embedding_release:1.0.0-deb287481e3ce9468f3434937ced4240a70539ca",
+    "file": "io/flutter/flutter_embedding_release/1.0.0-deb287481e3ce9468f3434937ced4240a70539ca/flutter_embedding_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.pom",
+    "bytes": 2544,
+    "sha256": "97efb7667dd458b140f90c92c67aed92b05a69cfda412a8bace3623f252b1ea7",
+    "verification": "official GCS object metadata MD5 and size",
+    "origin": "https://storage.googleapis.com/download.flutter.io/",
+    "official_metadata": "https://storage.googleapis.com/storage/v1/b/download.flutter.io/o/io%2Fflutter%2Fflutter_embedding_release%2F1.0.0-deb287481e3ce9468f3434937ced4240a70539ca%2Fflutter_embedding_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.pom",
+    "generation": "1791395775028577",
+    "md5": "76PuljSf6KBpDs1x/SxaAw=="
+  },
+  {
+    "coordinate": "io.flutter:flutter_embedding_release:1.0.0-deb287481e3ce9468f3434937ced4240a70539ca",
+    "file": "io/flutter/flutter_embedding_release/1.0.0-deb287481e3ce9468f3434937ced4240a70539ca/flutter_embedding_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.jar",
+    "bytes": 1584072,
+    "sha256": "395504a17bbc944fb69089792a70bff1bc281d302fe736341220957bddf39b6a",
+    "verification": "official GCS object metadata MD5 and size",
+    "origin": "https://storage.googleapis.com/download.flutter.io/",
+    "official_metadata": "https://storage.googleapis.com/storage/v1/b/download.flutter.io/o/io%2Fflutter%2Fflutter_embedding_release%2F1.0.0-deb287481e3ce9468f3434937ced4240a70539ca%2Fflutter_embedding_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.jar",
+    "generation": "1791395767998426",
+    "md5": "CmXqXGM0EffoJv8mW8jTaw=="
+  }
+]

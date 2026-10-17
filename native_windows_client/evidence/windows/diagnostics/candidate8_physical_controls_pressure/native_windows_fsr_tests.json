@@ -1,0 +1,98 @@
+{
+  "platform": "win32/x64",
+  "executable": "YingXia_candidate8.exe",
+  "sha256": "6e799468cf8d4ca744b44d2fac915dfa5f58e9982585c8b80c2e2cd61909d08c",
+  "shipping_gui_tested": true,
+  "production_backend_history_tested": false,
+  "media_backend": "separately compiled native_fixture Go child via explicit developer override",
+  "fixture_backend_sha256": "0f1803480545b72b01353071ac8a543f41d4dabb6c8eea824728ef13486f4a46",
+  "synthetic_media_only": true,
+  "real_third_party_playback_tested": false,
+  "checks": [
+    {
+      "name": "Three actual own-page pause/fullscreen-resize/mode-change/real-click resume/Stop-replay stress cycles remain responsive with advanced render control",
+      "passed": true
+    },
+    {
+      "name": "Closing during enhanced video playback completes native renderer teardown and leaves no child processes",
+      "passed": true
+    }
+  ],
+  "observations": [
+    {
+      "fixture_native_process_family": [
+        {
+          "ProcessId": 22880,
+          "ParentProcessId": 33236,
+          "Name": "YingXia_candidate8.exe"
+        },
+        {
+          "ProcessId": 19840,
+          "ParentProcessId": 22880,
+          "Name": "yingxia_native.exe"
+        },
+        {
+          "ProcessId": 30528,
+          "ParentProcessId": 19840,
+          "Name": "yingxia_backend_fsr_fixture.exe"
+        },
+        {
+          "ProcessId": 11640,
+          "ParentProcessId": 30528,
+          "Name": "conhost.exe"
+        }
+      ]
+    },
+    {
+      "native_parent_exit": {
+        "code": 0,
+        "signal": null,
+        "time": "2026-10-14T12:59:40.458Z"
+      }
+    }
+  ],
+  "carried_forward_production_evidence": {
+    "executable": "YingXia_candidate8.exe",
+    "sha256": "6e799468cf8d4ca744b44d2fac915dfa5f58e9982585c8b80c2e2cd61909d08c",
+    "checks": [
+      {
+        "name": "Single release EXE extracts runtime and opens its own visible Flutter window with no browser/WebView children",
+        "passed": true
+      },
+      {
+        "name": "All four approved pages load in the production Flutter/Go app",
+        "passed": true
+      },
+      {
+        "name": "Exact two developer names and emails are shown at the top of sources and diagnostics",
+        "passed": true
+      },
+      {
+        "name": "Simple three-choice quality dropdown can change and persist the Windows-only preference",
+        "passed": true
+      },
+      {
+        "name": "Production in-app clear confirmation can cancel without changing persistent records",
+        "passed": true
+      },
+      {
+        "name": "Actual read-only library write failure retains rows and allows retry",
+        "passed": true
+      },
+      {
+        "name": "Actual production backend clears disk history while preserving favorites, bindings and settings",
+        "passed": true
+      },
+      {
+        "name": "Repeated single-file launch restores the existing native window",
+        "passed": true
+      },
+      {
+        "name": "Full release EXE restart keeps history empty and favorite available; window close ends child family",
+        "passed": true
+      }
+    ],
+    "scope": "These production checks were already run on this exact shipping EXE SHA. This subsequent run executes only the separately labelled fixture checks."
+  },
+  "check_count": 2
+}

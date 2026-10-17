@@ -1,0 +1,39 @@
+=== RUN   TestNativePrivateAPIAndClearHistory
+--- PASS: TestNativePrivateAPIAndClearHistory (0.03s)
+=== RUN   TestNativeClearHistoryWriteFailureRollsBack
+--- PASS: TestNativeClearHistoryWriteFailureRollsBack (0.01s)
+=== RUN   TestNativeClearWhileResolveIsPending
+--- PASS: TestNativeClearWhileResolveIsPending (0.02s)
+=== RUN   TestNativeRetiredStoreCannotWrite
+--- PASS: TestNativeRetiredStoreCannotWrite (0.00s)
+=== RUN   TestNativeStaticPlaybackAndDynamicRanking
+--- PASS: TestNativeStaticPlaybackAndDynamicRanking (0.01s)
+=== RUN   TestSourceSpeedRejectsHTTP200WithoutUsableMetadata
+=== RUN   TestSourceSpeedRejectsHTTP200WithoutUsableMetadata/valid
+=== RUN   TestSourceSpeedRejectsHTTP200WithoutUsableMetadata/maintenance
+=== RUN   TestSourceSpeedRejectsHTTP200WithoutUsableMetadata/wrong_schema
+=== RUN   TestSourceSpeedRejectsHTTP200WithoutUsableMetadata/empty_list
+=== RUN   TestSourceSpeedRejectsHTTP200WithoutUsableMetadata/invalid_rows
+--- PASS: TestSourceSpeedRejectsHTTP200WithoutUsableMetadata (0.08s)
+    --- PASS: TestSourceSpeedRejectsHTTP200WithoutUsableMetadata/valid (0.01s)
+    --- PASS: TestSourceSpeedRejectsHTTP200WithoutUsableMetadata/maintenance (0.02s)
+    --- PASS: TestSourceSpeedRejectsHTTP200WithoutUsableMetadata/wrong_schema (0.02s)
+    --- PASS: TestSourceSpeedRejectsHTTP200WithoutUsableMetadata/empty_list (0.02s)
+    --- PASS: TestSourceSpeedRejectsHTTP200WithoutUsableMetadata/invalid_rows (0.01s)
+=== RUN   TestSourceSpeedUsesKazumiSearchRule
+--- PASS: TestSourceSpeedUsesKazumiSearchRule (0.01s)
+=== RUN   TestKazumiAPINineSourceTemplateAndSafety
+--- PASS: TestKazumiAPINineSourceTemplateAndSafety (0.00s)
+=== RUN   TestSourceSpeedAsyncProgressPersistenceAndOrdering
+--- PASS: TestSourceSpeedAsyncProgressPersistenceAndOrdering (0.05s)
+=== RUN   TestSourceSpeedCancelAndConsent
+--- PASS: TestSourceSpeedCancelAndConsent (0.02s)
+=== RUN   TestSourceManagementEditsSwitchesAndUpdatePreserveState
+--- PASS: TestSourceManagementEditsSwitchesAndUpdatePreserveState (0.09s)
+=== RUN   TestSourceSpeedPrivateAPIAndNetworkBoundary
+--- PASS: TestSourceSpeedPrivateAPIAndNetworkBoundary (0.04s)
+=== RUN   TestBundledSourcesMergePreservesExistingRegistry
+--- PASS: TestBundledSourcesMergePreservesExistingRegistry (0.04s)
+=== RUN   TestKazumiAPI9UpstreamUpdatePreservesCustomAndHealth
+--- PASS: TestKazumiAPI9UpstreamUpdatePreservesCustomAndHealth (0.03s)
+PASS

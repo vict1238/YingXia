@@ -1,0 +1,26 @@
+{
+  "pid": 3780,
+  "arguments": [
+    "-avd",
+    "YingXia_QA_API35",
+    "-accel",
+    "on",
+    "-gpu",
+    "swangle",
+    "-feature",
+    "-Vulkan",
+    "-no-window",
+    "-no-audio",
+    "-no-snapshot",
+    "-no-boot-anim",
+    "-no-metrics",
+    "-show-kernel",
+    "-memory",
+    "2560",
+    "-cores",
+    "2",
+    "-port",
+    "5554"
+  ],
+  "data_preserved": true
+}

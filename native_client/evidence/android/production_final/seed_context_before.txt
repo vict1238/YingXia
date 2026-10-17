@@ -1,0 +1,1 @@
+-rw------- 1 u0_a148 u0_a148 u:object_r:app_data_file:s0:c148,c256,c512,c768  97 2026-10-14 16:50 /data/user/0/com.yingxia.yingxia_native/files/yingxia/library.json

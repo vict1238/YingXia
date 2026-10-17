@@ -1,0 +1,72 @@
+{
+  "environment": "win32/x64, native local HTTP navigation, isolated headless browser",
+  "catalogue": "synthetic fixtures",
+  "media": "test-only WebM",
+  "real_third_party_playback_tested": false,
+  "checks": [
+    {
+      "name": "Minimal home loads without removed sections or JavaScript errors",
+      "passed": true
+    },
+    {
+      "name": "All four navigation pages open",
+      "passed": true
+    },
+    {
+      "name": "Network consent still gates queries; synthetic search and season ordering work",
+      "passed": true
+    },
+    {
+      "name": "Iframe page load stays distinct from observed video playback",
+      "passed": true
+    },
+    {
+      "name": "Stop discards delayed playback responses",
+      "passed": true
+    },
+    {
+      "name": "Test-only media decodes and advances time through the real player UI",
+      "passed": true
+    },
+    {
+      "name": "Next episode selects and plays the correct test clip",
+      "passed": true
+    },
+    {
+      "name": "A source missing the selected episode does not play another episode",
+      "passed": true
+    },
+    {
+      "name": "Favorites and playback history survive page reload",
+      "passed": true
+    },
+    {
+      "name": "Import, per-episode binding and source selection still work",
+      "passed": true
+    },
+    {
+      "name": "Source settings and HTTP diagnostics work",
+      "passed": true
+    },
+    {
+      "name": "Search layout fits desktop and narrow window widths",
+      "passed": true
+    },
+    {
+      "name": "No uncaught JavaScript errors throughout the run",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "external_requests": [
+    "https://wsyzy.vip/m3u8/",
+    "https://free.maccms.xyz/"
+  ],
+  "test_media_observation": {
+    "time": 1.205414,
+    "frames": 33,
+    "width": 640
+  },
+  "browser": "155.0.8059.39",
+  "check_count": 13
+}

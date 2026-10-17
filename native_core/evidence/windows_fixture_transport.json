@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0-native",
+  "checks": [
+    "GUI child stdout bootstrap",
+    "authenticated private state API",
+    "history clears through actual process API",
+    "favorites preserved",
+    "library disk write verified",
+    "fixture async search verifies two media candidates",
+    "fixture resolve media ticket 原生播放测试 WebM",
+    "fixture WebM byte range authenticated relay",
+    "fixture resolve media ticket 原生播放测试 HLS",
+    "fixture HLS master variant segment authenticated relay",
+    "authenticated quit exits child",
+    "restart releases data lock",
+    "cleared history persists across process restart",
+    "host stdin close exits child"
+  ],
+  "binary_sha256": "a235a38ade8ebde8edf32a14eb5100a89c0ed18b34e61c4342b834abe365ca5d",
+  "tested_at": "2026-10-14T07:28:51.1149776Z",
+  "fixture": true,
+  "passed": 14
+}

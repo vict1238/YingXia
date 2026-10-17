@@ -1,0 +1,8 @@
+{
+  "file": "libmpv-2.dll",
+  "sha256": "d5f0694b08c124e785d858d00082f3e3b158dd9138bfc48c0382bf1eb443a5fc",
+  "mpv-version": "mpv v0.36.0-403-g652a1dd907",
+  "ffmpeg-version": "n6.0",
+  "mpv-configuration": "-Dc_link_args=-Wl,--gc-sections -Dcpp_link_args=-Wl,--gc-sections -Dgpl=false -Db_lto=true -Db_ndebug=true -Dlibmpv=true -Dpdf-build=enabled -Dlua=disabled -Djavascript=enabled -Duchardet=enabled -Dlcms2=enabled -Dopenal=disabled -Dspirv-cross=enabled -Dvulkan=disabled -Dlibplacebo=disabled -Degl-angle=enabled -Dprefix=/__w/libmpv-win32-video-build/libmpv-win32-video-build/mpv-winbuild-cmake/build64/install/mingw -Dlibdir=/__w/libmpv-win32-video-build/libmpv-win32-video-build/mpv-winbuild-cmake/build64/install/mingw/lib -Dbuildtype=release -Ddefault_library=shared -Dprefer_static=True --cross-file=/__w/libmpv-win32-video-build/libmpv-win32-video-build/mpv-winbuild-cmake/build64/meson_cross.txt",
+  "mpv-license": null
+}

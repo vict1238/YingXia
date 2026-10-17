@@ -1,0 +1,15 @@
+test_empty_sources (test_source_check.PreflightUnitTests.test_empty_sources) ... ok
+test_exact_source_count (test_source_check.PreflightUnitTests.test_exact_source_count) ... ok
+test_https_official (test_source_check.PreflightUnitTests.test_https_official) ... ok
+test_no_fake_domain (test_source_check.PreflightUnitTests.test_no_fake_domain) ... ok
+test_no_nonstandard_port (test_source_check.PreflightUnitTests.test_no_nonstandard_port) ... ok
+test_no_plain_http (test_source_check.PreflightUnitTests.test_no_plain_http) ... ok
+test_no_userinfo (test_source_check.PreflightUnitTests.test_no_userinfo) ... ok
+test_preserves_groups (test_source_check.PreflightUnitTests.test_preserves_groups) ... ok
+test_rejects_script (test_source_check.PreflightUnitTests.test_rejects_script) ... ok
+test_unnamed_media (test_source_check.PreflightUnitTests.test_unnamed_media) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.001s
+
+OK

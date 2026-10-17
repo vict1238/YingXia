@@ -1,0 +1,415 @@
+{
+  "owned_runner": "yingxia_native.exe",
+  "pid": 35772,
+  "debug_api_only": true,
+  "no_memory_dump": true,
+  "no_os_configuration_changes": true,
+  "exceptions": [
+    {
+      "code": "0xe06d7363",
+      "first_chance": true,
+      "thread_id": 30656,
+      "exception": {
+        "address": "0x7fff582c41ca",
+        "module": "KERNELBASE.dll",
+        "module_offset": "0xc41ca"
+      },
+      "parameters": [
+        "0x19930520",
+        "0xc5a6b7db10",
+        "0x7ffe7aecf180",
+        "0x7ffe7ae70000"
+      ],
+      "cpp_exception_types": [
+        ".?AVout_of_range@std@@",
+        ".?AVlogic_error@std@@",
+        ".?AVexception@std@@"
+      ],
+      "throw_info_module": {
+        "address": "0x7ffe7aecf180",
+        "module": "MSVCP140.dll",
+        "module_offset": "0x5f180"
+      },
+      "stack": {
+        "rip": "0x7fff582c41ca",
+        "rsp": "0xc5a6b7d990",
+        "rbp": "0x4",
+        "frames": [
+          {
+            "address": "0x7fff582c41ca",
+            "module": "KERNELBASE.dll",
+            "module_offset": "0xc41ca"
+          },
+          {
+            "address": "0x7ffefd1b52c7",
+            "module": "VCRUNTIME140.dll",
+            "module_offset": "0x52c7"
+          },
+          {
+            "address": "0x7ffe7aea4bb2",
+            "module": "MSVCP140.dll",
+            "module_offset": "0x34bb2"
+          },
+          {
+            "address": "0x7ffebc6ff62e",
+            "module": "media_kit_video_plugin.dll",
+            "module_offset": "0xf62e"
+          },
+          {
+            "address": "0x7ffebc701b17",
+            "module": "media_kit_video_plugin.dll",
+            "module_offset": "0x11b17"
+          },
+          {
+            "address": "0x7ffe3989eaa6",
+            "module": "flutter_windows.dll",
+            "module_offset": "0xeaa6"
+          },
+          {
+            "address": "0x7ffe398ab8e6",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x1b8e6"
+          },
+          {
+            "address": "0x7ffe3996b467",
+            "module": "flutter_windows.dll",
+            "module_offset": "0xdb467"
+          },
+          {
+            "address": "0x7ffe3997aea8",
+            "module": "flutter_windows.dll",
+            "module_offset": "0xeaea8"
+          },
+          {
+            "address": "0x7ffe3997a6bd",
+            "module": "flutter_windows.dll",
+            "module_offset": "0xea6bd"
+          },
+          {
+            "address": "0x7ffe3997a63d",
+            "module": "flutter_windows.dll",
+            "module_offset": "0xea63d"
+          },
+          {
+            "address": "0x7ffe3997a4fb",
+            "module": "flutter_windows.dll",
+            "module_offset": "0xea4fb"
+          },
+          {
+            "address": "0x7ffe39dd6d2c",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x546d2c"
+          },
+          {
+            "address": "0x7ffe39dcebee",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53ebee"
+          },
+          {
+            "address": "0x7ffe39dd7231",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x547231"
+          },
+          {
+            "address": "0x7ffe39dcebee",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53ebee"
+          },
+          {
+            "address": "0x7ffe39dd7231",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x547231"
+          },
+          {
+            "address": "0x7ffe39dcebee",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53ebee"
+          },
+          {
+            "address": "0x7ffe39dcd3ad",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53d3ad"
+          },
+          {
+            "address": "0x7ffe39dcebee",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53ebee"
+          },
+          {
+            "address": "0x7ffe39dccca0",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53cca0"
+          },
+          {
+            "address": "0x7ffe39dcebee",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53ebee"
+          },
+          {
+            "address": "0x7ffe39dcd3ad",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53d3ad"
+          },
+          {
+            "address": "0x7ffe39dcebee",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53ebee"
+          },
+          {
+            "address": "0x7ffe39dd7231",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x547231"
+          },
+          {
+            "address": "0x7ffe39dcebee",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53ebee"
+          },
+          {
+            "address": "0x7ffe39dd7231",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x547231"
+          },
+          {
+            "address": "0x7ffe39dcebee",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53ebee"
+          },
+          {
+            "address": "0x7ffe39dd7231",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x547231"
+          },
+          {
+            "address": "0x7ffe39dcebee",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53ebee"
+          },
+          {
+            "address": "0x7ffe39dd7231",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x547231"
+          },
+          {
+            "address": "0x7ffe39dcebee",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53ebee"
+          },
+          {
+            "address": "0x7ffe39dd7231",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x547231"
+          },
+          {
+            "address": "0x7ffe39dcebee",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53ebee"
+          },
+          {
+            "address": "0x7ffe39dd7231",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x547231"
+          }
+        ],
+        "symbol_engine_initialized": true
+      }
+    },
+    {
+      "code": "0xc0000409",
+      "first_chance": false,
+      "thread_id": 30656,
+      "exception": {
+        "address": "0x7ffe3a844829",
+        "module": "flutter_windows.dll",
+        "module_offset": "0xfb4829"
+      },
+      "parameters": [
+        "0x7"
+      ],
+      "stack": {
+        "rip": "0x7ffe3a844829",
+        "rsp": "0xc5a6b7ca60",
+        "rbp": "0xc5a6b7d080",
+        "frames": [
+          {
+            "address": "0x7ffe3a844829",
+            "module": "flutter_windows.dll",
+            "module_offset": "0xfb4829"
+          },
+          {
+            "address": "0x7ffe3a870f2d",
+            "module": "flutter_windows.dll",
+            "module_offset": "0xfe0f2d"
+          },
+          {
+            "address": "0x7ffe3a8840e6",
+            "module": "flutter_windows.dll",
+            "module_offset": "0xff40e6"
+          },
+          {
+            "address": "0x7fff5aae54ff",
+            "module": "ntdll.dll",
+            "module_offset": "0x1654ff"
+          },
+          {
+            "address": "0x7fff5aa4bd25",
+            "module": "ntdll.dll",
+            "module_offset": "0xcbd25"
+          },
+          {
+            "address": "0x7fff5aae4e3e",
+            "module": "ntdll.dll",
+            "module_offset": "0x164e3e"
+          },
+          {
+            "address": "0x7fff582c41ca",
+            "module": "KERNELBASE.dll",
+            "module_offset": "0xc41ca"
+          },
+          {
+            "address": "0x7ffefd1b52c7",
+            "module": "VCRUNTIME140.dll",
+            "module_offset": "0x52c7"
+          },
+          {
+            "address": "0x7ffe7aea4bb2",
+            "module": "MSVCP140.dll",
+            "module_offset": "0x34bb2"
+          },
+          {
+            "address": "0x7ffebc6ff62e",
+            "module": "media_kit_video_plugin.dll",
+            "module_offset": "0xf62e"
+          },
+          {
+            "address": "0x7ffebc701b17",
+            "module": "media_kit_video_plugin.dll",
+            "module_offset": "0x11b17"
+          },
+          {
+            "address": "0x7ffe3989eaa6",
+            "module": "flutter_windows.dll",
+            "module_offset": "0xeaa6"
+          },
+          {
+            "address": "0x7ffe398ab8e6",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x1b8e6"
+          },
+          {
+            "address": "0x7ffe3996b467",
+            "module": "flutter_windows.dll",
+            "module_offset": "0xdb467"
+          },
+          {
+            "address": "0x7ffe3997aea8",
+            "module": "flutter_windows.dll",
+            "module_offset": "0xeaea8"
+          },
+          {
+            "address": "0x7ffe3997a6bd",
+            "module": "flutter_windows.dll",
+            "module_offset": "0xea6bd"
+          },
+          {
+            "address": "0x7ffe3997a63d",
+            "module": "flutter_windows.dll",
+            "module_offset": "0xea63d"
+          },
+          {
+            "address": "0x7ffe3997a4fb",
+            "module": "flutter_windows.dll",
+            "module_offset": "0xea4fb"
+          },
+          {
+            "address": "0x7ffe39dd6d2c",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x546d2c"
+          },
+          {
+            "address": "0x7ffe39dcebee",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53ebee"
+          },
+          {
+            "address": "0x7ffe39dd7231",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x547231"
+          },
+          {
+            "address": "0x7ffe39dcebee",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53ebee"
+          },
+          {
+            "address": "0x7ffe39dd7231",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x547231"
+          },
+          {
+            "address": "0x7ffe39dcebee",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53ebee"
+          },
+          {
+            "address": "0x7ffe39dcd3ad",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53d3ad"
+          },
+          {
+            "address": "0x7ffe39dcebee",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53ebee"
+          },
+          {
+            "address": "0x7ffe39dccca0",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53cca0"
+          },
+          {
+            "address": "0x7ffe39dcebee",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53ebee"
+          },
+          {
+            "address": "0x7ffe39dcd3ad",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53d3ad"
+          },
+          {
+            "address": "0x7ffe39dcebee",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53ebee"
+          },
+          {
+            "address": "0x7ffe39dd7231",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x547231"
+          },
+          {
+            "address": "0x7ffe39dcebee",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53ebee"
+          },
+          {
+            "address": "0x7ffe39dd7231",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x547231"
+          },
+          {
+            "address": "0x7ffe39dcebee",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x53ebee"
+          },
+          {
+            "address": "0x7ffe39dd7231",
+            "module": "flutter_windows.dll",
+            "module_offset": "0x547231"
+          }
+        ],
+        "symbol_engine_initialized": true
+      }
+    }
+  ],
+  "process_exit_code": 3221226505
+}

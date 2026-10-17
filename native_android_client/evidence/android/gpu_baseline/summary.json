@@ -1,0 +1,34 @@
+{
+  "collected_at_utc": "2026-10-15T11:51:50.0700258Z",
+  "since_utc": "2026-10-15T11:48:10.3654858Z",
+  "serial": "emulator-5560",
+  "package": "com.yingxia.yingxia_native.fixture",
+  "process_id": "8247",
+  "log_scope": "current_fixture_process",
+  "device": {
+    "ro.build.version.sdk": "35",
+    "ro.product.cpu.abi": "x86_64",
+    "ro.hardware": "ranchu",
+    "ro.kernel.qemu": "1"
+  },
+  "classification": "gpu_path_unavailable_or_fell_back",
+  "structured_records": 102,
+  "malformed_or_truncated_records": 0,
+  "active_samples": 13,
+  "proven_shader_samples": 0,
+  "verified_modes": [],
+  "off_at_source_size_samples": 0,
+  "light_enhanced_off_verified": false,
+  "fallback_reasons": [
+    "shader_unverified"
+  ],
+  "gpu_error_phrase_counts": {
+    "EGL_BAD_NATIVE_WINDOW": 0,
+    "Could not create EGL surface": 0,
+    "EGL failed to initialize": 0,
+    "Failed to set context": 0,
+    "Failed initializing any suitable GPU context": 0
+  },
+  "performance_scope": "This device and emulator renderer only; no ARM device performance inference.",
+  "gpu_error_time_scope": "Error phrase counts cover the retained log buffer; structured records are filtered by since_utc."
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "record_id": "E008",
+    "duplicate_of": "C031",
+    "reason": "same_final_endpoint",
+    "url": "https://api.ukuapi.com/api.php/provide/vod/?ac=list"
+  },
+  {
+    "record_id": "E013",
+    "duplicate_of": "C032",
+    "reason": "same_final_endpoint",
+    "url": "http://api.guangsuapi.com/api.php/provide/vod/"
+  }
+]

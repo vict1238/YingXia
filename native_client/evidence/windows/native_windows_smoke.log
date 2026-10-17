@@ -1,0 +1,10 @@
+PASS: Single release EXE extracts runtime and opens its own visible Flutter window with no browser/WebView children
+PASS: All four approved pages load in the production Flutter/Go app
+PASS: Production in-app clear confirmation can cancel without changing persistent records
+PASS: Actual read-only library write failure retains rows and allows retry
+PASS: Actual production backend clears disk history while preserving favorites, bindings and settings
+PASS: Repeated single-file launch restores the existing native window
+PASS: Full release EXE restart keeps history empty and favorite available; window close ends child family
+PASS: Native libmpv WebM playback advances; leaving workspace pauses and manual resume reuses playback
+PASS: Native libmpv HLS playback decodes the synthetic authenticated relay and advances time
+PASS: Actual Windows minimize pauses the native player and restore remains paused

@@ -1,0 +1,1051 @@
+{
+  "started_at": "2026-10-14T03:22:50.933Z",
+  "executable": "YingXia_v1.2.0_Windows_x64.exe",
+  "version": "1.2.0-exe",
+  "environment": "win32/x64",
+  "query": "葬送的芙莉莲",
+  "mode": "all",
+  "scope": "Real source search, candidate details and bounded playback-page/media-sample access checks",
+  "startup": "--no-browser with a new temporary data directory",
+  "auto_update_sources": false,
+  "actual_decoder_verification": false,
+  "real_third_party_playback_verified": false,
+  "media_urls_recorded": false,
+  "private_request_headers_recorded": false,
+  "status": "passed",
+  "runs": [
+    {
+      "run": 1,
+      "started_at": "2026-10-14T03:22:55.822Z",
+      "status": "passed",
+      "snapshots": [
+        {
+          "elapsed_ms": 16,
+          "phase": "searching",
+          "percent": 0,
+          "source_completed": 0,
+          "source_total": 1,
+          "checked_count": 0,
+          "check_total": 0,
+          "available_count": 0,
+          "candidate_count": 0,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 0,
+            "unchecked": 0,
+            "failed": 0,
+            "pending": 0
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 788,
+          "phase": "searching",
+          "percent": 0,
+          "source_completed": 0,
+          "source_total": 17,
+          "checked_count": 0,
+          "check_total": 0,
+          "available_count": 0,
+          "candidate_count": 0,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 0,
+            "unchecked": 0,
+            "failed": 0,
+            "pending": 0
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 1567,
+          "phase": "searching",
+          "percent": 3,
+          "source_completed": 2,
+          "source_total": 17,
+          "checked_count": 0,
+          "check_total": 0,
+          "available_count": 0,
+          "candidate_count": 0,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 0,
+            "unchecked": 0,
+            "failed": 0,
+            "pending": 0
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 2347,
+          "phase": "searching",
+          "percent": 7,
+          "source_completed": 4,
+          "source_total": 17,
+          "checked_count": 0,
+          "check_total": 0,
+          "available_count": 0,
+          "candidate_count": 0,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 0,
+            "unchecked": 0,
+            "failed": 0,
+            "pending": 0
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 3123,
+          "phase": "searching",
+          "percent": 15,
+          "source_completed": 9,
+          "source_total": 17,
+          "checked_count": 0,
+          "check_total": 0,
+          "available_count": 0,
+          "candidate_count": 0,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 0,
+            "unchecked": 0,
+            "failed": 0,
+            "pending": 0
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 3898,
+          "phase": "searching",
+          "percent": 19,
+          "source_completed": 11,
+          "source_total": 17,
+          "checked_count": 0,
+          "check_total": 0,
+          "available_count": 0,
+          "candidate_count": 0,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 0,
+            "unchecked": 0,
+            "failed": 0,
+            "pending": 0
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 4676,
+          "phase": "searching",
+          "percent": 24,
+          "source_completed": 14,
+          "source_total": 17,
+          "checked_count": 0,
+          "check_total": 0,
+          "available_count": 0,
+          "candidate_count": 0,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 0,
+            "unchecked": 0,
+            "failed": 0,
+            "pending": 0
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 5453,
+          "phase": "searching",
+          "percent": 28,
+          "source_completed": 16,
+          "source_total": 17,
+          "checked_count": 0,
+          "check_total": 0,
+          "available_count": 0,
+          "candidate_count": 0,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 0,
+            "unchecked": 0,
+            "failed": 0,
+            "pending": 0
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 10884,
+          "phase": "checking",
+          "percent": 30,
+          "source_completed": 17,
+          "source_total": 17,
+          "checked_count": 0,
+          "check_total": 27,
+          "available_count": 0,
+          "candidate_count": 27,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 0,
+            "unchecked": 0,
+            "failed": 0,
+            "pending": 27
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 13984,
+          "phase": "checking",
+          "percent": 32,
+          "source_completed": 17,
+          "source_total": 17,
+          "checked_count": 1,
+          "check_total": 27,
+          "available_count": 1,
+          "candidate_count": 27,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 1,
+            "unchecked": 0,
+            "failed": 0,
+            "pending": 26
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 14764,
+          "phase": "checking",
+          "percent": 37,
+          "source_completed": 17,
+          "source_total": 17,
+          "checked_count": 3,
+          "check_total": 27,
+          "available_count": 3,
+          "candidate_count": 27,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 3,
+            "unchecked": 0,
+            "failed": 0,
+            "pending": 24
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 15542,
+          "phase": "checking",
+          "percent": 40,
+          "source_completed": 17,
+          "source_total": 17,
+          "checked_count": 4,
+          "check_total": 27,
+          "available_count": 3,
+          "candidate_count": 27,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 3,
+            "unchecked": 0,
+            "failed": 1,
+            "pending": 23
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 16316,
+          "phase": "checking",
+          "percent": 42,
+          "source_completed": 17,
+          "source_total": 17,
+          "checked_count": 5,
+          "check_total": 27,
+          "available_count": 4,
+          "candidate_count": 27,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 4,
+            "unchecked": 0,
+            "failed": 1,
+            "pending": 22
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 17089,
+          "phase": "checking",
+          "percent": 45,
+          "source_completed": 17,
+          "source_total": 17,
+          "checked_count": 6,
+          "check_total": 27,
+          "available_count": 5,
+          "candidate_count": 27,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 5,
+            "unchecked": 0,
+            "failed": 1,
+            "pending": 21
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 19416,
+          "phase": "checking",
+          "percent": 47,
+          "source_completed": 17,
+          "source_total": 17,
+          "checked_count": 7,
+          "check_total": 27,
+          "available_count": 5,
+          "candidate_count": 27,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 5,
+            "unchecked": 0,
+            "failed": 2,
+            "pending": 20
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 20191,
+          "phase": "checking",
+          "percent": 53,
+          "source_completed": 17,
+          "source_total": 17,
+          "checked_count": 9,
+          "check_total": 27,
+          "available_count": 7,
+          "candidate_count": 27,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 7,
+            "unchecked": 0,
+            "failed": 2,
+            "pending": 18
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 20970,
+          "phase": "checking",
+          "percent": 58,
+          "source_completed": 17,
+          "source_total": 17,
+          "checked_count": 11,
+          "check_total": 27,
+          "available_count": 8,
+          "candidate_count": 27,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 8,
+            "unchecked": 0,
+            "failed": 3,
+            "pending": 16
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 22521,
+          "phase": "checking",
+          "percent": 60,
+          "source_completed": 17,
+          "source_total": 17,
+          "checked_count": 12,
+          "check_total": 27,
+          "available_count": 9,
+          "candidate_count": 27,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 9,
+            "unchecked": 0,
+            "failed": 3,
+            "pending": 15
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 23297,
+          "phase": "checking",
+          "percent": 63,
+          "source_completed": 17,
+          "source_total": 17,
+          "checked_count": 13,
+          "check_total": 27,
+          "available_count": 10,
+          "candidate_count": 27,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 10,
+            "unchecked": 0,
+            "failed": 3,
+            "pending": 14
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 24071,
+          "phase": "checking",
+          "percent": 65,
+          "source_completed": 17,
+          "source_total": 17,
+          "checked_count": 14,
+          "check_total": 27,
+          "available_count": 10,
+          "candidate_count": 27,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 10,
+            "unchecked": 0,
+            "failed": 4,
+            "pending": 13
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 24847,
+          "phase": "checking",
+          "percent": 70,
+          "source_completed": 17,
+          "source_total": 17,
+          "checked_count": 16,
+          "check_total": 27,
+          "available_count": 12,
+          "candidate_count": 27,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 12,
+            "unchecked": 0,
+            "failed": 4,
+            "pending": 11
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 25620,
+          "phase": "checking",
+          "percent": 76,
+          "source_completed": 17,
+          "source_total": 17,
+          "checked_count": 18,
+          "check_total": 27,
+          "available_count": 14,
+          "candidate_count": 27,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 14,
+            "unchecked": 0,
+            "failed": 4,
+            "pending": 9
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 27946,
+          "phase": "checking",
+          "percent": 81,
+          "source_completed": 17,
+          "source_total": 17,
+          "checked_count": 20,
+          "check_total": 27,
+          "available_count": 16,
+          "candidate_count": 27,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 16,
+            "unchecked": 0,
+            "failed": 4,
+            "pending": 7
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 28728,
+          "phase": "checking",
+          "percent": 83,
+          "source_completed": 17,
+          "source_total": 17,
+          "checked_count": 21,
+          "check_total": 27,
+          "available_count": 17,
+          "candidate_count": 27,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 17,
+            "unchecked": 0,
+            "failed": 4,
+            "pending": 6
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 30279,
+          "phase": "checking",
+          "percent": 91,
+          "source_completed": 17,
+          "source_total": 17,
+          "checked_count": 24,
+          "check_total": 27,
+          "available_count": 19,
+          "candidate_count": 27,
+          "availability_counts": {
+            "media_ok": 0,
+            "page_ok": 19,
+            "unchecked": 0,
+            "failed": 5,
+            "pending": 3
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 32609,
+          "phase": "checking",
+          "percent": 96,
+          "source_completed": 17,
+          "source_total": 17,
+          "checked_count": 26,
+          "check_total": 27,
+          "available_count": 21,
+          "candidate_count": 27,
+          "availability_counts": {
+            "media_ok": 1,
+            "page_ok": 20,
+            "unchecked": 0,
+            "failed": 5,
+            "pending": 1
+          },
+          "message": ""
+        },
+        {
+          "elapsed_ms": 33389,
+          "phase": "done",
+          "percent": 100,
+          "source_completed": 17,
+          "source_total": 17,
+          "checked_count": 27,
+          "check_total": 27,
+          "available_count": 22,
+          "candidate_count": 27,
+          "availability_counts": {
+            "media_ok": 1,
+            "page_ok": 21,
+            "unchecked": 0,
+            "failed": 5,
+            "pending": 0
+          },
+          "message": ""
+        }
+      ],
+      "errors": [
+        {
+          "scope": "source_search",
+          "source": "dalvdm",
+          "error": "来源返回 HTTP 403"
+        },
+        {
+          "scope": "candidate_check",
+          "title": "葬送的芙莉莲",
+          "source": "7sefun",
+          "state": "failed",
+          "error": "播放入口未返回有效页面或媒体"
+        },
+        {
+          "scope": "candidate_check",
+          "title": "葬送的芙莉莲",
+          "source": "MXdm",
+          "state": "failed",
+          "error": "来源返回 HTTP 403"
+        },
+        {
+          "scope": "candidate_check",
+          "title": "葬送的芙莉莲",
+          "source": "无损云",
+          "state": "failed",
+          "error": "接口未返回所选影片；不会改播其他作品。"
+        },
+        {
+          "scope": "candidate_check",
+          "title": "葬送的芙莉莲第二季",
+          "source": "7sefun",
+          "state": "failed",
+          "error": "播放入口未返回有效页面或媒体"
+        },
+        {
+          "scope": "candidate_check",
+          "title": "葬送的芙莉莲第二季",
+          "source": "MXdm",
+          "state": "failed",
+          "error": "来源返回 HTTP 403"
+        }
+      ],
+      "progress": {
+        "phase": "done",
+        "percent": 100,
+        "source_completed": 17,
+        "source_total": 17,
+        "checked_count": 27,
+        "check_total": 27,
+        "available_count": 22,
+        "candidate_count": 27,
+        "availability_counts": {
+          "media_ok": 1,
+          "page_ok": 21,
+          "unchecked": 0,
+          "failed": 5,
+          "pending": 0
+        },
+        "message": ""
+      },
+      "elapsed_ms": 33389,
+      "sources": [
+        {
+          "name": "无损云",
+          "ok": true,
+          "count": 2,
+          "elapsed_ms": 3537
+        },
+        {
+          "name": "7sefun",
+          "ok": true,
+          "count": 2,
+          "elapsed_ms": 2849
+        },
+        {
+          "name": "aafun",
+          "ok": true,
+          "count": 2,
+          "elapsed_ms": 1696
+        },
+        {
+          "name": "AGE",
+          "ok": true,
+          "count": 2,
+          "elapsed_ms": 1418
+        },
+        {
+          "name": "akianime",
+          "ok": true,
+          "count": 2,
+          "elapsed_ms": 1777
+        },
+        {
+          "name": "baimao",
+          "ok": true,
+          "count": 2,
+          "elapsed_ms": 2643
+        },
+        {
+          "name": "dalvdm",
+          "ok": false,
+          "count": 0,
+          "elapsed_ms": 2763,
+          "error": "来源返回 HTTP 403"
+        },
+        {
+          "name": "DM84",
+          "ok": true,
+          "count": 2,
+          "elapsed_ms": 3101
+        },
+        {
+          "name": "ezdmw",
+          "ok": true,
+          "count": 1,
+          "elapsed_ms": 3908
+        },
+        {
+          "name": "giriGiriLove",
+          "ok": true,
+          "count": 0,
+          "elapsed_ms": 3951
+        },
+        {
+          "name": "mgnacg",
+          "ok": true,
+          "count": 0,
+          "elapsed_ms": 10515
+        },
+        {
+          "name": "moonci",
+          "ok": true,
+          "count": 2,
+          "elapsed_ms": 2704
+        },
+        {
+          "name": "mutefun",
+          "ok": true,
+          "count": 2,
+          "elapsed_ms": 3726
+        },
+        {
+          "name": "MXdm",
+          "ok": true,
+          "count": 2,
+          "elapsed_ms": 4209
+        },
+        {
+          "name": "sorani",
+          "ok": true,
+          "count": 2,
+          "elapsed_ms": 4732
+        },
+        {
+          "name": "xfdmneo",
+          "ok": true,
+          "count": 2,
+          "elapsed_ms": 5282
+        },
+        {
+          "name": "xfdmnext",
+          "ok": true,
+          "count": 2,
+          "elapsed_ms": 926
+        }
+      ],
+      "items": [
+        {
+          "title": "葬送的芙莉莲第二季",
+          "source": "无损云",
+          "availability": {
+            "state": "media_ok",
+            "label": "媒体可访问",
+            "checked_at": "2026-10-14T03:23:27Z",
+            "latency_ms": 3764
+          }
+        },
+        {
+          "title": "葬送的芙莉莲",
+          "source": "AGE",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:08Z",
+            "latency_ms": 4154
+          }
+        },
+        {
+          "title": "葬送的芙莉莲",
+          "source": "DM84",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:09Z",
+            "latency_ms": 5232
+          }
+        },
+        {
+          "title": "葬送的芙莉莲",
+          "source": "aafun",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:09Z",
+            "latency_ms": 3152
+          }
+        },
+        {
+          "title": "葬送的芙莉莲",
+          "source": "akianime",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:09Z",
+            "latency_ms": 3962
+          }
+        },
+        {
+          "title": "葬送的芙莉莲",
+          "source": "baimao",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:15Z",
+            "latency_ms": 9031
+          }
+        },
+        {
+          "title": "葬送的芙莉莲",
+          "source": "ezdmw",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:14Z",
+            "latency_ms": 5516
+          }
+        },
+        {
+          "title": "葬送的芙莉莲",
+          "source": "moonci",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:12Z",
+            "latency_ms": 2186
+          }
+        },
+        {
+          "title": "葬送的芙莉莲",
+          "source": "mutefun",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:14Z",
+            "latency_ms": 4130
+          }
+        },
+        {
+          "title": "葬送的芙莉莲",
+          "source": "sorani",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:16Z",
+            "latency_ms": 4934
+          }
+        },
+        {
+          "title": "葬送的芙莉莲",
+          "source": "xfdmneo",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:16Z",
+            "latency_ms": 5380
+          }
+        },
+        {
+          "title": "葬送的芙莉莲",
+          "source": "xfdmnext",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:19Z",
+            "latency_ms": 5027
+          }
+        },
+        {
+          "title": "葬送的芙莉莲 第二季",
+          "source": "AGE",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:18Z",
+            "latency_ms": 4225
+          }
+        },
+        {
+          "title": "葬送的芙莉莲 第二季",
+          "source": "DM84",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:19Z",
+            "latency_ms": 4737
+          }
+        },
+        {
+          "title": "葬送的芙莉莲 第二季",
+          "source": "aafun",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:20Z",
+            "latency_ms": 2186
+          }
+        },
+        {
+          "title": "葬送的芙莉莲 第二季",
+          "source": "akianime",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:22Z",
+            "latency_ms": 3571
+          }
+        },
+        {
+          "title": "葬送的芙莉莲 第二季",
+          "source": "baimao",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:23Z",
+            "latency_ms": 5796
+          }
+        },
+        {
+          "title": "葬送的芙莉莲 第二季",
+          "source": "moonci",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:22Z",
+            "latency_ms": 3001
+          }
+        },
+        {
+          "title": "葬送的芙莉莲 第二季",
+          "source": "mutefun",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:23Z",
+            "latency_ms": 3317
+          }
+        },
+        {
+          "title": "葬送的芙莉莲 第二季",
+          "source": "sorani",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:25Z",
+            "latency_ms": 4555
+          }
+        },
+        {
+          "title": "葬送的芙莉莲 第二季",
+          "source": "xfdmneo",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:26Z",
+            "latency_ms": 5163
+          }
+        },
+        {
+          "title": "葬送的芙莉莲 第二季",
+          "source": "xfdmnext",
+          "availability": {
+            "state": "page_ok",
+            "label": "页面可访问",
+            "checked_at": "2026-10-14T03:23:27Z",
+            "latency_ms": 5263
+          }
+        },
+        {
+          "title": "葬送的芙莉莲",
+          "source": "7sefun",
+          "availability": {
+            "state": "failed",
+            "label": "暂不可用",
+            "checked_at": "2026-10-14T03:23:09Z",
+            "latency_ms": 4899,
+            "error": "播放入口未返回有效页面或媒体"
+          }
+        },
+        {
+          "title": "葬送的芙莉莲",
+          "source": "MXdm",
+          "availability": {
+            "state": "failed",
+            "label": "暂不可用",
+            "checked_at": "2026-10-14T03:23:11Z",
+            "latency_ms": 8812,
+            "error": "来源返回 HTTP 403"
+          }
+        },
+        {
+          "title": "葬送的芙莉莲",
+          "source": "无损云",
+          "availability": {
+            "state": "failed",
+            "label": "暂不可用",
+            "checked_at": "2026-10-14T03:23:16Z",
+            "latency_ms": 849,
+            "error": "接口未返回所选影片；不会改播其他作品。"
+          }
+        },
+        {
+          "title": "葬送的芙莉莲第二季",
+          "source": "7sefun",
+          "availability": {
+            "state": "failed",
+            "label": "暂不可用",
+            "checked_at": "2026-10-14T03:23:18Z",
+            "latency_ms": 3771,
+            "error": "播放入口未返回有效页面或媒体"
+          }
+        },
+        {
+          "title": "葬送的芙莉莲第二季",
+          "source": "MXdm",
+          "availability": {
+            "state": "failed",
+            "label": "暂不可用",
+            "checked_at": "2026-10-14T03:23:21Z",
+            "latency_ms": 7860,
+            "error": "来源返回 HTTP 403"
+          }
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "run": 1,
+      "scope": "source_search",
+      "source": "dalvdm",
+      "error": "来源返回 HTTP 403"
+    },
+    {
+      "run": 1,
+      "scope": "candidate_check",
+      "title": "葬送的芙莉莲",
+      "source": "7sefun",
+      "state": "failed",
+      "error": "播放入口未返回有效页面或媒体"
+    },
+    {
+      "run": 1,
+      "scope": "candidate_check",
+      "title": "葬送的芙莉莲",
+      "source": "MXdm",
+      "state": "failed",
+      "error": "来源返回 HTTP 403"
+    },
+    {
+      "run": 1,
+      "scope": "candidate_check",
+      "title": "葬送的芙莉莲",
+      "source": "无损云",
+      "state": "failed",
+      "error": "接口未返回所选影片；不会改播其他作品。"
+    },
+    {
+      "run": 1,
+      "scope": "candidate_check",
+      "title": "葬送的芙莉莲第二季",
+      "source": "7sefun",
+      "state": "failed",
+      "error": "播放入口未返回有效页面或媒体"
+    },
+    {
+      "run": 1,
+      "scope": "candidate_check",
+      "title": "葬送的芙莉莲第二季",
+      "source": "MXdm",
+      "state": "failed",
+      "error": "来源返回 HTTP 403"
+    }
+  ],
+  "sha256": "ef0b36d556da8fcfa027f3e80358ee0cb7061cf982402bc834237344e1ba38cd",
+  "enabled_source_count": 17,
+  "finished_at": "2026-10-14T03:23:29.318Z",
+  "elapsed_ms": 38385,
+  "progress": {
+    "phase": "done",
+    "percent": 100,
+    "source_completed": 17,
+    "source_total": 17,
+    "checked_count": 27,
+    "check_total": 27,
+    "available_count": 22,
+    "candidate_count": 27,
+    "availability_counts": {
+      "media_ok": 1,
+      "page_ok": 21,
+      "unchecked": 0,
+      "failed": 5,
+      "pending": 0
+    },
+    "message": ""
+  }
+}

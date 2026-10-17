@@ -1,0 +1,549 @@
+{
+  "platform": "win32/x64",
+  "executable": "YingXia_v2.0.0_Native_Windows_x64.exe",
+  "sha256": "9739e43c6ba8a51151ac3e7feed383187888ed871f3130b0cbdfa4ba3d60cf3f",
+  "shipping_gui_tested": true,
+  "production_backend_history_tested": true,
+  "media_backend": "separately compiled native_fixture Go child via explicit developer override",
+  "synthetic_media_only": true,
+  "real_third_party_playback_tested": false,
+  "checks": [
+    {
+      "name": "Single release EXE extracts runtime and opens its own visible Flutter window with no browser/WebView children",
+      "passed": true
+    },
+    {
+      "name": "All four approved pages load in the production Flutter/Go app",
+      "passed": true
+    },
+    {
+      "name": "Production in-app clear confirmation can cancel without changing persistent records",
+      "passed": true
+    },
+    {
+      "name": "Actual read-only library write failure retains rows and allows retry",
+      "passed": true
+    },
+    {
+      "name": "Actual production backend clears disk history while preserving favorites, bindings and settings",
+      "passed": true
+    },
+    {
+      "name": "Repeated single-file launch restores the existing native window",
+      "passed": true
+    },
+    {
+      "name": "Full release EXE restart keeps history empty and favorite available; window close ends child family",
+      "passed": true
+    }
+  ],
+  "observations": [
+    {
+      "initial_window": {
+        "action": "Snapshot",
+        "visible": true,
+        "pid": 30824,
+        "minimized": false,
+        "rect": [
+          10,
+          10,
+          1350,
+          910
+        ],
+        "title": "映匣 · YingXia",
+        "hwnd": 32377904
+      }
+    },
+    {
+      "production_process_family": [
+        {
+          "ProcessId": 20136,
+          "ParentProcessId": 12704,
+          "Name": "YingXia_v2.0.0_Native_Windows_x64.exe"
+        },
+        {
+          "ProcessId": 30824,
+          "ParentProcessId": 20136,
+          "Name": "yingxia_native.exe"
+        },
+        {
+          "ProcessId": 2680,
+          "ParentProcessId": 30824,
+          "Name": "yingxia_backend.exe"
+        }
+      ]
+    }
+  ],
+  "failure": "Error: native media did not advance\n    at eventually (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_client\\tools\\windows_native_smoke.cjs:17:212)\n    at async playFilm (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_client\\tools\\windows_native_smoke.cjs:50:3)\n    at async main (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_client\\tools\\windows_native_smoke.cjs:71:33)",
+  "failure_accessibility": [
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 16,
+      "name": null,
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        74,
+        167,
+        44
+      ],
+      "role": 41,
+      "name": "映\n映匣\nYINGXIA",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        165,
+        167,
+        49
+      ],
+      "role": 43,
+      "name": "搜索影片",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        221,
+        167,
+        49
+      ],
+      "role": 43,
+      "name": "播放工作台",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        277,
+        167,
+        49
+      ],
+      "role": 43,
+      "name": "收藏与记录",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        333,
+        167,
+        49
+      ],
+      "role": 43,
+      "name": "来源与诊断",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        67,
+        62,
+        20
+      ],
+      "role": 41,
+      "name": "播放工作台",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        222,
+        114,
+        1120,
+        788
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        148,
+        244,
+        38
+      ],
+      "role": 41,
+      "name": "原生播放测试 WebM",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1230,
+        148,
+        74,
+        32
+      ],
+      "role": 43,
+      "name": "＋ 收藏",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        186,
+        137,
+        19
+      ],
+      "role": 41,
+      "name": "2026 · 合成测试 · 无损云",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        232,
+        749,
+        421
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        232,
+        749,
+        421
+      ],
+      "role": 41,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        252,
+        35,
+        27
+      ],
+      "role": 41,
+      "name": "选集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        296,
+        228,
+        19
+      ],
+      "role": 41,
+      "name": "片源",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        322,
+        228,
+        44
+      ],
+      "role": 43,
+      "name": "WebM 测试（2 项）",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1251,
+        257,
+        22,
+        17
+      ],
+      "role": 41,
+      "name": "2 集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        378,
+        228,
+        19
+      ],
+      "role": 41,
+      "name": "已选：第01集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        412,
+        228,
+        42
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        412,
+        72,
+        42
+      ],
+      "role": 41,
+      "name": "第01集. 第01集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1133,
+        412,
+        72,
+        42
+      ],
+      "role": 41,
+      "name": "第02集. 第02集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        507,
+        228,
+        19
+      ],
+      "role": 41,
+      "name": "作品信息",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        535,
+        228,
+        21
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        274,
+        671,
+        45,
+        18
+      ],
+      "role": 41,
+      "name": "播放结束",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        948,
+        664,
+        63,
+        33
+      ],
+      "role": 43,
+      "name": "全屏 ⛶",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        713,
+        70,
+        33
+      ],
+      "role": 43,
+      "name": "上一集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        338,
+        712,
+        118,
+        35
+      ],
+      "role": 43,
+      "name": "▷ 播放所选集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        463,
+        713,
+        71,
+        33
+      ],
+      "role": 43,
+      "name": "下一集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        541,
+        707,
+        93,
+        45
+      ],
+      "role": 43,
+      "name": "1×",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        641,
+        713,
+        59,
+        33
+      ],
+      "role": 43,
+      "name": "停止",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        793,
+        111,
+        20
+      ],
+      "role": 41,
+      "name": "播放方式 / 解析线路",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        645,
+        793,
+        74,
+        20
+      ],
+      "role": 41,
+      "name": "实际播放来源",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        819,
+        366,
+        45
+      ],
+      "role": 43,
+      "name": "内置播放",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        645,
+        824,
+        118,
+        20
+      ],
+      "role": 41,
+      "name": "无损云 / WebM 测试",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        878,
+        751,
+        24
+      ],
+      "role": 41,
+      "name": "绑定播放页",
+      "value": "",
+      "action": null
+    }
+  ],
+  "check_count": 7
+}

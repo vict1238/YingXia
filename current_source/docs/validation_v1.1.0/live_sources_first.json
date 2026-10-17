@@ -1,0 +1,484 @@
+{
+  "date": "2026-10-13T14:17:29.449Z",
+  "executable": "YingXia_v1.1.0_Windows_x64.exe",
+  "scope": "Live upstream update, catalogue search, episode metadata and limited playback attempts",
+  "details": [
+    {
+      "source": "7sefun",
+      "title": "葬送的芙莉莲",
+      "groups": 2,
+      "episodes": 56
+    },
+    {
+      "source": "AGE",
+      "title": "葬送的芙莉莲",
+      "groups": 6,
+      "episodes": 168
+    },
+    {
+      "source": "DM84",
+      "title": "葬送的芙莉莲",
+      "groups": 2,
+      "episodes": 56
+    },
+    {
+      "source": "MXdm",
+      "title": "葬送的芙莉莲",
+      "groups": 4,
+      "episodes": 112
+    },
+    {
+      "source": "aafun",
+      "title": "葬送的芙莉莲",
+      "groups": 1,
+      "episodes": 28
+    }
+  ],
+  "playback": [
+    {
+      "source": "7sefun",
+      "title": "葬送的芙莉莲",
+      "decoded": false,
+      "resolve_kind": "page"
+    },
+    {
+      "source": "AGE",
+      "title": "葬送的芙莉莲",
+      "decoded": false,
+      "resolve_kind": "page"
+    }
+  ],
+  "updates": {
+    "auto_update": false,
+    "changes": [],
+    "last_checked_at": "2026-10-13T14:17:29Z",
+    "last_updated_at": "",
+    "providers": [
+      {
+        "enabled": true,
+        "id": "wsyzy",
+        "kind": "legacy",
+        "name": "无损云",
+        "origin": "88lin"
+      },
+      {
+        "enabled": true,
+        "id": "kazumi_7sefun",
+        "kind": "kazumi",
+        "name": "7sefun",
+        "origin": "kazumi",
+        "rule_version": "1.3"
+      },
+      {
+        "enabled": true,
+        "id": "kazumi_aafun",
+        "kind": "kazumi",
+        "name": "aafun",
+        "origin": "kazumi",
+        "rule_version": "1.2"
+      },
+      {
+        "enabled": true,
+        "id": "kazumi_age",
+        "kind": "kazumi",
+        "name": "AGE",
+        "origin": "kazumi",
+        "rule_version": "1.5"
+      },
+      {
+        "enabled": true,
+        "id": "kazumi_akianime",
+        "kind": "kazumi",
+        "name": "akianime",
+        "origin": "kazumi",
+        "rule_version": "1.4"
+      },
+      {
+        "enabled": true,
+        "id": "kazumi_baimao",
+        "kind": "kazumi",
+        "name": "baimao",
+        "origin": "kazumi",
+        "rule_version": "1.0"
+      },
+      {
+        "enabled": true,
+        "id": "kazumi_dalvdm",
+        "kind": "kazumi",
+        "name": "dalvdm",
+        "origin": "kazumi",
+        "rule_version": "1.1"
+      },
+      {
+        "enabled": true,
+        "id": "kazumi_dm84",
+        "kind": "kazumi",
+        "name": "DM84",
+        "origin": "kazumi",
+        "rule_version": "1.4"
+      },
+      {
+        "enabled": true,
+        "id": "kazumi_ezdmw",
+        "kind": "kazumi",
+        "name": "ezdmw",
+        "origin": "kazumi",
+        "rule_version": "1.2"
+      },
+      {
+        "enabled": true,
+        "id": "kazumi_girigirilove",
+        "kind": "kazumi",
+        "name": "giriGiriLove",
+        "origin": "kazumi",
+        "rule_version": "2.4"
+      },
+      {
+        "enabled": true,
+        "id": "kazumi_mgnacg",
+        "kind": "kazumi",
+        "name": "mgnacg",
+        "origin": "kazumi",
+        "rule_version": "1.0"
+      },
+      {
+        "enabled": true,
+        "id": "kazumi_moonci",
+        "kind": "kazumi",
+        "name": "moonci",
+        "origin": "kazumi",
+        "rule_version": "1.0"
+      },
+      {
+        "enabled": true,
+        "id": "kazumi_mutefun",
+        "kind": "kazumi",
+        "name": "mutefun",
+        "origin": "kazumi",
+        "rule_version": "1.3"
+      },
+      {
+        "enabled": true,
+        "id": "kazumi_mxdm",
+        "kind": "kazumi",
+        "name": "MXdm",
+        "origin": "kazumi",
+        "rule_version": "2.4"
+      },
+      {
+        "enabled": true,
+        "id": "kazumi_sorani",
+        "kind": "kazumi",
+        "name": "sorani",
+        "origin": "kazumi",
+        "rule_version": "1.0"
+      },
+      {
+        "enabled": true,
+        "id": "kazumi_xfdmneo",
+        "kind": "kazumi",
+        "name": "xfdmneo",
+        "origin": "kazumi",
+        "rule_version": "1.1"
+      },
+      {
+        "enabled": true,
+        "id": "kazumi_xfdmnext",
+        "kind": "kazumi",
+        "name": "xfdmnext",
+        "origin": "kazumi",
+        "rule_version": "1.1"
+      }
+    ],
+    "upstreams": {
+      "88lin": {
+        "repository": "88lin/video_vip",
+        "commit": "cc3df4f0f7ba6c8e6188ea39f04c8d8a8da0409c",
+        "version": "3.2.9",
+        "checked_at": "2026-10-13T14:17:29Z",
+        "status": "已是最新",
+        "needs_app_update": false
+      },
+      "kazumi": {
+        "repository": "Predidit/Kazumi",
+        "commit": "d48fc8b994f85d8f2a4171f0234cf539e7f99261",
+        "version": "2.3.8+20308",
+        "checked_at": "2026-10-13T14:17:34Z",
+        "status": "已是最新",
+        "needs_app_update": false
+      },
+      "kazumi_rules": {
+        "repository": "Predidit/KazumiRules",
+        "commit": "6b5ead789dcdbed2c67b76ca254beb5aa7ec9e95",
+        "version": "6b5ead78",
+        "checked_at": "2026-10-13T14:17:33Z",
+        "status": "已是最新",
+        "needs_app_update": false
+      }
+    }
+  },
+  "search": {
+    "query": "葬送的芙莉莲",
+    "elapsed_ms": 16061,
+    "source_count": 17,
+    "sources": [
+      {
+        "count": 2,
+        "elapsed_ms": 10379,
+        "id": "wsyzy",
+        "name": "无损云",
+        "ok": true
+      },
+      {
+        "count": 2,
+        "elapsed_ms": 6132,
+        "id": "kazumi_7sefun",
+        "name": "7sefun",
+        "ok": true
+      },
+      {
+        "count": 2,
+        "elapsed_ms": 3013,
+        "id": "kazumi_aafun",
+        "name": "aafun",
+        "ok": true
+      },
+      {
+        "count": 2,
+        "elapsed_ms": 13472,
+        "id": "kazumi_age",
+        "name": "AGE",
+        "ok": true
+      },
+      {
+        "count": 2,
+        "elapsed_ms": 13913,
+        "id": "kazumi_akianime",
+        "name": "akianime",
+        "ok": true
+      },
+      {
+        "count": 2,
+        "elapsed_ms": 6591,
+        "id": "kazumi_baimao",
+        "name": "baimao",
+        "ok": true
+      },
+      {
+        "count": 0,
+        "elapsed_ms": 6590,
+        "error": "来源返回 HTTP 403",
+        "id": "kazumi_dalvdm",
+        "name": "dalvdm",
+        "ok": false
+      },
+      {
+        "count": 2,
+        "elapsed_ms": 4583,
+        "id": "kazumi_dm84",
+        "name": "DM84",
+        "ok": true
+      },
+      {
+        "count": 1,
+        "elapsed_ms": 6325,
+        "id": "kazumi_ezdmw",
+        "name": "ezdmw",
+        "ok": true
+      },
+      {
+        "count": 0,
+        "elapsed_ms": 4141,
+        "id": "kazumi_girigirilove",
+        "name": "giriGiriLove",
+        "ok": true
+      },
+      {
+        "count": 0,
+        "elapsed_ms": 16043,
+        "id": "kazumi_mgnacg",
+        "name": "mgnacg",
+        "ok": true
+      },
+      {
+        "count": 2,
+        "elapsed_ms": 8731,
+        "id": "kazumi_moonci",
+        "name": "moonci",
+        "ok": true
+      },
+      {
+        "count": 2,
+        "elapsed_ms": 9355,
+        "id": "kazumi_mutefun",
+        "name": "mutefun",
+        "ok": true
+      },
+      {
+        "count": 2,
+        "elapsed_ms": 8938,
+        "id": "kazumi_mxdm",
+        "name": "MXdm",
+        "ok": true
+      },
+      {
+        "count": 2,
+        "elapsed_ms": 13470,
+        "id": "kazumi_sorani",
+        "name": "sorani",
+        "ok": true
+      },
+      {
+        "count": 2,
+        "elapsed_ms": 10478,
+        "id": "kazumi_xfdmneo",
+        "name": "xfdmneo",
+        "ok": true
+      },
+      {
+        "count": 2,
+        "elapsed_ms": 11536,
+        "id": "kazumi_xfdmnext",
+        "name": "xfdmnext",
+        "ok": true
+      }
+    ],
+    "items": [
+      {
+        "id": "rule:kazumi_7sefun:aHR0cHM6Ly93d3cuN3NlZnVuLnRvcC92b2RkZXRhaWwvMzI2NDQuaHRtbA",
+        "title": "葬送的芙莉莲",
+        "source": "7sefun"
+      },
+      {
+        "id": "rule:kazumi_age:aHR0cDovL3d3dy5hZ2VkbS5pby9kZXRhaWwvMjAyMzAyMDc",
+        "title": "葬送的芙莉莲",
+        "source": "AGE"
+      },
+      {
+        "id": "rule:kazumi_dm84:aHR0cHM6Ly9kbWJ1cy5jYy92LzQzNTYuaHRtbA",
+        "title": "葬送的芙莉莲",
+        "source": "DM84"
+      },
+      {
+        "id": "rule:kazumi_mxdm:aHR0cHM6Ly93d3cuZGNjMy5jb20vZGV0YWlsLzI3NDIv",
+        "title": "葬送的芙莉莲",
+        "source": "MXdm"
+      },
+      {
+        "id": "rule:kazumi_aafun:aHR0cHM6Ly93d3cubW9vbmNpLmNvbS9hbmltZS8yMjguaHRtbA",
+        "title": "葬送的芙莉莲",
+        "source": "aafun"
+      },
+      {
+        "id": "rule:kazumi_akianime:aHR0cHM6Ly93d3cuYWtpYW5pbWUuY2MvYmdtcGxheS9kUEREREUtMS0xLmh0bWw",
+        "title": "葬送的芙莉莲",
+        "source": "akianime"
+      },
+      {
+        "id": "rule:kazumi_baimao:aHR0cHM6Ly93d3cuYmFpbWFvZG0uY29tL3Nob3cvNDAwNjAyLmh0bWw",
+        "title": "葬送的芙莉莲",
+        "source": "baimao"
+      },
+      {
+        "id": "rule:kazumi_ezdmw:aHR0cHM6Ly9tLmV6ZG13Lm9yZy9JbmRleC9iYW5ndW1pLzc2NjM0Lmh0bWw",
+        "title": "葬送的芙莉莲",
+        "source": "ezdmw"
+      },
+      {
+        "id": "rule:kazumi_moonci:aHR0cHM6Ly93d3cubW9vbmNpLmNvbS9hbmltZS8yMjguaHRtbA",
+        "title": "葬送的芙莉莲",
+        "source": "moonci"
+      },
+      {
+        "id": "rule:kazumi_mutefun:aHR0cHM6Ly93d3cuMmtkbS5jb20vdm9kZGV0YWlsLzIzODM",
+        "title": "葬送的芙莉莲",
+        "source": "mutefun"
+      },
+      {
+        "id": "rule:kazumi_sorani:ODI4",
+        "title": "葬送的芙莉莲",
+        "source": "sorani"
+      },
+      {
+        "id": "rule:kazumi_xfdmneo:aHR0cHM6Ly9kbTEueGZkbS5wcm8vYmFuZ3VtaS80NC5odG1s",
+        "title": "葬送的芙莉莲",
+        "source": "xfdmneo"
+      },
+      {
+        "id": "rule:kazumi_xfdmnext:MjY",
+        "title": "葬送的芙莉莲",
+        "source": "xfdmnext"
+      },
+      {
+        "id": "vod:wsyzy:NDg4MzM",
+        "title": "葬送的芙莉莲",
+        "source": "无损云"
+      },
+      {
+        "id": "rule:kazumi_7sefun:aHR0cHM6Ly93d3cuN3NlZnVuLnRvcC92b2RkZXRhaWwvMjY5NzYuaHRtbA",
+        "title": "葬送的芙莉莲第二季",
+        "source": "7sefun"
+      },
+      {
+        "id": "rule:kazumi_age:aHR0cDovL3d3dy5hZ2VkbS5pby9kZXRhaWwvMjAyNjAwMjk",
+        "title": "葬送的芙莉莲 第二季",
+        "source": "AGE"
+      },
+      {
+        "id": "rule:kazumi_dm84:aHR0cHM6Ly9kbWJ1cy5jYy92LzU5NjMuaHRtbA",
+        "title": "葬送的芙莉莲 第二季",
+        "source": "DM84"
+      },
+      {
+        "id": "rule:kazumi_mxdm:aHR0cHM6Ly93d3cuZGNjMy5jb20vZGV0YWlsLzE4MzM4Lw",
+        "title": "葬送的芙莉莲第二季",
+        "source": "MXdm"
+      },
+      {
+        "id": "rule:kazumi_aafun:aHR0cHM6Ly93d3cubW9vbmNpLmNvbS9hbmltZS8yNzIuaHRtbA",
+        "title": "葬送的芙莉莲 第二季",
+        "source": "aafun"
+      },
+      {
+        "id": "rule:kazumi_akianime:aHR0cHM6Ly93d3cuYWtpYW5pbWUuY2MvYmdtcGxheS8xRWNEREUtMS0xLmh0bWw",
+        "title": "葬送的芙莉莲 第二季",
+        "source": "akianime"
+      },
+      {
+        "id": "rule:kazumi_baimao:aHR0cHM6Ly93d3cuYmFpbWFvZG0uY29tL3Nob3cvNTE1NzU5Lmh0bWw",
+        "title": "葬送的芙莉莲 第二季",
+        "source": "baimao"
+      },
+      {
+        "id": "rule:kazumi_moonci:aHR0cHM6Ly93d3cubW9vbmNpLmNvbS9hbmltZS8yNzIuaHRtbA",
+        "title": "葬送的芙莉莲 第二季",
+        "source": "moonci"
+      },
+      {
+        "id": "rule:kazumi_mutefun:aHR0cHM6Ly93d3cuMmtkbS5jb20vdm9kZGV0YWlsLzI5ODk",
+        "title": "葬送的芙莉莲 第二季",
+        "source": "mutefun"
+      },
+      {
+        "id": "rule:kazumi_sorani:NDQ4OQ",
+        "title": "葬送的芙莉莲 第二季",
+        "source": "sorani"
+      },
+      {
+        "id": "rule:kazumi_xfdmneo:aHR0cHM6Ly9kbTEueGZkbS5wcm8vYmFuZ3VtaS8zMzkwLmh0bWw",
+        "title": "葬送的芙莉莲 第二季",
+        "source": "xfdmneo"
+      },
+      {
+        "id": "rule:kazumi_xfdmnext:MzI1Mg",
+        "title": "葬送的芙莉莲 第二季",
+        "source": "xfdmnext"
+      },
+      {
+        "id": "vod:wsyzy:MTM2Njk1",
+        "title": "葬送的芙莉莲第二季",
+        "source": "无损云"
+      }
+    ]
+  }
+}

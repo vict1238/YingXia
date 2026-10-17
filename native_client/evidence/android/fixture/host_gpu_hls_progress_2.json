@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "settings": {
+    "auto_next": false,
+    "auto_update_sources": false,
+    "enabled_providers": {
+      "kazumi_7sefun": false,
+      "kazumi_aafun": false,
+      "kazumi_age": false,
+      "kazumi_akianime": false,
+      "kazumi_baimao": false,
+      "kazumi_dalvdm": false,
+      "kazumi_dm84": false,
+      "kazumi_ezdmw": false,
+      "kazumi_girigirilove": false,
+      "kazumi_mgnacg": false,
+      "kazumi_moonci": false,
+      "kazumi_mutefun": false,
+      "kazumi_mxdm": false,
+      "kazumi_sorani": false,
+      "kazumi_xfdmneo": false,
+      "kazumi_xfdmnext": false,
+      "wsyzy": true
+    },
+    "network_consent": true
+  },
+  "favorites": [],
+  "history": [
+    {
+      "created_at": "2026-10-14T09:02:38Z",
+      "episode": "第01集",
+      "evidence": "browser_time_advanced",
+      "film_id": "vod:wsyzy:OTAwMDI",
+      "id": "b2ff836cc72f260b9ff5b558cd120f64",
+      "mode": "media",
+      "position": 3.25,
+      "source": "无损云 / HLS 测试",
+      "title": "原生播放测试 HLS",
+      "updated_at": "2026-10-14T09:02:42Z"
+    },
+    {
+      "created_at": "2026-10-14T08:53:54Z",
+      "episode": "第01集",
+      "evidence": "opened",
+      "film_id": "vod:wsyzy:OTAwMDI",
+      "id": "9b2ecbda10ea80e6de705400a088a9e3",
+      "mode": "media",
+      "position": 0,
+      "source": "无损云 / HLS 测试",
+      "title": "原生播放测试 HLS",
+      "updated_at": "2026-10-14T08:53:54Z"
+    },
+    {
+      "created_at": "2026-10-14T08:51:44Z",
+      "episode": "第01集",
+      "evidence": "browser_time_advanced",
+      "film_id": "vod:wsyzy:OTAwMDE",
+      "id": "81b1fc62947f6f251b04248b4c6e7672",
+      "mode": "media",
+      "position": 6.291,
+      "source": "无损云 / WebM 测试",
+      "title": "原生播放测试 WebM",
+      "updated_at": "2026-10-14T08:51:50Z"
+    },
+    {
+      "created_at": "2026-10-14T08:50:08Z",
+      "episode": "第01集",
+      "evidence": "opened",
+      "film_id": "vod:wsyzy:OTAwMDE",
+      "id": "6cf32ed78ccbdfa4df4c56e4e4f71cc2",
+      "mode": "media",
+      "position": 0,
+      "source": "合成测试",
+      "title": "原生播放测试 WebM",
+      "updated_at": "2026-10-14T08:50:08Z"
+    }
+  ],
+  "bindings": []
+}

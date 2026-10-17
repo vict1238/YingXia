@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.build-venv/
+build/
+dist/
+*.spec
+*.sqlite3*
+browser-profile/
+*.log

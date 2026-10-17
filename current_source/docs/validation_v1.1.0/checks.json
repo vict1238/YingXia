@@ -1,0 +1,7 @@
+{
+  "go_test_exit": 0,
+  "go_vet_exit": 0,
+  "javascript_syntax_exit": 0,
+  "race_detector_run": false,
+  "offline_vendor": true
+}

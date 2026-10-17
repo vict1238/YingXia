@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "target": "android/arm64",
+  "root_go_files": [
+    "core.go",
+    "core_start_release.go"
+  ],
+  "root_ignored_files": [
+    "core_start_fixture.go"
+  ],
+  "engine_go_files": [
+    "availability.go",
+    "catalog.go",
+    "media.go",
+    "models.go",
+    "network.go",
+    "platform_other.go",
+    "providers.go",
+    "rules.go",
+    "runtime.go",
+    "search_jobs.go",
+    "security.go",
+    "server.go",
+    "service.go",
+    "source_management.go",
+    "storage.go",
+    "updates.go"
+  ],
+  "engine_ignored_files": [
+    "fixture.go",
+    "platform_windows.go"
+  ],
+  "engine_embed_files": [
+    "LICENSE.txt",
+    "providers.json",
+    "reviewed_sources.json",
+    "sources.json"
+  ],
+  "native_fixture_tag": false
+}

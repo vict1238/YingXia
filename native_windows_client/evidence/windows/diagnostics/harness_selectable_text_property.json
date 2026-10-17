@@ -1,0 +1,1430 @@
+{
+  "platform": "win32/x64",
+  "executable": "YingXia_candidate2.exe",
+  "sha256": "788c1bfe34c2cf1144ca47e92a4a44f851c0b930585e372227844626d264518f",
+  "shipping_gui_tested": true,
+  "production_backend_history_tested": true,
+  "media_backend": "separately compiled native_fixture Go child via explicit developer override",
+  "fixture_backend_sha256": "0f1803480545b72b01353071ac8a543f41d4dabb6c8eea824728ef13486f4a46",
+  "synthetic_media_only": true,
+  "real_third_party_playback_tested": false,
+  "checks": [
+    {
+      "name": "Single release EXE extracts runtime and opens its own visible Flutter window with no browser/WebView children",
+      "passed": true
+    },
+    {
+      "name": "All four approved pages load in the production Flutter/Go app",
+      "passed": true
+    }
+  ],
+  "observations": [
+    {
+      "initial_window": {
+        "action": "Snapshot",
+        "visible": true,
+        "pid": 33420,
+        "minimized": false,
+        "rect": [
+          10,
+          10,
+          1350,
+          910
+        ],
+        "title": "映匣 · YingXia",
+        "hwnd": 2560776
+      }
+    },
+    {
+      "production_process_family": [
+        {
+          "ProcessId": 23048,
+          "ParentProcessId": 2112,
+          "Name": "YingXia_candidate2.exe"
+        },
+        {
+          "ProcessId": 33420,
+          "ParentProcessId": 23048,
+          "Name": "yingxia_native.exe"
+        },
+        {
+          "ProcessId": 23040,
+          "ParentProcessId": 33420,
+          "Name": "yingxia_backend.exe"
+        }
+      ]
+    }
+  ],
+  "failure": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(await hasText('翻翻蓄小激光  cqh.vict1238@gmail.com'))\n\n    at main (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:83:65)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)",
+  "failure_accessibility": [
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 16,
+      "name": null,
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        74,
+        167,
+        44
+      ],
+      "role": 41,
+      "name": "映\n映匣\nYINGXIA",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        165,
+        167,
+        49
+      ],
+      "role": 43,
+      "name": "搜索影片",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        221,
+        167,
+        49
+      ],
+      "role": 43,
+      "name": "播放工作台",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        277,
+        167,
+        49
+      ],
+      "role": 43,
+      "name": "收藏与记录",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        333,
+        167,
+        49
+      ],
+      "role": 43,
+      "name": "来源与诊断",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        67,
+        62,
+        20
+      ],
+      "role": 41,
+      "name": "来源与诊断",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        222,
+        114,
+        1120,
+        788
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        148,
+        1044,
+        50
+      ],
+      "role": 41,
+      "name": "来源与诊断",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        283,
+        239,
+        69,
+        26
+      ],
+      "role": 41,
+      "name": "开发人员",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        283,
+        277,
+        253,
+        20
+      ],
+      "role": 41,
+      "name": "",
+      "value": "翻翻蓄小激光  cqh.vict1238@gmail.com",
+      "action": null
+    },
+    {
+      "rect": [
+        283,
+        302,
+        234,
+        20
+      ],
+      "role": 41,
+      "name": "",
+      "value": "流风驻尘闲  yuchihaobo@gmail.com",
+      "action": null
+    },
+    {
+      "rect": [
+        283,
+        388,
+        467,
+        26
+      ],
+      "role": 41,
+      "name": "设置",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        814,
+        388,
+        467,
+        26
+      ],
+      "role": 41,
+      "name": "数据目录",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        283,
+        428,
+        26,
+        32
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        317,
+        434,
+        433,
+        20
+      ],
+      "role": 41,
+      "name": "联网搜索与播放",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        825,
+        442,
+        445,
+        17
+      ],
+      "role": 41,
+      "name": "",
+      "value": "C:\\Users\\vict1238\\AppData\\Local\\Temp\\yingxia-flutter-fsr-arsj05\\生产库",
+      "action": null
+    },
+    {
+      "rect": [
+        283,
+        467,
+        26,
+        32
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        283,
+        506,
+        26,
+        32
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        317,
+        473,
+        433,
+        20
+      ],
+      "role": 41,
+      "name": "保存历史记录",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        317,
+        512,
+        433,
+        20
+      ],
+      "role": 41,
+      "name": "自动播放下一集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        814,
+        486,
+        82,
+        32
+      ],
+      "role": 43,
+      "name": "导出诊断",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        596,
+        950,
+        26
+      ],
+      "role": 41,
+      "name": "来源更新",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1222,
+        593,
+        82,
+        32
+      ],
+      "role": 43,
+      "name": "检查更新",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        283,
+        665,
+        26,
+        32
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        317,
+        671,
+        964,
+        20
+      ],
+      "role": 41,
+      "name": "自动更新来源",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        283,
+        704,
+        998,
+        19
+      ],
+      "role": 41,
+      "name": "尚未检查",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        283,
+        741,
+        998,
+        19
+      ],
+      "role": 41,
+      "name": "88lin · 3.2.9 · 内置版本",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        283,
+        776,
+        998,
+        19
+      ],
+      "role": 41,
+      "name": "Kazumi 程序 · 2.3.8+20308 · 内置版本",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        283,
+        811,
+        998,
+        19
+      ],
+      "role": 41,
+      "name": "Kazumi 规则 · 6b5ead78 · 内置版本",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        889,
+        935,
+        13
+      ],
+      "role": 41,
+      "name": "影视来源（17）",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1206,
+        886,
+        98,
+        16
+      ],
+      "role": 43,
+      "name": "＋ 添加来源",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        936,
+        1042,
+        1304
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        936,
+        1044,
+        1304
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        936,
+        1044,
+        46
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        936,
+        412,
+        46
+      ],
+      "role": 41,
+      "name": "来源",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        672,
+        936,
+        214,
+        46
+      ],
+      "role": 41,
+      "name": "类型",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        885,
+        936,
+        229,
+        46
+      ],
+      "role": 41,
+      "name": "启用",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        982,
+        1044,
+        74
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        982,
+        412,
+        74
+      ],
+      "role": 41,
+      "name": "无损云",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        672,
+        982,
+        214,
+        74
+      ],
+      "role": 41,
+      "name": "影视",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        885,
+        982,
+        229,
+        74
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1056,
+        1044,
+        74
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1056,
+        412,
+        74
+      ],
+      "role": 41,
+      "name": "7sefun",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        672,
+        1056,
+        214,
+        74
+      ],
+      "role": 41,
+      "name": "动漫",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        885,
+        1056,
+        229,
+        74
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1130,
+        1044,
+        74
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1130,
+        412,
+        74
+      ],
+      "role": 41,
+      "name": "aafun",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        672,
+        1130,
+        214,
+        74
+      ],
+      "role": 41,
+      "name": "动漫",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        885,
+        1130,
+        229,
+        74
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1204,
+        1044,
+        74
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1204,
+        412,
+        74
+      ],
+      "role": 41,
+      "name": "AGE",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        672,
+        1204,
+        214,
+        74
+      ],
+      "role": 41,
+      "name": "动漫",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        885,
+        1204,
+        229,
+        74
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1278,
+        1044,
+        74
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1278,
+        412,
+        74
+      ],
+      "role": 41,
+      "name": "akianime",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        672,
+        1278,
+        214,
+        74
+      ],
+      "role": 41,
+      "name": "动漫",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        885,
+        1278,
+        229,
+        74
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1352,
+        1044,
+        74
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1352,
+        412,
+        74
+      ],
+      "role": 41,
+      "name": "baimao",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        672,
+        1352,
+        214,
+        74
+      ],
+      "role": 41,
+      "name": "动漫",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        885,
+        1352,
+        229,
+        74
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1426,
+        1044,
+        74
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1426,
+        412,
+        74
+      ],
+      "role": 41,
+      "name": "dalvdm",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        672,
+        1426,
+        214,
+        74
+      ],
+      "role": 41,
+      "name": "动漫",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        885,
+        1426,
+        229,
+        74
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1500,
+        1044,
+        74
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1500,
+        412,
+        74
+      ],
+      "role": 41,
+      "name": "DM84",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        672,
+        1500,
+        214,
+        74
+      ],
+      "role": 41,
+      "name": "动漫",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        885,
+        1500,
+        229,
+        74
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1574,
+        1044,
+        74
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1574,
+        412,
+        74
+      ],
+      "role": 41,
+      "name": "ezdmw",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        672,
+        1574,
+        214,
+        74
+      ],
+      "role": 41,
+      "name": "动漫",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        885,
+        1574,
+        229,
+        74
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1648,
+        1044,
+        74
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1648,
+        412,
+        74
+      ],
+      "role": 41,
+      "name": "giriGiriLove",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        672,
+        1648,
+        214,
+        74
+      ],
+      "role": 41,
+      "name": "动漫",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        885,
+        1648,
+        229,
+        74
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1722,
+        1044,
+        74
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1722,
+        412,
+        74
+      ],
+      "role": 41,
+      "name": "mgnacg",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        672,
+        1722,
+        214,
+        74
+      ],
+      "role": 41,
+      "name": "动漫",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        885,
+        1722,
+        229,
+        74
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1796,
+        1044,
+        74
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1796,
+        412,
+        74
+      ],
+      "role": 41,
+      "name": "moonci",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        672,
+        1796,
+        214,
+        74
+      ],
+      "role": 41,
+      "name": "动漫",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        885,
+        1796,
+        229,
+        74
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1870,
+        1044,
+        74
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1870,
+        412,
+        74
+      ],
+      "role": 41,
+      "name": "mutefun",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        672,
+        1870,
+        214,
+        74
+      ],
+      "role": 41,
+      "name": "动漫",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        885,
+        1870,
+        229,
+        74
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1944,
+        1044,
+        74
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        1944,
+        412,
+        74
+      ],
+      "role": 41,
+      "name": "MXdm",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        672,
+        1944,
+        214,
+        74
+      ],
+      "role": 41,
+      "name": "动漫",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        885,
+        1944,
+        229,
+        74
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        2018,
+        1044,
+        74
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        2018,
+        412,
+        74
+      ],
+      "role": 41,
+      "name": "sorani",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        672,
+        2018,
+        214,
+        74
+      ],
+      "role": 41,
+      "name": "动漫",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        885,
+        2018,
+        229,
+        74
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        2092,
+        1044,
+        74
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        2092,
+        412,
+        74
+      ],
+      "role": 41,
+      "name": "xfdmneo",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        672,
+        2092,
+        214,
+        74
+      ],
+      "role": 41,
+      "name": "动漫",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        885,
+        2092,
+        229,
+        74
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        2166,
+        1044,
+        74
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        2166,
+        412,
+        74
+      ],
+      "role": 41,
+      "name": "xfdmnext",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        672,
+        2166,
+        214,
+        74
+      ],
+      "role": 41,
+      "name": "动漫",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        885,
+        2166,
+        229,
+        74
+      ],
+      "role": 44,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        2266,
+        1044,
+        48
+      ],
+      "role": 41,
+      "name": "解析线路",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        2352,
+        944,
+        26
+      ],
+      "role": 41,
+      "name": "连接诊断",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1216,
+        2348,
+        88,
+        34
+      ],
+      "role": 43,
+      "name": "检测连接",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        279,
+        2430,
+        1006,
+        20
+      ],
+      "role": 41,
+      "name": "尚未检测",
+      "value": "",
+      "action": null
+    }
+  ],
+  "check_count": 2
+}

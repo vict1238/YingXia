@@ -1,0 +1,753 @@
+{
+  "repository": "vict1238/YingXia",
+  "latest": "v2.3.0",
+  "original_asset_count": 89,
+  "original_asset_bytes": 1356670519,
+  "release_count": 15,
+  "releases": [
+    {
+      "tag": "v1.0",
+      "title": "映匣 v1.0 · Windows 单文件初版",
+      "url": "https://github.com/vict1238/YingXia/releases/tag/v1.0",
+      "notes": "docs/releases/v1.0.md",
+      "assets": [
+        {
+          "name": "YingXia_v1.0_Windows_x64.exe",
+          "relative_path": "releases/YingXia_v1.0_Windows_x64.exe",
+          "size_bytes": 7226368,
+          "sha256": "e7d47fe49c185c1d682c52713150f1098a19beda61e6e70128ddba21768a238b"
+        },
+        {
+          "name": "YingXia_v1.0_Windows_x64.zip",
+          "relative_path": "original_deliverables/YingXia_v1.0_Windows_x64.zip",
+          "size_bytes": 4377673,
+          "sha256": "70a449cc055b9d52f049398fc8a4a8038deda5d555fb126f3336cc822c31ca8d"
+        },
+        {
+          "name": "YingXia_v1.0_SHA256SUMS.txt",
+          "relative_path": "generated_checksums/YingXia_v1.0_SHA256SUMS.txt",
+          "size_bytes": 192,
+          "sha256": "969e2883b25c08f067876b645617f8610e3d148fc5f649c18f3516dbaf405e4d"
+        }
+      ]
+    },
+    {
+      "tag": "v1.0.2",
+      "title": "映匣 v1.0.2 · Windows 本机验证与演示清理",
+      "url": "https://github.com/vict1238/YingXia/releases/tag/v1.0.2",
+      "notes": "docs/releases/v1.0.2.md",
+      "assets": [
+        {
+          "name": "YingXia_v1.0.2_MANIFEST.json",
+          "relative_path": "releases/YingXia_v1.0.2_MANIFEST.json",
+          "size_bytes": 10664,
+          "sha256": "50dc272e25273c4d5c542cd129ed9e4fc07f4f161d82e55c6a99d6af2f7b33e6"
+        },
+        {
+          "name": "YingXia_v1.0.2_Windows_x64.exe",
+          "relative_path": "releases/YingXia_v1.0.2_Windows_x64.exe",
+          "size_bytes": 6821376,
+          "sha256": "12b9648f97f2fa463f4531ae0b565089de3e37f2d435132613de0e77927351ba"
+        },
+        {
+          "name": "YingXia_v1.0.2_Windows_x64.zip",
+          "relative_path": "releases/YingXia_v1.0.2_Windows_x64.zip",
+          "size_bytes": 4514475,
+          "sha256": "fa20cb4971582969eb7502ceff40ac88099ce1672ff603143a5321e445c109e4"
+        },
+        {
+          "name": "YingXia_v1.0.2_Windows_x64.zip.sha256.txt",
+          "relative_path": "releases/YingXia_v1.0.2_Windows_x64.zip.sha256.txt",
+          "size_bytes": 98,
+          "sha256": "f4845bd1825b15ef753d403059e9c57e4cb5409e41ce30e942639cadc66ca674"
+        },
+        {
+          "name": "YingXia_v1.0.2_SHA256SUMS.txt",
+          "relative_path": "generated_checksums/YingXia_v1.0.2_SHA256SUMS.txt",
+          "size_bytes": 401,
+          "sha256": "44b0927443f3cc604b2b6cc7c51ccc754be3907db1f419fca50d240ea59ba500"
+        }
+      ]
+    },
+    {
+      "tag": "v1.1.0",
+      "title": "映匣 v1.1.0 · 多来源与配置更新",
+      "url": "https://github.com/vict1238/YingXia/releases/tag/v1.1.0",
+      "notes": "docs/releases/v1.1.0.md",
+      "assets": [
+        {
+          "name": "YingXia_v1.1.0_MANIFEST.json",
+          "relative_path": "releases/YingXia_v1.1.0_MANIFEST.json",
+          "size_bytes": 111633,
+          "sha256": "17684deadf0a2576e20d1529f10198304891af993d2c7d4926a65a6adabc49cf"
+        },
+        {
+          "name": "YingXia_v1.1.0_PACKAGING.json",
+          "relative_path": "releases/YingXia_v1.1.0_PACKAGING.json",
+          "size_bytes": 456,
+          "sha256": "d409c114a929e7d846602c786cb1b1d842f0f9d8fc2b413fee2278d9579f75dc"
+        },
+        {
+          "name": "YingXia_v1.1.0_Windows_x64.exe",
+          "relative_path": "releases/YingXia_v1.1.0_Windows_x64.exe",
+          "size_bytes": 10907136,
+          "sha256": "59e58b34770cade899c9ca66902e776da63080224d5eced3bf146444ce547543"
+        },
+        {
+          "name": "YingXia_v1.1.0_Windows_x64.zip",
+          "relative_path": "releases/YingXia_v1.1.0_Windows_x64.zip",
+          "size_bytes": 9411603,
+          "sha256": "4f69cea84cda7d5ce7f688adbd103565711a13e6da71be56c256e0858a847741"
+        },
+        {
+          "name": "YingXia_v1.1.0_Windows_x64.zip.sha256.txt",
+          "relative_path": "releases/YingXia_v1.1.0_Windows_x64.zip.sha256.txt",
+          "size_bytes": 98,
+          "sha256": "4ffc7dd0b12e6272778fc764e7ea109b6caac24531288de106fc82aa7213e798"
+        },
+        {
+          "name": "YingXia_v1.1.0_SHA256SUMS.txt",
+          "relative_path": "generated_checksums/YingXia_v1.1.0_SHA256SUMS.txt",
+          "size_bytes": 498,
+          "sha256": "6ec23d0a304d61c058bb4d57e620bec4c9a0c33513e0e995fc71f9b1c3f840a0"
+        }
+      ]
+    },
+    {
+      "tag": "v1.2.0",
+      "title": "映匣 v1.2.0 · 搜索访问检查与排序",
+      "url": "https://github.com/vict1238/YingXia/releases/tag/v1.2.0",
+      "notes": "docs/releases/v1.2.0.md",
+      "assets": [
+        {
+          "name": "YingXia_v1.2.0_MANIFEST.json",
+          "relative_path": "releases/YingXia_v1.2.0_MANIFEST.json",
+          "size_bytes": 117513,
+          "sha256": "9c9ad7a55ab22aa27913d33b5981a69e6204933ecea2bcc00b61d5fcd837a720"
+        },
+        {
+          "name": "YingXia_v1.2.0_PACKAGING.json",
+          "relative_path": "releases/YingXia_v1.2.0_PACKAGING.json",
+          "size_bytes": 457,
+          "sha256": "ced52ee4cb8fc594fa18b7ba007cd9648e071b54faf1c9501cf81a33ecc234b3"
+        },
+        {
+          "name": "YingXia_v1.2.0_Windows_x64.exe",
+          "relative_path": "releases/YingXia_v1.2.0_Windows_x64.exe",
+          "size_bytes": 10993664,
+          "sha256": "ef0b36d556da8fcfa027f3e80358ee0cb7061cf982402bc834237344e1ba38cd"
+        },
+        {
+          "name": "YingXia_v1.2.0_Windows_x64.zip",
+          "relative_path": "releases/YingXia_v1.2.0_Windows_x64.zip",
+          "size_bytes": 10311138,
+          "sha256": "3f198e3c67e2c1aba3e232d4573aac05317ef79c1c0968d3ae6a734b7a68b08f"
+        },
+        {
+          "name": "YingXia_v1.2.0_Windows_x64.zip.sha256.txt",
+          "relative_path": "releases/YingXia_v1.2.0_Windows_x64.zip.sha256.txt",
+          "size_bytes": 98,
+          "sha256": "339eb08ea83def3db577c659f3c1d87bfa5cd5584ba894249edf803a4ebf6020"
+        },
+        {
+          "name": "YingXia_v1.2.0_SHA256SUMS.txt",
+          "relative_path": "generated_checksums/YingXia_v1.2.0_SHA256SUMS.txt",
+          "size_bytes": 498,
+          "sha256": "2c524cff588795b89662ecfe9ee4b7f090b0e4cc8cb9a84fd147174fc69f9a2f"
+        }
+      ]
+    },
+    {
+      "tag": "v1.2.1",
+      "title": "映匣 v1.2.1 · 切页暂停与播放入口简化",
+      "url": "https://github.com/vict1238/YingXia/releases/tag/v1.2.1",
+      "notes": "docs/releases/v1.2.1.md",
+      "assets": [
+        {
+          "name": "YingXia_v1.2.1_MANIFEST.json",
+          "relative_path": "releases/YingXia_v1.2.1_MANIFEST.json",
+          "size_bytes": 123687,
+          "sha256": "78a8d27295477eb42a5f05b90b8b11511b10029d26d70aa17f204bbc4a1e24a6"
+        },
+        {
+          "name": "YingXia_v1.2.1_PACKAGING.json",
+          "relative_path": "releases/YingXia_v1.2.1_PACKAGING.json",
+          "size_bytes": 457,
+          "sha256": "e7504fa0d08078d916cae42c86517596cef1e87e33819a823b1c22c7e3da1ab1"
+        },
+        {
+          "name": "YingXia_v1.2.1_Windows_x64.exe",
+          "relative_path": "releases/YingXia_v1.2.1_Windows_x64.exe",
+          "size_bytes": 10994176,
+          "sha256": "d72fe7b4f8f4f07ebb8726198004ca15f1e42fc25593b23eb2379c0c6ac1d517"
+        },
+        {
+          "name": "YingXia_v1.2.1_Windows_x64.zip",
+          "relative_path": "releases/YingXia_v1.2.1_Windows_x64.zip",
+          "size_bytes": 11192143,
+          "sha256": "265101f6fc6cc7d8e474f26c26af958d28d568023b0e7365dd71f997d4f04521"
+        },
+        {
+          "name": "YingXia_v1.2.1_Windows_x64.zip.sha256.txt",
+          "relative_path": "releases/YingXia_v1.2.1_Windows_x64.zip.sha256.txt",
+          "size_bytes": 98,
+          "sha256": "15d642fd3a962757fdcac8674dc13a759818a49defc260e07efe989dff82dfc7"
+        },
+        {
+          "name": "YingXia_v1.2.1_SHA256SUMS.txt",
+          "relative_path": "generated_checksums/YingXia_v1.2.1_SHA256SUMS.txt",
+          "size_bytes": 498,
+          "sha256": "78a6de82670d85a2c0568b4175aba511e16d35fb154e96659cf214a0e094db93"
+        }
+      ]
+    },
+    {
+      "tag": "v1.3.0",
+      "title": "映匣 v1.3.0 · 自有 Windows 窗口与 WebView2",
+      "url": "https://github.com/vict1238/YingXia/releases/tag/v1.3.0",
+      "notes": "docs/releases/v1.3.0.md",
+      "assets": [
+        {
+          "name": "YingXia_v1.3.0_MANIFEST.json",
+          "relative_path": "releases/YingXia_v1.3.0_MANIFEST.json",
+          "size_bytes": 239405,
+          "sha256": "93cc5ce856c656ae385cb5987b5800bde3b7c8ca71a1f7de0c8af13e2c464ff6"
+        },
+        {
+          "name": "YingXia_v1.3.0_PACKAGING.json",
+          "relative_path": "releases/YingXia_v1.3.0_PACKAGING.json",
+          "size_bytes": 458,
+          "sha256": "5c6973e6fad4c9f6566b7f22a58d143f6a7e6125d64bf4bdee490859ae69aa83"
+        },
+        {
+          "name": "YingXia_v1.3.0_Windows_x64.exe",
+          "relative_path": "releases/YingXia_v1.3.0_Windows_x64.exe",
+          "size_bytes": 11372544,
+          "sha256": "8fe7b69df5dc200af57097d8113f5106d3afcf45cae7210af373f459fd328d45"
+        },
+        {
+          "name": "YingXia_v1.3.0_Windows_x64.zip",
+          "relative_path": "releases/YingXia_v1.3.0_Windows_x64.zip",
+          "size_bytes": 14793553,
+          "sha256": "01dd0549d6cd1fe7990c882fda59cda42a7530665e24af7aa272593ed562dd33"
+        },
+        {
+          "name": "YingXia_v1.3.0_Windows_x64.zip.sha256.txt",
+          "relative_path": "releases/YingXia_v1.3.0_Windows_x64.zip.sha256.txt",
+          "size_bytes": 98,
+          "sha256": "52b7c878a0f7c4e8a8a4032b44f300e49a60afc2f9ffc637e06dbff4db6a04fb"
+        },
+        {
+          "name": "YingXia_v1.3.0_SHA256SUMS.txt",
+          "relative_path": "generated_checksums/YingXia_v1.3.0_SHA256SUMS.txt",
+          "size_bytes": 498,
+          "sha256": "15b2379e39083be66b0c60378768783aa472d4920d44464d6d7fa472154c00cf"
+        }
+      ]
+    },
+    {
+      "tag": "v1.3.1",
+      "title": "映匣 v1.3.1 · 清空记录确认与界面竞态修复",
+      "url": "https://github.com/vict1238/YingXia/releases/tag/v1.3.1",
+      "notes": "docs/releases/v1.3.1.md",
+      "assets": [
+        {
+          "name": "YingXia_v1.3.1_MANIFEST.json",
+          "relative_path": "releases/YingXia_v1.3.1_MANIFEST.json",
+          "size_bytes": 243515,
+          "sha256": "cd2414d724492a8eb728a476fb5b697eb83d6c888960f37c3ee0a56146dc3a2c"
+        },
+        {
+          "name": "YingXia_v1.3.1_PACKAGING.json",
+          "relative_path": "releases/YingXia_v1.3.1_PACKAGING.json",
+          "size_bytes": 458,
+          "sha256": "890a1e719a3e041cc603670c31a4549d19ddfad1f7d3be582e4bc816f859a223"
+        },
+        {
+          "name": "YingXia_v1.3.1_Windows_x64.exe",
+          "relative_path": "releases/YingXia_v1.3.1_Windows_x64.exe",
+          "size_bytes": 11374080,
+          "sha256": "ab1a8321fc885f392b69fd7293f3b24e189eaa0e5ee22098b8f67e163920edb7"
+        },
+        {
+          "name": "YingXia_v1.3.1_Windows_x64.zip",
+          "relative_path": "releases/YingXia_v1.3.1_Windows_x64.zip",
+          "size_bytes": 15087507,
+          "sha256": "21046609bc8319be014c916b43dfbf0de25d6b3d347f8120c1a377fbbec9c4ae"
+        },
+        {
+          "name": "YingXia_v1.3.1_Windows_x64.zip.sha256.txt",
+          "relative_path": "releases/YingXia_v1.3.1_Windows_x64.zip.sha256.txt",
+          "size_bytes": 98,
+          "sha256": "01ad82c47fef1bad1e594f9cd07fb7d24aeb7a92f567f7e32dae82bf5760a90b"
+        },
+        {
+          "name": "YingXia_v1.3.1_SHA256SUMS.txt",
+          "relative_path": "generated_checksums/YingXia_v1.3.1_SHA256SUMS.txt",
+          "size_bytes": 498,
+          "sha256": "ceb10e5060ecf142212cbf38e6ecf6d67eeaad8dfa769ca9fb5c6660da66b190"
+        }
+      ]
+    },
+    {
+      "tag": "v1.3.2",
+      "title": "映匣 v1.3.2 · 清空后旧解析写回修复",
+      "url": "https://github.com/vict1238/YingXia/releases/tag/v1.3.2",
+      "notes": "docs/releases/v1.3.2.md",
+      "assets": [
+        {
+          "name": "YingXia_v1.3.2_MANIFEST.json",
+          "relative_path": "releases/YingXia_v1.3.2_MANIFEST.json",
+          "size_bytes": 247339,
+          "sha256": "0b94275e476e91e994d2cb91fb4f4984b4e197db703c206bd830f203b71c2eb0"
+        },
+        {
+          "name": "YingXia_v1.3.2_PACKAGING.json",
+          "relative_path": "releases/YingXia_v1.3.2_PACKAGING.json",
+          "size_bytes": 458,
+          "sha256": "7d616c9369f4c86e1258ebff8fc2036e1e64d1b64d49e23b852a3f0d9c28e6cb"
+        },
+        {
+          "name": "YingXia_v1.3.2_packaging.log",
+          "relative_path": "releases/YingXia_v1.3.2_packaging.log",
+          "size_bytes": 460,
+          "sha256": "af57c339d6fd5f2693c825839832c536ddf3caf74c0eac02122deb29f292ba93"
+        },
+        {
+          "name": "YingXia_v1.3.2_Windows_x64.exe",
+          "relative_path": "releases/YingXia_v1.3.2_Windows_x64.exe",
+          "size_bytes": 11376128,
+          "sha256": "63ea2d697008c28b9d423c0a803ecc420760fb8d2f6de39e39e03724573ab84e"
+        },
+        {
+          "name": "YingXia_v1.3.2_Windows_x64.exe.sha256.txt",
+          "relative_path": "releases/YingXia_v1.3.2_Windows_x64.exe.sha256.txt",
+          "size_bytes": 98,
+          "sha256": "e32575b4618444b2be24f931614538b40f4554f0bec70e56b57c5250909fa266"
+        },
+        {
+          "name": "YingXia_v1.3.2_Windows_x64.zip",
+          "relative_path": "releases/YingXia_v1.3.2_Windows_x64.zip",
+          "size_bytes": 15249544,
+          "sha256": "997b79af38253f82044ff76c7c3ff88d733431c34e8572a3f5c49fe55be25eca"
+        },
+        {
+          "name": "YingXia_v1.3.2_Windows_x64.zip.sha256.txt",
+          "relative_path": "releases/YingXia_v1.3.2_Windows_x64.zip.sha256.txt",
+          "size_bytes": 98,
+          "sha256": "14775edf7024ed79b3b7cda9fb3bf9c652117c3adcf38838593c5234d435950d"
+        },
+        {
+          "name": "YingXia_v1.3.2_SHA256SUMS.txt",
+          "relative_path": "generated_checksums/YingXia_v1.3.2_SHA256SUMS.txt",
+          "size_bytes": 703,
+          "sha256": "f667955480eb41f822af012c856d5a63a17b1268715241883538c2a47fbcb641"
+        }
+      ]
+    },
+    {
+      "tag": "v2.0.0",
+      "title": "映匣 v2.0.0 · Windows／Android 原生版",
+      "url": "https://github.com/vict1238/YingXia/releases/tag/v2.0.0",
+      "notes": "docs/releases/v2.0.0.md",
+      "assets": [
+        {
+          "name": "YingXia_v2.0.0_Android.apk",
+          "relative_path": "releases/YingXia_v2.0.0_Android.apk",
+          "size_bytes": 124097983,
+          "sha256": "b9d470913a117005b89006e137b7517e6bafafd717ba96b91efe934677a4f9a6"
+        },
+        {
+          "name": "YingXia_v2.0.0_Android.apk.sha256.txt",
+          "relative_path": "releases/YingXia_v2.0.0_Android.apk.sha256.txt",
+          "size_bytes": 94,
+          "sha256": "4c7dc188fc970ac070523067849fea855a72e4067ea66eadaf428044f49b2b16"
+        },
+        {
+          "name": "YingXia_v2.0.0_Native_Source.zip",
+          "relative_path": "releases/YingXia_v2.0.0_Native_Source.zip",
+          "size_bytes": 63508313,
+          "sha256": "cbb6f1f13caf2142731c7378e0ae004261aa0d58cb8a0216f354921b3a28283c"
+        },
+        {
+          "name": "YingXia_v2.0.0_Native_Source.zip.sha256.txt",
+          "relative_path": "releases/YingXia_v2.0.0_Native_Source.zip.sha256.txt",
+          "size_bytes": 100,
+          "sha256": "abed0df59571f48e049dd9d3252984191ed0872cefd897d02383c406f3986422"
+        },
+        {
+          "name": "YingXia_v2.0.0_Native_Windows_x64.exe",
+          "relative_path": "releases/YingXia_v2.0.0_Native_Windows_x64.exe",
+          "size_bytes": 60237824,
+          "sha256": "dd2062a005e12626033ab5f4281be7a540c4616a2f9d0edae16654cbb6889f3b"
+        },
+        {
+          "name": "YingXia_v2.0.0_Native_Windows_x64.exe.sha256.txt",
+          "relative_path": "releases/YingXia_v2.0.0_Native_Windows_x64.exe.sha256.txt",
+          "size_bytes": 105,
+          "sha256": "344cbf7fc18357c2d31705ac33aabad1688484c07637a3cd8faf976e746841a2"
+        },
+        {
+          "name": "YingXia_v2.0.0_SHA256SUMS.txt",
+          "relative_path": "generated_checksums/YingXia_v2.0.0_SHA256SUMS.txt",
+          "size_bytes": 631,
+          "sha256": "824a3458bf51d49c08becffad1d911c9f35f1f7a03b6cd89655154c02f93ee99"
+        }
+      ]
+    },
+    {
+      "tag": "v2.1.0",
+      "title": "映匣 v2.1.0 · Windows 原生 FSR1",
+      "url": "https://github.com/vict1238/YingXia/releases/tag/v2.1.0",
+      "notes": "docs/releases/v2.1.0.md",
+      "assets": [
+        {
+          "name": "YingXia_v2.1.0_Native_Windows_PACKAGING.json",
+          "relative_path": "releases/YingXia_v2.1.0_Native_Windows_PACKAGING.json",
+          "size_bytes": 923,
+          "sha256": "1c8c5a0564d818100db6f59badfe507a3f361cbd5898cebce751327b520348ff"
+        },
+        {
+          "name": "YingXia_v2.1.0_Native_Windows_README_zh.md",
+          "relative_path": "releases/YingXia_v2.1.0_Native_Windows_README_zh.md",
+          "size_bytes": 2019,
+          "sha256": "7188b39f77a93d57c47a0c5e5a673f9e70b34a4163f698f4910ca237021b4633"
+        },
+        {
+          "name": "YingXia_v2.1.0_Native_Windows_Source.zip",
+          "relative_path": "releases/YingXia_v2.1.0_Native_Windows_Source.zip",
+          "size_bytes": 38675850,
+          "sha256": "17f3a06ecdb182bbb2234befd9c213012879ab07d5439b0b48ebe4b0b21ce49b"
+        },
+        {
+          "name": "YingXia_v2.1.0_Native_Windows_Source.zip.sha256.txt",
+          "relative_path": "releases/YingXia_v2.1.0_Native_Windows_Source.zip.sha256.txt",
+          "size_bytes": 108,
+          "sha256": "895344c5aff24d7288b522e306fafe5ff3f4ad62868e406361eff602a0e61251"
+        },
+        {
+          "name": "YingXia_v2.1.0_Native_Windows_VALIDATION.json",
+          "relative_path": "releases/YingXia_v2.1.0_Native_Windows_VALIDATION.json",
+          "size_bytes": 59312,
+          "sha256": "de8d5b5b69fd62a7a2cee6fe38a27ad3c37cc9fa9442ae38cfd70e462fa46ac2"
+        },
+        {
+          "name": "YingXia_v2.1.0_Native_Windows_x64.exe",
+          "relative_path": "releases/YingXia_v2.1.0_Native_Windows_x64.exe",
+          "size_bytes": 60420096,
+          "sha256": "6e799468cf8d4ca744b44d2fac915dfa5f58e9982585c8b80c2e2cd61909d08c"
+        },
+        {
+          "name": "YingXia_v2.1.0_Native_Windows_x64.exe.sha256.txt",
+          "relative_path": "releases/YingXia_v2.1.0_Native_Windows_x64.exe.sha256.txt",
+          "size_bytes": 105,
+          "sha256": "a850b4d12e23a6e8a033a546618b83219607eca8d2560d8eb97893515176bb0a"
+        },
+        {
+          "name": "YingXia_v2.1.0_SHA256SUMS.txt",
+          "relative_path": "generated_checksums/YingXia_v2.1.0_SHA256SUMS.txt",
+          "size_bytes": 783,
+          "sha256": "bc1a33f0bbf0681213f618d55ea2fc9308feb6a31396b5082d29759c103d6cc5"
+        }
+      ]
+    },
+    {
+      "tag": "v2.2.0",
+      "title": "映匣 v2.2.0 · 来源管理、测速与独立超分默认值",
+      "url": "https://github.com/vict1238/YingXia/releases/tag/v2.2.0",
+      "notes": "docs/releases/v2.2.0.md",
+      "assets": [
+        {
+          "name": "YingXia_v2.2.0_Android.apk",
+          "relative_path": "releases/YingXia_v2.2.0_Android.apk",
+          "size_bytes": 124905502,
+          "sha256": "423289feea2dccb2d9ebd019e73d8a12d3b81b4bb9ba6b1253289ea4e6133e23"
+        },
+        {
+          "name": "YingXia_v2.2.0_Android.apk.sha256.txt",
+          "relative_path": "releases/YingXia_v2.2.0_Android.apk.sha256.txt",
+          "size_bytes": 94,
+          "sha256": "2eef3bb6d93d5cc8dbc917527d3a8fd42fa9872b9a87111671412fc7f66868fb"
+        },
+        {
+          "name": "YingXia_v2.2.0_Android_PACKAGING.json",
+          "relative_path": "releases/YingXia_v2.2.0_Android_PACKAGING.json",
+          "size_bytes": 2412,
+          "sha256": "bdceb4fd58a5fd7bfcacd93204818e025ba7d7e666d7f0615b99b8f13ed6fba5"
+        },
+        {
+          "name": "YingXia_v2.2.0_Android_README_zh.md",
+          "relative_path": "releases/YingXia_v2.2.0_Android_README_zh.md",
+          "size_bytes": 2375,
+          "sha256": "4089be51e859974f139bc6fea938ee17e0521dab984afd14842319f0c992afdf"
+        },
+        {
+          "name": "YingXia_v2.2.0_Android_Source.zip",
+          "relative_path": "releases/YingXia_v2.2.0_Android_Source.zip",
+          "size_bytes": 38565324,
+          "sha256": "b1c48ae890df6b6af832d110db4fb4d5567d30f6b2373f2dc8b2d852b2957274"
+        },
+        {
+          "name": "YingXia_v2.2.0_Android_Source.zip.sha256.txt",
+          "relative_path": "releases/YingXia_v2.2.0_Android_Source.zip.sha256.txt",
+          "size_bytes": 101,
+          "sha256": "bebfc7652058afb9fa9ae2de33d1b2a8b3783a39441b5746bf41f8c94e6317ee"
+        },
+        {
+          "name": "YingXia_v2.2.0_Android_VALIDATION.json",
+          "relative_path": "releases/YingXia_v2.2.0_Android_VALIDATION.json",
+          "size_bytes": 31175,
+          "sha256": "1a35380a4cc9eaf931f3be1e0f726604776987ab1065f1fcee4fa5d019e2c6ec"
+        },
+        {
+          "name": "YingXia_v2.2.0_Native_Windows_PACKAGING.json",
+          "relative_path": "releases/YingXia_v2.2.0_Native_Windows_PACKAGING.json",
+          "size_bytes": 923,
+          "sha256": "b79d2ebcc0e558f0b336ce57ef2d8249dbf6feec2c5f05e21bca435c9a979ced"
+        },
+        {
+          "name": "YingXia_v2.2.0_Native_Windows_README_zh.md",
+          "relative_path": "releases/YingXia_v2.2.0_Native_Windows_README_zh.md",
+          "size_bytes": 3279,
+          "sha256": "a513f5ccd014cd4cbd62492f93b03fa9e2c9d8d8b4fc835ada00c51d59b7779f"
+        },
+        {
+          "name": "YingXia_v2.2.0_Native_Windows_Source.zip",
+          "relative_path": "releases/YingXia_v2.2.0_Native_Windows_Source.zip",
+          "size_bytes": 39328160,
+          "sha256": "8d44d87f02b4f5f47e9586032d565dfee5d1dfee16e3ba95c6a4d1147fccd11d"
+        },
+        {
+          "name": "YingXia_v2.2.0_Native_Windows_Source.zip.sha256.txt",
+          "relative_path": "releases/YingXia_v2.2.0_Native_Windows_Source.zip.sha256.txt",
+          "size_bytes": 108,
+          "sha256": "c1a526a65ec57cd822e99c0232d8dc93bcf2febe2d096de4bcefa56d1695a2bb"
+        },
+        {
+          "name": "YingXia_v2.2.0_Native_Windows_VALIDATION.json",
+          "relative_path": "releases/YingXia_v2.2.0_Native_Windows_VALIDATION.json",
+          "size_bytes": 64149,
+          "sha256": "22315430fc7b4c7e368551a5cefa528de33f71da4c96300f5b29dbb8701aa870"
+        },
+        {
+          "name": "YingXia_v2.2.0_Native_Windows_x64.exe",
+          "relative_path": "releases/YingXia_v2.2.0_Native_Windows_x64.exe",
+          "size_bytes": 60509696,
+          "sha256": "4e91a204a6bd868fd788938efd34c01bce263cd4c518f713a63fe605116203f6"
+        },
+        {
+          "name": "YingXia_v2.2.0_Native_Windows_x64.exe.sha256.txt",
+          "relative_path": "releases/YingXia_v2.2.0_Native_Windows_x64.exe.sha256.txt",
+          "size_bytes": 105,
+          "sha256": "b0e6b1842886e0654bca273f6071e616723b9a85617ecf8684e05a9bae5a1f5b"
+        },
+        {
+          "name": "YingXia_v2.2.0_SHA256SUMS.txt",
+          "relative_path": "generated_checksums/YingXia_v2.2.0_SHA256SUMS.txt",
+          "size_bytes": 1509,
+          "sha256": "7d9bd830aab10b89b87d3ae384d01f36a15cb4ddbf3cbcd0be450a3ab7094022"
+        }
+      ]
+    },
+    {
+      "tag": "v2.3.0",
+      "title": "映匣 v2.3.0 · 断点续播、缓存与播放区控件",
+      "url": "https://github.com/vict1238/YingXia/releases/tag/v2.3.0",
+      "notes": "docs/releases/v2.3.0.md",
+      "assets": [
+        {
+          "name": "YingXia_v2.3.0_Android.apk",
+          "relative_path": "releases/YingXia_v2.3.0_Android.apk",
+          "size_bytes": 131314810,
+          "sha256": "9f0206439131596f03007405e2e19dcadcc39023d1acf5d836de36b2be3e4c3e"
+        },
+        {
+          "name": "YingXia_v2.3.0_Android.apk.sha256.txt",
+          "relative_path": "releases/YingXia_v2.3.0_Android.apk.sha256.txt",
+          "size_bytes": 94,
+          "sha256": "559e4b9d0685cd66c8ea17a5fbf2bdba2df5134a6ba0de771af5c341e1798530"
+        },
+        {
+          "name": "YingXia_v2.3.0_Android_PACKAGING.json",
+          "relative_path": "releases/YingXia_v2.3.0_Android_PACKAGING.json",
+          "size_bytes": 2518,
+          "sha256": "e104bdba839b61084a473de02fdd4f9dc9ea24297b2403e3d6995893cc5547bf"
+        },
+        {
+          "name": "YingXia_v2.3.0_Android_README_zh.md",
+          "relative_path": "releases/YingXia_v2.3.0_Android_README_zh.md",
+          "size_bytes": 2347,
+          "sha256": "fb744a4c7fef278966ea25bdf958062eccc861a138d775554fafdbd4864aac8d"
+        },
+        {
+          "name": "YingXia_v2.3.0_Android_Source.zip",
+          "relative_path": "releases/YingXia_v2.3.0_Android_Source.zip",
+          "size_bytes": 46306883,
+          "sha256": "052455e7d75f86f1bba8e1b6b4b9996a18a34ba80ea4021764cf9063ceed625b"
+        },
+        {
+          "name": "YingXia_v2.3.0_Android_Source.zip.sha256.txt",
+          "relative_path": "releases/YingXia_v2.3.0_Android_Source.zip.sha256.txt",
+          "size_bytes": 101,
+          "sha256": "8a134abb4a395148b15f820905286133c5f06197e1b6c97163f9fa34d9cacefa"
+        },
+        {
+          "name": "YingXia_v2.3.0_Android_VALIDATION.json",
+          "relative_path": "releases/YingXia_v2.3.0_Android_VALIDATION.json",
+          "size_bytes": 24996,
+          "sha256": "42214de72bece4aa6a4315ae5fde09bde65b96538fab4361da58c43d0d148ba5"
+        },
+        {
+          "name": "YingXia_v2.3.0_Native_Windows_PACKAGING.json",
+          "relative_path": "releases/YingXia_v2.3.0_Native_Windows_PACKAGING.json",
+          "size_bytes": 924,
+          "sha256": "d1e0510b3c0ff45352d7c3d3067bb8ad6de62a7564d5cbca2b783cdadb49ee44"
+        },
+        {
+          "name": "YingXia_v2.3.0_Native_Windows_README_zh.md",
+          "relative_path": "releases/YingXia_v2.3.0_Native_Windows_README_zh.md",
+          "size_bytes": 2327,
+          "sha256": "6f6eface59079bce5a1ff51ac1dc8761137d55a7b9e9eeff41dab5b777d3e393"
+        },
+        {
+          "name": "YingXia_v2.3.0_Native_Windows_Source.zip",
+          "relative_path": "releases/YingXia_v2.3.0_Native_Windows_Source.zip",
+          "size_bytes": 39679058,
+          "sha256": "30aa5a55df8ebf8ee2e5fc32fb21d1e362d1c842a2440120bca1a4ad1099dbc7"
+        },
+        {
+          "name": "YingXia_v2.3.0_Native_Windows_Source.zip.sha256.txt",
+          "relative_path": "releases/YingXia_v2.3.0_Native_Windows_Source.zip.sha256.txt",
+          "size_bytes": 108,
+          "sha256": "afc84631d0fbd951184c7241c31dd64495a198d398ba97a04fecee0f82b6cd3e"
+        },
+        {
+          "name": "YingXia_v2.3.0_Native_Windows_VALIDATION.json",
+          "relative_path": "releases/YingXia_v2.3.0_Native_Windows_VALIDATION.json",
+          "size_bytes": 8360,
+          "sha256": "966660c34e91614f4bca7120e5fec705c52925441491baac0f8279be51708fd3"
+        },
+        {
+          "name": "YingXia_v2.3.0_Native_Windows_x64.exe",
+          "relative_path": "releases/YingXia_v2.3.0_Native_Windows_x64.exe",
+          "size_bytes": 60843520,
+          "sha256": "17aac338a81ba012f5b30327be7194381e45eb6872262348dccd598545be3652"
+        },
+        {
+          "name": "YingXia_v2.3.0_Native_Windows_x64.exe.sha256.txt",
+          "relative_path": "releases/YingXia_v2.3.0_Native_Windows_x64.exe.sha256.txt",
+          "size_bytes": 105,
+          "sha256": "e1164a648dafc814a09a5c1f2f7634312e290d7fd8d3a17df49b360bf7a18d50"
+        },
+        {
+          "name": "YingXia_v2.3.0_SHA256SUMS.txt",
+          "relative_path": "generated_checksums/YingXia_v2.3.0_SHA256SUMS.txt",
+          "size_bytes": 1509,
+          "sha256": "1088812f60717e67a9008e3ba8142b657d7cf6dbcf0818526ae3467bc27ddc0b"
+        }
+      ]
+    },
+    {
+      "tag": "three-editions-20261014",
+      "title": "映匣三版合集 · 2026-10-14",
+      "url": "https://github.com/vict1238/YingXia/releases/tag/three-editions-20261014",
+      "notes": "docs/releases/three-editions-20261014.md",
+      "assets": [
+        {
+          "name": "YingXia_Three_Editions_20261014.zip",
+          "relative_path": "releases/YingXia_Three_Editions_20261014.zip",
+          "size_bytes": 299390344,
+          "sha256": "443b20bf00167b3cb68b0b56170abdd9dcea6acde6f9c3f1b26692a13eb541a4"
+        },
+        {
+          "name": "YingXia_Three_Editions_20261014.zip.sha256.txt",
+          "relative_path": "releases/YingXia_Three_Editions_20261014.zip.sha256.txt",
+          "size_bytes": 103,
+          "sha256": "8ea2b972aad7a61bff8fefb7664d75bf1b78b8e81798b8aabfba20d238664c97"
+        },
+        {
+          "name": "YingXia_Three_Editions_ARCHIVE_AUDIT.json",
+          "relative_path": "releases/YingXia_Three_Editions_ARCHIVE_AUDIT.json",
+          "size_bytes": 460,
+          "sha256": "88986cb285a22aa9bc1fd6b91be78b11f896d8188a372f39c1800ff78aaf6897"
+        },
+        {
+          "name": "YingXia_Three_Editions_PACKAGING.json",
+          "relative_path": "releases/YingXia_Three_Editions_PACKAGING.json",
+          "size_bytes": 1035,
+          "sha256": "77e107685d32abbf1373ef8e48081e17fb203b8ebc4c0abd65c30465fd07e854"
+        },
+        {
+          "name": "YingXia_Three_Editions_README_zh.md",
+          "relative_path": "releases/YingXia_Three_Editions_README_zh.md",
+          "size_bytes": 2784,
+          "sha256": "b764c19203ed072a32b7350d49a216e67e0241a7ada9aebc5dc19a4b3363674c"
+        },
+        {
+          "name": "YingXia_Three_Editions_VALIDATION.json",
+          "relative_path": "releases/YingXia_Three_Editions_VALIDATION.json",
+          "size_bytes": 20396,
+          "sha256": "92f7abdefc3f5ad52c8c841556d3660188ff9639c2f9dc74245cdd11959a26fd"
+        },
+        {
+          "name": "YingXia_three-editions-20261014_SHA256SUMS.txt",
+          "relative_path": "generated_checksums/YingXia_three-editions-20261014_SHA256SUMS.txt",
+          "size_bytes": 640,
+          "sha256": "d79ca8d3ce933e1c440468eebd9736ef08ea48c3dd9c26b190c2b45e7ef46544"
+        }
+      ]
+    },
+    {
+      "tag": "v1.0-python",
+      "title": "映匣 Python v1.0 · 历史源码版",
+      "url": "https://github.com/vict1238/YingXia/releases/tag/v1.0-python",
+      "notes": "docs/releases/v1.0-python.md",
+      "assets": [
+        {
+          "name": "yingxia_v1_0.zip",
+          "relative_path": "original_deliverables/yingxia_v1_0.zip",
+          "size_bytes": 1290724,
+          "sha256": "663f9b4dd1736a215361be8e8e8c3470f4ccaa63c47f7b4b0bc9e34a8c91bd02"
+        },
+        {
+          "name": "yingxia_v1_0_guide.html",
+          "relative_path": "original_deliverables/yingxia_v1_0_guide.html",
+          "size_bytes": 216977,
+          "sha256": "e9e4c98598fbd24ffa5ae7e74f4a2076607b4e1af5a7900681bcc63b112904b5"
+        },
+        {
+          "name": "YingXia_v1.0-python_SHA256SUMS.txt",
+          "relative_path": "generated_checksums/YingXia_v1.0-python_SHA256SUMS.txt",
+          "size_bytes": 175,
+          "sha256": "b42f2f6afd95c940ee7919c361a2bd39460545008a38cc627b6efece759883a4"
+        }
+      ]
+    },
+    {
+      "tag": "source-audit-20261010",
+      "title": "来源与匹配预检 · 20261010 历史包",
+      "url": "https://github.com/vict1238/YingXia/releases/tag/source-audit-20261010",
+      "notes": "docs/releases/source-audit-20261010.md",
+      "assets": [
+        {
+          "name": "video_source_audit_20261010.zip",
+          "relative_path": "original_deliverables/video_source_audit_20261010.zip",
+          "size_bytes": 34268,
+          "sha256": "4dc99f5cb39c72d69a5a88fe64c76f4c042fcf43f5437e895147cc6a9bf053f1"
+        },
+        {
+          "name": "video_source_audit_20261010.html",
+          "relative_path": "original_deliverables/video_source_audit_20261010.html",
+          "size_bytes": 10190,
+          "sha256": "a6288fe5050eaf706d8b27bcb2fb1260b972eb732ffe4bee2fd69732d0eecd09"
+        },
+        {
+          "name": "YingXia_source-audit-20261010_SHA256SUMS.txt",
+          "relative_path": "generated_checksums/YingXia_source-audit-20261010_SHA256SUMS.txt",
+          "size_bytes": 199,
+          "sha256": "4262094ceb4e0b33adb0efa40a892bdb4e84bc28025dff39a7a7ae089c09a7f9"
+        }
+      ]
+    }
+  ]
+}

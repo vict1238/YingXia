@@ -1,0 +1,12 @@
+=== RUN   TestNativePolicyCOMABI
+--- PASS: TestNativePolicyCOMABI (0.00s)
+=== RUN   TestNativePolicyHandlerCOMLifetime
+--- PASS: TestNativePolicyHandlerCOMLifetime (0.00s)
+=== RUN   TestNativeTopLevelNavigationPolicy
+--- PASS: TestNativeTopLevelNavigationPolicy (0.00s)
+=== RUN   TestNativeExternalWindowPolicy
+--- PASS: TestNativeExternalWindowPolicy (0.00s)
+=== RUN   TestNativeWindowHarness
+    native_window_harness_windows_test.go:14: manual native window harness not requested
+--- SKIP: TestNativeWindowHarness (0.00s)
+PASS

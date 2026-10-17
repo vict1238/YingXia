@@ -1,0 +1,143 @@
+[
+  {
+    "file": "libmpv-windows-build-f5a6f879.zip",
+    "url": "https://codeload.github.com/media-kit/libmpv-win32-video-build/zip/f5a6f879c9b8bef6a73e52c8c0f35e51636c96e5",
+    "sha256": "3cef244769b16299d72b12e727148163613075d3b8a5833d7ce2e3f923965b51",
+    "bytes": 157948,
+    "status": "saved"
+  },
+  {
+    "file": "libmpv-android-build-fe8c3ac1.zip",
+    "url": "https://codeload.github.com/media-kit/libmpv-android-video-build/zip/fe8c3ac1a91c09aa6fb1deccbc833f1bafa54768",
+    "sha256": "b30f4ccd7487f62780c76db40ef5ac309bf09119c8572f8a3e63a98da31fef2a",
+    "bytes": 97164,
+    "status": "saved"
+  },
+  {
+    "file": "mpv-windows-652a1dd907.zip",
+    "url": "https://codeload.github.com/mpv-player/mpv/zip/652a1dd907",
+    "sha256": "721f1e128493a89494efc4816b46a63cd9006082a0110d122d92081f6156cc21",
+    "bytes": 3853957,
+    "status": "saved"
+  },
+  {
+    "file": "mpv-android-78d43740.zip",
+    "url": "https://codeload.github.com/mpv-player/mpv/zip/78d43740f52db817d98bcf24fb30a76ab6fa13ff",
+    "sha256": "75e31ece965fa698c74e293c8cafbcdb746b80d68dbd4b75fabb60c4def0cb4d",
+    "bytes": 3915055,
+    "status": "saved"
+  },
+  {
+    "file": "ffmpeg-6.0.tar.xz",
+    "url": "https://ffmpeg.org/releases/ffmpeg-6.0.tar.xz",
+    "sha256": "57be87c22d9b49c112b6d24bc67d42508660e6b718b3db89c44e47e289137082",
+    "bytes": 10234012,
+    "status": "saved"
+  },
+  {
+    "file": "LICENSE-mpv-LGPL-2.1.txt",
+    "url": "https://raw.githubusercontent.com/mpv-player/mpv/652a1dd907/LICENSE.LGPL",
+    "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551",
+    "bytes": 26530,
+    "status": "saved"
+  },
+  {
+    "file": "LICENSE-mpv-GPL-2.0.txt",
+    "url": "https://raw.githubusercontent.com/mpv-player/mpv/652a1dd907/LICENSE.GPL",
+    "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+    "bytes": 18092,
+    "status": "saved"
+  },
+  {
+    "file": "COPYRIGHT-mpv.txt",
+    "url": "https://raw.githubusercontent.com/mpv-player/mpv/652a1dd907/Copyright",
+    "sha256": "ca8f78358716ff15098bf681e07d508007e4e5f1bbcbefc5d859bef55559d00d",
+    "bytes": 3740,
+    "status": "saved"
+  },
+  {
+    "file": "COPYING-FFmpeg-LGPL-2.1.txt",
+    "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n6.0/COPYING.LGPLv2.1",
+    "sha256": "b634ab5640e258563c536e658cad87080553df6f34f62269a21d554844e58bfe",
+    "bytes": 26526,
+    "status": "saved"
+  },
+  {
+    "file": "COPYING-FFmpeg-LGPL-3.0.txt",
+    "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n6.0/COPYING.LGPLv3",
+    "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+    "bytes": 7651,
+    "status": "saved"
+  },
+  {
+    "file": "COPYING-FFmpeg-GPL-2.0.txt",
+    "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n6.0/COPYING.GPLv2",
+    "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+    "bytes": 18092,
+    "status": "saved"
+  },
+  {
+    "file": "COPYING-FFmpeg-GPL-3.0.txt",
+    "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n6.0/COPYING.GPLv3",
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+    "bytes": 35147,
+    "status": "saved"
+  },
+  {
+    "file": "LICENSE-FFmpeg.txt",
+    "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n6.0/LICENSE.md",
+    "sha256": "cb48bf09a11f5fb576cddb0431c8f5ed0a60157a9ec942adffc13907cbe083f2",
+    "bytes": 4376,
+    "status": "saved"
+  },
+  {
+    "file": "LICENSE-ANGLE.txt",
+    "url": "https://raw.githubusercontent.com/google/angle/2693b03eba82/LICENSE",
+    "sha256": "bf4da21bd20bcfb5b60b7ecc67fa864a79be049e21d6178076887f178dd6c71a",
+    "bytes": 1643,
+    "status": "saved"
+  },
+  {
+    "file": "AUTHORS-ANGLE.txt",
+    "url": "https://raw.githubusercontent.com/google/angle/2693b03eba82/AUTHORS",
+    "sha256": "998d109f0bb54b5508f71a7c47b653a31e8a19563039967f66b23bf40ac8153b",
+    "bytes": 1428,
+    "status": "saved"
+  },
+  {
+    "file": "LICENSE-Vulkan-loader.txt",
+    "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Loader/v1.3.218/LICENSE.txt",
+    "sha256": "43c0a37e6a0fa7ff3c843b3ec5a4fac84b712558ddac103fbd4c1649662a9ece",
+    "bytes": 11661,
+    "status": "saved"
+  },
+  {
+    "file": "LICENSE-SwiftShader.txt",
+    "url": "https://raw.githubusercontent.com/google/swiftshader/master/LICENSE.txt",
+    "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+    "bytes": 11560,
+    "status": "saved"
+  },
+  {
+    "file": "LICENSE-libcxx-LLVM.txt",
+    "url": "https://raw.githubusercontent.com/llvm/llvm-project/llvmorg-14.0.6/libcxx/LICENSE.TXT",
+    "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b",
+    "bytes": 16703,
+    "status": "saved"
+  },
+  {
+    "file": "LICENSE-zlib.txt",
+    "url": "https://raw.githubusercontent.com/madler/zlib/v1.2.12/README",
+    "status": "saved",
+    "error": "Response status code does not indicate success: 404 (Not Found).",
+    "sha256": "fc2c3368901700f0acdeb1d8afeaca5923296768ec6824ecdf627aac396001fd",
+    "bytes": 5368
+  },
+  {
+    "file": "Microsoft-VC-Runtime-License.docx",
+    "url": "https://visualstudio.microsoft.com/wp-content/uploads/2021/09/Visual-C-Runtime-2015-2022-License-1.docx",
+    "sha256": "f1e3d56ceb2ad68aae0711b910375009e651ac5530fa0760f0dea6e81e54fae1",
+    "bytes": 39644,
+    "status": "saved"
+  }
+]

@@ -1,0 +1,1 @@
+{"passed":true,"checks":["nonblocking receipt during initialization","delayed Enhanced then Off order","Dispose and reused-handle lifetime order","1000 FIFO control/render requests"],"scope":"actual vendored ThreadPool scheduling; no GUI/GPU playback"}

@@ -1,0 +1,7 @@
+{
+  "artifact": "YingXia_v2.3.0_Native_Windows_x64_candidate.exe",
+  "size": 60843520,
+  "sha256": "8a5f7cdfcec83f95417b37182316ca09599e32826921f40fb5874b617edd8f24",
+  "bundle_sha256": "c6a8c79a483479e8ec39681394a96ee995661626588199d09af9dd810c2a2c23",
+  "bundle_files": 245
+}

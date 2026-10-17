@@ -1,0 +1,253 @@
+{
+  "platform": "win32/x64",
+  "executable": "YingXia_candidate5.exe",
+  "sha256": "bd82683efcd94ac1b635e325ab74d1941ec95ef41b749efb89ffe945c7b4b0c3",
+  "shipping_gui_tested": true,
+  "production_backend_history_tested": true,
+  "media_backend": "separately compiled native_fixture Go child via explicit developer override",
+  "fixture_backend_sha256": "0f1803480545b72b01353071ac8a543f41d4dabb6c8eea824728ef13486f4a46",
+  "synthetic_media_only": true,
+  "real_third_party_playback_tested": false,
+  "checks": [
+    {
+      "name": "Single release EXE extracts runtime and opens its own visible Flutter window with no browser/WebView children",
+      "passed": true
+    },
+    {
+      "name": "All four approved pages load in the production Flutter/Go app",
+      "passed": true
+    },
+    {
+      "name": "Exact two developer names and emails are shown at the top of sources and diagnostics",
+      "passed": true
+    },
+    {
+      "name": "Simple three-choice quality dropdown can change and persist the Windows-only preference",
+      "passed": true
+    },
+    {
+      "name": "Production in-app clear confirmation can cancel without changing persistent records",
+      "passed": true
+    },
+    {
+      "name": "Actual read-only library write failure retains rows and allows retry",
+      "passed": true
+    },
+    {
+      "name": "Actual production backend clears disk history while preserving favorites, bindings and settings",
+      "passed": true
+    },
+    {
+      "name": "Repeated single-file launch restores the existing native window",
+      "passed": true
+    },
+    {
+      "name": "Full release EXE restart keeps history empty and favorite available; window close ends child family",
+      "passed": true
+    }
+  ],
+  "observations": [
+    {
+      "initial_window": {
+        "action": "Snapshot",
+        "visible": true,
+        "pid": 29420,
+        "minimized": false,
+        "rect": [
+          10,
+          10,
+          1350,
+          910
+        ],
+        "title": "映匣 · YingXia",
+        "hwnd": 6492114
+      }
+    },
+    {
+      "production_process_family": [
+        {
+          "ProcessId": 2472,
+          "ParentProcessId": 7452,
+          "Name": "YingXia_candidate5.exe"
+        },
+        {
+          "ProcessId": 29420,
+          "ParentProcessId": 2472,
+          "Name": "yingxia_native.exe"
+        },
+        {
+          "ProcessId": 35472,
+          "ParentProcessId": 29420,
+          "Name": "yingxia_backend.exe"
+        }
+      ]
+    },
+    {
+      "native_parent_exit": {
+        "code": 0,
+        "signal": null,
+        "time": "2026-10-14T11:30:19.903Z"
+      }
+    },
+    {
+      "native_parent_exit": {
+        "code": 0,
+        "signal": null,
+        "time": "2026-10-14T11:30:28.507Z"
+      }
+    },
+    {
+      "native_parent_exit": {
+        "code": 0,
+        "signal": null,
+        "time": "2026-10-14T11:31:10.834Z"
+      }
+    }
+  ],
+  "failure": "Error: quality preference not persisted\n    at eventually (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:20:212)\n    at async setQuality (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:47:3)\n    at async main (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:110:34)",
+  "failure_processes": [
+    {
+      "ProcessId": 29864,
+      "ParentProcessId": 7452,
+      "Name": "YingXia_candidate5.exe"
+    },
+    {
+      "ProcessId": 35060,
+      "ParentProcessId": 29864,
+      "Name": "yingxia_native.exe"
+    },
+    {
+      "ProcessId": 26548,
+      "ParentProcessId": 35060,
+      "Name": "yingxia_backend_fsr_fixture.exe"
+    },
+    {
+      "ProcessId": 34320,
+      "ParentProcessId": 26548,
+      "Name": "conhost.exe"
+    }
+  ],
+  "failure_accessibility": [
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 16,
+      "name": null,
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        838,
+        608,
+        135,
+        161
+      ],
+      "role": 20,
+      "name": "弹出菜单",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        838,
+        608,
+        135,
+        161
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        838,
+        608,
+        135,
+        161
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        838,
+        616,
+        135,
+        49
+      ],
+      "role": 43,
+      "name": "关闭",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        838,
+        664,
+        135,
+        49
+      ],
+      "role": 43,
+      "name": "轻量",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        838,
+        712,
+        135,
+        49
+      ],
+      "role": 43,
+      "name": "增强",
+      "value": "",
+      "action": null
+    }
+  ],
+  "check_count": 9
+}

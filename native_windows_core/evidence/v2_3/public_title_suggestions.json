@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-10-16T03:57:24.6008116Z",
+  "endpoint": "https://suggest.video.iqiyi.com/",
+  "scope": "Direct read-only public suggestion response; title strings only; no playback/access verification; no published API SLA assumed",
+  "results": [
+    {
+      "query": "qingyunian",
+      "http": 200,
+      "code": "A00000",
+      "known_titles": [
+        "庆余年",
+        "庆余年第二季"
+      ]
+    },
+    {
+      "query": "qyn",
+      "http": 200,
+      "code": "A00000",
+      "known_titles": [
+        "庆余年",
+        "庆余年第二季",
+        "去有你的地方",
+        "秋意浓",
+        "邱意浓"
+      ]
+    },
+    {
+      "query": "liulangdiqiu",
+      "http": 200,
+      "code": "A00000",
+      "known_titles": [
+        "流浪地球",
+        "流浪地球2",
+        "流浪地球：飞跃2020特别版"
+      ]
+    },
+    {
+      "query": "lldq",
+      "http": 200,
+      "code": "A00000",
+      "known_titles": [
+        "流浪地球",
+        "流浪地球2",
+        "离离多情"
+      ]
+    }
+  ],
+  "dependency": "github.com/mozillazg/go-pinyin v0.21.0",
+  "dependency_license": "MIT",
+  "dependency_tag": "https://github.com/mozillazg/go-pinyin/tree/v0.21.0"
+}

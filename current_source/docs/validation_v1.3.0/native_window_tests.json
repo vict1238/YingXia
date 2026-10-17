@@ -1,0 +1,408 @@
+{
+  "environment": "win32/x64",
+  "executable": "YingXia_v1.3.0_Windows_x64.exe",
+  "sha256": "8fe7b69df5dc200af57097d8113f5106d3afcf45cae7210af373f459fd328d45",
+  "production_executable": "YingXia_v1.3.0_Windows_x64.exe",
+  "production_sha256": "8fe7b69df5dc200af57097d8113f5106d3afcf45cae7210af373f459fd328d45",
+  "production_gui_tested": true,
+  "test_artifact": "shipping EXE",
+  "startup": "release EXE; owned Win32 window + embedded WebView2; opt-in loopback CDP; isolated data directory",
+  "fixtures": "synthetic catalogue and WebM clip intercepted in DevTools",
+  "real_third_party_playback_tested": false,
+  "checks": [
+    {
+      "name": "Main HWND is owned by the tested executable with the app title and unique Win32 class",
+      "passed": true
+    },
+    {
+      "name": "Rendering runs in embedded msedgewebview2 children without a Chrome/Edge --app window",
+      "passed": true
+    },
+    {
+      "name": "Existing minimal UI and all four navigation pages load inside the native host",
+      "passed": true
+    },
+    {
+      "name": "Search selection and Play decode real synthetic WebM frames in embedded WebView2",
+      "passed": true
+    },
+    {
+      "name": "Actual native minimize freezes video; restore stays paused; manual Play resumes the same player",
+      "passed": true
+    },
+    {
+      "name": "Fullscreen removes the caption and covers the real monitor; fullscreen exit restores bounds and window style",
+      "passed": true
+    },
+    {
+      "name": "Repeated launch restores the existing native HWND and retains the first backend PID",
+      "passed": true
+    },
+    {
+      "name": "Script-driven top-level external navigation cannot replace the app UI",
+      "passed": true
+    },
+    {
+      "name": "A popup without a user gesture creates neither an embedded tab nor an external browser process",
+      "passed": true
+    },
+    {
+      "name": "Closing the native window exits the EXE and removes the backend session",
+      "passed": true
+    },
+    {
+      "name": "Ordinary launch opens its native window without the explicitly opted-in CDP listener",
+      "passed": true
+    },
+    {
+      "name": "API quit shuts down both the service and native window",
+      "passed": true
+    }
+  ],
+  "observations": [
+    {
+      "native_window": {
+        "hwnd": 10291096,
+        "pid": 5112,
+        "class_name": "YingXiaWindow_09d081620c68a820",
+        "title": "映匣 · YingXia",
+        "rect": {
+          "left": 610,
+          "top": 246,
+          "right": 1950,
+          "bottom": 1146
+        },
+        "client": {
+          "left": 0,
+          "top": 0,
+          "right": 1324,
+          "bottom": 861
+        },
+        "monitor": {
+          "left": 0,
+          "top": 0,
+          "right": 2560,
+          "bottom": 1440
+        },
+        "work": {
+          "left": 0,
+          "top": 0,
+          "right": 2560,
+          "bottom": 1392
+        },
+        "minimized": false,
+        "visible": true,
+        "foreground": false,
+        "style": 382664704,
+        "exstyle": 256
+      }
+    },
+    {
+      "processes": {
+        "descendants": [
+          {
+            "ProcessId": 5112,
+            "ParentProcessId": 8284,
+            "Name": "YingXia_v1.3.0_Windows_x64.exe",
+            "CommandLine": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\releases\\YingXia_v1.3.0_Windows_x64.exe --data-dir \"C:\\Users\\vict1238\\AppData\\Local\\Temp\\yingxia-native-window-QFV4hd\\中文 独立窗口\""
+          },
+          {
+            "ProcessId": 16572,
+            "ParentProcessId": 5112,
+            "Name": "msedgewebview2.exe",
+            "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.45\\msedgewebview2.exe\" --embedded-browser-webview=1 --webview-exe-name=YingXia_v1.3.0_Windows_x64.exe --user-data-dir=\"C:\\Users\\vict1238\\AppData\\Local\\Temp\\yingxia-native-window-QFV4hd\\中文 独立窗口\\webview-profile\\EBWebView\" --noerrdialogs --embedded-browser-webview-dpi-awareness=2 --remote-debugging-address=127.0.0.1 --remote-debugging-port=50969 --mojo-named-platform-channel-pipe=5112.37876.15834654610436574123 /pfhostedapp:6ea374799edffc83aab0fa0155f813a95f73ad8a"
+          },
+          {
+            "ProcessId": 31432,
+            "ParentProcessId": 16572,
+            "Name": "msedgewebview2.exe",
+            "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.45\\msedgewebview2.exe\" --type=crashpad-handler \"--user-data-dir=C:\\Users\\vict1238\\AppData\\Local\\Temp\\yingxia-native-window-QFV4hd\\中文 独立窗口\\webview-profile\\EBWebView\" /prefetch:4 /pfhostedapp:6ea374799edffc83aab0fa0155f813a95f73ad8a --monitor-self-annotation=ptype=crashpad-handler \"--database=C:\\Users\\vict1238\\AppData\\Local\\Temp\\yingxia-native-window-QFV4hd\\中文 独立窗口\\webview-profile\\EBWebView\\Crashpad\" \"--metrics-dir=C:\\Users\\vict1238\\AppData\\Local\\Temp\\yingxia-native-window-QFV4hd\\中文 独立窗口\\webview-profile\\EBWebView\" --annotation=IsOfficialBuild=1 --annotation=channel= --annotation=chromium-version=155.0.8059.40 \"--annotation=exe=C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.45\\msedgewebview2.exe\" --annotation=plat=Win64 \"--annotation=prod=Edge WebView2\" --annotation=ver=155.0.4283.45 --initial-client-data=0x110,0x17c,0x180,0x160,0x188,0x7ffefe0483e0,0x7ffefe0483f0,0x7ffefe048400"
+          },
+          {
+            "ProcessId": 38768,
+            "ParentProcessId": 16572,
+            "Name": "msedgewebview2.exe",
+            "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.45\\msedgewebview2.exe\" --type=gpu-process --gpu-recent-crash-count=0 --noerrdialogs --user-data-dir=\"C:\\Users\\vict1238\\AppData\\Local\\Temp\\yingxia-native-window-QFV4hd\\中文 独立窗口\\webview-profile\\EBWebView\" --webview-exe-name=YingXia_v1.3.0_Windows_x64.exe --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=2 --gpu-preferences=WAAAAAAAAADgAAAEAAAAAAAAAAAAAGAAQAAAAAAAAAADAAAAAAAAADgAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAoAAAAAAAAAAgAAAAAAAAAEAAAAAIAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --startup-read-main-dll --metrics-shmem-handle=2536,i,4923401166854421888,9143935277591423544,262144 --field-trial-handle=2640,i,15397025296907236877,1833904297310234064,262144 --variations-seed-version --pseudonymization-salt-handle=2684,i,1325772994282745928,16917445058608546053,4 --trace-process-track-uuid=3190708988185955192 --mojo-platform-channel-handle=2628 /prefetch:2 /pfhostedapp:6ea374799edffc83aab0fa0155f813a95f73ad8a"
+          },
+          {
+            "ProcessId": 38296,
+            "ParentProcessId": 16572,
+            "Name": "msedgewebview2.exe",
+            "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.45\\msedgewebview2.exe\" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --noerrdialogs --user-data-dir=\"C:\\Users\\vict1238\\AppData\\Local\\Temp\\yingxia-native-window-QFV4hd\\中文 独立窗口\\webview-profile\\EBWebView\" --webview-exe-name=YingXia_v1.3.0_Windows_x64.exe --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=2 --startup-read-main-dll --metrics-shmem-handle=2676,i,10478674359476799358,7332519117340625383,524288 --field-trial-handle=2640,i,15397025296907236877,1833904297310234064,262144 --variations-seed-version --pseudonymization-salt-handle=2684,i,1325772994282745928,16917445058608546053,4 --trace-process-track-uuid=3190708989122997041 --mojo-platform-channel-handle=2916 /prefetch:11 /pfhostedapp:6ea374799edffc83aab0fa0155f813a95f73ad8a"
+          },
+          {
+            "ProcessId": 37620,
+            "ParentProcessId": 16572,
+            "Name": "msedgewebview2.exe",
+            "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.45\\msedgewebview2.exe\" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --noerrdialogs --user-data-dir=\"C:\\Users\\vict1238\\AppData\\Local\\Temp\\yingxia-native-window-QFV4hd\\中文 独立窗口\\webview-profile\\EBWebView\" --webview-exe-name=YingXia_v1.3.0_Windows_x64.exe --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=2 --startup-read-main-dll --metrics-shmem-handle=3276,i,1151522579449993150,12568559401987444321,524288 --field-trial-handle=2640,i,15397025296907236877,1833904297310234064,262144 --variations-seed-version --pseudonymization-salt-handle=2684,i,1325772994282745928,16917445058608546053,4 --trace-process-track-uuid=3190708990060038890 --mojo-platform-channel-handle=3252 /prefetch:13 /pfhostedapp:6ea374799edffc83aab0fa0155f813a95f73ad8a"
+          },
+          {
+            "ProcessId": 18004,
+            "ParentProcessId": 16572,
+            "Name": "msedgewebview2.exe",
+            "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.45\\msedgewebview2.exe\" --type=renderer --noerrdialogs --user-data-dir=\"C:\\Users\\vict1238\\AppData\\Local\\Temp\\yingxia-native-window-QFV4hd\\中文 独立窗口\\webview-profile\\EBWebView\" --webview-exe-name=YingXia_v1.3.0_Windows_x64.exe --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=2 --remote-debugging-port=50969 --video-capture-use-gpu-memory-buffer --lang=en-US --js-flags --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --ssd-no-pressure-read-main-dll --launch-time-ticks=7170035782 --metrics-shmem-handle=4676,i,14512015008215000233,14227334012863140711,1048576 --field-trial-handle=2640,i,15397025296907236877,1833904297310234064,262144 --variations-seed-version --pseudonymization-salt-handle=2684,i,1325772994282745928,16917445058608546053,4 --trace-process-track-uuid=3190708990997080739 --mojo-platform-channel-handle=4192 /pfhostedapp:6ea374799edffc83aab0fa0155f813a95f73ad8a /prefetch:1"
+          }
+        ],
+        "browsers": [
+          {
+            "ProcessId": 24540,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 24560,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 24512,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 23960,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 24196,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 23800,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 24248,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 9296,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 24724,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 23624,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 22796,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 9848,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 5940,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 12312,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 32948,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 36524,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 4192,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 12708,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 38424,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 5192,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 36684,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 35652,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 31024,
+            "Name": "chrome.exe"
+          },
+          {
+            "ProcessId": 38016,
+            "Name": "chrome.exe"
+          }
+        ]
+      }
+    },
+    {
+      "decoded_video": {
+        "time": 0.616043,
+        "paused": false,
+        "ended": false,
+        "frames": 19,
+        "width": 640,
+        "hidden": false
+      }
+    },
+    {
+      "minimize_pause": {
+        "paused": {
+          "time": 1.306542,
+          "paused": true,
+          "ended": false,
+          "frames": 35,
+          "width": 640,
+          "marker": "original-player",
+          "hidden": false
+        },
+        "frozen": {
+          "time": 1.306542,
+          "paused": true,
+          "ended": false,
+          "frames": 35,
+          "width": 640,
+          "marker": "original-player",
+          "hidden": false
+        },
+        "resumed": {
+          "time": 1.4371,
+          "paused": false,
+          "ended": false,
+          "frames": 39,
+          "width": 640,
+          "marker": "original-player",
+          "hidden": false
+        }
+      }
+    },
+    {
+      "fullscreen": {
+        "before": {
+          "hwnd": 10291096,
+          "pid": 5112,
+          "class_name": "YingXiaWindow_09d081620c68a820",
+          "title": "映匣 · YingXia",
+          "rect": {
+            "left": 610,
+            "top": 246,
+            "right": 1950,
+            "bottom": 1146
+          },
+          "client": {
+            "left": 0,
+            "top": 0,
+            "right": 1324,
+            "bottom": 861
+          },
+          "monitor": {
+            "left": 0,
+            "top": 0,
+            "right": 2560,
+            "bottom": 1440
+          },
+          "work": {
+            "left": 0,
+            "top": 0,
+            "right": 2560,
+            "bottom": 1392
+          },
+          "minimized": false,
+          "visible": true,
+          "foreground": true,
+          "style": 382664704,
+          "exstyle": 256
+        },
+        "full": {
+          "hwnd": 10291096,
+          "pid": 5112,
+          "class_name": "YingXiaWindow_09d081620c68a820",
+          "title": "映匣 · YingXia",
+          "rect": {
+            "left": 0,
+            "top": 0,
+            "right": 2560,
+            "bottom": 1440
+          },
+          "client": {
+            "left": 0,
+            "top": 0,
+            "right": 2560,
+            "bottom": 1440
+          },
+          "monitor": {
+            "left": 0,
+            "top": 0,
+            "right": 2560,
+            "bottom": 1440
+          },
+          "work": {
+            "left": 0,
+            "top": 0,
+            "right": 2560,
+            "bottom": 1392
+          },
+          "minimized": false,
+          "visible": true,
+          "foreground": true,
+          "style": 369098752,
+          "exstyle": 0
+        },
+        "restored": {
+          "hwnd": 10291096,
+          "pid": 5112,
+          "class_name": "YingXiaWindow_09d081620c68a820",
+          "title": "映匣 · YingXia",
+          "rect": {
+            "left": 610,
+            "top": 246,
+            "right": 1950,
+            "bottom": 1146
+          },
+          "client": {
+            "left": 0,
+            "top": 0,
+            "right": 1324,
+            "bottom": 861
+          },
+          "monitor": {
+            "left": 0,
+            "top": 0,
+            "right": 2560,
+            "bottom": 1440
+          },
+          "work": {
+            "left": 0,
+            "top": 0,
+            "right": 2560,
+            "bottom": 1392
+          },
+          "minimized": false,
+          "visible": true,
+          "foreground": true,
+          "style": 382664704,
+          "exstyle": 256
+        },
+        "synthetic_escape_exited": true,
+        "exit_method": "CDP synthetic Escape"
+      }
+    }
+  ],
+  "page_errors": [],
+  "intercepted_external_requests": [
+    "https://example.invalid/blocked-native-navigation"
+  ],
+  "webview_version": "155.0.4283.45",
+  "owned_window_screenshot": "native_window.png",
+  "native_keyboard_escape_tested": false,
+  "keyboard_test_limit": "The native HWND is not guaranteed to own OS foreground focus. CDP Escape is observed separately; physical Escape is not verified.",
+  "check_count": 12
+}

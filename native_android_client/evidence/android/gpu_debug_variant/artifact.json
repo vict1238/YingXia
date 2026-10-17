@@ -1,0 +1,9 @@
+{
+  "apk": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_android_client\\build\\gpu_debug_client\\build\\candidates\\YingXia_v2.2.0_Android_fixture_gpu_debug_x64.apk",
+  "bytes": 98428678,
+  "sha256": "066614534393bc41f56747ab7011087058596952c87e3ee7d11d4140be41af71",
+  "target_platform": "android-x64",
+  "package": "com.yingxia.yingxia_native.fixture",
+  "gpu_debug_context": true,
+  "device_executed": false
+}

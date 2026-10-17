@@ -1,0 +1,7 @@
+{
+  "scope": "Only fresh owned-emulator production package data; APK byte-for-byte unchanged",
+  "owner_before": "10148:10148:600",
+  "owner_after": "10148:10148:600",
+  "seeded_history": 2,
+  "seeded_favorites": 1
+}

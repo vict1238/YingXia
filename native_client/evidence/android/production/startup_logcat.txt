@@ -1,0 +1,746 @@
+--------- beginning of main
+10-14 16:38:07.974   358   358 I Zygote  : Process 1786 exited due to signal 9 (Killed)
+10-14 16:38:08.015  1129  1164 D SessionCommitReceiver: Removing PromiseIcon for package: com.yingxia.yingxia_native, install reason: 0, alreadyAddedPromiseIcon: false
+10-14 16:38:08.016   551   842 I SdkSandboxManager: No SDKs used. Skipping SDK data reconcilation for CallingInfo{mUid=10148, mPackageName='com.yingxia.yingxia_native, mAppProcessToken='null'}
+--------- beginning of system
+10-14 16:38:08.028   551   799 D CompatChangeReporter: Compat change id reported: 297989574; UID 1000; state: ENABLED
+10-14 16:38:08.063   872  2064 I PermissionControllerServiceImpl: Updating user sensitive for uid 10148
+10-14 16:38:08.064   551   591 D CompatChangeReporter: Compat change id reported: 151861875; UID 10063; state: ENABLED
+10-14 16:38:08.073  1022  1022 D CarrierSvcBindHelper: onPackageAdded: com.yingxia.yingxia_native
+10-14 16:38:08.086   358   358 D Zygote  : Forked child process 2306
+10-14 16:38:08.088  1022  1022 D CarrierSvcBindHelper: No carrier app for: 0
+10-14 16:38:08.108   551   592 I ActivityManager: Start proc 2306:com.android.packageinstaller/u0a63 for broadcast {com.android.packageinstaller/com.android.packageinstaller.PackageInstalledReceiver}
+10-14 16:38:08.109   551   799 E AppOps  : attributionTag VCN not declared in manifest of android
+10-14 16:38:08.148   551   652 I RoleService: Granting default roles...
+10-14 16:38:08.181  1022  1022 E SmsApplication: com.android.messaging lost android:receive_wap_push:  (fixing)
+10-14 16:38:08.183   551  1475 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 10114, code = RECEIVE_WAP_PUSH, mode = allow, callingUid = 1001, oldMode = allow
+10-14 16:38:08.190  2306  2306 I ackageinstaller: Using CollectorTypeCMC GC.
+10-14 16:38:08.191  2306  2306 W ackageinstaller: Unexpected CPU variant for x86: x86_64.
+10-14 16:38:08.191  2306  2306 W ackageinstaller: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+10-14 16:38:08.200  2306  2306 E ackageinstaller: Not starting debugger since process cannot load the jdwp agent.
+10-14 16:38:08.202  2306  2306 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-14 16:38:08.202  1022  1022 E SmsApplication: com.android.messaging lost android:read_cell_broadcasts:  (fixing)
+10-14 16:38:08.202   551  1475 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 10114, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+10-14 16:38:08.214   872   872 I SafetyLabelChangedBroadcastReceiver: received broadcast packageName: com.yingxia.yingxia_native, current user: UserHandle{0}, packageChangeEvent: NEW_INSTALL, intent user: UserHandle{0}
+10-14 16:38:08.220   872  2302 E BackupHelper: Could not parse delayed permissions
+10-14 16:38:08.220   872  2302 E BackupHelper: java.io.FileNotFoundException: /data/user_de/0/com.android.permissioncontroller/files/delayed_restore_permissions.xml: open failed: ENOENT (No such file or directory)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:774)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at com.android.permissioncontroller.permission.service.BackupHelper.restoreDelayedState(BackupHelper.java:406)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.onRestoreDelayedRuntimePermissionsBackup(PermissionControllerServiceImpl.java:430)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.lambda$onApplyStagedRuntimePermissionBackup$4(PermissionControllerServiceImpl.java:424)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.$r8$lambda$TbAZrpVHU85LYBnlVdzyQvclH0Q(PermissionControllerServiceImpl.java:0)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl$$ExternalSyntheticLambda4.run(R8$$SyntheticClass:0)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:305)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at java.lang.Thread.run(Thread.java:1012)
+10-14 16:38:08.220   872  2302 E BackupHelper: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at libcore.io.Linux.open(Native Method)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8591)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+10-14 16:38:08.220   872  2302 E BackupHelper: 	... 11 more
+10-14 16:38:08.228   551   551 D TransparencyService: Not an update. Skipping...
+10-14 16:38:08.228   551   551 W Looper  : Slow delivery took 206ms main h=android.app.ActivityThread$H c=android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0@b3ec04d m=0
+10-14 16:38:08.233   551   833 D ShortcutService: received package broadcast intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 (has extras) }
+10-14 16:38:08.233   551   833 D ShortcutService: adding package: com.yingxia.yingxia_native userId0
+10-14 16:38:08.233   551   833 D ShortcutService: handlePackageAdded: com.yingxia.yingxia_native user=0
+10-14 16:38:08.233   551   833 D ShortcutService: rescanPackageIfNeeded 0@com.yingxia.yingxia_native, forceRescan=true , isNewApp=true
+10-14 16:38:08.234   551   833 D ShortcutService: Package com.yingxia.yingxia_native has 0 manifest shortcut(s), and 0 share target(s)
+10-14 16:38:08.237   551   551 V BackupManagerConstants: getFullBackupIntervalMilliseconds(...) returns 86400000
+10-14 16:38:08.241  1022  1022 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-14 16:38:08.247  1129  1164 D PackageUpdatedTask: Package updated: mOp=ADD packages=[com.yingxia.yingxia_native]
+10-14 16:38:08.295   551   551 V BackupManagerConstants: getFullBackupRequiredNetworkType(...) returns 2
+10-14 16:38:08.311   551   551 V BackupManagerConstants: getFullBackupRequireCharging(...) returns true
+10-14 16:38:08.312   551   551 D CompatChangeReporter: Compat change id reported: 311402873; UID 1000; state: ENABLED
+10-14 16:38:08.324   551   570 I system_server: Background concurrent mark compact GC freed 10MB AllocSpace bytes, 88(1832KB) LOS objects, 50% free, 19MB/39MB, paused 639us,1.592ms total 668.536ms
+10-14 16:38:08.324   551   551 D CompatChangeReporter: Compat change id reported: 323349338; UID 1000; state: ENABLED
+10-14 16:38:08.335   551   593 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10118/pid_1786
+10-14 16:38:08.336   551  2047 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_SMS, mode = allow, callingUid = 1001, oldMode = allow
+10-14 16:38:08.340   551  2047 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_SMS, mode = allow, callingUid = 1001, oldMode = allow
+10-14 16:38:08.340   551  2047 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_WAP_PUSH, mode = allow, callingUid = 1001, oldMode = allow
+10-14 16:38:08.341   551  2047 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = SEND_SMS, mode = allow, callingUid = 1001, oldMode = allow
+10-14 16:38:08.341   551  2047 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+10-14 16:38:08.358   551   590 W PackageManager: Failed registering loading progress callback. Package is fully loaded.
+10-14 16:38:08.370   551   983 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.android.devicelockcontroller, role: android.app.role.SYSTEM_FINANCED_DEVICE_CONTROLLER
+10-14 16:38:08.384  1022  1303 D ImsResolver: maybeAddedImsService, packageName: com.yingxia.yingxia_native
+10-14 16:38:08.391   871   871 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+10-14 16:38:08.395   551   551 W Looper  : Slow dispatch took 167ms main h=android.app.ActivityThread$H c=android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0@c9c5c03 m=0
+10-14 16:38:08.402   551  1318 W system_server: Long monitor contention with owner main (551) at void com.android.server.backup.UserBackupManagerService.scheduleNextFullBackupJob(long)(UserBackupManagerService.java:2124) waiters=0 in void com.android.server.backup.UserBackupManagerService$1.run() for 158ms
+10-14 16:38:08.408   551   551 W Looper  : Drained
+10-14 16:38:08.457   871   871 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+10-14 16:38:08.457   551   833 D ShortcutService: received package broadcast intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 (has extras) }
+10-14 16:38:08.460   551   833 D ShortcutService: changing package: com.yingxia.yingxia_native userId0
+10-14 16:38:08.460   551   833 D ShortcutService: handlePackageChanged: com.yingxia.yingxia_native user=0
+10-14 16:38:08.460   551   833 D ShortcutService: rescanPackageIfNeeded 0@com.yingxia.yingxia_native, forceRescan=true , isNewApp=true
+10-14 16:38:08.460   551   833 D ShortcutService: Package com.yingxia.yingxia_native has 0 manifest shortcut(s), and 0 share target(s)
+10-14 16:38:08.461   551   818 I AppWidgetServiceImpl: Received broadcast: android.intent.action.PACKAGE_CHANGED on user 0
+10-14 16:38:08.461   551   590 W VoiceInteractionManager: no available voice recognition services found for user 0
+10-14 16:38:08.480   872  2064 I PermissionControllerServiceImpl: Updating user sensitive for uid 10148
+10-14 16:38:08.484   551   590 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 16:38:08.488   551   590 W VoiceInteractionManager: no available voice recognition services found for user 0
+10-14 16:38:08.489   551   590 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 16:38:08.492   551   580 I DropBoxManagerService: add tag=system_server_strictmode isTagEnabled=true flags=0x2
+10-14 16:38:08.500   551   575 I AppWidgetServiceImpl: getInstalledProvidersForProfiles() 0
+10-14 16:38:08.502  1129  1129 D StatsLog: LAUNCHER_ALLAPPS_COUNT
+10-14 16:38:08.549   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:08.550   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:08.550   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:08.550   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:08.554  2306  2306 D nativeloader: Configuring clns-shared-7 for other apk /system/priv-app/PackageInstaller/PackageInstaller.apk. target_sdk_version=35, uses_libraries=, library_path=/system/priv-app/PackageInstaller/lib/x86_64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user_de/0/com.android.packageinstaller:/system/priv-app/PackageInstaller:/system/lib64:/system_ext/lib64
+10-14 16:38:08.559  2306  2306 D CompatChangeReporter: Compat change id reported: 202956589; UID 10063; state: ENABLED
+10-14 16:38:08.565   551   642 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:08.568   551   642 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:08.569   551   642 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:08.570   551   642 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:08.572   551   642 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:08.584  2306  2306 V GraphicsEnvironment: Currently set values for:
+10-14 16:38:08.585  2306  2306 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-14 16:38:08.585  2306  2306 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-14 16:38:08.585  2306  2306 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+10-14 16:38:08.585  2306  2306 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-14 16:38:08.601   551   551 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:08.603   551   551 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:08.604   551   551 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:08.604  1129  1164 D PackageUpdatedTask: Package updated: mOp=UPDATE packages=[com.yingxia.yingxia_native]
+10-14 16:38:08.613  2276  2278 I artd    : Dex parent of /data/app/~~T3JCO0IuAQPU06VER3P5cg==/com.yingxia.yingxia_native-aYq_-kRhaaW9inPrE06wGw==/base.apk is not writable: Permission denied
+10-14 16:38:08.613  2276  2278 I artd    : GetBestInfo checking odex in dalvik-cache (/data/dalvik-cache/x86_64/data@app@~~T3JCO0IuAQPU06VER3P5cg==@com.yingxia.yingxia_native-aYq_-kRhaaW9inPrE06wGw==@base.apk@classes.dex)
+10-14 16:38:08.614  2276  2278 I artd    : Loading /data/dalvik-cache/x86_64/data@app@~~T3JCO0IuAQPU06VER3P5cg==@com.yingxia.yingxia_native-aYq_-kRhaaW9inPrE06wGw==@base.apk@classes.dex with executable: 0
+10-14 16:38:08.614  2276  2278 I artd    : OatFileAssistant test for existing oat file /data/dalvik-cache/x86_64/data@app@~~T3JCO0IuAQPU06VER3P5cg==@com.yingxia.yingxia_native-aYq_-kRhaaW9inPrE06wGw==@base.apk@classes.dex: File /data/dalvik-cache/x86_64/data@app@~~T3JCO0IuAQPU06VER3P5cg==@com.yingxia.yingxia_native-aYq_-kRhaaW9inPrE06wGw==@base.apk@classes.vdex does not exist.
+10-14 16:38:08.614  2276  2278 I artd    : GetBestInfo checking odex next to the dex file (/data/app/~~T3JCO0IuAQPU06VER3P5cg==/com.yingxia.yingxia_native-aYq_-kRhaaW9inPrE06wGw==/oat/x86_64/base.odex)
+10-14 16:38:08.615  2276  2278 I artd    : Loading /data/app/~~T3JCO0IuAQPU06VER3P5cg==/com.yingxia.yingxia_native-aYq_-kRhaaW9inPrE06wGw==/oat/x86_64/base.odex with executable: 0
+10-14 16:38:08.616   551   551 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:08.616  2276  2278 I artd    : Successfully loaded /data/app/~~T3JCO0IuAQPU06VER3P5cg==/com.yingxia.yingxia_native-aYq_-kRhaaW9inPrE06wGw==/oat/x86_64/base.odex with executable: 0
+10-14 16:38:08.617  2276  2278 I artd    : /data/app/~~T3JCO0IuAQPU06VER3P5cg==/com.yingxia.yingxia_native-aYq_-kRhaaW9inPrE06wGw==/oat/x86_64/base.odex is kOatUpToDate with filter verify
+10-14 16:38:08.650  1022  1022 D CarrierSvcBindHelper: onPackageModified: com.yingxia.yingxia_native
+10-14 16:38:08.653  1022  1022 D CarrierSvcBindHelper: No carrier app for: 0
+10-14 16:38:08.655  1022  1022 E SmsApplication: com.android.messaging lost android:receive_wap_push:  (fixing)
+10-14 16:38:08.656  1129  1129 D StatsLog: LAUNCHER_ALLAPPS_COUNT
+10-14 16:38:08.656   551  1740 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 10114, code = RECEIVE_WAP_PUSH, mode = allow, callingUid = 1001, oldMode = allow
+10-14 16:38:08.657  1022  1022 E SmsApplication: com.android.messaging lost android:read_cell_broadcasts:  (fixing)
+10-14 16:38:08.664   551  2047 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 10114, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+10-14 16:38:08.673  1022  1022 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-14 16:38:08.674   551   575 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_SMS, mode = allow, callingUid = 1001, oldMode = allow
+10-14 16:38:08.680   551   575 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_SMS, mode = allow, callingUid = 1001, oldMode = allow
+10-14 16:38:08.681   551  2047 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_WAP_PUSH, mode = allow, callingUid = 1001, oldMode = allow
+10-14 16:38:08.681   551  2047 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = SEND_SMS, mode = allow, callingUid = 1001, oldMode = allow
+10-14 16:38:08.681   551  2047 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+10-14 16:38:08.682  1022  1303 D ImsResolver: maybeAddedImsService, packageName: com.yingxia.yingxia_native
+10-14 16:38:09.334  2322  2322 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-14 16:38:09.339  2322  2322 I AndroidRuntime: Using default boot image
+10-14 16:38:09.340  2322  2322 I AndroidRuntime: Leaving lock profiling enabled
+10-14 16:38:09.347  2322  2322 I app_process: Core platform API reporting enabled, enforcing=false
+10-14 16:38:09.348  2322  2322 I app_process: Using CollectorTypeCMC GC.
+10-14 16:38:09.619  2322  2322 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+10-14 16:38:09.689  2322  2322 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 16:38:09.691  2322  2322 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+10-14 16:38:09.693  2322  2322 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+10-14 16:38:09.706  2322  2322 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 16:38:09.709  2322  2322 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 16:38:09.716  2322  2322 W app_process: Unexpected CPU variant for x86: x86_64.
+10-14 16:38:09.716  2322  2322 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+10-14 16:38:09.734  2322  2322 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+10-14 16:38:09.748  2322  2322 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+10-14 16:38:09.843  2322  2322 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-14 16:38:09.844  2322  2322 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+10-14 16:38:09.857  2322  2322 D UiAutomationConnection: Created on user UserHandle{0}
+10-14 16:38:09.858  2322  2322 I UiAutomation: Initialized for user 0 on display 0
+10-14 16:38:09.858  2322  2322 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+10-14 16:38:09.862   551   575 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+10-14 16:38:09.862   551   575 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+10-14 16:38:09.869   551   575 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 16:38:09.891   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:09.891   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:09.895  2322  2335 V UiAutomation: Init UiAutomation@5ecfe8[id=1, displayId=0, flags=0]
+10-14 16:38:09.895   551   575 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 16:38:09.913   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:09.914   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:09.928   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:09.928   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:09.929   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:09.930   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:09.943   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:09.943   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:09.944   551   551 D BatterySaverPolicy: accessibility changed to true, updating policy.
+10-14 16:38:09.955   872  1148 D AccessibilitySourceService: enabled a11y services count 0
+10-14 16:38:09.956   872  1148 D AccessibilitySourceService: a11y source sending 0 issue to sc
+10-14 16:38:09.959   551  1740 D SafetySourceDataValidat: No cert check requested for package com.android.permissioncontroller
+10-14 16:38:10.587   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:10.590   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:10.595   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:10.601   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:10.602   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:11.071  1332  1510 W MediaProvider: isAppCloneUserPair for user 0: false
+10-14 16:38:11.092  2322  2322 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@13b39; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(160, 584 - 160, 584); boundsInWindow: Rect(160, 584 - 160, 584); packageName: com.android.launcher3; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]; isTextSelectable: false
+10-14 16:38:11.096  2322  2322 W AccessibilityNodeInfoDumper: Fetch time: 106ms
+10-14 16:38:11.106   551  1740 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 16:38:11.107   551  1740 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+10-14 16:38:11.107   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:11.107   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:11.107   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:11.107   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:11.108   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:11.108   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:11.112   551   551 D BatterySaverPolicy: accessibility changed to false, updating policy.
+10-14 16:38:11.124  2322  2322 D AndroidRuntime: Shutting down VM
+10-14 16:38:13.614   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:13.614   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:13.615   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:13.615   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:13.615   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:15.654   551   649 D ActivityManager: freezing 1554 android.process.acore
+10-14 16:38:15.662   551   649 D ActivityManager: freezing 1513 android.process.media
+10-14 16:38:15.664   551   649 D ActivityManager: freezing 1636 com.android.contacts
+10-14 16:38:15.670   551   793 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-14 16:38:15.677   551   793 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-14 16:38:15.680   551   793 D InetDiagMessage: Destroyed live tcp sockets for uids={10065} in 13ms
+10-14 16:38:15.914   551   793 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-14 16:38:15.916   551   793 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-14 16:38:15.916   551   793 D InetDiagMessage: Destroyed live tcp sockets for uids={10071} in 3ms
+10-14 16:38:16.013   551   793 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-14 16:38:16.016   551   793 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-14 16:38:16.016   551   793 D InetDiagMessage: Destroyed live tcp sockets for uids={10102} in 4ms
+10-14 16:38:16.627   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:16.633   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:16.634   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:16.636   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:16.637   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:17.617   551   649 D ActivityManager: freezing 2286 com.android.localtransport
+10-14 16:38:18.503   182  2303 I keystore2: system/security/keystore2/watchdog/src/lib.rs:319 - Watchdog thread idle -> terminating. Have a great day.
+10-14 16:38:18.621   551   987 I ActivityManager: Killing 1494:com.android.externalstorage/u0a64 (adj 975): empty #17
+10-14 16:38:18.659   357   357 I netd    : tetherGetStats() -> {[]} <1.52ms>
+10-14 16:38:18.673   551   649 D ActivityManager: freezing 2306 com.android.packageinstaller
+10-14 16:38:18.677   551   793 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-14 16:38:18.678   551   793 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-14 16:38:18.678   551   793 D InetDiagMessage: Destroyed live tcp sockets for uids={10063} in 3ms
+10-14 16:38:18.727   551   579 D DisplayManagerService: Drop pending events for gone uid 10064
+10-14 16:38:18.733   358   358 I Zygote  : Process 1494 exited due to signal 9 (Killed)
+10-14 16:38:18.737   551   593 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10064/pid_1494
+10-14 16:38:19.641   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:19.642   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:19.643   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:19.643   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:19.644   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:22.649   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:22.650   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:22.650   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:22.651   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:22.651   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+--------- beginning of kernel
+10-14 16:38:23.601     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=3000000 cc=10 chg=a
+10-14 16:38:25.655   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:25.655   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:25.655   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:25.656   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:25.656   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:28.300   551   628 W ActivityTaskManager: callingPackage for (uid=2000, pid=2340) has no WPC
+10-14 16:38:28.304   551   628 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+10-14 16:38:28.307   551   628 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10148, packageName = null, attributionTag = null, token = android.os.Binder@24a7bc0, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+10-14 16:38:28.308   551   628 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+10-14 16:38:28.308   551   628 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+10-14 16:38:28.330   551   628 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.yingxia.yingxia_native/.MainActivity} with LAUNCH_SINGLE_TOP from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+10-14 16:38:28.331   871   946 V WindowManagerShell: Transition requested (#5): android.os.BinderProxy@6a4b331 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.yingxia.yingxia_native/.MainActivity } baseActivity=ComponentInfo{com.yingxia.yingxia_native/com.yingxia.yingxia_native.MainActivity} topActivity=ComponentInfo{com.yingxia.yingxia_native/com.yingxia.yingxia_native.MainActivity} origActivity=null realActivity=ComponentInfo{com.yingxia.yingxia_native/com.yingxia.yingxia_native.MainActivity} numActivities=1 lastActiveTime=6629329 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@d60516d} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{22011a2 com.yingxia.yingxia_native.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=320 topActivityLetterboxHeight=640 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 5 }
+10-14 16:38:28.336   551   581 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10148, packageName = null, attributionTag = null, token = android.os.Binder@24a7bc0, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+10-14 16:38:28.342  1129  1129 W SplitSelectStateCtor: Missing session instanceIds
+10-14 16:38:28.342  1129  1129 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+10-14 16:38:28.351   428   428 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-14 16:38:28.354   357   357 I netd    : tetherGetStats() -> {[]} <0.22ms>
+10-14 16:38:28.355  1129  1129 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=8, baseIntent=Intent { flg=0x10000000 cmp=com.yingxia.yingxia_native/.MainActivity }
+10-14 16:38:28.355   871   946 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=false, height=110
+10-14 16:38:28.365   551   818 I AppWidgetServiceImpl: Received broadcast: android.intent.action.PACKAGE_UNSTOPPED on user 0
+10-14 16:38:28.365   551   818 I AppWidgetServiceImpl: Updating package stopped masked state for uid 10148 package com.yingxia.yingxia_native isStopped false
+10-14 16:38:28.368   358   358 D Zygote  : Forked child process 2343
+10-14 16:38:28.370   551   592 I ActivityManager: Start proc 2343:com.yingxia.yingxia_native/u0a148 for next-top-activity {com.yingxia.yingxia_native/com.yingxia.yingxia_native.MainActivity}
+10-14 16:38:28.373   871   991 D SplashScreenView: Build android.window.SplashScreenView{bd9769 V.E...... ......ID 0,0-0,0}
+10-14 16:38:28.373   871   991 D SplashScreenView: Icon: view: android.widget.ImageView{911a5ee V.ED..... ......I. 0,0-0,0 #1020504 android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@1265a8f size: 192
+10-14 16:38:28.373   871   991 D SplashScreenView: Branding: view: android.view.View{686511c G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+10-14 16:38:28.391   551  1475 D CoreBackPreview: Window{3958d2c u0 Splash Screen com.yingxia.yingxia_native}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@1e947fb, mPriority=0, mIsAnimationCallback=false}
+10-14 16:38:28.408  2343  2343 I .yingxia_native: Using CollectorTypeCMC GC.
+10-14 16:38:28.410  2343  2343 W .yingxia_native: Unexpected CPU variant for x86: x86_64.
+10-14 16:38:28.410  2343  2343 W .yingxia_native: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+10-14 16:38:28.424  2343  2343 E .yingxia_native: Not starting debugger since process cannot load the jdwp agent.
+10-14 16:38:28.427  2343  2343 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-14 16:38:28.460  1129  1445 D EGL_emulation: app_time_stats: avg=6570569.50ms min=6570569.50ms max=6570569.50ms count=1
+10-14 16:38:28.473   551   642 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:28.473   551   642 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:28.473   551   642 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:28.473   551   642 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:28.473   551   642 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:28.477   551   551 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:28.477   551   551 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:28.477   551   551 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:28.477   551   551 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:28.482  2343  2343 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-14 16:38:28.482  2343  2343 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-14 16:38:28.485  2343  2343 D nativeloader: Configuring clns-7 for other apk /data/app/~~T3JCO0IuAQPU06VER3P5cg==/com.yingxia.yingxia_native-aYq_-kRhaaW9inPrE06wGw==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~T3JCO0IuAQPU06VER3P5cg==/com.yingxia.yingxia_native-aYq_-kRhaaW9inPrE06wGw==/lib/x86_64:/data/app/~~T3JCO0IuAQPU06VER3P5cg==/com.yingxia.yingxia_native-aYq_-kRhaaW9inPrE06wGw==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.yingxia.yingxia_native
+10-14 16:38:28.490  2343  2343 V GraphicsEnvironment: Currently set values for:
+10-14 16:38:28.490  2343  2343 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-14 16:38:28.490  2343  2343 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-14 16:38:28.491  2343  2343 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+10-14 16:38:28.491  2343  2343 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-14 16:38:28.529  2343  2343 I YingXiaCore: host_created id=1 live=1
+10-14 16:38:28.541   551   578 V WindowManager: Sent Transition (#5) createdAt=10-14 16:38:28.310 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.yingxia.yingxia_native/.MainActivity } baseActivity=ComponentInfo{com.yingxia.yingxia_native/com.yingxia.yingxia_native.MainActivity} topActivity=ComponentInfo{com.yingxia.yingxia_native/com.yingxia.yingxia_native.MainActivity} origActivity=null realActivity=ComponentInfo{com.yingxia.yingxia_native/com.yingxia.yingxia_native.MainActivity} numActivities=1 lastActiveTime=6629329 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{7c901e1 Task{d605564 #8 type=standard I=com.yingxia.yingxia_native/.MainActivity}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{42e8b06 com.yingxia.yingxia_native.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=320 topActivityLetterboxHeight=640 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 5 }
+10-14 16:38:28.541   551   578 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+10-14 16:38:28.541   551   578 V WindowManager:     info={id=5 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+10-14 16:38:28.541   551   578 V WindowManager:         {WCT{RemoteToken{7c901e1 Task{d605564 #8 type=standard I=com.yingxia.yingxia_native/.MainActivity}}} m=OPEN f=NONE leash=Surface(name=Task=8)/@0xa9825eb sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1},
+10-14 16:38:28.541   551   578 V WindowManager:         {WCT{RemoteToken{2d135c7 Task{81a5f8f #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xe28a3ed sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1}
+10-14 16:38:28.541   551   578 V WindowManager:     ]}
+10-14 16:38:28.542   871  1289 V WindowManagerShell: onTransitionReady(transaction=2366526980406)
+10-14 16:38:28.543   871   946 V WindowManagerShell: onTransitionReady (#5) android.os.BinderProxy@6a4b331: {id=5 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@12b8b20} m=OPEN f=NONE leash=Surface(name=Task=8)/@0xc456fdd sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@eae2cd9} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x3942752 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1}]}
+10-14 16:38:28.545   551  1475 W UserManagerService: Requested status bar icon for non-badged user 0
+10-14 16:38:28.548   871   946 V WindowManagerShell: Playing animation for (#5) android.os.BinderProxy@6a4b331@0
+10-14 16:38:28.549   871   946 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@13a9ef
+10-14 16:38:28.553   871   946 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@4005cfc
+10-14 16:38:28.553   871   946 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@7648f85
+10-14 16:38:28.554   871   946 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@f69d1da
+10-14 16:38:28.557   871   946 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@69af60b
+10-14 16:38:28.557   871   946 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+10-14 16:38:28.557   871   946 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@e744ce8
+10-14 16:38:28.557   871   946 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@a639f01
+10-14 16:38:28.557   871   946 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=5 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@12b8b20} m=OPEN f=NONE leash=Surface(name=Task=8)/@0xc456fdd sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@eae2cd9} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x3942752 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1}]}
+10-14 16:38:28.557   871   946 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@2a331a6, appThread = android.app.IApplicationThread$Stub$Proxy@500e7e7, debugName = QuickstepLaunchHome }}
+10-14 16:38:28.557   871   946 V WindowManagerShell:  Delegate animation for (#5) to null
+10-14 16:38:28.557   871   946 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@bb54f94
+10-14 16:38:28.557   871   946 V WindowManagerShell: start default transition animation, info = {id=5 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@12b8b20} m=OPEN f=NONE leash=Surface(name=Task=8)/@0xc456fdd sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@eae2cd9} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x3942752 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1}]}
+10-14 16:38:28.559   871   946 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@70e394c animAttr=0x13 type=OPEN isEntrance=false
+10-14 16:38:28.559   871   946 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@c8b9e38 animAttr=0x12 type=OPEN isEntrance=true
+10-14 16:38:28.562   871   946 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@bb54f94
+10-14 16:38:28.563  2343  2362 D nativeloader: Load /data/app/~~T3JCO0IuAQPU06VER3P5cg==/com.yingxia.yingxia_native-aYq_-kRhaaW9inPrE06wGw==/base.apk!/lib/x86_64/libflutter.so using ns clns-7 from class loader (caller=/data/app/~~T3JCO0IuAQPU06VER3P5cg==/com.yingxia.yingxia_native-aYq_-kRhaaW9inPrE06wGw==/base.apk): ok
+10-14 16:38:28.566   551  1475 D FileUtils: Rounded bytes from 2593689600 to 4000000000
+10-14 16:38:28.574  2343  2363 D skia    : [SkFontMgr Android Parser] '/product/etc/fonts_customization.xml' could not be opened
+10-14 16:38:28.584  1129  1445 D EGL_emulation: app_time_stats: avg=548634.00ms min=0.69ms max=6583352.00ms count=12
+10-14 16:38:28.633  2343  2364 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+10-14 16:38:28.633  2343  2364 I EGL_emulation: Opening libGLESv2_emulation.so
+10-14 16:38:28.680   871   978 W Looper  : Slow delivery took 79ms wmshell.anim h=android.view.Choreographer$FrameHandler c=android.view.Choreographer$FrameDisplayEventReceiver@47865e4 m=0
+10-14 16:38:28.685   871   978 W Looper  : Drained
+10-14 16:38:28.593  2343  2343 W .yingxia_native: type=1400 audit(0.0:32): avc:  denied  { read } for  name="max_map_count" dev="proc" ino=20921 scontext=u:r:untrusted_app:s0:c148,c256,c512,c768 tcontext=u:object_r:proc_max_map_count:s0 tclass=file permissive=0 app=com.yingxia.yingxia_native
+10-14 16:38:28.697   551   649 D ActivityManager: freezing 872 com.android.permissioncontroller
+10-14 16:38:28.698   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:28.699   551   793 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-14 16:38:28.699   551   793 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-14 16:38:28.670     0     0 I logd    : start watching /data/system/packages.list ...
+10-14 16:38:28.702   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:28.702   551   793 D InetDiagMessage: Destroyed live tcp sockets for uids={10137} in 3ms
+10-14 16:38:28.723  2343  2364 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+10-14 16:38:28.753   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:28.753   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:28.757   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:28.697     0     0 I logd    : ReadPackageList, total packages: 156
+10-14 16:38:28.845  2343  2343 D nativeloader: Load /data/app/~~T3JCO0IuAQPU06VER3P5cg==/com.yingxia.yingxia_native-aYq_-kRhaaW9inPrE06wGw==/base.apk!/lib/x86_64/libmpv.so using ns clns-7 from class loader (caller=/data/app/~~T3JCO0IuAQPU06VER3P5cg==/com.yingxia.yingxia_native-aYq_-kRhaaW9inPrE06wGw==/base.apk): ok
+10-14 16:38:28.846  2343  2343 I media_kit: package:media_kit_libs_android_video attached.
+10-14 16:38:28.847  2343  2343 D nativeloader: Load /data/app/~~T3JCO0IuAQPU06VER3P5cg==/com.yingxia.yingxia_native-aYq_-kRhaaW9inPrE06wGw==/base.apk!/lib/x86_64/libmediakitandroidhelper.so using ns clns-7 from class loader (caller=/data/app/~~T3JCO0IuAQPU06VER3P5cg==/com.yingxia.yingxia_native-aYq_-kRhaaW9inPrE06wGw==/base.apk): ok
+10-14 16:38:28.847  2343  2343 D media_kit: Android
+10-14 16:38:28.847  2343  2343 D media_kit: emu64x
+10-14 16:38:28.847  2343  2343 D media_kit: Android/sdk_phone64_x86_64/emu64x:15/AE3A.240806.019/12368160:userdebug/test-keys
+10-14 16:38:28.847  2343  2343 D media_kit: ranchu
+10-14 16:38:28.847  2343  2343 D media_kit: Android SDK built for x86_64
+10-14 16:38:28.847  2343  2343 D media_kit: unknown
+10-14 16:38:28.847  2343  2343 D media_kit: sdk_phone64_x86_64
+10-14 16:38:28.847  2343  2343 I media_kit: Saved application context.
+10-14 16:38:28.851   871   946 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#5) android.os.BinderProxy@6a4b331@0
+10-14 16:38:28.853   551   578 V WindowManager: Finish Transition (#5): created at 10-14 16:38:28.310 collect-started=0.377ms request-sent=19.875ms started=28.777ms ready=194.479ms sent=230.052ms finished=542.666ms
+10-14 16:38:28.861  1129  1129 D VRI[QuickstepLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+10-14 16:38:28.861   871   946 V WindowManagerShell: Track 0 became idle
+10-14 16:38:28.861   871   946 V WindowManagerShell: All active transition animations finished
+10-14 16:38:28.862   551  1475 W UserManagerService: Requested status bar icon for non-badged user 0
+10-14 16:38:28.862   551  1475 W UserManagerService: Requested status bar icon for non-badged user 0
+10-14 16:38:28.862  2343  2343 D nativeloader: Load /data/app/~~T3JCO0IuAQPU06VER3P5cg==/com.yingxia.yingxia_native-aYq_-kRhaaW9inPrE06wGw==/base.apk!/lib/x86_64/libgojni.so using ns clns-7 from class loader (caller=/data/app/~~T3JCO0IuAQPU06VER3P5cg==/com.yingxia.yingxia_native-aYq_-kRhaaW9inPrE06wGw==/base.apk): ok
+10-14 16:38:28.920  2343  2343 W HWUI    : Unknown dataspace 0
+10-14 16:38:28.936  2343  2343 I WindowExtensionsImpl: Initializing Window Extensions, vendor API level=6, activity embedding enabled=true
+10-14 16:38:28.946   551  1475 D CoreBackPreview: Window{4a7f5bc u0 com.yingxia.yingxia_native/com.yingxia.yingxia_native.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@60904c1, mPriority=0, mIsAnimationCallback=false}
+10-14 16:38:28.954   428   443 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10148 pid=2343
+10-14 16:38:28.954   428   443 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10148 => denied (163 us)
+10-14 16:38:28.954   428   501 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10148 pid=0
+10-14 16:38:28.954   428   501 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10148 => denied (4046 us)
+10-14 16:38:28.954   428   501 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10148 pid=0
+10-14 16:38:28.954   428   501 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10148 => denied (228 us)
+10-14 16:38:28.954   428   443 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10148 pid=2343
+10-14 16:38:28.954   428   443 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10148 => denied (642 us)
+10-14 16:38:28.955   428   501 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10148 pid=0
+10-14 16:38:28.955   428   501 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10148 => denied (450 us)
+10-14 16:38:28.955   428   443 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10148 pid=2343
+10-14 16:38:28.955   428   443 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10148 => denied (379 us)
+10-14 16:38:28.986  2343  2359 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-14 16:38:28.931     0     0 I servicemanager: Caller(pid=2343,uid=10148,sid=u:r:untrusted_app:s0:c148,c256,c512,c768) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+10-14 16:38:29.023   164   164 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-14 16:38:29.024  2343  2364 I Gralloc4: mapper 4.x is not supported
+10-14 16:38:29.050  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name position
+10-14 16:38:29.050  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name uv
+10-14 16:38:29.062  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.066  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.066  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.076  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.076  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name color
+10-14 16:38:29.079  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.079  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name e0
+10-14 16:38:29.079  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name e1
+10-14 16:38:29.080  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 3 name e2
+10-14 16:38:29.080  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 4 name e3
+10-14 16:38:29.090  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.096  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.105  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.115  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.127  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.136  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.145  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.157  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.168  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.176  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.184  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.193  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.201  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.207  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.214  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.223  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.228  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.228  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.234  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.234  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.241  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.247  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.255  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.255  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.262  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.268  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.268  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.274   871  1008 D EGL_emulation: app_time_stats: avg=15012.15ms min=788.74ms max=29235.56ms count=2
+10-14 16:38:29.275  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.275  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.281  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.281  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.289  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.289  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name gaussian
+10-14 16:38:29.294  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.294  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 16:38:29.294  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.303  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.304  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 16:38:29.304  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.311  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.311  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 16:38:29.311  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.317  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.317  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 16:38:29.317  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.323  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.323  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 16:38:29.323  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.329  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.329  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 16:38:29.329  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.336  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.336  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 16:38:29.336  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.341  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.341  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 16:38:29.341  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.347  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.353  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 16:38:29.353  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.353  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.353  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 16:38:29.353  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.360  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.360  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 16:38:29.360  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.366  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.366  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 16:38:29.366  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.373  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.373  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 16:38:29.373  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.378  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.378  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 16:38:29.378  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.383  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.383  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 16:38:29.383  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.388  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.388  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 16:38:29.388  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.393  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.393  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 16:38:29.393  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.402  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.402  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 16:38:29.402  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 16:38:29.411  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.411  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 16:38:29.411  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 16:38:29.419  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.419  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 16:38:29.420  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 16:38:29.428  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.428  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 16:38:29.428  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 16:38:29.437  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.437  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 16:38:29.437  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 16:38:29.444  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.444  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 16:38:29.444  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 16:38:29.453  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.453  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 16:38:29.453  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 16:38:29.460  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.460  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 16:38:29.460  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 16:38:29.468  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.468  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 16:38:29.468  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 16:38:29.476  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.476  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 16:38:29.476  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 16:38:29.484  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.484  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 16:38:29.484  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 16:38:29.492  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.492  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 16:38:29.492  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 16:38:29.499  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.499  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 16:38:29.499  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 16:38:29.506  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.506  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 16:38:29.506  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 16:38:29.513  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 16:38:29.513  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 16:38:29.513  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 16:38:29.519  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.519  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.523  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.528  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.531  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.535  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.536  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.539  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.543  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.543  2343  2374 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 16:38:29.598  2343  2343 I Choreographer: Skipped 38 frames!  The application may be doing too much work on its main thread.
+10-14 16:38:29.703  2343  2378 I YingXiaCore: core_start_completed host=1
+10-14 16:38:29.617  2343  2343 W pool-2-thread-1: type=1400 audit(0.0:33): avc:  denied  { read } for  name="somaxconn" dev="proc" ino=20931 scontext=u:r:untrusted_app:s0:c148,c256,c512,c768 tcontext=u:object_r:proc_net:s0 tclass=file permissive=0 app=com.yingxia.yingxia_native
+10-14 16:38:29.832  2343  2379 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.832  2343  2379 E GoLog   : s_glBindAttribLocation: bind attrib 1 name color
+10-14 16:38:29.896  2343  2379 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:29.896  2343  2379 E GoLog   : s_glBindAttribLocation: bind attrib 1 name color
+10-14 16:38:29.963   551  1740 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10148 pid=0
+10-14 16:38:29.964   551  1740 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10148 => denied (331 us)
+10-14 16:38:29.964   551  1740 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10148 pid=0
+10-14 16:38:29.964   551  1740 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10148 => denied (62 us)
+10-14 16:38:29.964   551  1740 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10148 pid=0
+10-14 16:38:29.964   551  1740 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10148 => denied (8 us)
+10-14 16:38:29.985   551   578 I ActivityTaskManager: Displayed com.yingxia.yingxia_native/.MainActivity for user 0: +1s668ms
+10-14 16:38:29.985   551   578 I ActivityTaskManager: Fully drawn com.yingxia.yingxia_native/.MainActivity: +1s668ms
+10-14 16:38:30.027   551   669 I ImeTracker: com.yingxia.yingxia_native:315f99e5: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+10-14 16:38:30.031   551   669 I ImeTracker: com.yingxia.yingxia_native:315f99e5: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-14 16:38:30.034  1129  1129 D BaseDepthController: setSurface:
+10-14 16:38:30.034  1129  1129 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+10-14 16:38:30.034  1129  1129 D BaseDepthController: 	mSurface: null
+10-14 16:38:30.034  1129  1129 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+10-14 16:38:30.042  1129  1129 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+10-14 16:38:30.042  1129  1129 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(StateManager.java:453)
+10-14 16:38:30.042  1129  1129 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(StateManager.java:444)
+10-14 16:38:30.042  1129  1129 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(StatefulActivity.java:119)
+10-14 16:38:30.062   357   357 I netd    : tetherGetStats() -> {[]} <0.42ms>
+10-14 16:38:30.069  1129  1129 D StatsLog: LAUNCHER_ONSTOP
+10-14 16:38:30.070   551  1740 I AppWidgetServiceImpl: setAppWidgetHidden() 0
+10-14 16:38:30.072  2343  2379 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 16:38:30.224  2388  2388 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-14 16:38:30.238  2388  2388 I AndroidRuntime: Using default boot image
+10-14 16:38:30.239  2388  2388 I AndroidRuntime: Leaving lock profiling enabled
+10-14 16:38:30.243  2388  2388 I app_process: Core platform API reporting enabled, enforcing=false
+10-14 16:38:30.244  2388  2388 I app_process: Using CollectorTypeCMC GC.
+10-14 16:38:30.330   871   990 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6356308
+10-14 16:38:30.330   551  1740 D CoreBackPreview: Window{3958d2c u0 Splash Screen com.yingxia.yingxia_native EXITING}: Setting back callback null
+10-14 16:38:30.334   551  1740 W InputManager-JNI: Input channel object '3958d2c Splash Screen com.yingxia.yingxia_native (client)' was disposed without first being removed with the input manager!
+10-14 16:38:30.380   871   990 W FrameTracker: Missed App frame:UNKNOWN: 24, 11327, 0, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 16:38:30.380   871   990 W FrameTracker: Missed SF frame:UNKNOWN: 24, 11327, 0, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 16:38:30.380   871   990 W FrameTracker: Missing HWUI jank callback for vsyncId: 11327, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 16:38:30.380   871   990 W FrameTracker: Missed SF frame:UNKNOWN: 80, 11342, 0, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 16:38:30.380   871   990 W FrameTracker: Missing HWUI jank callback for vsyncId: 11342, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 16:38:30.380   871   990 W FrameTracker: Missed App frame:UNKNOWN: 88, 11364, 50812805, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 16:38:30.380   871   990 W FrameTracker: Missed SF frame:UNKNOWN: 88, 11364, 50812805, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 16:38:30.380   871   990 W FrameTracker: Missed SF frame:UNKNOWN: 80, 11372, 43142845, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 16:38:30.380   871   990 W FrameTracker: Missed SF frame:UNKNOWN: 80, 11380, 51149967, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 16:38:30.380   871   990 W FrameTracker: Missed App frame:UNKNOWN: 88, 11396, 168465053, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 16:38:30.380   871   990 W FrameTracker: Missed SF frame:UNKNOWN: 88, 11396, 168465053, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 16:38:30.380   871   990 W FrameTracker: Missed SF frame:UNKNOWN: 80, 11418, 0, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 16:38:30.380   871   990 W FrameTracker: Missing HWUI jank callback for vsyncId: 11418, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 16:38:30.380   871   990 W FrameTracker: Missed SF frame:UNKNOWN: 80, 11426, 153139971, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 16:38:30.380   871   990 W FrameTracker: Missed App frame:UNKNOWN: 88, 11466, 50618875, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 16:38:30.380   871   990 W FrameTracker: Missed SF frame:UNKNOWN: 88, 11466, 50618875, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 16:38:30.381   871   990 W FrameTracker: Missed SF frame:UNKNOWN: 80, 11474, 40415386, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 16:38:30.385   871   970 V PerfettoTrigger: Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-39
+10-14 16:38:30.546  2388  2388 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+10-14 16:38:30.561  2388  2388 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 16:38:30.561  2388  2388 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+10-14 16:38:30.562  2388  2388 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+10-14 16:38:30.564  2388  2388 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 16:38:30.565  2388  2388 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 16:38:30.567  2388  2388 W app_process: Unexpected CPU variant for x86: x86_64.
+10-14 16:38:30.567  2388  2388 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+10-14 16:38:30.571  2388  2388 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+10-14 16:38:30.572  2388  2388 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+10-14 16:38:30.599  2388  2388 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-14 16:38:30.600  2388  2388 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+10-14 16:38:30.603  2388  2388 D UiAutomationConnection: Created on user UserHandle{0}
+10-14 16:38:30.603  2388  2388 I UiAutomation: Initialized for user 0 on display 0
+10-14 16:38:30.603  2388  2388 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+10-14 16:38:30.605   551  1740 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+10-14 16:38:30.605   551  1740 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+10-14 16:38:30.607   551  1740 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 16:38:30.608   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:30.608   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:30.608   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:30.608   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:30.608   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:30.608   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:30.609   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:30.610   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:30.610   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:30.610  2388  2402 V UiAutomation: Init UiAutomation@aa1f3a5[id=2, displayId=0, flags=0]
+10-14 16:38:30.610   551   551 D BatterySaverPolicy: accessibility changed to true, updating policy.
+10-14 16:38:30.612   551   628 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 16:38:30.614   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:30.614   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:30.614   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:30.614   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:30.614   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:30.615   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:31.336   551  1649 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+10-14 16:38:31.643  2388  2388 W AccessibilityNodeInfoDumper: Fetch time: 6ms
+10-14 16:38:31.646   551  1475 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 16:38:31.646   551  1475 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+10-14 16:38:31.646   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:31.646   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:31.646   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:31.647   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:31.647   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:31.647   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:31.647   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:31.647   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:31.648   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:31.651  2388  2388 D AndroidRuntime: Shutting down VM
+10-14 16:38:31.652   551   551 D BatterySaverPolicy: accessibility changed to false, updating policy.
+10-14 16:38:31.674  2343  2359 D EGL_emulation: app_time_stats: avg=854.87ms min=660.21ms max=1049.53ms count=2
+10-14 16:38:31.677  2343  2364 D EGL_emulation: app_time_stats: avg=373.39ms min=5.96ms max=1054.17ms count=5
+10-14 16:38:31.764   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:31.765   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:31.765   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:31.765   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:31.766   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:34.771   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:34.771   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:34.771   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:34.772   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:34.772   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:34.907  2343  2407 D ProfileInstaller: Installing profile for com.yingxia.yingxia_native
+10-14 16:38:37.778   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:37.778   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:37.779   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:37.779   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:37.780   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:40.786   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:40.786   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:40.786   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:40.787   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:40.787   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:43.791   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:43.792   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:43.792   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:43.792   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:43.792   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:44.907   871   871 D ZenModeController: Added callback class com.android.systemui.qs.tiles.DndTile$3
+10-14 16:38:44.908   871   871 D ZenModeController: Removed callback class com.android.systemui.qs.tiles.DndTile$3
+10-14 16:38:46.796   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:46.796   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:46.796   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:46.796   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:46.796   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:49.802   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:49.802   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:49.802   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:49.802   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:49.802   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:52.543  2408  2408 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-14 16:38:52.547  2408  2408 I AndroidRuntime: Using default boot image
+10-14 16:38:52.547  2408  2408 I AndroidRuntime: Leaving lock profiling enabled
+10-14 16:38:52.549  2408  2408 I app_process: Core platform API reporting enabled, enforcing=false
+10-14 16:38:52.550  2408  2408 I app_process: Using CollectorTypeCMC GC.
+10-14 16:38:52.646  2408  2408 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+10-14 16:38:52.655  2408  2408 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 16:38:52.655  2408  2408 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+10-14 16:38:52.655  2408  2408 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+10-14 16:38:52.656  2408  2408 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 16:38:52.657  2408  2408 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 16:38:52.658  2408  2408 W app_process: Unexpected CPU variant for x86: x86_64.
+10-14 16:38:52.658  2408  2408 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+10-14 16:38:52.660  2408  2408 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+10-14 16:38:52.661  2408  2408 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+10-14 16:38:52.677  2408  2408 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-14 16:38:52.677  2408  2408 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+10-14 16:38:52.680  2408  2408 D UiAutomationConnection: Created on user UserHandle{0}
+10-14 16:38:52.680  2408  2408 I UiAutomation: Initialized for user 0 on display 0
+10-14 16:38:52.680  2408  2408 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+10-14 16:38:52.682   551  2047 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+10-14 16:38:52.682   551  2047 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+10-14 16:38:52.683   551  2047 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 16:38:52.684   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:52.685   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:52.685   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:52.685  2408  2420 V UiAutomation: Init UiAutomation@9316e6b[id=3, displayId=0, flags=0]
+10-14 16:38:52.685   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:52.685   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:52.685   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:52.687   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:52.688   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:52.688   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:52.688   551   551 D BatterySaverPolicy: accessibility changed to true, updating policy.
+10-14 16:38:52.691   551  2047 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 16:38:52.692   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:52.692   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:52.692   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:52.692   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:52.693   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:52.693   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:52.705  2343  2359 D EGL_emulation: app_time_stats: avg=21030.71ms min=21030.71ms max=21030.71ms count=1
+10-14 16:38:52.706  2343  2364 D EGL_emulation: app_time_stats: avg=21029.07ms min=21029.07ms max=21029.07ms count=1
+10-14 16:38:52.804   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:52.804   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:52.804   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:52.804   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:52.804   551   786 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 16:38:53.713  2408  2408 W AccessibilityNodeInfoDumper: Fetch time: 3ms
+10-14 16:38:53.715   551   575 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 16:38:53.715   551   575 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+10-14 16:38:53.715   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:53.715   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:53.715   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:53.715   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:53.715   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:53.715   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:53.715   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:53.715   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:53.715   551   551 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 16:38:53.715   551   551 D BatterySaverPolicy: accessibility changed to false, updating policy.
+10-14 16:38:53.718  2408  2408 D AndroidRuntime: Shutting down VM
+10-14 16:38:53.723  2343  2364 D EGL_emulation: app_time_stats: avg=1016.13ms min=1016.13ms max=1016.13ms count=1
+10-14 16:38:53.737  2343  2359 D EGL_emulation: app_time_stats: avg=1032.10ms min=1032.10ms max=1032.10ms count=1
+10-14 16:38:54.707  2424  2424 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-14 16:38:54.707  2424  2424 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-14 16:38:54.766   164   164 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-14 16:38:54.766  2424  2426 I Gralloc4: mapper 4.x is not supported
+10-14 16:38:54.711     0     0 I servicemanager: Caller(pid=2424,uid=2000,sid=u:r:shell:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+10-14 16:38:54.805  1332  1511 W MediaProvider: isAppCloneUserPair for user 0: false
+10-14 16:38:54.837   551  2047 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-14 16:38:54.838   551  2047 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+10-14 16:38:54.841   551   987 W JobInfo : Job 'com.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+10-14 16:38:54.844   551   578 I ActivityManager: Broadcast completed: result=0
+10-14 16:38:54.848  1332  1573 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+10-14 16:38:54.902  1332  1573 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+10-14 16:38:54.926  1332  1452 D WM-SystemJobScheduler: Scheduling work ID f0153faa-e894-4582-8426-c0fc0ee334efJob ID 1
+10-14 16:38:55.005     0     0 I logd    : logdr: UID=2000 GID=2000 PID=2432 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns

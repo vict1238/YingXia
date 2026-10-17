@@ -1,0 +1,52 @@
+[
+  {
+    "TimeCreated": "2026-10-14T12:23:04.9315806+08:00",
+    "Id": 3077,
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume3\\Users\\vict1238\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe) attempted to load \\Device\\HarddiskVolume3\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\releases\\YingXia_v1.3.0_Windows_x64.exe that did not meet the Enterprise signing level requirements or violated code integrity policy (Policy ID:{0283ac0f-fff1-49ae-ada1-8a933130cad6})."
+  },
+  {
+    "TimeCreated": "2026-10-14T12:23:04.8677213+08:00",
+    "Id": 3033,
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume3\\Users\\vict1238\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe) attempted to load \\Device\\HarddiskVolume3\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\releases\\YingXia_v1.3.0_Windows_x64.exe that did not meet the Enterprise signing level requirements."
+  },
+  {
+    "TimeCreated": "2026-10-14T12:23:03.3203959+08:00",
+    "Id": 3077,
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume3\\Users\\vict1238\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe) attempted to load \\Device\\HarddiskVolume3\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\releases\\YingXia_v1.3.0_Windows_x64.exe that did not meet the Enterprise signing level requirements or violated code integrity policy (Policy ID:{0283ac0f-fff1-49ae-ada1-8a933130cad6})."
+  },
+  {
+    "TimeCreated": "2026-10-14T12:23:03.2566423+08:00",
+    "Id": 3033,
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume3\\Users\\vict1238\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe) attempted to load \\Device\\HarddiskVolume3\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\releases\\YingXia_v1.3.0_Windows_x64.exe that did not meet the Enterprise signing level requirements."
+  },
+  {
+    "TimeCreated": "2026-10-14T12:23:00.6109043+08:00",
+    "Id": 3077,
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume3\\Users\\vict1238\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe) attempted to load \\Device\\HarddiskVolume3\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\releases\\YingXia_v1.3.0_Windows_x64.exe that did not meet the Enterprise signing level requirements or violated code integrity policy (Policy ID:{0283ac0f-fff1-49ae-ada1-8a933130cad6})."
+  },
+  {
+    "TimeCreated": "2026-10-14T12:23:00.543719+08:00",
+    "Id": 3033,
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume3\\Users\\vict1238\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe) attempted to load \\Device\\HarddiskVolume3\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\releases\\YingXia_v1.3.0_Windows_x64.exe that did not meet the Enterprise signing level requirements."
+  },
+  {
+    "TimeCreated": "2026-10-14T12:22:51.324991+08:00",
+    "Id": 3077,
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume3\\Users\\vict1238\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe) attempted to load \\Device\\HarddiskVolume3\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\current_source\\build\\YingXia_v1.3.0_preview3.exe that did not meet the Enterprise signing level requirements or violated code integrity policy (Policy ID:{0283ac0f-fff1-49ae-ada1-8a933130cad6})."
+  },
+  {
+    "TimeCreated": "2026-10-14T12:22:51.2525358+08:00",
+    "Id": 3033,
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume3\\Users\\vict1238\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe) attempted to load \\Device\\HarddiskVolume3\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\current_source\\build\\YingXia_v1.3.0_preview3.exe that did not meet the Enterprise signing level requirements."
+  },
+  {
+    "TimeCreated": "2026-10-14T12:22:49.6890043+08:00",
+    "Id": 3077,
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume3\\Users\\vict1238\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe) attempted to load \\Device\\HarddiskVolume3\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\current_source\\build\\YingXia_v1.3.0_preview3.exe that did not meet the Enterprise signing level requirements or violated code integrity policy (Policy ID:{0283ac0f-fff1-49ae-ada1-8a933130cad6})."
+  },
+  {
+    "TimeCreated": "2026-10-14T12:22:49.6246602+08:00",
+    "Id": 3033,
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume3\\Users\\vict1238\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe) attempted to load \\Device\\HarddiskVolume3\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\current_source\\build\\YingXia_v1.3.0_preview3.exe that did not meet the Enterprise signing level requirements."
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "application_repository": "Predidit/Kazumi",
+  "application_commit": "025dcb5c2f62db881382c72f191d08b49a9feb41",
+  "application_files": [
+    {
+      "path": "lib/plugins/api_rule_config.dart",
+      "probe": {
+        "checked_at": "2026-10-15T03:56:20.920633+00:00",
+        "status": 200,
+        "bytes": 7907,
+        "sha256": "f1f19510e7608db17830bb9618ca668680e9a7920e71fa1b3d5102bd1ffc34d7",
+        "elapsed_ms": 1219,
+        "content_type": "text/plain; charset=utf-8",
+        "json": false
+      }
+    },
+    {
+      "path": "lib/services/plugin/api_rule_engine.dart",
+      "probe": {
+        "checked_at": "2026-10-15T03:56:20.920633+00:00",
+        "status": 200,
+        "bytes": 94,
+        "sha256": "b8bdd853f17c83a6108cd074ab652430f280a4f23cbb363399d38c5458479f18",
+        "elapsed_ms": 753,
+        "content_type": "text/plain; charset=utf-8",
+        "json": false
+      }
+    },
+    {
+      "path": "lib/services/plugin/api_rule_strategy.dart",
+      "probe": {
+        "checked_at": "2026-10-15T03:56:20.920633+00:00",
+        "status": 200,
+        "bytes": 17963,
+        "sha256": "19eba1142614ccbc0408b1da25414b432bd2cc86c627311b56ecf7dc66f81bf6",
+        "elapsed_ms": 764,
+        "content_type": "text/plain; charset=utf-8",
+        "json": false
+      }
+    },
+    {
+      "path": "test/api_rule_engine_test.dart",
+      "probe": {
+        "checked_at": "2026-10-15T03:56:20.920633+00:00",
+        "status": 200,
+        "bytes": 8157,
+        "sha256": "f556512334a7d7812f3aa8306062fc0a8dc416ef241c07ef83f4085f024f3fa7",
+        "elapsed_ms": 760,
+        "content_type": "text/plain; charset=utf-8",
+        "json": false
+      }
+    },
+    {
+      "path": "test/plugin_api_config_test.dart",
+      "probe": {
+        "checked_at": "2026-10-15T03:56:20.953195+00:00",
+        "status": 200,
+        "bytes": 7365,
+        "sha256": "8b46a4d8098ba2a66f38b295cabd2a092fefe04ba3174ae8110fdbc6014ce4e5",
+        "elapsed_ms": 881,
+        "content_type": "text/plain; charset=utf-8",
+        "json": false
+      }
+    },
+    {
+      "path": "lib/plugins/plugins.dart",
+      "probe": {
+        "checked_at": "2026-10-15T03:56:20.962723+00:00",
+        "status": 200,
+        "bytes": 8614,
+        "sha256": "628069708240af04f1c3872d3f5e6300e0c5c64f83380b26b7b603d772b9e04b",
+        "elapsed_ms": 696,
+        "content_type": "text/plain; charset=utf-8",
+        "json": false
+      }
+    }
+  ],
+  "rules_repository": "Predidit/KazumiRules",
+  "rules_commit": "2fa4d28659f94e1eb52e7a38d79b7b9a5dcd605b",
+  "rule_probe": {
+    "checked_at": "2026-10-15T03:55:24.518786+00:00",
+    "status": 200,
+    "bytes": 993,
+    "sha256": "4d7b4a32c68fcbf27ac1b2dd719408dd960067e5c40599ba90a33c05e2a8e01b",
+    "elapsed_ms": 530,
+    "content_type": "text/plain; charset=utf-8",
+    "json": true
+  },
+  "updated_rules": [
+    {
+      "id": "kazumi_girigirilove",
+      "name": "giriGiriLove",
+      "api": "9",
+      "version": "2.5",
+      "sourceTemplate": "https://ani.girigirilove.com/GV@source/"
+    }
+  ],
+  "full_production_rule_seed": "../../../../native_android_core/internal/engine/providers.json"
+}

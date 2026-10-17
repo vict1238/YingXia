@@ -1,0 +1,12 @@
+{
+  "fixture_backend": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_core\\build\\yingxia_fixture_v23.exe",
+  "fixture_backend_sha256": "e69e36d3c0e8f622c7d278dee7731c2f0f331a4ab7802a5765a683ef7b700711",
+  "owned_data_directory": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\build\\qa_v23_fixture\\isolated-data",
+  "data_directory_initially_absent": true,
+  "data_directory_is_empty": true,
+  "backend_started": false,
+  "launch_error": "WinError 4551: Application Control policy blocked fixture EXE",
+  "bootstrap_credentials_saved": false,
+  "seeded": false,
+  "actual_decoding_or_playback_verified": false
+}

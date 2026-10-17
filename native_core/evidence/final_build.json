@@ -1,0 +1,82 @@
+{
+  "version": "2.0.0-native",
+  "production_artifacts": [
+    {
+      "path": "native_core/build/yingxia_backend.exe",
+      "bytes": 9220096,
+      "sha256": "0e2febcd74110cda5547da784efaccfe7025e68ae65d6219173b2502acd24077"
+    },
+    {
+      "path": "native_core/build/yingxia_core.aar",
+      "bytes": 11756993,
+      "sha256": "354d27406d738a0c22d08e29d21828ac9c93d6b5e887039db1f597ad3dd343af"
+    },
+    {
+      "path": "releases/YingXia_v2.0.0_Android.apk",
+      "bytes": 124097983,
+      "sha256": "b9d470913a117005b89006e137b7517e6bafafd717ba96b91efe934677a4f9a6"
+    }
+  ],
+  "go_version": "1.27.2",
+  "go_tests_passed": 6,
+  "go_vet_passed": true,
+  "native_windows_process_checks_passed": 9,
+  "fixture_windows_process_checks_passed": 14,
+  "native_fixture_tag_in_production": false,
+  "browser_dependencies_in_production": [],
+  "embedded_release_assets": [
+    "LICENSE.txt",
+    "providers.json",
+    "sources.json"
+  ],
+  "android_min_sdk": 26,
+  "android_abis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64"
+  ],
+  "android_signature_verified": true,
+  "android_debuggable": false,
+  "android_zip_16kb_alignment_verified": true,
+  "production_aar_restored_sha256": "354d27406d738a0c22d08e29d21828ac9c93d6b5e887039db1f597ad3dd343af",
+  "jni_production_correspondence": "native_client/evidence/android/production_go_jni_correspondence.json",
+  "fixture_release_correspondence": "native_client/evidence/android/fixture_release_correspondence.json",
+  "android_runtime_qa": "passed_on_owned_api35_x86_64_emulator",
+  "compiled_at": "2026-10-14T09:41:37.2381126Z",
+  "android_activity_guarded_disposal": true,
+  "android_emulator_renderer": "mediacodec_embed/mediacodec only when native emulator capability is true",
+  "fixture_apk": {
+    "path": "native_client/build/test-fixture/YingXia_fixture_Android.apk",
+    "bytes": 132060611,
+    "sha256": "f68ef1307aac1a433e292b1653eebb7434f0ef2aa3a63467cdb73cf92aefcb8a",
+    "debuggable": false,
+    "renderer_aot_native_files_identical": 12
+  },
+  "android_visible_hls_decode_verified": true,
+  "android_visible_hls_evidence": [
+    "native_client/evidence/android/fixture_continuous/hls_first_frame.png",
+    "native_client/evidence/android/fixture_continuous/hls_after_boundary_frame.png",
+    "native_client/evidence/android/fixture_continuous/hls_after_boundary_progress.json",
+    "native_client/evidence/android/fixture_continuous_switch/hls_eof_frame.png",
+    "native_client/evidence/android/fixture_continuous_switch/hls_eof_summary.json"
+  ],
+  "fixture_aar": {
+    "path": "native_core/build/yingxia_core_fixture.aar",
+    "sha256": "ebf575f6d85cebd6b2fe00a41943766f3ec04869134959da9b1809dcd302eb2d",
+    "tag": "native_fixture",
+    "continuous_hls_validation": "native_core/evidence/continuous_hls_fixture.json"
+  },
+  "android_runtime_checks_passed": 21,
+  "android_runtime_checks_failed": 0,
+  "android_runtime_report": "native_client/evidence/android/android_runtime_tests.json",
+  "android_runtime_verified_at": "2026-10-14T18:03:18.1795458+08:00",
+  "android_runtime_limits": [
+    "Runtime validation used an owned API35 x86_64 emulator, not a physical ARM Android phone. ARM ABI packaging and native binary correspondence were verified separately.",
+    "Decoder tests use synthetic local WebM/HLS through the same private API/relay/storage/lifecycle code. They do not prove availability of every third-party media source.",
+    "The emulator ran without audible audio output; this report asserts visible video decoding and playback state, not audible sound quality.",
+    "The attempted always_finish_activities setting did not establish recreation; only observed actual Back-finish/reopen Activity replacement is counted.",
+    "The repeated-timeline discontinuity fixture stall on emulator MediaCodec is retained as a diagnostic limitation; it is not relabeled as a passed EOF test."
+  ],
+  "android_discontinuity_diagnostic": "Prior repeated-timeline test-only HLS stalled on emulator MediaCodec; preserved in runtime report, not counted as a passed normal EOF test.",
+  "upstream_tool_module_integrity": "native_core/evidence/upstream_module_verification.txt"
+}

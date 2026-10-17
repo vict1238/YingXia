@@ -1,0 +1,28 @@
+{
+  "avd": "YingXia_QA_API35",
+  "serial": "emulator-5560",
+  "launcher_pid": 20388,
+  "arguments": [
+    "-avd",
+    "YingXia_QA_API35",
+    "-port",
+    "5560",
+    "-no-window",
+    "-no-audio",
+    "-no-boot-anim",
+    "-no-snapshot",
+    "-gpu",
+    "swiftshader",
+    "-memory",
+    "2048",
+    "-cores",
+    "4",
+    "-camera-back",
+    "none",
+    "-camera-front",
+    "none"
+  ],
+  "avd_home": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\.tools\\native\\avd",
+  "started_at": "2026-10-15T11:18:38.6806025Z",
+  "wipe": false
+}

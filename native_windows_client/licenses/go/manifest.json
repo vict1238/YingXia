@@ -1,0 +1,82 @@
+[
+  {
+    "path": "github.com/antchfx/htmlquery/LICENSE",
+    "size": 1022,
+    "sha256": "c181eed254a608399a1059ddf5cb72cb1f1a5841a083aaa30f3e6713853ddf9f"
+  },
+  {
+    "path": "github.com/antchfx/xpath/LICENSE",
+    "size": 1022,
+    "sha256": "c181eed254a608399a1059ddf5cb72cb1f1a5841a083aaa30f3e6713853ddf9f"
+  },
+  {
+    "path": "github.com/golang/groupcache/LICENSE",
+    "size": 10273,
+    "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68"
+  },
+  {
+    "path": "github.com/mozillazg/go-pinyin/LICENSE",
+    "size": 1077,
+    "sha256": "dbee1336f5286b3b26fb6b4a71ab1e8d89f80b4073d9c8d2b2b33c06abc3bcbe"
+  },
+  {
+    "path": "github.com/ohler55/ojg/LICENSE",
+    "size": 1068,
+    "sha256": "319d281c7f4e4178a21f2241a236677d803a88072bd2fa491369a2f4ca11ec79"
+  },
+  {
+    "path": "golang.org/x/mobile/LICENSE",
+    "size": 1453,
+    "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+  },
+  {
+    "path": "golang.org/x/mobile/PATENTS",
+    "size": 1303,
+    "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc"
+  },
+  {
+    "path": "golang.org/x/net/LICENSE",
+    "size": 1453,
+    "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+  },
+  {
+    "path": "golang.org/x/net/PATENTS",
+    "size": 1303,
+    "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc"
+  },
+  {
+    "path": "golang.org/x/text/LICENSE",
+    "size": 1453,
+    "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+  },
+  {
+    "path": "golang.org/x/text/PATENTS",
+    "size": 1303,
+    "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc"
+  },
+  {
+    "path": "KazumiRules_LICENSE.txt",
+    "size": 1065,
+    "sha256": "89331c2a35f4d73bb9f30dff98c9222971366ab1e46e757cb9a8bb865ed4ee8a"
+  },
+  {
+    "path": "modules.txt",
+    "size": 1397,
+    "sha256": "7381e64d6bfb07dc8319371a7330b7bacc746ce7d0fd4f3333e8e0c63e837607"
+  },
+  {
+    "path": "runtime/LICENSE",
+    "size": 1453,
+    "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+  },
+  {
+    "path": "runtime/PATENTS",
+    "size": 1303,
+    "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc"
+  },
+  {
+    "path": "runtime/VERSION",
+    "size": 35,
+    "sha256": "b8491590f9ef7072d890b6a47475283d420379df6b0b34df9ea58b45731b280d"
+  }
+]

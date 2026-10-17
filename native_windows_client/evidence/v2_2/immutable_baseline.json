@@ -1,0 +1,27 @@
+[
+  {
+    "file": "YingXia_v1.3.2_Windows_x64.exe",
+    "size": 11376128,
+    "sha256": "63ea2d697008c28b9d423c0a803ecc420760fb8d2f6de39e39e03724573ab84e"
+  },
+  {
+    "file": "YingXia_v2.0.0_Native_Windows_x64.exe",
+    "size": 60237824,
+    "sha256": "dd2062a005e12626033ab5f4281be7a540c4616a2f9d0edae16654cbb6889f3b"
+  },
+  {
+    "file": "YingXia_v2.0.0_Android.apk",
+    "size": 124097983,
+    "sha256": "b9d470913a117005b89006e137b7517e6bafafd717ba96b91efe934677a4f9a6"
+  },
+  {
+    "file": "YingXia_v2.1.0_Native_Windows_x64.exe",
+    "size": 60420096,
+    "sha256": "6e799468cf8d4ca744b44d2fac915dfa5f58e9982585c8b80c2e2cd61909d08c"
+  },
+  {
+    "file": "YingXia_v2.1.0_Native_Windows_Source.zip",
+    "size": 38675850,
+    "sha256": "17f3a06ecdb182bbb2234befd9c213012879ab07d5439b0b48ebe4b0b21ce49b"
+  }
+]

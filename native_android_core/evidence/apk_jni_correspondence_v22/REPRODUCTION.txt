@@ -1,0 +1,7 @@
+Production APK JNI normalization reproduction
+Inputs: immutable candidate APK d3b163d7016f07fb2b9a536b11d376771eed233b67c6160c3f1ec70fc31546af; production AAR 1cc925bb13eb46fd5aeb8078504e24f579fc06bfe4941a568df8486f82a448b2
+For each ABI: extract AAR jni/<ABI>/libgojni.so and APK lib/<ABI>/libgojni.so into separate verification paths.
+Run fixed NDK 28.2.13676358 toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-strip.exe --strip-unneeded -o normalized_copy.so raw_aar_copy.so
+Compare normalized_copy.so to APK libgojni.so by SHA-256, size, and fc.exe /b. All three byte comparisons exited 0.
+Raw AAR and APK JNI sizes differ by exactly 8 bytes per ABI. Inputs were not modified.
+The concurrent fixture build already replaced shared Gradle merged/stripped intermediates; those snapshots are diagnostic only.

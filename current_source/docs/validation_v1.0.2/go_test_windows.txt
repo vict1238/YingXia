@@ -1,0 +1,243 @@
+=== RUN   TestMetadata
+=== RUN   TestMetadata/english_spaces
+=== RUN   TestMetadata/season_spaced
+=== RUN   TestMetadata/season_joined
+=== RUN   TestMetadata/episode_suffix
+=== RUN   TestMetadata/cn_episode
+=== RUN   TestMetadata/title_quotes
+=== RUN   TestMetadata/prefix_platform
+=== RUN   TestMetadata/number_第十二集
+=== RUN   TestMetadata/number_第１２集
+=== RUN   TestMetadata/number_EP003
+=== RUN   TestMetadata/number_Episode_9
+=== RUN   TestMetadata/number_第〇二集
+=== RUN   TestMetadata/number_第一百零二集
+=== RUN   TestMetadata/number_01
+=== RUN   TestMetadata/number_十五
+=== RUN   TestMetadata/number_一千零一
+=== RUN   TestMetadata/number_十二
+=== RUN   TestMetadata/not_ordinal_预告第1集
+=== RUN   TestMetadata/not_ordinal_SP_01
+=== RUN   TestMetadata/not_ordinal_特别篇1
+=== RUN   TestMetadata/not_ordinal_https://www.bilibili.com/bangumi/play/ep15014
+=== RUN   TestMetadata/not_ordinal_ep15014
+=== RUN   TestMetadata/not_ordinal_abc
+=== RUN   TestMetadata/strip_html
+=== RUN   TestMetadata/season_rank
+=== RUN   TestMetadata/all_groups
+=== RUN   TestMetadata/part_labels
+=== RUN   TestMetadata/invalid_media
+=== RUN   TestMetadata/public_hides_url
+--- PASS: TestMetadata (0.00s)
+    --- PASS: TestMetadata/english_spaces (0.00s)
+    --- PASS: TestMetadata/season_spaced (0.00s)
+    --- PASS: TestMetadata/season_joined (0.00s)
+    --- PASS: TestMetadata/episode_suffix (0.00s)
+    --- PASS: TestMetadata/cn_episode (0.00s)
+    --- PASS: TestMetadata/title_quotes (0.00s)
+    --- PASS: TestMetadata/prefix_platform (0.00s)
+    --- PASS: TestMetadata/number_第十二集 (0.00s)
+    --- PASS: TestMetadata/number_第１２集 (0.00s)
+    --- PASS: TestMetadata/number_EP003 (0.00s)
+    --- PASS: TestMetadata/number_Episode_9 (0.00s)
+    --- PASS: TestMetadata/number_第〇二集 (0.00s)
+    --- PASS: TestMetadata/number_第一百零二集 (0.00s)
+    --- PASS: TestMetadata/number_01 (0.00s)
+    --- PASS: TestMetadata/number_十五 (0.00s)
+    --- PASS: TestMetadata/number_一千零一 (0.00s)
+    --- PASS: TestMetadata/number_十二 (0.00s)
+    --- PASS: TestMetadata/not_ordinal_预告第1集 (0.00s)
+    --- PASS: TestMetadata/not_ordinal_SP_01 (0.00s)
+    --- PASS: TestMetadata/not_ordinal_特别篇1 (0.00s)
+    --- PASS: TestMetadata/not_ordinal_https://www.bilibili.com/bangumi/play/ep15014 (0.00s)
+    --- PASS: TestMetadata/not_ordinal_ep15014 (0.00s)
+    --- PASS: TestMetadata/not_ordinal_abc (0.00s)
+    --- PASS: TestMetadata/strip_html (0.00s)
+    --- PASS: TestMetadata/season_rank (0.00s)
+    --- PASS: TestMetadata/all_groups (0.00s)
+    --- PASS: TestMetadata/part_labels (0.00s)
+    --- PASS: TestMetadata/invalid_media (0.00s)
+    --- PASS: TestMetadata/public_hides_url (0.00s)
+=== RUN   TestSecurity
+=== RUN   TestSecurity/http://127.0.0.1/
+=== RUN   TestSecurity/http://localhost/
+=== RUN   TestSecurity/http://10.0.0.1/
+=== RUN   TestSecurity/http://[::1]/
+=== RUN   TestSecurity/http://[::ffff:127.0.0.1]/
+=== RUN   TestSecurity/http://192.168.1.1/
+=== RUN   TestSecurity/http://2130706433/
+=== RUN   TestSecurity/http://0177.0.0.1/
+=== RUN   TestSecurity/http://0x7f000001/
+=== RUN   TestSecurity/http://a.internal/
+=== RUN   TestSecurity/http://printer/
+=== RUN   TestSecurity/file:///etc/passwd
+=== RUN   TestSecurity/javascript:alert(1)
+=== RUN   TestSecurity/https://u:p@example.com/
+=== RUN   TestSecurity/https://example.com:8888/
+=== RUN   TestSecurity/https://example.com/_X
+=== RUN   TestSecurity/https://example.com\x
+=== RUN   TestSecurity/http://100.64.0.1/
+=== RUN   TestSecurity/http://169.254.1.1/
+=== RUN   TestSecurity/http://224.1.1.1/
+=== RUN   TestSecurity/http://192.0.2.1/
+=== RUN   TestSecurity/public_https://example.com/a?b=c
+=== RUN   TestSecurity/public_https://8.8.8.8/
+=== RUN   TestSecurity/public_https://[2606:4700:4700::1111]/
+=== RUN   TestSecurity/strip_private_parameters
+=== RUN   TestSecurity/platform_https://v.qq.com.evil.com/x/cover/a.html
+=== RUN   TestSecurity/platform_https://v.qq.com/x/search/?q=a
+=== RUN   TestSecurity/platform_https://v.qq.com/x/cover/a.htmliqiyi
+=== RUN   TestSecurity/platform_http://v.qq.com/x/cover/a.html
+=== RUN   TestSecurity/query_encode
+--- PASS: TestSecurity (0.00s)
+    --- PASS: TestSecurity/http://127.0.0.1/ (0.00s)
+    --- PASS: TestSecurity/http://localhost/ (0.00s)
+    --- PASS: TestSecurity/http://10.0.0.1/ (0.00s)
+    --- PASS: TestSecurity/http://[::1]/ (0.00s)
+    --- PASS: TestSecurity/http://[::ffff:127.0.0.1]/ (0.00s)
+    --- PASS: TestSecurity/http://192.168.1.1/ (0.00s)
+    --- PASS: TestSecurity/http://2130706433/ (0.00s)
+    --- PASS: TestSecurity/http://0177.0.0.1/ (0.00s)
+    --- PASS: TestSecurity/http://0x7f000001/ (0.00s)
+    --- PASS: TestSecurity/http://a.internal/ (0.00s)
+    --- PASS: TestSecurity/http://printer/ (0.00s)
+    --- PASS: TestSecurity/file:///etc/passwd (0.00s)
+    --- PASS: TestSecurity/javascript:alert(1) (0.00s)
+    --- PASS: TestSecurity/https://u:p@example.com/ (0.00s)
+    --- PASS: TestSecurity/https://example.com:8888/ (0.00s)
+    --- PASS: TestSecurity/https://example.com/_X (0.00s)
+    --- PASS: TestSecurity/https://example.com\x (0.00s)
+    --- PASS: TestSecurity/http://100.64.0.1/ (0.00s)
+    --- PASS: TestSecurity/http://169.254.1.1/ (0.00s)
+    --- PASS: TestSecurity/http://224.1.1.1/ (0.00s)
+    --- PASS: TestSecurity/http://192.0.2.1/ (0.00s)
+    --- PASS: TestSecurity/public_https://example.com/a?b=c (0.00s)
+    --- PASS: TestSecurity/public_https://8.8.8.8/ (0.00s)
+    --- PASS: TestSecurity/public_https://[2606:4700:4700::1111]/ (0.00s)
+    --- PASS: TestSecurity/strip_private_parameters (0.00s)
+    --- PASS: TestSecurity/platform_https://v.qq.com.evil.com/x/cover/a.html (0.00s)
+    --- PASS: TestSecurity/platform_https://v.qq.com/x/search/?q=a (0.00s)
+    --- PASS: TestSecurity/platform_https://v.qq.com/x/cover/a.htmliqiyi (0.00s)
+    --- PASS: TestSecurity/platform_http://v.qq.com/x/cover/a.html (0.00s)
+    --- PASS: TestSecurity/query_encode (0.00s)
+=== RUN   TestService
+=== RUN   TestService/demo_search_removed
+=== RUN   TestService/import_offline
+=== RUN   TestService/missing_episode
+=== RUN   TestService/history_optout
+=== RUN   TestService/report_redacted
+=== RUN   TestService/bad_progress
+=== RUN   TestService/offline_default
+=== RUN   TestService/summary_on_detail_error
+=== RUN   TestService/demo_history
+=== RUN   TestService/parser_encoded
+=== RUN   TestService/progress
+=== RUN   TestService/diagnostics_not_playback
+=== RUN   TestService/store_restart
+=== RUN   TestService/link_restore
+=== RUN   TestService/catalog_search
+=== RUN   TestService/cache
+=== RUN   TestService/catalog_resolve
+=== RUN   TestService/binding_required
+=== RUN   TestService/favorite_roundtrip
+=== RUN   TestService/clear_history
+=== RUN   TestService/fallback
+=== RUN   TestService/not_found
+=== RUN   TestService/hls_disabled
+=== RUN   TestService/locator
+=== RUN   TestService/settings_types
+--- PASS: TestService (0.22s)
+    --- PASS: TestService/demo_search_removed (0.00s)
+    --- PASS: TestService/import_offline (0.01s)
+    --- PASS: TestService/missing_episode (0.00s)
+    --- PASS: TestService/history_optout (0.01s)
+    --- PASS: TestService/report_redacted (0.01s)
+    --- PASS: TestService/bad_progress (0.00s)
+    --- PASS: TestService/offline_default (0.00s)
+    --- PASS: TestService/summary_on_detail_error (0.01s)
+    --- PASS: TestService/demo_history (0.01s)
+    --- PASS: TestService/parser_encoded (0.01s)
+    --- PASS: TestService/progress (0.01s)
+    --- PASS: TestService/diagnostics_not_playback (0.01s)
+    --- PASS: TestService/store_restart (0.01s)
+    --- PASS: TestService/link_restore (0.02s)
+    --- PASS: TestService/catalog_search (0.01s)
+    --- PASS: TestService/cache (0.01s)
+    --- PASS: TestService/catalog_resolve (0.01s)
+    --- PASS: TestService/binding_required (0.01s)
+    --- PASS: TestService/favorite_roundtrip (0.01s)
+    --- PASS: TestService/clear_history (0.01s)
+    --- PASS: TestService/fallback (0.01s)
+    --- PASS: TestService/not_found (0.01s)
+    --- PASS: TestService/hls_disabled (0.01s)
+    --- PASS: TestService/locator (0.01s)
+    --- PASS: TestService/settings_types (0.00s)
+=== RUN   TestStorageCorruptNotOverwritten
+--- PASS: TestStorageCorruptNotOverwritten (0.01s)
+=== RUN   TestNoRemoteScriptsInConfig
+--- PASS: TestNoRemoteScriptsInConfig (0.00s)
+=== RUN   TestConfigDoesNotMutateGlobal
+--- PASS: TestConfigDoesNotMutateGlobal (0.01s)
+=== RUN   TestHTTP
+=== RUN   TestHTTP/root_cookie
+=== RUN   TestHTTP/root_csp
+=== RUN   TestHTTP/api_needs_session
+=== RUN   TestHTTP/bootstrap_needs_session
+=== RUN   TestHTTP/state
+=== RUN   TestHTTP/host_attack
+=== RUN   TestHTTP/origin_attack
+=== RUN   TestHTTP/crosssite_fetch
+=== RUN   TestHTTP/csrf_missing
+=== RUN   TestHTTP/demo_removed
+=== RUN   TestHTTP/bad_json_array
+=== RUN   TestHTTP/traversal
+=== RUN   TestHTTP/media_range
+=== RUN   TestHTTP/invalid_range
+=== RUN   TestHTTP/unknown_api
+=== RUN   TestHTTP/content_type
+=== RUN   TestHTTP/options
+=== RUN   TestHTTP/detail_demo
+=== RUN   TestHTTP/bindings
+=== RUN   TestHTTP/report
+=== RUN   TestHTTP/ping
+=== RUN   TestHTTP/resolve_demo
+=== RUN   TestHTTP/favorite_demo
+=== RUN   TestHTTP/clear_history
+=== RUN   TestHTTP/match_missing
+=== RUN   TestHTTP/consent_search
+--- PASS: TestHTTP (0.08s)
+    --- PASS: TestHTTP/root_cookie (0.01s)
+    --- PASS: TestHTTP/root_csp (0.00s)
+    --- PASS: TestHTTP/api_needs_session (0.00s)
+    --- PASS: TestHTTP/bootstrap_needs_session (0.00s)
+    --- PASS: TestHTTP/state (0.00s)
+    --- PASS: TestHTTP/host_attack (0.00s)
+    --- PASS: TestHTTP/origin_attack (0.00s)
+    --- PASS: TestHTTP/crosssite_fetch (0.00s)
+    --- PASS: TestHTTP/csrf_missing (0.00s)
+    --- PASS: TestHTTP/demo_removed (0.00s)
+    --- PASS: TestHTTP/bad_json_array (0.00s)
+    --- PASS: TestHTTP/traversal (0.00s)
+    --- PASS: TestHTTP/media_range (0.00s)
+    --- PASS: TestHTTP/invalid_range (0.00s)
+    --- PASS: TestHTTP/unknown_api (0.00s)
+    --- PASS: TestHTTP/content_type (0.00s)
+    --- PASS: TestHTTP/options (0.00s)
+    --- PASS: TestHTTP/detail_demo (0.00s)
+    --- PASS: TestHTTP/bindings (0.00s)
+    --- PASS: TestHTTP/report (0.00s)
+    --- PASS: TestHTTP/ping (0.00s)
+    --- PASS: TestHTTP/resolve_demo (0.01s)
+    --- PASS: TestHTTP/favorite_demo (0.01s)
+    --- PASS: TestHTTP/clear_history (0.01s)
+    --- PASS: TestHTTP/match_missing (0.00s)
+    --- PASS: TestHTTP/consent_search (0.00s)
+=== RUN   TestRealSocketStartAndShutdown
+--- PASS: TestRealSocketStartAndShutdown (0.00s)
+=== RUN   TestOfflineBrowserBridge
+--- PASS: TestOfflineBrowserBridge (0.00s)
+=== RUN   TestUIServerHarness
+    ui_harness_test.go:15: manual browser harness not requested
+--- SKIP: TestUIServerHarness (0.00s)
+PASS
+ok  	yingxia.local/desktop	4.198s

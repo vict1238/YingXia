@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Native vector banner: existing launcher mark with an 映匣 wordmark. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp" android:height="180dp"
+    android:viewportWidth="320" android:viewportHeight="180">
+    <path android:fillColor="#0F171B" android:pathData="M0,0H320V180H0Z" />
+    <group android:translateX="14" android:translateY="20" android:scaleX="1.3" android:scaleY="1.3">
+        <path android:fillColor="#182126" android:strokeColor="#8DDDC0" android:strokeWidth="1.5"
+            android:pathData="M30,20H78C83.5,20 88,24.5 88,30V78C88,83.5 83.5,88 78,88H30C24.5,88 20,83.5 20,78V30C20,24.5 24.5,20 30,20Z" />
+        <path android:fillColor="#00000000" android:strokeColor="#8DDDC0" android:strokeWidth="3.5"
+            android:strokeLineJoin="round" android:strokeLineCap="round"
+            android:pathData="M30,36H46V72H30ZM30,54H46M54,40H77V59H54ZM65,32V59M50,59H81M65,59C63,69 59,76 51,81M65,59C68,69 73,76 81,81" />
+    </group>
+    <group android:translateX="136" android:translateY="34">
+        <path android:fillColor="#00000000" android:strokeColor="#E9F1EF" android:strokeWidth="3.5"
+            android:strokeLineJoin="round" android:strokeLineCap="round"
+            android:pathData="M30,36H46V72H30ZM30,54H46M54,40H77V59H54ZM65,32V59M50,59H81M65,59C63,69 59,76 51,81M65,59C68,69 73,76 81,81M92,32H143M92,32V82H143M102,43H133V67H102ZM102,55H133M118,43V76" />
+    </group>
+</vector>

@@ -1,0 +1,2806 @@
+{
+  "version": "1.1.0-exe",
+  "created_at": "2026-10-13T14:33:52.7065983Z",
+  "file_count": 559,
+  "excludes": [
+    "MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "files": [
+    {
+      "path": "current_source/BUILD_WINDOWS.bat",
+      "size": 467,
+      "sha256": "493afea453fba292d9cc71d6a162f1eaa674378c736acb4ae64e7739f0f965b9"
+    },
+    {
+      "path": "current_source/build_windows.sh",
+      "size": 222,
+      "sha256": "dd3199e1914e2b5c21300551107a3ec64ffef8368ff9ac5326aa1c818a21333a"
+    },
+    {
+      "path": "current_source/catalog.go",
+      "size": 6318,
+      "sha256": "3ad633be212cb2b545f6abf5e6b3092adb42f12f4c591f09fbfbb8a0592a1c2c"
+    },
+    {
+      "path": "current_source/core_test.go",
+      "size": 17076,
+      "sha256": "db0381fc66641f17ee33a4cc649ac663522740f54e94d68dc5bd2ac86001b4b6"
+    },
+    {
+      "path": "current_source/docs/browser_smoke.cjs",
+      "size": 13998,
+      "sha256": "c0778b7c9d39d02bd87db7ed1a50a9fc729903fe17fd91ebed03084ec7add496"
+    },
+    {
+      "path": "current_source/docs/BUILD_INFO.json",
+      "size": 1127,
+      "sha256": "c399cb5b7cce1e99d7576ee87b03ef8600faad61acd4ed36cb9b3adcf335bfb2"
+    },
+    {
+      "path": "current_source/docs/history_v1.0.1/browser/browser_tests.json",
+      "size": 2489,
+      "sha256": "f1ef60f7462e5b875a093112fb3e9fd8ff6b90d95a3d26fcfea72feeb11785f9"
+    },
+    {
+      "path": "current_source/docs/history_v1.0.1/browser/ui_demo_results.png",
+      "size": 139331,
+      "sha256": "a0de94b913a6954262065084ab8c72c7f70d1b959aa310d2bc6c1bdd65d914cf"
+    },
+    {
+      "path": "current_source/docs/history_v1.0.1/browser/ui_home.png",
+      "size": 157137,
+      "sha256": "f3e9a97b5381facece6b9875298e4a14a299da42d0d9c69c01e9565fe4daf522"
+    },
+    {
+      "path": "current_source/docs/history_v1.0.1/browser/ui_player.png",
+      "size": 212367,
+      "sha256": "550e2a30ded634b1f056d9adad12d08a9862bb808b83d7fff67aa0c8bc4bc7ca"
+    },
+    {
+      "path": "current_source/docs/history_v1.0.1/browser/ui_settings.png",
+      "size": 211019,
+      "sha256": "d476b6eb9ad81639cbfb57570d63972eb72cfa8799d098876400a40a6ee3b855"
+    },
+    {
+      "path": "current_source/docs/history_v1.0.1/BUILD_INFO.json",
+      "size": 977,
+      "sha256": "b41efd48d476aa2e68d35387866fa1e331f0bf7bfa4ea7214ef22750aaf6200c"
+    },
+    {
+      "path": "current_source/docs/history_v1.0.1/go_vet_windows.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "current_source/docs/history_v1.0.1/go_vet.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "current_source/docs/history_v1.0.1/native_tests.txt",
+      "size": 10755,
+      "sha256": "1f5f4e35c875e7bcbafbce5ad36f57bdee799804287a5b41fd57939f62c7ae53"
+    },
+    {
+      "path": "current_source/docs/history_v1.0.1/production_cli_test.json",
+      "size": 468,
+      "sha256": "f2168020ef2a1b6564bd79fc1ac8aeedbefc76a65d795cb7008a05a3f4e74f01"
+    },
+    {
+      "path": "current_source/docs/history_v1.0.1/VALIDATION.md",
+      "size": 2164,
+      "sha256": "f673b55d6e3049638c9cddc4a329094fde6d0f96b26c1be09471bc0ab84015d6"
+    },
+    {
+      "path": "current_source/docs/history_v1.0.2/browser_smoke.cjs",
+      "size": 10785,
+      "sha256": "c14fd6de3beb74d754fcf2e0cd10c38abb80a71ea42da968ab14aac064dc1a02"
+    },
+    {
+      "path": "current_source/docs/history_v1.0.2/BUILD_INFO.json",
+      "size": 968,
+      "sha256": "3eb039818c6cb2dae4b5d0ec285c98eb70bb107aa3a0689642a73dcce4e87071"
+    },
+    {
+      "path": "current_source/docs/history_v1.0.2/release_smoke.cjs",
+      "size": 6079,
+      "sha256": "c8e94dad9ad106e9bd62b722a505298c8a3f52cfd6facfc99e88870e399c3332"
+    },
+    {
+      "path": "current_source/docs/history_v1.0.2/VALIDATION.md",
+      "size": 1313,
+      "sha256": "2adf06c9b75f049ecd5a7cc0e0e5b050d6998c77a966851d5981e672f84bbe94"
+    },
+    {
+      "path": "current_source/docs/HLS_BUILD.json",
+      "size": 132,
+      "sha256": "3cd3a2484ccff824042bdc0b6a1b0928908ae1ea85f48397fd786071cccb02c6"
+    },
+    {
+      "path": "current_source/docs/ITERATION_v1.1.0.md",
+      "size": 3466,
+      "sha256": "ddfc9437ecaa5051e64ba513c68a519ba5555aa4fe3b9f5583ec7af6e13019d3"
+    },
+    {
+      "path": "current_source/docs/live_sources.cjs",
+      "size": 5902,
+      "sha256": "fe7beadd5aebcbaa5b2c545bf298af335d29a21deb4a5e0455d2c64cc4b0d606"
+    },
+    {
+      "path": "current_source/docs/package_release.ps1",
+      "size": 4700,
+      "sha256": "57434f4969d35e8b508c3573142a877b608d733d642aa16836256ff7b1664db0"
+    },
+    {
+      "path": "current_source/docs/release_smoke.cjs",
+      "size": 6490,
+      "sha256": "490192c8a9c0f6db2a738eaf710c449b463a6d94e282bb1bbd763fd74b0d365b"
+    },
+    {
+      "path": "current_source/docs/validation_v1.0.2/browser_smoke.txt",
+      "size": 812,
+      "sha256": "c08ccee26736cf6e041883e558e5d65b4f103dcceb7d38639414df7f90a0e29f"
+    },
+    {
+      "path": "current_source/docs/validation_v1.0.2/browser_tests.json",
+      "size": 1858,
+      "sha256": "4a4ec77772507a742ab2e780660ecf62b8e83ab0dcd1a8dfc8e0f5b4fcbd74ba"
+    },
+    {
+      "path": "current_source/docs/validation_v1.0.2/go_test_windows.txt",
+      "size": 11028,
+      "sha256": "5ff2bece0b20a0521b743b33d81b3cc7db5e9b4e0a2bccafbc7c03165c03f2c7"
+    },
+    {
+      "path": "current_source/docs/validation_v1.0.2/rebuild_check.json",
+      "size": 296,
+      "sha256": "62f46ae491de16c0952e7d985f25974b93e3881f3cec255fb8aa187756ff4e31"
+    },
+    {
+      "path": "current_source/docs/validation_v1.0.2/release_home.png",
+      "size": 26604,
+      "sha256": "9b26e91a0eb156c5b921da2bf67583d5128a8325c91ba5c939c3ad84842ce729"
+    },
+    {
+      "path": "current_source/docs/validation_v1.0.2/release_smoke.txt",
+      "size": 471,
+      "sha256": "77e5d70cd4d234514e86eaa82242cea3e188cb9dcb53ffaf026a330bde945a64"
+    },
+    {
+      "path": "current_source/docs/validation_v1.0.2/release_tests.json",
+      "size": 1049,
+      "sha256": "a2847a9c55860b2bd2eca2481278e77f60fb56a99c85797eb160d237c14ad8b3"
+    },
+    {
+      "path": "current_source/docs/validation_v1.0.2/ui_home.png",
+      "size": 26604,
+      "sha256": "9b26e91a0eb156c5b921da2bf67583d5128a8325c91ba5c939c3ad84842ce729"
+    },
+    {
+      "path": "current_source/docs/validation_v1.0.2/ui_library.png",
+      "size": 79983,
+      "sha256": "c46f580f04aea4a5226fddbdeb6bcdca303de6ba0aa8f27ef0eae3bc47755d05"
+    },
+    {
+      "path": "current_source/docs/validation_v1.0.2/ui_player.png",
+      "size": 159534,
+      "sha256": "7cfd81bcc0ca8b1330fbfaa0c1568b727b99129137c7f7c53c5f1d4731fb2939"
+    },
+    {
+      "path": "current_source/docs/validation_v1.0.2/ui_results.png",
+      "size": 75802,
+      "sha256": "fd5e27f4b5acfbc1fafd7fc94be123c68c8118d84190298e31efe76d26173a28"
+    },
+    {
+      "path": "current_source/docs/validation_v1.0.2/ui_settings.png",
+      "size": 77515,
+      "sha256": "5417eb639e902ad2d70be25ff37cb6d60b6946a32141e8eea5e7c5d115d021f8"
+    },
+    {
+      "path": "current_source/docs/validation_v1.1.0/browser_sniff.txt",
+      "size": 115,
+      "sha256": "ec53f7c9bb19df0a36b49fbbc46a31934079225c6fdddace64ada48ec47f1ddc"
+    },
+    {
+      "path": "current_source/docs/validation_v1.1.0/browser_tests.json",
+      "size": 2534,
+      "sha256": "d15acf45d227b2c7f7632f0b93e648404f5ea57ab17355d585f19cb7271ccf5c"
+    },
+    {
+      "path": "current_source/docs/validation_v1.1.0/build_reproducibility.json",
+      "size": 533,
+      "sha256": "53637551e11e049eefc89604ce8bcfaacb5f9723556690857d34b8ca7c0a07ef"
+    },
+    {
+      "path": "current_source/docs/validation_v1.1.0/checks.json",
+      "size": 138,
+      "sha256": "5854c44b64305dd5adb195795a40e32a96348b9cca42bdea9afb5f1a4ac3d429"
+    },
+    {
+      "path": "current_source/docs/validation_v1.1.0/go_build_modules.txt",
+      "size": 743,
+      "sha256": "c45f622b316ca16d3c4035ff97ee1281a7d5410b27ab69316f8933ef794ac3d2"
+    },
+    {
+      "path": "current_source/docs/validation_v1.1.0/go_tests.txt",
+      "size": 14519,
+      "sha256": "ecba079ea2c740394c9a39058a180f776f9cf0be6378b8763a4ccd05d3cb68c9"
+    },
+    {
+      "path": "current_source/docs/validation_v1.1.0/live_search.json",
+      "size": 7165,
+      "sha256": "14ff8e019c4074a4acd1be4aa03a4053b39f82975b97b6993fb67970e9930439"
+    },
+    {
+      "path": "current_source/docs/validation_v1.1.0/live_sources_first.json",
+      "size": 12199,
+      "sha256": "9d23f5a928286831f3906b9fffbc899a235e36a94d07293e207c0d57d1eb1929"
+    },
+    {
+      "path": "current_source/docs/validation_v1.1.0/live_sources.json",
+      "size": 13200,
+      "sha256": "6b905daf24f162664046c18df76ad35b6a8b1f57b0e14696e78ffc22e8d6526f"
+    },
+    {
+      "path": "current_source/docs/validation_v1.1.0/release_home.png",
+      "size": 26927,
+      "sha256": "ecae34a39378dd167fa7c204012481c1f5150d24b3cbbb2bec4e2bf153c3ef00"
+    },
+    {
+      "path": "current_source/docs/validation_v1.1.0/release_tests.json",
+      "size": 1245,
+      "sha256": "78a064b7985f81a2410c3e95e9e0c76aeaf07eec7989bdbf0239e31d1eefe926"
+    },
+    {
+      "path": "current_source/docs/validation_v1.1.0/ui_hls_player.png",
+      "size": 164639,
+      "sha256": "305ed75407be5cb2913538d1a61853fc739c69367109e96871b8f037f8730a15"
+    },
+    {
+      "path": "current_source/docs/validation_v1.1.0/ui_home.png",
+      "size": 26927,
+      "sha256": "ecae34a39378dd167fa7c204012481c1f5150d24b3cbbb2bec4e2bf153c3ef00"
+    },
+    {
+      "path": "current_source/docs/validation_v1.1.0/ui_library.png",
+      "size": 79518,
+      "sha256": "f94914e6267b813d72344ac8a77059493d8d2c4f4d4dc2a91e22b7474733e760"
+    },
+    {
+      "path": "current_source/docs/validation_v1.1.0/ui_player.png",
+      "size": 159593,
+      "sha256": "9e57dd031783cf2f7ddfd31fb892303d5974211afff158a33e9a1d2575e77c39"
+    },
+    {
+      "path": "current_source/docs/validation_v1.1.0/ui_results.png",
+      "size": 76710,
+      "sha256": "ad1346c0ecbaf049e904f03e67d007c0880bbb04b9d293bcfb0e28a676d272e3"
+    },
+    {
+      "path": "current_source/docs/validation_v1.1.0/ui_settings.png",
+      "size": 132988,
+      "sha256": "4d71e9d5039e696e5a6a4c345b2f5dde82ef26800476b66a0064b3fb722a99c1"
+    },
+    {
+      "path": "current_source/docs/VALIDATION.md",
+      "size": 2880,
+      "sha256": "c137a121cc895c61c9a77923318fb72c7eda1452f18343d9d869eea397d17e64"
+    },
+    {
+      "path": "current_source/GO_PATENTS.txt",
+      "size": 1303,
+      "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc"
+    },
+    {
+      "path": "current_source/go.mod",
+      "size": 481,
+      "sha256": "6197f05774f018cafa3e8007981784da9299473ea015b0a109b67644f7718429"
+    },
+    {
+      "path": "current_source/go.sum",
+      "size": 7455,
+      "sha256": "8388cc37646d9a9d2f5a1ea6aa1df64ad168f9a2c1dde3a2ccdc9fbecb361e2e"
+    },
+    {
+      "path": "current_source/http_test.go",
+      "size": 5474,
+      "sha256": "b309544ee9a6933973a544d0ab21c31ca332aa64eb0f2b4778c0ec9f7c276169"
+    },
+    {
+      "path": "current_source/LICENSE_GO.txt",
+      "size": 1479,
+      "sha256": "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067"
+    },
+    {
+      "path": "current_source/LICENSE.txt",
+      "size": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "current_source/licenses/Apache-2.0.txt",
+      "size": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "current_source/licenses/KazumiRules_LICENSE.txt",
+      "size": 1065,
+      "sha256": "89331c2a35f4d73bb9f30dff98c9222971366ab1e46e757cb9a8bb865ed4ee8a"
+    },
+    {
+      "path": "current_source/main.go",
+      "size": 6380,
+      "sha256": "407e15ceef6205720b2f024550cd92605890dd003d3f9385d95dc4fe087da032"
+    },
+    {
+      "path": "current_source/media.go",
+      "size": 8362,
+      "sha256": "1251fa84dc8f6df7387144cdbde6edc24c431ace234e71b66f9f1c563e3e535f"
+    },
+    {
+      "path": "current_source/models.go",
+      "size": 8420,
+      "sha256": "15e1b0ed6e3eebb6d51bcb2c840a9dcdc4c41b7be444acafdd3c982f7822be1b"
+    },
+    {
+      "path": "current_source/network.go",
+      "size": 7005,
+      "sha256": "215f422cb7d6ef02bc944d895164d43c7869c30a15dd287f20908c96af986e70"
+    },
+    {
+      "path": "current_source/platform_linux.go",
+      "size": 1116,
+      "sha256": "b0154716bf6ed973ce06817b6cd3d2c9c349c60ddc431043ff9386747c6d36f8"
+    },
+    {
+      "path": "current_source/platform_windows.go",
+      "size": 3436,
+      "sha256": "c5d4469306888de5456d83df24986936e2da53a94daf5f86e2bdb54a648215a1"
+    },
+    {
+      "path": "current_source/providers_test.go",
+      "size": 696,
+      "sha256": "698e28989bee9795bfbb83cd8ca8d5a96ccc8db05cf94f9fa43652b366c03d02"
+    },
+    {
+      "path": "current_source/providers.go",
+      "size": 13879,
+      "sha256": "36cb6a74439c2c8f745dc2018ff77d1a9110cafeda160d01781f1f421315b1f7"
+    },
+    {
+      "path": "current_source/providers.json",
+      "size": 21847,
+      "sha256": "f55c54b72315f725b2647d2a18dd1e006b55ca95601fc40008e7aba47f098e1b"
+    },
+    {
+      "path": "current_source/README_zh.md",
+      "size": 4881,
+      "sha256": "997694185dcf2566f8f2fe814c7e923e8a3c4757fbce996873848deff65915c4"
+    },
+    {
+      "path": "current_source/rules.go",
+      "size": 15283,
+      "sha256": "473415ac618f55777ce77c7553e0b714b29bb8e7add1af90cd4dd5a50a929559"
+    },
+    {
+      "path": "current_source/security.go",
+      "size": 5517,
+      "sha256": "805509bd7133d8ef6e54a103a2b97246096834a499b4b7f1be3e6b9ba9dd9677"
+    },
+    {
+      "path": "current_source/server.go",
+      "size": 9182,
+      "sha256": "8afb05c5964096176c496536374b295d43036569ae5b798b198f6e3449720d41"
+    },
+    {
+      "path": "current_source/service.go",
+      "size": 14866,
+      "sha256": "0f63de7cb49a219dc51a9a465db6767231b2355ca38d7b258a1f2c693d986cbb"
+    },
+    {
+      "path": "current_source/sniffer.go",
+      "size": 4351,
+      "sha256": "d87f0e6ed25d89e453ed5a6d1f55b5f5026222308ecbb1ad0d62934aff0ce879"
+    },
+    {
+      "path": "current_source/sources_integration_test.go",
+      "size": 17066,
+      "sha256": "d9a482e45a26d78e037010e2aae04033e0e6772088561e01815572e05403fdab"
+    },
+    {
+      "path": "current_source/sources.json",
+      "size": 1378,
+      "sha256": "669332441d346816f65203a82b7660d306c640aaa60d0017e45bb62744dbf152"
+    },
+    {
+      "path": "current_source/storage.go",
+      "size": 5504,
+      "sha256": "5dabb0d6b85d740693147289d9c726fe09e43f9c4d7e75f1f1a58b4798322c65"
+    },
+    {
+      "path": "current_source/testdata/demo/clip1.webm",
+      "size": 198654,
+      "sha256": "c33f04d4b03ae986dab64230c6b07a22cee0a60f8397dd8806442d97a651a572"
+    },
+    {
+      "path": "current_source/testdata/demo/clip2.webm",
+      "size": 204370,
+      "sha256": "6271f5d123751d725416df8a90e71730c014253ef55cec5d9be02a52cc1496c4"
+    },
+    {
+      "path": "current_source/testdata/hls/main.m3u8",
+      "size": 275,
+      "sha256": "07dd8aa9ddccf7b04baad99ac292913c966ebd1058e8ee7840e08b57cfa4950c"
+    },
+    {
+      "path": "current_source/testdata/hls/main0.ts",
+      "size": 71628,
+      "sha256": "42cb078e6f70ce3b963a6bc9f44fe12f189e29707bc342d32a62f45a3541067d"
+    },
+    {
+      "path": "current_source/testdata/hls/main1.ts",
+      "size": 77644,
+      "sha256": "0577eff3e5c6701ae40c65ae4b06e3c394a45d1c339594d45ccd653d4afce721"
+    },
+    {
+      "path": "current_source/testdata/hls/main2.ts",
+      "size": 82532,
+      "sha256": "0a6ccfa1723eab46991ebc7439960d12a407c93cc5a9c42915d8efa891a09a9e"
+    },
+    {
+      "path": "current_source/testdata/hls/main3.ts",
+      "size": 87984,
+      "sha256": "5e2446b3009705dc1ef1eb3f5070b6dd0844b083c12032136408aceb1e596ced"
+    },
+    {
+      "path": "current_source/testdata/hls/main4.ts",
+      "size": 78772,
+      "sha256": "099f3fc798c67ff9f199abfa6bba2816f2348ce554ba88466a5e5da5860e4ebb"
+    },
+    {
+      "path": "current_source/testdata/hls/main5.ts",
+      "size": 79900,
+      "sha256": "e2165d96ef61793d271a2c7acd74a5ab87a55ece5aae9861d84f4abc7a5cbcf2"
+    },
+    {
+      "path": "current_source/testdata/hls/master.m3u8",
+      "size": 137,
+      "sha256": "61030828b936d2fa3e390e6672c878f276f229d42ac67778d1a26459184a4cce"
+    },
+    {
+      "path": "current_source/THIRD_PARTY_NOTICES.md",
+      "size": 2866,
+      "sha256": "ff571db955287683285d52b1604d78828750913d5450c20c887b6a26976b16cd"
+    },
+    {
+      "path": "current_source/ui_harness_test.go",
+      "size": 2142,
+      "sha256": "d4177441f3690c3ed7bba2570770bc9ddb3af2fd41d66f20a342dd0d0faadc4b"
+    },
+    {
+      "path": "current_source/updates.go",
+      "size": 10981,
+      "sha256": "fee94792b808c47dd53d0fbbb3d1fa0c2eab554f8b406fca9368a770e476c961"
+    },
+    {
+      "path": "current_source/vendor/github.com/antchfx/htmlquery/.gitignore",
+      "size": 306,
+      "sha256": "06dc379c60e2902f3b7af7abaefb25ef6b7db60d85b3ab7e5b9da2f23c7913b4"
+    },
+    {
+      "path": "current_source/vendor/github.com/antchfx/htmlquery/cache.go",
+      "size": 914,
+      "sha256": "58d0dac1bb52c8b744f273ae05543c99807e79c58bbdece123e4dd96032ec732"
+    },
+    {
+      "path": "current_source/vendor/github.com/antchfx/htmlquery/LICENSE",
+      "size": 1022,
+      "sha256": "c181eed254a608399a1059ddf5cb72cb1f1a5841a083aaa30f3e6713853ddf9f"
+    },
+    {
+      "path": "current_source/vendor/github.com/antchfx/htmlquery/query.go",
+      "size": 8375,
+      "sha256": "c72879f920c127f99ba8c3af7a199e07d94576fa27063999c58167cc0a3235ee"
+    },
+    {
+      "path": "current_source/vendor/github.com/antchfx/htmlquery/README.md",
+      "size": 4321,
+      "sha256": "508eb0ea57f2b8f756216988ce4abd2edc0281ac41a2df98926f4b0837dc0a0e"
+    },
+    {
+      "path": "current_source/vendor/github.com/antchfx/xpath/.gitignore",
+      "size": 306,
+      "sha256": "06dc379c60e2902f3b7af7abaefb25ef6b7db60d85b3ab7e5b9da2f23c7913b4"
+    },
+    {
+      "path": "current_source/vendor/github.com/antchfx/xpath/build.go",
+      "size": 22264,
+      "sha256": "cdd71959380b0cc7c06b1e820ed41912ff0f6bb6dcce79e099d4a1f15d292ba8"
+    },
+    {
+      "path": "current_source/vendor/github.com/antchfx/xpath/cache.go",
+      "size": 2406,
+      "sha256": "cbfd6a7cc386a63b08d4c3b74b216d17ac769b425dcfbfa7112f87f16014f31a"
+    },
+    {
+      "path": "current_source/vendor/github.com/antchfx/xpath/func_go110.go",
+      "size": 120,
+      "sha256": "329608a9ee86fb5aab1cb67da968c8fb3584320c725f02a9e10cfe3f2ef9aa3a"
+    },
+    {
+      "path": "current_source/vendor/github.com/antchfx/xpath/func_pre_go110.go",
+      "size": 116,
+      "sha256": "630afb00e8cbdafc66d3df92190b71b2b58235cc39f636c459defa534aea4d25"
+    },
+    {
+      "path": "current_source/vendor/github.com/antchfx/xpath/func.go",
+      "size": 18128,
+      "sha256": "95b56643f21460058944a5f036d1c9a5538aecd2f67b698d4bc6780e613bcda8"
+    },
+    {
+      "path": "current_source/vendor/github.com/antchfx/xpath/LICENSE",
+      "size": 1022,
+      "sha256": "c181eed254a608399a1059ddf5cb72cb1f1a5841a083aaa30f3e6713853ddf9f"
+    },
+    {
+      "path": "current_source/vendor/github.com/antchfx/xpath/operator.go",
+      "size": 7094,
+      "sha256": "b722055d9d64947a5a575f920ae9f49eeedbf1389b49874c49fda7dfd94877b3"
+    },
+    {
+      "path": "current_source/vendor/github.com/antchfx/xpath/parse.go",
+      "size": 28071,
+      "sha256": "5bcba86119879a68023c40a68ddd1ce8cb7e49cb0801ac5311c50ef4fb0e9ead"
+    },
+    {
+      "path": "current_source/vendor/github.com/antchfx/xpath/query.go",
+      "size": 30259,
+      "sha256": "7298de92354b7b2c47dd5d22e9de23f2353b2ec111ceb761063561f9dc2472ae"
+    },
+    {
+      "path": "current_source/vendor/github.com/antchfx/xpath/README.md",
+      "size": 6093,
+      "sha256": "f1cc116ea8764a51697219fcbd3d7cc8d39d2e4b08057fd1aa37fb87454946ff"
+    },
+    {
+      "path": "current_source/vendor/github.com/antchfx/xpath/xpath.go",
+      "size": 4651,
+      "sha256": "4e364f2a84b64d89a735a1e00e14994a34217916309d6448fb711c832c32f957"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/.gitignore",
+      "size": 13,
+      "sha256": "b1a5e9de6572000d8df374edc82d984cbbc37d82544b53976b14bf3db5a6e495"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/accessibility/accessibility.go",
+      "size": 8805,
+      "sha256": "4e4efda849b8a6f0fc0cc23003eaae323c5c8d051b801c6582d02e37dca04b9d"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/accessibility/events.go",
+      "size": 723,
+      "sha256": "c24bab39e98569ff7640c2bbd1e76a868c34ee9ae48a0035a0bd491eab200f11"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/accessibility/types.go",
+      "size": 12871,
+      "sha256": "f74e532ae92e43ef9f37a6302f3665366668e9079cdc1f95aa62b9af314ce3a7"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/ads/ads.go",
+      "size": 1351,
+      "sha256": "f33ed1513e7d1e4cf9e5284773676ae29e86f3070362ff803fa5ebb78be5869e"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/ads/types.go",
+      "size": 2745,
+      "sha256": "95550e4efe4162cca74abf6082d045889d0ea3d7cf557a0107487a8a0501f294"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/animation/animation.go",
+      "size": 7016,
+      "sha256": "897881284f08bc3f128dd864c45674c1e1ee03b8c667483b00fa7c5b0653b616"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/animation/events.go",
+      "size": 1172,
+      "sha256": "2d2120451d94fab827fac74f823302a1742de7527be4c9c880768b6f55833ff2"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/animation/types.go",
+      "size": 5301,
+      "sha256": "1a17c99b30024aa4d5e81e511832742fa555161d9310922ad4c8c9a5aa315979"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/audits/audits.go",
+      "size": 3306,
+      "sha256": "c8f7cac861603f3c74982b2219c7f9a650474a8f52ebb9bf6d1591fbc77fbed7"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/audits/events.go",
+      "size": 256,
+      "sha256": "50d85dd07626f6ed59d39bbd90a2fb5a617a571bb429b9d684583f4b0821ec6a"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/audits/types.go",
+      "size": 83089,
+      "sha256": "dee78279b7d1f69b31a28c986c10d8d522cf0935a343a233a55e46485777a4c5"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/autofill/autofill.go",
+      "size": 2595,
+      "sha256": "26c2e9331239b3ee8577721d6d6229b34dadb0f2908360c1ce46312e8d5bc931"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/autofill/events.go",
+      "size": 554,
+      "sha256": "0709a5e4ef9ed90cb6947a954df9ca8d068aad1977cd239217d901635cc5258e"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/autofill/types.go",
+      "size": 3697,
+      "sha256": "bf9cd7f0df80cf5c03022d3d0771644523602014d5773bec660759141c3746d8"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/backgroundservice/backgroundservice.go",
+      "size": 3095,
+      "sha256": "4bf4424be1686872a5d885b1fd7cc7b5f15f64ba67750e5bac247f99202882ea"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/backgroundservice/events.go",
+      "size": 813,
+      "sha256": "37faf1a591fa59e2f408a2d1236adc6e895fe5c462246532db15eb514c1f7370"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/backgroundservice/types.go",
+      "size": 2545,
+      "sha256": "b958602bcf6a8376c92f8de1c468176a7942d6043ca03c4ccb2fa0395567502b"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/bluetoothemulation/bluetoothemulation.go",
+      "size": 13347,
+      "sha256": "4e1c9d46931581dfaa9dca6015385e44a49553d6382ffab24be1082fea37c05e"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/bluetoothemulation/events.go",
+      "size": 1684,
+      "sha256": "c815ab3467e9ba5ea7c81977b31862a35d07e695d774c08845d298e25796f350"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/bluetoothemulation/types.go",
+      "size": 5561,
+      "sha256": "0e961a523d934c012fffd0e1131da176c9a22a05f535f277bee16e70b1d1cc68"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/browser/browser.go",
+      "size": 16677,
+      "sha256": "5b80dd0534d6e9a8342d2e5d90324f29b8857e61679877de4f3dc3331d7534a6"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/browser/events.go",
+      "size": 1679,
+      "sha256": "cd46c4c3a797319e528cda25349c5f61968e2bea980b52181e27d8e6a2070e9c"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/browser/types.go",
+      "size": 9042,
+      "sha256": "fd72f0b73558ba9a43e196ce6730ababd239499163bf9bbe70e7f945a13a2c74"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/cachestorage/cachestorage.go",
+      "size": 4735,
+      "sha256": "15503c7848a742837e622f899f0eeb2ea09bdfc01914f7c857b069f6bfffba2d"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/cachestorage/types.go",
+      "size": 3097,
+      "sha256": "072b12eb6840996b3c83af5f1965dbfe7e8a9ad354092ac5243158dd30a2448e"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/cast/cast.go",
+      "size": 3897,
+      "sha256": "eb8f57967a0958c3d71eaa83fb04744eabf18ccef4531c1525885a54b7d6e925"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/cast/events.go",
+      "size": 664,
+      "sha256": "c365ad45d14218da944a1576a089acc2532e1a18e665aec0dfcd6075fc2223c6"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/cast/types.go",
+      "size": 391,
+      "sha256": "44ae780c2628ab973313102a3f7ce36af171c0fbeeef66b34a4404643387652f"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/cdp/jsonv2/doc.go",
+      "size": 1877,
+      "sha256": "0145329442253957d0f1cd1e70d82d2bf15efced74ec97de3a32dbea8f906a66"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/cdp/jsonv2/json_compat.go",
+      "size": 2079,
+      "sha256": "b88c703319d1629e46dd6246615ff9f31cd417e0bf5306be28324ba442aad3d2"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/cdp/jsonv2/json_std.go",
+      "size": 2009,
+      "sha256": "5ac9d95269d92788da8688f194fae01fc9417dc2845617d4f88cc7d3962becef"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/cdp/types.go",
+      "size": 29466,
+      "sha256": "2c68542ee4cfb46afbe22a4b52ca05e962ccea3377fe396041be17e9db2a712c"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/cdproto.go",
+      "size": 152477,
+      "sha256": "26e16fbcc901487685a6c3587ee79292ce4f02c80f33f74c62f2922f752821d0"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/CHANGELOG.md",
+      "size": 9843,
+      "sha256": "486bb8bd4f029e77a87384f45e1da086f5aa7d6d85b659aa84e3d8ec0533031a"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/crashreportcontext/crashreportcontext.go",
+      "size": 901,
+      "sha256": "774d685ad20b931cbf9ab070efdf411789ca4f648a43d7b4abd280a121a18fdb"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/crashreportcontext/types.go",
+      "size": 466,
+      "sha256": "8ae7618bc5bb65b17b732fa19527fee433049eb7bca2d8e4a804a8ee9297010d"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/css/css.go",
+      "size": 39292,
+      "sha256": "4e5fba65af21d506dbbdf2ad7bedd3b12b15b0ac6803620e6eebfe6649346a7f"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/css/events.go",
+      "size": 1958,
+      "sha256": "3533233dba1a4e09ead6fc6f71e40c705c6be9727408a70540b3e3d0e0351f7b"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/css/types.go",
+      "size": 36746,
+      "sha256": "27cfa076bd99a3ba5b19f09a44bc61b8fea16282d816babb63c98eb7d152f8a7"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/debugger/debugger.go",
+      "size": 29204,
+      "sha256": "171176145bc01c59ecbca0204053d564c65cdd5b7320fcc31295580b184c0441"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/debugger/events.go",
+      "size": 7381,
+      "sha256": "a62f56eb9ed9933022ff7a3142a8b681b00359e93b8df1f87d38a69949d9bbf8"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/debugger/types.go",
+      "size": 12957,
+      "sha256": "c14a229246aa0ee1bfaa8af8abab46fb68a9a211d7a1e9beaf5831a963b396f8"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/deviceaccess/deviceaccess.go",
+      "size": 2178,
+      "sha256": "524643474815df77a0e3cee15d557171f8b9a7215cb34f4c7aa4497ac28855bc"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/deviceaccess/events.go",
+      "size": 440,
+      "sha256": "11be7016cb96d3aa0eaec0dea749800c945bef0dd2ddff5f6cab7cdfcf542003"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/deviceaccess/types.go",
+      "size": 896,
+      "sha256": "5f225bf2466cb30fb015269a8b4e61782895f99ff99bf2c03db4b8b30116e81f"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/deviceorientation/deviceorientation.go",
+      "size": 1447,
+      "sha256": "1ed38e4f8ee3a11ff9d6a1016d64f7b9193bf6362abb5aa49ef2d5629e9a8573"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/digitalcredentials/digitalcredentials.go",
+      "size": 1537,
+      "sha256": "c8315d2ce6845e2a83d986289dbe89f2796973d8887c39b568e1e585c3771f1e"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/digitalcredentials/types.go",
+      "size": 675,
+      "sha256": "291da4d41b8ded094358fda57de56a2f12e085568a1de143def496fa94c11651"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/dom/dom.go",
+      "size": 52518,
+      "sha256": "63a429667ce5a311cd892b55951e4bc44bffe2018b242d6bcd5b9d5fd6b2fe71"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/dom/events.go",
+      "size": 7186,
+      "sha256": "fde639f0b622ada30813a9a7b9ee1c921816c8468df23b315a91fb0f9b083b2d"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/dom/types.go",
+      "size": 5505,
+      "sha256": "1acbea4d84044d9e4eef9fa7831a1cfed91d9f0d0cee2e1aa274ed14f5877756"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/domdebugger/domdebugger.go",
+      "size": 6508,
+      "sha256": "ded29a71b9f3dfad04f4702f2daf30ca84248217b1f38e420425a580ad2ba6e4"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/domdebugger/types.go",
+      "size": 2576,
+      "sha256": "717efa35bbea1471c688724522995946c649e4032da7ae2ae6392fe581dbb5e2"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/domsnapshot/domsnapshot.go",
+      "size": 3248,
+      "sha256": "a9363a90a7a9f027172f6bf8f75c19bf4864a5f14b83ae14a8bbf6628972b82a"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/domsnapshot/types.go",
+      "size": 16856,
+      "sha256": "babec40b4b869ced36c439d021d1f1feefb14b22317e67574318468a005b9f3e"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/domstorage/domstorage.go",
+      "size": 4155,
+      "sha256": "ec3291e176006cf8d6e6671f309dc7bcfc0a658ffd79b61f9b5492089b842b71"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/domstorage/events.go",
+      "size": 1236,
+      "sha256": "90b4bd06b4e564e1037642dc81ae7d120ce73bcb2e66ff0d174a51ee50cadfb5"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/domstorage/types.go",
+      "size": 1067,
+      "sha256": "4eec5ea04e104214a9e229b16e9a0b7878a01d041842521528dbbe7c1a51dbac"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/emulation/emulation.go",
+      "size": 41347,
+      "sha256": "c4c4ae78f6815c824c5535bde9bceeec4b4465c2caa35e0b72b9f3cacbf9b485"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/emulation/events.go",
+      "size": 1038,
+      "sha256": "ba836ce2ecefc156aaca05d07e2463283c89c2cd6c51da357cfd8ae86c67988c"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/emulation/types.go",
+      "size": 18473,
+      "sha256": "43d9ea8ea34019ff0a8deea0bad848b8e0eb9724a9e8fdec74faf26f32021ae9"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/eventbreakpoints/eventbreakpoints.go",
+      "size": 2220,
+      "sha256": "c2f3195a66c72b71586267f03228be902ab022a0d0767e54245c4dffb4658729"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/extensions/extensions.go",
+      "size": 5889,
+      "sha256": "348e51b031f515f15c2858ca26ff56ebb4135c2b364ed101cd9af48e0cd71742"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/extensions/types.go",
+      "size": 1013,
+      "sha256": "641bdbcd2f16e931d95ce0bce2a93072510880792b6e44021bc79a4c977b8e71"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/fedcm/events.go",
+      "size": 809,
+      "sha256": "31a3db8f25bc6034ce7343dfb7c1573ba3321d344ba142f9cc66b6868b899a0a"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/fedcm/fedcm.go",
+      "size": 4009,
+      "sha256": "d701abfc8a036e6fce85a21caa244af4e6fd873d5f8a83fa9d5340c41a29c874"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/fedcm/types.go",
+      "size": 2791,
+      "sha256": "f081074aece46b009c08c419ebc0ec42f1d5821ecc8445e25467425ee115ca46"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/fetch/events.go",
+      "size": 3590,
+      "sha256": "8f842533efa49ff8150463dc1b9626bcaed6cf5bf6ed0c1f2d9e545158bb1a90"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/fetch/fetch.go",
+      "size": 12264,
+      "sha256": "4aff1ab8f5d7b3306f4a52061f4ee06835e28377aa140a29b854a5b5c5f03151"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/fetch/types.go",
+      "size": 4729,
+      "sha256": "973cfe29b4661a480b496a28beb116db91e6016afd476195d90e734487db814e"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/filesystem/filesystem.go",
+      "size": 996,
+      "sha256": "cb1a57b74de98d3d34a4c837bfa59cf554e0f92beb8e4fc99555ca25e91f1553"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/filesystem/types.go",
+      "size": 1551,
+      "sha256": "54a0bb34099370931bec127daca0b5b1257429d405bee17e2dacd26f669c6fa8"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/findinpage/findinpage.go",
+      "size": 1770,
+      "sha256": "aa94762d89a36dbba1e8f127684323e2efdcea352945e0eb1b2740e6e089b473"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/headlessexperimental/headlessexperimental.go",
+      "size": 2784,
+      "sha256": "098a5c79d307f5cf162736fa72773f9f5bdda9f5ef23e6f4ef63bffe3f93625a"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/headlessexperimental/types.go",
+      "size": 1266,
+      "sha256": "bf8e22d53c093e44a700473c7b121c78382f5fb06aeba80b81f375f5cd3239fd"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/heapprofiler/events.go",
+      "size": 1864,
+      "sha256": "8bea982c5a5c863ae89a61c8a0b451ffba4367adf7c2429cfec8abbaa0ba4e27"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/heapprofiler/heapprofiler.go",
+      "size": 10666,
+      "sha256": "2e3545bbfc8e70bffc8b39cd898bd5cd74ebb48f7514ea15f32c59347fa6ce2e"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/heapprofiler/types.go",
+      "size": 1967,
+      "sha256": "6187378c0ec76fd43bfa0a2449753f0b16172e066119ccf684e4e89e7727405c"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/indexeddb/indexeddb.go",
+      "size": 9751,
+      "sha256": "0513beca17d972f2cd7ad7c7c62bfc4d7b2ce622b87ba9d5717de801562c1839"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/indexeddb/types.go",
+      "size": 4028,
+      "sha256": "3a44df63efcf0ab0f05bc7ce044c0a56c5e7e69c451efc211f03f31749ffcd2c"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/input/events.go",
+      "size": 388,
+      "sha256": "38ecd994ea99a4cf3345e08cf95298b6e8d072bb70372bd78404a1e0036c407f"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/input/input.go",
+      "size": 19924,
+      "sha256": "ddaa1577f49b0ce9e9630b08e5eb55d92e942d68babc72a0e3804ccf86984edd"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/input/types.go",
+      "size": 8627,
+      "sha256": "8ff81ac99be62d5b851913e07fc1f977a0079325d4883e44d6a8aab7ff53eed0"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/inspector/events.go",
+      "size": 1073,
+      "sha256": "46cab2ea7dc11d45c9e3152360c474b82206db3ebc3f90f5c6c4467c80792070"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/inspector/inspector.go",
+      "size": 1933,
+      "sha256": "0e78431686a40216acb5a09f9265faba0d08df6fbc51266be1d1fd09587bd955"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/io/io.go",
+      "size": 3239,
+      "sha256": "a2e833c535cff9523930311d8780c9dd17479c7499e8e97a426862ed37957e36"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/io/types.go",
+      "size": 406,
+      "sha256": "c1ece64fcb59d8651c7ea0fd0eb273add551648e52a7b829ad50539e63cd6c85"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/layertree/events.go",
+      "size": 693,
+      "sha256": "2b408d2931d280f1b272114fa7dc0229b7cb10400a4bf348bbe5b21a784b39f0"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/layertree/layertree.go",
+      "size": 7485,
+      "sha256": "1cd345359a7c629ea091d37c0db48afa65bd1deab101b1616f4856c41d960f4f"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/layertree/types.go",
+      "size": 5692,
+      "sha256": "c5675b8777c7b0e769ed66ea9e75eb9e6fd0dc0bd8d06874537f8cd2449db459"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/LICENSE",
+      "size": 1084,
+      "sha256": "825f37ca7b6235d5f40cea575ce2418b375fb87f295197a00c00dcaea99d82fd"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/log/events.go",
+      "size": 273,
+      "sha256": "cff30ed8832d261e4174933c84296312bb4a15249b4035c94b8ec73345624c43"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/log/log.go",
+      "size": 2220,
+      "sha256": "30664ff45256ccbc53901feb7042e8a3b739dc3db35bdaeb43ff64c64dee5aa4"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/log/types.go",
+      "size": 4431,
+      "sha256": "bb62eb45148c178038a86d7b83ea4302444988580b2a3ebd09389b21e78c5da0"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/media/events.go",
+      "size": 1860,
+      "sha256": "249f4e5f9861ffb4a5583f4cc9c69c8c9b940d0c63b8b0e97bb4254415220504"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/media/media.go",
+      "size": 2471,
+      "sha256": "af72fe0dae10c6234c526c92f4e3e562cc437c5417a44715320954c17eec6312"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/media/types.go",
+      "size": 4511,
+      "sha256": "3ef22c11e8d5e638829080cf7a09518928e22081c4a84e8bf6cfbfca8e50f784"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/memory/memory.go",
+      "size": 6740,
+      "sha256": "d5b90ce97a18433304676c7158ce8a52629caf90b1a2bb37337d7e2443c48c40"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/memory/types.go",
+      "size": 2022,
+      "sha256": "335eb7d8c9e06949d7c06ba0fe4109d9397c846d4547f31ba0dba5ebc0e8714a"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/network/events.go",
+      "size": 27856,
+      "sha256": "cf66a064bb28cb6ca16cb558b6ec70dc3acb044b71ab0faccacce11094863126"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/network/network.go",
+      "size": 40494,
+      "sha256": "5aab26db8dd665c6cf4c3f01935518b80f6c96cee6017111a4be5daf6d4b695c"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/network/types.go",
+      "size": 102497,
+      "sha256": "f6940d8b4052dc628041ae6d4c445fc0ac68f2d74207a23fdbff66943750380c"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/overlay/events.go",
+      "size": 2113,
+      "sha256": "48b07a384375fe7236fa2713faeeb5b75a8da9376ba6ffc7024f2f7cbdd18cd1"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/overlay/overlay.go",
+      "size": 22694,
+      "sha256": "0fd3f10ee1e5ce44aa452589a5bd952d7f8bc182b08fbe0cd5dccd4921942d19"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/overlay/types.go",
+      "size": 22170,
+      "sha256": "fe93e6be13d744c454704bfc93f30fdfc6d502e6e012b9a655c5704ee681a553"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/page/events.go",
+      "size": 11844,
+      "sha256": "7fceb0a08987dcfd1cfcfc48a35d89f87147873636aa78c3e428518ab202313b"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/page/page.go",
+      "size": 52665,
+      "sha256": "d131dc28c310c0d31962fe7814b4cdaec627ead9188633f83f8fef18fc5e9e91"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/page/types.go",
+      "size": 68224,
+      "sha256": "58423a0ca4133c7ee509e79021141ac87c5b738ed863547f4b78c740e0ecbaa0"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/performance/events.go",
+      "size": 358,
+      "sha256": "c7d97748563b112deb04b9fa21e28ebfa3fc2cceec44d587d863ca9a801022cc"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/performance/performance.go",
+      "size": 1749,
+      "sha256": "01e385a29495f67bbfa211a5fa1f9cc007b6d0db82a51207b242f4890d49707c"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/performance/types.go",
+      "size": 800,
+      "sha256": "8c452c68c1258b1a92dca624def68b82db33f9779693525b4c4732c1525c201d"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/performancetimeline/events.go",
+      "size": 377,
+      "sha256": "4c8e646cb1cd3cdb9cc4879442bab2196e99205602ed5749de877af1192fd8b5"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/performancetimeline/performancetimeline.go",
+      "size": 1567,
+      "sha256": "13fb105a97715e636c5707b931eb36d1aa4fc65e918da73fb01993d5ebe44c13"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/performancetimeline/types.go",
+      "size": 2998,
+      "sha256": "111ca19051d519d5e709d965257b59a982a9f35073f4152259391a4521139b44"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/preload/events.go",
+      "size": 3538,
+      "sha256": "727c02b759ea7bd0094cffe0a2d06e3d3cf6dd3874c56e4c4670e0cdf7ba7364"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/preload/preload.go",
+      "size": 2438,
+      "sha256": "b016c40aa988120b5095871f61625464deacbcee07dac6944e8f1f21579ca3c7"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/preload/types.go",
+      "size": 22662,
+      "sha256": "16a0477e4cc223bd72f34bad40d1a54c6e6a326a7dd9e100854f99bd3899355d"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/profiler/events.go",
+      "size": 1981,
+      "sha256": "404f8f6e291817e42d47b121bd12dbcbcf0736d1c3a77e4ad0b1f5a809eb477a"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/profiler/profiler.go",
+      "size": 6454,
+      "sha256": "ffd8dbd5ce7a4a4fbec978f197427d3eb516499e581b27c2c95c07b8164125ca"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/profiler/types.go",
+      "size": 3650,
+      "sha256": "3127256662b06d625f65e3fa23118a966d6bd9bfb2d35cfdc9ead5e0357c0c56"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/pwa/pwa.go",
+      "size": 7851,
+      "sha256": "8e05e5565eaf95170ff39799b938d5c4c05e3118fa7bce64104231297e035f49"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/pwa/types.go",
+      "size": 1322,
+      "sha256": "219b0dfdf27e96f14d167deeed325e58be623d43d5974ead575152a9f01e1a47"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/README.md",
+      "size": 2978,
+      "sha256": "1a73eed310dae926f737c43703382960aae20d03724b92cd70fa91d0e903ef3f"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/runtime/events.go",
+      "size": 3993,
+      "sha256": "18eb94d820c234fff5e81d8775e9cfae13304319f59be1ca0de290f14a22cb0c"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/runtime/runtime.go",
+      "size": 28073,
+      "sha256": "541a02d8f1cbaf45731d6edb9d8b686f139ba6866866e67eb8dd3b996c335a41"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/runtime/types.go",
+      "size": 28119,
+      "sha256": "75dbbcc3c222e9c0aa32405726a515e4b681ee94aa7fd7ebbab36a097a4ff8cd"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/security/events.go",
+      "size": 415,
+      "sha256": "0db863b6ce797fb7790a7b80915c9fd00e1bcdcea89027905b832c5e163415cf"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/security/security.go",
+      "size": 1791,
+      "sha256": "6ec89eb7154c5ecd488796970cb30e6821070208ca43fc2f2b896ef655aa6996"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/security/types.go",
+      "size": 8012,
+      "sha256": "8802858bf6c8e5556f1ecb83ec4d1e70e7a2e14a0aeebebd3901fba3d9d8aaab"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/serviceworker/events.go",
+      "size": 811,
+      "sha256": "1f91855431c09966de93c4fb74958cacead5f4d098b07819ec06924771175a3c"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/serviceworker/serviceworker.go",
+      "size": 6681,
+      "sha256": "88482f0057b82652de63b1c62e38011b8f31d6f59677207a2dda3ffadca999d5"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/serviceworker/types.go",
+      "size": 6863,
+      "sha256": "b650ccc552a7a6bca4def304a6e1290dc754aa886e6c7649d74d38b453a8a94a"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/smartcardemulation/events.go",
+      "size": 8074,
+      "sha256": "01d84accd404dfc7b5a715d1a539ee1c2d0da0696645f9260de633a78c9ac9c2"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/smartcardemulation/smartcardemulation.go",
+      "size": 17962,
+      "sha256": "b74a73d4693e896392352f43521d29ebe7c54fd48f07f21a944710c96d204519"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/smartcardemulation/types.go",
+      "size": 6077,
+      "sha256": "ed630d08c22d0f7b6390c3e69c5e8e8d060a4c13eade76c18d03c9996ee7a9ac"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/storage/events.go",
+      "size": 2746,
+      "sha256": "d75abc0bb695e316e732b2bc540bf44161e020be3203107afde8ec515832aabc"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/storage/storage.go",
+      "size": 20748,
+      "sha256": "ca006ce344c1caaa71e6098e56d01faea64eab1e5bb963d9231842ccdfc76a09"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/storage/types.go",
+      "size": 4355,
+      "sha256": "bae2ad51a58d61ed4557d3c6fb25c93afaea5b9955563d9460d1c410c1425a0b"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/systeminfo/systeminfo.go",
+      "size": 2679,
+      "sha256": "ad2ffdb5e282bcc49470211fc0103d1d75cfe43da009dbecd5a1a29c1cf30c98"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/systeminfo/types.go",
+      "size": 5306,
+      "sha256": "26890d8bdde9fa08cd4e04e264c405ff100e5b973fd42b9542688b514b9f5f6d"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/target/events.go",
+      "size": 2505,
+      "sha256": "6a31713f8d359821e042525b9c48693f0fc88a8e53cd84e223a2a5f03a142ccc"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/target/target.go",
+      "size": 20639,
+      "sha256": "db5463b378ea9c766f935ceedff615c4e031d9fe3773efdc874bf08062ec3baf"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/target/types.go",
+      "size": 4322,
+      "sha256": "caf14c3e7851edb70f632a67567772545baa1a539cb35891dbd90d2011ab555a"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/tethering/events.go",
+      "size": 438,
+      "sha256": "1776c6a86187b042b7ccefb03762f2948c961f3b554028aeac9dabdbd43c05df"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/tethering/tethering.go",
+      "size": 1387,
+      "sha256": "41f99fd983077d47ea29602ddd6b75244925daa72d3887a53a9d6ab8d4c99101"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/tracing/events.go",
+      "size": 2011,
+      "sha256": "cc59cd78a879aa8854b26c2641d6634a26d81d0103d0299d1cf3e6d7fb76b074"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/tracing/tracing.go",
+      "size": 6717,
+      "sha256": "646ee48167d1d3e5691565aa50e2301aaf0a4454f1bcd5d7b1cc1fd0a5dbab08"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/tracing/types.go",
+      "size": 5509,
+      "sha256": "ef3f58f0cded76b2e120be994ea7352e35be0d50c2172c414074d0d4963b4479"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/version.go",
+      "size": 636,
+      "sha256": "ab5028b44ade7df6508fd1c260fcc699b613ad886c7ab929e9022b2af00dc569"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/webaudio/events.go",
+      "size": 4868,
+      "sha256": "a31a36cca08e9f931cead2603004d9c75774ed25f196d9595c4fd3dc2b78665a"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/webaudio/types.go",
+      "size": 6546,
+      "sha256": "46e33915084252eb667f451f020b96dc60bfa1c08dd376bca12ac607b114c357"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/webaudio/webaudio.go",
+      "size": 5474,
+      "sha256": "25a7e543bb4b999555ad3e8a38afe3d4f88dc4eecbe1fc4e8c374bbd01629639"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/webauthn/events.go",
+      "size": 1495,
+      "sha256": "7edcb3e651b2aabbfb9bf553dd0d94838691dea3324443a96a4e3551207d4c55"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/webauthn/types.go",
+      "size": 8483,
+      "sha256": "448d5c1df484f0e82ec08e5cdf98f42d9b37d4330651a302eee4e1b1440ddd5b"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/webauthn/webauthn.go",
+      "size": 11322,
+      "sha256": "def41cf8f136aab8bbcbf868dc03d1be9e5c4d0d00e738bb6ff4e0ce49be0783"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/webmcp/events.go",
+      "size": 2159,
+      "sha256": "3b99ce54dc8fafed42efa3c1e83d43fad2f5d13233a5688db479b2d8669dbda0"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/webmcp/types.go",
+      "size": 2779,
+      "sha256": "ca6451bc214b99f6a9f1a6148f09c587042e087d7ba2d59b5b2ce2762dff5289"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/cdproto/webmcp/webmcp.go",
+      "size": 3174,
+      "sha256": "32a25c89db615836fc778d29c7f853d6384b734ae9fe6339270b4f2ec61655c4"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/.gitattributes",
+      "size": 253,
+      "sha256": "57d4aab486407a421282cfb3cab79e01349f8902fa509e7fa6b9e5536a8624b8"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/.gitignore",
+      "size": 202,
+      "sha256": "f17392c6c950f42bfeaa8cc47dad033c9c92289ee6eb65a7b24f86bb49f9f8a6"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/action.go",
+      "size": 7868,
+      "sha256": "17c3c6a22a945a70a0a8492686306f837503b65d14ed75f4702c5cdb260c1f2e"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/AGENTS.md",
+      "size": 15151,
+      "sha256": "ae6d9881cd0217f89bb47a1272bde30efeb94b8b48ceb38b1c76f32da2925793"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/allocate_darwin.go",
+      "size": 2063,
+      "sha256": "743f5a6725776e3475ea0e6d86861dd681cc00bef4aad1aa2f0f5558a207b990"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/allocate_detach_unix.go",
+      "size": 366,
+      "sha256": "22fcc08dfbf3e9bab5278c42c062599bfce4e1fa1259a64e608b2755f4118d4b"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/allocate_detach_windows.go",
+      "size": 580,
+      "sha256": "1a40b7948f850d4e5423744993f48eb4924d96ada89bf0ef43e7bdca525fe938"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/allocate_linux.go",
+      "size": 2650,
+      "sha256": "f228a441bcdb0260d7fee717bdfc7303d1adbbb18fffa0403283f95a9c242cd5"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/allocate_other.go",
+      "size": 283,
+      "sha256": "6066c5d850c6290e5bd5950ab2cd9b80bd1d774c9807eda113b4cf247e54ba81"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/allocate_pipe.go",
+      "size": 6437,
+      "sha256": "a96b37c2762ed15385193211861565698410fbdf8faaf483cd461f2c42a3e04e"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/allocate.go",
+      "size": 30678,
+      "sha256": "283773a715d9e1282a869d00368e5547083f9c982c706ebac3eee995712cfe98"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/browser.go",
+      "size": 16440,
+      "sha256": "66bc2317db8f862623ffb5e9fbf0382557857a6a1ce93cfcb3fc4fcef04b5c66"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/call.go",
+      "size": 4165,
+      "sha256": "439330726f54b0e90c82c866e3822f8a559629d33e7883bbea948413585c3766"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/chromedp.go",
+      "size": 37039,
+      "sha256": "a47dc41e2e0d56394339634cd345bed11e2455a1531a0f3e05891fe5d03f6783"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/CLAUDE.md",
+      "size": 11,
+      "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/console.go",
+      "size": 13274,
+      "sha256": "4ae8220f9c151d70efa3c4c028c0b242489b35dd12511b3f5961edf8fc51c675"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/CONTRIBUTING.md",
+      "size": 1876,
+      "sha256": "322c196ddd0a46ce8b42a29c11848ec85e76276fad629367440395a48a087a59"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/device/device.go",
+      "size": 42811,
+      "sha256": "384e19e2d946462390a539a0ef5820d7bfd47f0db23bb160593dfaf57e368cde"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/drag.go",
+      "size": 11024,
+      "sha256": "488e9d569b26e575cb66dbc87096b1bb686f8eab3d8f453ba9228a58e30c6738"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/emulate.go",
+      "size": 5055,
+      "sha256": "13d3eecff929ff57abb1ea3a00ac6cbccec034a5c0037a2a8a7d391a0042a2ef"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/errors.go",
+      "size": 3798,
+      "sha256": "7347173c10d0a69ea88bc9f90cdecedc6bb524cc358bf8992b537ad07865acfc"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/eval.go",
+      "size": 5371,
+      "sha256": "28356408de767dbee914262afc53448e333f24ca2d61b8381916885449eb25d5"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/expose.go",
+      "size": 9161,
+      "sha256": "466253e29a777e74654e0aeebd03bfd873cef4f7b358806ba258ded4fa8f63bd"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/frame.go",
+      "size": 1502,
+      "sha256": "9e3457c674e81ff8526b53111a4bab8d6eb70623ae895444b34b84c2070aa87c"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/input.go",
+      "size": 7747,
+      "sha256": "3e3a6541550c9d7f901969343907966020cd2fc6c61f5a6d1467e546e5c7217b"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/js.go",
+      "size": 2363,
+      "sha256": "ec775fb2dfb9173f879e389597e5546858c7e8501628dda90bc99b290b79472b"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/js/attribute.js",
+      "size": 46,
+      "sha256": "590d53058d6fc66104d1dfcabd2dbb79bf996c0a69c23b995dea9f56f4bf492e"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/js/blur.js",
+      "size": 54,
+      "sha256": "03325b096ce305e95af5722084e51eb7777ae69058ba8fe25c61cc17d31748da"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/js/exposeFunc.js",
+      "size": 1525,
+      "sha256": "d68a58e813b7cf5b1d4be4cf6d99c8a9736815d78adf929d96d65bd6afaab7da"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/js/getClientRect.js",
+      "size": 243,
+      "sha256": "79c7e7820dd9b68fb2f935a296e7d02f7be0371feed5effe59f4cb72cd835b3c"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/js/reset.js",
+      "size": 269,
+      "sha256": "0940056baae3ec751fa727d1a1d05de743321162ab27edae7efff62393c687de"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/js/setAttribute.js",
+      "size": 231,
+      "sha256": "e5bbcfed81f822c25914ee2d07820357ab7156bc9d753588b13b62a5ed7829dc"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/js/submit.js",
+      "size": 272,
+      "sha256": "e5b8bee9422f7851eb70abc3fad4e49b206f91015500383af872c1f1d592d7df"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/js/text.js",
+      "size": 361,
+      "sha256": "0010378f83ff3c08cf12f066f2540ccbdcca143789b156952f51d21117bc4481"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/js/textContent.js",
+      "size": 56,
+      "sha256": "3be322d644b84a0b3352979e440bd7c77f6268f64206d136d7ef4dec518c5a80"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/js/visible.js",
+      "size": 114,
+      "sha256": "e028875b692560e95e0e096b470825d00bd5b4f113ffb34cb2699b06095a8d93"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/js/waitForPredicatePageFunction.js",
+      "size": 2375,
+      "sha256": "af10b897ce95768838032af669403c35e07a4fedbd9c72af6512a9ae1de2a4f1"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/kb/event.go",
+      "size": 1193,
+      "sha256": "bf8efdc2fe9293fbc3532b149f12effaa0775e3922b741ae270ca110c609e999"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/kb/kb.go",
+      "size": 23584,
+      "sha256": "2df018dbee809fa5ae9c83f7694a6763964e7fee414ee4a6a88048f24e51d981"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/keepopen.go",
+      "size": 9279,
+      "sha256": "07bfee01be7bda4de0942e73682834f916c3bc02b2352d407ecca191cdbd1647"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/LICENSE",
+      "size": 1084,
+      "sha256": "825f37ca7b6235d5f40cea575ce2418b375fb87f295197a00c00dcaea99d82fd"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/nav.go",
+      "size": 3969,
+      "sha256": "ecf3cf64c2d223348895e5a34e4229ab74ccf18c51b6c4a7e145d6432c1bff25"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/node.go",
+      "size": 8849,
+      "sha256": "36c8bad012131f13120b80f3988b2e7fba9ae7f2bb953b4e63de4380814d794b"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/pdf.go",
+      "size": 7670,
+      "sha256": "9888106f274a2155811b484b51283e153b011382f5f2779a3f70a1098f7f90a5"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/pipe_unix.go",
+      "size": 464,
+      "sha256": "ad57e8b207270d068013e341da608dd14f4e2bb12a29794279deabcc38150c5c"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/pipe_windows.go",
+      "size": 1610,
+      "sha256": "74fb6e81a335c461cb05895eb73a53acdb0523c7864769bbe1bc7c12dc073965"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/pipe.go",
+      "size": 3668,
+      "sha256": "a87073fd1cc3f7927bafd80bb92651b63a417ffe20da378181b71a9ea9e34663"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/poll.go",
+      "size": 5421,
+      "sha256": "86d7e444686059e587c6ef9374f5a54d0ddfb60c56b30470e328796009220135"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/query.go",
+      "size": 48268,
+      "sha256": "3b1dc2685b522a646eb12aee4fa1b9f3ac87c26c899dff205af30743decb233e"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/README.md",
+      "size": 23877,
+      "sha256": "d480b2f27cc8a55fda3530033120e5276dcddb0b08703f19e4bde6f328f696ef"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/remote/allocator.go",
+      "size": 4652,
+      "sha256": "94879f51acd3bf5397188abc0d15d77f3fbf92942f5f716471cf0076e1f585c2"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/remote/conn.go",
+      "size": 4845,
+      "sha256": "f962a9b941ed8a1f46fa1080e484bfc139a1b3aabb95557c03d3ef47ab216750"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/remote/internal/websocket/close.go",
+      "size": 4548,
+      "sha256": "c0fb1ad7af94b333ee2f8eafd037a9339a30ebec2cc0a53005bbc4dc1a1025ae"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/remote/internal/websocket/conn.go",
+      "size": 13849,
+      "sha256": "fddc97aa5a3430ab3b07029b3fb24ec32198093e8d174d15278bb505ef4e1cc8"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/remote/internal/websocket/doc.go",
+      "size": 673,
+      "sha256": "42951f21a8bb37653e4a4093bf7a87ba91ab7331a63e9eb38ecb5275144e422f"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/remote/internal/websocket/frame.go",
+      "size": 5083,
+      "sha256": "9edcee04da0e723968978fcb42a996e57f9f28b12574d232051eca7acab9b9e7"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/remote/internal/websocket/handshake.go",
+      "size": 9853,
+      "sha256": "e13278f2a7c6a0f3d5c9a3da033b3758f3b9e311dc4893a0d498b0f7b54c7252"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/remote/keepopen.go",
+      "size": 790,
+      "sha256": "e00de3fe92ec2115590f2450ed401e689376a238e0eb1bbb7a97e09c249d1ba4"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/remote/util.go",
+      "size": 3329,
+      "sha256": "17deead289e5fd2b67e208137546db8ca7d956dc72b9375bf04a87ee368fdfb9"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/remote/websocket.go",
+      "size": 1437,
+      "sha256": "f31977e17493b1aafbbc5bd7e81c13869ef1d0fc35144cce2f5ad9fafbfd890e"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/screenshot.go",
+      "size": 4953,
+      "sha256": "984c05cd5b5bfa9419766fce1b0faa9249719ea1b09632a36266cf4c89ca3791"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/session.go",
+      "size": 4617,
+      "sha256": "b73750f22736c4db9f5ddff177fe251f4afd66d0643251e25e302b2900b0bd11"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/skills-lock.json",
+      "size": 537,
+      "sha256": "ebac75c70413beb2e57c83e91ad3dac53f753bf5b1862d1a015dc2d111f5416a"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/target.go",
+      "size": 12805,
+      "sha256": "f5895c691f8c9402befd5459802a8f67ef2a0447ae23ac58b692db77d272ad09"
+    },
+    {
+      "path": "current_source/vendor/github.com/chromedp/chromedp/util.go",
+      "size": 5933,
+      "sha256": "92a919b436983b4ef330ecf3de927f4472a601e7fba0afb5b4e5e025d4549a85"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/alias.go",
+      "size": 51599,
+      "sha256": "659d77d37d626b98bf89017f2c72548924b9ef2c55bc62690094eecc673c1b27"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/api.png",
+      "size": 154576,
+      "sha256": "c267ed2b094bb62e7c324036ae51ec09c4f035c4dd9f5c1920ee43608488506c"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/arshal_any.go",
+      "size": 8271,
+      "sha256": "a6f6cd092a0ead09a7f72b06d034a3bdc9e922644216a0e0230e5da512610fa2"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/arshal_default.go",
+      "size": 61205,
+      "sha256": "567a2b6cf1c57fcded7bb26f90d34ab25d18259710946cac5091f09a8c1707bb"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/arshal_funcs.go",
+      "size": 16010,
+      "sha256": "2d0e09198d2d415cd540373b7d601f5e7dcc873f60463017978158ae8208a1bb"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/arshal_inlined.go",
+      "size": 7137,
+      "sha256": "95c635fa4aa5f77f98f4a791abbe38d5b8007481a482a55b4e8972051a106289"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/arshal_methods.go",
+      "size": 13928,
+      "sha256": "584cc3ebb99e2515e399955345741607fd503a2f018b94d019506b97d65a9785"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/arshal_time.go",
+      "size": 27397,
+      "sha256": "46f46a4b5cb6431c660ec109b9dbe66982939827dd7b97373e6967db2aeb372a"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/arshal.go",
+      "size": 26822,
+      "sha256": "09f7fee3cabd1c67ec1408f1104a02625ae3d0e7782a89825cd44568d768e937"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/AUTHORS",
+      "size": 174,
+      "sha256": "5aa3167c44245f0b12b27195d85c6a8c8e067cfdd511059daa4d7b3c5b232129"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/CONTRIBUTORS",
+      "size": 171,
+      "sha256": "fa714cb1012a065fbe08b174eb1f5604327bd24d42dab2c461878ce36f68d0c9"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/doc.go",
+      "size": 15187,
+      "sha256": "1bf55c0b9a94c239f70738ef3c487eca3a79dc13ce48deee086f2ae3bc240715"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/errors.go",
+      "size": 15785,
+      "sha256": "77e7cbee6a7ab48ea2d1cc2baca53ec91177c5d5e94041d596298daad55f8a90"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/fields.go",
+      "size": 24806,
+      "sha256": "4d7beaa29bff5a34e0d18e5ba2c47afdf7d628d53f0f054b67f39c7ff88ce5d0"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/fold.go",
+      "size": 1503,
+      "sha256": "14f299eb612fc4ed42d5c25601f4dd85dbcf0edbc3b1696e839fa6048a6ddf03"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/intern.go",
+      "size": 2592,
+      "sha256": "f1e8e96fb59c5bc97f75d629864d846a10bbaf1e2deed9de85a076793aa998da"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/internal/internal.go",
+      "size": 1680,
+      "sha256": "e4e74e01cf3852c4da96c338db52572d9bc3bf9df2cba4328293e69bce153949"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/internal/jsonflags/flags.go",
+      "size": 8710,
+      "sha256": "30388272f0edeee8a5e2206e366416caf9458c5f5d3e9c0c5b943bb08e7cf53d"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/internal/jsonopts/options.go",
+      "size": 5845,
+      "sha256": "4f2dc1c53c70287216c4464985050886a46a5078595389ed8faac815068770ea"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/internal/jsonwire/decode.go",
+      "size": 19561,
+      "sha256": "f51e3154a3e7f2ee77e3501f9a99a71195cc0f2a9b95dbda176fc16b28d9595d"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/internal/jsonwire/encode.go",
+      "size": 9304,
+      "sha256": "6c292ac72a691384adbc0e05e2ce6917d6d02fbe5156f598c728d8fe4e585a0a"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/internal/jsonwire/wire.go",
+      "size": 6476,
+      "sha256": "22e13c0bfbfb0fde39727f29678738dffdaecb9f0866ec2517111e19c0323796"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/jsontext/alias.go",
+      "size": 22755,
+      "sha256": "57c452d994964fff6a63534e112776c97c61eda8a8d719c732b73c913a1e72e4"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/jsontext/decode.go",
+      "size": 38672,
+      "sha256": "062dc0959fea81cfe693046af20fe2c1aff1dabde28eb9bfb888bd469c3d776e"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/jsontext/doc.go",
+      "size": 5339,
+      "sha256": "9774022220e26d0ad66d459fb4f1afc43244a959f8b7a87ba6a1b82b417876f4"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/jsontext/encode.go",
+      "size": 31548,
+      "sha256": "2cc2fb4b68564023f3aa33e3bf8d7b9f682683e176002f5306ce49160510c83b"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/jsontext/errors.go",
+      "size": 6134,
+      "sha256": "f941d77827c7cc9e524ab0f1886be141500a2bd16cb6e15ff961291728447103"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/jsontext/export.go",
+      "size": 2383,
+      "sha256": "1c0fc60c42de5a777ca626f922d08d552b918866daa5c08b660f55c0c1209c90"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/jsontext/options.go",
+      "size": 11508,
+      "sha256": "9b6c03c4c3ef9478f9433d3db30f7d0ed8c41be5341e9ef357e4c82874f16155"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/jsontext/pools.go",
+      "size": 5821,
+      "sha256": "f13c05542cb87b804ef63f5e8b0e937491d220b222c20f9ad85be5de057974c7"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/jsontext/quote.go",
+      "size": 1652,
+      "sha256": "fc0abd4ab7d39609f995f11bc7bca1b8b4e42c9ee99ffebf201e49fe4c4581e7"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/jsontext/state.go",
+      "size": 27668,
+      "sha256": "14cdf807d8c2610ef1a07906018522860a12ab954ab847964d6c503636f6a3a2"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/jsontext/token.go",
+      "size": 15220,
+      "sha256": "a0435e57c85388e175178a8d62df42de81065c6dfe32f64444261ccf2eecbc53"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/jsontext/value.go",
+      "size": 13831,
+      "sha256": "84264989d0ca3d6fda6eaaefca95a700d94e6433b48fbf3a7d6877ac5d211392"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/LICENSE",
+      "size": 1479,
+      "sha256": "14a34c4db2d21bf9cf80d028b802cd22fed9bf597a6c2db7ce30ee6ffd04967a"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/migrate.sh",
+      "size": 2671,
+      "sha256": "a4582872e8e04a8a27ef894556f8dc77171c6d168ea3a118e12f2c9c8912a674"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/options.go",
+      "size": 10213,
+      "sha256": "e431004c5f62acfe49894a54280adc930460ce7467aa4e63330e148cc0b2dd3d"
+    },
+    {
+      "path": "current_source/vendor/github.com/go-json-experiment/json/README.md",
+      "size": 12866,
+      "sha256": "1cd7266975ade328a7b198c9955e2d1dcac10aa97ddf4a7843dcc20924451a34"
+    },
+    {
+      "path": "current_source/vendor/github.com/golang/groupcache/LICENSE",
+      "size": 10273,
+      "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68"
+    },
+    {
+      "path": "current_source/vendor/github.com/golang/groupcache/lru/lru.go",
+      "size": 3107,
+      "sha256": "09457d325209f5e45e81222c0ef5cebe33fd2cee31114dd2e0239723b7915219"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/.coveralls.yml",
+      "size": 46,
+      "sha256": "805e5e162280a7c3e6fc4454915d5311d4847f26738757667ec6691c1f384d0b"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/.gitignore",
+      "size": 288,
+      "sha256": "07f63184fbf62e87f0111507ebbe9e0c4af78289614bd405d86fe6e74279501f"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/.golangci.yml",
+      "size": 1375,
+      "sha256": "93ba5c5687e47bb3366dbb1eed5c053f4553f954f5baa45d116f975487fb05bf"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/alt.go",
+      "size": 3990,
+      "sha256": "6449637496cca5f891729754ebe7682a2f83b11e1a5fbef5ec97abf5efb7f470"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/attrsetter.go",
+      "size": 305,
+      "sha256": "d850d72f4564043b374b683312a5421e8aabe378b6e6ece2443a442367a000e4"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/bool.go",
+      "size": 1299,
+      "sha256": "d16b5667d2a887e63eb1262d241a827999e7a4f4c4adad3137f1224824b04dfa"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/builder.go",
+      "size": 3688,
+      "sha256": "afd59c77567d89b02c85808056ab45128c794a2fcb9e3bcd534f6a8e50c7b1e0"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/checksum.go",
+      "size": 2114,
+      "sha256": "84d9a0ac148acd78744dfb3038f191528198e71a2470c2df9136fa7f0df24694"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/composer.go",
+      "size": 1053,
+      "sha256": "cbe11fe8d7e145ab6c7a261695b012d031c6535f11fa64c725c065330c705d44"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/decompose.go",
+      "size": 6993,
+      "sha256": "fbf41bba2a907798a6fbf5dcbf4785f4ef62ede394eb4f0d356b3b8147ede849"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/diff.go",
+      "size": 8270,
+      "sha256": "1c5bd14293d20f277637d6336dec3f17a1f0d254e561714070138e3a33f13565"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/doc.go",
+      "size": 2949,
+      "sha256": "8bdab7c01b68cf5540de93e01d9f1d745d9b6928684d464770ea953fe4600aa5"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/fbool.go",
+      "size": 1769,
+      "sha256": "da813011d4e5a506f8ca92944dce575cf46482e49e7941c3e9e865b5b9fe4a6e"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/ffloat32.go",
+      "size": 1934,
+      "sha256": "51eeda7a6d0506f79685421893346c696abe9f20f9d1f592a779c4fc76bbd52d"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/ffloat64.go",
+      "size": 1907,
+      "sha256": "2e2bba3c87c65b21c7a6b7da4aa1d0e5bcd556b502df16eba984775f9efa1d32"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/filter.go",
+      "size": 2756,
+      "sha256": "2e6b8a56282d85af06d0e88fdafa326655bd19d38e63675e7209a399af9f607f"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/finfo.go",
+      "size": 5473,
+      "sha256": "17b28553dba018e900ae986e52eeaeb89e4cab92523ce49d9833914ce821ba32"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/fint.go",
+      "size": 1777,
+      "sha256": "7e6a33cbe204be9fa544fa72085377b93958af83ef79770c7f2811939e1f05bd"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/fint16.go",
+      "size": 1819,
+      "sha256": "9340959e60d9c71f88ab8db7d288d5dabb5b524827a49a249ef9589a9b0e9312"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/fint32.go",
+      "size": 1819,
+      "sha256": "a585448db6fa0d31b43d68ffb0eecb67010d7a087872064dc2b473dddb7486a7"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/fint64.go",
+      "size": 1805,
+      "sha256": "387563e6a830506a739ff36c0fa59ed746270fac1267adf82f47c10d8a3fb2a4"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/fint8.go",
+      "size": 1798,
+      "sha256": "9c9f6a6a16ccfcd26db897e3d1ca485f84fc88e47a5a6ed4531d64ceb7b30093"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/float.go",
+      "size": 1943,
+      "sha256": "af7c3e07a9e97ba0980fd0da951eac38b9e319635357694551264b5323d48846"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/fuint.go",
+      "size": 1808,
+      "sha256": "82b7e866781928e47891c39753278f911daf209ffa685fb0124c55744724d016"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/fuint16.go",
+      "size": 1850,
+      "sha256": "7981c08090864e0d4a66c609e3fd8df710cc8242b29e82756578e5beac14f1bc"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/fuint32.go",
+      "size": 1850,
+      "sha256": "6e3f02acecb2d78f436ef7b50d9e93d948ff61895a29686706caaa58b632638d"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/fuint64.go",
+      "size": 1834,
+      "sha256": "8b353fae36af8b0f7d4df2b5db52e761b39e36b0797cb52c2c581cf7a4f75aca"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/fuint8.go",
+      "size": 1829,
+      "sha256": "e63c391ec2ab1d44a3388871dee17c46a59ab2c06de2f98024fa124e4a8afae5"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/generifier.go",
+      "size": 5972,
+      "sha256": "0e78d337082222e7be302a4b6e6e3e0d912dad5df075284244e68c4530183a62"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/int.go",
+      "size": 2129,
+      "sha256": "a2e18d681921a58604decada6aa5916510b0e799f83f821a9a75964b685eacd2"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/Makefile",
+      "size": 107,
+      "sha256": "b95deb84cc2ce2fc20fcbd121906847dcb402442008d4db60a8095e42e02376c"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/recomposer.go",
+      "size": 14545,
+      "sha256": "2c44fdee80119d1b96c3eef0682c297c10fe368cc0537594e29e106c27545d79"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/simplifier.go",
+      "size": 350,
+      "sha256": "71ac8405121da85e8f6074cf6d61906fb3104ed7ed9c270051b778e523934361"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/sinfo.go",
+      "size": 5194,
+      "sha256": "a03cb5e0e6745270edf3a5ca0c9547fb05a18f4355a7ae80dbd4f96ed072de4a"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/string.go",
+      "size": 2116,
+      "sha256": "ca385dba738b85db500520c5bbab9ddaeabaff49dee7da95f193fc5882fa3319"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/alt/time.go",
+      "size": 2027,
+      "sha256": "60a01775a266dbcd7ecf72b3116433054ef7a866fe2d5c90f5f5883a4d981192"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/benchmarks.md",
+      "size": 10029,
+      "sha256": "a1c1a97a5952e23d2c8a0bee2a1ababdbb5fc6d2b233097c27a2aabc8ce5f80f"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/CHANGELOG.md",
+      "size": 16890,
+      "sha256": "ddbe17bafb8123f2beefe9a1255666828f47fc1c01fc59d44f66b9ef0567ed32"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/converter.go",
+      "size": 5378,
+      "sha256": "b3186b16a0da33873a76ef92d2f82186d9c2917840ee0e6ef94bb83c1e26f817"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/design.md",
+      "size": 23776,
+      "sha256": "58884a63b8eb77bca674f2dad3b36944c662593ea13cdbcc9303c77d03f8674e"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/discover.md",
+      "size": 3584,
+      "sha256": "56c2592f63f1560bf3d1aaf18f3908495648246e25a44608501fdaf3ebf69b8d"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/doc.go",
+      "size": 2448,
+      "sha256": "7e8c91ca7224ebe728e3fde4522b4a9e42ec8ebccb7f44b6ec2eef643ae63c46"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/error.go",
+      "size": 784,
+      "sha256": "ada496a3712412617335c11a6646f22f3b082f3a343da0a824df1992e04cbd41"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/gen-coverage-badge.sh",
+      "size": 280,
+      "sha256": "cdf03f089b54138ea1094e0e89e6e5d9812dab07f8dd41b0d20f8dffbe6b64eb"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/gen/array.go",
+      "size": 1407,
+      "sha256": "2df1695fd25d4c5796fb579995c9bb6a065e6dbdf5db479c13d757f30b2698c4"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/gen/big.go",
+      "size": 614,
+      "sha256": "ec4055ac944c753bd783003b5948d14582cbc2d009250536dc9b9056074f390d"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/gen/bool.go",
+      "size": 720,
+      "sha256": "f7f5c4a5b2786dbcd11609835f5c015649c50be0f38bcd1c856ff7f308ede831"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/gen/builder.go",
+      "size": 3691,
+      "sha256": "81a96252e1d847a68d252cff68a3cb773298700d07c4b7e564c99de4bebff4ad"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/gen/doc.go",
+      "size": 706,
+      "sha256": "a249c9ff09f10745d94468dedec432a8634d50bcfb3d413ae5adbb612663bf50"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/gen/error.go",
+      "size": 362,
+      "sha256": "1fdfedccfae8442c4837b41aafafc3ca50733d2e0f1e9f136540b6f2051016a3"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/gen/float.go",
+      "size": 671,
+      "sha256": "a3fe527d4f6f30c6ff93991e4ab69076eb94ce4fd793456d35d4ee1824776fd9"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/gen/int.go",
+      "size": 630,
+      "sha256": "a26de7ed08bc55d412c85810b999426eaaa6f8d91de0f86d2c75880dd7f25431"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/gen/key.go",
+      "size": 704,
+      "sha256": "c4729245432b50c886482864e49ebd819daae8206c2711eaf74b44e9eac277c9"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/gen/Makefile",
+      "size": 107,
+      "sha256": "e6db9e11ebfc972d5a4389dfd828ac8221ef625984f5ce9915005c8b29a5c5b3"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/gen/maps.go",
+      "size": 10246,
+      "sha256": "87fdba54dad503917fd99fcf9b70af26dd5f08934cd440f90b5c5544ed4d1ef0"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/gen/node.go",
+      "size": 561,
+      "sha256": "a1b48d00af4e181ee7e0af1db32e990e0dba5c93654531e24564482754ca14b9"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/gen/number.go",
+      "size": 4182,
+      "sha256": "399af352507e0c6c08feb07a5558d9fa1eeccb7ac28c1f96321067d7c6074021"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/gen/object.go",
+      "size": 2018,
+      "sha256": "89507cc4a6e312aa8d5182a87aa7250c336485027e81f90eb408c9aecb501632"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/gen/parser.go",
+      "size": 13458,
+      "sha256": "9e94b2d91cf41ddd5d005035f99465106142cde705d3a50c8e18f978405546c8"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/gen/string.go",
+      "size": 693,
+      "sha256": "d1627435182043200a7b6010d187ea279abfa359ffed2826b2889faddb0e1372"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/gen/time.go",
+      "size": 1920,
+      "sha256": "5ed2791c295ff7c38223c381d4ac050b17a63d91907def6e7a81437c0773de9a"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/go.yml",
+      "size": 363,
+      "sha256": "daf8ab8bfdf5d56ba2a90583b562349b13ae635e2332cbf35d733c38afe8ec6c"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/at.go",
+      "size": 728,
+      "sha256": "71446140254de1a15627a8a7b76cb0cda33b9e1f1ccb2d674822cbc13251c0e4"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/bracket.go",
+      "size": 771,
+      "sha256": "85265662129a31a8d8755907855353f168f9b3c2440260f52ee24b2bad86bd75"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/build.go",
+      "size": 3554,
+      "sha256": "bdb1ec8e1e7fd53c3fa1154de78ae61b01f0afd70daf5270af3ffd4bdff16068"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/child.go",
+      "size": 2423,
+      "sha256": "505adbc7f66681262e5f921dec6b3936a9008bc81094fb959522cb3b60ee7c16"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/descent.go",
+      "size": 3406,
+      "sha256": "32884b50911fecf94bad5d0c2de0e1e2ea96d794601839d94c98abe5c7e8510e"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/doc.go",
+      "size": 330,
+      "sha256": "cb348de49ad1a01789b0be625d65e8f1d190e86136e68f7cc300220c5a98316d"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/equation.go",
+      "size": 11082,
+      "sha256": "74a3403d689157fbd902f1141f13556d32cb109ca6356372864bcad004378974"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/expr.go",
+      "size": 1474,
+      "sha256": "e8aa508110302ec0ea23407acc5191ea95d0bb2183f5150a03177876de67a26d"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/filter.go",
+      "size": 9330,
+      "sha256": "63a5398581474c33835183ddef92b72a959c2340355ec7c9f9a9d5126952f666"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/form.go",
+      "size": 1173,
+      "sha256": "903ae098a04b1c0b0874c53df5235f1435ac443eb8fa8fdec9c75f161af91e74"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/frag.go",
+      "size": 890,
+      "sha256": "fbc7231de56bdc72795c59ee5568691a1a406c2dc2fefbe3ee39d55561715352"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/get.go",
+      "size": 52714,
+      "sha256": "50ea72966be39061730cca61fc490b584d88d4fa3913ba846e60123f3977ae78"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/has.go",
+      "size": 19414,
+      "sha256": "197c95ce192887d3e9ab4efcd460e1f3af421f5e725650777030a1b87251bd0a"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/indexed.go",
+      "size": 765,
+      "sha256": "ceafaeb0e58ec640836c69272b0b95e08c2d9f936bf391c44bde76b14b4b6fc8"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/keyed.go",
+      "size": 671,
+      "sha256": "bd3b3a675cec8cb12861c767ec43814514655f0493d2a6f96bd07d8b84a25a4d"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/locate.go",
+      "size": 2084,
+      "sha256": "79c7e22528e203c596e900612c95d6650f082524ec0c3e00f65f6be228d38d51"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/Makefile",
+      "size": 106,
+      "sha256": "65a61f46a0f0290df8aba5f9f4c0be69563d54382cc3a637ebd1d996ef32ed3b"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/match.go",
+      "size": 1792,
+      "sha256": "dcd9b4e7cc3200f607edfb2807fa8c02b64c27e89bcc736262f187f9d3c27225"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/matchhandler.go",
+      "size": 4656,
+      "sha256": "64eca1292807bd596b7986515e9071fa08730feeda0fbf807e1cb8909976d5c7"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/modify.go",
+      "size": 23277,
+      "sha256": "4e76ec9e987edf56b2ac03c1609f7def1f8db3009833b8b686d19f9c86cd8dca"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/node.go",
+      "size": 12646,
+      "sha256": "94e65b4ab158e3493c651d10eeace1ef720453cceaca9a9bf96f58abf3ea7b48"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/norm.go",
+      "size": 779,
+      "sha256": "7a02600b8fbc1a0e45c1725e5b59ccfcf083194537e4d43579b4e29fd79b2857"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/nth.go",
+      "size": 3385,
+      "sha256": "a6baea9743b0b91f19de514011ba749711038ba8a7674c472c0b0fb3aae8c521"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/parse.go",
+      "size": 14426,
+      "sha256": "8d6c0c55633891e0e1e66c72e89cf96b5658f397dfa2699b5c791cca34d45c7a"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/proc.go",
+      "size": 2480,
+      "sha256": "9af0abd9fb7989c41b7d7c007d9505a64b1782da985fe1524421286b3580212b"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/procedure.go",
+      "size": 405,
+      "sha256": "ff46468cc5f85afbb4f37c66c3900ac4a2fb783fd1ec3cf910703aa9a614133f"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/remove.go",
+      "size": 2752,
+      "sha256": "ec142d7d6e0a3bf66da9c002792454a3922fecd14f426d536775f0563d7d5dcc"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/root.go",
+      "size": 749,
+      "sha256": "6f7b2ce744f96a5460cbf391d4f657ac13deee0f2f52a2e1f0a0d3bb5e94f0c9"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/script.go",
+      "size": 22124,
+      "sha256": "ac5892dc34df73df179fbc367f4e08d754c19b7246d3955a350fef38d21a3b18"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/set.go",
+      "size": 35068,
+      "sha256": "affa2e7c6697760eee3e617ee844e8cfeb64d79dd8b5b1601fdb4ee4709eeab2"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/slice.go",
+      "size": 12590,
+      "sha256": "e7b66dd364f251ed96c063de98a5f82eacb250575f58b78754cec73b408a7269"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/string.go",
+      "size": 1935,
+      "sha256": "998232d59261cda89270556345c80fbf08458d71f0467209a5d57d2d9480d457"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/union.go",
+      "size": 7250,
+      "sha256": "bf0511ea36af8f790e306e8e683fc826bdaa4f8a537a9543f84cf070039afc64"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/walk.go",
+      "size": 1959,
+      "sha256": "4fc9ca1ae18e7204e9fd2a522ea2ccdc42f6f5b0819b04bb2d81b63ab1c3ea3d"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/jp/wildcard.go",
+      "size": 11314,
+      "sha256": "cf52d16a2487c938b4fdf1d4741819c169bc9fc800ff71ccd8f6ca170431e251"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/LICENSE",
+      "size": 1068,
+      "sha256": "319d281c7f4e4178a21f2241a236677d803a88072bd2fa491369a2f4ca11ec79"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/Makefile",
+      "size": 830,
+      "sha256": "bb7a40f5b79bd5cc30d191a0ac3dff0131b5d6a01b87cd8b9f4317f7ad2a0402"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/notes",
+      "size": 595,
+      "sha256": "1d9bb4c7cb6dbeb529873e5bd29504f5670918f5722a6e9023c896ca610015d4"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/numconvmethod.go",
+      "size": 663,
+      "sha256": "c24aeda1a064eede929f8bd65147fc00c92ad20327e03906e21dee21bfb9eb0d"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/options.go",
+      "size": 9905,
+      "sha256": "1db844fa566260493bd034f81d77fbacdf41cf5971390e2bff76969908b832bd"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/README.md",
+      "size": 5745,
+      "sha256": "9b163052d39ff86b32704a3ad317ae2ae91340bf189f2db9e10e2d66d2e49c46"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/sen.md",
+      "size": 1167,
+      "sha256": "b233dbca451e8cacca8a6bf69aeaad4929a1b203cdcf70a406dfb7c5dd4d5f81"
+    },
+    {
+      "path": "current_source/vendor/github.com/ohler55/ojg/string.go",
+      "size": 4815,
+      "sha256": "0830a7d00c285575b356e57d97807305df1ea0d88071bd284aa166736368ee30"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/net/html/atom/atom.go",
+      "size": 2321,
+      "sha256": "86490b2027af4443dacfe96c313a6c632c03ea1acdf85f7f61c4fdde32bc2f3d"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/net/html/atom/table.go",
+      "size": 27896,
+      "sha256": "d7c4d0795fbc8dbec36504efcae14330b08e9a4bd8041e946f4b48ee45797e1d"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/net/html/charset/charset.go",
+      "size": 6203,
+      "sha256": "7810cb77bad4b115611626e3d0415126419133c5d6bb9c7424b45d721a7afdc3"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/net/html/const.go",
+      "size": 2604,
+      "sha256": "44c814afac4b0206a4f2af92607f93a72b93919ec2c3884d372edcdc24507584"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/net/html/doc.go",
+      "size": 4431,
+      "sha256": "e5d486a3b703d17efdf30cc9b3af6649b262c89e74cd4de285e0f079797b3c6f"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/net/html/doctype.go",
+      "size": 4925,
+      "sha256": "b629b17ed04bcab8d832d8caaee00f458c180fd31b6838e318a439a4bf87fffe"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/net/html/entity.go",
+      "size": 114515,
+      "sha256": "680a9bb55e7eca9bc0cbee59755591ab9f97abf3fe39490211eb088cc2cd62c2"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/net/html/escape.go",
+      "size": 8910,
+      "sha256": "d0dfaa8c3b36ef9d4578dfdf9480c654252afc6a09128d96d570e74c563c82c9"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/net/html/foreign.go",
+      "size": 6353,
+      "sha256": "d227ce6839726bb85fc88ec95df265901da8a04d7e2f7261101bdc7b4d1af1ad"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/net/html/iter.go",
+      "size": 1471,
+      "sha256": "54299c163639df83f3dd22ff31643b6b6cedbedb0c388b1f53020146a10d7504"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/net/html/node.go",
+      "size": 5840,
+      "sha256": "3acf739c450f61abd0fc45ccb19e4ddde2982b798791037a6a03c78603b6176f"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/net/html/nodetype_string.go",
+      "size": 861,
+      "sha256": "747f99ad7577bc2e790097bf591b7e66c1856a496a5a2e515a40324659e0266c"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/net/html/parse.go",
+      "size": 58321,
+      "sha256": "ab68a3276498d29551d38faebd93a622c4d1d908f6f1dad00bce438e74110726"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/net/html/render.go",
+      "size": 8990,
+      "sha256": "c53cd811db01490a88a3932ad97e0d0622fa87a8533662fb9810bc06814c4af8"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/net/html/token.go",
+      "size": 34221,
+      "sha256": "28e4cab66406c656cd2ae007517bac998b3d68d18fce0e0717ed98bed44ed336"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/net/LICENSE",
+      "size": 1453,
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/net/PATENTS",
+      "size": 1303,
+      "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/charmap/charmap.go",
+      "size": 6559,
+      "sha256": "8f2418e924ccf719fcef0ec4ca1895657c1b98dcb7df4bfeba204970ebd98b33"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/charmap/tables.go",
+      "size": 500310,
+      "sha256": "63a3da1a54945679073726ca71567cc7402eba352005c983866c8c0ae6b55afd"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/encoding.go",
+      "size": 9695,
+      "sha256": "7a66d04774bf136fc1e655e0746eee54237e33ce21802d7e286c87b6e1307172"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/htmlindex/htmlindex.go",
+      "size": 2617,
+      "sha256": "f7de101bd433f74cc2d32a92d224c36cf04225b48323c4d66ab79805a59fb6c0"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/htmlindex/map.go",
+      "size": 4147,
+      "sha256": "8094e6c1a15cc74160ecd3ed326d38fdc55af9e7b1caef53f5370e31f1e94cd5"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/htmlindex/tables.go",
+      "size": 10055,
+      "sha256": "a2dac8908943c9b7e53aa9058086544626baaf0099839dc1dd43dfba422be076"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/internal/identifier/identifier.go",
+      "size": 3385,
+      "sha256": "50c99f12c73517c9314d04fb7807e7fdc57e75436306d3b38036fb17bc0c41ca"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/internal/identifier/mib.go",
+      "size": 50225,
+      "sha256": "7dac7c2f13c9a8f31f6f8228e71ea0ae6f470f3099a2ba8cebc4a1fbc876385a"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/internal/internal.go",
+      "size": 2158,
+      "sha256": "d49433c5ac6f01c29013957898b7fd9d899832d2c7d09cc137ff52a4270aff87"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/japanese/all.go",
+      "size": 337,
+      "sha256": "5728aaadf3e9b98632c5cbbedc60e29ec14779bc8f020bae135c97b1548e3944"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/japanese/eucjp.go",
+      "size": 5006,
+      "sha256": "aa30243e36cc4dfa7168c31c7cce228109491f57b93f843d3832727c474fd50d"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/japanese/iso2022jp.go",
+      "size": 7256,
+      "sha256": "fa59e403d475ad0b185430c793fbd644167a2d6fa38b37670a18aa90b358c0ae"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/japanese/shiftjis.go",
+      "size": 4338,
+      "sha256": "23bf15129f276542aceefa460b68bd9905e68c460691b06e09c1b57c961694c3"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/japanese/tables.go",
+      "size": 818095,
+      "sha256": "433f4e0e9e0f2f435e0796dc6f464950f950e139c3671b75baedfc224253b66e"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/korean/euckr.go",
+      "size": 4078,
+      "sha256": "9fbe514d8004ae60b1fc96bdb5212bbe9d06beffe50a2b0c8c20a83779ceabf9"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/korean/tables.go",
+      "size": 682176,
+      "sha256": "03f3a8ecd8b970db684aedba376a5c762399799d358ae4dd6dacdb5031ce9bbf"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/simplifiedchinese/all.go",
+      "size": 342,
+      "sha256": "98b67e8457b51b3b94fb0a1276c3aa006ce4bebe91f4911787d44bf964ae7898"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/simplifiedchinese/gbk.go",
+      "size": 6469,
+      "sha256": "509db1e531aade77b939704b307331c213b566122cb58fd6772ff16b0d4c2117"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/simplifiedchinese/hzgb2312.go",
+      "size": 5205,
+      "sha256": "4a7d1abc4120298617768ee17a70e0641b2c7149a86cdbb44189386fd19bd713"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/simplifiedchinese/tables.go",
+      "size": 879006,
+      "sha256": "c9ba772952593013705397e20afe0a25e87eb534a36c3c8aec93923557f7d663"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/traditionalchinese/big5.go",
+      "size": 4615,
+      "sha256": "70eb462895050cd097282354ed49c944567ac14fe1552325c8eb0ace9b4c938b"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/traditionalchinese/tables.go",
+      "size": 819793,
+      "sha256": "6ad4f34a2e4dca8614b9c17aab10999f9b1a727cdf08feb477662b116064bd0c"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/unicode/override.go",
+      "size": 2708,
+      "sha256": "56800213c1d96ac93e091ac0bdf084caf259fac616fcea62b49c5f5ecff24b8f"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/encoding/unicode/unicode.go",
+      "size": 15091,
+      "sha256": "277d0a491016a630f27ee7d5ee6eae73abe6a431e0b3a3962e69e7dfd4f151ef"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/internal/language/common.go",
+      "size": 334,
+      "sha256": "68089abad3eed7b2559bb97510355e900a6ef2e1fac7ff89364bda9c50a2acba"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/internal/language/compact.go",
+      "size": 853,
+      "sha256": "2d121c703729c5fbd5f3f13fd568af142ca8fde0f01a07e1874df22dbaadde98"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/internal/language/compact/compact.go",
+      "size": 1707,
+      "sha256": "e154aa511d328fd47a9c9fc1115d9c92be2d385e885ae65c5e348ec1d5844ead"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/internal/language/compact/language.go",
+      "size": 7447,
+      "sha256": "1d49845ec8c93b000391718e3127c0979c054186570805fce27f7fe167ad2c5d"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/internal/language/compact/parents.go",
+      "size": 6853,
+      "sha256": "57dc7b46cb5b6df81ed5764b338e1b463c183e3561427307c9d25fa876d9bdc7"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/internal/language/compact/tables.go",
+      "size": 32128,
+      "sha256": "99415fb6642ebd291f825497d32e70ae32da8569815d8f4ef587664c6c5ce7d5"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/internal/language/compact/tags.go",
+      "size": 5651,
+      "sha256": "e6f98b11ee9c2d5d4d51a5d810d4ea2eff0872a8d11b962979744899e020e12c"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/internal/language/compose.go",
+      "size": 3881,
+      "sha256": "7657b95eac8448d5d2273c048d316dde3ac0e49ac058487a69b2b990ebc7f8ef"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/internal/language/coverage.go",
+      "size": 730,
+      "sha256": "8c8238012deb1b3c42820c755343db1bc326dc5cbddfcc24f97abbb7e0c6cee1"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/internal/language/language.go",
+      "size": 17174,
+      "sha256": "19a0ccf7635fd3dbad3766d953996df5d1c24a367e44c49200ab6ec3023fc871"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/internal/language/lookup.go",
+      "size": 12387,
+      "sha256": "8f0ac8780f89d5c2b29b98fd599269b445d7bb612a7948c9e97d425424b5ea38"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/internal/language/match.go",
+      "size": 5824,
+      "sha256": "711e9c548516929762f0636a69788ba6eed6ed10bfb47634f3b5d5a1f26a1547"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/internal/language/parse.go",
+      "size": 15241,
+      "sha256": "0c884b51bb83d3633a51f16e90c7dbaf45c301a449e366df591eda11a3000972"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/internal/language/tables.go",
+      "size": 156627,
+      "sha256": "876a73fb8b8fffd239efa592ffdf903c25757b4d17b715fc80d7aee8db2b985e"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/internal/language/tags.go",
+      "size": 1211,
+      "sha256": "21041c1c1982b12db6f523a4feb58746dac3e2c71e8dcf9f76ac5807cd809099"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/internal/tag/tag.go",
+      "size": 2415,
+      "sha256": "97a27a6bfdd26d872e07d051fc27e622e1cd764943350e8bfa9cf0e2e13cc474"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/internal/utf8internal/utf8internal.go",
+      "size": 3547,
+      "sha256": "a2aa5c3b12a72996fcedd945dd7d1955f2e5ef76bde6f5277238d2b2d6506390"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/language/coverage.go",
+      "size": 4897,
+      "sha256": "d12716948854471a3536a04dc48736b0db0318ea6df61db236bc4ee0fe725375"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/language/doc.go",
+      "size": 4340,
+      "sha256": "4b97559b103832f3c5f22e80f2df0dd7394a469d945f79afad1654eb179fa63b"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/language/language.go",
+      "size": 19340,
+      "sha256": "3f2032f0367d83fb14772384d47119d27c2c427b277aa0a02913db59abe32bb0"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/language/match.go",
+      "size": 25698,
+      "sha256": "b8a6b973391cba46899d079173cf0b1d3064f28bb79a11c3fdc65c089cbe23d3"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/language/parse.go",
+      "size": 7695,
+      "sha256": "3552f8fba45f310216182d167ba1da8e0c02212ad1896eeb66b194dd546b7bc2"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/language/tables.go",
+      "size": 14585,
+      "sha256": "cb3c6aa474902c2728c47bcdebd5fcac0c6aa0f7e29934e984d46434c98ce716"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/language/tags.go",
+      "size": 5545,
+      "sha256": "247c5ce419821c135a2751029c078cc6e1472c9896dd581d67a277449e54d968"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/LICENSE",
+      "size": 1453,
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/PATENTS",
+      "size": 1303,
+      "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/runes/cond.go",
+      "size": 5293,
+      "sha256": "a97ca46dc0d82c3f04b17efdb26244f9f779ef1cabcdd5875b17fa51dc24640e"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/runes/runes.go",
+      "size": 8677,
+      "sha256": "30879876f51d507e1cce28de3aa6c63966d101f92df42e6e0be18fec9dd7592f"
+    },
+    {
+      "path": "current_source/vendor/golang.org/x/text/transform/transform.go",
+      "size": 22268,
+      "sha256": "7716301e210f42b764ec78f4adffb05075f1d5103446a40b8a38043f5a7abd88"
+    },
+    {
+      "path": "current_source/vendor/modules.txt",
+      "size": 4186,
+      "sha256": "2c8d462a7c88ee543595be81545bfb4856f48b41c627d14de4f4da4b93e21e02"
+    },
+    {
+      "path": "current_source/web/app.css",
+      "size": 14906,
+      "sha256": "38df57d41c82b7379c6fcbd65d0c9cacca47c32a59d31f1e87dcd2b2b3873dc2"
+    },
+    {
+      "path": "current_source/web/app.js",
+      "size": 24328,
+      "sha256": "3730a27215c5536bbd0edbe46088fe7de91c3f4891d8f30fd8749da2ef079212"
+    },
+    {
+      "path": "current_source/web/index.html",
+      "size": 8936,
+      "sha256": "4365e09eb27548f004b7f90e8e1cd4a9c53e982e759a3682b2bb2eb8334f199c"
+    },
+    {
+      "path": "current_source/web/vendor/HLS_LICENSE.txt",
+      "size": 1338,
+      "sha256": "ca8773cf798c7ed997d4dd7c8e23c348699f8d5b7462636694cc14de6cda12db"
+    },
+    {
+      "path": "current_source/web/vendor/hls.min.js",
+      "size": 619692,
+      "sha256": "a12e7ee1cd64a69dcdb314157e45dafcba705bfb0b1440b7935cb265d374423e"
+    },
+    {
+      "path": "YingXia_v1.1.0_Windows_x64.exe",
+      "size": 10907136,
+      "sha256": "59e58b34770cade899c9ca66902e776da63080224d5eced3bf146444ce547543"
+    },
+    {
+      "path": "使用说明.txt",
+      "size": 878,
+      "sha256": "607d890d74bb0a02e64c5cae04d0c4a120009d6b2e749a664fea9e2d30467dd9"
+    }
+  ]
+}

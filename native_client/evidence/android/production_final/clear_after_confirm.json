@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "settings": {},
+  "favorites": [
+    {
+      "cover": "",
+      "id": "qa-favorite-1",
+      "kind": "合成测试",
+      "source": "QA 固定数据",
+      "summary": "仅用于清空记录测试",
+      "title": "保留收藏测试",
+      "year": "2026"
+    }
+  ],
+  "history": [],
+  "bindings": []
+}

@@ -1,0 +1,927 @@
+{
+  "checked_at_utc": "2026-10-14T08:28:34.462320+00:00",
+  "reference": "https://developer.android.com/guide/practices/page-sizes#elf-alignment",
+  "inspection": "Read-only archive entries and ELF program headers; no Gradle or source edits",
+  "page_bytes": 16384,
+  "archives": [
+    {
+      "path": "native_client/build/media_kit_libs_android_video/output/default-arm64-v8a.jar",
+      "sha256": "4363dfa5d3d415b91c1f16f6fb90c3fe59a77dfd3f9b824d2b24b492d6b09df9",
+      "native_library_count": 2
+    },
+    {
+      "path": "native_client/build/media_kit_libs_android_video/output/default-armeabi-v7a.jar",
+      "sha256": "8ead114fc5a43348d89dc0eb8f41823e549b15115c29f73ee26973f973620995",
+      "native_library_count": 2
+    },
+    {
+      "path": "native_client/build/media_kit_libs_android_video/output/default-x86_64.jar",
+      "sha256": "90268cd15f0766e07fb8e427388c621161177c9eb343c544f327bd63232bb236",
+      "native_library_count": 2
+    },
+    {
+      "path": "native_client/android/app/libs/yingxia_core.aar",
+      "sha256": "354d27406d738a0c22d08e29d21828ac9c93d6b5e887039db1f597ad3dd343af",
+      "native_library_count": 3
+    },
+    {
+      "path": ".tools/native/maven_local_repo/io/flutter/arm64_v8a_release/1.0.0-deb287481e3ce9468f3434937ced4240a70539ca/arm64_v8a_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.jar",
+      "sha256": "d940eba5aca3b58c785ef7f093cb351c871e1410c6b122c7eb1b31a9ca18225f",
+      "native_library_count": 1
+    },
+    {
+      "path": ".tools/native/maven_local_repo/io/flutter/armeabi_v7a_release/1.0.0-deb287481e3ce9468f3434937ced4240a70539ca/armeabi_v7a_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.jar",
+      "sha256": "3909e6467c1fe6202bbf64f377f158171d6b83a86d9cbc39f67f748b217e55ad",
+      "native_library_count": 1
+    },
+    {
+      "path": ".tools/native/maven_local_repo/io/flutter/flutter_embedding_release/1.0.0-deb287481e3ce9468f3434937ced4240a70539ca/flutter_embedding_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.jar",
+      "sha256": "395504a17bbc944fb69089792a70bff1bc281d302fe736341220957bddf39b6a",
+      "native_library_count": 0
+    },
+    {
+      "path": ".tools/native/maven_local_repo/io/flutter/x86_64_release/1.0.0-deb287481e3ce9468f3434937ced4240a70539ca/x86_64_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.jar",
+      "sha256": "75b8ec46ceb0a3813a78efd4dc631b188a2e507c6f10655c217d4ac761320347",
+      "native_library_count": 1
+    }
+  ],
+  "native_libraries": [
+    {
+      "archive": "native_client/build/media_kit_libs_android_video/output/default-arm64-v8a.jar",
+      "entry": "lib/arm64-v8a/libmediakitandroidhelper.so",
+      "sha256": "ab55b1d34665dba8fa7a451e82c466ee71b9698e7da6c9a3cb68a7c0ee7610d4",
+      "size_bytes": 386696,
+      "elf_class_bits": 64,
+      "e_machine": 183,
+      "pt_load_segments": [
+        {
+          "offset_hex": "0x0",
+          "vaddr_hex": "0x0",
+          "file_bytes": 366672,
+          "memory_bytes": 366672,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 5,
+          "writable": false
+        },
+        {
+          "offset_hex": "0x59850",
+          "vaddr_hex": "0x5d850",
+          "file_bytes": 17472,
+          "memory_bytes": 17472,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        },
+        {
+          "offset_hex": "0x5dc90",
+          "vaddr_hex": "0x65c90",
+          "file_bytes": 360,
+          "memory_bytes": 4688,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        }
+      ],
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0x5d850",
+          "memory_bytes": 18352,
+          "end_hex": "0x62000",
+          "end_mod_16kb": 8192,
+          "end_is_16kb_aligned": false,
+          "rounded_protection_start_hex": "0x5c000",
+          "rounded_protection_end_hex": "0x64000"
+        }
+      ],
+      "minimum_load_alignment_bytes": 16384,
+      "all_pt_load_segments_16kb_aligned": true,
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "documented_relro_end_modulo_check_pass": false
+    },
+    {
+      "archive": "native_client/build/media_kit_libs_android_video/output/default-arm64-v8a.jar",
+      "entry": "lib/arm64-v8a/libmpv.so",
+      "sha256": "adf83fde58a9f6751ce6e83b9b187f651425d53ec0e20da04deb8dfb4aa775e1",
+      "size_bytes": 12369680,
+      "elf_class_bits": 64,
+      "e_machine": 183,
+      "pt_load_segments": [
+        {
+          "offset_hex": "0x0",
+          "vaddr_hex": "0x0",
+          "file_bytes": 3752060,
+          "memory_bytes": 3752060,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 4,
+          "writable": false
+        },
+        {
+          "offset_hex": "0x394080",
+          "vaddr_hex": "0x398080",
+          "file_bytes": 8053696,
+          "memory_bytes": 8053696,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 5,
+          "writable": false
+        },
+        {
+          "offset_hex": "0xb42440",
+          "vaddr_hex": "0xb4a440",
+          "file_bytes": 549192,
+          "memory_bytes": 549192,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        },
+        {
+          "offset_hex": "0xbc8588",
+          "vaddr_hex": "0xbd4588",
+          "file_bytes": 12972,
+          "memory_bytes": 4757576,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        }
+      ],
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0xb4a440",
+          "memory_bytes": 551872,
+          "end_hex": "0xbd1000",
+          "end_mod_16kb": 4096,
+          "end_is_16kb_aligned": false,
+          "rounded_protection_start_hex": "0xb48000",
+          "rounded_protection_end_hex": "0xbd4000"
+        }
+      ],
+      "minimum_load_alignment_bytes": 16384,
+      "all_pt_load_segments_16kb_aligned": true,
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "documented_relro_end_modulo_check_pass": false
+    },
+    {
+      "archive": "native_client/build/media_kit_libs_android_video/output/default-armeabi-v7a.jar",
+      "entry": "lib/armeabi-v7a/libmediakitandroidhelper.so",
+      "sha256": "506d0bc7775fe9888be6b6e889d8556ca0574dba65813866e2158cbf52a8c8b1",
+      "size_bytes": 286812,
+      "elf_class_bits": 32,
+      "e_machine": 40,
+      "pt_load_segments": [
+        {
+          "offset_hex": "0x0",
+          "vaddr_hex": "0x0",
+          "file_bytes": 276336,
+          "memory_bytes": 276336,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 5,
+          "writable": false
+        },
+        {
+          "offset_hex": "0x43770",
+          "vaddr_hex": "0x47770",
+          "file_bytes": 8764,
+          "memory_bytes": 8764,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        },
+        {
+          "offset_hex": "0x459ac",
+          "vaddr_hex": "0x4d9ac",
+          "file_bytes": 164,
+          "memory_bytes": 913,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        }
+      ],
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0x47770",
+          "memory_bytes": 10384,
+          "end_hex": "0x4a000",
+          "end_mod_16kb": 8192,
+          "end_is_16kb_aligned": false,
+          "rounded_protection_start_hex": "0x44000",
+          "rounded_protection_end_hex": "0x4c000"
+        }
+      ],
+      "minimum_load_alignment_bytes": 16384,
+      "all_pt_load_segments_16kb_aligned": true,
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "documented_relro_end_modulo_check_pass": false
+    },
+    {
+      "archive": "native_client/build/media_kit_libs_android_video/output/default-armeabi-v7a.jar",
+      "entry": "lib/armeabi-v7a/libmpv.so",
+      "sha256": "8aa2b23d16d941a8d685b8eb995b1cb31677ed3e28c55c776954eb1618ab1a2e",
+      "size_bytes": 11746532,
+      "elf_class_bits": 32,
+      "e_machine": 40,
+      "pt_load_segments": [
+        {
+          "offset_hex": "0x0",
+          "vaddr_hex": "0x0",
+          "file_bytes": 2264554,
+          "memory_bytes": 2264554,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 4,
+          "writable": false
+        },
+        {
+          "offset_hex": "0x228e00",
+          "vaddr_hex": "0x22ce00",
+          "file_bytes": 9108640,
+          "memory_bytes": 9108640,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 5,
+          "writable": false
+        },
+        {
+          "offset_hex": "0xad8aa0",
+          "vaddr_hex": "0xae0aa0",
+          "file_bytes": 364452,
+          "memory_bytes": 364452,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        },
+        {
+          "offset_hex": "0xb31a48",
+          "vaddr_hex": "0xb3da48",
+          "file_bytes": 7676,
+          "memory_bytes": 4733832,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        }
+      ],
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0xae0aa0",
+          "memory_bytes": 365920,
+          "end_hex": "0xb3a000",
+          "end_mod_16kb": 8192,
+          "end_is_16kb_aligned": false,
+          "rounded_protection_start_hex": "0xae0000",
+          "rounded_protection_end_hex": "0xb3c000"
+        }
+      ],
+      "minimum_load_alignment_bytes": 16384,
+      "all_pt_load_segments_16kb_aligned": true,
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "documented_relro_end_modulo_check_pass": false
+    },
+    {
+      "archive": "native_client/build/media_kit_libs_android_video/output/default-x86_64.jar",
+      "entry": "lib/x86_64/libmediakitandroidhelper.so",
+      "sha256": "6ca2d827a892b8ddd60df64fab81456ad6fd05180dd6c4a0974549858025abc9",
+      "size_bytes": 367528,
+      "elf_class_bits": 64,
+      "e_machine": 62,
+      "pt_load_segments": [
+        {
+          "offset_hex": "0x0",
+          "vaddr_hex": "0x0",
+          "file_bytes": 347712,
+          "memory_bytes": 347712,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 5,
+          "writable": false
+        },
+        {
+          "offset_hex": "0x54e40",
+          "vaddr_hex": "0x58e40",
+          "file_bytes": 17328,
+          "memory_bytes": 17328,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        },
+        {
+          "offset_hex": "0x591f0",
+          "vaddr_hex": "0x611f0",
+          "file_bytes": 368,
+          "memory_bytes": 4672,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        }
+      ],
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0x58e40",
+          "memory_bytes": 20928,
+          "end_hex": "0x5e000",
+          "end_mod_16kb": 8192,
+          "end_is_16kb_aligned": false,
+          "rounded_protection_start_hex": "0x58000",
+          "rounded_protection_end_hex": "0x60000"
+        }
+      ],
+      "minimum_load_alignment_bytes": 16384,
+      "all_pt_load_segments_16kb_aligned": true,
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "documented_relro_end_modulo_check_pass": false
+    },
+    {
+      "archive": "native_client/build/media_kit_libs_android_video/output/default-x86_64.jar",
+      "entry": "lib/x86_64/libmpv.so",
+      "sha256": "f030e9a1a4d4664e89d7160a3d4528cd5875ee023ff6262e16e95aac28ffaec5",
+      "size_bytes": 15816336,
+      "elf_class_bits": 64,
+      "e_machine": 62,
+      "pt_load_segments": [
+        {
+          "offset_hex": "0x0",
+          "vaddr_hex": "0x0",
+          "file_bytes": 4226100,
+          "memory_bytes": 4226100,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 4,
+          "writable": false
+        },
+        {
+          "offset_hex": "0x407c40",
+          "vaddr_hex": "0x40bc40",
+          "file_bytes": 11030448,
+          "memory_bytes": 11030448,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 5,
+          "writable": false
+        },
+        {
+          "offset_hex": "0xe8cbf0",
+          "vaddr_hex": "0xe94bf0",
+          "file_bytes": 545016,
+          "memory_bytes": 545016,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        },
+        {
+          "offset_hex": "0xf11cf0",
+          "vaddr_hex": "0xf1dcf0",
+          "file_bytes": 13072,
+          "memory_bytes": 4763744,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        }
+      ],
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0xe94bf0",
+          "memory_bytes": 545808,
+          "end_hex": "0xf1a000",
+          "end_mod_16kb": 8192,
+          "end_is_16kb_aligned": false,
+          "rounded_protection_start_hex": "0xe94000",
+          "rounded_protection_end_hex": "0xf1c000"
+        }
+      ],
+      "minimum_load_alignment_bytes": 16384,
+      "all_pt_load_segments_16kb_aligned": true,
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "documented_relro_end_modulo_check_pass": false
+    },
+    {
+      "archive": "native_client/android/app/libs/yingxia_core.aar",
+      "entry": "jni/arm64-v8a/libgojni.so",
+      "sha256": "51e0c131220fdad5ef35dce27a2397ba5ca609a5a7db43217d462af3117c801e",
+      "size_bytes": 9366712,
+      "elf_class_bits": 64,
+      "e_machine": 183,
+      "pt_load_segments": [
+        {
+          "offset_hex": "0x0",
+          "vaddr_hex": "0x0",
+          "file_bytes": 4302000,
+          "memory_bytes": 4302000,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 4,
+          "writable": false
+        },
+        {
+          "offset_hex": "0x41a4b0",
+          "vaddr_hex": "0x41e4b0",
+          "file_bytes": 3624640,
+          "memory_bytes": 3624640,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 5,
+          "writable": false
+        },
+        {
+          "offset_hex": "0x78f380",
+          "vaddr_hex": "0x797380",
+          "file_bytes": 931128,
+          "memory_bytes": 932992,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        },
+        {
+          "offset_hex": "0x8728c0",
+          "vaddr_hex": "0x87e8c0",
+          "file_bytes": 506176,
+          "memory_bytes": 34368656,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        }
+      ],
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0x797380",
+          "memory_bytes": 932992,
+          "end_hex": "0x87b000",
+          "end_mod_16kb": 12288,
+          "end_is_16kb_aligned": false,
+          "rounded_protection_start_hex": "0x794000",
+          "rounded_protection_end_hex": "0x87c000"
+        }
+      ],
+      "minimum_load_alignment_bytes": 16384,
+      "all_pt_load_segments_16kb_aligned": true,
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "documented_relro_end_modulo_check_pass": false
+    },
+    {
+      "archive": "native_client/android/app/libs/yingxia_core.aar",
+      "entry": "jni/x86_64/libgojni.so",
+      "sha256": "d91c5c08192552af002d2af7c7d1b9c56857bca557078f4df6f4e496155b0a03",
+      "size_bytes": 10089400,
+      "elf_class_bits": 64,
+      "e_machine": 62,
+      "pt_load_segments": [
+        {
+          "offset_hex": "0x0",
+          "vaddr_hex": "0x0",
+          "file_bytes": 4452076,
+          "memory_bytes": 4452076,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 4,
+          "writable": false
+        },
+        {
+          "offset_hex": "0x43ef00",
+          "vaddr_hex": "0x442f00",
+          "file_bytes": 4194608,
+          "memory_bytes": 4194608,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 5,
+          "writable": false
+        },
+        {
+          "offset_hex": "0x83f040",
+          "vaddr_hex": "0x847040",
+          "file_bytes": 933784,
+          "memory_bytes": 933824,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        },
+        {
+          "offset_hex": "0x922fe0",
+          "vaddr_hex": "0x92efe0",
+          "file_bytes": 506144,
+          "memory_bytes": 34341816,
+          "alignment_bytes": 16384,
+          "alignment_hex": "0x4000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        }
+      ],
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0x847040",
+          "memory_bytes": 933824,
+          "end_hex": "0x92b000",
+          "end_mod_16kb": 12288,
+          "end_is_16kb_aligned": false,
+          "rounded_protection_start_hex": "0x844000",
+          "rounded_protection_end_hex": "0x92c000"
+        }
+      ],
+      "minimum_load_alignment_bytes": 16384,
+      "all_pt_load_segments_16kb_aligned": true,
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "documented_relro_end_modulo_check_pass": false
+    },
+    {
+      "archive": "native_client/android/app/libs/yingxia_core.aar",
+      "entry": "jni/armeabi-v7a/libgojni.so",
+      "sha256": "410e3dfafcea1f2bfcd829aac9d3a5bbcbe54f6c461ede280b2231388bff11e7",
+      "size_bytes": 9283772,
+      "elf_class_bits": 32,
+      "e_machine": 40,
+      "pt_load_segments": [
+        {
+          "offset_hex": "0x0",
+          "vaddr_hex": "0x0",
+          "file_bytes": 3395717,
+          "memory_bytes": 3395717,
+          "alignment_bytes": 4096,
+          "alignment_hex": "0x1000",
+          "at_least_16kb_alignment": false,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 4,
+          "writable": false
+        },
+        {
+          "offset_hex": "0x33d088",
+          "vaddr_hex": "0x33e088",
+          "file_bytes": 4792808,
+          "memory_bytes": 4792808,
+          "alignment_bytes": 4096,
+          "alignment_hex": "0x1000",
+          "at_least_16kb_alignment": false,
+          "offset_vaddr_congruent_mod_16kb": false,
+          "flags_mask": 5,
+          "writable": false
+        },
+        {
+          "offset_hex": "0x7cf270",
+          "vaddr_hex": "0x7d1270",
+          "file_bytes": 637152,
+          "memory_bytes": 638352,
+          "alignment_bytes": 4096,
+          "alignment_hex": "0x1000",
+          "at_least_16kb_alignment": false,
+          "offset_vaddr_congruent_mod_16kb": false,
+          "flags_mask": 6,
+          "writable": true
+        },
+        {
+          "offset_hex": "0x86ab50",
+          "vaddr_hex": "0x86db50",
+          "file_bytes": 456056,
+          "memory_bytes": 34199256,
+          "alignment_bytes": 4096,
+          "alignment_hex": "0x1000",
+          "at_least_16kb_alignment": false,
+          "offset_vaddr_congruent_mod_16kb": false,
+          "flags_mask": 6,
+          "writable": true
+        }
+      ],
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0x7d1270",
+          "memory_bytes": 638352,
+          "end_hex": "0x86d000",
+          "end_mod_16kb": 4096,
+          "end_is_16kb_aligned": false,
+          "rounded_protection_start_hex": "0x7d0000",
+          "rounded_protection_end_hex": "0x870000"
+        }
+      ],
+      "minimum_load_alignment_bytes": 4096,
+      "all_pt_load_segments_16kb_aligned": false,
+      "relro_rounding_overlaps_non_relro_writable_load": [
+        {
+          "writable_load_start_hex": "0x86db50",
+          "writable_load_end_hex": "0x290b228",
+          "overlap_start_hex": "0x86db50",
+          "overlap_end_hex": "0x870000"
+        }
+      ],
+      "documented_relro_end_modulo_check_pass": false
+    },
+    {
+      "archive": ".tools/native/maven_local_repo/io/flutter/arm64_v8a_release/1.0.0-deb287481e3ce9468f3434937ced4240a70539ca/arm64_v8a_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.jar",
+      "entry": "lib/arm64-v8a/libflutter.so",
+      "sha256": "31f11027580a8eb4fb2e24bbb1fc9c740110418eaad39fb12b5a01c49748c558",
+      "size_bytes": 165164528,
+      "elf_class_bits": 64,
+      "e_machine": 183,
+      "pt_load_segments": [
+        {
+          "offset_hex": "0x0",
+          "vaddr_hex": "0x0",
+          "file_bytes": 11370224,
+          "memory_bytes": 11370224,
+          "alignment_bytes": 65536,
+          "alignment_hex": "0x10000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 5,
+          "writable": false
+        },
+        {
+          "offset_hex": "0xad7ef0",
+          "vaddr_hex": "0xae7ef0",
+          "file_bytes": 369400,
+          "memory_bytes": 373008,
+          "alignment_bytes": 65536,
+          "alignment_hex": "0x10000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        },
+        {
+          "offset_hex": "0xb321e8",
+          "vaddr_hex": "0xb521e8",
+          "file_bytes": 5864,
+          "memory_bytes": 67576,
+          "alignment_bytes": 65536,
+          "alignment_hex": "0x10000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        }
+      ],
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0xae7ef0",
+          "memory_bytes": 373008,
+          "end_hex": "0xb43000",
+          "end_mod_16kb": 12288,
+          "end_is_16kb_aligned": false,
+          "rounded_protection_start_hex": "0xae4000",
+          "rounded_protection_end_hex": "0xb44000"
+        }
+      ],
+      "minimum_load_alignment_bytes": 65536,
+      "all_pt_load_segments_16kb_aligned": true,
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "documented_relro_end_modulo_check_pass": false
+    },
+    {
+      "archive": ".tools/native/maven_local_repo/io/flutter/armeabi_v7a_release/1.0.0-deb287481e3ce9468f3434937ced4240a70539ca/armeabi_v7a_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.jar",
+      "entry": "lib/armeabi-v7a/libflutter.so",
+      "sha256": "8f2582da82b10900cf752d5750361bc89742fde950cdd3fb6902f8828cfe8725",
+      "size_bytes": 151593280,
+      "elf_class_bits": 32,
+      "e_machine": 40,
+      "pt_load_segments": [
+        {
+          "offset_hex": "0x0",
+          "vaddr_hex": "0x0",
+          "file_bytes": 8416864,
+          "memory_bytes": 8416864,
+          "alignment_bytes": 65536,
+          "alignment_hex": "0x10000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 5,
+          "writable": false
+        },
+        {
+          "offset_hex": "0x806e60",
+          "vaddr_hex": "0x816e60",
+          "file_bytes": 194488,
+          "memory_bytes": 197024,
+          "alignment_bytes": 65536,
+          "alignment_hex": "0x10000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        },
+        {
+          "offset_hex": "0x836618",
+          "vaddr_hex": "0x856618",
+          "file_bytes": 2720,
+          "memory_bytes": 38440,
+          "alignment_bytes": 65536,
+          "alignment_hex": "0x10000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        }
+      ],
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0x816e60",
+          "memory_bytes": 197024,
+          "end_hex": "0x847000",
+          "end_mod_16kb": 12288,
+          "end_is_16kb_aligned": false,
+          "rounded_protection_start_hex": "0x814000",
+          "rounded_protection_end_hex": "0x848000"
+        }
+      ],
+      "minimum_load_alignment_bytes": 65536,
+      "all_pt_load_segments_16kb_aligned": true,
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "documented_relro_end_modulo_check_pass": false
+    },
+    {
+      "archive": ".tools/native/maven_local_repo/io/flutter/x86_64_release/1.0.0-deb287481e3ce9468f3434937ced4240a70539ca/x86_64_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.jar",
+      "entry": "lib/x86_64/libflutter.so",
+      "sha256": "e554f4ac5901212bbfcd3e473cfdb2352b52159d52dfee7f1b85019a3e804857",
+      "size_bytes": 165996904,
+      "elf_class_bits": 64,
+      "e_machine": 62,
+      "pt_load_segments": [
+        {
+          "offset_hex": "0x0",
+          "vaddr_hex": "0x0",
+          "file_bytes": 12676720,
+          "memory_bytes": 12676720,
+          "alignment_bytes": 65536,
+          "alignment_hex": "0x10000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 5,
+          "writable": false
+        },
+        {
+          "offset_hex": "0xc16e70",
+          "vaddr_hex": "0xc26e70",
+          "file_bytes": 362064,
+          "memory_bytes": 364944,
+          "alignment_bytes": 65536,
+          "alignment_hex": "0x10000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        },
+        {
+          "offset_hex": "0xc6f4c0",
+          "vaddr_hex": "0xc8f4c0",
+          "file_bytes": 10264,
+          "memory_bytes": 73456,
+          "alignment_bytes": 65536,
+          "alignment_hex": "0x10000",
+          "at_least_16kb_alignment": true,
+          "offset_vaddr_congruent_mod_16kb": true,
+          "flags_mask": 6,
+          "writable": true
+        }
+      ],
+      "gnu_relro_segments": [
+        {
+          "vaddr_hex": "0xc26e70",
+          "memory_bytes": 364944,
+          "end_hex": "0xc80000",
+          "end_mod_16kb": 0,
+          "end_is_16kb_aligned": true,
+          "rounded_protection_start_hex": "0xc24000",
+          "rounded_protection_end_hex": "0xc80000"
+        }
+      ],
+      "minimum_load_alignment_bytes": 65536,
+      "all_pt_load_segments_16kb_aligned": true,
+      "relro_rounding_overlaps_non_relro_writable_load": [],
+      "documented_relro_end_modulo_check_pass": true
+    }
+  ],
+  "scope_limits": [
+    "Final APK ZIP member alignment and compression are not checked by this source-artifact inspection.",
+    "Static ELF header checks do not replace execution on a 16 KB page-size device.",
+    "Only the requested arm64-v8a, armeabi-v7a and x86_64 media-kit artifacts, production Go AAR and available official Flutter release JARs are inspected.",
+    "Android 16 KB native alignment requirements apply to 64-bit ABI libraries; ARMv7 is reported separately.",
+    "Flutter application AOT libapp.so is not included because the final APK has not yet been emitted; inspect the final APK and run zipalign -c -P 16 4 afterward."
+  ],
+  "summary": {
+    "native_library_count": 12,
+    "native_64bit_library_count": 8,
+    "all_64bit_pt_load_segments_16kb_aligned": true,
+    "relro_end_modulo_nonzero_entries": [
+      {
+        "archive": "native_client/build/media_kit_libs_android_video/output/default-arm64-v8a.jar",
+        "entry": "lib/arm64-v8a/libmediakitandroidhelper.so",
+        "end_mod_16kb": [
+          8192
+        ]
+      },
+      {
+        "archive": "native_client/build/media_kit_libs_android_video/output/default-arm64-v8a.jar",
+        "entry": "lib/arm64-v8a/libmpv.so",
+        "end_mod_16kb": [
+          4096
+        ]
+      },
+      {
+        "archive": "native_client/build/media_kit_libs_android_video/output/default-x86_64.jar",
+        "entry": "lib/x86_64/libmediakitandroidhelper.so",
+        "end_mod_16kb": [
+          8192
+        ]
+      },
+      {
+        "archive": "native_client/build/media_kit_libs_android_video/output/default-x86_64.jar",
+        "entry": "lib/x86_64/libmpv.so",
+        "end_mod_16kb": [
+          8192
+        ]
+      },
+      {
+        "archive": "native_client/android/app/libs/yingxia_core.aar",
+        "entry": "jni/arm64-v8a/libgojni.so",
+        "end_mod_16kb": [
+          12288
+        ]
+      },
+      {
+        "archive": "native_client/android/app/libs/yingxia_core.aar",
+        "entry": "jni/x86_64/libgojni.so",
+        "end_mod_16kb": [
+          12288
+        ]
+      },
+      {
+        "archive": ".tools/native/maven_local_repo/io/flutter/arm64_v8a_release/1.0.0-deb287481e3ce9468f3434937ced4240a70539ca/arm64_v8a_release-1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.jar",
+        "entry": "lib/arm64-v8a/libflutter.so",
+        "end_mod_16kb": [
+          12288
+        ]
+      }
+    ],
+    "observed_relro_rounding_writable_conflicts_64bit": []
+  },
+  "relro_reference": "https://android.googlesource.com/platform/bionic/+/249a7ae70e3e051d55696d5028f2c3600ab6a6f0/linker/linker_phdr.cpp",
+  "relro_observation": "The current Android guide simple (VirtAddr+MemSiz)%16384 formula is recorded literally. Several libraries, including official Flutter ARM64, return a nonzero remainder, but their next non-RELRO writable PT_LOAD lies beyond the rounded protection region. No observed PT_LOAD writable overlap is a static finding, not proof of all dynamic-linker behavior or of runtime compatibility."
+}

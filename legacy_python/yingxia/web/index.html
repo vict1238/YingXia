@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>映匣 · YingXia 1.0</title><link rel="stylesheet" href="/app.css">
+<script src="/bootstrap.js" defer></script><script src="/app.js" defer></script>
+</head>
+<body>
+<div class="shell">
+<aside class="sidebar">
+ <a href="#search" class="brand" aria-label="映匣首页"><span class="brand-icon">映</span><span>映匣<small>YINGXIA / 1.0</small></span></a>
+ <div class="side-label">你的放映室</div>
+ <nav aria-label="主导航">
+  <button class="nav active" data-view="search"><span class="nav-symbol">⌕</span>搜索影片</button>
+  <button class="nav" data-view="workspace"><span class="nav-symbol">▷</span>播放工作台</button>
+  <button class="nav" data-view="library"><span class="nav-symbol">▤</span>收藏与记录</button>
+  <button class="nav" data-view="settings"><span class="nav-symbol">⚙</span>来源与诊断</button>
+ </nav>
+ <div class="side-bottom"><div class="connection"><i></i> 本机服务运行中</div><p>数据保存在本机<br>不导入浏览器账号</p><button id="quit" class="text-button">退出软件 ↗</button></div>
+</aside>
+<main>
+ <header class="topbar"><span id="breadcrumb">发现 / 搜索影片</span><div class="top-actions"><span class="chip muted-chip">v1.0 源码运行版</span><button id="import-open" class="small-button">＋ 粘贴平台播放页</button></div></header>
+ <section id="view-search" class="view active" aria-label="搜索影片">
+  <div class="hero"><div class="eyebrow">YOUR LOCAL SCREENING ROOM</div><h1>想看什么？</h1><p>从片名开始。保留年份与季数，确认作品后再播放。</p></div>
+  <form id="search-form" class="searchbar">
+   <label class="sr-only" for="query">输入片名</label><span class="search-glyph">⌕</span>
+   <input id="query" maxlength="120" placeholder="输入片名、年份或季数…" autocomplete="off">
+   <label class="sr-only" for="search-mode">搜索目录或平台</label>
+   <select id="search-mode"><option value="catalog">无损云目录</option value="qq">腾讯视频 · 入口检索</option><option value="iqiyi">爱奇艺 · 入口检索</option><option value="youku">优酷 · 入口检索</option><option value="bilibili">哔哩哔哩 · 入口检索</option><option value="mgtv">芒果TV · 入口检索</option></select>
+   <button type="submit" id="search-submit" class="primary">搜索</button>
+  </form>
+  <div class="search-meta"><span>在线目录不等于全网片库；平台入口检索为实验功能。</span><button id="demo-btn" class="text-button">先试试离线演示 →</button></div>
+  <div id="search-message" class="notice hidden" role="status"></div>
+  <div id="official-search-bar" class="notice hidden"><span>平台未提供可直接确认的完整选集。</span><a id="official-search-link" class="inline-link" target="_blank" rel="noopener noreferrer">打开官方搜索 ↗</a><span>进入播放页后，使用右上角「粘贴平台播放页」。</span></div>
+  <div class="section-head"><h2 id="results-heading">开始之前</h2><span id="results-count" class="secondary-text">搜索结果不会自动混入演示内容</span></div>
+  <div id="search-welcome" class="welcome-grid">
+   <article class="welcome-card"><span class="step">01 / FIND</span><h3>先找到正确版本</h3><p>同名电影、不同年份、第一季与第二季分别保留，不盲目自动匹配。</p></article>
+   <article class="welcome-card"><span class="step">02 / CHOOSE</span><h3>看清实际播放来源</h3><p>目录片源与官方平台单独标注。七条解析线路需要具体平台播放页。</p></article>
+   <article class="welcome-card"><span class="step">03 / VERIFY</span><h3>有画面，再确认</h3><p>页面加载并非实播成功。网页模式由你确认；直连模式报告播放时间推进。</p></article>
+  </div>
+  <div id="results" class="film-grid"></div>
+  <div class="footnote">仅用于访问你有权观看的内容。本软件不提供会员账号、DRM 解密或影视媒体存储。</div>
+ </section>
+ <section id="view-workspace" class="view" aria-label="播放工作台">
+  <div class="section-head work-head"><div><div class="eyebrow">SCREENING DESK</div><h1 id="film-title">播放工作台</h1><p id="film-meta" class="secondary-text">先搜索并选择一部作品，或粘贴具体平台播放页。</p></div><button id="favorite-btn" class="small-button" disabled>＋ 收藏</button></div>
+  <div class="work-grid">
+   <div class="player-column">
+    <div id="stage" class="stage"><div class="stage-empty"><span class="play-emblem">▷</span><h3>让下一段故事，从这里开始</h3><p>选择作品与集数后，点击「播放所选集」。</p></div></div>
+    <div class="playback-status"><i id="playback-dot"></i><span id="playback-status">尚未打开播放入口</span><button id="fullscreen" class="text-button">全屏 ⛶</button></div>
+    <div class="transport"><button id="prev" class="small-button" disabled>上一集</button><button id="play" class="primary" disabled>▷ 播放所选集</button><button id="next" class="small-button" disabled>下一集</button><button id="stop" class="small-button">停止</button></div>
+    <div class="playback-route"><div><label for="player-source">播放方式 / 解析线路</label><select id="player-source"></select></div><div class="actual-source"><label>实际播放来源</label><strong id="actual-source">尚未选择</strong></div></div>
+    <div class="playback-help"><span id="mode-hint">网页播放器可能禁止内嵌、出现广告或加载失败。不会自动获得平台会员。</span><div class="inline-actions"><a id="external-player" class="inline-link hidden" target="_blank" rel="noopener noreferrer">在浏览器中打开 ↗</a><button id="confirm-playing" class="text-button hidden">我已看到视频画面</button></div></div>
+    <details id="binding-details" class="binding"><summary>平台播放页 <span>用于第三方解析 · 每集单独绑定</span></summary><p class="secondary-text">目录片源没有平台归属。请进入官方页面核对影片和集数，再粘贴；绑定仅代表你的确认。</p><div class="binding-row"><label class="sr-only" for="binding-platform">对应平台</label><select id="binding-platform"></select><label class="sr-only" for="binding-url">具体播放页网址</label><input id="binding-url" placeholder="粘贴这一集的 HTTPS 平台播放页"><button id="bind-save" class="small-button">保存绑定</button></div><div id="binding-note" class="secondary-text"></div></details>
+    <div id="workspace-message" class="notice hidden" role="status"></div>
+   </div>
+   <aside class="episode-panel"><div class="section-head"><h2>选集</h2><span id="episode-count" class="chip">0 集</span></div><label for="group-select">目录来源组</label><select id="group-select" disabled><option>暂无来源</option></select><p id="selected-episode" class="secondary-text">未选择集数</p><div id="episodes" class="episode-grid"></div><div class="film-description"><h3>作品信息</h3><p id="film-summary">目录接口返回的信息会显示在这里。缺失信息不补猜。</p><p id="film-people" class="secondary-text"></p></div></aside>
+  </div>
+ </section>
+ <section id="view-library" class="view" aria-label="收藏与记录">
+  <div class="hero compact"><div class="eyebrow">YOUR COLLECTION</div><h1>留给下一次</h1><p>收藏与最近打开记录保存在本机。网页播放器不提供精确秒级续播。</p></div>
+  <div class="section-head"><h2>我的收藏</h2><span id="favorites-count" class="secondary-text"></span></div><div id="favorites" class="film-grid"></div>
+  <div class="section-head history-head"><h2>最近打开</h2><button id="clear-history" class="small-button">清空记录</button></div><div id="history" class="table-wrap"></div>
+ </section>
+ <section id="view-settings" class="view" aria-label="来源与诊断">
+  <div class="hero compact"><div class="eyebrow">SOURCES & DIAGNOSTICS</div><h1>来源透明，状态可查</h1><p>线路列表来自既有配置，不代表已通过实播验证。故障时先区分网络与来源问题。</p></div>
+  <div class="settings-grid"><div class="settings-card"><h2>网络与隐私</h2><label class="toggle-row"><input type="checkbox" id="network-consent">允许第三方网络查询与播放</label><p>仅在你主动搜索、诊断或播放时调用。第三方会收到相应搜索词或播放页地址。</p><label class="toggle-row"><input type="checkbox" id="save-history" checked>保存最近打开与播放状态</label><p>不导入 Chrome / Edge Cookie。日志不主动写入片名、完整 URL 或媒体令牌。</p></div><div class="settings-card"><h2>本机数据</h2><p>收藏、逐集平台绑定和设置使用 SQLite 保存。</p><code id="data-dir"></code><p>不自动执行远程更新。自定义来源需在此目录修改 sources.json，并重新启动。</p><button id="export-report" class="small-button">导出脱敏诊断 JSON</button></div></div>
+  <div class="section-head"><h2>在线来源</h2><span class="secondary-text">无损云目录 + 7 条平台解析线路</span></div><div id="sources" class="table-wrap"></div>
+  <div class="section-head history-head"><div><h2>连接诊断</h2><p class="secondary-text">只请求已启用的入口与普通网站对照，不测试整部影片。</p></div><button id="diagnose" class="primary">运行连接诊断</button></div><div id="diagnostics" class="table-wrap"><p class="empty-text">尚未运行。HTTP 200 不等于视频可播放。</p></div>
+  <div class="notice">v1.0 边界：仅一条在线目录；平台入口采用静态页面检索；第三方网页无法可靠回传进度；不承诺全平台、原生 4K 或完整弹幕。</div>
+ </section>
+</main></div>
+<div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+<dialog id="consent-dialog"><div class="dialog-eyebrow">开始在线查询之前</div><h2>确认第三方访问</h2><p>在线搜索会把片名发给目录或选定平台；第三方解析会收到你提供的平台播放页网址。</p><p>当前来源尚未经过完整实播验收，页面可能含广告。不要向第三方输入账号密码，不要安装页面要求的播放器或浏览器插件。</p><p class="secondary-text">仅访问你有权观看的内容。不提供会员身份、账号共享或 DRM 解密。可以先使用不联网的演示模式。</p><div class="dialog-actions"><button id="consent-cancel" class="small-button">暂不联网</button><button id="consent-accept" class="primary">了解并允许</button></div></dialog>
+<dialog id="import-dialog"><div class="dialog-eyebrow">OFFICIAL PAGE</div><h2>粘贴平台播放页</h2><p class="secondary-text">只导入当前页面，不会伪造全剧选集；换集需提供相应播放页。</p><form id="import-form"><label for="import-title">作品名称（选填）</label><input id="import-title" maxlength="150" placeholder="方便辨认，不自动证明影片匹配"><label for="import-platform">平台</label><select id="import-platform"></select><label for="import-url">具体 HTTPS 播放页</label><input id="import-url" required placeholder="https://…"><p>会去除常见追踪参数，不保存账号密码。导入本身不发送网络请求。</p><div class="dialog-actions"><button id="import-cancel" type="button" class="small-button">取消</button><button type="submit" class="primary">导入工作台</button></div></form></dialog>
+</body></html>

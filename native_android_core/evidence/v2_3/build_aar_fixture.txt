@@ -1,0 +1,5 @@
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          DBF1383150EB463373C318948184BB602E9A1D6CD8720DF75EFB7C04830747BA       C:\Users\vict1238\Documents\Chat…
+

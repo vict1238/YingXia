@@ -1,0 +1,24 @@
+{
+  "software": [
+    {
+      "file": "YingXia_v2.3.0_Native_Windows_x64.exe",
+      "size": 60843520,
+      "sha256": "17aac338a81ba012f5b30327be7194381e45eb6872262348dccd598545be3652"
+    }
+  ],
+  "source_archive": {
+    "file": "YingXia_v2.3.0_Native_Windows_Source.zip",
+    "size": 39679058,
+    "sha256": "30aa5a55df8ebf8ee2e5fc32fb21d1e362d1c842a2440120bca1a4ad1099dbc7",
+    "verified_files": 1007,
+    "crc_verified": true,
+    "all_decompressed_file_sha256_verified": true
+  },
+  "validation_report": "YingXia_v2.3.0_Native_Windows_VALIDATION.json",
+  "validation_report_sha256": "966660c34e91614f4bca7120e5fec705c52925441491baac0f8279be51708fd3",
+  "private_runtime_data_included": false,
+  "private_signing_material_included": false,
+  "old_windows_launcher_and_android_bridge_included": false,
+  "generated_payload_included": false,
+  "resource_syso_included_with_source_recipe": true
+}

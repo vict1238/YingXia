@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>映匣 · YingXia</title><link rel="stylesheet" href="/app.css">
+<script src="/bootstrap.js" defer></script><script src="/vendor/hls.min.js" defer></script><script src="/app.js" defer></script>
+</head>
+<body>
+<div class="shell">
+<aside class="sidebar">
+ <a href="#search" class="brand" aria-label="映匣首页"><span class="brand-icon">映</span><span>映匣<small>YINGXIA</small></span></a>
+ <nav aria-label="主导航">
+  <button class="nav active" data-view="search"><span class="nav-symbol">⌕</span>搜索影片</button>
+  <button class="nav" data-view="workspace"><span class="nav-symbol">▷</span>播放工作台</button>
+  <button class="nav" data-view="library"><span class="nav-symbol">▤</span>收藏与记录</button>
+  <button class="nav" data-view="settings"><span class="nav-symbol">⚙</span>来源与诊断</button>
+ </nav>
+</aside>
+<main>
+ <header class="topbar"><span id="breadcrumb">搜索影片</span></header>
+ <section id="view-search" class="view active" aria-label="搜索影片">
+  <div class="hero"><h1>想看什么？</h1></div>
+  <form id="search-form" class="searchbar">
+   <label class="sr-only" for="query">输入片名</label><span class="search-glyph">⌕</span>
+   <input id="query" maxlength="120" placeholder="搜索片名…" autocomplete="off">
+   <label class="sr-only" for="search-mode">搜索目录或平台</label>
+   <select id="search-mode"><option value="all">全部来源</option><option value="anime">动漫</option></select>
+   <button type="submit" id="search-submit" class="primary">搜索</button>
+  </form>
+  <div id="search-progress" class="search-progress hidden" role="status"><div class="search-progress-row"><span id="search-progress-label">搜索中…</span><button id="search-cancel" type="button" class="text-button">取消</button></div><progress id="search-progress-bar" max="100" value="0" aria-label="搜索与访问检测进度"></progress></div>
+  <div id="search-message" class="notice hidden" role="status"></div>
+  <div id="official-search-bar" class="notice hidden"><a id="official-search-link" class="inline-link" target="_blank" rel="noopener noreferrer">打开官方搜索 ↗</a></div>
+  <div id="results-header" class="section-head hidden"><h2 id="results-heading">搜索结果</h2><span id="results-count" class="secondary-text"></span></div>
+  <details id="search-sources" class="source-results hidden"><summary id="search-source-summary"></summary><div id="search-source-results" class="table-wrap"></div></details>
+  <div id="results" class="film-grid"></div>
+ </section>
+ <section id="view-workspace" class="view" aria-label="播放工作台">
+  <div class="section-head work-head"><div><h1 id="film-title">播放工作台</h1><p id="film-meta" class="secondary-text"></p></div><button id="favorite-btn" class="small-button" disabled>＋ 收藏</button></div>
+  <div class="work-grid">
+   <div class="player-column">
+    <div id="stage" class="stage"><div class="stage-empty"><span class="play-emblem">▷</span><h3>选集之后请点击下方播放所选集</h3></div></div>
+    <div class="playback-status"><i id="playback-dot"></i><span id="playback-status">待播放</span><button id="fullscreen" class="text-button">全屏 ⛶</button></div>
+    <div class="transport"><button id="prev" class="small-button" disabled>上一集</button><button id="play" class="primary" disabled>▷ 播放所选集</button><button id="next" class="small-button" disabled>下一集</button><select id="speed" class="hidden" aria-label="播放速度"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="2">2×</option></select><select id="quality" class="hidden" aria-label="画质"><option value="-1">自动画质</option></select><button id="stop" class="small-button">停止</button></div>
+    <div class="playback-route"><div><label for="player-source">播放方式 / 解析线路</label><select id="player-source"></select></div><div class="actual-source"><label>实际播放来源</label><strong id="actual-source">尚未选择</strong></div></div>
+    <div class="playback-help"><div class="inline-actions"><a id="external-player" class="inline-link hidden" target="_blank" rel="noopener noreferrer">在浏览器中打开 ↗</a></div></div>
+    <details id="binding-details" class="binding"><summary>绑定播放页</summary><div class="binding-row"><label class="sr-only" for="binding-platform">对应平台</label><select id="binding-platform"></select><label class="sr-only" for="binding-url">具体播放页网址</label><input id="binding-url" placeholder="粘贴本集播放页"><button id="bind-save" class="small-button">保存</button></div><div id="binding-note" class="secondary-text"></div></details>
+    <div id="workspace-message" class="notice hidden" role="status"></div>
+   </div>
+   <aside class="episode-panel"><div class="section-head"><h2>选集</h2><span id="episode-count" class="chip">0 集</span></div><label for="group-select">片源</label><select id="group-select" disabled><option>暂无来源</option></select><p id="selected-episode" class="secondary-text">未选择集数</p><div id="episodes" class="episode-grid"></div><div class="film-description"><h3>作品信息</h3><p id="film-summary"></p><p id="film-people" class="secondary-text"></p></div></aside>
+  </div>
+ </section>
+ <section id="view-library" class="view" aria-label="收藏与记录">
+  <div class="hero compact"><h1>收藏与记录</h1></div>
+  <div class="section-head"><h2>我的收藏</h2><span id="favorites-count" class="secondary-text"></span></div><div id="favorites" class="film-grid"></div>
+  <div class="section-head history-head"><h2>最近打开</h2><button id="clear-history" class="small-button">清空记录</button></div><div id="history" class="table-wrap"></div>
+ </section>
+ <section id="view-settings" class="view" aria-label="来源与诊断">
+  <div class="hero compact"><h1>来源与诊断</h1></div>
+  <div class="settings-grid"><div class="settings-card"><h2>设置</h2><label class="toggle-row"><input type="checkbox" id="network-consent">联网搜索与播放</label><label class="toggle-row"><input type="checkbox" id="save-history" checked>保存历史记录</label><label class="toggle-row"><input type="checkbox" id="auto-next" checked>自动播放下一集</label></div><div class="settings-card"><h2>数据目录</h2><code id="data-dir"></code><button id="export-report" class="small-button">导出诊断</button></div></div>
+  <div class="section-head"><h2>来源更新</h2><button id="update-sources" class="small-button">检查更新</button></div><div class="settings-card"><label class="toggle-row"><input type="checkbox" id="auto-update-sources" checked>自动更新来源</label><div id="update-status" class="secondary-text"></div><div id="upstream-status"></div><div id="update-changes" class="secondary-text"></div></div>
+  <div class="section-head"><h2 id="providers-heading">影视来源</h2><button id="add-source-open" class="small-button">＋ 添加来源</button></div><div id="providers" class="table-wrap"></div>
+  <details class="parser-settings"><summary>解析线路</summary><div id="sources" class="table-wrap"></div></details>
+  <div class="section-head history-head"><h2>连接诊断</h2><button id="diagnose" class="primary">检测连接</button></div><div id="diagnostics" class="table-wrap"><p class="empty-text">尚未检测</p></div>
+ </section>
+</main></div>
+<div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+<dialog id="consent-dialog"><h2>允许联网？</h2><p>搜索和播放将连接所选来源。</p><div class="dialog-actions"><button id="consent-cancel" class="small-button">取消</button><button id="consent-accept" class="primary">允许</button></div></dialog>
+<dialog id="clear-history-dialog" aria-labelledby="clear-history-title"><h2 id="clear-history-title">清空记录？</h2><p>收藏会保留。</p><div id="clear-history-message" class="notice hidden" role="status"></div><div class="dialog-actions"><button id="clear-history-cancel" type="button" class="small-button">取消</button><button id="clear-history-confirm" type="button" class="primary">清空</button></div></dialog>
+<dialog id="source-dialog"><h2>添加来源</h2><form id="source-form"><label for="source-name">名称</label><input id="source-name" maxlength="80" placeholder="来源名称"><label for="source-url">CMS 接口地址</label><input id="source-url" placeholder="https://…/api.php/provide/vod/"><details><summary>批量导入 JSON</summary><textarea id="source-json" rows="5" placeholder='{"sources":[{"name":"来源名称","url":"https://…"}]}'></textarea></details><div class="dialog-actions"><button id="source-cancel" type="button" class="small-button">取消</button><button type="submit" class="primary">添加</button></div></form></dialog>
+</body></html>

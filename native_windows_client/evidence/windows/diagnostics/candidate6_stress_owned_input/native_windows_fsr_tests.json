@@ -1,0 +1,292 @@
+{
+  "platform": "win32/x64",
+  "executable": "YingXia_candidate6.exe",
+  "sha256": "d826f45a89f9aa8bbed1ed578e666a724c6f984d15756bef0d90fd73af7bd106",
+  "shipping_gui_tested": true,
+  "production_backend_history_tested": false,
+  "media_backend": "separately compiled native_fixture Go child via explicit developer override",
+  "fixture_backend_sha256": "0f1803480545b72b01353071ac8a543f41d4dabb6c8eea824728ef13486f4a46",
+  "synthetic_media_only": true,
+  "real_third_party_playback_tested": false,
+  "checks": [],
+  "observations": [
+    {
+      "owned_pointer_activation": {
+        "action": "Invoke",
+        "owner_pid": 35700,
+        "class": "YingXiaNativeWindow_94e9f0489866539d",
+        "topmost_restored": true,
+        "cursor_restored": true,
+        "point_owner_checked": true
+      }
+    },
+    {
+      "native_parent_exit": {
+        "code": 0,
+        "signal": null,
+        "time": "2026-10-14T12:16:23.282Z"
+      }
+    }
+  ],
+  "carried_forward_production_evidence": {
+    "executable": "YingXia_candidate5.exe",
+    "sha256": "bd82683efcd94ac1b635e325ab74d1941ec95ef41b749efb89ffe945c7b4b0c3",
+    "checks": [
+      {
+        "name": "Single release EXE extracts runtime and opens its own visible Flutter window with no browser/WebView children",
+        "passed": true
+      },
+      {
+        "name": "All four approved pages load in the production Flutter/Go app",
+        "passed": true
+      },
+      {
+        "name": "Exact two developer names and emails are shown at the top of sources and diagnostics",
+        "passed": true
+      },
+      {
+        "name": "Simple three-choice quality dropdown can change and persist the Windows-only preference",
+        "passed": true
+      },
+      {
+        "name": "Production in-app clear confirmation can cancel without changing persistent records",
+        "passed": true
+      },
+      {
+        "name": "Actual read-only library write failure retains rows and allows retry",
+        "passed": true
+      },
+      {
+        "name": "Actual production backend clears disk history while preserving favorites, bindings and settings",
+        "passed": true
+      },
+      {
+        "name": "Repeated single-file launch restores the existing native window",
+        "passed": true
+      },
+      {
+        "name": "Full release EXE restart keeps history empty and favorite available; window close ends child family",
+        "passed": true
+      }
+    ],
+    "scope": "Same frozen Go, Dart and native C++ runtime; next candidate changes only shader assets. These checks were run on the recorded prior EXE."
+  },
+  "failure": "Error: Owned native test helper failed: C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_ui_probe.ps1 : \r\nException calling \"Activate\" with \"1\" argument(s): \"External foreground interference after owned test activation; no \r\nnew activation attempt made\"\r\n    + CategoryInfo          : NotSpecified: (:) [windows_ui_probe.ps1], MethodInvocationException\r\n    + FullyQualifiedErrorId : Exception,windows_ui_probe.ps1\r\n \r\n\n    at probe (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:29:575)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async playFilm (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:85:47)\n    at async main (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:123:33)",
+  "failure_processes": [
+    {
+      "ProcessId": 33568,
+      "ParentProcessId": 27108,
+      "Name": "YingXia_candidate6.exe"
+    },
+    {
+      "ProcessId": 35700,
+      "ParentProcessId": 33568,
+      "Name": "yingxia_native.exe"
+    },
+    {
+      "ProcessId": 23748,
+      "ParentProcessId": 35700,
+      "Name": "yingxia_backend_fsr_fixture.exe"
+    },
+    {
+      "ProcessId": 23600,
+      "ParentProcessId": 23748,
+      "Name": "conhost.exe"
+    }
+  ],
+  "failure_accessibility": [
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 16,
+      "name": null,
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        74,
+        167,
+        44
+      ],
+      "role": 41,
+      "name": "映\n映匣\nYINGXIA",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        165,
+        167,
+        49
+      ],
+      "role": 43,
+      "name": "搜索影片",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        221,
+        167,
+        49
+      ],
+      "role": 43,
+      "name": "播放工作台",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        277,
+        167,
+        49
+      ],
+      "role": 43,
+      "name": "收藏与记录",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        333,
+        167,
+        49
+      ],
+      "role": 43,
+      "name": "来源与诊断",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        67,
+        49,
+        20
+      ],
+      "role": 41,
+      "name": "搜索影片",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        222,
+        114,
+        1120,
+        788
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        164,
+        1044,
+        62
+      ],
+      "role": 41,
+      "name": "想看什么？",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        271,
+        267,
+        761,
+        44
+      ],
+      "role": 42,
+      "name": "搜索片名",
+      "value": "FSR",
+      "action": null
+    },
+    {
+      "rect": [
+        1044,
+        267,
+        175,
+        44
+      ],
+      "role": 43,
+      "name": "搜索来源\n全部来源",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1229,
+        272,
+        64,
+        34
+      ],
+      "role": 43,
+      "name": "搜索",
+      "value": "",
+      "action": null
+    }
+  ],
+  "check_count": 0
+}

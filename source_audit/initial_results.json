@@ -1,0 +1,86 @@
+[
+  {
+    "name": "github_raw",
+    "url": "https://raw.githubusercontent.com/88lin/video_vip/main/video_vip.user.js",
+    "tested_utc": "2026-10-10T13:25:38.628641+00:00",
+    "error": "ConnectionError: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /88lin/video_vip/main/video_vip.user.js (Caused by NameResolutionError(\"HTTPSConnection(host='raw.githubusercontent.com', port=443): Failed to resolve 'raw.githubusercontent.com' ([Errno -3] Temporary failure in name resolution)\"))",
+    "seconds": 0.01
+  },
+  {
+    "name": "cdn_script",
+    "url": "https://cdn.jsdmirror.com/gh/88lin/video_vip@main/video_vip.user.js",
+    "tested_utc": "2026-10-10T13:25:38.629182+00:00",
+    "error": "ConnectionError: HTTPSConnectionPool(host='cdn.jsdmirror.com', port=443): Max retries exceeded with url: /gh/88lin/video_vip@main/video_vip.user.js (Caused by NameResolutionError(\"HTTPSConnection(host='cdn.jsdmirror.com', port=443): Failed to resolve 'cdn.jsdmirror.com' ([Errno -3] Temporary failure in name resolution)\"))",
+    "seconds": 10.02
+  },
+  {
+    "name": "wsy_search",
+    "url": "https://wsyzy.cc/index.php/ajax/suggest?mid=1&wd=%E4%B8%89%E4%BD%93",
+    "tested_utc": "2026-10-10T13:25:38.630056+00:00",
+    "error": "ConnectionError: HTTPSConnectionPool(host='wsyzy.cc', port=443): Max retries exceeded with url: /index.php/ajax/suggest?mid=1&wd=%E4%B8%89%E4%BD%93 (Caused by NameResolutionError(\"HTTPSConnection(host='wsyzy.cc', port=443): Failed to resolve 'wsyzy.cc' ([Errno -3] Temporary failure in name resolution)\"))",
+    "seconds": 5.01
+  },
+  {
+    "name": "wsy_api",
+    "url": "https://api.wsyzy.net/api.php/provide/vod/?ac=list&wd=%E4%B8%89%E4%BD%93",
+    "tested_utc": "2026-10-10T13:25:38.633164+00:00",
+    "error": "ConnectionError: HTTPSConnectionPool(host='api.wsyzy.net', port=443): Max retries exceeded with url: /api.php/provide/vod/?ac=list&wd=%E4%B8%89%E4%BD%93 (Caused by NameResolutionError(\"HTTPSConnection(host='api.wsyzy.net', port=443): Failed to resolve 'api.wsyzy.net' ([Errno -3] Temporary failure in name resolution)\"))",
+    "seconds": 10.02
+  },
+  {
+    "name": "wsy_player",
+    "url": "https://wsyzy.vip/m3u8/",
+    "tested_utc": "2026-10-10T13:25:38.634015+00:00",
+    "error": "ConnectionError: HTTPSConnectionPool(host='wsyzy.vip', port=443): Max retries exceeded with url: /m3u8/ (Caused by NameResolutionError(\"HTTPSConnection(host='wsyzy.vip', port=443): Failed to resolve 'wsyzy.vip' ([Errno -3] Temporary failure in name resolution)\"))",
+    "seconds": 5.01
+  },
+  {
+    "name": "qilin",
+    "url": "https://free.maccms.xyz/",
+    "tested_utc": "2026-10-10T13:25:38.636868+00:00",
+    "error": "ConnectionError: HTTPSConnectionPool(host='free.maccms.xyz', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='free.maccms.xyz', port=443): Failed to resolve 'free.maccms.xyz' ([Errno -3] Temporary failure in name resolution)\"))",
+    "seconds": 5.01
+  },
+  {
+    "name": "txnq",
+    "url": "https://bfq.txnp.cn/player",
+    "tested_utc": "2026-10-10T13:25:38.637757+00:00",
+    "error": "ConnectionError: HTTPSConnectionPool(host='bfq.txnp.cn', port=443): Max retries exceeded with url: /player (Caused by NameResolutionError(\"HTTPSConnection(host='bfq.txnp.cn', port=443): Failed to resolve 'bfq.txnp.cn' ([Errno -3] Temporary failure in name resolution)\"))",
+    "seconds": 5.0
+  },
+  {
+    "name": "qige",
+    "url": "https://jx.202617.xyz/tv.php",
+    "tested_utc": "2026-10-10T13:25:43.639903+00:00",
+    "error": "ConnectionError: HTTPSConnectionPool(host='jx.202617.xyz', port=443): Max retries exceeded with url: /tv.php (Caused by NameResolutionError(\"HTTPSConnection(host='jx.202617.xyz', port=443): Failed to resolve 'jx.202617.xyz' ([Errno -3] Temporary failure in name resolution)\"))",
+    "seconds": 5.01
+  },
+  {
+    "name": "fongmi",
+    "url": "https://json.fongmi.cc/web",
+    "tested_utc": "2026-10-10T13:25:43.641258+00:00",
+    "error": "ConnectionError: HTTPSConnectionPool(host='json.fongmi.cc', port=443): Max retries exceeded with url: /web (Caused by NameResolutionError(\"HTTPSConnection(host='json.fongmi.cc', port=443): Failed to resolve 'json.fongmi.cc' ([Errno -3] Temporary failure in name resolution)\"))",
+    "seconds": 5.01
+  },
+  {
+    "name": "bingdou",
+    "url": "https://bd.jx.cn/",
+    "tested_utc": "2026-10-10T13:25:43.642367+00:00",
+    "error": "ConnectionError: HTTPSConnectionPool(host='bd.jx.cn', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='bd.jx.cn', port=443): Failed to resolve 'bd.jx.cn' ([Errno -3] Temporary failure in name resolution)\"))",
+    "seconds": 5.01
+  },
+  {
+    "name": "hls",
+    "url": "https://jx.hls.one/",
+    "tested_utc": "2026-10-10T13:25:43.643433+00:00",
+    "error": "ConnectionError: HTTPSConnectionPool(host='jx.hls.one', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='jx.hls.one', port=443): Failed to resolve 'jx.hls.one' ([Errno -3] Temporary failure in name resolution)\"))",
+    "seconds": 10.01
+  },
+  {
+    "name": "playerjy",
+    "url": "https://jx.playerjy.com/",
+    "tested_utc": "2026-10-10T13:25:48.646929+00:00",
+    "error": "ConnectionError: HTTPSConnectionPool(host='jx.playerjy.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='jx.playerjy.com', port=443): Failed to resolve 'jx.playerjy.com' ([Errno -3] Temporary failure in name resolution)\"))",
+    "seconds": 5.01
+  }
+]

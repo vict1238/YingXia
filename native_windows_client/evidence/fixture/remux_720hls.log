@@ -1,0 +1,56 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720p30.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+  Duration: 00:02:00.00, start: 0.000000, bitrate: 2161 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], 2159 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc63.1.102 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+Output #0, hls, to 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls.m3u8':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 2159 kb/s, 30 fps, 30 tbr, 90k tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc63.1.102 libx264
+Press [q] to stop, [?] for help
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls000.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls001.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls002.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls003.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls004.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls005.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls006.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls007.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls008.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls009.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls010.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls011.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls012.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls013.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls014.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls015.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls016.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls017.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls018.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls019.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls020.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls021.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls022.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls023.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls024.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls025.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls026.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls027.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls028.ts' for writing
+[hls @ 000001c15de75100] Opening 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_core\internal\engine\fixturedata\fsr\720hls029.ts' for writing
+[out#0/hls @ 000001c15de63580] video:31629KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame= 3600 fps=0.0 q=-1.0 Lsize=N/A time=00:01:59.93 bitrate=N/A speed=1.59e+03x elapsed=0:00:00.07    

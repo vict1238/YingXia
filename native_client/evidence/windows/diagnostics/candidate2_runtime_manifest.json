@@ -1,0 +1,756 @@
+{
+  "version": "2.0.0-native-windows",
+  "bundle_sha256": "aff38064ef3554b2870ec89f11f0587473a2cffbcf159b0fe0b7f1ea6e4616c3",
+  "files": [
+    {
+      "path": "concrt140.dll",
+      "size": 324208,
+      "sha256": "2405355f0a58067b258f8df33c327e3a3d716eaac5a3a5aebb757842d85bd376"
+    },
+    {
+      "path": "d3dcompiler_47.dll",
+      "size": 4891080,
+      "sha256": "5653bc7b0e2701561464ef36602ff6171c96bffe96e4c3597359cd7addcba88a"
+    },
+    {
+      "path": "data/app.so",
+      "size": 7193480,
+      "sha256": "875a232678048ba34a6eea9b1e324b723bf3fb0c460e7ee2b7d219b00818a57a"
+    },
+    {
+      "path": "data/flutter_assets/AssetManifest.bin",
+      "size": 198,
+      "sha256": "327bae3628750c72687b92c8fb26faeb3bd944f05ae2105513ac299be807502b"
+    },
+    {
+      "path": "data/flutter_assets/FontManifest.json",
+      "size": 82,
+      "sha256": "28b1eb2b3d2e1ad60b8c8b0f9100b1ccbf492f7fa97f5bebb51ea97e73926e7d"
+    },
+    {
+      "path": "data/flutter_assets/fonts/MaterialIcons-Regular.otf",
+      "size": 3316,
+      "sha256": "d2f136530db480062c58dcb5d9eb3aa93729b5257caf31c79d91191d3dee8262"
+    },
+    {
+      "path": "data/flutter_assets/NativeAssetsManifest.json",
+      "size": 45,
+      "sha256": "9548a31e4a048135c1d94f919328bfb62ae2c7bb3cab96557c7941daa97776cb"
+    },
+    {
+      "path": "data/flutter_assets/NOTICES.Z",
+      "size": 105529,
+      "sha256": "a56560df635c96b4ac2e7b26c1debfd0b56694ddfd16151add8786091af48cb1"
+    },
+    {
+      "path": "data/flutter_assets/shaders/ink_sparkle.frag",
+      "size": 21856,
+      "sha256": "1fe8436a743884cb65078fe8c7b38e18f5365f2a2961270916f426fd13c604af"
+    },
+    {
+      "path": "data/flutter_assets/shaders/stretch_effect.frag",
+      "size": 17616,
+      "sha256": "bc7599dbbbaab310efe41520574138d21fb18a88c8fe4495ed79315309336f6f"
+    },
+    {
+      "path": "data/icudtl.dat",
+      "size": 864880,
+      "sha256": "325a86063d26334c2eabe1743cea073b612540fbf3d8fc2ef0b5708e3763a8c7"
+    },
+    {
+      "path": "flutter_windows.dll",
+      "size": 21274112,
+      "sha256": "7b03815958c49d72385be497fbd0eb1bb2ae27d24989d6c9aee83eafbd93e9d3"
+    },
+    {
+      "path": "libEGL.dll",
+      "size": 472904,
+      "sha256": "b2590bd0692f0381fc45c20bf1c7f7f713c9ea19c7ea6bab62efdd1fadc4eaac"
+    },
+    {
+      "path": "libGLESv2.dll",
+      "size": 7414088,
+      "sha256": "620bb6e38d7ed6c760a0cf4a8eb6a8f64b259b96ff286551cd32cefc6c35ca39"
+    },
+    {
+      "path": "libmpv-2.dll",
+      "size": 29764622,
+      "sha256": "d5f0694b08c124e785d858d00082f3e3b158dd9138bfc48c0382bf1eb443a5fc"
+    },
+    {
+      "path": "LICENSE_FLUTTER.txt",
+      "size": 1544,
+      "sha256": "a3a9fd82f800a47377f7d3f60c60a5c91cae0495be8f329031e1448ce0f5dab9"
+    },
+    {
+      "path": "LICENSE_YINGXIA.txt",
+      "size": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "licenses/assemble_notices.ps1",
+      "size": 7105,
+      "sha256": "4a738a2c3014452050c353d765fcb653d08b861046131d6ad8d9715d71392c4d"
+    },
+    {
+      "path": "licenses/collect_licenses.ps1",
+      "size": 4384,
+      "sha256": "5a2e32aa712e7405d8e713844caa55da688b62f95534c61099f6a994764f63a8"
+    },
+    {
+      "path": "licenses/flutter/engine-binary.json",
+      "size": 144,
+      "sha256": "768af5fd891346991574bbfe8a000d4890f10a88f37cb27856c0981236a9353f"
+    },
+    {
+      "path": "licenses/flutter/flutter-version.json",
+      "size": 566,
+      "sha256": "b932a1c1b958c5234e966da625fddd33548bba356a702e301e46657e58ddac2c"
+    },
+    {
+      "path": "licenses/flutter/LICENSE-Dart.txt",
+      "size": 1502,
+      "sha256": "2cfa3ee8e7512e6d44c854b986510810fadc815f93f890373b3a81c1b6ccd256"
+    },
+    {
+      "path": "licenses/flutter/LICENSE-Flutter.txt",
+      "size": 1544,
+      "sha256": "a3a9fd82f800a47377f7d3f60c60a5c91cae0495be8f329031e1448ce0f5dab9"
+    },
+    {
+      "path": "licenses/flutter/materialicons_license.txt",
+      "size": 18531,
+      "sha256": "be698262aecd042c0de6f886cc0af622f8def446462026992cc530275d8a9e74"
+    },
+    {
+      "path": "licenses/flutter/NOTICES-Flutter-engine.txt",
+      "size": 1269349,
+      "sha256": "3c0040023a5789bf56d6bf41fd44f08b21758523d41f128fb7dd6beb398d1191"
+    },
+    {
+      "path": "licenses/flutter/roboto_license.txt",
+      "size": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "licenses/flutter/robotocondensed_license.txt",
+      "size": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "licenses/native/angle-binaries.json",
+      "size": 1942,
+      "sha256": "6721a2f4c34565ec6ed7ab669e31404d25dd7509ad88bf8bff84838ca57dbee3"
+    },
+    {
+      "path": "licenses/native/angle-release.json",
+      "size": 4062,
+      "sha256": "a68d3fc809bbb365cac24a5c066e5b28155f21c761ceb931aa09d01fec2d98b2"
+    },
+    {
+      "path": "licenses/native/angle-tree.json",
+      "size": 42878,
+      "sha256": "3ac3617d28f0609f6867a0056683b3df57c56ac48408384d23ada65423897b67"
+    },
+    {
+      "path": "licenses/native/AUTHORS-ANGLE.txt",
+      "size": 1428,
+      "sha256": "998d109f0bb54b5508f71a7c47b653a31e8a19563039967f66b23bf40ac8153b"
+    },
+    {
+      "path": "licenses/native/COPYING-FFmpeg-GPL-2.0.txt",
+      "size": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "licenses/native/COPYING-FFmpeg-GPL-3.0.txt",
+      "size": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "licenses/native/COPYING-FFmpeg-LGPL-2.1.txt",
+      "size": 26526,
+      "sha256": "b634ab5640e258563c536e658cad87080553df6f34f62269a21d554844e58bfe"
+    },
+    {
+      "path": "licenses/native/COPYING-FFmpeg-LGPL-3.0.txt",
+      "size": 7651,
+      "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+    },
+    {
+      "path": "licenses/native/COPYRIGHT-mpv.txt",
+      "size": 3740,
+      "sha256": "ca8f78358716ff15098bf681e07d508007e4e5f1bbcbefc5d859bef55559d00d"
+    },
+    {
+      "path": "licenses/native/fetch_sources.ps1",
+      "size": 3301,
+      "sha256": "b595f82734e4d87918e6279642732c74f7bbd5f8330173b0a3ac06df41fb2f24"
+    },
+    {
+      "path": "licenses/native/ffmpeg-6.0.tar.xz",
+      "size": 10234012,
+      "sha256": "57be87c22d9b49c112b6d24bc67d42508660e6b718b3db89c44e47e289137082"
+    },
+    {
+      "path": "licenses/native/ffmpeg-windows-configure.txt",
+      "size": 5245,
+      "sha256": "586ab020c95c1dffb4a1d0e641f6de85c203a0e985eac3c8aadeb8a9a9cd1c44"
+    },
+    {
+      "path": "licenses/native/libmpv-android-build-fe8c3ac1.zip",
+      "size": 97164,
+      "sha256": "b30f4ccd7487f62780c76db40ef5ac309bf09119c8572f8a3e63a98da31fef2a"
+    },
+    {
+      "path": "licenses/native/libmpv-android-release.json",
+      "size": 12460,
+      "sha256": "5228fbd98a41014ebe32b3a59f9b92a55ab13963c58a9b6d72ac89b7d150f4fe"
+    },
+    {
+      "path": "licenses/native/libmpv-android-tree.json",
+      "size": 20278,
+      "sha256": "b730cc89f3cd30f25d0526a78703d371b01d8a61ad5bc0e12d90afb2a0069ba9"
+    },
+    {
+      "path": "licenses/native/libmpv-windows-binary.json",
+      "size": 943,
+      "sha256": "d69788062906a4228098ffc2d931a0c654ed2d2cbf4e651ea510f97e7e054caf"
+    },
+    {
+      "path": "licenses/native/libmpv-windows-build-f5a6f879.zip",
+      "size": 157948,
+      "sha256": "3cef244769b16299d72b12e727148163613075d3b8a5833d7ce2e3f923965b51"
+    },
+    {
+      "path": "licenses/native/libmpv-windows-builder-history.json",
+      "size": 3949,
+      "sha256": "a67182a8078692fc3f221dede96a22bf62a55b1376ab8af617c4c9a9f80e24cb"
+    },
+    {
+      "path": "licenses/native/libmpv-windows-builder-tree.json",
+      "size": 56043,
+      "sha256": "acdf8b3e896fc4e59a952014841efb8c358a342f854209b7dd0902aa2c644941"
+    },
+    {
+      "path": "licenses/native/libmpv-windows-release.json",
+      "size": 8299,
+      "sha256": "a6653527898b3c0217ceb91ad48af09ef031b738ab5b2a05920147ab5187ef0b"
+    },
+    {
+      "path": "licenses/native/libmpv-windows-tree.json",
+      "size": 525,
+      "sha256": "dec406836722db9cd249a910078370a06effedd75ea5388e99136652384e66d4"
+    },
+    {
+      "path": "licenses/native/LICENSE-ANGLE.txt",
+      "size": 1643,
+      "sha256": "bf4da21bd20bcfb5b60b7ecc67fa864a79be049e21d6178076887f178dd6c71a"
+    },
+    {
+      "path": "licenses/native/LICENSE-FFmpeg.txt",
+      "size": 4376,
+      "sha256": "cb48bf09a11f5fb576cddb0431c8f5ed0a60157a9ec942adffc13907cbe083f2"
+    },
+    {
+      "path": "licenses/native/LICENSE-libcxx-LLVM.txt",
+      "size": 16703,
+      "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b"
+    },
+    {
+      "path": "licenses/native/LICENSE-mpv-GPL-2.0.txt",
+      "size": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "licenses/native/LICENSE-mpv-LGPL-2.1.txt",
+      "size": 26530,
+      "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+    },
+    {
+      "path": "licenses/native/LICENSE-SwiftShader.txt",
+      "size": 11560,
+      "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+    },
+    {
+      "path": "licenses/native/LICENSE-Vulkan-loader.txt",
+      "size": 11661,
+      "sha256": "43c0a37e6a0fa7ff3c843b3ec5a4fac84b712558ddac103fbd4c1649662a9ece"
+    },
+    {
+      "path": "licenses/native/LICENSE-zlib.txt",
+      "size": 5368,
+      "sha256": "fc2c3368901700f0acdeb1d8afeaca5923296768ec6824ecdf627aac396001fd"
+    },
+    {
+      "path": "licenses/native/microsoft-vc-runtime-binaries.json",
+      "size": 2735,
+      "sha256": "c64bad869683b3bb0feb2595299de4b0109ab769a67fb028544890f8d9f1b0f3"
+    },
+    {
+      "path": "licenses/native/Microsoft-VC-Runtime-License.docx",
+      "size": 39644,
+      "sha256": "f1e3d56ceb2ad68aae0711b910375009e651ac5530fa0760f0dea6e81e54fae1"
+    },
+    {
+      "path": "licenses/native/Microsoft-VC-Runtime-License.txt",
+      "size": 6622,
+      "sha256": "76c6045b291b9fbd6049453142f8ca6f10e3d0e57b63aff6e57fe8398f04cef1"
+    },
+    {
+      "path": "licenses/native/mpv-android-78d43740.zip",
+      "size": 3915055,
+      "sha256": "75e31ece965fa698c74e293c8cafbcdb746b80d68dbd4b75fabb60c4def0cb4d"
+    },
+    {
+      "path": "licenses/native/mpv-windows-652a1dd907.zip",
+      "size": 3853957,
+      "sha256": "721f1e128493a89494efc4816b46a63cd9006082a0110d122d92081f6156cc21"
+    },
+    {
+      "path": "licenses/native/probe_libmpv.ps1",
+      "size": 2067,
+      "sha256": "96d713b0446da9c150e8cd5257b952733862b684f9bfb2c0ed931b2014a9f339"
+    },
+    {
+      "path": "licenses/native/upstream-source-manifest.json",
+      "size": 5466,
+      "sha256": "41ae42e82238d381fa627f27af4af8f5909bced3674ec5a78e3eb555e2120b69"
+    },
+    {
+      "path": "licenses/pub-license-manifest.json",
+      "size": 17733,
+      "sha256": "5f6db18236e333c92ccbbb06d76a6f0e2338a501ec65d435e26baefe2b2bd685"
+    },
+    {
+      "path": "licenses/pub/archive-4.5.2/LICENSE",
+      "size": 1101,
+      "sha256": "32f97d332eae7453ec4079858e6f1d74be85beeb6d3881068b47d02a379cccea"
+    },
+    {
+      "path": "licenses/pub/archive-4.5.2/LICENSE-other.md",
+      "size": 4678,
+      "sha256": "ebe5a199af245d7e3e761673fbf3db341427060407e50713861ab24bb2cb1552"
+    },
+    {
+      "path": "licenses/pub/args-2.7.0/LICENSE",
+      "size": 1504,
+      "sha256": "dfb09c74e29386cd3e2719f32d4995d59526179753931d31840757c77fbf2791"
+    },
+    {
+      "path": "licenses/pub/async-2.13.1/LICENSE",
+      "size": 1504,
+      "sha256": "ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73"
+    },
+    {
+      "path": "licenses/pub/boolean_selector-2.1.2/LICENSE",
+      "size": 1503,
+      "sha256": "b71519245009a3b8f126196a5408ec031e216e8e0d985085958c6543f82a8a2a"
+    },
+    {
+      "path": "licenses/pub/characters-1.4.1/LICENSE",
+      "size": 1504,
+      "sha256": "0371d1da6a57fb791db29d29b95333429205f51f3cb2eb3a0c12d91838a38744"
+    },
+    {
+      "path": "licenses/pub/clock-1.1.3/LICENSE",
+      "size": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "licenses/pub/collection-1.19.1/LICENSE",
+      "size": 1504,
+      "sha256": "ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73"
+    },
+    {
+      "path": "licenses/pub/crypto-3.0.7/LICENSE",
+      "size": 1503,
+      "sha256": "ad6a71997da90924b2cfb1fb47ec46537f70faf469efe016168794ae45ed6888"
+    },
+    {
+      "path": "licenses/pub/dbus-0.8.0/LICENSE",
+      "size": 16725,
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+    },
+    {
+      "path": "licenses/pub/fake_async-1.3.3/LICENSE",
+      "size": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "licenses/pub/ffi_leak_tracker-0.1.2/LICENSE",
+      "size": 1499,
+      "sha256": "332f290333e64ed007b4f59aeeebd8fd3ceaadfbfa226a6cf2a3ab1583281624"
+    },
+    {
+      "path": "licenses/pub/ffi-2.2.0/LICENSE",
+      "size": 1504,
+      "sha256": "0371d1da6a57fb791db29d29b95333429205f51f3cb2eb3a0c12d91838a38744"
+    },
+    {
+      "path": "licenses/pub/fixnum-1.1.1/LICENSE",
+      "size": 1503,
+      "sha256": "ff0b91d4f3c32b25cb6ec84985e8da89b0ba2a2b2f7eef353cda5e5423a20390"
+    },
+    {
+      "path": "licenses/pub/flutter_lints-5.0.0/LICENSE",
+      "size": 1519,
+      "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9"
+    },
+    {
+      "path": "licenses/pub/flutter_localizations-0.0.0/LICENSE",
+      "size": 1544,
+      "sha256": "a3a9fd82f800a47377f7d3f60c60a5c91cae0495be8f329031e1448ce0f5dab9"
+    },
+    {
+      "path": "licenses/pub/flutter_test-0.0.0/LICENSE",
+      "size": 1544,
+      "sha256": "a3a9fd82f800a47377f7d3f60c60a5c91cae0495be8f329031e1448ce0f5dab9"
+    },
+    {
+      "path": "licenses/pub/flutter_web_plugins-0.0.0/LICENSE",
+      "size": 1544,
+      "sha256": "a3a9fd82f800a47377f7d3f60c60a5c91cae0495be8f329031e1448ce0f5dab9"
+    },
+    {
+      "path": "licenses/pub/flutter-0.0.0/LICENSE",
+      "size": 1544,
+      "sha256": "a3a9fd82f800a47377f7d3f60c60a5c91cae0495be8f329031e1448ce0f5dab9"
+    },
+    {
+      "path": "licenses/pub/http_parser-4.1.2/LICENSE",
+      "size": 1504,
+      "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16"
+    },
+    {
+      "path": "licenses/pub/http-1.6.0/LICENSE",
+      "size": 1504,
+      "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16"
+    },
+    {
+      "path": "licenses/pub/image-4.12.0/LICENSE",
+      "size": 1122,
+      "sha256": "f3c17da84e0780e1c334325c73098257c32221d62498ed55ef3c1361904925aa"
+    },
+    {
+      "path": "licenses/pub/image-4.12.0/LICENSE-other.md",
+      "size": 8488,
+      "sha256": "dea0e9e446e57c0987d241d5471e47e7b66796fb286706ec993c3fa6696cb08e"
+    },
+    {
+      "path": "licenses/pub/intl-0.20.3/LICENSE",
+      "size": 1503,
+      "sha256": "7e124af6a556f045cb3a20cafbdaa31602ac2c82cbcb3c3b15faaaf514b06028"
+    },
+    {
+      "path": "licenses/pub/leak_tracker_flutter_testing-3.0.10/LICENSE",
+      "size": 1503,
+      "sha256": "08a004aa8956c3cf3b24f7f69c966247233953e18e6afaa61191ea47b7eb70f6"
+    },
+    {
+      "path": "licenses/pub/leak_tracker_testing-3.0.2/LICENSE",
+      "size": 1503,
+      "sha256": "08a004aa8956c3cf3b24f7f69c966247233953e18e6afaa61191ea47b7eb70f6"
+    },
+    {
+      "path": "licenses/pub/leak_tracker-11.0.2/LICENSE",
+      "size": 1503,
+      "sha256": "08a004aa8956c3cf3b24f7f69c966247233953e18e6afaa61191ea47b7eb70f6"
+    },
+    {
+      "path": "licenses/pub/lints-5.1.1/LICENSE",
+      "size": 1503,
+      "sha256": "421fe78c3b5df297f8b4ab2c74f2450a274ee6d245a113091f6b9f90570af193"
+    },
+    {
+      "path": "licenses/pub/matcher-0.12.20/LICENSE",
+      "size": 1504,
+      "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16"
+    },
+    {
+      "path": "licenses/pub/material_color_utilities-0.13.0/LICENSE",
+      "size": 11317,
+      "sha256": "d103f246ef4c18dab8af0c1dcf6a8af884e5cff554da7261a48ac43c17d98f2e"
+    },
+    {
+      "path": "licenses/pub/media_kit_libs_android_video-1.3.8/LICENSE",
+      "size": 1112,
+      "sha256": "2e3000f38718f050869d57540c288c661a446f64df1ba4ea4764df552b04a331"
+    },
+    {
+      "path": "licenses/pub/media_kit_libs_ios_video-1.1.4/LICENSE",
+      "size": 1133,
+      "sha256": "a78baa721ad6f5c0b2d8fb0c6cfff835ad8ed90393cac0087a90e8813490f2bd"
+    },
+    {
+      "path": "licenses/pub/media_kit_libs_linux-1.2.1/LICENSE",
+      "size": 1112,
+      "sha256": "2e3000f38718f050869d57540c288c661a446f64df1ba4ea4764df552b04a331"
+    },
+    {
+      "path": "licenses/pub/media_kit_libs_macos_video-1.1.4/LICENSE",
+      "size": 1133,
+      "sha256": "a78baa721ad6f5c0b2d8fb0c6cfff835ad8ed90393cac0087a90e8813490f2bd"
+    },
+    {
+      "path": "licenses/pub/media_kit_libs_video-1.0.7/LICENSE",
+      "size": 1112,
+      "sha256": "2e3000f38718f050869d57540c288c661a446f64df1ba4ea4764df552b04a331"
+    },
+    {
+      "path": "licenses/pub/media_kit_libs_windows_video-1.0.11/LICENSE",
+      "size": 1112,
+      "sha256": "2e3000f38718f050869d57540c288c661a446f64df1ba4ea4764df552b04a331"
+    },
+    {
+      "path": "licenses/pub/media_kit_video-2.0.1/LICENSE",
+      "size": 1112,
+      "sha256": "2e3000f38718f050869d57540c288c661a446f64df1ba4ea4764df552b04a331"
+    },
+    {
+      "path": "licenses/pub/media_kit-1.2.6/LICENSE",
+      "size": 1112,
+      "sha256": "2e3000f38718f050869d57540c288c661a446f64df1ba4ea4764df552b04a331"
+    },
+    {
+      "path": "licenses/pub/meta-1.19.0/LICENSE",
+      "size": 1503,
+      "sha256": "b71519245009a3b8f126196a5408ec031e216e8e0d985085958c6543f82a8a2a"
+    },
+    {
+      "path": "licenses/pub/package_info_plus_platform_interface-4.1.0/LICENSE",
+      "size": 1481,
+      "sha256": "3b38d48befd0af70b892e13d10c9e34679416c24a9277f962629951c64d71f4c"
+    },
+    {
+      "path": "licenses/pub/package_info_plus-10.2.2/LICENSE",
+      "size": 1481,
+      "sha256": "3b38d48befd0af70b892e13d10c9e34679416c24a9277f962629951c64d71f4c"
+    },
+    {
+      "path": "licenses/pub/path-1.9.1/LICENSE",
+      "size": 1504,
+      "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16"
+    },
+    {
+      "path": "licenses/pub/petitparser-7.1.0/LICENSE",
+      "size": 1101,
+      "sha256": "0be767174b97278f17da4923a74169e8645631f03ea3d8482ec3523c9b1a0dd3"
+    },
+    {
+      "path": "licenses/pub/plugin_platform_interface-2.1.8/LICENSE",
+      "size": 1519,
+      "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9"
+    },
+    {
+      "path": "licenses/pub/posix-6.5.2/LICENSE",
+      "size": 1069,
+      "sha256": "aaf6271abd048deb3125828613f1797b7556472de6c7acd7103bd43e9cb6a84b"
+    },
+    {
+      "path": "licenses/pub/safe_local_storage-2.0.6/LICENSE",
+      "size": 1102,
+      "sha256": "d4cfdb498601b2872c7a09d06c62f92f5c751261bdb6fc4ce436940c7ccac78a"
+    },
+    {
+      "path": "licenses/pub/sky_engine-0.0.0/license",
+      "size": 1269349,
+      "sha256": "3c0040023a5789bf56d6bf41fd44f08b21758523d41f128fb7dd6beb398d1191"
+    },
+    {
+      "path": "licenses/pub/source_span-1.10.2/LICENSE",
+      "size": 1504,
+      "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16"
+    },
+    {
+      "path": "licenses/pub/stack_trace-1.12.2/LICENSE",
+      "size": 1503,
+      "sha256": "ff0b91d4f3c32b25cb6ec84985e8da89b0ba2a2b2f7eef353cda5e5423a20390"
+    },
+    {
+      "path": "licenses/pub/stream_channel-2.1.4/LICENSE",
+      "size": 1504,
+      "sha256": "ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73"
+    },
+    {
+      "path": "licenses/pub/string_scanner-1.4.1/LICENSE",
+      "size": 1504,
+      "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16"
+    },
+    {
+      "path": "licenses/pub/synchronized-3.5.0/LICENSE",
+      "size": 1081,
+      "sha256": "6d07c6bb60afb906049d507e19fcc4c6b59e35c0dd0f8a7302e87b3fb0576900"
+    },
+    {
+      "path": "licenses/pub/term_glyph-1.2.2/LICENSE",
+      "size": 1504,
+      "sha256": "ea97a7558a7bd7cee4e2355f7529e3cbebb0dcbb546ddb9a90f10c9eb6b08da5"
+    },
+    {
+      "path": "licenses/pub/test_api-0.7.12/LICENSE",
+      "size": 1504,
+      "sha256": "ff1b9f0df9036c04be424b1e3ce12789bea880ad5ffc3a48e069ae2d40a087a4"
+    },
+    {
+      "path": "licenses/pub/typed_data-1.4.0/LICENSE",
+      "size": 1504,
+      "sha256": "ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73"
+    },
+    {
+      "path": "licenses/pub/universal_platform-1.1.0/LICENSE",
+      "size": 1076,
+      "sha256": "8a135e09d6288f03171b04f07f00eb5ee04e54f2f5e9c9b952f6adbd1de48c3f"
+    },
+    {
+      "path": "licenses/pub/uri_parser-3.0.2/LICENSE",
+      "size": 1112,
+      "sha256": "2e3000f38718f050869d57540c288c661a446f64df1ba4ea4764df552b04a331"
+    },
+    {
+      "path": "licenses/pub/uuid-4.6.0/LICENSE",
+      "size": 1064,
+      "sha256": "ad3e5523e51004e94ba9ce728805b1b4242dbccdb65e62b523800e35a8a7cfdc"
+    },
+    {
+      "path": "licenses/pub/vector_math-2.4.3/LICENSE",
+      "size": 1497,
+      "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d"
+    },
+    {
+      "path": "licenses/pub/vm_service-15.3.0/LICENSE",
+      "size": 1503,
+      "sha256": "ad6a71997da90924b2cfb1fb47ec46537f70faf469efe016168794ae45ed6888"
+    },
+    {
+      "path": "licenses/pub/wakelock_plus_platform_interface-1.7.0/LICENSE",
+      "size": 1538,
+      "sha256": "1a95201dd1f509289fbbf929f72be2a25fd73c799697e30f5e7782a9cabf5102"
+    },
+    {
+      "path": "licenses/pub/wakelock_plus-1.8.1/LICENSE",
+      "size": 1537,
+      "sha256": "ebff92b2e4105e903605f70bac0030c20b7a1d9d43fd73f8b8aed08ab070fcb9"
+    },
+    {
+      "path": "licenses/pub/web-1.1.1/LICENSE",
+      "size": 1502,
+      "sha256": "aa913ff50d7542eb8cc35b9f48a80928ac6819ba9057f85d424655e3e8dc271c"
+    },
+    {
+      "path": "licenses/pub/win32-6.4.0/LICENSE",
+      "size": 1499,
+      "sha256": "87ef8bccdd619f2345ba5b9026cf1d6cccb305e36ab83849a8a3af9293abde7e"
+    },
+    {
+      "path": "licenses/pub/xml-7.1.0/LICENSE",
+      "size": 1101,
+      "sha256": "0be767174b97278f17da4923a74169e8645631f03ea3d8482ec3523c9b1a0dd3"
+    },
+    {
+      "path": "licenses/runtime/THIRD_PARTY_NOTICES.txt",
+      "size": 2947623,
+      "sha256": "ae873a85c72de800115f9db51409165ab813b1db1cab54c92c7e39220dc2230d"
+    },
+    {
+      "path": "media_kit_libs_windows_video_plugin.dll",
+      "size": 12800,
+      "sha256": "73d7cb78d28af268544185a2cc1522a523b846e1a8b82c032f2bfc8f8dc981a0"
+    },
+    {
+      "path": "media_kit_video_plugin.dll",
+      "size": 151040,
+      "sha256": "47417dec729229438d4407249af7c3531021153f7a04eb484d7312b5d5a60238"
+    },
+    {
+      "path": "msvcp140_1.dll",
+      "size": 35952,
+      "sha256": "bfad5aef4c63a669e3c140655cdfdf395b6c979b400a447bd5dcb65ed8826c3d"
+    },
+    {
+      "path": "msvcp140_2.dll",
+      "size": 280200,
+      "sha256": "3ea06f0ee098b4823cb79599df3780e7f23cce52c19aac31d2a0d47efe33a5e9"
+    },
+    {
+      "path": "msvcp140_atomic_wait.dll",
+      "size": 50304,
+      "sha256": "640b2aefced484d0368eea5bdd06addd0658a3a70a49256e560d6923b404a479"
+    },
+    {
+      "path": "msvcp140_codecvt_ids.dll",
+      "size": 31872,
+      "sha256": "f2069a52880ec885ee7f0511186100eb7fada0411a2b4948fafea7735b878a18"
+    },
+    {
+      "path": "msvcp140.dll",
+      "size": 557728,
+      "sha256": "0f885b509a685d2bbfa652fed26b5fb31d88fbdab0a978c641d1c7b8aa460aa9"
+    },
+    {
+      "path": "native_assets.json",
+      "size": 45,
+      "sha256": "9548a31e4a048135c1d94f919328bfb62ae2c7bb3cab96557c7941daa97776cb"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 10087,
+      "sha256": "1f39919ce85faff4d8f25e8188ef0d3671e60a6c70c180a64e474453dc93ad05"
+    },
+    {
+      "path": "vcamp140.dll",
+      "size": 418944,
+      "sha256": "52af68f35476bd03d7b97752b01bef358ffdda568d150057d6ce809f77c4f704"
+    },
+    {
+      "path": "vccorlib140.dll",
+      "size": 352384,
+      "sha256": "19839407c3fdbc824e5bce189bf68ddf8097f12ec28b757797ffa0415c144ddd"
+    },
+    {
+      "path": "vcomp140.dll",
+      "size": 193152,
+      "sha256": "55aba23cdcd6484fbb06f4155b8ca75adfce7a881f10afd0c49457165e677164"
+    },
+    {
+      "path": "vcruntime140_1.dll",
+      "size": 49792,
+      "sha256": "1f2d41c4aa5db0bc33ebf7b66d72943a817d7ce6cbe880502a9403823633093f"
+    },
+    {
+      "path": "vcruntime140_threads.dll",
+      "size": 38528,
+      "sha256": "219915cf20822f34d5e7c1fdd4e21ae7f3396881096c51036225fb8f84b47afa"
+    },
+    {
+      "path": "vcruntime140.dll",
+      "size": 124544,
+      "sha256": "d5e4d9a3e835fa679450145d6a7d94e36573a509317111904d9b3712c30d9066"
+    },
+    {
+      "path": "vk_swiftshader.dll",
+      "size": 4808008,
+      "sha256": "4f33eea716491972cb1ad123a78acef485f852581130d3f3a98a1981009004f2"
+    },
+    {
+      "path": "vulkan-1.dll",
+      "size": 872776,
+      "sha256": "3be9a95dd9019aa1aca47ade26f5c1c7c0047f3cf6f633d586c9ec0d3b459566"
+    },
+    {
+      "path": "yingxia_backend.exe",
+      "size": 9216512,
+      "sha256": "5bb00591d7998a31c25f9c08553327c08adbcaff50878adf00cd227187ed38a2"
+    },
+    {
+      "path": "yingxia_native.exe",
+      "size": 65536,
+      "sha256": "e15bf9bc68a666dcae19277575b675f89135f8343c28152e07f42c470e076ec5"
+    },
+    {
+      "path": "zlib.dll",
+      "size": 203264,
+      "sha256": "82d5bf175cf882ac9afc1558b416e674606d055966bc09529076b28a498fc0e4"
+    }
+  ]
+}

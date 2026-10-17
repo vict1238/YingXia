@@ -1,0 +1,76 @@
+Unable to find suitable Visual Studio toolchain. Please run `flutter doctor` for more details.
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/native_cmake
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/native_cmake
+[1/19] Generating C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/windows/flutter/ephemeral/flutter_windows.dll, C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/windows/flutter/ephemeral/flutter_windows.dll.lib, C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/windows/flutter/ephemeral/flutter_export.h, C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/windows/flutter/ephemeral/flutter_windows.h, C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/windows/flutter/ephemeral/flutter_messenger.h, C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_
+Font asset "MaterialIcons-Regular.otf" was tree-shaken, reducing it from 1645184 to 3660 bytes (99.8% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+[2/19] Building CXX object flutter\CMakeFiles\flutter_wrapper_plugin.dir\ephemeral\cpp_client_wrapper\plugin_registrar.cc.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[3/19] Building CXX object flutter\CMakeFiles\flutter_wrapper_app.dir\ephemeral\cpp_client_wrapper\flutter_engine.cc.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[4/19] Building CXX object flutter\CMakeFiles\flutter_wrapper_plugin.dir\ephemeral\cpp_client_wrapper\core_implementations.cc.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[5/19] Building CXX object flutter\CMakeFiles\flutter_wrapper_app.dir\ephemeral\cpp_client_wrapper\core_implementations.cc.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[6/19] Building CXX object flutter\CMakeFiles\flutter_wrapper_app.dir\ephemeral\cpp_client_wrapper\standard_codec.cc.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[7/19] Building CXX object flutter\CMakeFiles\flutter_wrapper_plugin.dir\ephemeral\cpp_client_wrapper\standard_codec.cc.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[8/19] Building CXX object flutter\CMakeFiles\flutter_wrapper_app.dir\ephemeral\cpp_client_wrapper\flutter_view_controller.cc.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[9/19] Building CXX object runner\CMakeFiles\yingxia_native.dir\flutter_window.cpp.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[10/19] Linking CXX static library flutter\flutter_wrapper_plugin.lib
+[11/19] Linking CXX static library flutter\flutter_wrapper_app.lib
+[12/19] Building CXX object runner\CMakeFiles\yingxia_native.dir\main.cpp.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[13/19] Building CXX object runner\CMakeFiles\yingxia_native.dir\utils.cpp.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[14/19] Building CXX object runner\CMakeFiles\yingxia_native.dir\win32_window.cpp.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[15/19] Building RC object runner\CMakeFiles\yingxia_native.dir\Runner.rc.res
+[16/19] Linking CXX shared library plugins\media_kit_libs_windows_video\media_kit_libs_windows_video_plugin.dll
+[17/19] Linking CXX shared library plugins\media_kit_video\media_kit_video_plugin.dll
+[18/19] Building CXX object runner\CMakeFiles\yingxia_native.dir\__\flutter\generated_plugin_registrant.cc.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[19/19] Linking CXX executable runner\yingxia_native.exe
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/yingxia_native.exe
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/icudtl.dat
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/flutter_windows.dll
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/media_kit_libs_windows_video_plugin.dll
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/libmpv-2.dll
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/d3dcompiler_47.dll
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/libEGL.dll
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/libGLESv2.dll
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/vk_swiftshader.dll
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/vulkan-1.dll
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/zlib.dll
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/media_kit_video_plugin.dll
+-- Up-to-date: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/AssetManifest.bin
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/assets
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/assets/shaders
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/assets/shaders/fsr1_enhanced.glsl
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/assets/shaders/fsr1_light.glsl
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/FontManifest.json
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/fonts
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/NativeAssetsManifest.json
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/NOTICES.Z
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/packages
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/packages/media_kit
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/packages/media_kit/assets
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/packages/media_kit/assets/web
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/packages/media_kit/assets/web/hls1.4.10.js
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/packages/wakelock_plus
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/packages/wakelock_plus/assets
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/packages/wakelock_plus/assets/no_sleep.js
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/shaders
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/shaders/ink_sparkle.frag
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/flutter_assets/shaders/stretch_effect.frag
+-- Installing: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/build/windows/v2_2_candidate1_bundle/data/app.so
+Native Windows bundle: C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\windows\v2_2_candidate1_bundle

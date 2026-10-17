@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "version": "2.2.0-native-android",
+  "verified_at": "2026-10-15T11:30:14.0509109Z",
+  "apk": {
+    "path": "native_android_client/build/candidates/YingXia_v2.2.0_Android.apk",
+    "bytes": 124905502,
+    "sha256": "d3b163d7016f07fb2b9a536b11d376771eed233b67c6160c3f1ec70fc31546af"
+  },
+  "production_aar": {
+    "path": "native_android_core/build/yingxia_core.aar",
+    "bytes": 11819592,
+    "sha256": "1cc925bb13eb46fd5aeb8078504e24f579fc06bfe4941a568df8486f82a448b2"
+  },
+  "fixture_aar": {
+    "path": "native_android_core/build/yingxia_core_fixture.aar",
+    "sha256": "8755f6274120e9ee6d234a50405412b4830bba2186ce47ec264d8e9c7cbcb297"
+  },
+  "strip_tool": {
+    "path": ".tools/native/android_sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-strip.exe",
+    "sha256": "2d411db64e0b45508775e9e8fd436fb6e0af814a9dfbf8aea8fc37ce436c435c",
+    "version": "llvm-strip, compatible with GNU strip\r\nLLVM (http://llvm.org/):\r\n  LLVM version 19.0.1 (/mnt/disks/build-disk/src/android/llvm-r530567/out/llvm-project/llvm 97a699bf4812a18fb657c2779f5296a4ab2694d2)\r\n  Optimized build.",
+    "arguments": [
+      "--strip-unneeded",
+      "-o",
+      "normalized_copy.so",
+      "raw_aar_copy.so"
+    ]
+  },
+  "jni_correspondence": [
+    {
+      "abi": "arm64-v8a",
+      "apk_bytes": 9419184,
+      "aar_bytes": 9419192,
+      "apk_jni_sha256": "290b053a2ba47ed6d386b1780967d9c4e2e4feb59fa06b4d148cbad1290ff999",
+      "aar_jni_sha256": "fe162731a2911643b154a77643c89e34455b66f3462e55f3298ce1ecb1278288",
+      "raw_bytes_identical": false,
+      "normalized_aar_bytes": 9419184,
+      "normalized_aar_sha256": "290b053a2ba47ed6d386b1780967d9c4e2e4feb59fa06b4d148cbad1290ff999",
+      "matches_after_ndk_strip": true,
+      "fixture_raw_sha256": "2ab70a42f7b8ef0005355a3027e3ad3746355e0a1bfad2ac2b31592dcfaae392",
+      "fixture_normalized_sha256": "52bf25ce3aa2dd346f7a96a2f1aec9048907c2b9ac49869a3d58350bb2ba7427",
+      "matches_fixture_bytes": false,
+      "fixture_build_tag_absent": true,
+      "intermediate_snapshots": [
+        {
+          "kind": "merged_native_libs",
+          "path": "native_android_client/build/app/intermediates/merged_native_libs/release/mergeReleaseNativeLibs/out/lib/arm64-v8a/libgojni.so",
+          "snapshot_sha256": "2ab70a42f7b8ef0005355a3027e3ad3746355e0a1bfad2ac2b31592dcfaae392",
+          "bytes": 12066488,
+          "last_write_utc": "2026-10-15T11:29:26.8761841Z",
+          "classification": "fixture AAR raw"
+        },
+        {
+          "kind": "stripped_native_libs",
+          "path": "native_android_client/build/app/intermediates/stripped_native_libs/release/stripReleaseDebugSymbols/out/lib/arm64-v8a/libgojni.so",
+          "snapshot_sha256": "52bf25ce3aa2dd346f7a96a2f1aec9048907c2b9ac49869a3d58350bb2ba7427",
+          "bytes": 12066480,
+          "last_write_utc": "2026-10-15T11:29:31.3220015Z",
+          "classification": "fixture AAR stripped"
+        }
+      ],
+      "binary_compare_exit": 0,
+      "normalized_bytes_identical": true
+    },
+    {
+      "abi": "armeabi-v7a",
+      "apk_bytes": 9332404,
+      "aar_bytes": 9332412,
+      "apk_jni_sha256": "4b94321742ec6dda3bb7c34b406518b3d308619a4cddcda6537dd2b7b3c61b8c",
+      "aar_jni_sha256": "a26d37c857b7cc6c03f62918ecd0bd67a87a80f4ae28e120cd18b0902103c0b8",
+      "raw_bytes_identical": false,
+      "normalized_aar_bytes": 9332404,
+      "normalized_aar_sha256": "4b94321742ec6dda3bb7c34b406518b3d308619a4cddcda6537dd2b7b3c61b8c",
+      "matches_after_ndk_strip": true,
+      "fixture_raw_sha256": "1876183d151d4820ddbe208695914eba4ac1556420f37d3dfab04f9c760885df",
+      "fixture_normalized_sha256": "9533d3e6fd56f435ee694b7eaf42b6b1224c0a4d3af6881d04468368cfc89a7f",
+      "matches_fixture_bytes": false,
+      "fixture_build_tag_absent": true,
+      "intermediate_snapshots": [
+        {
+          "kind": "merged_native_libs",
+          "path": "native_android_client/build/app/intermediates/merged_native_libs/release/mergeReleaseNativeLibs/out/lib/armeabi-v7a/libgojni.so",
+          "snapshot_sha256": "1876183d151d4820ddbe208695914eba4ac1556420f37d3dfab04f9c760885df",
+          "bytes": 11980628,
+          "last_write_utc": "2026-10-15T11:29:26.9314435Z",
+          "classification": "fixture AAR raw"
+        },
+        {
+          "kind": "stripped_native_libs",
+          "path": "native_android_client/build/app/intermediates/stripped_native_libs/release/stripReleaseDebugSymbols/out/lib/armeabi-v7a/libgojni.so",
+          "snapshot_sha256": "9533d3e6fd56f435ee694b7eaf42b6b1224c0a4d3af6881d04468368cfc89a7f",
+          "bytes": 11980620,
+          "last_write_utc": "2026-10-15T11:29:31.3454833Z",
+          "classification": "fixture AAR stripped"
+        }
+      ],
+      "binary_compare_exit": 0,
+      "normalized_bytes_identical": true
+    },
+    {
+      "abi": "x86_64",
+      "apk_bytes": 10145584,
+      "aar_bytes": 10145592,
+      "apk_jni_sha256": "ac6bf1c84d29328886ad32d2dec92e0d153d2a651bcd90aa57ac3ff48f1bfd92",
+      "aar_jni_sha256": "8035eb28dc9e466b31505fa965282e8e8ab78069f6cc98bd17ed3c3840626248",
+      "raw_bytes_identical": false,
+      "normalized_aar_bytes": 10145584,
+      "normalized_aar_sha256": "ac6bf1c84d29328886ad32d2dec92e0d153d2a651bcd90aa57ac3ff48f1bfd92",
+      "matches_after_ndk_strip": true,
+      "fixture_raw_sha256": "c9834e8bab5044a74750d95861b2de67100ea5030c5d3a08912ce352ba26973b",
+      "fixture_normalized_sha256": "ae69f10649bbf03978d905a64e69e7bdf235137f79a0406b985ca3d054419493",
+      "matches_fixture_bytes": false,
+      "fixture_build_tag_absent": true,
+      "intermediate_snapshots": [
+        {
+          "kind": "merged_native_libs",
+          "path": "native_android_client/build/app/intermediates/merged_native_libs/release/mergeReleaseNativeLibs/out/lib/x86_64/libgojni.so",
+          "snapshot_sha256": "c9834e8bab5044a74750d95861b2de67100ea5030c5d3a08912ce352ba26973b",
+          "bytes": 12793944,
+          "last_write_utc": "2026-10-15T11:29:26.9647169Z",
+          "classification": "fixture AAR raw"
+        },
+        {
+          "kind": "stripped_native_libs",
+          "path": "native_android_client/build/app/intermediates/stripped_native_libs/release/stripReleaseDebugSymbols/out/lib/x86_64/libgojni.so",
+          "snapshot_sha256": "ae69f10649bbf03978d905a64e69e7bdf235137f79a0406b985ca3d054419493",
+          "bytes": 12793936,
+          "last_write_utc": "2026-10-15T11:29:31.4230729Z",
+          "classification": "fixture AAR stripped"
+        }
+      ],
+      "binary_compare_exit": 0,
+      "normalized_bytes_identical": true
+    }
+  ],
+  "all_abis_match_production_after_strip": true,
+  "intermediates_are_advisory": "Shared Gradle intermediate paths may be replaced by the concurrent fixture build; comparison uses immutable candidate APK and frozen AAR bytes.",
+  "artifacts_modified": false,
+  "input_hashes_unchanged_after_verification": true
+}

@@ -1,0 +1,10 @@
+PASS: Shipping embedded UI contains an app-owned dialog and no browser confirm call
+PASS: In-app confirmation opens; Cancel preserves both records on disk
+PASS: Escape cancels the in-app dialog without clearing data
+PASS: Failed clear request shows an error and retains records; controls allow retry
+PASS: Pending clear disables repeated actions and keeps the dialog open
+PASS: Successful clear awaits refreshed UI and an older library response cannot restore deleted rows
+PASS: Real backend stores an empty history while preserving favorites, bindings and settings
+PASS: After full EXE restart, history remains empty and the favorite remains available
+PASS: Actual production resolve started before clear cannot recreate disk history when its delayed catalogue response arrives
+PASS: New playback after clear records normally; another real button clear and full restart retain empty history

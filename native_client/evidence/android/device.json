@@ -1,0 +1,10 @@
+{
+  "device": "emulator-5554",
+  "abi": "x86_64",
+  "api": "35",
+  "model": "Android SDK built for x86_64",
+  "size": "Physical size: 320x640",
+  "density": "Physical density: 160",
+  "boot_completed": "1",
+  "device_scope": "Owned emulator only; no physical device/user data involved"
+}

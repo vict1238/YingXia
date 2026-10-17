@@ -1,0 +1,48 @@
+{
+  "sha256": "17aac338a81ba012f5b30327be7194381e45eb6872262348dccd598545be3652",
+  "tool": "computer-use @oai/sky",
+  "scope": "Installed native SFX launched with isolated application data and cache; no user library accessed",
+  "checks": [
+    {
+      "id": "native_start",
+      "status": "passed",
+      "assertion": "Final candidate starts its native Flutter window and bundled backend."
+    },
+    {
+      "id": "workspace_default_off",
+      "status": "passed",
+      "assertion": "Actual workspace shows Off, empty text prompt and episode/playback controls."
+    },
+    {
+      "id": "sources_settings",
+      "status": "passed",
+      "assertion": "Both exact developer credits,47 sources,marked-ad toggle,stall prompt toggle and Off default render in final native window."
+    },
+    {
+      "id": "cache_dialog",
+      "status": "passed",
+      "assertion": "Actual playback settings dialog shows standard60s/96MiB and ahead120s/160MiB with ad/switch toggles."
+    },
+    {
+      "id": "cache_switch",
+      "status": "passed",
+      "assertion": "Actual ahead-cache choice updates the selected radio and underlying settings summary."
+    },
+    {
+      "id": "native_close",
+      "status": "passed",
+      "assertion": "Closing the owned native window exits the SFX launcher without leaving that window or the owned launcher process."
+    }
+  ],
+  "limitations": [
+    "UIA indexed set_value returned element not available after one fresh-state retry; coordinate navigation works. Text-entry UI automation was not counted as a pass.",
+    "No GPU or integrated-GPU performance benchmark in this iteration."
+  ],
+  "failed_attempts": [
+    {
+      "candidate_sha256": "8a5f7cdfcec83f95417b37182316ca09599e32826921f40fb5874b617edd8f24",
+      "passed_checks": 0,
+      "message": "Candidate1 rejected mismatched launcher appVersion2.2 vs bundle2.3. FixedappVersion and added packaging guard; never published."
+    }
+  ]
+}

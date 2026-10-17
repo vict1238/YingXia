@@ -1,0 +1,427 @@
+--------- beginning of main
+10-14 17:13:30.716   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:13:30.717   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:13:30.718   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:13:30.719   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:13:30.719   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+--------- beginning of system
+10-14 17:13:30.758   545  1334 W ActivityTaskManager: callingPackage for (uid=0, pid=1901) has no WPC
+10-14 17:13:30.766   545  1334 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+10-14 17:13:30.774   545  1334 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10148, packageName = null, attributionTag = null, token = android.os.Binder@923bb1c, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+10-14 17:13:30.775   545  1334 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+10-14 17:13:30.777   545  1334 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+10-14 17:13:30.828   545  1334 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.yingxia.yingxia_native/.MainActivity} with LAUNCH_SINGLE_TOP from uid 0 (BAL_ALLOW_ALLOWLISTED_UID) result code=0
+10-14 17:13:30.838   773   885 V WindowManagerShell: Transition requested (#4): android.os.BinderProxy@b96ab4b TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=19 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.yingxia.yingxia_native/.MainActivity } baseActivity=ComponentInfo{com.yingxia.yingxia_native/com.yingxia.yingxia_native.MainActivity} topActivity=ComponentInfo{com.yingxia.yingxia_native/com.yingxia.yingxia_native.MainActivity} origActivity=null realActivity=ComponentInfo{com.yingxia.yingxia_native/com.yingxia.yingxia_native.MainActivity} numActivities=1 lastActiveTime=500080 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@e59f928} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{3297641 com.yingxia.yingxia_native.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=320 topActivityLetterboxHeight=640 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 4 }
+10-14 17:13:30.844   545   570 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10148, packageName = null, attributionTag = null, token = android.os.Binder@923bb1c, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+10-14 17:13:30.854  1038  1038 W SplitSelectStateCtor: Missing session instanceIds
+10-14 17:13:30.854  1038  1038 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+10-14 17:13:30.885  1038  1038 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=19, baseIntent=Intent { flg=0x10000000 cmp=com.yingxia.yingxia_native/.MainActivity }
+10-14 17:13:30.896   773   885 W Looper  : Slow dispatch took 61ms wmshell.main h=android.os.Handler c=com.android.wm.shell.transition.Transitions$TransitionPlayerImpl$$ExternalSyntheticLambda1@1f557e6 m=0
+10-14 17:13:30.897   545   570 W ActivityManager: Slow operation: 54ms so far, now at startProcess: done creating new process record
+10-14 17:13:30.898   545   570 W ActivityManager: Slow operation: 55ms so far, now at startProcess: stepping in to startProcess
+10-14 17:13:30.898   773   885 W Looper  : Slow delivery took 62ms wmshell.main h=android.os.Handler c=null m=16
+10-14 17:13:30.900   773   885 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=false, height=110
+10-14 17:13:30.904   545   570 W ActivityManager: Slow operation: 62ms so far, now at startProcess: done starting proc!
+10-14 17:13:30.911   545   570 D OomAdjuster: Not killing cached processes
+10-14 17:13:30.916   416   416 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-14 17:13:30.970   345   375 I netd    : tetherGetStats() -> {[]} <0.96ms>
+10-14 17:13:31.019   773   885 W Looper  : Drained
+10-14 17:13:31.021   773   885 W Looper  : Slow dispatch took 105ms wmshell.main h=android.os.Handler c=null m=17
+10-14 17:13:31.021   773   885 W Looper  : Slow delivery took 108ms wmshell.main h=android.os.Handler c=null m=17
+10-14 17:13:31.022   773   885 W Looper  : Drained
+10-14 17:13:31.022   545   716 I AppWidgetServiceImpl: Received broadcast: android.intent.action.PACKAGE_UNSTOPPED on user 0
+10-14 17:13:31.022   545   716 I AppWidgetServiceImpl: Updating package stopped masked state for uid 10148 package com.yingxia.yingxia_native isStopped false
+10-14 17:13:31.027   773   947 D SplashScreenView: Build android.window.SplashScreenView{648c540 V.E...... ......ID 0,0-0,0}
+10-14 17:13:31.027   773   947 D SplashScreenView: Icon: view: android.widget.ImageView{895ac79 V.ED..... ......I. 0,0-0,0 #1020504 android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@dd7dbe size: 192
+10-14 17:13:31.027   773   947 D SplashScreenView: Branding: view: android.view.View{9929e1f G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+10-14 17:13:31.105  1038  1287 D EGL_emulation: app_time_stats: avg=388151.25ms min=388151.25ms max=388151.25ms count=1
+10-14 17:13:31.124   545   891 D CoreBackPreview: Window{e6a87ee u0 Splash Screen com.yingxia.yingxia_native}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@9f5eaab, mPriority=0, mIsAnimationCallback=false}
+10-14 17:13:31.221   545  1908 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+10-14 17:13:31.223   545  1908 I EGL_emulation: Opening libGLESv2_emulation.so
+10-14 17:13:31.254   545  1908 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-14 17:13:31.328   351   351 D Zygote  : Forked child process 1909
+10-14 17:13:31.329   545   580 W ActivityManager: Slow operation: 431ms so far, now at startProcess: returned from zygote!
+10-14 17:13:31.329   545   580 W ActivityManager: Slow operation: 432ms so far, now at startProcess: done updating battery stats
+10-14 17:13:31.330   545   580 W ActivityManager: Slow operation: 432ms so far, now at startProcess: building log message
+10-14 17:13:31.330   545   580 I ActivityManager: Start proc 1909:com.yingxia.yingxia_native/u0a148 for next-top-activity {com.yingxia.yingxia_native/com.yingxia.yingxia_native.MainActivity}
+10-14 17:13:31.330   545   580 W ActivityManager: Slow operation: 432ms so far, now at startProcess: starting to update pids map
+10-14 17:13:31.331   545   580 W ActivityManager: Slow operation: 433ms so far, now at startProcess: done updating pids map
+10-14 17:13:31.445   773   956 V WindowManagerShell: onTransitionReady(transaction=2340757176617)
+10-14 17:13:31.447   773   885 V WindowManagerShell: onTransitionReady (#4) android.os.BinderProxy@b96ab4b: {id=4 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@2c477ed} m=OPEN f=NONE leash=Surface(name=Task=19)/@0x9398696 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@87f7622} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x2843217 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1}]}
+10-14 17:13:31.449   773   885 V WindowManagerShell: Playing animation for (#4) android.os.BinderProxy@b96ab4b@0
+10-14 17:13:31.450   773   885 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@572099d
+10-14 17:13:31.450   773   885 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@cea1e12
+10-14 17:13:31.450   773   885 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@8c479e3
+10-14 17:13:31.479  1909  1909 I .yingxia_native: Using CollectorTypeCMC GC.
+10-14 17:13:31.491   545   567 V WindowManager: Sent Transition (#4) createdAt=10-14 17:13:30.780 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=19 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.yingxia.yingxia_native/.MainActivity } baseActivity=ComponentInfo{com.yingxia.yingxia_native/com.yingxia.yingxia_native.MainActivity} topActivity=ComponentInfo{com.yingxia.yingxia_native/com.yingxia.yingxia_native.MainActivity} origActivity=null realActivity=ComponentInfo{com.yingxia.yingxia_native/com.yingxia.yingxia_native.MainActivity} numActivities=1 lastActiveTime=500080 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{10479dd Task{4950ab5 #19 type=standard I=com.yingxia.yingxia_native/.MainActivity}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{9f76952 com.yingxia.yingxia_native.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=320 topActivityLetterboxHeight=640 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 4 }
+10-14 17:13:31.492   545   567 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+10-14 17:13:31.493   545   567 V WindowManager:     info={id=4 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+10-14 17:13:31.493   545   567 V WindowManager:         {WCT{RemoteToken{10479dd Task{4950ab5 #19 type=standard I=com.yingxia.yingxia_native/.MainActivity}}} m=OPEN f=NONE leash=Surface(name=Task=19)/@0x9268687 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1},
+10-14 17:13:31.493   545   567 V WindowManager:         {WCT{RemoteToken{1076b4c Task{bacd172 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xfb7a6c6 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1}
+10-14 17:13:31.493   545   567 V WindowManager:     ]}
+10-14 17:13:31.493  1909  1909 W .yingxia_native: Unexpected CPU variant for x86: x86_64.
+10-14 17:13:31.493  1909  1909 W .yingxia_native: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+10-14 17:13:31.494   545   891 W UserManagerService: Requested status bar icon for non-badged user 0
+10-14 17:13:31.497   773   885 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@56aa299
+10-14 17:13:31.499   773   885 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@748095e
+10-14 17:13:31.499   773   885 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+10-14 17:13:31.500   773   885 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@93ad13f
+10-14 17:13:31.500   773   885 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@f867a0c
+10-14 17:13:31.500   773   885 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=4 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@2c477ed} m=OPEN f=NONE leash=Surface(name=Task=19)/@0x9398696 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@87f7622} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x2843217 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1}]}
+10-14 17:13:31.501   773   885 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@27da5e9, appThread = android.app.IApplicationThread$Stub$Proxy@342d26e, debugName = QuickstepLaunchHome }}
+10-14 17:13:31.502   773   885 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@ea54d0f, appThread = android.app.IApplicationThread$Stub$Proxy@276919c, debugName = QuickstepLaunchHome }}
+10-14 17:13:31.502   773   885 V WindowManagerShell:  Delegate animation for (#4) to null
+10-14 17:13:31.502   773   885 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@6b9cf55
+10-14 17:13:31.502   773   885 V WindowManagerShell: start default transition animation, info = {id=4 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@2c477ed} m=OPEN f=NONE leash=Surface(name=Task=19)/@0x9398696 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@87f7622} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x2843217 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1}]}
+10-14 17:13:31.503  1909  1909 E .yingxia_native: Not starting debugger since process cannot load the jdwp agent.
+10-14 17:13:31.505   773   885 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@6cda77a animAttr=0x13 type=OPEN isEntrance=false
+10-14 17:13:31.507   773   885 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@8fec146 animAttr=0x12 type=OPEN isEntrance=true
+10-14 17:13:31.516   773   885 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@6b9cf55
+10-14 17:13:31.516   773   885 W Looper  : Slow dispatch took 71ms wmshell.main h=android.os.Handler c=com.android.wm.shell.transition.Transitions$TransitionPlayerImpl$$ExternalSyntheticLambda0@ee97834 m=0
+10-14 17:13:31.523   545   887 W ActivityTaskManager: takeTaskSnapshot: taskId=17 not found or not visible
+10-14 17:13:31.538  1909  1909 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-14 17:13:31.568  1038  1287 D EGL_emulation: app_time_stats: avg=43825.82ms min=7.91ms max=394154.28ms count=9
+10-14 17:13:31.704  1909  1909 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-14 17:13:31.705  1909  1909 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-14 17:13:31.711  1909  1909 D nativeloader: Configuring clns-7 for other apk /data/app/~~naUyu6pxnR-x-eZ-yYyu1w==/com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~naUyu6pxnR-x-eZ-yYyu1w==/com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==/lib/x86_64:/data/app/~~naUyu6pxnR-x-eZ-yYyu1w==/com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.yingxia.yingxia_native
+10-14 17:13:31.757  1909  1909 V GraphicsEnvironment: Currently set values for:
+10-14 17:13:31.758  1909  1909 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-14 17:13:31.758  1909  1909 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-14 17:13:31.758  1909  1909 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+10-14 17:13:31.759  1909  1909 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-14 17:13:31.820   773   885 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#4) android.os.BinderProxy@b96ab4b@0
+10-14 17:13:31.830   545   567 V WindowManager: Finish Transition (#4): created at 10-14 17:13:30.780 collect-started=0.441ms request-sent=47.146ms started=107.172ms ready=658.141ms sent=662.493ms finished=1047.905ms
+10-14 17:13:31.840   545  1378 W UserManagerService: Requested status bar icon for non-badged user 0
+10-14 17:13:31.840   773   885 V WindowManagerShell: Track 0 became idle
+10-14 17:13:31.841   773   885 V WindowManagerShell: All active transition animations finished
+10-14 17:13:31.847   545   887 W UserManagerService: Requested status bar icon for non-badged user 0
+10-14 17:13:31.858  1909  1909 I YingXiaCore: host_created id=1 live=1
+10-14 17:13:31.902  1038  1038 D VRI[QuickstepLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+10-14 17:13:31.925  1909  1925 D nativeloader: Load /data/app/~~naUyu6pxnR-x-eZ-yYyu1w==/com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==/base.apk!/lib/x86_64/libflutter.so using ns clns-7 from class loader (caller=/data/app/~~naUyu6pxnR-x-eZ-yYyu1w==/com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==/base.apk): ok
+10-14 17:13:31.939   545  1378 D FileUtils: Rounded bytes from 2593689600 to 4000000000
+10-14 17:13:31.954  1909  1926 D skia    : [SkFontMgr Android Parser] '/product/etc/fonts_customization.xml' could not be opened
+10-14 17:13:32.033  1909  1909 W .yingxia_native: type=1400 audit(0.0:25): avc:  denied  { read } for  name="max_map_count" dev="proc" ino=15581 scontext=u:r:untrusted_app:s0:c148,c256,c512,c768 tcontext=u:object_r:proc_max_map_count:s0 tclass=file permissive=0 app=com.yingxia.yingxia_native
+--------- beginning of kernel
+10-14 17:13:32.163     0     0 I logd    : start watching /data/system/packages.list ...
+10-14 17:13:32.233     0     0 I logd    : ReadPackageList, total packages: 157
+10-14 17:13:32.230  1909  1927 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+10-14 17:13:32.233  1909  1927 I EGL_emulation: Opening libGLESv2_emulation.so
+10-14 17:13:32.357  1909  1927 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+10-14 17:13:32.460  1909  1909 D nativeloader: Load /data/app/~~naUyu6pxnR-x-eZ-yYyu1w==/com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==/base.apk!/lib/x86_64/libmpv.so using ns clns-7 from class loader (caller=/data/app/~~naUyu6pxnR-x-eZ-yYyu1w==/com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==/base.apk): ok
+10-14 17:13:32.460  1909  1909 I media_kit: package:media_kit_libs_android_video attached.
+10-14 17:13:32.463  1909  1909 D nativeloader: Load /data/app/~~naUyu6pxnR-x-eZ-yYyu1w==/com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==/base.apk!/lib/x86_64/libmediakitandroidhelper.so using ns clns-7 from class loader (caller=/data/app/~~naUyu6pxnR-x-eZ-yYyu1w==/com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==/base.apk): ok
+10-14 17:13:32.464  1909  1909 D media_kit: Android
+10-14 17:13:32.464  1909  1909 D media_kit: emu64x
+10-14 17:13:32.464  1909  1909 D media_kit: Android/sdk_phone64_x86_64/emu64x:15/AE3A.240806.019/12368160:userdebug/test-keys
+10-14 17:13:32.464  1909  1909 D media_kit: ranchu
+10-14 17:13:32.464  1909  1909 D media_kit: Android SDK built for x86_64
+10-14 17:13:32.465  1909  1909 D media_kit: unknown
+10-14 17:13:32.465  1909  1909 D media_kit: sdk_phone64_x86_64
+10-14 17:13:32.465  1909  1909 I media_kit: Saved application context.
+10-14 17:13:32.488  1909  1909 D nativeloader: Load /data/app/~~naUyu6pxnR-x-eZ-yYyu1w==/com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==/base.apk!/lib/x86_64/libgojni.so using ns clns-7 from class loader (caller=/data/app/~~naUyu6pxnR-x-eZ-yYyu1w==/com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==/base.apk): ok
+10-14 17:13:32.630  1909  1909 W HWUI    : Unknown dataspace 0
+10-14 17:13:32.662  1909  1909 I Choreographer: Skipped 52 frames!  The application may be doing too much work on its main thread.
+10-14 17:13:32.686  1909  1909 I WindowExtensionsImpl: Initializing Window Extensions, vendor API level=6, activity embedding enabled=true
+10-14 17:13:32.742   545  1378 D CoreBackPreview: Window{4962b80 u0 com.yingxia.yingxia_native/com.yingxia.yingxia_native.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@d2ef475, mPriority=0, mIsAnimationCallback=false}
+10-14 17:13:32.757   416   458 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10148 pid=0
+10-14 17:13:32.757   416   458 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10148 => denied (849 us)
+10-14 17:13:32.757   416   458 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10148 pid=0
+10-14 17:13:32.758   416   458 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10148 => denied (567 us)
+10-14 17:13:32.758   416   463 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10148 pid=1909
+10-14 17:13:32.758   416   458 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10148 pid=0
+10-14 17:13:32.759   416   463 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10148 => denied (2024 us)
+10-14 17:13:32.759   416   458 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10148 => denied (662 us)
+10-14 17:13:32.979   152   152 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-14 17:13:32.980  1909  1927 I Gralloc4: mapper 4.x is not supported
+10-14 17:13:32.803     0     0 I servicemanager: Caller(pid=1909,uid=10148,sid=u:r:untrusted_app:s0:c148,c256,c512,c768) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+10-14 17:13:33.060  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name position
+10-14 17:13:33.060  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name uv
+10-14 17:13:33.065  1909  1922 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-14 17:13:33.088  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.089  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.090  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.099  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.100  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name color
+10-14 17:13:33.106  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.106  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name e0
+10-14 17:13:33.107  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 2 name e1
+10-14 17:13:33.107  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 3 name e2
+10-14 17:13:33.108  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 4 name e3
+10-14 17:13:33.128  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.149  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.183  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.212  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.230  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.261  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.286  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.308  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.327  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.345  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.363  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.376  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.415  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.474  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.516  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.543  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.559  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.560  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.592  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.594  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.610  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.628  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.649  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.650  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.667  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.680  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.680  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.693  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.694  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.713  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.715  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.726   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:13:33.727   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:13:33.729   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:13:33.732   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:13:33.733   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:13:33.741  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:33.741  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name gaussian
+10-14 17:13:33.753  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:33.754  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:13:33.754  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.779  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:33.780  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:13:33.780  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.802  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:33.802  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:13:33.803  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.817  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:33.817  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:13:33.818  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.827  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:33.828  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:13:33.828  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.844  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:33.845  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:13:33.845  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.865  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:33.865  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:13:33.866  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.879  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:33.879  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:13:33.880  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.892  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:33.893  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:13:33.893  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.908  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:33.909  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:13:33.909  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.923  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:33.923  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:13:33.924  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.937  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:33.937  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:13:33.937  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.953  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:33.953  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:13:33.954  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.967  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:33.967  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:13:33.968  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:33.987  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:33.988  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:13:33.988  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:34.003  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:34.004  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:13:34.005  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:34.035  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:34.036  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:13:34.038  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:34.090  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:34.094  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:13:34.095  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:13:34.123  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:34.124  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:13:34.124  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:13:34.146  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:34.147  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:13:34.148  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:13:34.202  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:34.203  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:13:34.203  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:13:34.232  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:34.233  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:13:34.234  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:13:34.262  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:34.263  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:13:34.263  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:13:34.283  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:34.284  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:13:34.285  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:13:34.308  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:34.308  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:13:34.309  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:13:34.351  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:34.353  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:13:34.354  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:13:34.388  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:34.389  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:13:34.389  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:13:34.418  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:34.418  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:13:34.419  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:13:34.443  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:34.444  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:13:34.444  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:13:34.492  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:34.494  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:13:34.494  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:13:34.516  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:34.517  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:13:34.517  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:13:34.539  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:13:34.540  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:13:34.541  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:13:34.561  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:34.562  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:34.578  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:34.589  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:34.597  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:34.607  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:34.607  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:34.620  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:34.633  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:34.635  1909  1941 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:13:34.860  1909  1909 I Choreographer: Skipped 127 frames!  The application may be doing too much work on its main thread.
+10-14 17:13:34.884   545  1236 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+10-14 17:13:35.060  1909  1944 I YingXiaCore: core_start_completed host=1 emulator=true
+10-14 17:13:34.925  1909  1909 W pool-2-thread-1: type=1400 audit(0.0:26): avc:  denied  { read } for  name="somaxconn" dev="proc" ino=14692 scontext=u:r:untrusted_app:s0:c148,c256,c512,c768 tcontext=u:object_r:proc_net:s0 tclass=file permissive=0 app=com.yingxia.yingxia_native
+10-14 17:13:35.619  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:35.620  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name color
+10-14 17:13:35.744  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:35.745  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 1 name color
+10-14 17:13:35.787   545   633 D ActivityManager: freezing 1229 android.process.acore
+10-14 17:13:35.788   545   633 D ActivityManager: freezing 1506 com.android.providers.calendar
+10-14 17:13:35.791   545   633 D ActivityManager: freezing 1482 android.process.media
+10-14 17:13:35.795   545   687 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-14 17:13:35.796   545   687 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-14 17:13:35.797   545   687 D InetDiagMessage: Destroyed live tcp sockets for uids={10065} in 3ms
+10-14 17:13:35.906   545   887 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10148 pid=0
+10-14 17:13:35.906   545   887 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10148 => denied (352 us)
+10-14 17:13:35.906   545   887 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10148 pid=0
+10-14 17:13:35.906   545   887 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10148 => denied (241 us)
+10-14 17:13:35.907   545   887 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10148 pid=0
+10-14 17:13:35.907   545   887 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10148 => denied (243 us)
+10-14 17:13:35.927   545   567 I ActivityTaskManager: Displayed com.yingxia.yingxia_native/.MainActivity for user 0: +5s164ms
+10-14 17:13:35.928   545   567 I ActivityTaskManager: Fully drawn com.yingxia.yingxia_native/.MainActivity: +5s164ms
+10-14 17:13:35.986   345   375 I netd    : tetherGetStats() -> {[]} <1.06ms>
+10-14 17:13:35.998  1038  1038 D BaseDepthController: setSurface:
+10-14 17:13:35.998  1038  1038 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+10-14 17:13:35.998  1038  1038 D BaseDepthController: 	mSurface: null
+10-14 17:13:36.035  1038  1038 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+10-14 17:13:36.058  1038  1038 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+10-14 17:13:36.058  1038  1038 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(StateManager.java:453)
+10-14 17:13:36.058  1038  1038 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(StateManager.java:444)
+10-14 17:13:36.058  1038  1038 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(StatefulActivity.java:119)
+10-14 17:13:36.061  1038  1038 D StatsLog: LAUNCHER_ONSTOP
+10-14 17:13:36.068   545   887 I AppWidgetServiceImpl: setAppWidgetHidden() 0
+10-14 17:13:36.104   545   569 W system_server: Long monitor contention with owner android.ui (568) at boolean android.os.MessageQueue.enqueueMessage(android.os.Message, long)(MessageQueue.java:695) waiters=0 in android.os.Message android.os.MessageQueue.next() for 134ms
+10-14 17:13:36.109   545   568 W Looper  : Slow dispatch took 192ms android.ui h=com.android.server.am.ActivityManagerService$UiHandler c=com.android.server.am.UidObserverController$$ExternalSyntheticLambda0@48769ff m=0
+10-14 17:13:36.141   545  1334 D OomAdjuster: Not killing cached processes
+10-14 17:13:36.182   773   885 W Looper  : Slow delivery took 35ms wmshell.main h=android.os.Handler c=com.android.wm.shell.pip.PinnedStackListenerForwarder$PinnedTaskListenerImpl$$ExternalSyntheticLambda1@3beb31e m=0
+10-14 17:13:36.308   545   652 I ImeTracker: com.yingxia.yingxia_native:c9086b31: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+10-14 17:13:36.309   545   652 I ImeTracker: com.yingxia.yingxia_native:c9086b31: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-14 17:13:36.373   545   687 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-14 17:13:36.374   545   687 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-14 17:13:36.374   545   687 D InetDiagMessage: Destroyed live tcp sockets for uids={10078} in 2ms
+10-14 17:13:36.494  1909  1938 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:13:36.570   773   946 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1bb9735
+10-14 17:13:36.578   545  1378 W InputManager-JNI: Input channel object 'e6a87ee Splash Screen com.yingxia.yingxia_native (client)' was disposed without first being removed with the input manager!
+10-14 17:13:36.579   545   887 D CoreBackPreview: Window{e6a87ee u0 Splash Screen com.yingxia.yingxia_native EXITING}: Setting back callback null
+10-14 17:13:36.580  1909  1927 D EGL_emulation: app_time_stats: avg=352.06ms min=31.46ms max=909.49ms count=3
+10-14 17:13:36.598   773   946 W FrameTracker: Missed App frame:UNKNOWN: 10, 13053, 0, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:13:36.600   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 10, 13053, 0, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:13:36.600   773   946 W FrameTracker: Missing HWUI jank callback for vsyncId: 13053, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:13:36.600   773   946 W FrameTracker: Missed App frame:UNKNOWN: 88, 13061, 0, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:13:36.600   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 88, 13061, 0, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:13:36.600   773   946 W FrameTracker: Missing HWUI jank callback for vsyncId: 13061, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:13:36.601   773   946 W FrameTracker: Missed App frame:UNKNOWN: 88, 13075, 455988572, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:13:36.601   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 88, 13075, 455988572, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:13:36.604   773   926 V PerfettoTrigger: Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-39
+10-14 17:13:36.914   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:13:36.964   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:13:36.966   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:13:36.981   773   854 I ndroid.systemui: Waiting for a blocking GC ProfileSaver
+10-14 17:13:36.981   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:13:36.992   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:13:37.031   545   687 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-14 17:13:37.031   545   687 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-14 17:13:37.031   545   687 D InetDiagMessage: Destroyed live tcp sockets for uids={10071} in 2ms
+10-14 17:13:37.106  1950  1950 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+10-14 17:13:37.135  1950  1950 I AndroidRuntime: Using default boot image
+10-14 17:13:37.135  1950  1950 I AndroidRuntime: Leaving lock profiling enabled
+10-14 17:13:37.145  1950  1950 I app_process: Core platform API reporting enabled, enforcing=false
+10-14 17:13:37.147  1950  1950 I app_process: Using CollectorTypeCMC GC.
+10-14 17:13:37.262   773   780 W ndroid.systemui: Cleared Reference was only reachable from finalizer (only reported once)
+10-14 17:13:37.422   773   780 I ndroid.systemui: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 52(1040KB) LOS objects, 49% free, 12MB/25MB, paused 2.369ms,11.363ms total 1.432s
+10-14 17:13:37.422   773   854 I ndroid.systemui: WaitForGcToComplete blocked ProfileSaver on Background for 441.902ms
+10-14 17:13:37.827  1950  1950 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+10-14 17:13:37.882  1950  1950 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:13:37.883  1950  1950 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+10-14 17:13:37.884  1950  1950 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+10-14 17:13:37.891  1950  1950 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:13:37.897  1950  1950 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:13:37.902  1950  1950 W app_process: Unexpected CPU variant for x86: x86_64.
+10-14 17:13:37.902  1950  1950 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+10-14 17:13:37.933  1950  1950 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+10-14 17:13:37.954  1950  1950 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+10-14 17:13:38.020  1950  1950 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-14 17:13:38.021  1950  1950 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+10-14 17:13:38.033  1950  1950 D UiAutomationConnection: Created on user UserHandle{0}
+10-14 17:13:38.036  1950  1950 I UiAutomation: Initialized for user 0 on display 0
+10-14 17:13:38.037  1950  1950 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+10-14 17:13:38.042   545  1378 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+10-14 17:13:38.043   545  1378 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+10-14 17:13:38.049   545  1378 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:13:38.056  1950  1965 V UiAutomation: Init UiAutomation@af24ab8[id=1, displayId=0, flags=0]
+10-14 17:13:38.070   773   885 W Looper  : Drained
+10-14 17:13:38.090   545   545 D BatterySaverPolicy: accessibility changed to true, updating policy.
+10-14 17:13:38.104   545  1378 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:13:38.116   984  1076 D AccessibilitySourceService: enabled a11y services count 0
+10-14 17:13:38.116   984  1076 D AccessibilitySourceService: a11y source sending 0 issue to sc
+10-14 17:13:38.118  1909  1927 D EGL_emulation: app_time_stats: avg=1537.31ms min=1537.31ms max=1537.31ms count=1
+10-14 17:13:38.132   545  1378 D SafetySourceDataValidat: No cert check requested for package com.android.permissioncontroller
+10-14 17:13:38.299  1909  1967 D ProfileInstaller: Installing profile for com.yingxia.yingxia_native
+10-14 17:13:39.180  1950  1950 W AccessibilityNodeInfoDumper: Fetch time: 28ms
+10-14 17:13:39.186   545  1378 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:13:39.186   545  1378 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+10-14 17:13:39.190   545   545 D BatterySaverPolicy: accessibility changed to false, updating policy.
+10-14 17:13:39.198  1909  1927 D EGL_emulation: app_time_stats: avg=1079.66ms min=1079.66ms max=1079.66ms count=1
+10-14 17:13:39.208  1950  1950 D AndroidRuntime: Shutting down VM
+10-14 17:13:39.230  1909  1922 D EGL_emulation: app_time_stats: avg=1672.76ms min=1141.77ms max=2203.76ms count=2
+10-14 17:13:40.018   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:13:40.020   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:13:40.022   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:13:40.023   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:13:40.024   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:13:40.325   345   375 I netd    : tetherGetStats() -> {[]} <0.99ms>
+10-14 17:13:40.393   177  1890 I keystore2: system/security/keystore2/watchdog/src/lib.rs:319 - Watchdog thread idle -> terminating. Have a great day.
+10-14 17:13:40.454  1970  1970 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-14 17:13:40.455  1970  1970 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-14 17:13:40.468     0     0 I servicemanager: Caller(pid=1970,uid=0,sid=u:r:su:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+10-14 17:13:40.564   152   152 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-14 17:13:40.565  1970  1972 I Gralloc4: mapper 4.x is not supported
+10-14 17:13:40.714   545  1334 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-14 17:13:40.719   545  1334 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+10-14 17:13:40.730   545  1378 W JobInfo : Job 'com.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+10-14 17:13:40.756   545   567 I ActivityManager: Broadcast completed: result=0
+10-14 17:13:40.798  1179  1460 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+10-14 17:13:40.946  1179  1460 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+10-14 17:13:41.061  1874  1874 I artd    : Dex parent of /data/app/~~naUyu6pxnR-x-eZ-yYyu1w==/com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==/base.apk is not writable: Permission denied
+10-14 17:13:41.062  1874  1874 I artd    : GetBestInfo checking odex in dalvik-cache (/data/dalvik-cache/x86_64/data@app@~~naUyu6pxnR-x-eZ-yYyu1w==@com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==@base.apk@classes.dex)
+10-14 17:13:41.062  1874  1874 I artd    : Loading /data/dalvik-cache/x86_64/data@app@~~naUyu6pxnR-x-eZ-yYyu1w==@com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==@base.apk@classes.dex with executable: 0
+10-14 17:13:41.062  1874  1874 I artd    : OatFileAssistant test for existing oat file /data/dalvik-cache/x86_64/data@app@~~naUyu6pxnR-x-eZ-yYyu1w==@com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==@base.apk@classes.dex: File /data/dalvik-cache/x86_64/data@app@~~naUyu6pxnR-x-eZ-yYyu1w==@com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==@base.apk@classes.vdex does not exist.
+10-14 17:13:41.063  1874  1874 I artd    : GetBestInfo checking odex next to the dex file (/data/app/~~naUyu6pxnR-x-eZ-yYyu1w==/com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==/oat/x86_64/base.odex)
+10-14 17:13:41.063  1874  1874 I artd    : Loading /data/app/~~naUyu6pxnR-x-eZ-yYyu1w==/com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==/oat/x86_64/base.odex with executable: 0
+10-14 17:13:41.063  1874  1874 I artd    : Successfully loaded /data/app/~~naUyu6pxnR-x-eZ-yYyu1w==/com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==/oat/x86_64/base.odex with executable: 0
+10-14 17:13:41.064  1874  1874 I artd    : /data/app/~~naUyu6pxnR-x-eZ-yYyu1w==/com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==/oat/x86_64/base.odex is kOatUpToDate with filter verify
+10-14 17:13:41.176     0     0 I logd    : logdr: UID=0 GID=0 PID=1982 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns

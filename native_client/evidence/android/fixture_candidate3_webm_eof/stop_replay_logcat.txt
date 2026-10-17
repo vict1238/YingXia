@@ -1,0 +1,1614 @@
+--------- beginning of main
+10-14 17:46:57.815   545   652 I ImeTracker: com.android.launcher3:92f19f46: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+10-14 17:46:57.815   545   652 I ImeTracker: com.android.launcher3:92f19f46: onCancelled at PHASE_SERVER_SHOULD_HIDE
+--------- beginning of system
+10-14 17:46:57.831   773   885 W Looper  : Drained
+10-14 17:46:57.847   545   571 W ActivityTaskManager: Unable to send transaction to client proc com.yingxia.yingxia_native.fixture: no app thread
+10-14 17:46:57.883   545   545 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:46:57.888   545   545 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:46:57.890   545   545 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:46:57.896   545   545 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:46:58.021   545  1378 W ActivityTaskManager: callingPackage for (uid=0, pid=4074) has no WPC
+10-14 17:46:58.025   545  1378 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+10-14 17:46:58.028   545  1378 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10149, packageName = null, attributionTag = null, token = android.os.Binder@923bb1c, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+10-14 17:46:58.030   545  1378 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+10-14 17:46:58.031   545  1378 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+10-14 17:46:58.044   545  1378 I ActivityTaskManager: Add Task{45dd042 #29 type=standard I=com.yingxia.yingxia_native.fixture/com.yingxia.yingxia_native.MainActivity} to hidden list because adding Task{688e6a3 #30 type=standard I=com.yingxia.yingxia_native.fixture/com.yingxia.yingxia_native.MainActivity}
+10-14 17:46:58.045   545  1378 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.yingxia.yingxia_native.fixture/com.yingxia.yingxia_native.MainActivity} with LAUNCH_SINGLE_TOP from uid 0 (BAL_ALLOW_ALLOWLISTED_UID) result code=0
+10-14 17:46:58.052   773   885 V WindowManagerShell: Transition requested (#28): android.os.BinderProxy@264725f TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=30 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.yingxia.yingxia_native.fixture/com.yingxia.yingxia_native.MainActivity } baseActivity=ComponentInfo{com.yingxia.yingxia_native.fixture/com.yingxia.yingxia_native.MainActivity} topActivity=ComponentInfo{com.yingxia.yingxia_native.fixture/com.yingxia.yingxia_native.MainActivity} origActivity=null realActivity=ComponentInfo{com.yingxia.yingxia_native.fixture/com.yingxia.yingxia_native.MainActivity} numActivities=1 lastActiveTime=2507298 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@417d4ac} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{9fa2575 com.yingxia.yingxia_native.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=320 topActivityLetterboxHeight=640 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 28 }
+10-14 17:46:58.056   773   947 D SplashScreenView: Build android.window.SplashScreenView{469c90a V.E...... ......ID 0,0-0,0}
+10-14 17:46:58.056   773   947 D SplashScreenView: Icon: view: android.widget.ImageView{407d57b V.ED..... ......I. 0,0-0,0 #1020504 android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@2838f98 size: 192
+10-14 17:46:58.056   773   947 D SplashScreenView: Branding: view: android.view.View{f54a3f1 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+10-14 17:46:58.069   545   570 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10149, packageName = null, attributionTag = null, token = android.os.Binder@923bb1c, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+10-14 17:46:58.073   545  2454 D CoreBackPreview: Window{1b949ff u0 Splash Screen com.yingxia.yingxia_native.fixture}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@bcd615, mPriority=0, mIsAnimationCallback=false}
+10-14 17:46:58.076  1038  1038 W SplitSelectStateCtor: Missing session instanceIds
+10-14 17:46:58.076  1038  1038 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+10-14 17:46:58.079   773   885 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=false, height=110
+10-14 17:46:58.099  1038  1038 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=30, baseIntent=Intent { flg=0x10000000 cmp=com.yingxia.yingxia_native.fixture/com.yingxia.yingxia_native.MainActivity }
+10-14 17:46:58.119   773   885 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#27) android.os.BinderProxy@1d8547c@0
+10-14 17:46:58.125   545   567 V WindowManager: Finish Transition (#27): created at 10-14 17:46:57.553 collect-started=0.058ms request-sent=0.255ms started=80.512ms ready=80.493ms sent=153.873ms finished=571.461ms
+10-14 17:46:58.146   545   716 I AppWidgetServiceImpl: Received broadcast: android.intent.action.PACKAGE_UNSTOPPED on user 0
+10-14 17:46:58.146   545   716 I AppWidgetServiceImpl: Updating package stopped masked state for uid 10149 package com.yingxia.yingxia_native.fixture isStopped false
+10-14 17:46:58.176   351   351 D Zygote  : Forked child process 4078
+10-14 17:46:58.177   545   580 W ActivityManager: Slow operation: 78ms so far, now at startProcess: returned from zygote!
+10-14 17:46:58.178   545   580 W ActivityManager: Slow operation: 79ms so far, now at startProcess: done updating battery stats
+10-14 17:46:58.180   545   580 W ActivityManager: Slow operation: 81ms so far, now at startProcess: building log message
+10-14 17:46:58.180   545   580 I ActivityManager: Start proc 4078:com.yingxia.yingxia_native.fixture/u0a149 for next-top-activity {com.yingxia.yingxia_native.fixture/com.yingxia.yingxia_native.MainActivity}
+--------- beginning of kernel
+10-14 17:46:58.117     0     0 I binder  : 756:545 cannot find target node
+10-14 17:46:58.137     0     0 I binder  : 545:756 transaction async to 0:0 failed 306707/29189/-22, size 64-0 line 3265
+10-14 17:46:58.182   545   580 W ActivityManager: Slow operation: 83ms so far, now at startProcess: starting to update pids map
+10-14 17:46:58.188   545   756 E IPCThreadState: Binder transaction failure. id: 306707, BR_*: 29189, error: -22 (Invalid argument)
+10-14 17:46:58.189   545   756 W ActivityManager: pid 545 system sent binder code 7 with flags 1 to frozen apps and got error -32
+10-14 17:46:58.189   545   756 W WindowManager: Exception thrown during dispatchAppVisibility Window{aea737f u0 com.yingxia.yingxia_native.fixture/com.yingxia.yingxia_native.MainActivity EXITING}
+10-14 17:46:58.189   545   756 W WindowManager: android.os.DeadObjectException
+10-14 17:46:58.189   545   756 W WindowManager: 	at android.os.BinderProxy.transactNative(Native Method)
+10-14 17:46:58.189   545   756 W WindowManager: 	at android.os.BinderProxy.transact(BinderProxy.java:586)
+10-14 17:46:58.189   545   756 W WindowManager: 	at android.view.IWindow$Stub$Proxy.dispatchAppVisibility(IWindow.java:553)
+10-14 17:46:58.189   545   756 W WindowManager: 	at com.android.server.wm.WindowState.sendAppVisibilityToClients(WindowState.java:3253)
+10-14 17:46:58.189   545   756 W WindowManager: 	at com.android.server.wm.WindowContainer.sendAppVisibilityToClients(WindowContainer.java:1289)
+10-14 17:46:58.189   545   756 W WindowManager: 	at com.android.server.wm.WindowToken.setClientVisible(WindowToken.java:403)
+10-14 17:46:58.189   545   756 W WindowManager: 	at com.android.server.wm.ActivityRecord.setClientVisible(ActivityRecord.java:7166)
+10-14 17:46:58.189   545   756 W WindowManager: 	at com.android.server.wm.ActivityRecord.postApplyAnimation(ActivityRecord.java:5881)
+10-14 17:46:58.189   545   756 W WindowManager: 	at com.android.server.wm.ActivityRecord.commitVisibility(ActivityRecord.java:5823)
+10-14 17:46:58.189   545   756 W WindowManager: 	at com.android.server.wm.Transition.finishTransition(Transition.java:1286)
+10-14 17:46:58.189   545   756 W WindowManager: 	at com.android.server.wm.TransitionController.finishTransition(TransitionController.java:937)
+10-14 17:46:58.189   545   756 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.finishTransition(WindowOrganizerController.java:494)
+10-14 17:46:58.189   545   756 W WindowManager: 	at android.window.IWindowOrganizerController$Stub.onTransact(IWindowOrganizerController.java:289)
+10-14 17:46:58.189   545   756 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.onTransact(WindowOrganizerController.java:204)
+10-14 17:46:58.189   545   756 W WindowManager: 	at android.os.Binder.execTransactInternal(Binder.java:1500)
+10-14 17:46:58.189   545   756 W WindowManager: 	at android.os.Binder.execTransact(Binder.java:1444)
+10-14 17:46:58.192   545   756 W Process : Unable to open /proc/3687/status
+10-14 17:46:58.201  1038  1038 W FrameTracker: Missed App frame:UNKNOWN: 88, 92883, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.201  1038  1038 W FrameTracker: Missed SF frame:UNKNOWN: 88, 92883, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.201  4078  4078 I _native.fixture: Using CollectorTypeCMC GC.
+10-14 17:46:58.202  1038  1038 W FrameTracker: Missing HWUI jank callback for vsyncId: 92883, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.202  1038  1038 W FrameTracker: Missed SF frame:UNKNOWN: 80, 92891, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.202  1038  1038 W FrameTracker: Missing HWUI jank callback for vsyncId: 92891, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.202  1038  1038 W FrameTracker: Missed App frame:UNKNOWN: 88, 92906, 44704678, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.202  1038  1038 W FrameTracker: Missed SF frame:UNKNOWN: 88, 92906, 44704678, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.202  1038  1038 W FrameTracker: Missed SF frame:UNKNOWN: 80, 92914, 48049612, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.202  1038  1038 W FrameTracker: Missed SF frame:UNKNOWN: 80, 92937, 30056780, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.202  1038  1038 W FrameTracker: Missed SF frame:UNKNOWN: 80, 92952, 30693414, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.202  1038  1038 W FrameTracker: Missed SF frame:UNKNOWN: 80, 92960, 27366848, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.202  4078  4078 W _native.fixture: Unexpected CPU variant for x86: x86_64.
+10-14 17:46:58.202  4078  4078 W _native.fixture: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+10-14 17:46:58.202  1038  1038 W FrameTracker: Missed SF frame:UNKNOWN: 80, 92968, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.202  1038  1038 W FrameTracker: Missing HWUI jank callback for vsyncId: 92968, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.202  1038  1038 W FrameTracker: Missed SF frame:UNKNOWN: 80, 92976, 30294416, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.203  1038  1038 W FrameTracker: Missed App frame:UNKNOWN: 88, 92984, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.205  1038  1038 W FrameTracker: Missed SF frame:UNKNOWN: 88, 92984, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.205  1038  1038 W FrameTracker: Missing HWUI jank callback for vsyncId: 92984, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.205  1038  1038 W FrameTracker: Missed SF frame:UNKNOWN: 80, 92992, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.206  1038  1038 W FrameTracker: Missing HWUI jank callback for vsyncId: 92992, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.206  1038  1038 W FrameTracker: Missed SF frame:UNKNOWN: 80, 93000, 39289018, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.206  1038  1038 W FrameTracker: Missed SF frame:UNKNOWN: 80, 93008, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.206  1038  1038 W FrameTracker: Missing HWUI jank callback for vsyncId: 93008, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.206  1038  1038 W FrameTracker: Missed SF frame:UNKNOWN: 80, 93016, 40482286, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.207  1038  1038 W FrameTracker: Missed SF frame:UNKNOWN: 80, 93024, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.207  1038  1038 W FrameTracker: Missing HWUI jank callback for vsyncId: 93024, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.207  1038  1038 W FrameTracker: Missed App frame:UNKNOWN: 74, 93046, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.207  1038  1038 W FrameTracker: Missed SF frame:UNKNOWN: 74, 93046, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.207  1038  1038 W FrameTracker: Missing HWUI jank callback for vsyncId: 93046, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.207  1038  1038 W FrameTracker: Missed App frame:UNKNOWN: 74, 93062, 94465222, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.207  1038  1038 W FrameTracker: Missed SF frame:UNKNOWN: 74, 93062, 94465222, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+10-14 17:46:58.207  4078  4078 E _native.fixture: Not starting debugger since process cannot load the jdwp agent.
+10-14 17:46:58.212   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:46:58.214  4078  4078 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-14 17:46:58.214   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:46:58.215   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:46:58.215   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:46:58.219  1038  1125 V PerfettoTrigger: Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-78
+10-14 17:46:58.222   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:46:58.229   773   784 V WindowManagerShell: onTransitionReady(transaction=2340757178672)
+10-14 17:46:58.230   545   567 V WindowManager: Sent Transition (#28) createdAt=10-14 17:46:58.031 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=30 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.yingxia.yingxia_native.fixture/com.yingxia.yingxia_native.MainActivity } baseActivity=ComponentInfo{com.yingxia.yingxia_native.fixture/com.yingxia.yingxia_native.MainActivity} topActivity=ComponentInfo{com.yingxia.yingxia_native.fixture/com.yingxia.yingxia_native.MainActivity} origActivity=null realActivity=ComponentInfo{com.yingxia.yingxia_native.fixture/com.yingxia.yingxia_native.MainActivity} numActivities=1 lastActiveTime=2507298 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{424aec9 Task{688e6a3 #30 type=standard I=com.yingxia.yingxia_native.fixture/com.yingxia.yingxia_native.MainActivity}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{955d9ce com.yingxia.yingxia_native.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=320 topActivityLetterboxHeight=640 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 28 }
+10-14 17:46:58.230   545   567 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+10-14 17:46:58.231   545   567 V WindowManager:     info={id=28 t=OPEN f=0x0 trk=1 r=[0@Point(0, 0)] c=[
+10-14 17:46:58.231   545   567 V WindowManager:         {WCT{RemoteToken{424aec9 Task{688e6a3 #30 type=standard I=com.yingxia.yingxia_native.fixture/com.yingxia.yingxia_native.MainActivity}}} m=OPEN f=NONE leash=Surface(name=Task=30)/@0x51f6064 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1},
+10-14 17:46:58.231   545   567 V WindowManager:         {WCT{RemoteToken{1076b4c Task{bacd172 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xfb7a6c6 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1}
+10-14 17:46:58.231   545   567 V WindowManager:     ]}
+10-14 17:46:58.249   545  2454 W UserManagerService: Requested status bar icon for non-badged user 0
+10-14 17:46:58.249   545   580 W ActivityManager: Slow operation: 150ms so far, now at startProcess: done updating pids map
+10-14 17:46:58.250   773   885 V WindowManagerShell: Track 0 became idle
+10-14 17:46:58.250   773   885 W Looper  : Slow dispatch took 133ms wmshell.main h=android.os.Handler c=com.android.wm.shell.transition.RemoteTransitionHandler$1$$ExternalSyntheticLambda0@a8e88ba m=0
+10-14 17:46:58.251   773   885 W Looper  : Slow delivery took 59ms wmshell.main h=android.os.Handler c=null m=1
+10-14 17:46:58.253   773   885 V WindowManagerShell: onTransitionReady (#28) android.os.BinderProxy@264725f: {id=28 t=OPEN f=0x0 trk=1 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@635136b} m=OPEN f=NONE leash=Surface(name=Task=30)/@0x49c1fae sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@460ec8} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x6b4b14f sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1}]}
+10-14 17:46:58.253   773   885 V WindowManagerShell: Playing animation for (#28) android.os.BinderProxy@264725f@1
+10-14 17:46:58.253   773   885 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@572099d
+10-14 17:46:58.254   773   885 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@cea1e12
+10-14 17:46:58.254   773   885 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@8c479e3
+10-14 17:46:58.254   773   885 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@56aa299
+10-14 17:46:58.254   773   885 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@748095e
+10-14 17:46:58.254   773   885 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+10-14 17:46:58.254   773   885 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@93ad13f
+10-14 17:46:58.254   773   885 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@f867a0c
+10-14 17:46:58.254   773   885 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=28 t=OPEN f=0x0 trk=1 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@635136b} m=OPEN f=NONE leash=Surface(name=Task=30)/@0x49c1fae sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@460ec8} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x6b4b14f sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1}]}
+10-14 17:46:58.255   773   885 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@27da5e9, appThread = android.app.IApplicationThread$Stub$Proxy@342d26e, debugName = QuickstepLaunchHome }}
+10-14 17:46:58.255   773   885 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@ea54d0f, appThread = android.app.IApplicationThread$Stub$Proxy@276919c, debugName = QuickstepLaunchHome }}
+10-14 17:46:58.256   773   885 V WindowManagerShell:  Delegate animation for (#28) to null
+10-14 17:46:58.256   773   885 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@6b9cf55
+10-14 17:46:58.256   773   885 V WindowManagerShell: start default transition animation, info = {id=28 t=OPEN f=0x0 trk=1 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@635136b} m=OPEN f=NONE leash=Surface(name=Task=30)/@0x49c1fae sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@460ec8} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x6b4b14f sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0 taskParent=-1}]}
+10-14 17:46:58.256   773   885 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@d056b61 animAttr=0x13 type=OPEN isEntrance=false
+10-14 17:46:58.257   773   885 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@c7686 animAttr=0x12 type=OPEN isEntrance=true
+10-14 17:46:58.258   773   885 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@6b9cf55
+10-14 17:46:58.270   545   806 W UserManagerService: Requested status bar icon for non-badged user 0
+10-14 17:46:58.273  1038  1038 I TopTaskTracker: onTaskRemoved: taskId=29
+10-14 17:46:58.274   773   885 W Looper  : Drained
+10-14 17:46:58.274  1038  1038 I TopTaskTracker: onTaskRemoved: taskId=29
+10-14 17:46:58.277   416   416 E BpTransactionCompletedListener: Failed to transact (-32)
+10-14 17:46:58.278   416   416 E BpTransactionCompletedListener: Failed to transact (-32)
+10-14 17:46:58.288   545   806 W UserManagerService: Requested status bar icon for non-badged user 0
+10-14 17:46:58.309  4078  4078 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-14 17:46:58.313  4078  4078 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-14 17:46:58.331  4078  4078 D nativeloader: Configuring clns-7 for other apk /data/app/~~G6XLPe0ot_d42ACqN89znQ==/com.yingxia.yingxia_native.fixture-iE-5DG6bSHMeGyvq327b3A==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~G6XLPe0ot_d42ACqN89znQ==/com.yingxia.yingxia_native.fixture-iE-5DG6bSHMeGyvq327b3A==/lib/x86_64:/data/app/~~G6XLPe0ot_d42ACqN89znQ==/com.yingxia.yingxia_native.fixture-iE-5DG6bSHMeGyvq327b3A==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.yingxia.yingxia_native.fixture
+10-14 17:46:58.349  4078  4078 V GraphicsEnvironment: Currently set values for:
+10-14 17:46:58.350  4078  4078 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-14 17:46:58.350  4078  4078 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-14 17:46:58.350  4078  4078 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+10-14 17:46:58.350  4078  4078 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-14 17:46:58.402  4078  4078 I YingXiaCore: host_created id=1 live=1
+10-14 17:46:58.419  4078  4096 D nativeloader: Load /data/app/~~G6XLPe0ot_d42ACqN89znQ==/com.yingxia.yingxia_native.fixture-iE-5DG6bSHMeGyvq327b3A==/base.apk!/lib/x86_64/libflutter.so using ns clns-7 from class loader (caller=/data/app/~~G6XLPe0ot_d42ACqN89znQ==/com.yingxia.yingxia_native.fixture-iE-5DG6bSHMeGyvq327b3A==/base.apk): ok
+10-14 17:46:58.422   545   806 D FileUtils: Rounded bytes from 2593689600 to 4000000000
+10-14 17:46:58.433  4078  4097 D skia    : [SkFontMgr Android Parser] '/product/etc/fonts_customization.xml' could not be opened
+10-14 17:46:58.437  4078  4078 W _native.fixture: type=1400 audit(0.0:39): avc:  denied  { read } for  name="max_map_count" dev="proc" ino=15581 scontext=u:r:untrusted_app:s0:c149,c256,c512,c768 tcontext=u:object_r:proc_max_map_count:s0 tclass=file permissive=0 app=com.yingxia.yingxia_native.fixture
+10-14 17:46:58.536   773   930 W Looper  : Slow delivery took 92ms wmshell.anim h=android.view.Choreographer$FrameHandler c=android.view.Choreographer$FrameDisplayEventReceiver@3b7860e m=0
+10-14 17:46:58.557   773   885 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#28) android.os.BinderProxy@264725f@1
+10-14 17:46:58.559  4078  4098 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+10-14 17:46:58.560  4078  4098 I EGL_emulation: Opening libGLESv2_emulation.so
+10-14 17:46:58.573   545   567 V WindowManager: Finish Transition (#28): created at 10-14 17:46:58.031 collect-started=0.141ms request-sent=13.273ms started=41.131ms ready=182.44ms sent=192.576ms finished=535.093ms
+10-14 17:46:58.594   773   885 V WindowManagerShell: Track 1 became idle
+10-14 17:46:58.597   773   885 V WindowManagerShell: All active transition animations finished
+10-14 17:46:58.598   545  2664 W UserManagerService: Requested status bar icon for non-badged user 0
+10-14 17:46:58.599  1038  1038 D VRI[QuickstepLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+10-14 17:46:58.606   773   885 W Looper  : Slow dispatch took 49ms wmshell.main h=android.os.Handler c=com.android.wm.shell.transition.DefaultTransitionHandler$$ExternalSyntheticLambda11@7adeee0 m=0
+10-14 17:46:58.618   545  2664 W UserManagerService: Requested status bar icon for non-badged user 0
+10-14 17:46:58.648  4078  4098 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+10-14 17:46:58.656  4078  4078 D nativeloader: Load /data/app/~~G6XLPe0ot_d42ACqN89znQ==/com.yingxia.yingxia_native.fixture-iE-5DG6bSHMeGyvq327b3A==/base.apk!/lib/x86_64/libmpv.so using ns clns-7 from class loader (caller=/data/app/~~G6XLPe0ot_d42ACqN89znQ==/com.yingxia.yingxia_native.fixture-iE-5DG6bSHMeGyvq327b3A==/base.apk): ok
+10-14 17:46:58.657  4078  4078 I media_kit: package:media_kit_libs_android_video attached.
+10-14 17:46:58.658  1038  1048 I droid.launcher3: WaitForGcToComplete blocked Background on None for 7.061ms
+10-14 17:46:58.668  4078  4078 D nativeloader: Load /data/app/~~G6XLPe0ot_d42ACqN89znQ==/com.yingxia.yingxia_native.fixture-iE-5DG6bSHMeGyvq327b3A==/base.apk!/lib/x86_64/libmediakitandroidhelper.so using ns clns-7 from class loader (caller=/data/app/~~G6XLPe0ot_d42ACqN89znQ==/com.yingxia.yingxia_native.fixture-iE-5DG6bSHMeGyvq327b3A==/base.apk): ok
+10-14 17:46:58.668  4078  4078 D media_kit: Android
+10-14 17:46:58.669  4078  4078 D media_kit: emu64x
+10-14 17:46:58.669  4078  4078 D media_kit: Android/sdk_phone64_x86_64/emu64x:15/AE3A.240806.019/12368160:userdebug/test-keys
+10-14 17:46:58.669  4078  4078 D media_kit: ranchu
+10-14 17:46:58.669  4078  4078 D media_kit: Android SDK built for x86_64
+10-14 17:46:58.670  4078  4078 D media_kit: unknown
+10-14 17:46:58.670  4078  4078 D media_kit: sdk_phone64_x86_64
+10-14 17:46:58.670  4078  4078 I media_kit: Saved application context.
+10-14 17:46:58.676  4078  4078 D nativeloader: Load /data/app/~~G6XLPe0ot_d42ACqN89znQ==/com.yingxia.yingxia_native.fixture-iE-5DG6bSHMeGyvq327b3A==/base.apk!/lib/x86_64/libgojni.so using ns clns-7 from class loader (caller=/data/app/~~G6XLPe0ot_d42ACqN89znQ==/com.yingxia.yingxia_native.fixture-iE-5DG6bSHMeGyvq327b3A==/base.apk): ok
+10-14 17:46:58.756  4078  4078 W HWUI    : Unknown dataspace 0
+10-14 17:46:58.794  1038  1287 D EGL_emulation: app_time_stats: avg=21.03ms min=2.33ms max=216.40ms count=40
+10-14 17:46:58.851  4078  4078 I WindowExtensionsImpl: Initializing Window Extensions, vendor API level=6, activity embedding enabled=true
+10-14 17:46:58.869   545  2664 D CoreBackPreview: Window{2504ceb u0 com.yingxia.yingxia_native.fixture/com.yingxia.yingxia_native.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@93a02f4, mPriority=0, mIsAnimationCallback=false}
+10-14 17:46:58.906  4078  4093 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-14 17:46:58.992   152   152 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-14 17:46:58.992  4078  4098 I Gralloc4: mapper 4.x is not supported
+10-14 17:46:58.900     0     0 I servicemanager: Caller(pid=4078,uid=10149,sid=u:r:untrusted_app:s0:c149,c256,c512,c768) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+10-14 17:46:59.008  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name position
+10-14 17:46:59.008  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name uv
+10-14 17:46:59.020  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.031  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.031  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.040  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.040  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name color
+10-14 17:46:59.060  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.060  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name e0
+10-14 17:46:59.060  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name e1
+10-14 17:46:59.060  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 3 name e2
+10-14 17:46:59.060  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 4 name e3
+10-14 17:46:59.067  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.073  1038  1048 I droid.launcher3: Background concurrent mark compact GC freed 5014KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 5768KB/11MB, paused 618us,13.180ms total 410.275ms
+10-14 17:46:59.073  1038  1048 W droid.launcher3: Reducing the number of considered missed Gc histogram windows from 240 to 100
+10-14 17:46:59.081  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.093  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.110  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.114  1038  1050 W droid.launcher3: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~naUyu6pxnR-x-eZ-yYyu1w==/com.yingxia.yingxia_native-1Ado49KNX1rJp17MnHngBw==/base.apk' with 1 weak references
+10-14 17:46:59.120  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.133  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.145  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.160  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.172  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.185  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.199  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.211  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.212  1038  1050 W droid.launcher3: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~cdXfYE3hYr4_7ECE76dJ5Q==/com.yingxia.yingxia_native.fixture-IgnIE_1c5DdK80yysSY3Bg==/base.apk' with 1 weak references
+10-14 17:46:59.223   545   569 I DropBoxManagerService: add tag=system_app_strictmode isTagEnabled=true flags=0x2
+10-14 17:46:59.224  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.233  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.244  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.256  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.262  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.263  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.271  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.272  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.279  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.282  1038  1050 W droid.launcher3: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~_syzDC0nMY_NZomHoA8-gw==/com.yingxia.yingxia_native-v4kt0p6qK9g1_TA_hDp6Gw==/base.apk' with 1 weak references
+10-14 17:46:59.283  1038  1050 W droid.launcher3: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~G6XLPe0ot_d42ACqN89znQ==/com.yingxia.yingxia_native.fixture-iE-5DG6bSHMeGyvq327b3A==/base.apk' with 1 weak references
+10-14 17:46:59.288  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.297  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.298  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.306  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.318  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.319  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.328  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.328  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.337  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.337  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.344  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.345  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name gaussian
+10-14 17:46:59.354  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.355  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:46:59.356  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.367  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.367  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:46:59.367  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.377  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.378  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:46:59.379  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.385  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.386  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:46:59.386  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.394  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.395  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:46:59.396  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.403  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.405  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:46:59.406  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.413  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.414  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:46:59.415  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.422  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.423  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:46:59.423  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.432  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.433  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:46:59.433  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.441  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.441  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:46:59.441  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.448  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.448  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:46:59.449  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.456  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.457  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:46:59.457  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.469  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.471  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:46:59.471  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.480  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.481  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:46:59.482  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.491  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.492  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:46:59.493  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.502  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.503  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:46:59.503  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.513  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.516  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name color
+10-14 17:46:59.517  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.529  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.530  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:46:59.532  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:46:59.543  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.544  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:46:59.544  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:46:59.558  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.558  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:46:59.558  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:46:59.577  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.578  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:46:59.578  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:46:59.591  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.592  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:46:59.592  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:46:59.609  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.611  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:46:59.611  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:46:59.624  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.625  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:46:59.626  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:46:59.641  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.642  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:46:59.642  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:46:59.656  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.657  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:46:59.658  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:46:59.671  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.671  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:46:59.672  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:46:59.686  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.688  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:46:59.688  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:46:59.703  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.704  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:46:59.704  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:46:59.719  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.721  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:46:59.722  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:46:59.735  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.736  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:46:59.737  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:46:59.750  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name vertices
+10-14 17:46:59.750  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name dst_texture_coords
+10-14 17:46:59.751  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 2 name src_texture_coords
+10-14 17:46:59.762  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.763  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.771  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.778  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.784  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.793  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.794  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.802  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.810  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:46:59.812  4078  4106 E GoLog   : s_glBindAttribLocation: bind attrib 1 name texture_coords
+10-14 17:46:59.833  4078  4078 I Choreographer: Skipped 57 frames!  The application may be doing too much work on its main thread.
+10-14 17:46:59.849  4078  4078 W pool-2-thread-1: type=1400 audit(0.0:40): avc:  denied  { read } for  name="somaxconn" dev="proc" ino=14692 scontext=u:r:untrusted_app:s0:c149,c256,c512,c768 tcontext=u:object_r:proc_net:s0 tclass=file permissive=0 app=com.yingxia.yingxia_native.fixture
+10-14 17:46:59.955  4078  4111 I YingXiaCore: core_start_completed host=1 emulator=true
+10-14 17:47:00.048   773   965 D EGL_emulation: app_time_stats: avg=17167.20ms min=17167.20ms max=17167.20ms count=1
+10-14 17:47:00.241  4078  4114 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:47:00.241  4078  4114 E GoLog   : s_glBindAttribLocation: bind attrib 1 name color
+10-14 17:47:00.339  4078  4114 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:47:00.339  4078  4114 E GoLog   : s_glBindAttribLocation: bind attrib 1 name color
+10-14 17:47:00.470   545   567 I ActivityTaskManager: Displayed com.yingxia.yingxia_native.fixture/com.yingxia.yingxia_native.MainActivity for user 0: +2s446ms
+10-14 17:47:00.470   545   567 I ActivityTaskManager: Fully drawn com.yingxia.yingxia_native.fixture/com.yingxia.yingxia_native.MainActivity: +2s446ms
+10-14 17:47:00.536   545   652 I ImeTracker: com.yingxia.yingxia_native.fixture:4498a871: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+10-14 17:47:00.537   545   652 I ImeTracker: com.yingxia.yingxia_native.fixture:4498a871: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-14 17:47:00.549  1038  1038 D BaseDepthController: setSurface:
+10-14 17:47:00.549  1038  1038 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+10-14 17:47:00.549  1038  1038 D BaseDepthController: 	mSurface: null
+10-14 17:47:00.549  1038  1038 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+10-14 17:47:00.554  1038  1038 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+10-14 17:47:00.554  1038  1038 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(StateManager.java:453)
+10-14 17:47:00.554  1038  1038 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(StateManager.java:444)
+10-14 17:47:00.554  1038  1038 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(StatefulActivity.java:119)
+10-14 17:47:00.554  1038  1038 D StatsLog: LAUNCHER_ONSTOP
+10-14 17:47:00.581   545  2664 I AppWidgetServiceImpl: setAppWidgetHidden() 0
+10-14 17:47:00.594   345   375 I netd    : tetherGetStats() -> {[]} <0.84ms>
+10-14 17:47:00.608  4078  4114 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:47:00.630   354  1992 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 70372928
+10-14 17:47:00.856   773   946 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@dfe8e2d
+10-14 17:47:00.857   545  2664 D CoreBackPreview: Window{1b949ff u0 Splash Screen com.yingxia.yingxia_native.fixture EXITING}: Setting back callback null
+10-14 17:47:00.858   545   806 W InputManager-JNI: Input channel object '1b949ff Splash Screen com.yingxia.yingxia_native.fixture (client)' was disposed without first being removed with the input manager!
+10-14 17:47:00.906   773   946 W FrameTracker: Missed SF frame:PREDICTION_ERROR, 94519, 13366118, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.907   773   946 W FrameTracker: Missed App frame:UNKNOWN: 24, 94534, 22376552, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.907   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 24, 94534, 22376552, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.907   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 80, 94548, 26810286, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.908   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 80, 94570, 35132620, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.909   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 80, 94585, 28227054, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.912   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 80, 94607, 24992388, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.912   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 80, 94615, 22618222, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.912   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 80, 94630, 22591556, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.913   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 80, 94652, 23948890, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.914   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 80, 94674, 21095624, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.914   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 80, 94689, 21077858, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.915   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 80, 94704, 22100192, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.915   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 80, 94719, 22808826, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.915   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 80, 94734, 20929960, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.915   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 80, 94749, 23170394, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.915   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 80, 94764, 22518828, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.916   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 80, 94779, 23100562, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.916   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 80, 94794, 22436496, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.917   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 80, 94809, 24228830, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.917   773   946 W FrameTracker: Missed SF frame:UNKNOWN: 80, 94824, 0, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.918   773   946 W FrameTracker: Missing HWUI jank callback for vsyncId: 94824, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+10-14 17:47:00.919   773   926 V PerfettoTrigger: Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-39
+10-14 17:47:01.232   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:01.234   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:01.236   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:01.237   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:01.238   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:02.071   545  1236 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+10-14 17:47:03.089  4121  4121 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+10-14 17:47:03.130  4121  4121 I AndroidRuntime: Using default boot image
+10-14 17:47:03.130  4121  4121 I AndroidRuntime: Leaving lock profiling enabled
+10-14 17:47:03.144  4121  4121 I app_process: Core platform API reporting enabled, enforcing=false
+10-14 17:47:03.147  4121  4121 I app_process: Using CollectorTypeCMC GC.
+10-14 17:47:03.401  4078  4123 D ProfileInstaller: Installing profile for com.yingxia.yingxia_native.fixture
+10-14 17:47:04.245   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:04.246   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:04.248   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:04.249   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:04.250   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:04.836  4121  4121 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+10-14 17:47:04.855  4121  4121 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:04.856  4121  4121 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+10-14 17:47:04.857  4121  4121 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+10-14 17:47:04.861  4121  4121 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:04.864  4121  4121 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:04.867  4121  4121 W app_process: Unexpected CPU variant for x86: x86_64.
+10-14 17:47:04.867  4121  4121 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+10-14 17:47:04.872  4121  4121 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+10-14 17:47:04.874  4121  4121 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+10-14 17:47:04.913  4121  4121 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-14 17:47:04.915  4121  4121 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+10-14 17:47:04.927  4121  4121 D UiAutomationConnection: Created on user UserHandle{0}
+10-14 17:47:04.928  4121  4121 I UiAutomation: Initialized for user 0 on display 0
+10-14 17:47:04.928  4121  4121 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+10-14 17:47:04.933   545   806 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+10-14 17:47:04.934   545   806 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+10-14 17:47:04.939   545   806 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:04.946   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:04.946   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:04.950   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:04.951   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:04.952   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:04.952   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:04.953  4121  4134 V UiAutomation: Init UiAutomation@9244b3e[id=50, displayId=0, flags=0]
+10-14 17:47:04.954   545   545 D BatterySaverPolicy: accessibility changed to true, updating policy.
+10-14 17:47:04.972   545  1378 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:04.976   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:04.979   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:04.980   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:04.980   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:05.001  4078  4098 D EGL_emulation: app_time_stats: avg=1192.32ms min=6.60ms max=4364.72ms count=4
+10-14 17:47:06.019  4121  4121 W AccessibilityNodeInfoDumper: Fetch time: 17ms
+10-14 17:47:06.025  4078  4098 D EGL_emulation: app_time_stats: avg=1023.70ms min=1023.70ms max=1023.70ms count=1
+10-14 17:47:06.037   545  1378 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:06.038   545  1378 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+10-14 17:47:06.041  4121  4121 D AndroidRuntime: Shutting down VM
+10-14 17:47:06.043   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:06.048   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:06.053   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:06.055   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:06.057   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:06.058   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:06.059   545   545 D BatterySaverPolicy: accessibility changed to false, updating policy.
+10-14 17:47:06.090  4078  4093 D EGL_emulation: app_time_stats: avg=2816.26ms min=1099.70ms max=4532.82ms count=2
+10-14 17:47:07.234  4078  4078 I ImeTracker: com.yingxia.yingxia_native.fixture:9ab726dc: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+10-14 17:47:07.240  4078  4078 D InputMethodManager: showSoftInput() view=a8{b596980 VFE...... .F....ID 0,0-320,640 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+10-14 17:47:07.254  4078  4093 D EGL_emulation: app_time_stats: avg=1163.01ms min=1163.01ms max=1163.01ms count=1
+10-14 17:47:07.258   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:07.265   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:07.268   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:07.269   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:07.274   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:07.277   345   375 I netd    : tetherGetStats() -> {[]} <1.34ms>
+10-14 17:47:07.280  1110  1110 I LatinIME: Starting input. Cursor position = 0,0
+10-14 17:47:07.285  4078  4098 D EGL_emulation: app_time_stats: avg=625.66ms min=82.77ms max=1168.54ms count=2
+10-14 17:47:07.367  4078  4078 D InsetsController: show(ime(), fromIme=true)
+10-14 17:47:07.388  4078  4078 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=true, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.yingxia.yingxia_native.fixture
+10-14 17:47:07.402   773   885 D WindowManagerShell: onKeepClearAreasChanged: restricted={}, unrestricted={Rect(0, 346 - 320, 592)}
+10-14 17:47:07.714  4078  4078 I ImeTracker: com.yingxia.yingxia_native.fixture:9ab726dc: onShown
+10-14 17:47:07.935   545   568 D AutofillManagerService: onBackKeyPressed()
+10-14 17:47:07.937  1110  1110 I ImeTracker: com.android.inputmethod.latin:a4bb9dd3: onRequestHide at ORIGIN_IME reason HIDE_SOFT_INPUT_BY_BACK_KEY fromUser true
+10-14 17:47:07.961  4078  4078 D InsetsController: hide(ime(), fromIme=true)
+10-14 17:47:07.988   773   885 D WindowManagerShell: onKeepClearAreasChanged: restricted={}, unrestricted={}
+10-14 17:47:08.025  4078  4078 W FrameTracker: Missed SF frame:UNKNOWN: 80, 97972, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.yingxia.yingxia_native.fixture>
+10-14 17:47:08.025  4078  4078 W FrameTracker: Missed SF frame:UNKNOWN: 80, 97994, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.yingxia.yingxia_native.fixture>
+10-14 17:47:08.026  4078  4078 W FrameTracker: Missed SF frame:UNKNOWN: 80, 98023, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.yingxia.yingxia_native.fixture>
+10-14 17:47:08.032  4078  4078 W FrameTracker: Missed SF frame:UNKNOWN: 80, 98067, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.yingxia.yingxia_native.fixture>
+10-14 17:47:08.033  4078  4078 W FrameTracker: Missed SF frame:UNKNOWN: 80, 98082, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.yingxia.yingxia_native.fixture>
+10-14 17:47:08.033  4078  4078 W FrameTracker: Missed SF frame:UNKNOWN: 80, 98104, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.yingxia.yingxia_native.fixture>
+10-14 17:47:08.033  4078  4078 W FrameTracker: Missed SF frame:UNKNOWN: 80, 98119, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.yingxia.yingxia_native.fixture>
+10-14 17:47:08.033  4078  4078 W FrameTracker: Missed SF frame:UNKNOWN: 80, 98141, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.yingxia.yingxia_native.fixture>
+10-14 17:47:08.033  4078  4078 W FrameTracker: Missed SF frame:UNKNOWN: 80, 98163, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.yingxia.yingxia_native.fixture>
+10-14 17:47:08.033  4078  4078 W FrameTracker: Missed SF frame:UNKNOWN: 80, 98201, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.yingxia.yingxia_native.fixture>
+10-14 17:47:08.033  4078  4078 W FrameTracker: Missed App frame:UNKNOWN: 88, 98223, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.yingxia.yingxia_native.fixture>
+10-14 17:47:08.033  4078  4078 W FrameTracker: Missed SF frame:UNKNOWN: 88, 98223, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.yingxia.yingxia_native.fixture>
+10-14 17:47:08.034  4078  4078 W FrameTracker: Missed SF frame:UNKNOWN: 80, 98245, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.yingxia.yingxia_native.fixture>
+10-14 17:47:08.034  4078  4078 W FrameTracker: Missed SF frame:UNKNOWN: 80, 98267, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.yingxia.yingxia_native.fixture>
+10-14 17:47:08.034  4078  4078 W FrameTracker: Missed App frame:UNKNOWN: 24, 98297, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.yingxia.yingxia_native.fixture>
+10-14 17:47:08.034  4078  4078 W FrameTracker: Missed SF frame:UNKNOWN: 24, 98297, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.yingxia.yingxia_native.fixture>
+10-14 17:47:08.039  4078  4150 V PerfettoTrigger: Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-80
+10-14 17:47:08.270  4078  4093 D EGL_emulation: app_time_stats: avg=35.02ms min=7.42ms max=282.02ms count=28
+10-14 17:47:08.305  4078  4098 D EGL_emulation: app_time_stats: avg=44.16ms min=13.66ms max=136.78ms count=23
+10-14 17:47:08.320  4078  4078 I ImeTracker: com.yingxia.yingxia_native.fixture:b4e7406f: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+10-14 17:47:08.322  4157  4157 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+10-14 17:47:08.323   545   652 I ImeTracker: com.yingxia.yingxia_native.fixture:b4e7406f: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-14 17:47:08.323  4078  4078 I ImeTracker: com.android.inputmethod.latin:a4bb9dd3: onHidden
+10-14 17:47:08.343  4157  4157 I AndroidRuntime: Using default boot image
+10-14 17:47:08.343  4157  4157 I AndroidRuntime: Leaving lock profiling enabled
+10-14 17:47:08.348  4157  4157 I app_process: Core platform API reporting enabled, enforcing=false
+10-14 17:47:08.350  4157  4157 I app_process: Using CollectorTypeCMC GC.
+10-14 17:47:08.604  4157  4157 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+10-14 17:47:08.620  4157  4157 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:08.620  4157  4157 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+10-14 17:47:08.620  4157  4157 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+10-14 17:47:08.622  4157  4157 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:08.624  4157  4157 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:08.627  4157  4157 W app_process: Unexpected CPU variant for x86: x86_64.
+10-14 17:47:08.627  4157  4157 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+10-14 17:47:08.630  4157  4157 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+10-14 17:47:08.633  4157  4157 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+10-14 17:47:08.666  4157  4157 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-14 17:47:08.667  4157  4157 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+10-14 17:47:08.675  4157  4157 D UiAutomationConnection: Created on user UserHandle{0}
+10-14 17:47:08.675  4157  4157 I UiAutomation: Initialized for user 0 on display 0
+10-14 17:47:08.676  4157  4157 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+10-14 17:47:08.679   545  2664 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+10-14 17:47:08.679   545  2664 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+10-14 17:47:08.682   545  2664 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:08.685   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:08.686   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:08.686  4157  4171 V UiAutomation: Init UiAutomation@ea1fe6b[id=51, displayId=0, flags=0]
+10-14 17:47:08.687   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:08.688   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:08.691   545   806 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:08.692   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:08.692   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:08.698   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:08.698   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:08.700   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:08.702   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:08.704   545   545 D BatterySaverPolicy: accessibility changed to true, updating policy.
+10-14 17:47:09.466  4078  4098 D EGL_emulation: app_time_stats: avg=163.55ms min=9.51ms max=499.41ms count=7
+10-14 17:47:09.751  4157  4157 W AccessibilityNodeInfoDumper: Fetch time: 7ms
+10-14 17:47:09.755   545   806 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:09.756   545   806 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+10-14 17:47:09.757   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:09.758   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:09.763   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:09.763   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:09.764  4157  4157 D AndroidRuntime: Shutting down VM
+10-14 17:47:09.772   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:09.772   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:09.773   545   545 D BatterySaverPolicy: accessibility changed to false, updating policy.
+10-14 17:47:09.788  4078  4093 D EGL_emulation: app_time_stats: avg=303.30ms min=17.64ms max=1055.02ms count=5
+10-14 17:47:10.282   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:10.284   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:10.285   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:10.286   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:10.287   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:10.468  4078  4098 D EGL_emulation: app_time_stats: avg=250.22ms min=50.40ms max=499.19ms count=4
+10-14 17:47:10.860  4078  4114 E GoLog   : s_glBindAttribLocation: bind attrib 0 name position
+10-14 17:47:10.861   411   411 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+10-14 17:47:10.868   545  2664 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+10-14 17:47:10.878   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(11)
+10-14 17:47:11.039   411   509 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+10-14 17:47:11.479  4078  4098 D EGL_emulation: app_time_stats: avg=40.57ms min=5.16ms max=650.58ms count=22
+10-14 17:47:12.892   773   965 D EGL_emulation: app_time_stats: avg=12843.20ms min=12843.20ms max=12843.20ms count=1
+10-14 17:47:12.972  4078  4098 D EGL_emulation: app_time_stats: avg=245.05ms min=5.13ms max=503.01ms count=6
+10-14 17:47:13.299   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:13.305   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:13.310   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:13.316   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:13.319   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:13.744  4187  4187 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+10-14 17:47:13.754  4187  4187 I AndroidRuntime: Using default boot image
+10-14 17:47:13.754  4187  4187 I AndroidRuntime: Leaving lock profiling enabled
+10-14 17:47:13.761  4187  4187 I app_process: Core platform API reporting enabled, enforcing=false
+10-14 17:47:13.762  4187  4187 I app_process: Using CollectorTypeCMC GC.
+10-14 17:47:13.929   354  1992 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 70521984
+10-14 17:47:13.965  4187  4187 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+10-14 17:47:13.985  4187  4187 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:13.985  4187  4187 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+10-14 17:47:13.986  4187  4187 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+10-14 17:47:13.989  4187  4187 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:13.990  4187  4187 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:13.995  4187  4187 W app_process: Unexpected CPU variant for x86: x86_64.
+10-14 17:47:13.995  4187  4187 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+10-14 17:47:13.998  4187  4187 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+10-14 17:47:14.001  4187  4187 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+10-14 17:47:14.050  4187  4187 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-14 17:47:14.053  4187  4187 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+10-14 17:47:14.065  4187  4187 D UiAutomationConnection: Created on user UserHandle{0}
+10-14 17:47:14.065  4187  4187 I UiAutomation: Initialized for user 0 on display 0
+10-14 17:47:14.066  4187  4187 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+10-14 17:47:14.072   545  2454 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+10-14 17:47:14.072   545  2454 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+10-14 17:47:14.078   545  2454 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:14.089   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:14.090  4187  4199 V UiAutomation: Init UiAutomation@41fb198[id=52, displayId=0, flags=0]
+10-14 17:47:14.090   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:14.102   545  2454 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:14.109   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:14.112   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:14.127   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:14.131   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:14.134   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:14.134   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:14.138   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:14.142   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:14.150   545   545 D BatterySaverPolicy: accessibility changed to true, updating policy.
+10-14 17:47:14.162  4078  4093 D EGL_emulation: app_time_stats: avg=4373.84ms min=4373.84ms max=4373.84ms count=1
+10-14 17:47:14.847  4078  4098 D EGL_emulation: app_time_stats: avg=263.14ms min=7.09ms max=1362.92ms count=7
+10-14 17:47:15.885  4187  4187 W AccessibilityNodeInfoDumper: Fetch time: 5ms
+10-14 17:47:15.893   545  1461 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:15.895   545  1461 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+10-14 17:47:15.898   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:15.899  4187  4187 D AndroidRuntime: Shutting down VM
+10-14 17:47:15.900   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:15.904   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:15.905   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:15.916   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:15.916   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:15.920   545   545 D BatterySaverPolicy: accessibility changed to false, updating policy.
+10-14 17:47:15.926  4078  4098 D EGL_emulation: app_time_stats: avg=213.26ms min=8.99ms max=499.51ms count=5
+10-14 17:47:15.957  4078  4093 D EGL_emulation: app_time_stats: avg=1794.73ms min=1794.73ms max=1794.73ms count=1
+10-14 17:47:16.337   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:16.338   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:16.339   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:16.340   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:16.341   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:16.971  4078  4098 D EGL_emulation: app_time_stats: avg=260.78ms min=29.13ms max=502.79ms count=4
+10-14 17:47:17.026   411   411 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+10-14 17:47:17.029   545  1461 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+10-14 17:47:17.033   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(37)
+10-14 17:47:17.062  4078  4078 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+10-14 17:47:17.062  4078  4078 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+10-14 17:47:17.063  4078  4078 I ImeTracker: com.yingxia.yingxia_native.fixture:5f0a10c7: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+10-14 17:47:17.065   545   652 I ImeTracker: com.yingxia.yingxia_native.fixture:5f0a10c7: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-14 17:47:17.196   411   509 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+10-14 17:47:17.364  4210  4210 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+10-14 17:47:17.392  4210  4210 I AndroidRuntime: Using default boot image
+10-14 17:47:17.393  4210  4210 I AndroidRuntime: Leaving lock profiling enabled
+10-14 17:47:17.408  4210  4210 I app_process: Core platform API reporting enabled, enforcing=false
+10-14 17:47:17.410  4210  4210 I app_process: Using CollectorTypeCMC GC.
+10-14 17:47:17.708  4210  4210 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+10-14 17:47:17.727  4210  4210 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:17.729  4210  4210 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+10-14 17:47:17.729  4210  4210 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+10-14 17:47:17.732  4210  4210 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:17.733  4210  4210 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:17.737  4210  4210 W app_process: Unexpected CPU variant for x86: x86_64.
+10-14 17:47:17.737  4210  4210 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+10-14 17:47:17.741  4210  4210 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+10-14 17:47:17.743  4210  4210 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+10-14 17:47:17.799  4210  4210 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-14 17:47:17.801  4210  4210 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+10-14 17:47:17.812  4210  4210 D UiAutomationConnection: Created on user UserHandle{0}
+10-14 17:47:17.813  4210  4210 I UiAutomation: Initialized for user 0 on display 0
+10-14 17:47:17.813  4210  4210 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+10-14 17:47:17.818   545   806 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+10-14 17:47:17.819   545   806 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+10-14 17:47:17.826   545   806 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:17.836   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:17.837   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:17.841  4210  4222 V UiAutomation: Init UiAutomation@5510dbc[id=53, displayId=0, flags=0]
+10-14 17:47:17.846   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:17.851   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:17.852   545  2664 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:17.866   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:17.870   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:17.885   773   885 W Looper  : Slow dispatch took 44ms wmshell.main h=android.view.ViewRootImpl$ViewRootHandler c=android.view.accessibility.AccessibilityManager$$ExternalSyntheticLambda0@25fa99c m=0
+10-14 17:47:17.891   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:17.892   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:17.905  4078  4093 D EGL_emulation: app_time_stats: avg=1945.96ms min=1945.96ms max=1945.96ms count=1
+10-14 17:47:17.919   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:17.921   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:17.926   545   545 D BatterySaverPolicy: accessibility changed to true, updating policy.
+10-14 17:47:18.564  4078  4078 E FrameTracker: force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@com.yingxia.yingxia_native.fixture>
+10-14 17:47:18.957  4210  4210 W AccessibilityNodeInfoDumper: Fetch time: 25ms
+10-14 17:47:18.963  4078  4098 D EGL_emulation: app_time_stats: avg=83.69ms min=7.83ms max=1039.60ms count=23
+10-14 17:47:18.965   545  2664 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:18.966   545  2664 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+10-14 17:47:18.967   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:18.967   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:18.971   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:18.972   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:18.974  4210  4210 D AndroidRuntime: Shutting down VM
+10-14 17:47:18.990   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:18.991   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:19.002   545   545 D BatterySaverPolicy: accessibility changed to false, updating policy.
+10-14 17:47:19.022  4078  4093 D EGL_emulation: app_time_stats: avg=1103.78ms min=1103.78ms max=1103.78ms count=1
+10-14 17:47:19.349   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:19.350   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:19.351   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:19.352   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:19.354   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:20.088   354  1992 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 70671040
+10-14 17:47:20.114   411   411 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+10-14 17:47:20.118   545  1461 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+10-14 17:47:20.133   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(37)
+10-14 17:47:20.151  4078  4098 D EGL_emulation: app_time_stats: avg=593.42ms min=75.26ms max=1111.59ms count=2
+10-14 17:47:20.198  4078  4078 I VideoOutputManager: com.alexmercerind.media_kit_video.VideoOutputManager.create: 125919072060800
+10-14 17:47:20.299   411   509 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+10-14 17:47:20.372  4078  4078 I VideoOutputManager: com.alexmercerind.media_kit_video.VideoOutputManager.setSurfaceSize: 125919072060800 640 360
+10-14 17:47:20.372  4078  4078 I VideoOutput: onSurfaceAvailable
+10-14 17:47:20.379  4078  4078 I VideoOutput: newGlobalRef: object = Surface(name=null mNativeObject=125920682354880)/@0x26581e7
+10-14 17:47:20.379  4078  4078 I flutter : VideoOutput.Resize
+10-14 17:47:20.382  4078  4078 I flutter : {rect: {top: 0, left: 0, width: 640, height: 360}, wid: 13510, handle: 125919072060800, id: 0}
+10-14 17:47:20.387  4078  4231 D _native.fixture: PlayerBase::PlayerBase()
+10-14 17:47:20.389  4078  4231 D _native.fixture: TrackPlayerBase::TrackPlayerBase()
+10-14 17:47:20.389  4078  4231 I libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+10-14 17:47:20.404   411   411 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000104) and output flags (00000002)
+10-14 17:47:20.405   411   411 D AudioFlinger: Client defaulted notificationFrames to 960 for frameCount 4360
+10-14 17:47:20.425   411   423 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+10-14 17:47:20.429  4078  4231 E libOpenSLES: Configuration error: unknown key
+10-14 17:47:20.431  4078  4231 W libOpenSLES: Leaving AndroidConfiguration::GetConfiguration (SL_RESULT_PARAMETER_INVALID)
+10-14 17:47:20.433  4078  4240 D _native.fixture: PlayerBase::stop() from IPlayer
+10-14 17:47:20.433  4078  4240 D AudioTrack: stop(22): called with 0 frames delivered
+10-14 17:47:20.503  4078  4243 D CCodec  : allocate(c2.goldfish.vp9.decoder)
+10-14 17:47:20.505  4078  4243 I Codec2Client: Available Codec2 services: "default" "software"
+10-14 17:47:20.511  4078  4243 I CCodec  : setting up 'default' as default (vendor) store
+10-14 17:47:20.517   377   395 I GoldfishComponentStore: in init
+10-14 17:47:20.517   377   395 I GoldfishComponentStore: loading dll of path libcodec2_goldfish_vp9dec.so
+10-14 17:47:20.518   377   395 I GoldfishComponentStore: Create()
+10-14 17:47:20.520   377   395 I C2GoldfishVpxDec: platform store is 0x7fefa26540c8, reflector is 0x7feef2647b18
+10-14 17:47:20.521   377   395 I GoldfishComponentStore: created interface
+10-14 17:47:20.522   377   395 I GoldfishComponentStore: created component
+10-14 17:47:20.526  4078  4243 I CCodec  : Created component [c2.goldfish.vp9.decoder]
+10-14 17:47:20.529  4078  4243 D CCodecConfig: read media type: video/x-vnd.on2.vp9
+10-14 17:47:20.539  4078  4243 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+10-14 17:47:20.541  4078  4243 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+10-14 17:47:20.542  4078  4243 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+10-14 17:47:20.543  4078  4243 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+10-14 17:47:20.544   411   509 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+10-14 17:47:20.546  4078  4243 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+10-14 17:47:20.547  4078  4243 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+10-14 17:47:20.550  4078  4243 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+10-14 17:47:20.555  4078  4243 D ReflectedParamUpdater: ignored struct field coded.color-format.locations
+10-14 17:47:20.561  4078  4243 D CCodecConfig: ignoring local param raw.size (0xd2001800) as it is already supported
+10-14 17:47:20.562  4078  4243 D CCodecConfig: ignoring local param default.color (0x5200180b) as it is already supported
+10-14 17:47:20.562  4078  4243 D ReflectedParamUpdater: ignored struct field raw.hdr-static-info.mastering
+10-14 17:47:20.565  4078  4243 I CCodecConfig: query failed after returning 13 values (BAD_INDEX)
+10-14 17:47:20.566  4078  4243 D CCodecConfig: c2 config diff is Dict {
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 coded.pl.level = 28680
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 coded.pl.profile = 28672
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 coded.vui.color.matrix = 0
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 coded.vui.color.primaries = 0
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 coded.vui.color.range = 2
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 coded.vui.color.transfer = 0
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 default.color.matrix = 0
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 default.color.primaries = 0
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 default.color.range = 0
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 default.color.transfer = 0
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 6291456
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 input.delay.value = 0
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   Buffer input.hdr10-plus-info.value = {
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   }
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   string input.media-type.value = "video/x-vnd.on2.vp9"
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   Buffer output.hdr10-plus-info.value = {
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   }
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   string output.media-type.value = "video/raw"
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 raw.color.matrix = 0
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 raw.color.primaries = 0
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 raw.color.range = 2
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 raw.color.transfer = 0
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 raw.max-size.height = 240
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 raw.max-size.width = 320
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 raw.pixel-format.value = 35
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::i32 raw.rotation.flip = 0
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::i32 raw.rotation.value = 0
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 raw.sar.height = 1
+10-14 17:47:20.566  4078  4243 D CCodecConfig:   c2::u32 raw.sar.width = 1
+10-14 17:47:20.567  4078  4243 W ColorUtils: expected specified color aspects (2:0:0:0)
+10-14 17:47:20.575  4078  4242 D SurfaceUtils: connecting to surface 0x7286318acae0, reason connectToSurface
+10-14 17:47:20.575  4078  4242 I MediaCodec: [c2.goldfish.vp9.decoder] setting surface generation to 4175873
+10-14 17:47:20.575  4078  4242 D SurfaceUtils: disconnecting from surface 0x7286318acae0, reason connectToSurface(reconnect)
+10-14 17:47:20.575  4078  4242 D SurfaceUtils: connecting to surface 0x7286318acad0, reason connectToSurface(reconnect-with-listener)
+10-14 17:47:20.577  4078  4243 D CCodec  : [c2.goldfish.vp9.decoder] buffers are bound to CCodec for this session
+10-14 17:47:20.579  4078  4243 D CCodecConfig: no c2 equivalents for native-window
+10-14 17:47:20.579  4078  4243 D CCodecConfig: no c2 equivalents for native-window-generation
+10-14 17:47:20.579  4078  4243 D CCodecConfig: no c2 equivalents for flags
+10-14 17:47:20.581  4078  4243 D CCodecConfig: config failed => CORRUPTED
+10-14 17:47:20.582  4078  4243 D CCodecConfig: c2 config diff is   c2::u32 raw.size.height = 360
+10-14 17:47:20.582  4078  4243 D CCodecConfig:   c2::u32 raw.size.width = 640
+10-14 17:47:20.583  4078  4243 W Codec2Client: query -- param skipped: index = 1107298332.
+10-14 17:47:20.584  4078  4243 D CCodec  : encoding statistics level = 0
+10-14 17:47:20.584  4078  4243 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+10-14 17:47:20.584  4078  4243 D CCodec  :   int32_t height = 360
+10-14 17:47:20.584  4078  4243 D CCodec  :   int32_t level = 256
+10-14 17:47:20.584  4078  4243 D CCodec  :   int32_t max-input-size = 6291456
+10-14 17:47:20.584  4078  4243 D CCodec  :   string mime = "video/x-vnd.on2.vp9"
+10-14 17:47:20.584  4078  4243 D CCodec  :   int32_t profile = 1
+10-14 17:47:20.584  4078  4243 D CCodec  :   int32_t width = 640
+10-14 17:47:20.584  4078  4243 D CCodec  :   Rect crop(0, 0, 639, 359)
+10-14 17:47:20.584  4078  4243 D CCodec  : }
+10-14 17:47:20.584  4078  4243 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+10-14 17:47:20.584  4078  4243 D CCodec  :   int32_t android._color-format = 2135033992
+10-14 17:47:20.584  4078  4243 D CCodec  :   int32_t android._video-scaling = 1
+10-14 17:47:20.584  4078  4243 D CCodec  :   int32_t rotation-degrees = 0
+10-14 17:47:20.584  4078  4243 D CCodec  :   int32_t color-standard = 4
+10-14 17:47:20.584  4078  4243 D CCodec  :   int32_t color-range = 2
+10-14 17:47:20.584  4078  4243 D CCodec  :   int32_t color-transfer = 3
+10-14 17:47:20.584  4078  4243 D CCodec  :   int32_t sar-height = 1
+10-14 17:47:20.584  4078  4243 D CCodec  :   int32_t sar-width = 1
+10-14 17:47:20.584  4078  4243 D CCodec  :   Rect crop(0, 0, 639, 359)
+10-14 17:47:20.584  4078  4243 D CCodec  :   int32_t width = 640
+10-14 17:47:20.584  4078  4243 D CCodec  :   Buffer hdr10-plus-info = {
+10-14 17:47:20.584  4078  4243 D CCodec  :   }
+10-14 17:47:20.584  4078  4243 D CCodec  :   int32_t height = 360
+10-14 17:47:20.584  4078  4243 D CCodec  :   int32_t max-height = 240
+10-14 17:47:20.584  4078  4243 D CCodec  :   int32_t max-width = 320
+10-14 17:47:20.584  4078  4243 D CCodec  :   string mime = "video/raw"
+10-14 17:47:20.584  4078  4243 D CCodec  :   int32_t android._dataspace = 259
+10-14 17:47:20.584  4078  4243 D CCodec  :   int32_t color-format = 2130708361
+10-14 17:47:20.584  4078  4243 D CCodec  : }
+10-14 17:47:20.585  4078  4243 I CCodecConfig: query failed after returning 13 values (BAD_INDEX)
+10-14 17:47:20.589  4078  4243 D CCodecConfig: c2 config diff is   c2::u32 raw.max-size.height = 360
+10-14 17:47:20.589  4078  4243 D CCodecConfig:   c2::u32 raw.max-size.width = 640
+10-14 17:47:20.593   377  4248 I C2GoldfishVpxDec: calling init GoldfishVPX
+10-14 17:47:20.594  4078  4243 W Codec2Client: query -- param skipped: index = 1342179345.
+10-14 17:47:20.595  4078  4243 W Codec2Client: query -- param skipped: index = 2415921170.
+10-14 17:47:20.596  4078  4243 W Codec2Client: query -- param skipped: index = 2684356609.
+10-14 17:47:20.597  4078  4243 D C2Store : Using DMABUF Heaps
+10-14 17:47:20.600  4078  4243 D CCodecBufferChannel: [c2.goldfish.vp9.decoder#498] Created input block pool with allocatorID 16 => poolID 17 - OK (0)
+10-14 17:47:20.602  4078  4243 D CCodecBufferChannel: [c2.goldfish.vp9.decoder#498] Query output surface allocator returned 0 params => BAD_INDEX (6)
+10-14 17:47:20.604  4078  4243 I CCodecBufferChannel: [c2.goldfish.vp9.decoder#498] Created output block pool with allocatorID 18 => poolID 23 - OK
+10-14 17:47:20.605  4078  4243 D CCodecBufferChannel: [c2.goldfish.vp9.decoder#498] Configured output block pool ids 23 => OK
+10-14 17:47:20.606  4078  4243 D Codec2-OutputBufferQueue: remote graphic buffer migration 0/0
+10-14 17:47:20.607  4078  4243 D Codec2Client: setOutputSurface -- failed to set consumer usage (6/BAD_INDEX)
+10-14 17:47:20.608  4078  4243 D Codec2Client: setOutputSurface -- generation=4175873 consumer usage=0x900
+10-14 17:47:20.614   377  2663 D C2BqBuffer: local generation change 4175873 , bqId: 17514876633090 migrated buffers # 0
+10-14 17:47:20.616  4078  4243 D Codec2Client: Surface configure completed
+10-14 17:47:20.616  4078  4243 I DMABUFHEAPS: Using DMA-BUF heap named: system
+10-14 17:47:20.748   488  2421 W ResourceManagerServiceUtils: Ignoring request to add new resource entry with value <= 0
+10-14 17:47:20.776  4078  4242 I CCodecConfig: query failed after returning 13 values (BAD_INDEX)
+10-14 17:47:20.785  4078  4242 W Codec2Client: query -- param skipped: index = 1342179345.
+10-14 17:47:20.785  4078  4242 W Codec2Client: query -- param skipped: index = 2415921170.
+10-14 17:47:20.791  4078  4242 D CCodecBufferChannel: [c2.goldfish.vp9.decoder#498] MediaCodec discarded an unknown buffer
+10-14 17:47:20.791  4078  4242 I CCodecConfig: query failed after returning 13 values (BAD_INDEX)
+10-14 17:47:20.797  4078  4242 W Codec2Client: query -- param skipped: index = 1342179345.
+10-14 17:47:20.797  4078  4242 W Codec2Client: query -- param skipped: index = 2415921170.
+10-14 17:47:20.815   377  4248 D SimpleC2Component: Using output block pool with poolID 23 => got 23 - 0
+10-14 17:47:20.816   377  4248 I C2GoldfishVpxDec: created decoder context w 640 h 360
+10-14 17:47:20.939  4078  4243 D CCodecConfig: c2 config diff is   c2::u32 raw.crop.height = 360
+10-14 17:47:20.939  4078  4243 D CCodecConfig:   c2::u32 raw.crop.left = 0
+10-14 17:47:20.939  4078  4243 D CCodecConfig:   c2::u32 raw.crop.top = 0
+10-14 17:47:20.939  4078  4243 D CCodecConfig:   c2::u32 raw.crop.width = 640
+10-14 17:47:21.107   411   423 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+10-14 17:47:21.148   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(22)
+10-14 17:47:21.335  4078  4098 D EGL_emulation: app_time_stats: avg=116.70ms min=9.38ms max=405.64ms count=10
+10-14 17:47:21.504   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(18)
+10-14 17:47:21.573   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(36)
+10-14 17:47:21.795   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(61)
+10-14 17:47:22.270   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(22)
+10-14 17:47:22.335  4078  4098 D EGL_emulation: app_time_stats: avg=51.95ms min=6.93ms max=203.26ms count=19
+10-14 17:47:22.358  4257  4257 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-14 17:47:22.358  4257  4257 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-14 17:47:22.423   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:22.434   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:22.434   152   152 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-14 17:47:22.435   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:22.356     0     0 I servicemanager: Caller(pid=4257,uid=0,sid=u:r:su:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+10-14 17:47:22.436  4257  4259 I Gralloc4: mapper 4.x is not supported
+10-14 17:47:22.436   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:22.438   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:22.463   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(22)
+10-14 17:47:22.496   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(2)
+10-14 17:47:22.527   545  1461 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-14 17:47:22.537   545  1461 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+10-14 17:47:22.539   545  1378 W JobInfo : Job 'com.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+10-14 17:47:22.548   545   567 I ActivityManager: Broadcast completed: result=0
+10-14 17:47:22.557  1179  1460 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+10-14 17:47:22.590  1179  1460 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+10-14 17:47:23.337  4078  4098 D EGL_emulation: app_time_stats: avg=23.72ms min=5.50ms max=124.66ms count=37
+10-14 17:47:24.287   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(40)
+10-14 17:47:24.310   411   509 D AF::Track: interceptBuffer: took 1160us to intercept 0 tracks
+10-14 17:47:24.338  4078  4098 D EGL_emulation: app_time_stats: avg=34.79ms min=5.26ms max=115.11ms count=27
+10-14 17:47:24.540   411   509 D AF::Track: interceptBuffer: took 658us to intercept 0 tracks
+10-14 17:47:25.368  4078  4098 D EGL_emulation: app_time_stats: avg=41.10ms min=27.47ms max=58.27ms count=25
+10-14 17:47:25.445   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:25.447   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:25.447   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:25.449   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:25.449   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:25.942  4078  4242 D BufferPoolAccessor2.0: bufferpool2 0x7285d1913a68 : 5(31457280 size) total buffers - 4(25165824 size) used buffers - 121/126 (recycle/alloc) - 5/229 (fetch/transfer)
+10-14 17:47:26.372  4078  4098 D EGL_emulation: app_time_stats: avg=41.74ms min=27.21ms max=55.90ms count=24
+10-14 17:47:27.427  4078  4098 D EGL_emulation: app_time_stats: avg=40.41ms min=12.32ms max=57.21ms count=26
+10-14 17:47:28.430  4078  4098 D EGL_emulation: app_time_stats: avg=38.39ms min=16.30ms max=58.55ms count=26
+10-14 17:47:28.461   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:28.462   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:28.462   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:28.462   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:28.462   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:29.188  4078  4242 I CCodecConfig: query failed after returning 13 values (BAD_INDEX)
+10-14 17:47:29.189  4078  4242 W Codec2Client: query -- param skipped: index = 1342179345.
+10-14 17:47:29.190  4078  4242 W Codec2Client: query -- param skipped: index = 2415921170.
+10-14 17:47:29.275  4078  4240 D _native.fixture: PlayerBase::stop() from IPlayer
+10-14 17:47:29.275  4078  4240 D AudioTrack: stop(22): called with 384072 frames delivered
+10-14 17:47:29.503   411   509 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+10-14 17:47:31.337  4271  4271 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+10-14 17:47:31.344  4271  4271 I AndroidRuntime: Using default boot image
+10-14 17:47:31.345  4271  4271 I AndroidRuntime: Leaving lock profiling enabled
+10-14 17:47:31.351  4271  4271 I app_process: Core platform API reporting enabled, enforcing=false
+10-14 17:47:31.352  4271  4271 I app_process: Using CollectorTypeCMC GC.
+10-14 17:47:31.471   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:31.479   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:31.480   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:31.481   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:31.483   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:31.816  4271  4271 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+10-14 17:47:31.833  4271  4271 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:31.834  4271  4271 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+10-14 17:47:31.835  4271  4271 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+10-14 17:47:31.838  4271  4271 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:31.841  4271  4271 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:31.845  4271  4271 W app_process: Unexpected CPU variant for x86: x86_64.
+10-14 17:47:31.845  4271  4271 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+10-14 17:47:31.849  4271  4271 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+10-14 17:47:31.851  4271  4271 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+10-14 17:47:31.881  4271  4271 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-14 17:47:31.882  4271  4271 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+10-14 17:47:31.892  4271  4271 D UiAutomationConnection: Created on user UserHandle{0}
+10-14 17:47:31.893  4271  4271 I UiAutomation: Initialized for user 0 on display 0
+10-14 17:47:31.893  4271  4271 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+10-14 17:47:31.897   545  1461 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+10-14 17:47:31.898   545  1461 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+10-14 17:47:31.900   545  1461 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:31.908  4271  4283 V UiAutomation: Init UiAutomation@17dd03a[id=54, displayId=0, flags=0]
+10-14 17:47:31.908   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:31.909   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:31.911   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:31.912   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:31.917   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:31.921   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:31.921   545  2664 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:31.925   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:31.926   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:31.927   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:31.928   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:31.931   545   545 D BatterySaverPolicy: accessibility changed to true, updating policy.
+10-14 17:47:31.946  4078  4093 D EGL_emulation: app_time_stats: avg=12922.50ms min=12922.50ms max=12922.50ms count=1
+10-14 17:47:31.964  4078  4098 D EGL_emulation: app_time_stats: avg=176.51ms min=30.12ms max=2755.90ms count=20
+10-14 17:47:32.370   354  1992 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 71244416
+10-14 17:47:32.974  4271  4271 W AccessibilityNodeInfoDumper: Fetch time: 8ms
+10-14 17:47:32.984   545   888 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:32.985   545   888 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+10-14 17:47:32.988   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:32.988  4271  4271 D AndroidRuntime: Shutting down VM
+10-14 17:47:32.989   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:32.990   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:32.990   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:32.994  4078  4098 D EGL_emulation: app_time_stats: avg=1028.09ms min=1028.09ms max=1028.09ms count=1
+10-14 17:47:33.014   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:33.014   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:33.014   545   545 D BatterySaverPolicy: accessibility changed to false, updating policy.
+10-14 17:47:33.033  4078  4093 D EGL_emulation: app_time_stats: avg=1086.29ms min=1086.29ms max=1086.29ms count=1
+10-14 17:47:34.044   411   411 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+10-14 17:47:34.053   545   888 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+10-14 17:47:34.063  4078  4242 D CCodecBufferChannel: [c2.goldfish.vp9.decoder#498] MediaCodec discarded an unknown buffer
+10-14 17:47:34.066  4078  4242 I CCodecConfig: query failed after returning 13 values (BAD_INDEX)
+10-14 17:47:34.066  4078  4242 D BufferPoolAccessor2.0: bufferpool2 0x7285d1913a68 : 5(31457280 size) total buffers - 1(6291456 size) used buffers - 203/208 (recycle/alloc) - 6/384 (fetch/transfer)
+10-14 17:47:34.075  4078  4098 D EGL_emulation: app_time_stats: avg=540.17ms min=47.87ms max=1032.46ms count=2
+10-14 17:47:34.075  4078  4242 W Codec2Client: query -- param skipped: index = 1342179345.
+10-14 17:47:34.075  4078  4242 W Codec2Client: query -- param skipped: index = 2415921170.
+10-14 17:47:34.078  4078  4242 D SurfaceUtils: connecting to surface 0x72863189fe80, reason connectToSurface
+10-14 17:47:34.078  4078  4242 I MediaCodec: [c2.goldfish.vp9.decoder] setting surface generation to 4175874
+10-14 17:47:34.078  4078  4242 D SurfaceUtils: disconnecting from surface 0x72863189fe80, reason connectToSurface(reconnect)
+10-14 17:47:34.079  4078  4242 D SurfaceUtils: connecting to surface 0x72863189fe70, reason connectToSurface(reconnect-with-listener)
+10-14 17:47:34.079  4078  4242 D Codec2-OutputBufferQueue: remote graphic buffer migration 0/0
+10-14 17:47:34.081  4078  4242 D Codec2Client: setOutputSurface -- failed to set consumer usage (6/BAD_INDEX)
+10-14 17:47:34.083  4078  4242 D Codec2Client: setOutputSurface -- generation=4175874 consumer usage=0x900
+10-14 17:47:34.086   377  3228 D C2BqBuffer: local generation change 4175874 , bqId: 17514876633091 migrated buffers # 0
+10-14 17:47:34.087  4078  4242 D Codec2Client: Surface configure completed
+10-14 17:47:34.087  4078  4242 D SurfaceUtils: disconnecting from surface 0x7286318acae0, reason disconnectFromSurface
+10-14 17:47:34.096  4078  4242 D CCodecBufferChannel: [c2.goldfish.vp9.decoder#498] MediaCodec discarded an unknown buffer
+10-14 17:47:34.098  4078  4242 D CCodecBufferChannel: [c2.goldfish.vp9.decoder#498] MediaCodec discarded an unknown buffer
+10-14 17:47:34.098  4078  4242 D CCodecBufferChannel: [c2.goldfish.vp9.decoder#498] MediaCodec discarded an unknown buffer
+10-14 17:47:34.099  4078  4242 D CCodecBufferChannel: [c2.goldfish.vp9.decoder#498] MediaCodec discarded an unknown buffer
+10-14 17:47:34.100   377  3228 D C2BqBuffer: configuring null producer: igbp_information(0)
+10-14 17:47:34.102   377  4248 I C2GoldfishVpxDec: calling destroying GoldfishVPX ctx 0x7ff08264ca90
+10-14 17:47:34.107  4078  4243 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+10-14 17:47:34.107   377  3228 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+10-14 17:47:34.108  4078  4242 D SurfaceUtils: disconnecting from surface 0x72863189fe80, reason disconnectFromSurface
+10-14 17:47:34.110   377  3228 I GoldfishComponentStore: in ~ComponentModule
+10-14 17:47:34.111   377  3228 I GoldfishComponentStore: unloading dll
+10-14 17:47:34.119   411   423 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+10-14 17:47:34.222   411   509 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+10-14 17:47:34.488   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:34.490   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:34.498   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:34.503   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:34.504   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:34.781  4296  4296 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+10-14 17:47:34.791  4296  4296 I AndroidRuntime: Using default boot image
+10-14 17:47:34.793  4296  4296 I AndroidRuntime: Leaving lock profiling enabled
+10-14 17:47:34.798  4296  4296 I app_process: Core platform API reporting enabled, enforcing=false
+10-14 17:47:34.799  4296  4296 I app_process: Using CollectorTypeCMC GC.
+10-14 17:47:35.047  4296  4296 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+10-14 17:47:35.064  4296  4296 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:35.065  4296  4296 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+10-14 17:47:35.065  4296  4296 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+10-14 17:47:35.066  4296  4296 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:35.069  4296  4296 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:35.073  4296  4296 W app_process: Unexpected CPU variant for x86: x86_64.
+10-14 17:47:35.073  4296  4296 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+10-14 17:47:35.076  4296  4296 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+10-14 17:47:35.078  4296  4296 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+10-14 17:47:35.117  4296  4296 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-14 17:47:35.118  4296  4296 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+10-14 17:47:35.125  4296  4296 D UiAutomationConnection: Created on user UserHandle{0}
+10-14 17:47:35.125  4296  4296 I UiAutomation: Initialized for user 0 on display 0
+10-14 17:47:35.126  4296  4296 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+10-14 17:47:35.129   545   888 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+10-14 17:47:35.129   545   888 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+10-14 17:47:35.136   545   888 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:35.138   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:35.138   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:35.140   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:35.141   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:35.144  4296  4308 V UiAutomation: Init UiAutomation@e62d555[id=55, displayId=0, flags=0]
+10-14 17:47:35.148   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:35.149   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:35.152   545   545 D BatterySaverPolicy: accessibility changed to true, updating policy.
+10-14 17:47:35.177   545  2664 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:35.185   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:35.189  4078  4093 D EGL_emulation: app_time_stats: avg=2155.56ms min=2155.56ms max=2155.56ms count=1
+10-14 17:47:35.197  4078  4098 D EGL_emulation: app_time_stats: avg=35.13ms min=7.27ms max=456.00ms count=31
+10-14 17:47:35.199   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:35.200   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:35.200   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:36.214  4296  4296 W AccessibilityNodeInfoDumper: Fetch time: 10ms
+10-14 17:47:36.219   545  1378 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:36.220   545  1378 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+10-14 17:47:36.221   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:36.221   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:36.229   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:36.229  4296  4296 D AndroidRuntime: Shutting down VM
+10-14 17:47:36.232   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:36.239  4078  4098 D EGL_emulation: app_time_stats: avg=1041.08ms min=1041.08ms max=1041.08ms count=1
+10-14 17:47:36.241   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:36.242   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:36.242   545   545 D BatterySaverPolicy: accessibility changed to false, updating policy.
+10-14 17:47:36.272  4078  4093 D EGL_emulation: app_time_stats: avg=1082.55ms min=1082.55ms max=1082.55ms count=1
+10-14 17:47:37.112   354  1992 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 71393472
+10-14 17:47:37.427  4311  4311 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-14 17:47:37.428  4311  4311 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-14 17:47:37.561   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:37.561   152   152 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-14 17:47:37.562   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:37.562  4311  4313 I Gralloc4: mapper 4.x is not supported
+10-14 17:47:37.562   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:37.429     0     0 I servicemanager: Caller(pid=4311,uid=0,sid=u:r:su:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+10-14 17:47:37.563   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:37.566   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:37.638   545  2664 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-14 17:47:37.640   545  2664 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+10-14 17:47:37.644   545  1378 W JobInfo : Job 'com.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+10-14 17:47:37.668   545   567 I ActivityManager: Broadcast completed: result=0
+10-14 17:47:37.676  1179  1460 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+10-14 17:47:37.706  1179  1460 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+10-14 17:47:37.972   411   424 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+10-14 17:47:37.972   545  1378 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+10-14 17:47:37.986   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(29)
+10-14 17:47:38.006  4078  4098 D EGL_emulation: app_time_stats: avg=882.03ms min=49.60ms max=1714.47ms count=2
+10-14 17:47:38.033   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(28)
+10-14 17:47:38.147   411   509 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+10-14 17:47:38.165  4078  4329 D CCodec  : allocate(c2.goldfish.vp9.decoder)
+10-14 17:47:38.171  4078  4329 I CCodec  : setting up 'default' as default (vendor) store
+10-14 17:47:38.172   377   813 I GoldfishComponentStore: in init
+10-14 17:47:38.172   377   813 I GoldfishComponentStore: loading dll of path libcodec2_goldfish_vp9dec.so
+10-14 17:47:38.172   377   813 I GoldfishComponentStore: Create()
+10-14 17:47:38.172   377   813 I C2GoldfishVpxDec: platform store is 0x7fefa2651ba8, reflector is 0x7feef2648448
+10-14 17:47:38.172   377   813 I GoldfishComponentStore: created interface
+10-14 17:47:38.173   377   813 I GoldfishComponentStore: created component
+10-14 17:47:38.187  4078  4329 I CCodec  : Created component [c2.goldfish.vp9.decoder]
+10-14 17:47:38.189  4078  4329 D CCodecConfig: read media type: video/x-vnd.on2.vp9
+10-14 17:47:38.205  4078  4329 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+10-14 17:47:38.208  4078  4329 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+10-14 17:47:38.209  4078  4329 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+10-14 17:47:38.215  4078  4329 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+10-14 17:47:38.216  4078  4329 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+10-14 17:47:38.221  4078  4329 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+10-14 17:47:38.222  4078  4329 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+10-14 17:47:38.230  4078  4329 D ReflectedParamUpdater: ignored struct field coded.color-format.locations
+10-14 17:47:38.235  4078  4329 D CCodecConfig: ignoring local param raw.size (0xd2001800) as it is already supported
+10-14 17:47:38.236  4078  4329 D CCodecConfig: ignoring local param default.color (0x5200180b) as it is already supported
+10-14 17:47:38.237  4078  4329 D ReflectedParamUpdater: ignored struct field raw.hdr-static-info.mastering
+10-14 17:47:38.240  4078  4329 I CCodecConfig: query failed after returning 13 values (BAD_INDEX)
+10-14 17:47:38.241  4078  4329 D CCodecConfig: c2 config diff is Dict {
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 coded.pl.level = 28680
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 coded.pl.profile = 28672
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 coded.vui.color.matrix = 0
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 coded.vui.color.primaries = 0
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 coded.vui.color.range = 2
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 coded.vui.color.transfer = 0
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 default.color.matrix = 0
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 default.color.primaries = 0
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 default.color.range = 0
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 default.color.transfer = 0
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 6291456
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 input.delay.value = 0
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   Buffer input.hdr10-plus-info.value = {
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   }
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   string input.media-type.value = "video/x-vnd.on2.vp9"
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   Buffer output.hdr10-plus-info.value = {
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   }
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   string output.media-type.value = "video/raw"
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 raw.color.matrix = 0
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 raw.color.primaries = 0
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 raw.color.range = 2
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 raw.color.transfer = 0
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 raw.max-size.height = 240
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 raw.max-size.width = 320
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 raw.pixel-format.value = 35
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::i32 raw.rotation.flip = 0
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::i32 raw.rotation.value = 0
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 raw.sar.height = 1
+10-14 17:47:38.241  4078  4329 D CCodecConfig:   c2::u32 raw.sar.width = 1
+10-14 17:47:38.242  4078  4329 W ColorUtils: expected specified color aspects (2:0:0:0)
+10-14 17:47:38.249  4078  4328 D SurfaceUtils: connecting to surface 0x7286318a42a0, reason connectToSurface
+10-14 17:47:38.249  4078  4328 I MediaCodec: [c2.goldfish.vp9.decoder] setting surface generation to 4175875
+10-14 17:47:38.251  4078  4328 D SurfaceUtils: disconnecting from surface 0x7286318a42a0, reason connectToSurface(reconnect)
+10-14 17:47:38.252  4078  4328 D SurfaceUtils: connecting to surface 0x7286318a4290, reason connectToSurface(reconnect-with-listener)
+10-14 17:47:38.252  4078  4329 D CCodec  : [c2.goldfish.vp9.decoder] buffers are bound to CCodec for this session
+10-14 17:47:38.253  4078  4329 D CCodecConfig: no c2 equivalents for native-window
+10-14 17:47:38.253  4078  4329 D CCodecConfig: no c2 equivalents for native-window-generation
+10-14 17:47:38.254  4078  4329 D CCodecConfig: no c2 equivalents for flags
+10-14 17:47:38.257  4078  4329 D CCodecConfig: config failed => CORRUPTED
+10-14 17:47:38.258  4078  4329 D CCodecConfig: c2 config diff is   c2::u32 raw.size.height = 360
+10-14 17:47:38.258  4078  4329 D CCodecConfig:   c2::u32 raw.size.width = 640
+10-14 17:47:38.261  4078  4329 W Codec2Client: query -- param skipped: index = 1107298332.
+10-14 17:47:38.261  4078  4329 D CCodec  : encoding statistics level = 0
+10-14 17:47:38.261  4078  4329 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+10-14 17:47:38.261  4078  4329 D CCodec  :   int32_t height = 360
+10-14 17:47:38.261  4078  4329 D CCodec  :   int32_t level = 256
+10-14 17:47:38.261  4078  4329 D CCodec  :   int32_t max-input-size = 6291456
+10-14 17:47:38.261  4078  4329 D CCodec  :   string mime = "video/x-vnd.on2.vp9"
+10-14 17:47:38.261  4078  4329 D CCodec  :   int32_t profile = 1
+10-14 17:47:38.261  4078  4329 D CCodec  :   int32_t width = 640
+10-14 17:47:38.261  4078  4329 D CCodec  :   Rect crop(0, 0, 639, 359)
+10-14 17:47:38.261  4078  4329 D CCodec  : }
+10-14 17:47:38.261  4078  4329 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+10-14 17:47:38.261  4078  4329 D CCodec  :   int32_t android._color-format = 2135033992
+10-14 17:47:38.261  4078  4329 D CCodec  :   int32_t android._video-scaling = 1
+10-14 17:47:38.261  4078  4329 D CCodec  :   int32_t rotation-degrees = 0
+10-14 17:47:38.261  4078  4329 D CCodec  :   int32_t color-standard = 4
+10-14 17:47:38.261  4078  4329 D CCodec  :   int32_t color-range = 2
+10-14 17:47:38.261  4078  4329 D CCodec  :   int32_t color-transfer = 3
+10-14 17:47:38.261  4078  4329 D CCodec  :   int32_t sar-height = 1
+10-14 17:47:38.261  4078  4329 D CCodec  :   int32_t sar-width = 1
+10-14 17:47:38.261  4078  4329 D CCodec  :   Rect crop(0, 0, 639, 359)
+10-14 17:47:38.261  4078  4329 D CCodec  :   int32_t width = 640
+10-14 17:47:38.261  4078  4329 D CCodec  :   Buffer hdr10-plus-info = {
+10-14 17:47:38.261  4078  4329 D CCodec  :   }
+10-14 17:47:38.261  4078  4329 D CCodec  :   int32_t height = 360
+10-14 17:47:38.261  4078  4329 D CCodec  :   int32_t max-height = 240
+10-14 17:47:38.261  4078  4329 D CCodec  :   int32_t max-width = 320
+10-14 17:47:38.261  4078  4329 D CCodec  :   string mime = "video/raw"
+10-14 17:47:38.261  4078  4329 D CCodec  :   int32_t android._dataspace = 259
+10-14 17:47:38.261  4078  4329 D CCodec  :   int32_t color-format = 2130708361
+10-14 17:47:38.261  4078  4329 D CCodec  : }
+10-14 17:47:38.263  4078  4329 I CCodecConfig: query failed after returning 13 values (BAD_INDEX)
+10-14 17:47:38.263  4078  4329 D CCodecConfig: c2 config diff is   c2::u32 raw.max-size.height = 360
+10-14 17:47:38.263  4078  4329 D CCodecConfig:   c2::u32 raw.max-size.width = 640
+10-14 17:47:38.268   377  4330 I C2GoldfishVpxDec: calling init GoldfishVPX
+10-14 17:47:38.269  4078  4329 W Codec2Client: query -- param skipped: index = 1342179345.
+10-14 17:47:38.269  4078  4329 W Codec2Client: query -- param skipped: index = 2415921170.
+10-14 17:47:38.271  4078  4329 W Codec2Client: query -- param skipped: index = 2684356609.
+10-14 17:47:38.272  4078  4329 D CCodecBufferChannel: [c2.goldfish.vp9.decoder#216] Created input block pool with allocatorID 16 => poolID 18 - OK (0)
+10-14 17:47:38.273  4078  4329 D CCodecBufferChannel: [c2.goldfish.vp9.decoder#216] Query output surface allocator returned 0 params => BAD_INDEX (6)
+10-14 17:47:38.281  4078  4329 I CCodecBufferChannel: [c2.goldfish.vp9.decoder#216] Created output block pool with allocatorID 18 => poolID 24 - OK
+10-14 17:47:38.282  4078  4329 D CCodecBufferChannel: [c2.goldfish.vp9.decoder#216] Configured output block pool ids 24 => OK
+10-14 17:47:38.282  4078  4329 D Codec2-OutputBufferQueue: remote graphic buffer migration 0/0
+10-14 17:47:38.284  4078  4329 D Codec2Client: setOutputSurface -- failed to set consumer usage (6/BAD_INDEX)
+10-14 17:47:38.284  4078  4329 D Codec2Client: setOutputSurface -- generation=4175875 consumer usage=0x900
+10-14 17:47:38.295   377  3228 D C2BqBuffer: local generation change 4175875 , bqId: 17514876633090 migrated buffers # 0
+10-14 17:47:38.296  4078  4329 D Codec2Client: Surface configure completed
+10-14 17:47:38.339   488  2461 W ResourceManagerServiceUtils: Ignoring request to add new resource entry with value <= 0
+10-14 17:47:38.382   377  4330 D SimpleC2Component: Using output block pool with poolID 24 => got 24 - 0
+10-14 17:47:38.383   377  4330 I C2GoldfishVpxDec: created decoder context w 640 h 360
+10-14 17:47:38.480  4078  4329 D CCodecConfig: c2 config diff is   c2::u32 raw.crop.height = 360
+10-14 17:47:38.480  4078  4329 D CCodecConfig:   c2::u32 raw.crop.left = 0
+10-14 17:47:38.480  4078  4329 D CCodecConfig:   c2::u32 raw.crop.top = 0
+10-14 17:47:38.480  4078  4329 D CCodecConfig:   c2::u32 raw.crop.width = 640
+10-14 17:47:38.532  4078  4231 D _native.fixture: PlayerBase::PlayerBase()
+10-14 17:47:38.536  4078  4231 D _native.fixture: TrackPlayerBase::TrackPlayerBase()
+10-14 17:47:38.536  4078  4231 I libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+10-14 17:47:38.548   411   424 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000104) and output flags (00000002)
+10-14 17:47:38.548   411   424 D AudioFlinger: Client defaulted notificationFrames to 960 for frameCount 4360
+10-14 17:47:38.591   411   411 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+10-14 17:47:38.598  4078  4231 E libOpenSLES: Configuration error: unknown key
+10-14 17:47:38.605  4078  4231 W libOpenSLES: Leaving AndroidConfiguration::GetConfiguration (SL_RESULT_PARAMETER_INVALID)
+10-14 17:47:38.606  4078  4333 D _native.fixture: PlayerBase::stop() from IPlayer
+10-14 17:47:38.606  4078  4333 D AudioTrack: stop(23): called with 0 frames delivered
+10-14 17:47:39.012   411   509 D AF::Track: interceptBuffer: took 4840us to intercept 0 tracks
+10-14 17:47:39.216   411   509 D AF::Track: interceptBuffer: took 1259us to intercept 0 tracks
+10-14 17:47:39.218  4078  4098 D EGL_emulation: app_time_stats: avg=64.12ms min=8.41ms max=226.31ms count=18
+10-14 17:47:39.283   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(91)
+10-14 17:47:39.291   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:39.292   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:39.397   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:39.397   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:39.503   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:39.505   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:39.608   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:39.608   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:39.688  4078  4246 D BufferPoolAccessor2.0: bufferpool2 0x7285d1913a68 : 0(0 size) total buffers - 0(0 size) used buffers - 206/211 (recycle/alloc) - 6/384 (fetch/transfer)
+10-14 17:47:39.689  4078  4246 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+10-14 17:47:39.704   411   509 D AF::Track: interceptBuffer: took 1229us to intercept 0 tracks
+10-14 17:47:39.715   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:39.715   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:39.771   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(14)
+10-14 17:47:39.804   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(2)
+10-14 17:47:39.819   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:39.820   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:39.964   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:39.964   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:40.019  4339  4339 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-14 17:47:40.022  4339  4339 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-14 17:47:40.120   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:40.120   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:40.125   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(22)
+10-14 17:47:40.125   152   152 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-14 17:47:40.127  4339  4341 I Gralloc4: mapper 4.x is not supported
+10-14 17:47:40.020     0     0 I servicemanager: Caller(pid=4339,uid=0,sid=u:r:su:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+10-14 17:47:40.207   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(17)
+10-14 17:47:40.227  4078  4098 D EGL_emulation: app_time_stats: avg=40.31ms min=5.55ms max=123.85ms count=24
+10-14 17:47:40.228   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:40.228   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:40.241   545  1461 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-14 17:47:40.242   545  1461 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+10-14 17:47:40.245   545  2664 W JobInfo : Job 'com.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+10-14 17:47:40.253   545   567 I ActivityManager: Broadcast completed: result=0
+10-14 17:47:40.257  1179  1460 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+10-14 17:47:40.279  1179  1460 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+10-14 17:47:40.333   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:40.333   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:40.436   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:40.437   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:40.541   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:40.542   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:40.573   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:40.575   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:40.576   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:40.580   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:40.581   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:40.643   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:40.643   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:40.751   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:40.752   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:40.855   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:40.855   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:40.963   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:40.964   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:41.067   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:41.067   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:41.171   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:41.173   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:41.272  4078  4098 D EGL_emulation: app_time_stats: avg=39.93ms min=19.84ms max=68.23ms count=26
+10-14 17:47:41.276   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:41.278   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:41.380   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:41.381   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:41.484   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:41.485   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:41.588   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:41.588   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:41.607  4347  4347 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-14 17:47:41.608  4347  4347 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-14 17:47:41.685   152   152 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-14 17:47:41.686  4347  4349 I Gralloc4: mapper 4.x is not supported
+10-14 17:47:41.605     0     0 I servicemanager: Caller(pid=4347,uid=0,sid=u:r:su:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+10-14 17:47:41.691   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:41.691   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:41.747   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(31)
+10-14 17:47:41.756   545  2664 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-14 17:47:41.757   545  2664 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+10-14 17:47:41.766   545  1461 W JobInfo : Job 'com.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+10-14 17:47:41.784   545   567 I ActivityManager: Broadcast completed: result=0
+10-14 17:47:41.789  1179  1460 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+10-14 17:47:41.796   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:41.796   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:41.814  1179  1460 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+10-14 17:47:41.857  1179  1190 I FuseDaemon: Background concurrent mark compact GC freed 1708KB AllocSpace bytes, 32(1028KB) LOS objects, 49% free, 2592KB/5184KB, paused 6.579ms,2.065ms total 45.459ms
+10-14 17:47:41.899   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:41.899   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:42.003   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:42.003   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:42.108   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:42.108   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:42.199  4355  4355 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+10-14 17:47:42.211   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:42.212   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:42.215  4355  4355 I AndroidRuntime: Using default boot image
+10-14 17:47:42.215  4355  4355 I AndroidRuntime: Leaving lock profiling enabled
+10-14 17:47:42.220  4355  4355 I app_process: Core platform API reporting enabled, enforcing=false
+10-14 17:47:42.221  4355  4355 I app_process: Using CollectorTypeCMC GC.
+10-14 17:47:42.278  4078  4098 D EGL_emulation: app_time_stats: avg=41.84ms min=15.38ms max=121.14ms count=24
+10-14 17:47:42.316   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:42.316   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:42.426   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:42.426   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:42.529   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:42.530   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:42.631   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:42.631   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:42.647  4355  4355 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+10-14 17:47:42.666  4355  4355 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:42.667  4355  4355 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+10-14 17:47:42.668  4355  4355 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+10-14 17:47:42.670  4355  4355 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:42.671  4355  4355 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+10-14 17:47:42.673  4355  4355 W app_process: Unexpected CPU variant for x86: x86_64.
+10-14 17:47:42.673  4355  4355 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+10-14 17:47:42.677  4355  4355 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+10-14 17:47:42.678  4355  4355 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+10-14 17:47:42.719  4355  4355 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-14 17:47:42.720  4355  4355 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+10-14 17:47:42.726  4355  4355 D UiAutomationConnection: Created on user UserHandle{0}
+10-14 17:47:42.730  4355  4355 I UiAutomation: Initialized for user 0 on display 0
+10-14 17:47:42.731  4355  4355 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+10-14 17:47:42.734   545  1378 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+10-14 17:47:42.735   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:42.735   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:42.737   545  1378 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+10-14 17:47:42.740   545  1378 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:42.746   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:42.746   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:42.748  4355  4367 V UiAutomation: Init UiAutomation@c58d9d[id=56, displayId=0, flags=0]
+10-14 17:47:42.749   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:42.751   545  1378 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:42.752   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:42.764   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:42.765   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:42.770  4078  4093 D EGL_emulation: app_time_stats: avg=6497.33ms min=6497.33ms max=6497.33ms count=1
+10-14 17:47:42.771   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:42.772   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:42.785   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:42.786   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:42.787   545   545 D BatterySaverPolicy: accessibility changed to true, updating policy.
+10-14 17:47:42.839   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:42.839   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:42.943   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:42.943   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:43.052   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:43.052   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:43.156   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:43.156   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:43.259   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:43.262   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:43.300  4078  4098 D EGL_emulation: app_time_stats: avg=40.59ms min=8.94ms max=86.03ms count=25
+10-14 17:47:43.368   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:43.368   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:43.472   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:43.472   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:43.502  4078  4247 D BufferPoolAccessor2.0: bufferpool2 0x7285d1949fe8 : 5(31457280 size) total buffers - 4(25165824 size) used buffers - 111/116 (recycle/alloc) - 5/226 (fetch/transfer)
+10-14 17:47:43.580   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:43.581   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:43.586   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:43.587   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:43.587   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:43.588   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:43.588   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:43.687   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:43.687   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:43.795   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:43.795   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:43.852  4355  4355 W AccessibilityNodeInfoDumper: Fetch time: 36ms
+10-14 17:47:43.866   545  2664 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-14 17:47:43.866   545  2664 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+10-14 17:47:43.869   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:43.869   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:43.872  4355  4355 D AndroidRuntime: Shutting down VM
+10-14 17:47:43.877   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:43.880   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:43.885   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:43.889   545   545 W IPCThreadState: Sending oneway calls to frozen process.
+10-14 17:47:43.892   545   545 D BatterySaverPolicy: accessibility changed to false, updating policy.
+10-14 17:47:43.900   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:43.900   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:43.937  4078  4093 D EGL_emulation: app_time_stats: avg=1166.81ms min=1166.81ms max=1166.81ms count=1
+10-14 17:47:44.004   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:44.005   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:44.111   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:44.112   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:44.216   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:44.216   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:44.319   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:44.320   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:44.333  4078  4098 D EGL_emulation: app_time_stats: avg=39.59ms min=22.88ms max=54.63ms count=26
+10-14 17:47:44.424   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:44.425   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:44.529   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:44.529   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:44.633   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:44.633   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:44.735   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:44.736   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:44.839   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:44.840   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:44.943   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:44.943   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:44.981   411   411 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+10-14 17:47:44.982   545  1461 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+10-14 17:47:44.998  4078  4333 D _native.fixture: PlayerBase::stop() from IPlayer
+10-14 17:47:44.999  4078  4333 D AudioTrack: stop(23): called with 291592 frames delivered
+10-14 17:47:45.020  4078  4328 I CCodecConfig: query failed after returning 13 values (BAD_INDEX)
+10-14 17:47:45.024  4078  4328 W Codec2Client: query -- param skipped: index = 1342179345.
+10-14 17:47:45.024  4078  4328 W Codec2Client: query -- param skipped: index = 2415921170.
+10-14 17:47:45.025  4078  4328 D SurfaceUtils: connecting to surface 0x7286318a2090, reason connectToSurface
+10-14 17:47:45.026  4078  4328 I MediaCodec: [c2.goldfish.vp9.decoder] setting surface generation to 4175876
+10-14 17:47:45.026  4078  4328 D SurfaceUtils: disconnecting from surface 0x7286318a2090, reason connectToSurface(reconnect)
+10-14 17:47:45.026  4078  4328 D SurfaceUtils: connecting to surface 0x7286318a2080, reason connectToSurface(reconnect-with-listener)
+10-14 17:47:45.026  4078  4328 D Codec2-OutputBufferQueue: remote graphic buffer migration 0/0
+10-14 17:47:45.027  4078  4328 D Codec2Client: setOutputSurface -- failed to set consumer usage (6/BAD_INDEX)
+10-14 17:47:45.028  4078  4328 D Codec2Client: setOutputSurface -- generation=4175876 consumer usage=0x900
+10-14 17:47:45.032   377  3228 D C2BqBuffer: local generation change 4175876 , bqId: 17514876633092 migrated buffers # 0
+10-14 17:47:45.033  4078  4328 D Codec2Client: Surface configure completed
+10-14 17:47:45.034  4078  4328 D SurfaceUtils: disconnecting from surface 0x7286318a42a0, reason disconnectFromSurface
+10-14 17:47:45.035  4078  4328 D CCodecBufferChannel: [c2.goldfish.vp9.decoder#216] MediaCodec discarded an unknown buffer
+10-14 17:47:45.036   377  3228 D C2BqBuffer: configuring null producer: igbp_information(0)
+10-14 17:47:45.036  4078  4328 D CCodecBufferChannel: [c2.goldfish.vp9.decoder#216] MediaCodec discarded an unknown buffer
+10-14 17:47:45.037  4078  4328 D CCodecBufferChannel: [c2.goldfish.vp9.decoder#216] MediaCodec discarded an unknown buffer
+10-14 17:47:45.038  4078  4328 D CCodecBufferChannel: [c2.goldfish.vp9.decoder#216] MediaCodec discarded an unknown buffer
+10-14 17:47:45.040   377  4330 I C2GoldfishVpxDec: calling destroying GoldfishVPX ctx 0x7ff082672aa0
+10-14 17:47:45.042  4078  4377 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+10-14 17:47:45.043   377   813 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+10-14 17:47:45.043   377   813 I GoldfishComponentStore: in ~ComponentModule
+10-14 17:47:45.043  4078  4328 D SurfaceUtils: disconnecting from surface 0x7286318a2090, reason disconnectFromSurface
+10-14 17:47:45.044   377   813 I GoldfishComponentStore: unloading dll
+10-14 17:47:45.056   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:45.056   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:45.101   411   509 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+10-14 17:47:45.125   411   509 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+10-14 17:47:45.159   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:45.159   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:45.223   411   509 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+10-14 17:47:45.264   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:45.264   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:45.271  4078  4381 D CCodec  : allocate(c2.goldfish.vp9.decoder)
+10-14 17:47:45.277  4078  4381 I CCodec  : setting up 'default' as default (vendor) store
+10-14 17:47:45.277   377   813 I GoldfishComponentStore: in init
+10-14 17:47:45.277   377   813 I GoldfishComponentStore: loading dll of path libcodec2_goldfish_vp9dec.so
+10-14 17:47:45.277   377   813 I GoldfishComponentStore: Create()
+10-14 17:47:45.278   377   813 I C2GoldfishVpxDec: platform store is 0x7fefa26510a8, reflector is 0x7feef2647b18
+10-14 17:47:45.278   377   813 I GoldfishComponentStore: created interface
+10-14 17:47:45.278   377   813 I GoldfishComponentStore: created component
+10-14 17:47:45.280  4078  4381 I CCodec  : Created component [c2.goldfish.vp9.decoder]
+10-14 17:47:45.281  4078  4381 D CCodecConfig: read media type: video/x-vnd.on2.vp9
+10-14 17:47:45.286  4078  4381 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+10-14 17:47:45.287  4078  4381 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+10-14 17:47:45.287  4078  4381 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+10-14 17:47:45.288  4078  4381 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+10-14 17:47:45.288  4078  4381 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+10-14 17:47:45.288  4078  4381 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+10-14 17:47:45.288  4078  4381 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+10-14 17:47:45.289  4078  4381 D ReflectedParamUpdater: ignored struct field coded.color-format.locations
+10-14 17:47:45.290  4078  4381 D CCodecConfig: ignoring local param raw.size (0xd2001800) as it is already supported
+10-14 17:47:45.290  4078  4381 D CCodecConfig: ignoring local param default.color (0x5200180b) as it is already supported
+10-14 17:47:45.290  4078  4381 D ReflectedParamUpdater: ignored struct field raw.hdr-static-info.mastering
+10-14 17:47:45.291  4078  4381 I CCodecConfig: query failed after returning 13 values (BAD_INDEX)
+10-14 17:47:45.292  4078  4381 D CCodecConfig: c2 config diff is Dict {
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 coded.pl.level = 28680
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 coded.pl.profile = 28672
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 coded.vui.color.matrix = 0
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 coded.vui.color.primaries = 0
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 coded.vui.color.range = 2
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 coded.vui.color.transfer = 0
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 default.color.matrix = 0
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 default.color.primaries = 0
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 default.color.range = 0
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 default.color.transfer = 0
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 6291456
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 input.delay.value = 0
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   Buffer input.hdr10-plus-info.value = {
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   }
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   string input.media-type.value = "video/x-vnd.on2.vp9"
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   Buffer output.hdr10-plus-info.value = {
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   }
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   string output.media-type.value = "video/raw"
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 raw.color.matrix = 0
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 raw.color.primaries = 0
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 raw.color.range = 2
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 raw.color.transfer = 0
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 raw.max-size.height = 240
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 raw.max-size.width = 320
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 raw.pixel-format.value = 35
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::i32 raw.rotation.flip = 0
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::i32 raw.rotation.value = 0
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 raw.sar.height = 1
+10-14 17:47:45.292  4078  4381 D CCodecConfig:   c2::u32 raw.sar.width = 1
+10-14 17:47:45.294  4078  4381 W ColorUtils: expected specified color aspects (2:0:0:0)
+10-14 17:47:45.304  4078  4380 D SurfaceUtils: connecting to surface 0x7286318a42a0, reason connectToSurface
+10-14 17:47:45.304  4078  4380 I MediaCodec: [c2.goldfish.vp9.decoder] setting surface generation to 4175877
+10-14 17:47:45.304  4078  4380 D SurfaceUtils: disconnecting from surface 0x7286318a42a0, reason connectToSurface(reconnect)
+10-14 17:47:45.305  4078  4380 D SurfaceUtils: connecting to surface 0x7286318a4290, reason connectToSurface(reconnect-with-listener)
+10-14 17:47:45.306  4078  4381 D CCodec  : [c2.goldfish.vp9.decoder] buffers are bound to CCodec for this session
+10-14 17:47:45.306  4078  4381 D CCodecConfig: no c2 equivalents for native-window
+10-14 17:47:45.306  4078  4381 D CCodecConfig: no c2 equivalents for native-window-generation
+10-14 17:47:45.306  4078  4381 D CCodecConfig: no c2 equivalents for flags
+10-14 17:47:45.308  4078  4381 D CCodecConfig: config failed => CORRUPTED
+10-14 17:47:45.312  4078  4381 D CCodecConfig: c2 config diff is   c2::u32 raw.size.height = 360
+10-14 17:47:45.312  4078  4381 D CCodecConfig:   c2::u32 raw.size.width = 640
+10-14 17:47:45.313  4078  4381 W Codec2Client: query -- param skipped: index = 1107298332.
+10-14 17:47:45.314  4078  4381 D CCodec  : encoding statistics level = 0
+10-14 17:47:45.317  4078  4381 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+10-14 17:47:45.317  4078  4381 D CCodec  :   int32_t height = 360
+10-14 17:47:45.317  4078  4381 D CCodec  :   int32_t level = 256
+10-14 17:47:45.317  4078  4381 D CCodec  :   int32_t max-input-size = 6291456
+10-14 17:47:45.317  4078  4381 D CCodec  :   string mime = "video/x-vnd.on2.vp9"
+10-14 17:47:45.317  4078  4381 D CCodec  :   int32_t profile = 1
+10-14 17:47:45.317  4078  4381 D CCodec  :   int32_t width = 640
+10-14 17:47:45.317  4078  4381 D CCodec  :   Rect crop(0, 0, 639, 359)
+10-14 17:47:45.317  4078  4381 D CCodec  : }
+10-14 17:47:45.317  4078  4381 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+10-14 17:47:45.317  4078  4381 D CCodec  :   int32_t android._color-format = 2135033992
+10-14 17:47:45.317  4078  4381 D CCodec  :   int32_t android._video-scaling = 1
+10-14 17:47:45.317  4078  4381 D CCodec  :   int32_t rotation-degrees = 0
+10-14 17:47:45.317  4078  4381 D CCodec  :   int32_t color-standard = 4
+10-14 17:47:45.317  4078  4381 D CCodec  :   int32_t color-range = 2
+10-14 17:47:45.317  4078  4381 D CCodec  :   int32_t color-transfer = 3
+10-14 17:47:45.317  4078  4381 D CCodec  :   int32_t sar-height = 1
+10-14 17:47:45.317  4078  4381 D CCodec  :   int32_t sar-width = 1
+10-14 17:47:45.317  4078  4381 D CCodec  :   Rect crop(0, 0, 639, 359)
+10-14 17:47:45.317  4078  4381 D CCodec  :   int32_t width = 640
+10-14 17:47:45.317  4078  4381 D CCodec  :   Buffer hdr10-plus-info = {
+10-14 17:47:45.317  4078  4381 D CCodec  :   }
+10-14 17:47:45.317  4078  4381 D CCodec  :   int32_t height = 360
+10-14 17:47:45.317  4078  4381 D CCodec  :   int32_t max-height = 240
+10-14 17:47:45.317  4078  4381 D CCodec  :   int32_t max-width = 320
+10-14 17:47:45.317  4078  4381 D CCodec  :   string mime = "video/raw"
+10-14 17:47:45.317  4078  4381 D CCodec  :   int32_t android._dataspace = 259
+10-14 17:47:45.317  4078  4381 D CCodec  :   int32_t color-format = 2130708361
+10-14 17:47:45.317  4078  4381 D CCodec  : }
+10-14 17:47:45.318  4078  4381 I CCodecConfig: query failed after returning 13 values (BAD_INDEX)
+10-14 17:47:45.318  4078  4381 D CCodecConfig: c2 config diff is   c2::u32 raw.max-size.height = 360
+10-14 17:47:45.318  4078  4381 D CCodecConfig:   c2::u32 raw.max-size.width = 640
+10-14 17:47:45.319   377  4382 I C2GoldfishVpxDec: calling init GoldfishVPX
+10-14 17:47:45.319  4078  4381 W Codec2Client: query -- param skipped: index = 1342179345.
+10-14 17:47:45.319  4078  4381 W Codec2Client: query -- param skipped: index = 2415921170.
+10-14 17:47:45.319  4078  4381 W Codec2Client: query -- param skipped: index = 2684356609.
+10-14 17:47:45.322  4078  4381 D CCodecBufferChannel: [c2.goldfish.vp9.decoder#364] Created input block pool with allocatorID 16 => poolID 19 - OK (0)
+10-14 17:47:45.322  4078  4381 D CCodecBufferChannel: [c2.goldfish.vp9.decoder#364] Query output surface allocator returned 0 params => BAD_INDEX (6)
+10-14 17:47:45.322  4078  4381 I CCodecBufferChannel: [c2.goldfish.vp9.decoder#364] Created output block pool with allocatorID 18 => poolID 25 - OK
+10-14 17:47:45.323  4078  4381 D CCodecBufferChannel: [c2.goldfish.vp9.decoder#364] Configured output block pool ids 25 => OK
+10-14 17:47:45.323  4078  4381 D Codec2-OutputBufferQueue: remote graphic buffer migration 0/0
+10-14 17:47:45.323  4078  4381 D Codec2Client: setOutputSurface -- failed to set consumer usage (6/BAD_INDEX)
+10-14 17:47:45.323  4078  4381 D Codec2Client: setOutputSurface -- generation=4175877 consumer usage=0x900
+10-14 17:47:45.335   377   813 D C2BqBuffer: local generation change 4175877 , bqId: 17514876633090 migrated buffers # 0
+10-14 17:47:45.336  4078  4381 D Codec2Client: Surface configure completed
+10-14 17:47:45.351   488  2421 W ResourceManagerServiceUtils: Ignoring request to add new resource entry with value <= 0
+10-14 17:47:45.367   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:45.367   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:45.372  4078  4247 D BufferPoolAccessor2.0: bufferpool2 0x7285d1913a68 : 0(0 size) total buffers - 0(0 size) used buffers - 206/211 (recycle/alloc) - 6/384 (fetch/transfer)
+10-14 17:47:45.372  4078  4247 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x7285d1913a68 cached: 0/0M, 0/0% in use; allocs: 211, 98% recycled; transfers: 384, 98% unfetched
+10-14 17:47:45.381   377  4382 D SimpleC2Component: Using output block pool with poolID 25 => got 25 - 0
+10-14 17:47:45.382   377  4382 I C2GoldfishVpxDec: created decoder context w 640 h 360
+10-14 17:47:45.388  4078  4098 D EGL_emulation: app_time_stats: avg=40.21ms min=11.05ms max=74.19ms count=26
+10-14 17:47:45.471   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:45.472   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:45.472  4078  4381 D CCodecConfig: c2 config diff is   c2::u32 raw.crop.height = 360
+10-14 17:47:45.472  4078  4381 D CCodecConfig:   c2::u32 raw.crop.left = 0
+10-14 17:47:45.472  4078  4381 D CCodecConfig:   c2::u32 raw.crop.top = 0
+10-14 17:47:45.472  4078  4381 D CCodecConfig:   c2::u32 raw.crop.width = 640
+10-14 17:47:45.561  4078  4231 D _native.fixture: PlayerBase::PlayerBase()
+10-14 17:47:45.562  4078  4231 D _native.fixture: TrackPlayerBase::TrackPlayerBase()
+10-14 17:47:45.562  4078  4231 I libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+10-14 17:47:45.566   411   423 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000104) and output flags (00000002)
+10-14 17:47:45.569   411   423 D AudioFlinger: Client defaulted notificationFrames to 960 for frameCount 4360
+10-14 17:47:45.575   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:45.575   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:45.608   411   423 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+10-14 17:47:45.616  4078  4385 D _native.fixture: PlayerBase::stop() from IPlayer
+10-14 17:47:45.617  4078  4385 D AudioTrack: stop(24): called with 0 frames delivered
+10-14 17:47:45.620  4078  4231 E libOpenSLES: Configuration error: unknown key
+10-14 17:47:45.621  4078  4231 W libOpenSLES: Leaving AndroidConfiguration::GetConfiguration (SL_RESULT_PARAMETER_INVALID)
+10-14 17:47:45.680   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:45.680   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:45.784   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:45.784   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:45.860   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(22)
+10-14 17:47:45.926   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:45.926   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:46.061   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(35)
+10-14 17:47:46.067   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:46.068   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:46.116   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(18)
+10-14 17:47:46.172   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:46.172   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:46.326   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:46.327   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:46.365  4388  4388 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-14 17:47:46.366  4388  4388 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-14 17:47:46.394   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(25)
+10-14 17:47:46.454   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:46.454   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:46.364     0     0 I servicemanager: Caller(pid=4388,uid=0,sid=u:r:su:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+10-14 17:47:46.464   152   152 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-14 17:47:46.465  4388  4390 I Gralloc4: mapper 4.x is not supported
+10-14 17:47:46.498   411   509 D AudioFlinger: mixer(0x7043ec7e28e0) throttle end: throttle time(11)
+10-14 17:47:46.503  4078  4098 D EGL_emulation: app_time_stats: avg=50.79ms min=4.69ms max=189.72ms count=20
+10-14 17:47:46.541   545  2454 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-14 17:47:46.542   545  2454 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+10-14 17:47:46.545   545  1378 W JobInfo : Job 'com.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+10-14 17:47:46.554   545   567 I ActivityManager: Broadcast completed: result=0
+10-14 17:47:46.561   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:46.561   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:46.561  1179  1460 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+10-14 17:47:46.595   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:46.599   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:46.600  1179  1460 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+10-14 17:47:46.615   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:46.617   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:46.618   545   680 W BestClock: java.time.DateTimeException: Missing network time fix
+10-14 17:47:46.663   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:46.663   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:46.768   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:46.769   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:46.906   354  4324 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-14 17:47:46.906   354  4324 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-14 17:47:46.810     0     0 I logd    : logdr: UID=0 GID=0 PID=4396 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns

@@ -1,0 +1,77 @@
+00:00 +0: loading C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart
+00:00 +0: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:00 +1: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:00 +2: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:00 +3: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:00 +4: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:00 +5: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:00 +6: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:00 +7: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:00 +8: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:00 +9: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:00 +10: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:00 +11: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:00 +12: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:00 +13: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:01 +14: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:01 +15: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:01 +16: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:01 +17: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:01 +18: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:01 +19: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:01 +20: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:01 +21: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:01 +22: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:01 +23: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:01 +24: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:01 +25: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:01 +26: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:01 +27: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:02 +28: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:02 +29: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:02 +30: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:02 +31: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:02 +32: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:02 +33: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:02 +34: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:02 +35: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:02 +36: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/android_phone_widget_test.dart: 320px default stays independent from temporary quality after restart
+00:02 +37: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/diagnostic_export_test.dart: phone export awaits save result and reports success once
+00:02 +38: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/playback_features_test.dart: clear invalidates a pending history resume before it can autoplay
+00:02 +39: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/playback_features_test.dart: clear invalidates a pending history resume before it can autoplay
+00:02 +40: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/playback_features_test.dart: clear invalidates a pending history resume before it can autoplay
+00:02 +41: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:02 +42: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:03 +43: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:03 +44: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:03 +45: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:03 +46: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:03 +47: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:03 +48: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:03 +49: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:03 +50: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:03 +51: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:03 +52: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/player_controls_test.dart: panel changes volume rate FSR fit and opens cache settings
+00:03 +53: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/playback_features_test.dart: TV full HD and4K screens retain readable scale and all pages
+00:04 +54: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/playback_features_test.dart: TV full HD and4K screens retain readable scale and all pages
+00:04 +55: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/playback_features_test.dart: TV full HD and4K screens retain readable scale and all pages
+00:04 +56: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/playback_features_test.dart: TV full HD and4K screens retain readable scale and all pages
+00:04 +57: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/playback_features_test.dart: TV full HD and4K screens retain readable scale and all pages
+00:04 +58: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/playback_features_test.dart: TV full HD and4K screens retain readable scale and all pages
+00:04 +59: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/source_manager_test.dart: all-source and single-source latency jobs show progress and can cancel
+00:04 +60: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/source_manager_test.dart: all-source and single-source latency jobs show progress and can cancel
+00:04 +61: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/source_manager_test.dart: all-source and single-source latency jobs show progress and can cancel
+00:04 +62: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/source_manager_test.dart: all-source and single-source latency jobs show progress and can cancel
+00:04 +63: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/yingxia_widget_test.dart: search progress polls service and chooses tested episode
+00:04 +64: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/yingxia_widget_test.dart: search progress polls service and chooses tested episode
+00:04 +65: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/source_manager_test.dart: custom source edit preserves redacted URL and switches remain manageable
+00:04 +66: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/source_manager_test.dart: custom source edit preserves redacted URL and switches remain manageable
+00:04 +67: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/source_manager_test.dart: custom source edit preserves redacted URL and switches remain manageable
+00:05 +68: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/yingxia_widget_test.dart: phone navigation and all four pages avoid layout overflow
+00:05 +69: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/yingxia_widget_test.dart: phone navigation and all four pages avoid layout overflow
+00:05 +70: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/source_manager_test.dart: phone source add, edit, delete confirmation and update retain management
+00:06 +71: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/source_manager_test.dart: phone source add, edit, delete confirmation and update retain management
+00:06 +72: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/yingxia_widget_test.dart: startup default is off and temporary playback choices do not overwrite it
+00:06 +73: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/yingxia_widget_test.dart: startup default is off and temporary playback choices do not overwrite it
+00:06 +74: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_android_client/test/yingxia_widget_test.dart: developers appear before source settings with exact names and addresses
+00:06 +75: All tests passed!

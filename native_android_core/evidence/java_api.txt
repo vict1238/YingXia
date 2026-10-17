@@ -1,0 +1,9 @@
+Compiled from "Core.java"
+public abstract class core.Core {
+  public static void touch();
+  public static native void awaitStopped();
+  public static native boolean running();
+  public static native java.lang.String start(java.lang.String);
+  public static native void stop();
+  static {};
+}

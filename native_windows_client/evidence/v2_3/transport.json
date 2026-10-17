@@ -1,0 +1,142 @@
+{
+  "created_at": "2026-10-16T04:02:32.814392+00:00",
+  "backend_sha256": "538b24842c69192c10e144f382711802503f7ea242542b6c244466978dfceef4",
+  "isolated_data": true,
+  "real_third_party_media_playback_tested": false,
+  "live_network_scope": "Public Chinese title suggestions only",
+  "checks": [
+    {
+      "name": "Candidate is the production Windows v2.3 backend",
+      "passed": true
+    },
+    {
+      "name": "New playback switches default enabled",
+      "passed": true
+    },
+    {
+      "name": "Relay exposes numeric counters without URLs",
+      "passed": true
+    },
+    {
+      "name": "New private GET routes require a session",
+      "passed": true
+    },
+    {
+      "name": "New private write route retains CSRF",
+      "passed": true
+    },
+    {
+      "name": "Origin and Host checks remain enforced",
+      "passed": true
+    },
+    {
+      "name": "Known title resolves from local pinyin: qingyunian",
+      "passed": true
+    },
+    {
+      "name": "Known title resolves from local pinyin: qyn",
+      "passed": true
+    },
+    {
+      "name": "Known title resolves from local pinyin: qing yu nian",
+      "passed": true
+    },
+    {
+      "name": "Chinese typo offers the real cached title",
+      "passed": true
+    },
+    {
+      "name": "Resume returns the selected episode and saved position",
+      "passed": true
+    },
+    {
+      "name": "Completed episode explicitly restarts the same episode",
+      "passed": true
+    },
+    {
+      "name": "Native progress accepts duration and completed state",
+      "passed": true
+    },
+    {
+      "name": "Invalid progress is rejected",
+      "passed": true
+    },
+    {
+      "name": "Expanded source registry remains present",
+      "passed": true
+    },
+    {
+      "name": "Provider toggle patches retain unrelated switches",
+      "passed": true
+    },
+    {
+      "name": "Custom source editing keeps an omitted endpoint",
+      "passed": true
+    },
+    {
+      "name": "Private network source input remains rejected",
+      "passed": true
+    },
+    {
+      "name": "Custom source removal persists",
+      "passed": true
+    },
+    {
+      "name": "Disabled source-switch setting is enforced",
+      "passed": true
+    },
+    {
+      "name": "Bounded alternative lookup returns no mismatched episode",
+      "passed": true
+    },
+    {
+      "name": "Alternative cancellation route remains available",
+      "passed": true
+    },
+    {
+      "name": "Production client obtains unseen Chinese titles from public suggestions",
+      "passed": true
+    },
+    {
+      "name": "Clear increments generation and stale progress cannot restore resume",
+      "passed": true
+    },
+    {
+      "name": "First candidate backend exits normally",
+      "passed": true
+    },
+    {
+      "name": "Playback settings persist after a production restart",
+      "passed": true
+    },
+    {
+      "name": "History stays cleared and favorites survive restart",
+      "passed": true
+    },
+    {
+      "name": "Provider switches survive production restart",
+      "passed": true
+    },
+    {
+      "name": "Restarted candidate backend exits normally",
+      "passed": true
+    }
+  ],
+  "observations": [
+    {
+      "public_title_query": "xiaozhupeiqi",
+      "scope": "local_and_public_suggestions",
+      "titles": [
+        "小猪佩奇",
+        "小猪佩奇 第3季",
+        "小猪佩奇 第7季 英文版",
+        "小猪佩奇 英文版",
+        "小猪佩奇全集",
+        "小猪佩奇迷你剧"
+      ]
+    }
+  ],
+  "version": "2.3.0-native-windows",
+  "passed": 29,
+  "failed": 0
+}

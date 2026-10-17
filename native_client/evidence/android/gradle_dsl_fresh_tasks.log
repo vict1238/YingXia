@@ -1,0 +1,50 @@
+Initialized native services in: C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\.tools\native\gradle_home_fresh\native
+Initialized jansi services in: C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\.tools\native\gradle_home_fresh\native
+
+Welcome to Gradle 9.3.1!
+
+Here are the highlights of this release:
+ - Test reporting improvements
+ - Error and warning improvements
+ - Build authoring improvements
+
+For more details see https://docs.gradle.org/9.3.1/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.3.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Starting process 'Gradle build daemon'. Working directory: C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\.tools\native\gradle_home_fresh\daemon\9.3.1 Command: C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\.tools\native\jdk\jdk-17.0.20.1+1\bin\java.exe --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.xml/javax.xml.namespace=ALL-UNNAMED --add-opens=java.base/java.time=ALL-UNNAMED -XX:MaxMetaspaceSize=384m -XX:+HeapDumpOnOutOfMemoryError -Xms256m -Xmx512m -Dfile.encoding=windows-1252 -Duser.country=US -Duser.language=en -Duser.variant -cp C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\.tools\native\gradle_home_fresh\wrapper\dists\gradle-9.3.1-bin\30eg2jcb8eqk5ro0gq9h8x6ef\gradle-9.3.1\lib\gradle-daemon-main-9.3.1.jar -javaagent:C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\.tools\native\gradle_home_fresh\wrapper\dists\gradle-9.3.1-bin\30eg2jcb8eqk5ro0gq9h8x6ef\gradle-9.3.1\lib\agents\gradle-instrumentation-agent-9.3.1.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 9.3.1
+Successfully started process 'Gradle build daemon'
+An attempt to start the daemon took 1.397 secs.
+The client will now receive all logging from the daemon (pid: 29904). The daemon log file: C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\.tools\native\gradle_home_fresh\daemon\9.3.1\daemon-29904.out.log
+Daemon will be stopped at the end of the build 
+Using 24 worker leases.
+Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=false, configureOnDemand=false, configurationCache=false, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=false, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+Received JVM installation metadata from 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\.tools\native\jdk\jdk-17.0.20.1+1': {JAVA_HOME=C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\.tools\native\jdk\jdk-17.0.20.1+1, JAVA_VERSION=17.0.20.1, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=17.0.20.1+1, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=17.0.20.1+1, VM_VENDOR=Eclipse Adoptium, OS_ARCH=amd64}
+Watching the file system is configured to be enabled if available
+Now considering [C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\.tools\native\flutter_source\packages\flutter_tools\gradle] as hierarchies to watch
+File system watching is active
+Caching disabled for Groovy DSL script compilation (cp_init) because:
+  Build cache is disabled
+  Not worth caching.
+Compiling initialization script 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\.tools\native\gradle_home_fresh\init.d\primary_maven.gradle' using SubsetScriptTransformer.
+Caching disabled for Groovy DSL script compilation (init) because:
+  Build cache is disabled
+  Not worth caching.
+Compiling initialization script 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\.tools\native\gradle_home_fresh\init.d\primary_maven.gradle' using BuildScriptTransformer.
+Starting Build
+Generating Gradle API jar: C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\.tools\native\gradle_home_fresh\caches\9.3.1\generated-gradle-jars\gradle-api-9.3.1.jar
+Caching disabled for Kotlin DSL script compilation (Settings/TopLevel/stage1) because:
+  Build cache is disabled
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+'void Settings_gradle.<init>(org.gradle.kotlin.dsl.support.KotlinScriptHost, org.gradle.api.initialization.Settings)'
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 42s
+Watched directory hierarchies: []

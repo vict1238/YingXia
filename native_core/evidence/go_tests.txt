@@ -1,0 +1,11 @@
+=== RUN   TestNativePrivateAPIAndClearHistory
+--- PASS: TestNativePrivateAPIAndClearHistory (0.02s)
+=== RUN   TestNativeClearHistoryWriteFailureRollsBack
+--- PASS: TestNativeClearHistoryWriteFailureRollsBack (0.01s)
+=== RUN   TestNativeClearWhileResolveIsPending
+--- PASS: TestNativeClearWhileResolveIsPending (0.02s)
+=== RUN   TestNativeRetiredStoreCannotWrite
+--- PASS: TestNativeRetiredStoreCannotWrite (0.01s)
+=== RUN   TestNativeStaticPlaybackAndDynamicRanking
+--- PASS: TestNativeStaticPlaybackAndDynamicRanking (0.01s)
+PASS

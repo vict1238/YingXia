@@ -1,0 +1,15 @@
+{
+  "sha": "1bcaec8512fde263befaf47432ac59302b56a66d",
+  "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/trees/1bcaec8512fde263befaf47432ac59302b56a66d",
+  "tree": [
+    {
+      "path": "version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fbd0d8610a9722ee768cc6b5fd72694169522ed",
+      "size": 11,
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/blobs/2fbd0d8610a9722ee768cc6b5fd72694169522ed"
+    }
+  ],
+  "truncated": false
+}

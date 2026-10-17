@@ -1,0 +1,74 @@
+{
+  "upstream_repository": "https://github.com/GPUOpen-Effects/FidelityFX-FSR",
+  "upstream_commit": "a21ffb8f6c13233ba336352bdff293894c706575",
+  "license": "MIT",
+  "sources": [
+    {
+      "file": "upstream/ffx_fsr1.h",
+      "sha256": "93c3922362ea7fc99cbcc698ca30c98de4f8c246d1fbb0b09e015ddef38ce3a5"
+    },
+    {
+      "file": "upstream/ffx_a.h",
+      "sha256": "f60e2722fcd13989523b9164d776ab382b3692791767f3bf8bb19967f763f3fb"
+    },
+    {
+      "file": "LICENSE_AMD_FSR1.txt",
+      "sha256": "db089274ce766da70f5b7d791029c3486f9f9e27c8c79c652689603d3192e802"
+    }
+  ],
+  "execution_assets": [
+    {
+      "file": "fsr1_light.glsl",
+      "sha256": "17255b60fbd28b663b5c93f95899fa04362398e8f7c09fe6df8cc5b2fc90fb76"
+    },
+    {
+      "file": "fsr1_enhanced.glsl",
+      "sha256": "e1c4271f8fd90b3f05c2d7dcfad635231b211a3c3b16750c111df010c899b9f7"
+    }
+  ],
+  "original_plugin_version": "media_kit_video 2.0.1",
+  "plugin_patch": [
+    {
+      "file": "vendor/media_kit_video/windows/angle_surface_manager.h",
+      "original_sha256": "3c7f24a94a8f7e8b551877142ea12b92d1543d4f8384370d55c3b5147eefe6ef",
+      "modified_sha256": "fa109a5ef613a49653d84b99a9c5e576200d8446ce8d208b93409553d13517a4"
+    },
+    {
+      "file": "vendor/media_kit_video/windows/angle_surface_manager.cc",
+      "original_sha256": "04eadbea88ce1d825a732c8ea96f9557bb19c275330f4abf7836950e7efd2e2a",
+      "modified_sha256": "adf40ed64ce91b68ce78004b4523a97adfc598e05b4ece536ce39ddf99fac79b"
+    },
+    {
+      "file": "vendor/media_kit_video/windows/video_output.h",
+      "original_sha256": "e276c8b80e9e117d60713b3b25b12ddb0df1878a2c076fe946847ac7eec7c17a",
+      "modified_sha256": "b13e125d0e97fd5849fc8db309550b56adcf5538271db0d5f40fdccb9fcbda77"
+    },
+    {
+      "file": "vendor/media_kit_video/windows/video_output.cc",
+      "original_sha256": "198cb59a97070b61df5ee8ae35ac3e0bc344f3174f6e4aaf7b77e7357d606548",
+      "modified_sha256": "0f169ccb1af47f5a84bbc01380f3c77a2c1bdadeb5f2bcbb3cd5a0d9aa1da4ee"
+    },
+    {
+      "file": "vendor/media_kit_video/windows/video_output_manager.h",
+      "original_sha256": "42228d0f1bb2cb99cf31a3b12422d4246207ad227298c723744a1806f1ebfc65",
+      "modified_sha256": "d2fd814b285db3f089850be3eb12952172a265abb79639ccf3ee2c8df2072a60"
+    },
+    {
+      "file": "vendor/media_kit_video/windows/video_output_manager.cc",
+      "original_sha256": "bfdd46d2bf19094af5b912f6ac922d91f41fd3b3e6202a11a9c2012ce59461be",
+      "modified_sha256": "934493b4c89a09a56021a26e01054f27d893a1e577b069f51dabbd5d5a9efb5d"
+    },
+    {
+      "file": "vendor/media_kit_video/windows/media_kit_video_plugin.cc",
+      "original_sha256": "00ecd361cd61791bf4cb9c6beb84f82614ef5788dcb1ae51e70c66d347a080a0",
+      "modified_sha256": "3060eb0c1602a73775157b892c4feb05576e7f3a4edad482b7db8d705f25caa1"
+    },
+    {
+      "file": "vendor/media_kit_video/lib/src/video_controller/native_video_controller/real.dart",
+      "original_sha256": "575f3430ad78957fa2bdc712ee698756ca0c576c0827618e3ea968f08c87e8ac",
+      "modified_sha256": "3959dde661ca9bdd8002b6a530a3d779bac4f12e71e1c508d7235ded6953d058"
+    }
+  ],
+  "private_gpu_harness": "tools/validate_fsr_shader.py",
+  "gpu_evidence": "evidence/fsr_shader/angle_rgb_validation.json"
+}

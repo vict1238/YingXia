@@ -1,0 +1,40 @@
+{
+  "replay": {
+    "created_at": "2026-10-14T09:43:17Z",
+    "episode": "第01集",
+    "evidence": "browser_time_advanced",
+    "film_id": "vod:wsyzy:OTAwMDI",
+    "id": "e38264155b56b6e562763407a146e7ec",
+    "mode": "media",
+    "position": 0.114,
+    "source": "无损云 / HLS 测试",
+    "title": "原生播放测试 HLS",
+    "updated_at": "2026-10-14T09:43:18Z"
+  },
+  "first": {
+    "created_at": "2026-10-14T09:43:10Z",
+    "episode": "第01集",
+    "evidence": "browser_time_advanced",
+    "film_id": "vod:wsyzy:OTAwMDI",
+    "id": "d515d616f65c7db2710878dfa812b855",
+    "mode": "media",
+    "position": 0.114,
+    "source": "无损云 / HLS 测试",
+    "title": "原生播放测试 HLS",
+    "updated_at": "2026-10-14T09:43:11Z"
+  },
+  "stopCompleted": true,
+  "nextEpisodeCorrect": true,
+  "next": {
+    "created_at": "2026-10-14T09:43:22Z",
+    "episode": "第02集",
+    "evidence": "browser_time_advanced",
+    "film_id": "vod:wsyzy:OTAwMDI",
+    "id": "50e0a130cca66026b03a71e65ef63b2c",
+    "mode": "media",
+    "position": 0.114,
+    "source": "无损云 / HLS 测试",
+    "title": "原生播放测试 HLS",
+    "updated_at": "2026-10-14T09:43:23Z"
+  }
+}

@@ -1,0 +1,21 @@
+evidence/aar_fixture/jni/armeabi-v7a/libgojni.so: go1.27.2
+	path	gobind/gobind
+	mod	gobind	(devel)	
+	dep	github.com/antchfx/htmlquery	v1.3.7	h1:KCUklE1EO/xm6iS3CWx6iatFlcnENBk4I4UYa2pBmLU=
+	dep	github.com/antchfx/xpath	v1.3.9	h1:muXJSod6jRzhsiUjvduNSxsRSptFZ2GOJ1oMD1QkPSA=
+	dep	github.com/golang/groupcache	v0.0.0-20210331224755-41bb18bfe9da	h1:oI5xCqsCo564l8iNU+DwB5epxmsaqB+rhGL0m5jtYqE=
+	dep	github.com/ohler55/ojg	v1.28.7	h1:ZfEYbtiPas8fHzBf+e9bDv+RDKEczfNsXa9Qg38ynio=
+	dep	golang.org/x/mobile	v0.0.0-20261011034528-197770444867	h1:rav73cdd7OQUPgt1aIFbZQTiPNnjfueKXvfOiLCY0Ss=
+	dep	golang.org/x/net	v0.61.0	h1:RR+6j/BTBCrggOLugxa+66R8FvoN6MHlzDlZIbN9YFw=
+	dep	golang.org/x/text	v0.43.0	h1:1QivrlhwAsnMOcqgOdl9my7s9OyZl8O5/UGUTJVXoWc=
+	dep	yingxia.local/nativecore	v0.0.0-00010101000000-000000000000
+	=>	C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_android_core	(devel)	
+	
+	build	-buildmode=c-shared
+	build	-compiler=gc
+	build	-tags=native_fixture
+	build	-trimpath=true
+	build	CGO_ENABLED=1
+	build	GOARCH=arm
+	build	GOOS=android
+	build	GOARM=7

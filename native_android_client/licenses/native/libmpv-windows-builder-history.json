@@ -1,0 +1,82 @@
+{
+  "sha": "f5a6f879c9b8bef6a73e52c8c0f35e51636c96e5",
+  "node_id": "C_kwDOIo1IHNoAKGY1YTZmODc5YzliOGJlZjZhNzNlNTJjOGMwZjM1ZTUxNjM2Yzk2ZTU",
+  "commit": {
+    "author": {
+      "name": "shinchiro",
+      "email": "shinchiro@users.noreply.github.com",
+      "date": "2023-09-24T00:40:32Z"
+    },
+    "committer": {
+      "name": "shinchiro",
+      "email": "shinchiro@users.noreply.github.com",
+      "date": "2023-09-24T00:43:57Z"
+    },
+    "message": "ci: oops",
+    "tree": {
+      "sha": "1427444c818079d0a7788b76167dcb2ad90ed575",
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/trees/1427444c818079d0a7788b76167dcb2ad90ed575"
+    },
+    "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/git/commits/f5a6f879c9b8bef6a73e52c8c0f35e51636c96e5",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/commits/f5a6f879c9b8bef6a73e52c8c0f35e51636c96e5",
+  "html_url": "https://github.com/media-kit/libmpv-win32-video-build/commit/f5a6f879c9b8bef6a73e52c8c0f35e51636c96e5",
+  "comments_url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/commits/f5a6f879c9b8bef6a73e52c8c0f35e51636c96e5/comments",
+  "author": {
+    "login": "shinchiro",
+    "id": 9623615,
+    "node_id": "MDQ6VXNlcjk2MjM2MTU=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/9623615?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/shinchiro",
+    "html_url": "https://github.com/shinchiro",
+    "followers_url": "https://api.github.com/users/shinchiro/followers",
+    "following_url": "https://api.github.com/users/shinchiro/following{/other_user}",
+    "gists_url": "https://api.github.com/users/shinchiro/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/shinchiro/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/shinchiro/subscriptions",
+    "organizations_url": "https://api.github.com/users/shinchiro/orgs",
+    "repos_url": "https://api.github.com/users/shinchiro/repos",
+    "events_url": "https://api.github.com/users/shinchiro/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/shinchiro/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "shinchiro",
+    "id": 9623615,
+    "node_id": "MDQ6VXNlcjk2MjM2MTU=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/9623615?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/shinchiro",
+    "html_url": "https://github.com/shinchiro",
+    "followers_url": "https://api.github.com/users/shinchiro/followers",
+    "following_url": "https://api.github.com/users/shinchiro/following{/other_user}",
+    "gists_url": "https://api.github.com/users/shinchiro/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/shinchiro/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/shinchiro/subscriptions",
+    "organizations_url": "https://api.github.com/users/shinchiro/orgs",
+    "repos_url": "https://api.github.com/users/shinchiro/repos",
+    "events_url": "https://api.github.com/users/shinchiro/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/shinchiro/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "8b2bed8c0404c4fd7aa378c5d527b6842c8c3ebd",
+      "url": "https://api.github.com/repos/media-kit/libmpv-win32-video-build/commits/8b2bed8c0404c4fd7aa378c5d527b6842c8c3ebd",
+      "html_url": "https://github.com/media-kit/libmpv-win32-video-build/commit/8b2bed8c0404c4fd7aa378c5d527b6842c8c3ebd"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "schema": 1,
+  "revision": "20261015",
+  "providers": [
+    {
+      "id": "sheet_c001",
+      "name": "电影天堂资源",
+      "kind": "cms",
+      "url": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c003",
+      "name": "如意资源",
+      "kind": "cms",
+      "url": "https://cj.rycjapi.com/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c004",
+      "name": "暴风资源",
+      "kind": "cms",
+      "url": "https://bfzyapi.com/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c006",
+      "name": "非凡资源 ffzy5.tv",
+      "kind": "cms",
+      "url": "http://ffzy5.tv/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c007",
+      "name": "360资源",
+      "kind": "cms",
+      "url": "https://360zy.com/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c008",
+      "name": "爱奇艺资源",
+      "kind": "cms",
+      "url": "https://www.iqiyizyapi.com/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c010",
+      "name": "极速资源",
+      "kind": "cms",
+      "url": "https://jszyapi.com/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c013",
+      "name": "魔都资源",
+      "kind": "cms",
+      "url": "https://www.mdzyapi.com/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c014",
+      "name": "最大资源",
+      "kind": "cms",
+      "url": "https://api.zuidapi.com/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c018",
+      "name": "iKun资源",
+      "kind": "cms",
+      "url": "https://ikunzyapi.com/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c022",
+      "name": "猫眼资源",
+      "kind": "cms",
+      "url": "https://api.maoyanapi.top/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c024",
+      "name": "360资源 360zyzz.com",
+      "kind": "cms",
+      "url": "https://360zyzz.com/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c025",
+      "name": "非凡资源 ffzyapi.com",
+      "kind": "cms",
+      "url": "https://api.ffzyapi.com/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c026",
+      "name": "新浪资源",
+      "kind": "cms",
+      "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c028",
+      "name": "速播资源",
+      "kind": "cms",
+      "url": "https://subocaiji.com/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c031",
+      "name": "U酷影视",
+      "kind": "cms",
+      "url": "https://api.ukuapi88.com/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c032",
+      "name": "光速资源",
+      "kind": "cms",
+      "url": "https://api.guangsuapi.com/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c033",
+      "name": "红牛资源",
+      "kind": "cms",
+      "url": "https://www.hongniuzy2.com/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c034",
+      "name": "魔都动漫",
+      "kind": "cms",
+      "url": "https://caiji.moduapi.cc/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c035",
+      "name": "豪华资源",
+      "kind": "cms",
+      "url": "https://hhzyapi.com/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c036",
+      "name": "百度云资源",
+      "kind": "cms",
+      "url": "https://api.apibdzy.com/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c037",
+      "name": "艾旦影视",
+      "kind": "cms",
+      "url": "https://lovedan.net/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c042",
+      "name": "非凡资源 cj.ffzyapi.com",
+      "kind": "cms",
+      "url": "http://cj.ffzyapi.com/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c049",
+      "name": "非凡资源 ffzy1.tv",
+      "kind": "cms",
+      "url": "http://ffzy1.tv/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c054",
+      "name": "虎牙采集",
+      "kind": "cms",
+      "url": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_c058",
+      "name": "文才规则目录",
+      "kind": "cms",
+      "url": "https://api.zeqaht.com/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_e006",
+      "name": "非凡资源 ffzy.tv",
+      "kind": "cms",
+      "url": "http://ffzy.tv/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_e023",
+      "name": "最大资源 zuida.xyz",
+      "kind": "cms",
+      "url": "https://zuida.xyz/api.php/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_e031",
+      "name": "金鹰资源",
+      "kind": "cms",
+      "url": "https://jyzyapi.com/provide/vod",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    },
+    {
+      "id": "sheet_e032",
+      "name": "1080资源",
+      "kind": "cms",
+      "url": "https://api.1080zyku.com/inc/apijson.php",
+      "origin": "reviewed_20261015",
+      "enabled": true
+    }
+  ]
+}

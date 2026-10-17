@@ -1,0 +1,13 @@
+{
+  "source_entries": 1076,
+  "private_material_absent": true,
+  "production_aar_only": true,
+  "windows_frozen_snapshot_verified": true,
+  "latest_android_runtime_report_present": true,
+  "script_relative_resources_present": true,
+  "go_license_manifest_present": true,
+  "combined_entries": 215,
+  "three_exact_software_files_verified": true,
+  "both_exact_corresponding_source_archives_verified": true,
+  "archive_file_hashes_verified": true
+}

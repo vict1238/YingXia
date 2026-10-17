@@ -1,0 +1,27 @@
+[
+  {
+    "path": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_android_client\\build\\candidates\\YingXia_v2.2.0_Android.apk",
+    "bytes": 124905502,
+    "sha256": "423289feea2dccb2d9ebd019e73d8a12d3b81b4bb9ba6b1253289ea4e6133e23"
+  },
+  {
+    "path": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_android_client\\build\\candidates\\YingXia_v2.2.0_Android_fixture.apk",
+    "bytes": 132851750,
+    "sha256": "53d0ef1d0af8dec5e8d4ad47beaa63dbb9e15200fb953d06bf8255d080b24076"
+  },
+  {
+    "path": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_android_client\\build\\candidates\\YingXia_v2.2.0_Android_fixture_gpu.apk",
+    "bytes": 132917286,
+    "sha256": "9db41c8728830ac5575d7a89a6f4b37ce8abf0edd8e50215b4ea4ebae2500a06"
+  },
+  {
+    "path": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_android_core\\build\\yingxia_core.aar",
+    "bytes": 11819592,
+    "sha256": "1cc925bb13eb46fd5aeb8078504e24f579fc06bfe4941a568df8486f82a448b2"
+  },
+  {
+    "path": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_android_core\\build\\yingxia_core_fixture.aar",
+    "bytes": 19385117,
+    "sha256": "8755f6274120e9ee6d234a50405412b4830bba2186ce47ec264d8e9c7cbcb297"
+  }
+]

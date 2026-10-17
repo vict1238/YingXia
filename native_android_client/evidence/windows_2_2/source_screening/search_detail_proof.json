@@ -1,0 +1,2165 @@
+[
+  {
+    "record_id": "C001",
+    "name": "电影天堂资源 / 电影天堂",
+    "endpoint": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:25.249747+00:00",
+      "status": 200,
+      "bytes": 5272,
+      "sha256": "6fda8ff6bdb8cf6db55ff2d53797ebd02429aec7ececf3f706a78ac536de4eba",
+      "elapsed_ms": 409,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:25.658946+00:00",
+      "status": 200,
+      "bytes": 5270,
+      "sha256": "7ec3b6ea75d329dbe4b58998720ca767e723192fde50ec3ad9920a7c79ddb094",
+      "elapsed_ms": 220,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:25.878978+00:00",
+      "status": 403,
+      "bytes": 408,
+      "sha256": "c45672a8dd307ac9e9b3d1ba83cb909a538fdc22e21665e5b6061e8796309ad1",
+      "elapsed_ms": 1371,
+      "content_type": "text/html; charset=utf-8",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C003",
+    "name": "如意资源",
+    "endpoint": "https://cj.rycjapi.com/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:25.249747+00:00",
+      "status": 200,
+      "bytes": 5335,
+      "sha256": "c0c72d99e43b61d6a1243cd8e7f340eba2c197e2ce6d02dabdb9cffa9fbf6650",
+      "elapsed_ms": 1175,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:26.424959+00:00",
+      "status": 200,
+      "bytes": 5335,
+      "sha256": "c0c72d99e43b61d6a1243cd8e7f340eba2c197e2ce6d02dabdb9cffa9fbf6650",
+      "elapsed_ms": 2523,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:28.947490+00:00",
+      "status": 200,
+      "bytes": 96,
+      "sha256": "8dcb4487f749170253b047ccb7bccf0c27840bbec81dc084d77687efcdd9b105",
+      "elapsed_ms": 389,
+      "content_type": "application/vnd.apple.mpegurl",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C004",
+    "name": "暴风资源",
+    "endpoint": "https://bfzyapi.com/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:25.250775+00:00",
+      "status": 200,
+      "bytes": 3683,
+      "sha256": "ca6496ef771a2f6f80967314c101ab15e8a127ec4fa2bf0413151c8cb2c1cc49",
+      "elapsed_ms": 667,
+      "content_type": "application/json",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:25.915926+00:00",
+      "status": 200,
+      "bytes": 3159,
+      "sha256": "fb1c67400355eb0afbce13e70ff687c445b894c8a3cf947dd3bf2bc063171032",
+      "elapsed_ms": 620,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:26.537362+00:00",
+      "status": 200,
+      "bytes": 14077,
+      "sha256": "5a7cc16efd0e7593198754e51e7afe59dc7378498efaee7def5a5c8a8d58e40c",
+      "elapsed_ms": 830,
+      "content_type": "application/vnd.apple.mpegurl",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C005",
+    "name": "天涯资源",
+    "endpoint": "https://tyyszy.com/api.php/provide/vod",
+    "compatible_search_detail": false,
+    "search": {
+      "checked_at": "2026-10-15T03:51:25.250775+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "168b027be8853eafa163f162fb3b74febab24bc9a82a979359aec52d371ebab6",
+      "elapsed_ms": 964,
+      "content_type": "text/html;charset=utf-8",
+      "json": false,
+      "valid_items": 0,
+      "matched_sample_id": false
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:26.214765+00:00",
+      "status": 200,
+      "bytes": 1776,
+      "sha256": "8825f8cbecbcf93ef0933a93106216a2e886ca38c40986cc6707e1b898eab867",
+      "elapsed_ms": 487,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:26.701257+00:00",
+      "elapsed_ms": 356,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C006",
+    "name": "非凡影视",
+    "endpoint": "http://ffzy5.tv/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:25.250775+00:00",
+      "status": 200,
+      "bytes": 5636,
+      "sha256": "42ea14b7cd778424de297e3d205065076d0426eae02c7711546c6c980f38532a",
+      "elapsed_ms": 716,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:25.966783+00:00",
+      "status": 200,
+      "bytes": 5634,
+      "sha256": "e0065c94e70e01201af6c53dafc0240ec7afd8aaadb7381a1d73f7fca944b69a",
+      "elapsed_ms": 218,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:26.185636+00:00",
+      "status": 403,
+      "bytes": 407,
+      "sha256": "334e4bad3c41235ae749d687d7a528f0f638893f9fc7ded315cb4df3d8434ea6",
+      "elapsed_ms": 1526,
+      "content_type": "text/html; charset=utf-8",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C007",
+    "name": "360资源",
+    "endpoint": "https://360zy.com/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:25.251757+00:00",
+      "status": 200,
+      "bytes": 1792,
+      "sha256": "37b771b5f7df1d982ae7d030c698c48d6c6cec49060a67d2320691a006cb2fbe",
+      "elapsed_ms": 2446,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:27.697780+00:00",
+      "status": 200,
+      "bytes": 1790,
+      "sha256": "eb3f3f827daec5f09301589f1875900fed59ebe5655c732ce0bdce93748e9c80",
+      "elapsed_ms": 1710,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:29.408148+00:00",
+      "status": 200,
+      "bytes": 118,
+      "sha256": "0828ad9c8945b7e616087234bd589b99dcb113311a7a2147eb454aaeeba780f5",
+      "elapsed_ms": 358,
+      "content_type": "application/vnd.apple.mpegURL",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C008",
+    "name": "iqiyi资源",
+    "endpoint": "https://www.iqiyizyapi.com/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:25.253275+00:00",
+      "status": 200,
+      "bytes": 3174,
+      "sha256": "7e7275ac0739b23b48bac7a5bb7d8200de811d99346c1b0eea92f6d9fdf2b8bd",
+      "elapsed_ms": 2648,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:27.901310+00:00",
+      "status": 200,
+      "bytes": 3172,
+      "sha256": "79c7a402bff19b83bdb236e40b8b27968dfd953f9af032178f3df1f3abfcf0a5",
+      "elapsed_ms": 1679,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:29.580456+00:00",
+      "status": 200,
+      "bytes": 24876,
+      "sha256": "7348783e7ed6122cf20bac4aa6ccfbbbb82dc800811e0ec540dc5f219a499839",
+      "elapsed_ms": 1284,
+      "content_type": "application/vnd.apple.mpegurl; charset=utf-8",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C010",
+    "name": "极速资源",
+    "endpoint": "https://jszyapi.com/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:25.253275+00:00",
+      "status": 200,
+      "bytes": 3557,
+      "sha256": "e94d4d45353adf61b58984bfe0a03f367b1e541a6ec4593090077d521471f528",
+      "elapsed_ms": 859,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:26.112912+00:00",
+      "status": 200,
+      "bytes": 3555,
+      "sha256": "a32414cb7ca4aab6ec5dc3b4e96e4b36070996b682ae2725fc0dc4c595d34075",
+      "elapsed_ms": 450,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:26.563063+00:00",
+      "elapsed_ms": 194,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C011",
+    "name": "豆瓣资源",
+    "endpoint": "https://dbzy.tv/api.php/provide/vod",
+    "compatible_search_detail": false,
+    "search": {
+      "checked_at": "2026-10-15T03:51:25.253275+00:00",
+      "status": 200,
+      "bytes": 57,
+      "sha256": "856f65f15aa48d915b15e3a30f6a0b9ace0c29eb27685318f8782450f6994b95",
+      "elapsed_ms": 898,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 0,
+      "matched_sample_id": false
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:26.151672+00:00",
+      "status": 200,
+      "bytes": 29379,
+      "sha256": "385eb003c293dcb4cc668a5159e3959399129f58c394988fea713c6961f154fb",
+      "elapsed_ms": 1149,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:27.301674+00:00",
+      "status": 404,
+      "bytes": 14,
+      "sha256": "affcf4c8d293c17fcb845deb7f4bb1aff6697426d75bf28a2bf7403067646673",
+      "elapsed_ms": 893,
+      "content_type": "",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C013",
+    "name": "魔都资源",
+    "endpoint": "https://www.mdzyapi.com/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:25.253275+00:00",
+      "status": 200,
+      "bytes": 4968,
+      "sha256": "95c4a9efa76da336aaa0da2ce3a82a187291af44bf585a19a0917c5ddb118c7f",
+      "elapsed_ms": 675,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:25.929219+00:00",
+      "status": 200,
+      "bytes": 4966,
+      "sha256": "ebd91ec66381fa2b8d3194de90c502311c1987edc2c28ebf44c0f4696664094c",
+      "elapsed_ms": 509,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:26.438291+00:00",
+      "status": 200,
+      "bytes": 119,
+      "sha256": "d39e23979cad5833716b694fb0539b95d0913568db46c7ddb50bf14d8708a74f",
+      "elapsed_ms": 599,
+      "content_type": "application/vnd.apple.mpegURL",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C014",
+    "name": "最大资源",
+    "endpoint": "https://api.zuidapi.com/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:25.255278+00:00",
+      "status": 200,
+      "bytes": 1764,
+      "sha256": "aca2f73988fd6adafa8f968d5a22f6d4c67c24b06a98c98ea007be88c0e314cb",
+      "elapsed_ms": 582,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:25.837354+00:00",
+      "status": 200,
+      "bytes": 1762,
+      "sha256": "c6e48661079211df9df111cf01642fa4eb33c3c7beffe05eae8d6f7fb783a31d",
+      "elapsed_ms": 503,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:26.339981+00:00",
+      "status": 403,
+      "bytes": 150,
+      "sha256": "32cbc376cd769a26d108ae31678f975b863b7066e110c59d9a212c7281bd8c81",
+      "elapsed_ms": 517,
+      "content_type": "text/html",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C015",
+    "name": "樱花资源",
+    "endpoint": "https://m3u8.apiyhzy.com/api.php/provide/vod",
+    "compatible_search_detail": false,
+    "search": {
+      "checked_at": "2026-10-15T03:51:25.255278+00:00",
+      "status": 403,
+      "bytes": 513,
+      "sha256": "708e1b8f74d669d075b272d5014e10550a44ab1f79c9d147702336f1a6be710d",
+      "elapsed_ms": 742,
+      "content_type": "text/html",
+      "json": false,
+      "valid_items": 0,
+      "matched_sample_id": false
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:25.997681+00:00",
+      "status": 200,
+      "bytes": 3129,
+      "sha256": "dcc3cf5b44e9095d3230c139d1e6c1f5624615746c5a40eb2ba600cd1bcdd7c0",
+      "elapsed_ms": 600,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:26.597018+00:00",
+      "elapsed_ms": 1064,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C018",
+    "name": "iKun资源",
+    "endpoint": "https://ikunzyapi.com/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:25.255278+00:00",
+      "status": 200,
+      "bytes": 2777,
+      "sha256": "21c0fd62de3311ddfaef5282ef656e9da4361aef96680a90899113fdb000f3f0",
+      "elapsed_ms": 1546,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:26.801238+00:00",
+      "status": 200,
+      "bytes": 2775,
+      "sha256": "212796d6818ed101f9436413691c13296652a707bf2b876cf2d59a81a2468b3d",
+      "elapsed_ms": 403,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:27.203984+00:00",
+      "status": 200,
+      "bytes": 119,
+      "sha256": "64588719ba21f75d76b76830a77162f1e07b216a45e4a389ad4bd26d4524c0a6",
+      "elapsed_ms": 532,
+      "content_type": "application/vnd.apple.mpegURL",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C020",
+    "name": "豆瓣资源",
+    "endpoint": "https://caiji.dbzy5.com/api.php/provide/vod",
+    "compatible_search_detail": false,
+    "search": {
+      "checked_at": "2026-10-15T03:51:25.256272+00:00",
+      "status": 200,
+      "bytes": 57,
+      "sha256": "856f65f15aa48d915b15e3a30f6a0b9ace0c29eb27685318f8782450f6994b95",
+      "elapsed_ms": 908,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 0,
+      "matched_sample_id": false
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:26.163943+00:00",
+      "status": 200,
+      "bytes": 29379,
+      "sha256": "385eb003c293dcb4cc668a5159e3959399129f58c394988fea713c6961f154fb",
+      "elapsed_ms": 1217,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:27.380736+00:00",
+      "status": 404,
+      "bytes": 14,
+      "sha256": "affcf4c8d293c17fcb845deb7f4bb1aff6697426d75bf28a2bf7403067646673",
+      "elapsed_ms": 814,
+      "content_type": "",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C021",
+    "name": "茅台资源",
+    "endpoint": "https://caiji.maotaizy.cc/api.php/provide/vod",
+    "compatible_search_detail": false,
+    "search": {
+      "checked_at": "2026-10-15T03:51:25.257273+00:00",
+      "status": 200,
+      "bytes": 57,
+      "sha256": "856f65f15aa48d915b15e3a30f6a0b9ace0c29eb27685318f8782450f6994b95",
+      "elapsed_ms": 1248,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 0,
+      "matched_sample_id": false
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:26.504523+00:00",
+      "status": 200,
+      "bytes": 3421,
+      "sha256": "04eef29a130b5b7427faf15fa7d5c1027cef3a8b288140b860ccbcceed8c73df",
+      "elapsed_ms": 1058,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:27.562697+00:00",
+      "status": 200,
+      "bytes": 118,
+      "sha256": "8fd475c4445aeaa21a60ce19c22a24fc5a24997453ab97d7335afb7d57c58905",
+      "elapsed_ms": 1540,
+      "content_type": "application/vnd.apple.mpegURL",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C022",
+    "name": "猫眼资源",
+    "endpoint": "https://api.maoyanapi.top/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:25.258273+00:00",
+      "status": 200,
+      "bytes": 3366,
+      "sha256": "7c980175fcddf88a6c4cf61fabce7779149e5d8ba8134866e170668c00206aa2",
+      "elapsed_ms": 1328,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:26.586556+00:00",
+      "status": 200,
+      "bytes": 3366,
+      "sha256": "7c980175fcddf88a6c4cf61fabce7779149e5d8ba8134866e170668c00206aa2",
+      "elapsed_ms": 828,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:27.414298+00:00",
+      "status": 200,
+      "bytes": 115,
+      "sha256": "84b55a20edaae80552126b430b9166d274f35792c4a8320911b76f000b1fceb3",
+      "elapsed_ms": 872,
+      "content_type": "application/vnd.apple.mpegURL",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C023",
+    "name": "量子资源",
+    "endpoint": "https://cj.lzcaiji.com/api.php/provide/vod",
+    "compatible_search_detail": false,
+    "search": {
+      "checked_at": "2026-10-15T03:51:25.259272+00:00",
+      "status": 200,
+      "bytes": 85,
+      "sha256": "1b8fc766617f0589c7833652711855e807ae088091bbf0ef5d1b6a2ab4d6dca7",
+      "elapsed_ms": 1007,
+      "content_type": "application/json",
+      "json": true,
+      "valid_items": 0,
+      "matched_sample_id": false
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:26.265977+00:00",
+      "status": 200,
+      "bytes": 1958,
+      "sha256": "2d9ccd7ed3b3f5be9e5ba4dc780b5ce0493e62ace08447738f78a95c089c7f43",
+      "elapsed_ms": 489,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:26.755338+00:00",
+      "status": 404,
+      "bytes": 882,
+      "sha256": "33712f0f3cd1ced7dbacba2fc9c3b7be9f3142c9beb3b6005b7f20b2719a5dec",
+      "elapsed_ms": 869,
+      "content_type": "text/html; charset=utf-8",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C024",
+    "name": "360资源",
+    "endpoint": "https://360zyzz.com/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:25.260274+00:00",
+      "status": 200,
+      "bytes": 1793,
+      "sha256": "6137e613e1a4b2153878dcc89863ac5b5b916add1ee384979103371309729ec1",
+      "elapsed_ms": 1383,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:26.643018+00:00",
+      "status": 200,
+      "bytes": 1791,
+      "sha256": "d69ebc3b1135028aea6fdf7d7ff42b19e597ea7c9a47069a8f6b4007d98d33e9",
+      "elapsed_ms": 428,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:27.070955+00:00",
+      "status": 200,
+      "bytes": 118,
+      "sha256": "cadc3bf75d77b07f48590b2880c3717cd05f2e38271b1a682e7a91a89cac0ddd",
+      "elapsed_ms": 553,
+      "content_type": "application/vnd.apple.mpegURL",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C025",
+    "name": "非凡资源",
+    "endpoint": "https://api.ffzyapi.com/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:26.757023+00:00",
+      "status": 200,
+      "bytes": 5636,
+      "sha256": "42ea14b7cd778424de297e3d205065076d0426eae02c7711546c6c980f38532a",
+      "elapsed_ms": 403,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:27.160365+00:00",
+      "status": 200,
+      "bytes": 5634,
+      "sha256": "e0065c94e70e01201af6c53dafc0240ec7afd8aaadb7381a1d73f7fca944b69a",
+      "elapsed_ms": 382,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:27.542672+00:00",
+      "status": 403,
+      "bytes": 407,
+      "sha256": "e2ab635b3481c76cadd72035d0653b8f232b19df8c44cb1b8721f953696bca80",
+      "elapsed_ms": 1583,
+      "content_type": "text/html; charset=utf-8",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C026",
+    "name": "新浪资源",
+    "endpoint": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:26.856922+00:00",
+      "status": 200,
+      "bytes": 3583,
+      "sha256": "fd9d5f6b8e9b6be2e6b5eaf9e72eae659f765bb06eab16d2f7cadf1e73048651",
+      "elapsed_ms": 790,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:27.647363+00:00",
+      "status": 200,
+      "bytes": 3581,
+      "sha256": "b85130da0c058040defb15009a367fc761336c2ea9ebf74d895ea140ed0e1789",
+      "elapsed_ms": 1045,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:28.693051+00:00",
+      "status": 200,
+      "bytes": 26802,
+      "sha256": "9e86516513cf1bb162d646a4c19cc7ee45cfbc44181431a5aa7ff984634030cc",
+      "elapsed_ms": 656,
+      "content_type": "application/vnd.apple.mpegurl",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C028",
+    "name": "速播资源",
+    "endpoint": "https://subocaiji.com/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:27.037282+00:00",
+      "status": 200,
+      "bytes": 3590,
+      "sha256": "60b1140d37d209ce9fafe22a512a975479b78706bd6f06a33f33369a349b302e",
+      "elapsed_ms": 699,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:27.736452+00:00",
+      "status": 200,
+      "bytes": 3588,
+      "sha256": "c5a91e8d0f123184446935d37d452b60b910d0c7b22474ede89088828e2fc97e",
+      "elapsed_ms": 742,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:28.478893+00:00",
+      "status": 200,
+      "bytes": 26802,
+      "sha256": "9e86516513cf1bb162d646a4c19cc7ee45cfbc44181431a5aa7ff984634030cc",
+      "elapsed_ms": 503,
+      "content_type": "application/vnd.apple.mpegurl",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C029",
+    "name": "金鹰点播",
+    "endpoint": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:27.057821+00:00",
+      "status": 200,
+      "bytes": 2745,
+      "sha256": "21e5b909e290a48b43218a808433a646fad80bd96d5ddbcfb965fb45d3a0be17",
+      "elapsed_ms": 665,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:27.723156+00:00",
+      "status": 200,
+      "bytes": 2743,
+      "sha256": "b071755b4d608b6b0489d04f0cd2b28452df251eca5fde40b28dca993b1a91c7",
+      "elapsed_ms": 779,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C031",
+    "name": "U酷影视",
+    "endpoint": "https://api.ukuapi88.com/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:27.249810+00:00",
+      "status": 200,
+      "bytes": 3125,
+      "sha256": "9de23b4ca55d9538f9c736723bc37f64e19c3adbaf958b5018a4ea9761f5aefe",
+      "elapsed_ms": 1973,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:29.222361+00:00",
+      "status": 200,
+      "bytes": 3123,
+      "sha256": "e789567e0df593958bb86b6887c2d18409661cd2dffdf0433205cdb9981361ad",
+      "elapsed_ms": 379,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:29.601912+00:00",
+      "status": 403,
+      "bytes": 407,
+      "sha256": "95adb96518d295c8fb9186d9e1d132fd44bb9d935ee396b4739594fbf7c294a6",
+      "elapsed_ms": 1616,
+      "content_type": "text/html; charset=utf-8",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C032",
+    "name": "光速资源",
+    "endpoint": "https://api.guangsuapi.com/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:27.367702+00:00",
+      "status": 200,
+      "bytes": 3484,
+      "sha256": "8a67fc89979ea0149bbbf249b19fd78abd51321570ed7b1cd2ae8e5fd7607d6a",
+      "elapsed_ms": 588,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:27.955431+00:00",
+      "status": 200,
+      "bytes": 3482,
+      "sha256": "b0ff7ee636e3f1cd93671ceb8afed446ab8cd8bb61477e4b24a4a2295246390b",
+      "elapsed_ms": 703,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:28.657874+00:00",
+      "status": 200,
+      "bytes": 108,
+      "sha256": "2c19338d206c5abe978f71924a04f861ae768b81049c9b5e35a6fbe9abdce1e7",
+      "elapsed_ms": 488,
+      "content_type": "application/vnd.apple.mpegurl",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C033",
+    "name": "红牛资源",
+    "endpoint": "https://www.hongniuzy2.com/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:27.624685+00:00",
+      "status": 200,
+      "bytes": 14278,
+      "sha256": "2b594b604fc53fbaf3bae5508dd09a97411073a85cb9dbddcac72338dba69e7d",
+      "elapsed_ms": 878,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 8,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:28.502771+00:00",
+      "status": 200,
+      "bytes": 1846,
+      "sha256": "112ff576d6c02e5433082150ecdcfa7e7275e4b2ffb3c134a5b12176276207a6",
+      "elapsed_ms": 694,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:29.196678+00:00",
+      "status": 200,
+      "bytes": 95840,
+      "sha256": "d59dde1aa843ec3bc06036f5821dfc018515f65c05f865651b26f70f36c3a571",
+      "elapsed_ms": 118,
+      "content_type": "application/vnd.apple.mpegurl",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C034",
+    "name": "魔都动漫",
+    "endpoint": "https://caiji.moduapi.cc/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:27.624685+00:00",
+      "status": 200,
+      "bytes": 4968,
+      "sha256": "0e7f18a74ccba97ba3436e0a446dcacb1887214a2b19fe304097e681ce37665f",
+      "elapsed_ms": 806,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:28.429613+00:00",
+      "status": 200,
+      "bytes": 4966,
+      "sha256": "bfcd4fa1c8ca6577fa244c285d71f559e9548374433c6b71bae15db26dbd5ad1",
+      "elapsed_ms": 824,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:29.254612+00:00",
+      "status": 200,
+      "bytes": 119,
+      "sha256": "d39e23979cad5833716b694fb0539b95d0913568db46c7ddb50bf14d8708a74f",
+      "elapsed_ms": 592,
+      "content_type": "application/vnd.apple.mpegURL",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C035",
+    "name": "豪华资源 / 火狐资源",
+    "endpoint": "https://hhzyapi.com/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:27.661544+00:00",
+      "status": 200,
+      "bytes": 3556,
+      "sha256": "f28bd659e32a23f59deb7382c8594af84bb636f301691f245b14a1266ebce2bd",
+      "elapsed_ms": 1032,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:28.693643+00:00",
+      "status": 200,
+      "bytes": 3554,
+      "sha256": "6ac96bffb2948de4802e704f870d7f6b00e5009449117e489d63bf2c9ff6d573",
+      "elapsed_ms": 617,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:29.311075+00:00",
+      "status": 200,
+      "bytes": 27470,
+      "sha256": "1410f8cac57abb1adf3da2950e50b15959b606427f8fcdaacca9a9647f9c9ae6",
+      "elapsed_ms": 663,
+      "content_type": "application/vnd.apple.mpegurl",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C036",
+    "name": "百度云资源",
+    "endpoint": "https://api.apibdzy.com/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:27.710832+00:00",
+      "status": 200,
+      "bytes": 1817,
+      "sha256": "4ccd9505f2ceeecbf7114e32c577a88e86c229c775f0710d02b7cf91ebe5c8e5",
+      "elapsed_ms": 1317,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:29.027669+00:00",
+      "status": 200,
+      "bytes": 1815,
+      "sha256": "6562a8b7ed15d35e1f1b63d5f1a41003e76ef7bb3afa599655698049ab071a92",
+      "elapsed_ms": 474,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:29.502397+00:00",
+      "status": 403,
+      "bytes": 420,
+      "sha256": "3df288209ead1cfbce4fa620dee77f49b992d39348f3a5ca78ff42f119c8ee2a",
+      "elapsed_ms": 1362,
+      "content_type": "text/html; charset=utf-8",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C037",
+    "name": "艾旦影视",
+    "endpoint": "https://lovedan.net/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:27.736452+00:00",
+      "status": 200,
+      "bytes": 6653,
+      "sha256": "0d0498c5244ee4fd31de6995879fa7c94cfa506f4ab1926f00f45ecf09d847d9",
+      "elapsed_ms": 2965,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:30.701561+00:00",
+      "status": 200,
+      "bytes": 6651,
+      "sha256": "66bf9fea68b147576cdcdf97cf37f88ffacf0b9118d19badf1aa0287d4db8f65",
+      "elapsed_ms": 818,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:31.519376+00:00",
+      "status": 200,
+      "bytes": 23691,
+      "sha256": "3d1534eaa0838ee11973d2a0546c0afc8c38ca6da28031fa482ed50b0607c1ec",
+      "elapsed_ms": 120,
+      "content_type": "application/vnd.apple.mpegurl",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C039",
+    "name": "索尼资源",
+    "endpoint": "https://suoniapi.com/api.php/provide/vod",
+    "compatible_search_detail": false,
+    "search": {
+      "checked_at": "2026-10-15T03:51:28.194330+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "168b027be8853eafa163f162fb3b74febab24bc9a82a979359aec52d371ebab6",
+      "elapsed_ms": 486,
+      "content_type": "text/html;charset=utf-8",
+      "json": false,
+      "valid_items": 0,
+      "matched_sample_id": false
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:28.680171+00:00",
+      "status": 200,
+      "bytes": 4155,
+      "sha256": "7656a4c28886c1356c303601fbbf443133e7bee97e652a355f9309241ec1fca4",
+      "elapsed_ms": 488,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:29.168178+00:00",
+      "status": 403,
+      "bytes": 150,
+      "sha256": "32cbc376cd769a26d108ae31678f975b863b7066e110c59d9a212c7281bd8c81",
+      "elapsed_ms": 538,
+      "content_type": "text/html",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C041",
+    "name": "量子资源",
+    "endpoint": "https://cj.lziapi.com/api.php/provide/vod",
+    "compatible_search_detail": false,
+    "search": {
+      "checked_at": "2026-10-15T03:51:28.194330+00:00",
+      "status": 200,
+      "bytes": 85,
+      "sha256": "1b8fc766617f0589c7833652711855e807ae088091bbf0ef5d1b6a2ab4d6dca7",
+      "elapsed_ms": 400,
+      "content_type": "application/json",
+      "json": true,
+      "valid_items": 0,
+      "matched_sample_id": false
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:28.594152+00:00",
+      "status": 200,
+      "bytes": 1958,
+      "sha256": "2d9ccd7ed3b3f5be9e5ba4dc780b5ce0493e62ace08447738f78a95c089c7f43",
+      "elapsed_ms": 375,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:28.968936+00:00",
+      "status": 404,
+      "bytes": 882,
+      "sha256": "33712f0f3cd1ced7dbacba2fc9c3b7be9f3142c9beb3b6005b7f20b2719a5dec",
+      "elapsed_ms": 771,
+      "content_type": "text/html; charset=utf-8",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C042",
+    "name": "非凡资源",
+    "endpoint": "http://cj.ffzyapi.com/api.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:28.285356+00:00",
+      "status": 200,
+      "bytes": 5636,
+      "sha256": "42ea14b7cd778424de297e3d205065076d0426eae02c7711546c6c980f38532a",
+      "elapsed_ms": 194,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:28.479397+00:00",
+      "status": 200,
+      "bytes": 5634,
+      "sha256": "e0065c94e70e01201af6c53dafc0240ec7afd8aaadb7381a1d73f7fca944b69a",
+      "elapsed_ms": 237,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:28.715963+00:00",
+      "status": 403,
+      "bytes": 407,
+      "sha256": "ba338403c6c1b28037621b19379d72ef04e5d244396ae00801f9c88f5ef03d7d",
+      "elapsed_ms": 1357,
+      "content_type": "text/html; charset=utf-8",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C049",
+    "name": "非凡资源",
+    "endpoint": "http://ffzy1.tv/api.php/provide/vod/",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:28.501770+00:00",
+      "status": 200,
+      "bytes": 5636,
+      "sha256": "42ea14b7cd778424de297e3d205065076d0426eae02c7711546c6c980f38532a",
+      "elapsed_ms": 643,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:29.145356+00:00",
+      "status": 200,
+      "bytes": 5634,
+      "sha256": "e0065c94e70e01201af6c53dafc0240ec7afd8aaadb7381a1d73f7fca944b69a",
+      "elapsed_ms": 793,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:29.938740+00:00",
+      "status": 403,
+      "bytes": 407,
+      "sha256": "016a347bbc323f8fe469205da81a55abfe88c74d73e4d8a361f4fe623e512b35",
+      "elapsed_ms": 1493,
+      "content_type": "text/html; charset=utf-8",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C050",
+    "name": "量子资源",
+    "endpoint": "https://lzizy1.com/api.php/provide/vod/",
+    "compatible_search_detail": false,
+    "search": {
+      "checked_at": "2026-10-15T03:51:28.981927+00:00",
+      "status": 403,
+      "bytes": 517,
+      "sha256": "201cc452baa127792dda490b5acf31d935591f9749ec0c72037b860f99b805f3",
+      "elapsed_ms": 578,
+      "content_type": "text/html",
+      "json": false,
+      "valid_items": 0,
+      "matched_sample_id": false
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:29.560634+00:00",
+      "status": 200,
+      "bytes": 1958,
+      "sha256": "2d9ccd7ed3b3f5be9e5ba4dc780b5ce0493e62ace08447738f78a95c089c7f43",
+      "elapsed_ms": 643,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:30.204527+00:00",
+      "status": 404,
+      "bytes": 882,
+      "sha256": "33712f0f3cd1ced7dbacba2fc9c3b7be9f3142c9beb3b6005b7f20b2719a5dec",
+      "elapsed_ms": 785,
+      "content_type": "text/html; charset=utf-8",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C054",
+    "name": "虎牙采集",
+    "endpoint": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:29.102908+00:00",
+      "status": 200,
+      "bytes": 2934,
+      "sha256": "73d128d897960fa7783a984e301a33d57f497a100d0e5393eeee83f3c25a2aff",
+      "elapsed_ms": 822,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:29.925286+00:00",
+      "status": 200,
+      "bytes": 2932,
+      "sha256": "914b64b5319ba75a1b56aa2bedee2b4f859ad48514b03771a4dbe8707e0698da",
+      "elapsed_ms": 569,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:30.493291+00:00",
+      "status": 200,
+      "bytes": 29474,
+      "sha256": "8a64715a9674ce725edb90192ec992dc488defdda79ed9cbb45abab9a7959975",
+      "elapsed_ms": 1083,
+      "content_type": "application/vnd.apple.mpegurl",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C058",
+    "name": "文才规则目录",
+    "endpoint": "https://api.zeqaht.com/api.php/provide/vod/",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:29.125442+00:00",
+      "status": 200,
+      "bytes": 6784,
+      "sha256": "e3b7b2f3440d034aef4daa1b75263ad3f87188d78ed9fc10c3663b854bb36995",
+      "elapsed_ms": 1442,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:30.567494+00:00",
+      "status": 200,
+      "bytes": 6782,
+      "sha256": "e625c629b09a382bc76f8b2155b5410c6ffaa27b60920a214d019f29038f9c6f",
+      "elapsed_ms": 2045,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:32.612264+00:00",
+      "elapsed_ms": 48,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "C059",
+    "name": "无损云",
+    "endpoint": "https://api.wsyzy.net/api.php/provide/vod/",
+    "compatible_search_detail": false,
+    "search": {
+      "checked_at": "2026-10-15T03:51:29.145861+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "168b027be8853eafa163f162fb3b74febab24bc9a82a979359aec52d371ebab6",
+      "elapsed_ms": 478,
+      "content_type": "text/html;charset=utf-8",
+      "json": false,
+      "valid_items": 0,
+      "matched_sample_id": false
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:29.623919+00:00",
+      "status": 200,
+      "bytes": 1746,
+      "sha256": "0171b05df7a1ed9f0fd1d3f3ee1f2dcdd7559731e119cb5908a8202e1cfee759",
+      "elapsed_ms": 645,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:30.268945+00:00",
+      "status": 200,
+      "bytes": 102,
+      "sha256": "454645404b2579a86e71bc7a1bf79fba998559520ec5b87161f2ce064b5961ab",
+      "elapsed_ms": 539,
+      "content_type": "application/vnd.apple.mpegurl",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "E005",
+    "name": "影视 • 天涯",
+    "endpoint": "http://tyyszy.com/api.php/provide/vod",
+    "compatible_search_detail": false,
+    "search": {
+      "checked_at": "2026-10-15T03:51:29.315169+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "168b027be8853eafa163f162fb3b74febab24bc9a82a979359aec52d371ebab6",
+      "elapsed_ms": 332,
+      "content_type": "text/html;charset=utf-8",
+      "json": false,
+      "valid_items": 0,
+      "matched_sample_id": false
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:29.646725+00:00",
+      "status": 200,
+      "bytes": 1776,
+      "sha256": "8825f8cbecbcf93ef0933a93106216a2e886ca38c40986cc6707e1b898eab867",
+      "elapsed_ms": 315,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:29.961935+00:00",
+      "elapsed_ms": 339,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "E006",
+    "name": "影视 • 非凡[直连]",
+    "endpoint": "http://ffzy.tv/api.php/provide/vod/",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:29.336941+00:00",
+      "status": 200,
+      "bytes": 5636,
+      "sha256": "42ea14b7cd778424de297e3d205065076d0426eae02c7711546c6c980f38532a",
+      "elapsed_ms": 191,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:29.527729+00:00",
+      "status": 200,
+      "bytes": 5634,
+      "sha256": "e0065c94e70e01201af6c53dafc0240ec7afd8aaadb7381a1d73f7fca944b69a",
+      "elapsed_ms": 351,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:29.879021+00:00",
+      "status": 403,
+      "bytes": 407,
+      "sha256": "3eaea3d67d183f7f1c0ff9c12d4d6e02c0ca714711cf36761bfe0f765f8c55a9",
+      "elapsed_ms": 1510,
+      "content_type": "text/html; charset=utf-8",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "E008",
+    "name": "影视 • 尤酷[直连]",
+    "endpoint": "https://api.ukuapi.com/api.php/provide/vod/",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:30.865093+00:00",
+      "status": 200,
+      "bytes": 3125,
+      "sha256": "9de23b4ca55d9538f9c736723bc37f64e19c3adbaf958b5018a4ea9761f5aefe",
+      "elapsed_ms": 775,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:31.640135+00:00",
+      "status": 200,
+      "bytes": 3123,
+      "sha256": "e789567e0df593958bb86b6887c2d18409661cd2dffdf0433205cdb9981361ad",
+      "elapsed_ms": 942,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:32.582130+00:00",
+      "status": 403,
+      "bytes": 407,
+      "sha256": "4e4b2e9eba4b6d66b63ffb29b939cfe83e22531f108184638956f9fae9ca4a42",
+      "elapsed_ms": 1381,
+      "content_type": "text/html; charset=utf-8",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "E009",
+    "name": "影视 • 建安",
+    "endpoint": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:31.216879+00:00",
+      "status": 200,
+      "bytes": 1074746,
+      "sha256": "c3cc81a671ae7ac08cdc3e177c1850041df3351d3348d027cc19930de3213a9e",
+      "elapsed_ms": 2276,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 20,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:33.493075+00:00",
+      "status": 200,
+      "bytes": 322188,
+      "sha256": "349ed33ca4e046c1235376602bc9b5f14ba2c7ac82247b730c72591edcffd847",
+      "elapsed_ms": 1480,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "E013",
+    "name": "订阅目录 api.guangsuapi.com",
+    "endpoint": "http://api.guangsuapi.com/api.php/provide/vod/",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:30.073114+00:00",
+      "status": 200,
+      "bytes": 3484,
+      "sha256": "8a67fc89979ea0149bbbf249b19fd78abd51321570ed7b1cd2ae8e5fd7607d6a",
+      "elapsed_ms": 880,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:30.953185+00:00",
+      "status": 200,
+      "bytes": 3482,
+      "sha256": "b0ff7ee636e3f1cd93671ceb8afed446ab8cd8bb61477e4b24a4a2295246390b",
+      "elapsed_ms": 922,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:31.875750+00:00",
+      "status": 200,
+      "bytes": 108,
+      "sha256": "2c19338d206c5abe978f71924a04f861ae768b81049c9b5e35a6fbe9abdce1e7",
+      "elapsed_ms": 443,
+      "content_type": "application/vnd.apple.mpegurl",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "E014",
+    "name": "订阅目录 api.niuniuzy.me",
+    "endpoint": "https://api.niuniuzy.me/api.php/provide/vod/",
+    "compatible_search_detail": false,
+    "search": {
+      "checked_at": "2026-10-15T03:51:29.706841+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "168b027be8853eafa163f162fb3b74febab24bc9a82a979359aec52d371ebab6",
+      "elapsed_ms": 437,
+      "content_type": "text/html;charset=utf-8",
+      "json": false,
+      "valid_items": 0,
+      "matched_sample_id": false
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:30.143603+00:00",
+      "status": 200,
+      "bytes": 1756,
+      "sha256": "4eee40d4ca7895a70d501eabba8276c23b35135370486b2bf89e088f25a36396",
+      "elapsed_ms": 538,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:30.681258+00:00",
+      "status": 403,
+      "bytes": 150,
+      "sha256": "32cbc376cd769a26d108ae31678f975b863b7066e110c59d9a212c7281bd8c81",
+      "elapsed_ms": 1717,
+      "content_type": "text/html",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "E015",
+    "name": "订阅目录 caiji.kuaichezy.org",
+    "endpoint": "https://caiji.kuaichezy.org/api.php/provide/vod/",
+    "compatible_search_detail": false,
+    "search": {
+      "checked_at": "2026-10-15T03:51:29.349001+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "168b027be8853eafa163f162fb3b74febab24bc9a82a979359aec52d371ebab6",
+      "elapsed_ms": 475,
+      "content_type": "text/html;charset=utf-8",
+      "json": false,
+      "valid_items": 0,
+      "matched_sample_id": false
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:29.823612+00:00",
+      "status": 200,
+      "bytes": 1762,
+      "sha256": "54561498cc6533898c6e4d09a38a940d93ebb363059d4535b5f67ae39c3807c7",
+      "elapsed_ms": 477,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:30.300579+00:00",
+      "status": 403,
+      "bytes": 150,
+      "sha256": "32cbc376cd769a26d108ae31678f975b863b7066e110c59d9a212c7281bd8c81",
+      "elapsed_ms": 1530,
+      "content_type": "text/html",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "E018",
+    "name": "订阅目录 cj.rycjapi.com",
+    "endpoint": "https://cj.rycjapi.com/api.php/provide/vod/at/json/",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:31.310930+00:00",
+      "status": 200,
+      "bytes": 5335,
+      "sha256": "c0c72d99e43b61d6a1243cd8e7f340eba2c197e2ce6d02dabdb9cffa9fbf6650",
+      "elapsed_ms": 1183,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:32.493112+00:00",
+      "status": 200,
+      "bytes": 5335,
+      "sha256": "c0c72d99e43b61d6a1243cd8e7f340eba2c197e2ce6d02dabdb9cffa9fbf6650",
+      "elapsed_ms": 2814,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:35.306756+00:00",
+      "status": 200,
+      "bytes": 96,
+      "sha256": "8dcb4487f749170253b047ccb7bccf0c27840bbec81dc084d77687efcdd9b105",
+      "elapsed_ms": 349,
+      "content_type": "application/vnd.apple.mpegurl",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "E022",
+    "name": "订阅目录 yayazy2.com",
+    "endpoint": "https://yayazy2.com/api.php/provide/vod/",
+    "compatible_search_detail": false,
+    "search": {
+      "checked_at": "2026-10-15T03:51:29.846000+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "168b027be8853eafa163f162fb3b74febab24bc9a82a979359aec52d371ebab6",
+      "elapsed_ms": 854,
+      "content_type": "text/html;charset=utf-8",
+      "json": false,
+      "valid_items": 0,
+      "matched_sample_id": false
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:30.700556+00:00",
+      "status": 200,
+      "bytes": 1763,
+      "sha256": "ac2d6de28bd4080ba8049e2ffae6e7d19cb114d8840ad667443efc7511389eb6",
+      "elapsed_ms": 734,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:31.434909+00:00",
+      "status": 403,
+      "bytes": 150,
+      "sha256": "32cbc376cd769a26d108ae31678f975b863b7066e110c59d9a212c7281bd8c81",
+      "elapsed_ms": 2353,
+      "content_type": "text/html",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "E023",
+    "name": "订阅目录 zuida.xyz",
+    "endpoint": "https://zuida.xyz/api.php/provide/vod/",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:30.301377+00:00",
+      "status": 200,
+      "bytes": 1764,
+      "sha256": "aca2f73988fd6adafa8f968d5a22f6d4c67c24b06a98c98ea007be88c0e314cb",
+      "elapsed_ms": 1953,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:32.254284+00:00",
+      "status": 200,
+      "bytes": 1762,
+      "sha256": "c6e48661079211df9df111cf01642fa4eb33c3c7beffe05eae8d6f7fb783a31d",
+      "elapsed_ms": 622,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:32.876986+00:00",
+      "status": 403,
+      "bytes": 150,
+      "sha256": "32cbc376cd769a26d108ae31678f975b863b7066e110c59d9a212c7281bd8c81",
+      "elapsed_ms": 860,
+      "content_type": "text/html",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "E024",
+    "name": "订阅目录 tyyszyapi.com",
+    "endpoint": "https://tyyszyapi.com/api.php/provide/vod/",
+    "compatible_search_detail": false,
+    "search": {
+      "checked_at": "2026-10-15T03:51:29.766315+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "168b027be8853eafa163f162fb3b74febab24bc9a82a979359aec52d371ebab6",
+      "elapsed_ms": 487,
+      "content_type": "text/html;charset=utf-8",
+      "json": false,
+      "valid_items": 0,
+      "matched_sample_id": false
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:30.252724+00:00",
+      "status": 200,
+      "bytes": 1776,
+      "sha256": "8825f8cbecbcf93ef0933a93106216a2e886ca38c40986cc6707e1b898eab867",
+      "elapsed_ms": 713,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:30.966354+00:00",
+      "elapsed_ms": 344,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "E025",
+    "name": "订阅目录 sdzyapi.com",
+    "endpoint": "https://sdzyapi.com/api.php/provide/vod/",
+    "compatible_search_detail": false,
+    "search": {
+      "checked_at": "2026-10-15T03:51:29.739613+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "168b027be8853eafa163f162fb3b74febab24bc9a82a979359aec52d371ebab6",
+      "elapsed_ms": 463,
+      "content_type": "text/html;charset=utf-8",
+      "json": false,
+      "valid_items": 0,
+      "matched_sample_id": false
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:30.203072+00:00",
+      "status": 200,
+      "bytes": 1754,
+      "sha256": "c219ff831c62bb87417a4adede695699770581fea98c4b54ee3d7d4906cbc217",
+      "elapsed_ms": 461,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:30.663899+00:00",
+      "elapsed_ms": 345,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "E031",
+    "name": "🔰金鹰┃影视",
+    "endpoint": "https://jyzyapi.com/provide/vod/",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:30.988711+00:00",
+      "status": 200,
+      "bytes": 3551,
+      "sha256": "3492f32a86fc1bf8aa1d74b7df69d87a1c0e38fff768ca98bf13b30b86365ee9",
+      "elapsed_ms": 797,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:31.786086+00:00",
+      "status": 200,
+      "bytes": 3549,
+      "sha256": "e6fdd0b8ac7da680676e6f337e806cc9e1acb330226a05eeba2250db0d459d43",
+      "elapsed_ms": 577,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:32.364157+00:00",
+      "status": 200,
+      "bytes": 29474,
+      "sha256": "8a64715a9674ce725edb90192ec992dc488defdda79ed9cbb45abab9a7959975",
+      "elapsed_ms": 3446,
+      "content_type": "application/vnd.apple.mpegurl",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "E032",
+    "name": "🍎高清┃2K",
+    "endpoint": "https://api.1080zyku.com/inc/apijson.php",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:31.009657+00:00",
+      "status": 200,
+      "bytes": 6983,
+      "sha256": "30affeea5da9a6067f1307c4fb75222bdf56bcdb0cf78ee7d8b3db79b99822ec",
+      "elapsed_ms": 550,
+      "content_type": "text/html; charset=UTF-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:31.559816+00:00",
+      "status": 200,
+      "bytes": 6983,
+      "sha256": "30affeea5da9a6067f1307c4fb75222bdf56bcdb0cf78ee7d8b3db79b99822ec",
+      "elapsed_ms": 540,
+      "content_type": "text/html; charset=UTF-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:32.099538+00:00",
+      "status": 403,
+      "bytes": 407,
+      "sha256": "f98084fd02c4bdeddbcf1a7470a33e9c38b602f5e36fad666a467ea94f9c6e4f",
+      "elapsed_ms": 2603,
+      "content_type": "text/html; charset=utf-8",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "E033",
+    "name": "🥣爱坤┃影视",
+    "endpoint": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json",
+    "compatible_search_detail": true,
+    "search": {
+      "checked_at": "2026-10-15T03:51:29.974254+00:00",
+      "status": 200,
+      "bytes": 2777,
+      "sha256": "21c0fd62de3311ddfaef5282ef656e9da4361aef96680a90899113fdb000f3f0",
+      "elapsed_ms": 847,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:30.820921+00:00",
+      "status": 200,
+      "bytes": 2775,
+      "sha256": "212796d6818ed101f9436413691c13296652a707bf2b876cf2d59a81a2468b3d",
+      "elapsed_ms": 428,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:31.249086+00:00",
+      "status": 200,
+      "bytes": 119,
+      "sha256": "64588719ba21f75d76b76830a77162f1e07b216a45e4a389ad4bd26d4524c0a6",
+      "elapsed_ms": 711,
+      "content_type": "application/vnd.apple.mpegURL",
+      "json": false,
+      "hls_header": true,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "E034",
+    "name": "🔃量子┃资源",
+    "endpoint": "http://cj.lziapi.com/api.php/provide/vod/",
+    "compatible_search_detail": false,
+    "search": {
+      "checked_at": "2026-10-15T03:51:30.808007+00:00",
+      "status": 200,
+      "bytes": 85,
+      "sha256": "1b8fc766617f0589c7833652711855e807ae088091bbf0ef5d1b6a2ab4d6dca7",
+      "elapsed_ms": 350,
+      "content_type": "application/json",
+      "json": true,
+      "valid_items": 0,
+      "matched_sample_id": false
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:31.157757+00:00",
+      "status": 200,
+      "bytes": 1958,
+      "sha256": "2d9ccd7ed3b3f5be9e5ba4dc780b5ce0493e62ace08447738f78a95c089c7f43",
+      "elapsed_ms": 303,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:31.461484+00:00",
+      "status": 404,
+      "bytes": 882,
+      "sha256": "33712f0f3cd1ced7dbacba2fc9c3b7be9f3142c9beb3b6005b7f20b2719a5dec",
+      "elapsed_ms": 806,
+      "content_type": "text/html; charset=utf-8",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  },
+  {
+    "record_id": "E035",
+    "name": "🎊索尼┃资源",
+    "endpoint": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
+    "compatible_search_detail": false,
+    "search": {
+      "checked_at": "2026-10-15T03:51:30.864408+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "168b027be8853eafa163f162fb3b74febab24bc9a82a979359aec52d371ebab6",
+      "elapsed_ms": 461,
+      "content_type": "text/html;charset=utf-8",
+      "json": false,
+      "valid_items": 0,
+      "matched_sample_id": false
+    },
+    "detail": {
+      "checked_at": "2026-10-15T03:51:31.324485+00:00",
+      "status": 200,
+      "bytes": 6016,
+      "sha256": "2858cbfa753db2b7e02978e6598a08c6446497764fbcb89152c93dc491f4c5a7",
+      "elapsed_ms": 474,
+      "content_type": "text/html;charset=utf-8",
+      "json": true,
+      "valid_items": 1,
+      "matched_sample_id": true,
+      "has_play_fields": true
+    },
+    "playlist": {
+      "checked_at": "2026-10-15T03:51:31.798755+00:00",
+      "status": 403,
+      "bytes": 150,
+      "sha256": "32cbc376cd769a26d108ae31678f975b863b7066e110c59d9a212c7281bd8c81",
+      "elapsed_ms": 881,
+      "content_type": "text/html",
+      "json": false,
+      "hls_header": false,
+      "media_segments_downloaded": 0,
+      "decode_tested": false
+    }
+  }
+]

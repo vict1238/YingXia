@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "MuMu Virtual Display Adapter",
+    "DriverVersion": "20.36.41.498",
+    "AdapterRAM": null,
+    "VideoModeDescription": null
+  },
+  {
+    "Name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "DriverVersion": "32.0.16.1088",
+    "AdapterRAM": 4293918720,
+    "VideoModeDescription": "2560 x 1600 x 4294967296 colors"
+  }
+]

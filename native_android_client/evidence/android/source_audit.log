@@ -1,0 +1,17 @@
+{
+  "production_aar": {
+    "path": "native_android_client/android/app/libs/yingxia_core.aar",
+    "size": 11819592,
+    "sha256": "1cc925bb13eb46fd5aeb8078504e24f579fc06bfe4941a568df8486f82a448b2",
+    "android_api": 26,
+    "abis": [
+      "jni/arm64-v8a/libgojni.so",
+      "jni/armeabi-v7a/libgojni.so",
+      "jni/x86_64/libgojni.so"
+    ],
+    "native_fixture_tag": false
+  },
+  "source_files": 868,
+  "source_bytes": 50748849,
+  "archive_written": false
+}

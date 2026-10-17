@@ -1,0 +1,44 @@
+Input #0, lavfi, from 'testsrc2=size=640x360:rate=30':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: wrapped_avframe, yuv420p, 640x360 [SAR 1:1 DAR 16:9], 30 fps, 30 tbr, 30 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (wrapped_avframe (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 00000263011e1580] using SAR=1/1
+[libx264 @ 00000263011e1580] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 00000263011e1580] profile Constrained Baseline, level 3.0, 4:2:0, 8-bit
+[libx264 @ 00000263011e1580] 264 - core 165 r3223 0480cb0 - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=1:0:0 analyse=0x1:0x111 me=hex subme=2 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=11 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=60 keyint_min=31 scenecut=0 intra_refresh=0 rc_lookahead=10 rc=crf mbtree=1 crf=28.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, hls, to '.tools/native/continuous_hls/main.m3u8':
+  Metadata:
+    encoder         : Lavf63.1.102
+  Stream #0:0: Video: h264, yuv420p(tv, progressive), 640x360 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 90k tbn
+    Metadata:
+      encoder         : Lavc63.1.102 libx264
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[hls @ 000002630117bc00] Opening '.tools/native/continuous_hls/main0.ts' for writing
+[hls @ 000002630117bc00] Opening '.tools/native/continuous_hls/main1.ts' for writing
+[hls @ 000002630117bc00] Opening '.tools/native/continuous_hls/main2.ts' for writing
+[hls @ 000002630117bc00] Opening '.tools/native/continuous_hls/main3.ts' for writing
+[hls @ 000002630117bc00] Opening '.tools/native/continuous_hls/main4.ts' for writing
+[hls @ 000002630117bc00] Opening '.tools/native/continuous_hls/main5.ts' for writing
+[hls @ 000002630117bc00] Opening '.tools/native/continuous_hls/main6.ts' for writing
+[hls @ 000002630117bc00] Opening '.tools/native/continuous_hls/main7.ts' for writing
+[hls @ 000002630117bc00] Opening '.tools/native/continuous_hls/main8.ts' for writing
+[hls @ 000002630117bc00] Opening '.tools/native/continuous_hls/main9.ts' for writing
+[hls @ 000002630117bc00] Opening '.tools/native/continuous_hls/main10.ts' for writing
+[hls @ 000002630117bc00] Opening '.tools/native/continuous_hls/main11.ts' for writing
+[hls @ 000002630117bc00] Opening '.tools/native/continuous_hls/main12.ts' for writing
+[hls @ 000002630117bc00] Opening '.tools/native/continuous_hls/main13.ts' for writing
+[hls @ 000002630117bc00] Opening '.tools/native/continuous_hls/main14.ts' for writing
+[out#0/hls @ 0000026301163f80] video:2016KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  900 fps=0.0 q=-1.0 Lsize=N/A time=00:00:30.00 bitrate=N/A speed=66.4x elapsed=0:00:00.45    
+[libx264 @ 00000263011e1580] frame I:15    Avg QP:17.41  size:  9688
+[libx264 @ 00000263011e1580] frame P:885   Avg QP:27.12  size:  2167
+[libx264 @ 00000263011e1580] mb I  I16..4: 80.5%  0.0% 19.5%
+[libx264 @ 00000263011e1580] mb P  I16..4:  3.6%  0.0%  1.0%  P16..4:  9.8%  3.3%  0.8%  0.0%  0.0%    skip:81.5%
+[libx264 @ 00000263011e1580] coded y,uvDC,uvAC intra: 19.0% 47.7% 39.8% inter: 2.3% 7.8% 6.1%
+[libx264 @ 00000263011e1580] i16 v,h,dc,p: 72% 18%  9%  1%
+[libx264 @ 00000263011e1580] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 33% 25% 21%  4%  3%  3%  3%  4%  4%
+[libx264 @ 00000263011e1580] i8c dc,h,v,p: 50% 21% 27%  2%
+[libx264 @ 00000263011e1580] kb/s:550.23

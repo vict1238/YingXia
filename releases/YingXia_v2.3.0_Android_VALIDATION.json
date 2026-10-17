@@ -1,0 +1,540 @@
+{
+  "schema": 1,
+  "version": "2.3.0",
+  "date": "2026-10-16",
+  "software": [
+    {
+      "file": "YingXia_v2.3.0_Android.apk",
+      "size": 131314810,
+      "sha256": "9f0206439131596f03007405e2e19dcadcc39023d1acf5d836de36b2be3e4c3e"
+    }
+  ],
+  "build": {
+    "apk": "native_android_client/build/candidates/YingXia_v2.3.0_Android.apk",
+    "bytes": 131314810,
+    "sha256": "9f0206439131596f03007405e2e19dcadcc39023d1acf5d836de36b2be3e4c3e",
+    "package": "com.yingxia.yingxia_native",
+    "version_name": "2.3.0",
+    "version_code": 20300,
+    "min_sdk": 26,
+    "target_sdk": 36,
+    "release_aot": true,
+    "debuggable": false,
+    "certificate_sha256": "6f3e4d81152657ba0b0fa9304763d0f47035e56a74161d8a9d27d3a12cc6085c",
+    "fixture": false,
+    "aar_sha256": "0b963acdc1cf61609ebf9b090aae3e82d9cab1e21eca9fc0c537496187fd947e",
+    "go_jni_matches_aar_after_ndk_strip": true,
+    "jni_normalization": "NDK 28.2.13676358 llvm-strip --strip-unneeded",
+    "permissions": [
+      "android.permission.INTERNET",
+      "com.yingxia.yingxia_native.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "libraries": [
+      {
+        "abi": "arm64-v8a",
+        "name": "libgojni.so",
+        "bytes": 11705040,
+        "sha256": "1fa90c1aae4a89af1aeee3225932bf647c383d100a18dcd7d2e18106cd968256",
+        "elf_machine": 183
+      },
+      {
+        "abi": "arm64-v8a",
+        "name": "libapp.so",
+        "bytes": 6816648,
+        "sha256": "e17c1f23f735c467efc05774c44f53016ceaeee9197bcd47fe3e5e7ddfc18658",
+        "elf_machine": 183
+      },
+      {
+        "abi": "arm64-v8a",
+        "name": "libflutter.so",
+        "bytes": 11747864,
+        "sha256": "34f4113ae93b2c7069030f0bcfede18e7c83ed548b71a75c9ebb749403d3a060",
+        "elf_machine": 183
+      },
+      {
+        "abi": "arm64-v8a",
+        "name": "libmpv.so",
+        "bytes": 12369680,
+        "sha256": "adf83fde58a9f6751ce6e83b9b187f651425d53ec0e20da04deb8dfb4aa775e1",
+        "elf_machine": 183
+      },
+      {
+        "abi": "armeabi-v7a",
+        "name": "libgojni.so",
+        "bytes": 10444172,
+        "sha256": "00a97335610b3b8b3155105696e2dbbe416c3d6814be17580348e0a7411accbf",
+        "elf_machine": 40
+      },
+      {
+        "abi": "armeabi-v7a",
+        "name": "libapp.so",
+        "bytes": 7488072,
+        "sha256": "f0796a0af13c469281e57ddf96ae5949a58f66c742a7881ba5f413e769f58861",
+        "elf_machine": 40
+      },
+      {
+        "abi": "armeabi-v7a",
+        "name": "libflutter.so",
+        "bytes": 8615900,
+        "sha256": "c408a309f798148edc33993334e5636fc035dba2aac375066f691da8be4480f8",
+        "elf_machine": 40
+      },
+      {
+        "abi": "armeabi-v7a",
+        "name": "libmpv.so",
+        "bytes": 11746532,
+        "sha256": "8aa2b23d16d941a8d685b8eb995b1cb31677ed3e28c55c776954eb1618ab1a2e",
+        "elf_machine": 40
+      },
+      {
+        "abi": "x86_64",
+        "name": "libgojni.so",
+        "bytes": 12452912,
+        "sha256": "5cffbd01ffa344a12ae58aef4c19560c3710786a9151e45e99d222b3270b0af7",
+        "elf_machine": 62
+      },
+      {
+        "abi": "x86_64",
+        "name": "libapp.so",
+        "bytes": 7078792,
+        "sha256": "03e72e7f229bfd00f5e7118fff86d8dae2652fbbc182dabcfc8f3d7f0aba8c51",
+        "elf_machine": 62
+      },
+      {
+        "abi": "x86_64",
+        "name": "libflutter.so",
+        "bytes": 13051424,
+        "sha256": "207ff0aa7a5f6926cae6403a6f63c0b6ede457ae430546cbef8550845471abfc",
+        "elf_machine": 62
+      },
+      {
+        "abi": "x86_64",
+        "name": "libmpv.so",
+        "bytes": 15816336,
+        "sha256": "f030e9a1a4d4664e89d7160a3d4528cd5875ee023ff6262e16e95aac28ffaec5",
+        "elf_machine": 62
+      }
+    ]
+  },
+  "flutter": {
+    "tests_passed": 75,
+    "analysis": "No issues found",
+    "source_freeze": "native_android_client/evidence/v2_3/source_freeze.json"
+  },
+  "backend": {
+    "schema": 1,
+    "go_tests": {
+      "platform": "android/amd64",
+      "device": "owned emulator-5560 API35 ranchu",
+      "engine_top_level_pass": 37,
+      "engine_subcase_pass": 15,
+      "core_lifecycle_pass": 1,
+      "exit_codes": [
+        0,
+        0
+      ],
+      "go_vet": "passed",
+      "source_latest_private_routes_test_included": true
+    },
+    "windows_launcher": {
+      "top_level_pass": 4,
+      "subcase_pass": 6,
+      "skip": 1,
+      "exit_code": 0
+    },
+    "unresolved_compatibility_limits": [
+      "AES128 EXT-X-VERSION:1 ad rewrites add explicit IVs preserving segment sequence without raising the version tag to2; version1-specific player acceptance was not separately tested. Standard version3+encrypted/keyrotation/byterange cases passed."
+    ],
+    "windows_full_fixture_attempt": {
+      "passed": 0,
+      "block": "WindowsApplicationControl4551 prevented newlybuiltfixturebackendlaunch; no policy changes."
+    }
+  },
+  "runtime": {
+    "production": {
+      "schema": 1,
+      "apk_sha256": "9f0206439131596f03007405e2e19dcadcc39023d1acf5d836de36b2be3e4c3e",
+      "serial": "emulator-5560",
+      "scope": "Actual installed bytes on the owned API35 x86_64 ranchu emulator; no physical Android16/MatePad/ARM/TV-performance claim.",
+      "checks": [
+        {
+          "id": "production_update_identity",
+          "status": "passed",
+          "assertion": "Update installation preserves existing app data and installs the candidate bytes.",
+          "installed_sha256": "9f0206439131596f03007405e2e19dcadcc39023d1acf5d836de36b2be3e4c3e",
+          "source_report": "20261016T040918Z_production/checks.json",
+          "evidence": []
+        },
+        {
+          "id": "upgrade_retains_library",
+          "status": "passed",
+          "assertion": "Signed update retained the existing empty library and network-consent setting; populated-record migration was not exercised.",
+          "retained": true,
+          "source_report": "20261016T040918Z_production/checks.json",
+          "evidence": [],
+          "favorite_count": 0,
+          "history_count": 0
+        },
+        {
+          "id": "native_startup",
+          "status": "passed",
+          "assertion": "Production APK starts native Flutter/JNI UI.",
+          "evidence": [
+            "20261016T040918Z_production/production_search.xml",
+            "20261016T040918Z_production/production_search.png"
+          ],
+          "source_report": "20261016T040918Z_production/checks.json"
+        },
+        {
+          "id": "startup_default_off",
+          "status": "passed",
+          "assertion": "Fresh/retained Off startup default and the empty video surface remain visible.",
+          "evidence": [
+            "20261016T040918Z_production/production_workspace.xml",
+            "20261016T040918Z_production/production_workspace.png"
+          ],
+          "default": {
+            "version": 2,
+            "default_mode": "off"
+          },
+          "source_report": "20261016T040918Z_production/checks.json"
+        },
+        {
+          "id": "production_identity",
+          "status": "passed",
+          "assertion": "Existing installation matches candidate bytes; this invocation performs no reinstall.",
+          "installed_sha256": "9f0206439131596f03007405e2e19dcadcc39023d1acf5d836de36b2be3e4c3e",
+          "source_report": "20261016T041030Z_production/checks.json",
+          "evidence": []
+        },
+        {
+          "id": "ascii_source_search_request",
+          "status": "passed",
+          "assertion": "ASCII query input and a real enabled-source search request worked; pinyin resolution itself was not asserted.",
+          "query": "native",
+          "visible": [
+            "映匣",
+            "搜索影片",
+            "想看什么？",
+            "native",
+            "搜索来源\n全部来源",
+            "搜索中…",
+            "检测访问 · 0 / 153 个结果 · 0 个可访问",
+            "取消",
+            "30",
+            "搜索结果",
+            "153 个结果",
+            "已收起",
+            "44 / 48 个来源已响应, 已收起",
+            "搜索\n第 1 个标签，共 4 个",
+            "播放\n第 2 个标签，共 4 个",
+            "收藏\n第 3 个标签，共 4 个",
+            "来源\n第 4 个标签，共 4 个"
+          ],
+          "evidence": [
+            "20261016T041030Z_production/production_pinyin_input.xml",
+            "20261016T041030Z_production/production_pinyin_search.xml"
+          ],
+          "source_report": "20261016T041030Z_production/checks.json"
+        },
+        {
+          "id": "leanback_launcher",
+          "status": "passed",
+          "assertion": "Production package is discoverable through LEANBACK_LAUNCHER while retaining phone launch.",
+          "resolved_activity": "priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false\r\ncom.yingxia.yingxia_native/.MainActivity",
+          "source_report": "20261016T041030Z_production/checks.json",
+          "evidence": []
+        },
+        {
+          "id": "playback_flags_and_cache_dialog",
+          "status": "passed",
+          "assertion": "Actual UI displays ad/switch flags and bounded48MB/80MB cache choices.",
+          "evidence": [
+            "20261016T041318Z_production_followup/settings_flags.xml",
+            "20261016T041318Z_production_followup/cache_dialog.xml",
+            "20261016T041318Z_production_followup/cache_dialog.png"
+          ],
+          "source_report": "20261016T041318Z_production_followup/checks.json"
+        },
+        {
+          "id": "source_manager_ui",
+          "status": "passed",
+          "assertion": "Actual UI displays48-source manager and update/add/all-speed controls.",
+          "evidence": [
+            "20261016T041318Z_production_followup/manager_top.xml",
+            "20261016T041318Z_production_followup/manager_top.png"
+          ],
+          "source_report": "20261016T041318Z_production_followup/checks.json"
+        }
+      ],
+      "passed_count": 9,
+      "failed_attempts": [
+        {
+          "id": "credits_and_playback_settings",
+          "status": "failed",
+          "assertion": "Both exact developer credits, marked-ad skipping, source-switch setting and bounded cache options render.",
+          "error": "AssertionError: UI label not found: 播放与缓存",
+          "evidence": [
+            "20261016T040918Z_production/credits_and_playback_settings_failed.xml",
+            "20261016T040918Z_production/credits_and_playback_settings_failed.png"
+          ],
+          "source_report": "20261016T040918Z_production/checks.json"
+        },
+        {
+          "id": "credits_and_playback_settings",
+          "status": "failed",
+          "assertion": "Both exact developer credits, marked-ad skipping, source-switch setting and bounded cache options render.",
+          "error": "AssertionError: Could not scroll to 跳过标记广告",
+          "evidence": [
+            "20261016T041030Z_production/credits_and_playback_settings_failed.xml",
+            "20261016T041030Z_production/credits_and_playback_settings_failed.png"
+          ],
+          "source_report": "20261016T041030Z_production/checks.json"
+        },
+        {
+          "id": "source_management",
+          "status": "failed",
+          "assertion": "Existing source management and speed-check entry points remain usable.",
+          "error": "AssertionError: Could not scroll to 来源管理（",
+          "evidence": [
+            "20261016T041030Z_production/source_management_failed.xml",
+            "20261016T041030Z_production/source_management_failed.png"
+          ],
+          "source_report": "20261016T041030Z_production/checks.json"
+        }
+      ],
+      "optional_observations": [],
+      "attempt_notes": [
+        "Partial controls hidden under NavigationBar and HUD auto-hide caused harness lookup failures; they are retained and not counted as passes.",
+        "UiAutomator can wait until a held gesture ends; held screenshots must be captured before accessibility dumps.",
+        "The initial26second decoder-duration expectation was incorrect for retained absolute MPEG-TS timestamps. Relay omissions are verified by exported diagnostic counters; decoder clock remains approximately30seconds.",
+        "The SAF save button is uppercase SAVE on this emulator; a failed lowercase lookup was followed by a successful actual save.",
+        "Physical TV UiMode/remote use and pinyin-title resolution were not independently established by this UI harness; related deterministic tests remain separate evidence."
+      ],
+      "display_restored": {
+        "size": "Physical size: 320x640",
+        "density": "Physical density: 160"
+      }
+    },
+    "fixture": {
+      "schema": 1,
+      "apk_sha256": "13eaf972a7b1e2aec3bcba8533021096550620b46251d00858c6baa9f287b31d",
+      "serial": "emulator-5560",
+      "scope": "Actual installed bytes on the owned API35 x86_64 ranchu emulator; no physical Android16/MatePad/ARM/TV-performance claim.",
+      "checks": [
+        {
+          "id": "fixture_identity",
+          "status": "passed",
+          "assertion": "Separate fixture package runs the recorded candidate bytes.",
+          "installed_sha256": "13eaf972a7b1e2aec3bcba8533021096550620b46251d00858c6baa9f287b31d",
+          "source_report": "20261016T041426Z_fixture/checks.json",
+          "evidence": []
+        },
+        {
+          "id": "native_resume_pause",
+          "status": "passed",
+          "assertion": "Decoded HLS advances, favorite reopens at saved progress, navigation/Home pause persists.",
+          "before": 3.2,
+          "after": 6.266,
+          "paused": 14.666,
+          "resumed": 14.766,
+          "home_paused": 19.166,
+          "evidence": [
+            "20261016T041819Z_fixture-playback/hls_frame_before.png",
+            "20261016T041819Z_fixture-playback/hls_frame_after.png",
+            "20261016T041819Z_fixture-playback/library_paused.xml",
+            "20261016T041819Z_fixture-playback/favorite_autoresume.xml",
+            "20261016T041819Z_fixture-playback/background_return_paused.xml"
+          ],
+          "source_report": "20261016T041819Z_fixture-playback/checks.json"
+        },
+        {
+          "id": "marked_ads_relay_and_decode",
+          "status": "passed",
+          "assertion": "Native ad fixture decoded and advanced; actual SAF-exported diagnostic records4marked segments/8seconds omitted across2playlist rewrites (probe and playback). Decoder duration retained29.966seconds.",
+          "relay": {
+            "ad_skip_deferred_playlists": 0,
+            "cache_budget_bytes": 25165824,
+            "cache_bytes": 3718076,
+            "cache_disk_bytes": 0,
+            "cache_hits": 47,
+            "cache_misses": 25,
+            "cache_object_limit_bytes": 8388608,
+            "cache_ttl_seconds": 90,
+            "fetch_failures": 0,
+            "inflight_segments": 0,
+            "prefetch_segments": 2,
+            "prefetched_segments": 45,
+            "retry_count": 0,
+            "rewritten_playlists": 2,
+            "skip_marked_ads": true,
+            "skipped_ad_seconds": 8,
+            "skipped_ad_segments": 4
+          },
+          "native_duration": 29.966,
+          "evidence": [
+            "20261016T042520Z_fixture_ads_diagnostic_followup/saf_ready.xml",
+            "20261016T042520Z_fixture_ads_diagnostic_followup/ads_diagnostic.json",
+            "20261016T042338Z_fixture-ads/marked_ads_playback.png"
+          ],
+          "source_report": "20261016T042520Z_fixture_ads_diagnostic_followup/checks.json"
+        },
+        {
+          "id": "fullscreen_hold_restore",
+          "status": "passed",
+          "assertion": "Actual long press shows exact2 indicator and restores the prior1x rate on release in fullscreen.",
+          "held_pixels_require_visual_confirmation": false,
+          "held_capture_monotonic": 81846.296,
+          "restored_rate": "1.0×",
+          "position": 12.4,
+          "display": "1920x1080 override on owned phone AVD, not physical TV",
+          "evidence": [
+            "20261016T042708Z_fixture-hold/minimal_hold_exact2.png",
+            "20261016T042708Z_fixture-hold/minimal_hold_restored.png"
+          ],
+          "visual_confirmation": {
+            "reviewed": true,
+            "held": "Badge2×快进中 and native footer2.0× visible atframe6.333s.",
+            "released": "Badge absent and native footer1.0× visible atframe14.967s."
+          },
+          "source_report": "20261016T042708Z_fixture-hold/checks.json"
+        },
+        {
+          "id": "on_video_settings_and_speed",
+          "status": "passed",
+          "assertion": "Actual fullscreen panel renders volume/speed/FSR/fit/cache; choosing1.5x updates the native-player rate shown by its footer. Later hold timing failures remain recorded separately.",
+          "source_report": "20261016T041426Z_fixture/checks.json",
+          "evidence": [
+            "20261016T041426Z_fixture/native_controls_panel.xml",
+            "20261016T041426Z_fixture/native_controls_panel.png",
+            "20261016T041426Z_fixture/fullscreen_hold_remote_failed.xml"
+          ]
+        }
+      ],
+      "passed_count": 5,
+      "failed_attempts": [
+        {
+          "id": "native_resume_pause",
+          "status": "failed",
+          "assertion": "Decoded HLS advances, favorite reopens at saved progress, navigation/Home pause persists.",
+          "error": "AssertionError: No history row for 原生播放测试 HLS",
+          "evidence": [
+            "20261016T041426Z_fixture/native_resume_pause_failed.xml",
+            "20261016T041426Z_fixture/native_resume_pause_failed.png"
+          ],
+          "source_report": "20261016T041426Z_fixture/checks.json"
+        },
+        {
+          "id": "fullscreen_hold_remote",
+          "status": "failed",
+          "assertion": "On-video fullscreen settings, exact2 hold/restoration and large-screen remote actions render.",
+          "error": "AssertionError: ['0:12\\n0:30\\nFSR 关闭  ·  1.5×', '静音', '音量 100%, 音量 100%', '100%', '倍速', '1.5×', 'FSR', '关闭', '画面', '适应比例', '标准', '缓存设置', '播放位置 0:12, 0:12', '播放', '后退10秒', '快进10秒', '播放设置（音量／倍速／FSR）', '退出全屏']",
+          "evidence": [
+            "20261016T041426Z_fixture/fullscreen_hold_remote_failed.xml",
+            "20261016T041426Z_fixture/fullscreen_hold_remote_failed.png"
+          ],
+          "source_report": "20261016T041426Z_fixture/checks.json"
+        },
+        {
+          "id": "marked_ads_26_seconds",
+          "status": "failed",
+          "assertion": "Explicit4second marked HLS ads are removed from the30second fixture and native decoder reports26seconds.",
+          "error": "AssertionError: {'completed': False, 'created_at': '2026-10-16T04:16:40Z', 'duration': 29.966, 'episode': '第01集', 'episode_key': 'e0', 'evidence': 'native_time_advanced', 'film_id': 'vod:wsyzy:OTAwMDM', 'group_key': 'g0', 'id': '339fc724d79c2273aa747e0e96e9cef1', 'mode': 'media', 'position': 3.2, 'source': '无损云 / 明确广告标记测试', 'title': '原生播放测试 广告', 'updated_at': '2026-10-16T04:16:43Z'}",
+          "evidence": [
+            "20261016T041426Z_fixture/marked_ads_26_seconds_failed.xml",
+            "20261016T041426Z_fixture/marked_ads_26_seconds_failed.png"
+          ],
+          "source_report": "20261016T041426Z_fixture/checks.json"
+        },
+        {
+          "id": "fullscreen_hold_remote",
+          "status": "failed",
+          "assertion": "On-video fullscreen settings, exact2 hold/restoration and large-screen remote actions render.",
+          "error": "AssertionError: UI label not found: 暂停",
+          "evidence": [
+            "20261016T041950Z_fixture-controls/fullscreen_hold_remote_failed.xml",
+            "20261016T041950Z_fixture-controls/fullscreen_hold_remote_failed.png"
+          ],
+          "source_report": "20261016T041950Z_fixture-controls/checks.json"
+        },
+        {
+          "id": "fullscreen_hold_remote",
+          "status": "failed",
+          "assertion": "On-video fullscreen settings, exact2 hold/restoration and large-screen remote actions render.",
+          "error": "AssertionError: UI label not found: 暂停",
+          "evidence": [
+            "20261016T042052Z_fixture-controls/fullscreen_hold_remote_failed.xml",
+            "20261016T042052Z_fixture-controls/fullscreen_hold_remote_failed.png"
+          ],
+          "source_report": "20261016T042052Z_fixture-controls/checks.json"
+        },
+        {
+          "id": "fullscreen_hold_restore",
+          "status": "failed",
+          "assertion": "Actual long press shows exact2 indicator and restores the prior1x rate on release in fullscreen.",
+          "error": "AssertionError: []",
+          "evidence": [
+            "20261016T042232Z_fixture-hold/fullscreen_hold_restore_failed.xml",
+            "20261016T042232Z_fixture-hold/fullscreen_hold_restore_failed.png"
+          ],
+          "source_report": "20261016T042232Z_fixture-hold/checks.json"
+        },
+        {
+          "id": "marked_ads_relay_and_decode",
+          "status": "failed",
+          "assertion": "Native playback advances and exported relay diagnostics prove2marked segments/4seconds omitted; TS decoder clock may retain30seconds.",
+          "error": "AssertionError: UI label not found: Save",
+          "evidence": [
+            "20261016T042338Z_fixture-ads/marked_ads_relay_and_decode_failed.xml",
+            "20261016T042338Z_fixture-ads/marked_ads_relay_and_decode_failed.png"
+          ],
+          "source_report": "20261016T042338Z_fixture-ads/checks.json"
+        },
+        {
+          "id": "fullscreen_hold_restore",
+          "status": "failed",
+          "assertion": "Actual long press shows exact2 indicator and restores the prior1x rate on release in fullscreen.",
+          "error": "AssertionError: []",
+          "evidence": [
+            "20261016T042539Z_fixture-hold/fullscreen_hold_restore_failed.xml",
+            "20261016T042539Z_fixture-hold/fullscreen_hold_restore_failed.png"
+          ],
+          "source_report": "20261016T042539Z_fixture-hold/checks.json"
+        }
+      ],
+      "optional_observations": [
+        {
+          "id": "same_episode_alternative",
+          "status": "conditional_not_exercised",
+          "assertion": "Delayed fixture played; cache absorbed the delay and no stall prompt appeared, so actual switch UI was not exercised.",
+          "stall_prompt_observed": false,
+          "scope": "Fixture delays one segment body8seconds; advance cache may absorb it, so a prompt is conditional.",
+          "evidence": [
+            "20261016T041426Z_fixture/alternative_fixture_playback.xml",
+            "20261016T041426Z_fixture/alternative_fixture_playback.png"
+          ],
+          "source_report": "20261016T041426Z_fixture/checks.json"
+        }
+      ],
+      "attempt_notes": [
+        "Partial controls hidden under NavigationBar and HUD auto-hide caused harness lookup failures; they are retained and not counted as passes.",
+        "UiAutomator can wait until a held gesture ends; held screenshots must be captured before accessibility dumps.",
+        "The initial26second decoder-duration expectation was incorrect for retained absolute MPEG-TS timestamps. Relay omissions are verified by exported diagnostic counters; decoder clock remains approximately30seconds.",
+        "The SAF save button is uppercase SAVE on this emulator; a failed lowercase lookup was followed by a successful actual save.",
+        "Physical TV UiMode/remote use and pinyin-title resolution were not independently established by this UI harness; related deterministic tests remain separate evidence."
+      ],
+      "display_restored": {
+        "size": "Physical size: 320x640",
+        "density": "Physical density: 160"
+      }
+    }
+  },
+  "transport": null,
+  "preserved_previous_2_2_artifacts": true,
+  "scope_limits": [
+    "Owned API35 x86_64 Android emulator; MatePad Pro Android16 and physical ARM/TV sustained performance remain unmeasured.",
+    "FSR rendering code is preserved; this iteration adds controls but does not repeat integrated-GPU throughput benchmarks.",
+    "Only finite HLS explicit ad cues are removed; unmarked/burned-in advertising is not automatically recognized.",
+    "Windows fixture backend launch was blocked by ApplicationControl4551; no system policy was changed; no Windows new-decoder fixture pass is claimed."
+  ]
+}

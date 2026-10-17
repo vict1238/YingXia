@@ -1,0 +1,1550 @@
+{
+  "checked_at": "2026-10-15T03:53:45.094695+00:00",
+  "kazumi_current_index": {
+    "url": "https://raw.githubusercontent.com/Predidit/KazumiRules/main/index.json",
+    "checked_at": "2026-10-15T03:53:38.237467+00:00",
+    "redirects": [],
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/Predidit/KazumiRules/main/index.json",
+    "content_type": "text/plain; charset=utf-8",
+    "bytes": 2644,
+    "sha256": "5be83727da6fbc56e70d8f600424776943cc2e51aa408d1285c0f463e3ba589c",
+    "body_file": "http/kazumi_current_index.txt",
+    "json": true,
+    "elapsed_ms": 570
+  },
+  "kazumi_index_count": 16,
+  "anime_and_web_sites": [
+    {
+      "record_id": "A001",
+      "name": "7sefun",
+      "url": "https://www.7sefun.top/",
+      "type": "XPath网页",
+      "note": "不是通用CMS采集接口，需单独适配规则",
+      "original": "https://www.7sefun.top/",
+      "evidence_url": "https://github.com/Predidit/KazumiRules/blob/main/7sefun.json",
+      "sheet": "02_动漫站点",
+      "row": 6,
+      "base_http_probe": {
+        "url": "https://www.7sefun.top/",
+        "checked_at": "2026-10-15T03:53:38.808985+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://www.7sefun.top/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 36374,
+        "sha256": "7f53a93a0fdb7a76d1b633cb06d139db9c9886067ff897b56fcd58e4b2a313f6",
+        "body_file": "http/A001_base.txt",
+        "json": false,
+        "elapsed_ms": 1638
+      },
+      "decision": "existing_kazumi",
+      "existing_provider_ids": [
+        "kazumi_7sefun"
+      ],
+      "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+      "rule_versions": [
+        {
+          "name": "7sefun",
+          "built_in": "1.3",
+          "current_index": "1.3",
+          "requires_rule_update": false
+        }
+      ]
+    },
+    {
+      "record_id": "A002",
+      "name": "aafun / moonci",
+      "url": "https://www.moonci.com/",
+      "type": "XPath网页",
+      "note": "与aafun/moonci共用基础站，合并统计",
+      "original": "https://www.moonci.com/",
+      "evidence_url": "https://github.com/Predidit/KazumiRules/blob/main/aafun.json\nhttps://github.com/Predidit/KazumiRules/blob/main/moonci.json",
+      "sheet": "02_动漫站点",
+      "row": 7,
+      "base_http_probe": {
+        "url": "https://www.moonci.com/",
+        "checked_at": "2026-10-15T03:53:38.808985+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://www.moonci.com/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 87284,
+        "sha256": "2b4eb566b49e1851131f59903c41a118ae26e24e1069b2b43235cc96619f0db1",
+        "body_file": "http/A002_base.txt",
+        "json": false,
+        "elapsed_ms": 1257
+      },
+      "decision": "existing_kazumi",
+      "existing_provider_ids": [
+        "kazumi_aafun",
+        "kazumi_moonci"
+      ],
+      "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+      "rule_versions": [
+        {
+          "name": "aafun",
+          "built_in": "1.2",
+          "current_index": "1.2",
+          "requires_rule_update": false
+        },
+        {
+          "name": "moonci",
+          "built_in": "1.0",
+          "current_index": "1.0",
+          "requires_rule_update": false
+        }
+      ]
+    },
+    {
+      "record_id": "A003",
+      "name": "AGE",
+      "url": "https://www.agedm.io/",
+      "type": "XPath网页",
+      "note": "不是通用CMS采集接口，需单独适配规则",
+      "original": "https://www.agedm.io/",
+      "evidence_url": "https://github.com/Predidit/KazumiRules/blob/main/AGE.json",
+      "sheet": "02_动漫站点",
+      "row": 8,
+      "base_http_probe": {
+        "url": "https://www.agedm.io/",
+        "checked_at": "2026-10-15T03:53:38.808985+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://www.agedm.io/",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 141527,
+        "sha256": "c259bab86acc7b75e5616c5c63a334fb64af0bd430aca025da31f1f31f4751ad",
+        "body_file": "http/A003_base.txt",
+        "json": false,
+        "elapsed_ms": 874
+      },
+      "decision": "existing_kazumi",
+      "existing_provider_ids": [
+        "kazumi_age"
+      ],
+      "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+      "rule_versions": [
+        {
+          "name": "AGE",
+          "built_in": "1.5",
+          "current_index": "1.5",
+          "requires_rule_update": false
+        }
+      ]
+    },
+    {
+      "record_id": "A004",
+      "name": "akianime",
+      "url": "https://www.akianime.cc/",
+      "type": "XPath网页",
+      "note": "不是通用CMS采集接口，需单独适配规则",
+      "original": "https://www.akianime.cc/",
+      "evidence_url": "https://github.com/Predidit/KazumiRules/blob/main/akianime.json",
+      "sheet": "02_动漫站点",
+      "row": 9,
+      "base_http_probe": {
+        "url": "https://www.akianime.cc/",
+        "checked_at": "2026-10-15T03:53:38.808985+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://www.akianime.cc/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 92563,
+        "sha256": "5cc4d411aee69fbdb3506a28703625332132ad152441b381c8ed092e2ceb6463",
+        "body_file": "http/A004_base.txt",
+        "json": false,
+        "elapsed_ms": 1494
+      },
+      "decision": "existing_kazumi",
+      "existing_provider_ids": [
+        "kazumi_akianime"
+      ],
+      "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+      "rule_versions": [
+        {
+          "name": "akianime",
+          "built_in": "1.4",
+          "current_index": "1.4",
+          "requires_rule_update": false
+        }
+      ]
+    },
+    {
+      "record_id": "A005",
+      "name": "baimao",
+      "url": "https://www.baimaodm.com/",
+      "type": "XPath网页",
+      "note": "不是通用CMS采集接口，需单独适配规则",
+      "original": "https://www.baimaodm.com/",
+      "evidence_url": "https://github.com/Predidit/KazumiRules/blob/main/baimao.json",
+      "sheet": "02_动漫站点",
+      "row": 10,
+      "base_http_probe": {
+        "url": "https://www.baimaodm.com/",
+        "checked_at": "2026-10-15T03:53:38.809990+00:00",
+        "redirects": [
+          {
+            "from": "https://www.baimaodm.com/",
+            "to": "https://www.bmmdmm.com/",
+            "status": 301
+          }
+        ],
+        "status": 200,
+        "final_url": "https://www.bmmdmm.com/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 75799,
+        "sha256": "3edf883362c383cdc6d7bd455d9f65ea5912b36bac649f979603a998db8b4451",
+        "body_file": "http/A005_base.txt",
+        "json": false,
+        "elapsed_ms": 3183
+      },
+      "decision": "existing_kazumi",
+      "existing_provider_ids": [
+        "kazumi_baimao"
+      ],
+      "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+      "rule_versions": [
+        {
+          "name": "baimao",
+          "built_in": "1.0",
+          "current_index": "1.0",
+          "requires_rule_update": false
+        }
+      ]
+    },
+    {
+      "record_id": "A006",
+      "name": "dalvdm",
+      "url": "https://www.sbdl.cc/",
+      "type": "XPath网页；规则声明验证码",
+      "note": "不是通用CMS采集接口，需单独适配规则",
+      "original": "https://www.sbdl.cc/",
+      "evidence_url": "https://github.com/Predidit/KazumiRules/blob/main/dalvdm.json",
+      "sheet": "02_动漫站点",
+      "row": 11,
+      "base_http_probe": {
+        "url": "https://www.sbdl.cc/",
+        "checked_at": "2026-10-15T03:53:38.809990+00:00",
+        "redirects": [],
+        "status": 403,
+        "final_url": "https://www.sbdl.cc/",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 4910,
+        "sha256": "7aee8f654da2dc370e9a8508108896b8d89b0f31fe4f4d67bb7931c861dc5e58",
+        "body_file": "http/A006_base.txt",
+        "json": false,
+        "elapsed_ms": 537
+      },
+      "decision": "existing_kazumi",
+      "existing_provider_ids": [
+        "kazumi_dalvdm"
+      ],
+      "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+      "rule_versions": [
+        {
+          "name": "dalvdm",
+          "built_in": "1.1",
+          "current_index": "1.1",
+          "requires_rule_update": false
+        }
+      ]
+    },
+    {
+      "record_id": "A007",
+      "name": "DM84",
+      "url": "https://dmbus.cc/",
+      "type": "XPath网页",
+      "note": "不是通用CMS采集接口，需单独适配规则",
+      "original": "https://dmbus.cc/",
+      "evidence_url": "https://github.com/Predidit/KazumiRules/blob/main/DM84.json",
+      "sheet": "02_动漫站点",
+      "row": 12,
+      "base_http_probe": {
+        "url": "https://dmbus.cc/",
+        "checked_at": "2026-10-15T03:53:38.809990+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://dmbus.cc/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 41196,
+        "sha256": "cf9cb17a84bf2e0bb9f508ef3966de386beb1c983b4e241e582415b19095de73",
+        "body_file": "http/A007_base.txt",
+        "json": false,
+        "elapsed_ms": 736
+      },
+      "decision": "existing_kazumi",
+      "existing_provider_ids": [
+        "kazumi_dm84"
+      ],
+      "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+      "rule_versions": [
+        {
+          "name": "DM84",
+          "built_in": "1.4",
+          "current_index": "1.4",
+          "requires_rule_update": false
+        }
+      ]
+    },
+    {
+      "record_id": "A008",
+      "name": "ezdmw",
+      "url": "https://m.ezdmw.org/",
+      "type": "XPath网页；配置Referer",
+      "note": "不是通用CMS采集接口，需单独适配规则",
+      "original": "https://m.ezdmw.org/",
+      "evidence_url": "https://github.com/Predidit/KazumiRules/blob/main/ezdmw.json",
+      "sheet": "02_动漫站点",
+      "row": 13,
+      "base_http_probe": {
+        "url": "https://m.ezdmw.org/",
+        "checked_at": "2026-10-15T03:53:38.810990+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://m.ezdmw.org/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 117116,
+        "sha256": "93beb8137e8367eea5e886980aabb171a599d2f5ac588e315811ccaa9ea8c398",
+        "body_file": "http/A008_base.txt",
+        "json": false,
+        "elapsed_ms": 1180
+      },
+      "decision": "existing_kazumi",
+      "existing_provider_ids": [
+        "kazumi_ezdmw"
+      ],
+      "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+      "rule_versions": [
+        {
+          "name": "ezdmw",
+          "built_in": "1.2",
+          "current_index": "1.2",
+          "requires_rule_update": false
+        }
+      ]
+    },
+    {
+      "record_id": "A009",
+      "name": "giriGiriLove",
+      "url": "https://ani.girigirilove.com",
+      "type": "GET搜索API＋XPath选集",
+      "note": "不是通用CMS采集接口，需单独适配规则",
+      "original": "https://ani.girigirilove.com",
+      "evidence_url": "https://github.com/Predidit/KazumiRules/blob/main/giriGiriLove.json",
+      "sheet": "02_动漫站点",
+      "row": 14,
+      "base_http_probe": {
+        "url": "https://ani.girigirilove.com",
+        "checked_at": "2026-10-15T03:53:38.810990+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://ani.girigirilove.com",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 206241,
+        "sha256": "4f74060c3c99b014285919e2332b8bd4a31d9cdf31b1205d6ff6e132d8e3fa07",
+        "body_file": "http/A009_base.txt",
+        "json": false,
+        "elapsed_ms": 1417
+      },
+      "decision": "existing_kazumi",
+      "existing_provider_ids": [
+        "kazumi_girigirilove"
+      ],
+      "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+      "rule_versions": [
+        {
+          "name": "giriGiriLove",
+          "built_in": "2.4",
+          "current_index": "2.5",
+          "requires_rule_update": true
+        }
+      ]
+    },
+    {
+      "record_id": "A010",
+      "name": "mgnacg",
+      "url": "https://www.mgnacg.com",
+      "type": "XPath网页；规则声明验证码",
+      "note": "不是通用CMS采集接口，需单独适配规则",
+      "original": "https://www.mgnacg.com",
+      "evidence_url": "https://github.com/Predidit/KazumiRules/blob/main/mgnacg.json",
+      "sheet": "02_动漫站点",
+      "row": 15,
+      "base_http_probe": {
+        "url": "https://www.mgnacg.com",
+        "checked_at": "2026-10-15T03:53:38.810990+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://www.mgnacg.com",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 19924,
+        "sha256": "7a6d45f9864c7dba53a00f41cf22e85394c76b35ecb0cae04259917432aeab8a",
+        "body_file": "http/A010_base.txt",
+        "json": false,
+        "elapsed_ms": 6282
+      },
+      "decision": "existing_kazumi",
+      "existing_provider_ids": [
+        "kazumi_mgnacg"
+      ],
+      "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+      "rule_versions": [
+        {
+          "name": "mgnacg",
+          "built_in": "1.0",
+          "current_index": "1.0",
+          "requires_rule_update": false
+        }
+      ]
+    },
+    {
+      "record_id": "A011",
+      "name": "mutefun",
+      "url": "https://www.2kdm.com/voddetail/",
+      "type": "GET搜索API＋XPath选集",
+      "note": "不是通用CMS采集接口，需单独适配规则",
+      "original": "https://www.2kdm.com/voddetail/",
+      "evidence_url": "https://github.com/Predidit/KazumiRules/blob/main/mutefun.json",
+      "sheet": "02_动漫站点",
+      "row": 16,
+      "base_http_probe": {
+        "url": "https://www.2kdm.com/voddetail/",
+        "checked_at": "2026-10-15T03:53:38.810990+00:00",
+        "redirects": [],
+        "status": 404,
+        "final_url": "https://www.2kdm.com/voddetail/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 7199,
+        "sha256": "1fdb617ec52b6ad2b44ef4da4abca278a8f8b3cb5cbffc7efa9aaf3a0c6eb24a",
+        "body_file": "http/A011_base.txt",
+        "json": false,
+        "elapsed_ms": 677
+      },
+      "decision": "existing_kazumi",
+      "existing_provider_ids": [
+        "kazumi_mutefun"
+      ],
+      "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+      "rule_versions": [
+        {
+          "name": "mutefun",
+          "built_in": "1.3",
+          "current_index": "1.3",
+          "requires_rule_update": false
+        }
+      ]
+    },
+    {
+      "record_id": "A012",
+      "name": "MXdm",
+      "url": "https://www.dcc3.com",
+      "type": "XPath网页",
+      "note": "不是通用CMS采集接口，需单独适配规则",
+      "original": "https://www.dcc3.com",
+      "evidence_url": "https://github.com/Predidit/KazumiRules/blob/main/MXdm.json",
+      "sheet": "02_动漫站点",
+      "row": 17,
+      "base_http_probe": {
+        "url": "https://www.dcc3.com",
+        "checked_at": "2026-10-15T03:53:38.811989+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://www.dcc3.com",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 35328,
+        "sha256": "1194498884b266db5de7919312f90d24fbef6bc308743b30df04c5149ae51aee",
+        "body_file": "http/A012_base.txt",
+        "json": false,
+        "elapsed_ms": 697
+      },
+      "decision": "existing_kazumi",
+      "existing_provider_ids": [
+        "kazumi_mxdm"
+      ],
+      "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+      "rule_versions": [
+        {
+          "name": "MXdm",
+          "built_in": "2.4",
+          "current_index": "2.4",
+          "requires_rule_update": false
+        }
+      ]
+    },
+    {
+      "record_id": "A013",
+      "name": "sorani",
+      "url": "https://www.sorani.net/",
+      "type": "自定义JSON API",
+      "note": "不是通用CMS采集接口，需单独适配规则",
+      "original": "https://www.sorani.net/",
+      "evidence_url": "https://github.com/Predidit/KazumiRules/blob/main/sorani.json",
+      "sheet": "02_动漫站点",
+      "row": 18,
+      "base_http_probe": {
+        "url": "https://www.sorani.net/",
+        "checked_at": "2026-10-15T03:53:38.811989+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://www.sorani.net/",
+        "content_type": "text/html",
+        "bytes": 697705,
+        "sha256": "cb0b9a413ccc4df371a5a47eb58ada9a87b0400c8209764a21b08063ade7746e",
+        "body_file": "http/A013_base.txt",
+        "json": false,
+        "elapsed_ms": 2190
+      },
+      "decision": "existing_kazumi",
+      "existing_provider_ids": [
+        "kazumi_sorani"
+      ],
+      "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+      "rule_versions": [
+        {
+          "name": "sorani",
+          "built_in": "1.0",
+          "current_index": "1.0",
+          "requires_rule_update": false
+        }
+      ]
+    },
+    {
+      "record_id": "A014",
+      "name": "xfdmneo",
+      "url": "https://dm1.xfdm.pro/",
+      "type": "XPath网页＋legacy iframe规则",
+      "note": "不是通用CMS采集接口，需单独适配规则",
+      "original": "https://dm1.xfdm.pro/",
+      "evidence_url": "https://github.com/Predidit/KazumiRules/blob/main/xfdmneo.json",
+      "sheet": "02_动漫站点",
+      "row": 19,
+      "base_http_probe": {
+        "url": "https://dm1.xfdm.pro/",
+        "checked_at": "2026-10-15T03:53:38.811989+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://dm1.xfdm.pro/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 219839,
+        "sha256": "2722c7a56c842f094330b360eba795f6502aaf3d4cd6d05f4db235cced0ef017",
+        "body_file": "http/A014_base.txt",
+        "json": false,
+        "elapsed_ms": 1403
+      },
+      "decision": "existing_kazumi",
+      "existing_provider_ids": [
+        "kazumi_xfdmneo"
+      ],
+      "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+      "rule_versions": [
+        {
+          "name": "xfdmneo",
+          "built_in": "1.1",
+          "current_index": "1.1",
+          "requires_rule_update": false
+        }
+      ]
+    },
+    {
+      "record_id": "A015",
+      "name": "xfdmnext",
+      "url": "https://next.xifanacg.com/",
+      "type": "POST/RPC，另需请求头适配",
+      "note": "规则定义存在，不代表当前可搜索/可播放；不复制密钥、不绕过验证码",
+      "original": "https://next.xifanacg.com/",
+      "evidence_url": "https://github.com/Predidit/KazumiRules/blob/main/xfdmnext.json",
+      "sheet": "02_动漫站点",
+      "row": 20,
+      "base_http_probe": {
+        "url": "https://next.xifanacg.com/",
+        "checked_at": "2026-10-15T03:53:38.811989+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://next.xifanacg.com/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 503402,
+        "sha256": "605daf5b112c08965ce7d10f2562330f320b60584af5798638d48b37a1850b0c",
+        "body_file": "http/A015_base.txt",
+        "json": false,
+        "elapsed_ms": 1819
+      },
+      "decision": "existing_kazumi",
+      "existing_provider_ids": [
+        "kazumi_xfdmnext"
+      ],
+      "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+      "rule_versions": [
+        {
+          "name": "xfdmnext",
+          "built_in": "1.1",
+          "current_index": "1.1",
+          "requires_rule_update": false
+        }
+      ]
+    },
+    {
+      "record_id": "W001",
+      "name": "玩偶哥哥",
+      "url": "https://www.wogg.net/",
+      "type": "网盘索引；csp_WoGG",
+      "note": "从ext/siteUrl/site数组提取实际站点；不是可直接套用的CMS API；可能需用户网盘授权",
+      "original": "https://www.wogg.net/",
+      "evidence_url": "https://github.com/gaotianliuyun/gao/blob/master/0821.json",
+      "sheet": "04_网页网盘",
+      "row": 6,
+      "base_http_probe": {
+        "url": "https://www.wogg.net/",
+        "checked_at": "2026-10-15T03:53:38.811989+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://www.wogg.net/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 603036,
+        "sha256": "a95bbd2f03f4f8a695d4d18c7e44a8fe3ea9eb8afcbc335018e8f72710e5761d",
+        "body_file": "http/W001_base.txt",
+        "json": false,
+        "elapsed_ms": 4094
+      },
+      "decision": "needs_site_or_cloud_adapter",
+      "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+      "body_contains_challenge": false
+    },
+    {
+      "record_id": "W002",
+      "name": "在线之家",
+      "url": "https://www.zxzjhd.com/",
+      "type": "网页站；csp_Zxzj",
+      "note": "从ext/siteUrl/site数组提取实际站点；不是可直接套用的CMS API；可能需用户网盘授权",
+      "original": "https://www.zxzjhd.com/",
+      "evidence_url": "https://github.com/gaotianliuyun/gao/blob/master/0821.json",
+      "sheet": "04_网页网盘",
+      "row": 7,
+      "base_http_probe": {
+        "url": "https://www.zxzjhd.com/",
+        "checked_at": "2026-10-15T03:53:39.347003+00:00",
+        "redirects": [
+          {
+            "from": "https://www.zxzjhd.com/",
+            "to": "https://www.zxzj.run/",
+            "status": 301
+          }
+        ],
+        "status": 200,
+        "final_url": "https://www.zxzj.run/",
+        "content_type": "text/html;charset=utf-8",
+        "bytes": 60380,
+        "sha256": "a2be629bcdd73cc91d37c519e3b1098010c81be5beb6a1085d2a017450656734",
+        "body_file": "http/W002_base.txt",
+        "json": true,
+        "elapsed_ms": 1205
+      },
+      "decision": "needs_site_or_cloud_adapter",
+      "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+      "body_contains_challenge": false
+    },
+    {
+      "record_id": "W003",
+      "name": "厂长",
+      "url": "https://www.czzy77.com/",
+      "type": "网页站；csp_NewCz",
+      "note": "从ext/siteUrl/site数组提取实际站点；不是可直接套用的CMS API；可能需用户网盘授权",
+      "original": "https://www.czzy77.com/",
+      "evidence_url": "https://github.com/gaotianliuyun/gao/blob/master/0821.json",
+      "sheet": "04_网页网盘",
+      "row": 8,
+      "base_http_probe": {
+        "url": "https://www.czzy77.com/",
+        "checked_at": "2026-10-15T03:53:39.487601+00:00",
+        "redirects": [
+          {
+            "from": "https://www.czzy77.com/",
+            "to": "https://www.czzy.site/",
+            "status": 301
+          }
+        ],
+        "status": 200,
+        "final_url": "https://www.czzy.site/",
+        "content_type": "text/html",
+        "bytes": 2355,
+        "sha256": "8035c39c7c9e073737cdbd2be69762d7ac194760c258a9ac962a3b90410e2163",
+        "body_file": "http/W003_base.txt",
+        "json": false,
+        "elapsed_ms": 1745
+      },
+      "decision": "needs_site_or_cloud_adapter",
+      "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+      "body_contains_challenge": false
+    },
+    {
+      "record_id": "W004",
+      "name": "奥特/Auete",
+      "url": "https://auete.com/",
+      "type": "网页站；csp_Auete",
+      "note": "从ext/siteUrl/site数组提取实际站点；不是可直接套用的CMS API；可能需用户网盘授权",
+      "original": "https://auete.com/",
+      "evidence_url": "https://github.com/gaotianliuyun/gao/blob/master/0821.json",
+      "sheet": "04_网页网盘",
+      "row": 9,
+      "base_http_probe": {
+        "url": "https://auete.com/",
+        "checked_at": "2026-10-15T03:53:39.509203+00:00",
+        "redirects": [
+          {
+            "from": "https://auete.com/",
+            "to": "https://www.aeete.com/",
+            "status": 301
+          }
+        ],
+        "status": 200,
+        "final_url": "https://www.aeete.com/",
+        "content_type": "text/html",
+        "bytes": 60933,
+        "sha256": "94db75d818e2cd42a19336737a76c1a13720ac7e2d17fe9db5b9598672009229",
+        "body_file": "http/W004_base.txt",
+        "json": false,
+        "elapsed_ms": 1112
+      },
+      "decision": "needs_site_or_cloud_adapter",
+      "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+      "body_contains_challenge": false
+    },
+    {
+      "record_id": "W005",
+      "name": "玩偶/live",
+      "url": "https://www.wogg.live",
+      "type": "网盘索引；镜像候选",
+      "note": "从ext/siteUrl/site数组提取实际站点；不是可直接套用的CMS API；可能需用户网盘授权",
+      "original": "https://www.wogg.live",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "04_网页网盘",
+      "row": 10,
+      "base_http_probe": {
+        "url": "https://www.wogg.live",
+        "checked_at": "2026-10-15T03:53:39.546790+00:00",
+        "redirects": [],
+        "status": 403,
+        "final_url": "https://www.wogg.live",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5414,
+        "sha256": "32505f08a982f99c243966f0768aea95a7be351e5dfb4ca111ed092d2c077450",
+        "body_file": "http/W005_base.txt",
+        "json": false,
+        "elapsed_ms": 558
+      },
+      "decision": "needs_site_or_cloud_adapter",
+      "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+      "body_contains_challenge": true
+    },
+    {
+      "record_id": "W006",
+      "name": "玩偶/woggpan",
+      "url": "https://woggpan.888484.xyz",
+      "type": "网盘索引；镜像候选",
+      "note": "从ext/siteUrl/site数组提取实际站点；不是可直接套用的CMS API；可能需用户网盘授权",
+      "original": "https://woggpan.888484.xyz",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "04_网页网盘",
+      "row": 11,
+      "base_http_probe": {
+        "url": "https://woggpan.888484.xyz",
+        "checked_at": "2026-10-15T03:53:39.683464+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://woggpan.888484.xyz",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 600658,
+        "sha256": "7606ecb0e83ded60105fdcc6af03a9da28b47df9888ea7ade492644c25a3e758",
+        "body_file": "http/W006_base.txt",
+        "json": false,
+        "elapsed_ms": 2624
+      },
+      "decision": "needs_site_or_cloud_adapter",
+      "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+      "body_contains_challenge": false
+    },
+    {
+      "record_id": "W007",
+      "name": "玩偶/xxooo",
+      "url": "https://wogg.xxooo.cf",
+      "type": "网盘索引；镜像候选",
+      "note": "从ext/siteUrl/site数组提取实际站点；不是可直接套用的CMS API；可能需用户网盘授权",
+      "original": "https://wogg.xxooo.cf",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "04_网页网盘",
+      "row": 12,
+      "base_http_probe": {
+        "url": "https://wogg.xxooo.cf",
+        "checked_at": "2026-10-15T03:53:39.991106+00:00",
+        "redirects": [],
+        "error": "gaierror: [Errno 11001] getaddrinfo failed",
+        "elapsed_ms": 15
+      },
+      "decision": "needs_site_or_cloud_adapter",
+      "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+      "body_contains_challenge": false
+    },
+    {
+      "record_id": "W008",
+      "name": "玩偶/woggpan.xxooo",
+      "url": "https://woggpan.xxooo.cf",
+      "type": "网盘索引；镜像候选",
+      "note": "从ext/siteUrl/site数组提取实际站点；不是可直接套用的CMS API；可能需用户网盘授权",
+      "original": "https://woggpan.xxooo.cf",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "04_网页网盘",
+      "row": 13,
+      "base_http_probe": {
+        "url": "https://woggpan.xxooo.cf",
+        "checked_at": "2026-10-15T03:53:40.005992+00:00",
+        "redirects": [],
+        "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
+        "elapsed_ms": 179
+      },
+      "decision": "needs_site_or_cloud_adapter",
+      "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+      "body_contains_challenge": false
+    },
+    {
+      "record_id": "W009",
+      "name": "快映",
+      "url": "http://xsayang.fun",
+      "type": "网盘索引；Spider",
+      "note": "从ext/siteUrl/site数组提取实际站点；不是可直接套用的CMS API；可能需用户网盘授权",
+      "original": "http://xsayang.fun",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "04_网页网盘",
+      "row": 14,
+      "base_http_probe": {
+        "url": "http://xsayang.fun",
+        "checked_at": "2026-10-15T03:53:40.064950+00:00",
+        "redirects": [
+          {
+            "from": "http://xsayang.fun",
+            "to": "http://43.248.128.118:12512/",
+            "status": 302
+          }
+        ],
+        "status": 200,
+        "final_url": "http://43.248.128.118:12512/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 424887,
+        "sha256": "9c0415ecf85d915a60b6331ce880b17fa78a11a0c9f5e778d2395b7491b5b6fb",
+        "body_file": "http/W009_base.txt",
+        "json": false,
+        "elapsed_ms": 709
+      },
+      "decision": "needs_site_or_cloud_adapter",
+      "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+      "body_contains_challenge": false
+    },
+    {
+      "record_id": "W010",
+      "name": "花卷/zhencai",
+      "url": "https://www.hjzhencai.top",
+      "type": "网盘索引；镜像候选",
+      "note": "从ext/siteUrl/site数组提取实际站点；不是可直接套用的CMS API；可能需用户网盘授权",
+      "original": "https://www.hjzhencai.top",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "04_网页网盘",
+      "row": 15,
+      "base_http_probe": {
+        "url": "https://www.hjzhencai.top",
+        "checked_at": "2026-10-15T03:53:40.104548+00:00",
+        "redirects": [],
+        "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
+        "elapsed_ms": 199
+      },
+      "decision": "needs_site_or_cloud_adapter",
+      "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+      "body_contains_challenge": false
+    },
+    {
+      "record_id": "W011",
+      "name": "花卷/huanjuanwp",
+      "url": "https://www.huanjuanwp.shop",
+      "type": "网盘索引；镜像候选",
+      "note": "从ext/siteUrl/site数组提取实际站点；不是可直接套用的CMS API；可能需用户网盘授权",
+      "original": "https://www.huanjuanwp.shop",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "04_网页网盘",
+      "row": 16,
+      "base_http_probe": {
+        "url": "https://www.huanjuanwp.shop",
+        "checked_at": "2026-10-15T03:53:40.184622+00:00",
+        "redirects": [],
+        "status": 200,
+        "final_url": "https://www.huanjuanwp.shop",
+        "content_type": "text/html;charset=utf-8",
+        "bytes": 23319,
+        "sha256": "51db0becb4b7903ba285bc4552a0fc2ed2204f3f412acc841913a173c37d40c0",
+        "body_file": "http/W011_base.txt",
+        "json": false,
+        "elapsed_ms": 1191
+      },
+      "decision": "needs_site_or_cloud_adapter",
+      "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+      "body_contains_challenge": false
+    }
+  ],
+  "parsers_and_media_player": [
+    {
+      "record_id": "P001",
+      "name": "777解析",
+      "url": "https://jx.777jiexi.com/player/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://jx.777jiexi.com/player/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 6,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P002",
+      "name": "jsonplayer",
+      "url": "https://jx.jsonplayer.com/player/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://jx.jsonplayer.com/player/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 7,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P003",
+      "name": "xmflv",
+      "url": "https://jx.xmflv.com/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://jx.xmflv.com/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 8,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P004",
+      "name": "剖云",
+      "url": "https://www.pouyun.com/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://www.pouyun.com/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 9,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P005",
+      "name": "freejson",
+      "url": "https://h5.freejson.xyz/player/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://h5.freejson.xyz/player/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 10,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P006",
+      "name": "365",
+      "url": "https://chaxun.truechat365.com/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://chaxun.truechat365.com/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 11,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P007",
+      "name": "parwix/bozrc",
+      "url": "https://jx.bozrc.com:4433/player/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://jx.bozrc.com:4433/player/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 12,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P008",
+      "name": "parwix/player",
+      "url": "https://jx.parwix.com:4433/player/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://jx.parwix.com:4433/player/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 13,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P009",
+      "name": "parwix/analysis",
+      "url": "https://jx.parwix.com:4433/player/analysis.php?v=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://jx.parwix.com:4433/player/analysis.php?v=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 14,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P010",
+      "name": "夜幕/www",
+      "url": "https://www.yemu.xyz/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://www.yemu.xyz/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 15,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P011",
+      "name": "8090g",
+      "url": "https://www.8090g.cn/?url=",
+      "type": "类型未声明",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://www.8090g.cn/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 16,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P012",
+      "name": "油果",
+      "url": "http://json.youguo520.top/fufeng/?url=",
+      "type": "接口解析（TVBox type=1，需适配响应）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "http://json.youguo520.top/fufeng/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 17,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P013",
+      "name": "EXO",
+      "url": "https://rx.69mj.com/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://rx.69mj.com/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 18,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P014",
+      "name": "懒懒",
+      "url": "http://lanlan.ckflv.cn/?url=",
+      "type": "接口解析（TVBox type=1，需适配响应）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "http://lanlan.ckflv.cn/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 19,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P015",
+      "name": "肥猫",
+      "url": "http://xn--ihqu10cn4c.xn--z7x900a.live/jx.php?id=2&url=",
+      "type": "接口解析（TVBox type=1，需适配响应）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "http://xn--ihqu10cn4c.xn--z7x900a.live/jx.php?id=2&url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 20,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P016",
+      "name": "神秘的哥哥们",
+      "url": "http://api.888484.xyz/神秘哥哥/super.php?v=",
+      "type": "接口解析（TVBox type=1，需适配响应）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "http://api.888484.xyz/神秘哥哥/super.php?v=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 21,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P017",
+      "name": "VIP/789bh",
+      "url": "https://6.789bh.com/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://6.789bh.com/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 22,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P018",
+      "name": "PM",
+      "url": "https://www.playm3u8.cn/jiexi.php?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://www.playm3u8.cn/jiexi.php?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 23,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P019",
+      "name": "全民",
+      "url": "http://api.wpsseo.cn/?v=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "http://api.wpsseo.cn/?v=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 24,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P020",
+      "name": "m3u8.tv",
+      "url": "https://jx.m3u8.tv/jiexi/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://jx.m3u8.tv/jiexi/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 25,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P021",
+      "name": "8090.la",
+      "url": "https://www.8090.la/8090/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://www.8090.la/8090/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 26,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P022",
+      "name": "看看",
+      "url": "https://jx.m3u8.pw/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://jx.m3u8.pw/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 27,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P023",
+      "name": "巧技/pandown",
+      "url": "http://pandown.pro/app/kkdy.php?url=",
+      "type": "接口解析（TVBox type=1，需适配响应）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "http://pandown.pro/app/kkdy.php?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 28,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P024",
+      "name": "腾云",
+      "url": "https://api.tyun77.cn/api.php/provide/parseDicturl?url=",
+      "type": "接口解析（TVBox type=1，需适配响应）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://api.tyun77.cn/api.php/provide/parseDicturl?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 29,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P025",
+      "name": "咸鱼/xyflv",
+      "url": "https://jx.xyflv.cc/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://jx.xyflv.cc/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 30,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P026",
+      "name": "云解析/yparse",
+      "url": "https://jx.yparse.com/index.php?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://jx.yparse.com/index.php?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 31,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P027",
+      "name": "亮亮",
+      "url": "http://xiutan.shiyifacai.com/json/qingfeng.php?url=",
+      "type": "接口解析（TVBox type=1，需适配响应）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "http://xiutan.shiyifacai.com/json/qingfeng.php?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 32,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P028",
+      "name": "爱豆",
+      "url": "https://jx.aidouer.net/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://jx.aidouer.net/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 33,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P029",
+      "name": "云解/ik9",
+      "url": "https://yparse.ik9.cc/index.php?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://yparse.ik9.cc/index.php?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 34,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P030",
+      "name": "咸鱼/xymp4",
+      "url": "https://jx.xymp4.cc/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://jx.xymp4.cc/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 35,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P031",
+      "name": "冰豆",
+      "url": "https://bd.jx.cn/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头；88lin既有线路，不是这次新增目录",
+      "original": "https://bd.jx.cn/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json\nhttps://github.com/88lin/video_vip/blob/main/video_vip.user.js",
+      "sheet": "03_解析服务",
+      "row": 36,
+      "decision": "existing_parser_template",
+      "existing_parser_id": "bingdou",
+      "reason": "已在原配置，解析入口不增加搜索目录；原生播放不启动浏览器",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P032",
+      "name": "七七",
+      "url": "https://jx.77flv.cc/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://jx.77flv.cc/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 37,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P033",
+      "name": "夜幕/无www",
+      "url": "https://yemu.xyz/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://yemu.xyz/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 38,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P034",
+      "name": "zui解析",
+      "url": "https://jx.zui.cm/?url=",
+      "type": "网页解析（TVBox type=0）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "https://jx.zui.cm/?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 39,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P035",
+      "name": "巧技二",
+      "url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
+      "type": "接口解析（TVBox type=1，需适配响应）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 40,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P036",
+      "name": "84jia/附加playurl",
+      "url": "http://jx.84jia.com/m3u8ts.php?url=",
+      "type": "接口解析（TVBox type=1，需适配响应）",
+      "note": "只提供地址模板，不是影片目录；未附原配置中可能需要的特定请求头",
+      "original": "http://jx.84jia.com/m3u8ts.php?url=",
+      "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/dist/official.json",
+      "sheet": "03_解析服务",
+      "row": 41,
+      "decision": "parser_not_catalog",
+      "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P037",
+      "name": "麒麟",
+      "url": "https://free.maccms.xyz/?url=",
+      "type": "网页解析（88lin配置）",
+      "note": "88lin既有线路，不是这次新增目录",
+      "original": "https://free.maccms.xyz/?url=",
+      "evidence_url": "https://github.com/88lin/video_vip/blob/main/video_vip.user.js",
+      "sheet": "03_解析服务",
+      "row": 42,
+      "decision": "existing_parser_template",
+      "existing_parser_id": "qilin",
+      "reason": "已在原配置，解析入口不增加搜索目录；原生播放不启动浏览器",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P038",
+      "name": "TXNQ",
+      "url": "https://bfq.txnp.cn/player?url=",
+      "type": "网页解析（88lin配置）",
+      "note": "88lin既有线路，不是这次新增目录",
+      "original": "https://bfq.txnp.cn/player?url=",
+      "evidence_url": "https://github.com/88lin/video_vip/blob/main/video_vip.user.js",
+      "sheet": "03_解析服务",
+      "row": 43,
+      "decision": "existing_parser_template",
+      "existing_parser_id": "txnq",
+      "reason": "已在原配置，解析入口不增加搜索目录；原生播放不启动浏览器",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P039",
+      "name": "七哥",
+      "url": "https://jx.202617.xyz/tv.php?url=",
+      "type": "网页解析（88lin配置）",
+      "note": "88lin既有线路，不是这次新增目录",
+      "original": "https://jx.202617.xyz/tv.php?url=",
+      "evidence_url": "https://github.com/88lin/video_vip/blob/main/video_vip.user.js",
+      "sheet": "03_解析服务",
+      "row": 44,
+      "decision": "existing_parser_template",
+      "existing_parser_id": "qige",
+      "reason": "已在原配置，解析入口不增加搜索目录；原生播放不启动浏览器",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P040",
+      "name": "fongmi",
+      "url": "https://json.fongmi.cc/web?url=",
+      "type": "网页解析（88lin配置）",
+      "note": "88lin既有线路，不是这次新增目录",
+      "original": "https://json.fongmi.cc/web?url=",
+      "evidence_url": "https://github.com/88lin/video_vip/blob/main/video_vip.user.js",
+      "sheet": "03_解析服务",
+      "row": 45,
+      "decision": "existing_parser_template",
+      "existing_parser_id": "fongmi",
+      "reason": "已在原配置，解析入口不增加搜索目录；原生播放不启动浏览器",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P041",
+      "name": "HLS解析",
+      "url": "https://jx.hls.one/?url=",
+      "type": "网页解析（88lin配置）",
+      "note": "88lin既有线路，不是这次新增目录；上轮见过入口异常，本次不重新判断服务是否关闭",
+      "original": "https://jx.hls.one/?url=",
+      "evidence_url": "https://github.com/88lin/video_vip/blob/main/video_vip.user.js",
+      "sheet": "03_解析服务",
+      "row": 46,
+      "decision": "existing_parser_template",
+      "existing_parser_id": "hls",
+      "reason": "已在原配置，解析入口不增加搜索目录；原生播放不启动浏览器",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "P042",
+      "name": "Player-JY",
+      "url": "https://jx.playerjy.com/?url=",
+      "type": "网页解析（88lin配置）",
+      "note": "88lin既有线路，不是这次新增目录",
+      "original": "https://jx.playerjy.com/?url=",
+      "evidence_url": "https://github.com/88lin/video_vip/blob/main/video_vip.user.js",
+      "sheet": "03_解析服务",
+      "row": 47,
+      "decision": "existing_parser_template",
+      "existing_parser_id": "playerjy",
+      "reason": "已在原配置，解析入口不增加搜索目录；原生播放不启动浏览器",
+      "network_probe_performed": false,
+      "decode_tested": false
+    },
+    {
+      "record_id": "V001",
+      "name": "无损云网页播放器",
+      "url": "https://wsyzy.vip/m3u8/?url=",
+      "type": "媒体URL播放器",
+      "note": "输入资源目录返回的媒体地址；不增加片名搜索范围；不是官方URL解析器",
+      "original": "https://wsyzy.vip/m3u8/?url=",
+      "evidence_url": "https://github.com/88lin/video_vip/blob/main/video_vip.user.js",
+      "sheet": "05_媒体播放器",
+      "row": 6,
+      "decision": "existing_web_player_reference",
+      "reason": "已有无损云网页播放器配置，原生客户端直接交libmpv播放媒体，不增加目录",
+      "network_probe_performed": false,
+      "decode_tested": false
+    }
+  ],
+  "scope": {
+    "base_http_response_is_not_search_or_playback": true,
+    "executed_remote_javascript": false,
+    "executed_remote_spider_or_jar": false,
+    "downloaded_media_segments": 0
+  }
+}

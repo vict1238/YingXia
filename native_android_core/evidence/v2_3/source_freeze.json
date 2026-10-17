@@ -1,0 +1,850 @@
+{
+  "version": "2.3.0",
+  "scope": "Go production, fixtures, tests and vendored module sources",
+  "files": [
+    {
+      "file": "native_android_core/core.go",
+      "sha256": "9cbd151246410b66709b2259cdde0418926fce37e860f4e486715edb37304b08"
+    },
+    {
+      "file": "native_android_core/core_start_fixture.go",
+      "sha256": "e3bea8c41a9626042a2612465d60ac9cdffed79a17df3e77522025368bd9367f"
+    },
+    {
+      "file": "native_android_core/core_start_release.go",
+      "sha256": "f5325865ea9b1547d9ac47570c59e039f47ddb62c21efce805f73931b7d33f00"
+    },
+    {
+      "file": "native_android_core/core_test.go",
+      "sha256": "d014fb07a0124a7bca12be32dfed9d64e30e3afb7caf16207ca6ce98bd590116"
+    },
+    {
+      "file": "native_android_core/go.mod",
+      "sha256": "081e43ad32a80383d4ff89fe6b9b3884be6592a0db072fd96a98a70cd27b728c"
+    },
+    {
+      "file": "native_android_core/go.sum",
+      "sha256": "47674fc5b9022477e6a149affba98e7f51fbf2e3e250bf86a256d4bed5700e7e"
+    },
+    {
+      "file": "native_android_core/cmd/native_backend/main.go",
+      "sha256": "b06cb838ce710af5d15d11ac329774d4a671a7910943d5f9fc6b01d5b2946317"
+    },
+    {
+      "file": "native_android_core/cmd/native_fixture/main.go",
+      "sha256": "72c158f6c39f2df01dc814dffe8ce8f1bca593c96df572c000c980b66e470962"
+    },
+    {
+      "file": "native_android_core/internal/engine/alternatives.go",
+      "sha256": "9e9ebecff8f8c4cfce1cb0b103ffcf90746848808c2979a34b100ffd98d940c1"
+    },
+    {
+      "file": "native_android_core/internal/engine/availability.go",
+      "sha256": "1c27fcfe0cfb7e1fca2d157f7f5dbd66a1ffa8cbe244dc1f6c7c807034e67f0c"
+    },
+    {
+      "file": "native_android_core/internal/engine/catalog.go",
+      "sha256": "338ed534b13a66e0f0f4759e9d01d7b6c1c02b71b0b8e3804d13f2160dc66e6b"
+    },
+    {
+      "file": "native_android_core/internal/engine/fixture.go",
+      "sha256": "27aba05ec19b461602f6df3c7426a148cd0bd7f46510a3755db3139bd7f87522"
+    },
+    {
+      "file": "native_android_core/internal/engine/media.go",
+      "sha256": "b723abe14af48109dafa8bc53f35c7f6f0dee4b91503bd742481bf82d5038f51"
+    },
+    {
+      "file": "native_android_core/internal/engine/media_cache.go",
+      "sha256": "cabcdf7f70d4022f4b3e921728801c220b7b2f1ccb72ba57b5680f4b379d5920"
+    },
+    {
+      "file": "native_android_core/internal/engine/media_cache_test.go",
+      "sha256": "e169193acd8259dea3d3a90952049a2e11898ae057e5ad46c7b019a94683297a"
+    },
+    {
+      "file": "native_android_core/internal/engine/media_hls.go",
+      "sha256": "b05c5a2f47f1048cf36057ec3d7de3ae03decd29f369ecf430fb0cc1a2836ac1"
+    },
+    {
+      "file": "native_android_core/internal/engine/media_hls_test.go",
+      "sha256": "8dfb8532a068dd1308efc994e51fed2f50dacf04e6967841ff022cc2f07662e0"
+    },
+    {
+      "file": "native_android_core/internal/engine/media_relay.go",
+      "sha256": "e045929f3162d2ace814d5abceedf275803ce582b80fdfad27007004dd5740bf"
+    },
+    {
+      "file": "native_android_core/internal/engine/models.go",
+      "sha256": "a459762b904f61d8d2b278103333df2512b0fd63f626f9a0d263251aa49376a8"
+    },
+    {
+      "file": "native_android_core/internal/engine/native_test.go",
+      "sha256": "b48344bb5e8e87874710d528c0d97cb04cdd5000fc6899959dee71f1afe9accb"
+    },
+    {
+      "file": "native_android_core/internal/engine/network.go",
+      "sha256": "70e42eb338ebee7c3086a6470b539632ef77dd0dcafa324a8f105224adf6d755"
+    },
+    {
+      "file": "native_android_core/internal/engine/platform_other.go",
+      "sha256": "1011f3f173ab9eba14deb0280e72a56de3c1bbf9e7d1e8c8939b1562f75ef53a"
+    },
+    {
+      "file": "native_android_core/internal/engine/platform_windows.go",
+      "sha256": "bff449823e88fe677068e6652123ab167ac0a440334e26927bdf944e4540cc0f"
+    },
+    {
+      "file": "native_android_core/internal/engine/providers.go",
+      "sha256": "bf1cd0b588a6bfc5d3b0517abf6c2fe9a1e104719874c092259aafc92729bdca"
+    },
+    {
+      "file": "native_android_core/internal/engine/providers.json",
+      "sha256": "c515ed16f167c9fd81f746f6c6738b96d0b8cd38e4d0498bb0a3e47ed156c16e"
+    },
+    {
+      "file": "native_android_core/internal/engine/resume.go",
+      "sha256": "6c2ae8bedff911a29bbf85c526d990bd7f83ab8943acc4ad1b4a9d8e686b7ce1"
+    },
+    {
+      "file": "native_android_core/internal/engine/reviewed_sources.json",
+      "sha256": "fffc972f0408dfe22e3a87058cf183cd82ab60d90d88e077e1347aa977952aa2"
+    },
+    {
+      "file": "native_android_core/internal/engine/rules.go",
+      "sha256": "bf6229f240b5575b92ab9a6831b2119bf091028868a2e5e577604a476a59a230"
+    },
+    {
+      "file": "native_android_core/internal/engine/runtime.go",
+      "sha256": "d0852110c40588ecafaea6cc7a33c4a934017f6aa62be53087b2e7f11cd10f73"
+    },
+    {
+      "file": "native_android_core/internal/engine/search_jobs.go",
+      "sha256": "d4cfdbd844ce2c77db33449a275065999c832f96f3400b2752bb4e7b5d398fdb"
+    },
+    {
+      "file": "native_android_core/internal/engine/security.go",
+      "sha256": "31eabc9eeb879acb26f88434d421dba1d705ec7739ef9e3277e41d5a5917a4ce"
+    },
+    {
+      "file": "native_android_core/internal/engine/server.go",
+      "sha256": "5c26977ac13e88ec8c38e24550c577e59ab90eeb8caf1a54a74b5f9642eebec5"
+    },
+    {
+      "file": "native_android_core/internal/engine/service.go",
+      "sha256": "7e2e9d6dc236f9e3b9ddf360daf54c4b6307484b5844769c4c2d77dbc7770c00"
+    },
+    {
+      "file": "native_android_core/internal/engine/sources.json",
+      "sha256": "669332441d346816f65203a82b7660d306c640aaa60d0017e45bb62744dbf152"
+    },
+    {
+      "file": "native_android_core/internal/engine/source_management.go",
+      "sha256": "74e53d4252c5ba0d1cb9be930ec6a578360a06e2eb5a6efd7f866c38ab746ec2"
+    },
+    {
+      "file": "native_android_core/internal/engine/source_management_test.go",
+      "sha256": "a5ee0a032b934842fecb6649d78ba9df9e0329065190f7efe3a6d95b89340443"
+    },
+    {
+      "file": "native_android_core/internal/engine/storage.go",
+      "sha256": "a0530506e1d8556d634bb88f886da986fc06a570fa31b0fdb7b1cfc9ec5dcee0"
+    },
+    {
+      "file": "native_android_core/internal/engine/title_index.go",
+      "sha256": "d652d5a39d057ea47425c8faa65bb41bef09a63a46a93ba55051819c9b9e75e5"
+    },
+    {
+      "file": "native_android_core/internal/engine/title_suggestions.go",
+      "sha256": "722d9a8d3e1f579024566e1aef02ee4a7bf8f351b6fad5544eb53e7ec551cfb2"
+    },
+    {
+      "file": "native_android_core/internal/engine/updates.go",
+      "sha256": "885a98e2d3a6da530ae6b914aeb2c50cb6c26cb4471bd48d3545f6c3f32b89a8"
+    },
+    {
+      "file": "native_android_core/internal/engine/v23_catalog_test.go",
+      "sha256": "cb7725904f27234e301eb61fabc3d0708f14cb0aead7824f8465e1a2d35925d5"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/antchfx/htmlquery/cache.go",
+      "sha256": "58d0dac1bb52c8b744f273ae05543c99807e79c58bbdece123e4dd96032ec732"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/antchfx/htmlquery/query.go",
+      "sha256": "c72879f920c127f99ba8c3af7a199e07d94576fa27063999c58167cc0a3235ee"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/antchfx/xpath/build.go",
+      "sha256": "cdd71959380b0cc7c06b1e820ed41912ff0f6bb6dcce79e099d4a1f15d292ba8"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/antchfx/xpath/cache.go",
+      "sha256": "cbfd6a7cc386a63b08d4c3b74b216d17ac769b425dcfbfa7112f87f16014f31a"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/antchfx/xpath/func.go",
+      "sha256": "95b56643f21460058944a5f036d1c9a5538aecd2f67b698d4bc6780e613bcda8"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/antchfx/xpath/func_go110.go",
+      "sha256": "329608a9ee86fb5aab1cb67da968c8fb3584320c725f02a9e10cfe3f2ef9aa3a"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/antchfx/xpath/func_pre_go110.go",
+      "sha256": "630afb00e8cbdafc66d3df92190b71b2b58235cc39f636c459defa534aea4d25"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/antchfx/xpath/operator.go",
+      "sha256": "b722055d9d64947a5a575f920ae9f49eeedbf1389b49874c49fda7dfd94877b3"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/antchfx/xpath/parse.go",
+      "sha256": "5bcba86119879a68023c40a68ddd1ce8cb7e49cb0801ac5311c50ef4fb0e9ead"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/antchfx/xpath/query.go",
+      "sha256": "7298de92354b7b2c47dd5d22e9de23f2353b2ec111ceb761063561f9dc2472ae"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/antchfx/xpath/xpath.go",
+      "sha256": "4e364f2a84b64d89a735a1e00e14994a34217916309d6448fb711c832c32f957"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/golang/groupcache/lru/lru.go",
+      "sha256": "09457d325209f5e45e81222c0ef5cebe33fd2cee31114dd2e0239723b7915219"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/mozillazg/go-pinyin/doc.go",
+      "sha256": "85bcd4dfdd735e2f5f84b955abdc09476e386f663eb145b0ae0323f727d68ba8"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/mozillazg/go-pinyin/phonetic_symbol.go",
+      "sha256": "5c2e55a430d94be4e3047d6f79c5f5768d82d3dc7715cd146dde85d25e3f513d"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/mozillazg/go-pinyin/pinyin.go",
+      "sha256": "76e91cb302f95707b2377b02cb41be826ba70d7d9a5967f109ccbf677548c89a"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/mozillazg/go-pinyin/pinyin_dict.go",
+      "sha256": "da42fc81436fa060084dc7d72b51f843854f1430c8d1b0afa8b0406b658b87e7"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/converter.go",
+      "sha256": "b3186b16a0da33873a76ef92d2f82186d9c2917840ee0e6ef94bb83c1e26f817"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/doc.go",
+      "sha256": "7e8c91ca7224ebe728e3fde4522b4a9e42ec8ebccb7f44b6ec2eef643ae63c46"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/error.go",
+      "sha256": "ada496a3712412617335c11a6646f22f3b082f3a343da0a824df1992e04cbd41"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/numconvmethod.go",
+      "sha256": "c24aeda1a064eede929f8bd65147fc00c92ad20327e03906e21dee21bfb9eb0d"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/options.go",
+      "sha256": "1db844fa566260493bd034f81d77fbacdf41cf5971390e2bff76969908b832bd"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/string.go",
+      "sha256": "0830a7d00c285575b356e57d97807305df1ea0d88071bd284aa166736368ee30"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/alt.go",
+      "sha256": "6449637496cca5f891729754ebe7682a2f83b11e1a5fbef5ec97abf5efb7f470"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/attrsetter.go",
+      "sha256": "d850d72f4564043b374b683312a5421e8aabe378b6e6ece2443a442367a000e4"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/bool.go",
+      "sha256": "d16b5667d2a887e63eb1262d241a827999e7a4f4c4adad3137f1224824b04dfa"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/builder.go",
+      "sha256": "afd59c77567d89b02c85808056ab45128c794a2fcb9e3bcd534f6a8e50c7b1e0"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/checksum.go",
+      "sha256": "84d9a0ac148acd78744dfb3038f191528198e71a2470c2df9136fa7f0df24694"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/composer.go",
+      "sha256": "cbe11fe8d7e145ab6c7a261695b012d031c6535f11fa64c725c065330c705d44"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/decompose.go",
+      "sha256": "fbf41bba2a907798a6fbf5dcbf4785f4ef62ede394eb4f0d356b3b8147ede849"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/diff.go",
+      "sha256": "1c5bd14293d20f277637d6336dec3f17a1f0d254e561714070138e3a33f13565"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/doc.go",
+      "sha256": "8bdab7c01b68cf5540de93e01d9f1d745d9b6928684d464770ea953fe4600aa5"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/fbool.go",
+      "sha256": "da813011d4e5a506f8ca92944dce575cf46482e49e7941c3e9e865b5b9fe4a6e"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/ffloat32.go",
+      "sha256": "51eeda7a6d0506f79685421893346c696abe9f20f9d1f592a779c4fc76bbd52d"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/ffloat64.go",
+      "sha256": "2e2bba3c87c65b21c7a6b7da4aa1d0e5bcd556b502df16eba984775f9efa1d32"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/filter.go",
+      "sha256": "2e6b8a56282d85af06d0e88fdafa326655bd19d38e63675e7209a399af9f607f"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/finfo.go",
+      "sha256": "17b28553dba018e900ae986e52eeaeb89e4cab92523ce49d9833914ce821ba32"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/fint.go",
+      "sha256": "7e6a33cbe204be9fa544fa72085377b93958af83ef79770c7f2811939e1f05bd"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/fint16.go",
+      "sha256": "9340959e60d9c71f88ab8db7d288d5dabb5b524827a49a249ef9589a9b0e9312"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/fint32.go",
+      "sha256": "a585448db6fa0d31b43d68ffb0eecb67010d7a087872064dc2b473dddb7486a7"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/fint64.go",
+      "sha256": "387563e6a830506a739ff36c0fa59ed746270fac1267adf82f47c10d8a3fb2a4"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/fint8.go",
+      "sha256": "9c9f6a6a16ccfcd26db897e3d1ca485f84fc88e47a5a6ed4531d64ceb7b30093"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/float.go",
+      "sha256": "af7c3e07a9e97ba0980fd0da951eac38b9e319635357694551264b5323d48846"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/fuint.go",
+      "sha256": "82b7e866781928e47891c39753278f911daf209ffa685fb0124c55744724d016"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/fuint16.go",
+      "sha256": "7981c08090864e0d4a66c609e3fd8df710cc8242b29e82756578e5beac14f1bc"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/fuint32.go",
+      "sha256": "6e3f02acecb2d78f436ef7b50d9e93d948ff61895a29686706caaa58b632638d"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/fuint64.go",
+      "sha256": "8b353fae36af8b0f7d4df2b5db52e761b39e36b0797cb52c2c581cf7a4f75aca"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/fuint8.go",
+      "sha256": "e63c391ec2ab1d44a3388871dee17c46a59ab2c06de2f98024fa124e4a8afae5"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/generifier.go",
+      "sha256": "0e78d337082222e7be302a4b6e6e3e0d912dad5df075284244e68c4530183a62"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/int.go",
+      "sha256": "a2e18d681921a58604decada6aa5916510b0e799f83f821a9a75964b685eacd2"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/recomposer.go",
+      "sha256": "2c44fdee80119d1b96c3eef0682c297c10fe368cc0537594e29e106c27545d79"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/simplifier.go",
+      "sha256": "71ac8405121da85e8f6074cf6d61906fb3104ed7ed9c270051b778e523934361"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/sinfo.go",
+      "sha256": "a03cb5e0e6745270edf3a5ca0c9547fb05a18f4355a7ae80dbd4f96ed072de4a"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/string.go",
+      "sha256": "ca385dba738b85db500520c5bbab9ddaeabaff49dee7da95f193fc5882fa3319"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/alt/time.go",
+      "sha256": "60a01775a266dbcd7ecf72b3116433054ef7a866fe2d5c90f5f5883a4d981192"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/gen/array.go",
+      "sha256": "2df1695fd25d4c5796fb579995c9bb6a065e6dbdf5db479c13d757f30b2698c4"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/gen/big.go",
+      "sha256": "ec4055ac944c753bd783003b5948d14582cbc2d009250536dc9b9056074f390d"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/gen/bool.go",
+      "sha256": "f7f5c4a5b2786dbcd11609835f5c015649c50be0f38bcd1c856ff7f308ede831"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/gen/builder.go",
+      "sha256": "81a96252e1d847a68d252cff68a3cb773298700d07c4b7e564c99de4bebff4ad"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/gen/doc.go",
+      "sha256": "a249c9ff09f10745d94468dedec432a8634d50bcfb3d413ae5adbb612663bf50"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/gen/error.go",
+      "sha256": "1fdfedccfae8442c4837b41aafafc3ca50733d2e0f1e9f136540b6f2051016a3"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/gen/float.go",
+      "sha256": "a3fe527d4f6f30c6ff93991e4ab69076eb94ce4fd793456d35d4ee1824776fd9"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/gen/int.go",
+      "sha256": "a26de7ed08bc55d412c85810b999426eaaa6f8d91de0f86d2c75880dd7f25431"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/gen/key.go",
+      "sha256": "c4729245432b50c886482864e49ebd819daae8206c2711eaf74b44e9eac277c9"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/gen/maps.go",
+      "sha256": "87fdba54dad503917fd99fcf9b70af26dd5f08934cd440f90b5c5544ed4d1ef0"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/gen/node.go",
+      "sha256": "a1b48d00af4e181ee7e0af1db32e990e0dba5c93654531e24564482754ca14b9"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/gen/number.go",
+      "sha256": "399af352507e0c6c08feb07a5558d9fa1eeccb7ac28c1f96321067d7c6074021"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/gen/object.go",
+      "sha256": "89507cc4a6e312aa8d5182a87aa7250c336485027e81f90eb408c9aecb501632"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/gen/parser.go",
+      "sha256": "9e94b2d91cf41ddd5d005035f99465106142cde705d3a50c8e18f978405546c8"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/gen/string.go",
+      "sha256": "d1627435182043200a7b6010d187ea279abfa359ffed2826b2889faddb0e1372"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/gen/time.go",
+      "sha256": "5ed2791c295ff7c38223c381d4ac050b17a63d91907def6e7a81437c0773de9a"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/at.go",
+      "sha256": "71446140254de1a15627a8a7b76cb0cda33b9e1f1ccb2d674822cbc13251c0e4"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/bracket.go",
+      "sha256": "85265662129a31a8d8755907855353f168f9b3c2440260f52ee24b2bad86bd75"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/build.go",
+      "sha256": "bdb1ec8e1e7fd53c3fa1154de78ae61b01f0afd70daf5270af3ffd4bdff16068"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/child.go",
+      "sha256": "505adbc7f66681262e5f921dec6b3936a9008bc81094fb959522cb3b60ee7c16"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/descent.go",
+      "sha256": "32884b50911fecf94bad5d0c2de0e1e2ea96d794601839d94c98abe5c7e8510e"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/doc.go",
+      "sha256": "cb348de49ad1a01789b0be625d65e8f1d190e86136e68f7cc300220c5a98316d"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/equation.go",
+      "sha256": "74a3403d689157fbd902f1141f13556d32cb109ca6356372864bcad004378974"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/expr.go",
+      "sha256": "e8aa508110302ec0ea23407acc5191ea95d0bb2183f5150a03177876de67a26d"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/filter.go",
+      "sha256": "63a5398581474c33835183ddef92b72a959c2340355ec7c9f9a9d5126952f666"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/form.go",
+      "sha256": "903ae098a04b1c0b0874c53df5235f1435ac443eb8fa8fdec9c75f161af91e74"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/frag.go",
+      "sha256": "fbc7231de56bdc72795c59ee5568691a1a406c2dc2fefbe3ee39d55561715352"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/get.go",
+      "sha256": "50ea72966be39061730cca61fc490b584d88d4fa3913ba846e60123f3977ae78"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/has.go",
+      "sha256": "197c95ce192887d3e9ab4efcd460e1f3af421f5e725650777030a1b87251bd0a"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/indexed.go",
+      "sha256": "ceafaeb0e58ec640836c69272b0b95e08c2d9f936bf391c44bde76b14b4b6fc8"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/keyed.go",
+      "sha256": "bd3b3a675cec8cb12861c767ec43814514655f0493d2a6f96bd07d8b84a25a4d"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/locate.go",
+      "sha256": "79c7e22528e203c596e900612c95d6650f082524ec0c3e00f65f6be228d38d51"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/match.go",
+      "sha256": "dcd9b4e7cc3200f607edfb2807fa8c02b64c27e89bcc736262f187f9d3c27225"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/matchhandler.go",
+      "sha256": "64eca1292807bd596b7986515e9071fa08730feeda0fbf807e1cb8909976d5c7"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/modify.go",
+      "sha256": "4e76ec9e987edf56b2ac03c1609f7def1f8db3009833b8b686d19f9c86cd8dca"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/node.go",
+      "sha256": "94e65b4ab158e3493c651d10eeace1ef720453cceaca9a9bf96f58abf3ea7b48"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/norm.go",
+      "sha256": "7a02600b8fbc1a0e45c1725e5b59ccfcf083194537e4d43579b4e29fd79b2857"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/nth.go",
+      "sha256": "a6baea9743b0b91f19de514011ba749711038ba8a7674c472c0b0fb3aae8c521"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/parse.go",
+      "sha256": "8d6c0c55633891e0e1e66c72e89cf96b5658f397dfa2699b5c791cca34d45c7a"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/proc.go",
+      "sha256": "9af0abd9fb7989c41b7d7c007d9505a64b1782da985fe1524421286b3580212b"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/procedure.go",
+      "sha256": "ff46468cc5f85afbb4f37c66c3900ac4a2fb783fd1ec3cf910703aa9a614133f"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/remove.go",
+      "sha256": "ec142d7d6e0a3bf66da9c002792454a3922fecd14f426d536775f0563d7d5dcc"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/root.go",
+      "sha256": "6f7b2ce744f96a5460cbf391d4f657ac13deee0f2f52a2e1f0a0d3bb5e94f0c9"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/script.go",
+      "sha256": "ac5892dc34df73df179fbc367f4e08d754c19b7246d3955a350fef38d21a3b18"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/set.go",
+      "sha256": "affa2e7c6697760eee3e617ee844e8cfeb64d79dd8b5b1601fdb4ee4709eeab2"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/slice.go",
+      "sha256": "e7b66dd364f251ed96c063de98a5f82eacb250575f58b78754cec73b408a7269"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/string.go",
+      "sha256": "998232d59261cda89270556345c80fbf08458d71f0467209a5d57d2d9480d457"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/union.go",
+      "sha256": "bf0511ea36af8f790e306e8e683fc826bdaa4f8a537a9543f84cf070039afc64"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/walk.go",
+      "sha256": "4fc9ca1ae18e7204e9fd2a522ea2ccdc42f6f5b0819b04bb2d81b63ab1c3ea3d"
+    },
+    {
+      "file": "native_android_core/vendor/github.com/ohler55/ojg/jp/wildcard.go",
+      "sha256": "cf52d16a2487c938b4fdf1d4741819c169bc9fc800ff71ccd8f6ca170431e251"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/net/html/const.go",
+      "sha256": "44c814afac4b0206a4f2af92607f93a72b93919ec2c3884d372edcdc24507584"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/net/html/doc.go",
+      "sha256": "e5d486a3b703d17efdf30cc9b3af6649b262c89e74cd4de285e0f079797b3c6f"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/net/html/doctype.go",
+      "sha256": "b629b17ed04bcab8d832d8caaee00f458c180fd31b6838e318a439a4bf87fffe"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/net/html/entity.go",
+      "sha256": "680a9bb55e7eca9bc0cbee59755591ab9f97abf3fe39490211eb088cc2cd62c2"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/net/html/escape.go",
+      "sha256": "d0dfaa8c3b36ef9d4578dfdf9480c654252afc6a09128d96d570e74c563c82c9"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/net/html/foreign.go",
+      "sha256": "d227ce6839726bb85fc88ec95df265901da8a04d7e2f7261101bdc7b4d1af1ad"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/net/html/iter.go",
+      "sha256": "54299c163639df83f3dd22ff31643b6b6cedbedb0c388b1f53020146a10d7504"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/net/html/node.go",
+      "sha256": "3acf739c450f61abd0fc45ccb19e4ddde2982b798791037a6a03c78603b6176f"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/net/html/nodetype_string.go",
+      "sha256": "747f99ad7577bc2e790097bf591b7e66c1856a496a5a2e515a40324659e0266c"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/net/html/parse.go",
+      "sha256": "ab68a3276498d29551d38faebd93a622c4d1d908f6f1dad00bce438e74110726"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/net/html/render.go",
+      "sha256": "c53cd811db01490a88a3932ad97e0d0622fa87a8533662fb9810bc06814c4af8"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/net/html/token.go",
+      "sha256": "28e4cab66406c656cd2ae007517bac998b3d68d18fce0e0717ed98bed44ed336"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/net/html/atom/atom.go",
+      "sha256": "86490b2027af4443dacfe96c313a6c632c03ea1acdf85f7f61c4fdde32bc2f3d"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/net/html/atom/table.go",
+      "sha256": "d7c4d0795fbc8dbec36504efcae14330b08e9a4bd8041e946f4b48ee45797e1d"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/net/html/charset/charset.go",
+      "sha256": "7810cb77bad4b115611626e3d0415126419133c5d6bb9c7424b45d721a7afdc3"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/encoding.go",
+      "sha256": "7a66d04774bf136fc1e655e0746eee54237e33ce21802d7e286c87b6e1307172"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/language/coverage.go",
+      "sha256": "d12716948854471a3536a04dc48736b0db0318ea6df61db236bc4ee0fe725375"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/language/doc.go",
+      "sha256": "4b97559b103832f3c5f22e80f2df0dd7394a469d945f79afad1654eb179fa63b"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/language/language.go",
+      "sha256": "3f2032f0367d83fb14772384d47119d27c2c427b277aa0a02913db59abe32bb0"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/language/match.go",
+      "sha256": "b8a6b973391cba46899d079173cf0b1d3064f28bb79a11c3fdc65c089cbe23d3"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/language/parse.go",
+      "sha256": "3552f8fba45f310216182d167ba1da8e0c02212ad1896eeb66b194dd546b7bc2"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/language/tables.go",
+      "sha256": "cb3c6aa474902c2728c47bcdebd5fcac0c6aa0f7e29934e984d46434c98ce716"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/language/tags.go",
+      "sha256": "247c5ce419821c135a2751029c078cc6e1472c9896dd581d67a277449e54d968"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/runes/cond.go",
+      "sha256": "a97ca46dc0d82c3f04b17efdb26244f9f779ef1cabcdd5875b17fa51dc24640e"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/runes/runes.go",
+      "sha256": "30879876f51d507e1cce28de3aa6c63966d101f92df42e6e0be18fec9dd7592f"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/transform/transform.go",
+      "sha256": "7716301e210f42b764ec78f4adffb05075f1d5103446a40b8a38043f5a7abd88"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/charmap/charmap.go",
+      "sha256": "8f2418e924ccf719fcef0ec4ca1895657c1b98dcb7df4bfeba204970ebd98b33"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/charmap/tables.go",
+      "sha256": "63a3da1a54945679073726ca71567cc7402eba352005c983866c8c0ae6b55afd"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/htmlindex/htmlindex.go",
+      "sha256": "f7de101bd433f74cc2d32a92d224c36cf04225b48323c4d66ab79805a59fb6c0"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/htmlindex/map.go",
+      "sha256": "8094e6c1a15cc74160ecd3ed326d38fdc55af9e7b1caef53f5370e31f1e94cd5"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/htmlindex/tables.go",
+      "sha256": "a2dac8908943c9b7e53aa9058086544626baaf0099839dc1dd43dfba422be076"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/internal/internal.go",
+      "sha256": "d49433c5ac6f01c29013957898b7fd9d899832d2c7d09cc137ff52a4270aff87"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/japanese/all.go",
+      "sha256": "5728aaadf3e9b98632c5cbbedc60e29ec14779bc8f020bae135c97b1548e3944"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/japanese/eucjp.go",
+      "sha256": "aa30243e36cc4dfa7168c31c7cce228109491f57b93f843d3832727c474fd50d"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/japanese/iso2022jp.go",
+      "sha256": "fa59e403d475ad0b185430c793fbd644167a2d6fa38b37670a18aa90b358c0ae"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/japanese/shiftjis.go",
+      "sha256": "23bf15129f276542aceefa460b68bd9905e68c460691b06e09c1b57c961694c3"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/japanese/tables.go",
+      "sha256": "433f4e0e9e0f2f435e0796dc6f464950f950e139c3671b75baedfc224253b66e"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/korean/euckr.go",
+      "sha256": "9fbe514d8004ae60b1fc96bdb5212bbe9d06beffe50a2b0c8c20a83779ceabf9"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/korean/tables.go",
+      "sha256": "03f3a8ecd8b970db684aedba376a5c762399799d358ae4dd6dacdb5031ce9bbf"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/simplifiedchinese/all.go",
+      "sha256": "98b67e8457b51b3b94fb0a1276c3aa006ce4bebe91f4911787d44bf964ae7898"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/simplifiedchinese/gbk.go",
+      "sha256": "509db1e531aade77b939704b307331c213b566122cb58fd6772ff16b0d4c2117"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/simplifiedchinese/hzgb2312.go",
+      "sha256": "4a7d1abc4120298617768ee17a70e0641b2c7149a86cdbb44189386fd19bd713"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/simplifiedchinese/tables.go",
+      "sha256": "c9ba772952593013705397e20afe0a25e87eb534a36c3c8aec93923557f7d663"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/traditionalchinese/big5.go",
+      "sha256": "70eb462895050cd097282354ed49c944567ac14fe1552325c8eb0ace9b4c938b"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/traditionalchinese/tables.go",
+      "sha256": "6ad4f34a2e4dca8614b9c17aab10999f9b1a727cdf08feb477662b116064bd0c"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/unicode/override.go",
+      "sha256": "56800213c1d96ac93e091ac0bdf084caf259fac616fcea62b49c5f5ecff24b8f"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/unicode/unicode.go",
+      "sha256": "277d0a491016a630f27ee7d5ee6eae73abe6a431e0b3a3962e69e7dfd4f151ef"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/internal/identifier/identifier.go",
+      "sha256": "50c99f12c73517c9314d04fb7807e7fdc57e75436306d3b38036fb17bc0c41ca"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/encoding/internal/identifier/mib.go",
+      "sha256": "7dac7c2f13c9a8f31f6f8228e71ea0ae6f470f3099a2ba8cebc4a1fbc876385a"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/internal/language/common.go",
+      "sha256": "68089abad3eed7b2559bb97510355e900a6ef2e1fac7ff89364bda9c50a2acba"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/internal/language/compact.go",
+      "sha256": "2d121c703729c5fbd5f3f13fd568af142ca8fde0f01a07e1874df22dbaadde98"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/internal/language/compose.go",
+      "sha256": "7657b95eac8448d5d2273c048d316dde3ac0e49ac058487a69b2b990ebc7f8ef"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/internal/language/coverage.go",
+      "sha256": "8c8238012deb1b3c42820c755343db1bc326dc5cbddfcc24f97abbb7e0c6cee1"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/internal/language/language.go",
+      "sha256": "19a0ccf7635fd3dbad3766d953996df5d1c24a367e44c49200ab6ec3023fc871"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/internal/language/lookup.go",
+      "sha256": "8f0ac8780f89d5c2b29b98fd599269b445d7bb612a7948c9e97d425424b5ea38"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/internal/language/match.go",
+      "sha256": "711e9c548516929762f0636a69788ba6eed6ed10bfb47634f3b5d5a1f26a1547"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/internal/language/parse.go",
+      "sha256": "0c884b51bb83d3633a51f16e90c7dbaf45c301a449e366df591eda11a3000972"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/internal/language/tables.go",
+      "sha256": "876a73fb8b8fffd239efa592ffdf903c25757b4d17b715fc80d7aee8db2b985e"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/internal/language/tags.go",
+      "sha256": "21041c1c1982b12db6f523a4feb58746dac3e2c71e8dcf9f76ac5807cd809099"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/internal/tag/tag.go",
+      "sha256": "97a27a6bfdd26d872e07d051fc27e622e1cd764943350e8bfa9cf0e2e13cc474"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/internal/utf8internal/utf8internal.go",
+      "sha256": "a2aa5c3b12a72996fcedd945dd7d1955f2e5ef76bde6f5277238d2b2d6506390"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/internal/language/compact/compact.go",
+      "sha256": "e154aa511d328fd47a9c9fc1115d9c92be2d385e885ae65c5e348ec1d5844ead"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/internal/language/compact/language.go",
+      "sha256": "1d49845ec8c93b000391718e3127c0979c054186570805fce27f7fe167ad2c5d"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/internal/language/compact/parents.go",
+      "sha256": "57dc7b46cb5b6df81ed5764b338e1b463c183e3561427307c9d25fa876d9bdc7"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/internal/language/compact/tables.go",
+      "sha256": "99415fb6642ebd291f825497d32e70ae32da8569815d8f4ef587664c6c5ce7d5"
+    },
+    {
+      "file": "native_android_core/vendor/golang.org/x/text/internal/language/compact/tags.go",
+      "sha256": "e6f98b11ee9c2d5d4d51a5d810d4ea2eff0872a8d11b962979744899e020e12c"
+    }
+  ]
+}

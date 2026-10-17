@@ -1,0 +1,13 @@
+{
+  "icon": "assets/windows/yingxia.ico",
+  "icon_sha256": "168b58d488ecec313fbf00ee42470447163e1d04235cfbeab9ee3da745f0e000",
+  "manifest": "assets/windows/yingxia.manifest",
+  "manifest_sha256": "17d18515c993ea352d9408d665844563c211f682dbd367c4b6814bc1f3a41bad",
+  "resource_object": "resource_windows_amd64.syso",
+  "resource_object_sha256": "59f40739eec89be7fdbb6a54948aee7f29cd9c437c4974f6cbae126d189780e8",
+  "resource_tool": "github.com/akavel/rsrc v0.10.2",
+  "resource_command": "go run -mod=mod github.com/akavel/rsrc@v0.10.2 -arch amd64 -ico assets/windows/yingxia.ico -manifest assets/windows/yingxia.manifest -o resource_windows_amd64.syso",
+  "icon_generator": "docs/create_windows_icon.ps1",
+  "manifest_resource_id": 1,
+  "icon_group_resource_id": 2
+}

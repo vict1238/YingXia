@@ -1,0 +1,65 @@
+{
+  "checked_date": "2026-10-10",
+  "method": "web text retrieval, may be cached; NOT a live browser playback test",
+  "parameterized_sample": "https://www.bilibili.com/bangumi/play/ep15014",
+  "observations": [
+    {
+      "name": "无损云解析",
+      "search": "https://wsyzy.cc/index.php/ajax/suggest?mid=1&wd=三体",
+      "detail_base": "https://api.wsyzy.net/api.php/provide/vod/",
+      "player": "https://wsyzy.vip/m3u8/",
+      "observation": "网页工具未取得搜索、详情或播放器可用响应；本地 DNS 请求也失败。",
+      "verdict": "未验证；不能据此判定失效",
+      "playback_verified": false
+    },
+    {
+      "name": "麒麟解析",
+      "url": "https://free.maccms.xyz/?url=",
+      "observation": "入口及带平台地址的读取未取得可分析内容。",
+      "verdict": "未验证",
+      "playback_verified": false
+    },
+    {
+      "name": "TXNQ解析",
+      "url": "https://bfq.txnp.cn/player?url=",
+      "observation": "入口及带平台地址的读取未取得可分析内容。",
+      "verdict": "未验证",
+      "playback_verified": false
+    },
+    {
+      "name": "七哥解析",
+      "url": "https://jx.202617.xyz/tv.php?url=",
+      "observation": "入口及带平台地址的读取未取得可分析内容。",
+      "verdict": "未验证",
+      "playback_verified": false
+    },
+    {
+      "name": "fongmi解析",
+      "url": "https://json.fongmi.cc/web?url=",
+      "observation": "入口及带平台地址的读取未取得可分析内容。",
+      "verdict": "未验证",
+      "playback_verified": false
+    },
+    {
+      "name": "冰豆解析",
+      "url": "https://bd.jx.cn/",
+      "observation": "网页工具返回缓存页面标题 player，无正文（标注约 6 天前抓取）；带平台参数请求未得到结果。",
+      "verdict": "只有入口页面证据，无实播证据",
+      "playback_verified": false
+    },
+    {
+      "name": "HLS解析",
+      "url": "https://jx.hls.one/",
+      "observation": "网页工具返回缓存页面：标题“江湖路远，后会无期”，正文“此去一别，不再相逢”（标注前一天抓取）；带平台参数请求未得到结果。",
+      "verdict": "疑似退役/异常；不宜默认启用，不能只据首页断言全部接口停服",
+      "playback_verified": false
+    },
+    {
+      "name": "Player-JY",
+      "url": "https://jx.playerjy.com/?url=",
+      "observation": "入口及带平台地址的读取未取得可分析内容。",
+      "verdict": "未验证",
+      "playback_verified": false
+    }
+  ]
+}

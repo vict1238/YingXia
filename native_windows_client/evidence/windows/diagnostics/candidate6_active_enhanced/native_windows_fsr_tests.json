@@ -1,0 +1,125 @@
+{
+  "platform": "win32/x64",
+  "executable": "YingXia_candidate6.exe",
+  "sha256": "d826f45a89f9aa8bbed1ed578e666a724c6f984d15756bef0d90fd73af7bd106",
+  "shipping_gui_tested": true,
+  "production_backend_history_tested": false,
+  "media_backend": "separately compiled native_fixture Go child via explicit developer override",
+  "fixture_backend_sha256": "0f1803480545b72b01353071ac8a543f41d4dabb6c8eea824728ef13486f4a46",
+  "synthetic_media_only": true,
+  "real_third_party_playback_tested": false,
+  "checks": [
+    {
+      "name": "Bundled native runner synthetic 720p playback advances",
+      "passed": true
+    },
+    {
+      "name": "Bundled native runner executes both FSR1 passes in the real 1080p output",
+      "passed": true
+    },
+    {
+      "name": "Native renderer cleanup exits without orphaned child processes",
+      "passed": true
+    }
+  ],
+  "observations": [
+    {
+      "direct_native_720_to_1080": {
+        "time": "2026-10-14T12:00:28.199760Z",
+        "event": "sample",
+        "requested": "enhanced",
+        "effective": "enhanced",
+        "source": {
+          "width": 1280,
+          "height": 720
+        },
+        "viewport": {
+          "width": 2560,
+          "height": 1440
+        },
+        "target": {
+          "width": 1920,
+          "height": 1080
+        },
+        "output": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fallback": "",
+        "active": true,
+        "buffering": false,
+        "position": 6.733333,
+        "vo_drops": 1,
+        "vo_drop_delta": 1,
+        "decoder_drops": 0,
+        "fps": 30,
+        "rate": 1,
+        "render_ms": 1.188548,
+        "vo_passes": [
+          {
+            "desc": "upload frame (naive)",
+            "avg": 573039,
+            "last": 113408,
+            "count": 193
+          },
+          {
+            "desc": "combining planes + color conversion",
+            "avg": 42132,
+            "last": 27840,
+            "count": 17
+          },
+          {
+            "desc": "user shader: YingXia FSR1 EASU (rgb)",
+            "avg": 304609,
+            "last": 251904,
+            "count": 17
+          },
+          {
+            "desc": "(remainder pass)",
+            "avg": 66861,
+            "last": 35840,
+            "count": 17
+          },
+          {
+            "desc": "scale=bilinear (rgb)",
+            "avg": 36261,
+            "last": 35840,
+            "count": 17
+          },
+          {
+            "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+            "avg": 89569,
+            "last": 89088,
+            "count": 17
+          },
+          {
+            "desc": "(remainder pass) + output to screen",
+            "avg": 75053,
+            "last": 31744,
+            "count": 17
+          },
+          {
+            "desc": "drawing osd",
+            "avg": 1024,
+            "last": 1024,
+            "count": 2
+          }
+        ],
+        "vo_passes_status": "available",
+        "shader_verified": true,
+        "hwdec": "d3d11va-copy",
+        "renderer": "hardware",
+        "gamma": "bt.1886"
+      }
+    },
+    {
+      "native_parent_exit": {
+        "code": 0,
+        "signal": null,
+        "time": "2026-10-14T12:00:29.580Z"
+      }
+    }
+  ],
+  "media_diagnostic_only": true,
+  "check_count": 3
+}

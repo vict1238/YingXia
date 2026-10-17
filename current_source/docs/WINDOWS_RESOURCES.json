@@ -1,0 +1,14 @@
+{
+  "icon": "assets/windows/yingxia.ico",
+  "icon_sha256": "168b58d488ecec313fbf00ee42470447163e1d04235cfbeab9ee3da745f0e000",
+  "manifest": "assets/windows/yingxia.manifest",
+  "manifest_sha256": "2a7ec6b6607ef4da85406e31940fa29b2d704f2d4259905b48bf23686484b12f",
+  "resource_object": "resource_windows_amd64.syso",
+  "resource_object_sha256": "ce977d6b7357ed7c34da032f4f56651366be74286f774f8e6c867d7cf9d4aac6",
+  "resource_tool": "Microsoft Windows SDK rc 10.0.26100 and MSVC cvtres 14.44.35207; resource sections preserved, unused compiler-ID symbol marked debug",
+  "resource_command": "powershell -File docs/build_windows_resources.ps1 -ToolsRoot <portable Microsoft compiler directory>",
+  "icon_generator": "docs/create_windows_icon.ps1",
+  "manifest_resource_id": 1,
+  "icon_group_resource_id": 2,
+  "file_product_version": "1.3.2"
+}

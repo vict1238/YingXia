@@ -1,0 +1,79 @@
+{
+  "production_apk_sha256": "b9d470913a117005b89006e137b7517e6bafafd717ba96b91efe934677a4f9a6",
+  "fixture_apk_sha256": "a82bebb4b671742c6925cf28dad94a375c19ef66bd023ed14b791cf6ef6dee1e",
+  "both_nondebuggable_release_aot": true,
+  "native_code_comparison": [
+    {
+      "entry": "lib/arm64-v8a/libapp.so",
+      "production_sha256": "149fefaaff2a3fc194e00b434cfd2aa9ed55dcc2b495ab5a8293ad322412074d",
+      "fixture_sha256": "149fefaaff2a3fc194e00b434cfd2aa9ed55dcc2b495ab5a8293ad322412074d",
+      "identical": true
+    },
+    {
+      "entry": "lib/arm64-v8a/libflutter.so",
+      "production_sha256": "34f4113ae93b2c7069030f0bcfede18e7c83ed548b71a75c9ebb749403d3a060",
+      "fixture_sha256": "34f4113ae93b2c7069030f0bcfede18e7c83ed548b71a75c9ebb749403d3a060",
+      "identical": true
+    },
+    {
+      "entry": "lib/arm64-v8a/libmediakitandroidhelper.so",
+      "production_sha256": "ab55b1d34665dba8fa7a451e82c466ee71b9698e7da6c9a3cb68a7c0ee7610d4",
+      "fixture_sha256": "ab55b1d34665dba8fa7a451e82c466ee71b9698e7da6c9a3cb68a7c0ee7610d4",
+      "identical": true
+    },
+    {
+      "entry": "lib/arm64-v8a/libmpv.so",
+      "production_sha256": "adf83fde58a9f6751ce6e83b9b187f651425d53ec0e20da04deb8dfb4aa775e1",
+      "fixture_sha256": "adf83fde58a9f6751ce6e83b9b187f651425d53ec0e20da04deb8dfb4aa775e1",
+      "identical": true
+    },
+    {
+      "entry": "lib/armeabi-v7a/libapp.so",
+      "production_sha256": "67dee844053b1796c432f33a557a17a0b5bf5077877b4a43b2037c0ad74a7693",
+      "fixture_sha256": "67dee844053b1796c432f33a557a17a0b5bf5077877b4a43b2037c0ad74a7693",
+      "identical": true
+    },
+    {
+      "entry": "lib/armeabi-v7a/libflutter.so",
+      "production_sha256": "c408a309f798148edc33993334e5636fc035dba2aac375066f691da8be4480f8",
+      "fixture_sha256": "c408a309f798148edc33993334e5636fc035dba2aac375066f691da8be4480f8",
+      "identical": true
+    },
+    {
+      "entry": "lib/armeabi-v7a/libmediakitandroidhelper.so",
+      "production_sha256": "506d0bc7775fe9888be6b6e889d8556ca0574dba65813866e2158cbf52a8c8b1",
+      "fixture_sha256": "506d0bc7775fe9888be6b6e889d8556ca0574dba65813866e2158cbf52a8c8b1",
+      "identical": true
+    },
+    {
+      "entry": "lib/armeabi-v7a/libmpv.so",
+      "production_sha256": "8aa2b23d16d941a8d685b8eb995b1cb31677ed3e28c55c776954eb1618ab1a2e",
+      "fixture_sha256": "8aa2b23d16d941a8d685b8eb995b1cb31677ed3e28c55c776954eb1618ab1a2e",
+      "identical": true
+    },
+    {
+      "entry": "lib/x86_64/libapp.so",
+      "production_sha256": "efe4a33b91cba551e37daf9be2b4bff2680937329053a35d5e76a6fcdc63bbf0",
+      "fixture_sha256": "efe4a33b91cba551e37daf9be2b4bff2680937329053a35d5e76a6fcdc63bbf0",
+      "identical": true
+    },
+    {
+      "entry": "lib/x86_64/libflutter.so",
+      "production_sha256": "207ff0aa7a5f6926cae6403a6f63c0b6ede457ae430546cbef8550845471abfc",
+      "fixture_sha256": "207ff0aa7a5f6926cae6403a6f63c0b6ede457ae430546cbef8550845471abfc",
+      "identical": true
+    },
+    {
+      "entry": "lib/x86_64/libmediakitandroidhelper.so",
+      "production_sha256": "6ca2d827a892b8ddd60df64fab81456ad6fd05180dd6c4a0974549858025abc9",
+      "fixture_sha256": "6ca2d827a892b8ddd60df64fab81456ad6fd05180dd6c4a0974549858025abc9",
+      "identical": true
+    },
+    {
+      "entry": "lib/x86_64/libmpv.so",
+      "production_sha256": "f030e9a1a4d4664e89d7160a3d4528cd5875ee023ff6262e16e95aac28ffaec5",
+      "fixture_sha256": "f030e9a1a4d4664e89d7160a3d4528cd5875ee023ff6262e16e95aac28ffaec5",
+      "identical": true
+    }
+  ]
+}

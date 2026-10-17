@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "All four synthetic FSR candidates passed the private availability search",
+    "FSR 720p 24fps authenticated MP4 byte range",
+    "FSR 720p 30fps authenticated MP4 byte range",
+    "FSR 720p 60fps authenticated MP4 byte range",
+    "720p HLS authenticated playlist and TS byte range",
+    "Authenticated quit exits the isolated fixture process"
+  ],
+  "passed": 6,
+  "backend_only": true,
+  "synthetic_media_only": true
+}

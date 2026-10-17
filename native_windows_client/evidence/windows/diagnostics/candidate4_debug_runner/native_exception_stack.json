@@ -1,0 +1,52 @@
+{
+  "owned_runner": "yingxia_native.exe",
+  "pid": 21840,
+  "debug_api_only": true,
+  "no_memory_dump": true,
+  "no_os_configuration_changes": true,
+  "exceptions": [
+    {
+      "code": "0xe06d7363",
+      "first_chance": true,
+      "thread_id": 34984,
+      "exception": {
+        "address": "0x7fff582c41ca",
+        "module": "KERNELBASE.dll",
+        "module_offset": "0xc41ca"
+      },
+      "parameters": [
+        "0x19930520",
+        "0xf4f804da80",
+        "0x7ffe6819f180",
+        "0x7ffe68140000"
+      ]
+    },
+    {
+      "code": "0xc0000409",
+      "first_chance": false,
+      "thread_id": 34984,
+      "exception": {
+        "address": "0x7ffe3a124829",
+        "module": "flutter_windows.dll",
+        "module_offset": "0xfb4829"
+      },
+      "parameters": [
+        "0x7"
+      ],
+      "stack": {
+        "rip": "0x7ffe3a124829",
+        "rsp": "0xf4f804c9e0",
+        "rbp": "0xf4f804d000",
+        "frames": [
+          {
+            "address": "0x7ffe3a124829",
+            "module": "flutter_windows.dll",
+            "module_offset": "0xfb4829"
+          }
+        ],
+        "symbol_engine_initialized": true
+      }
+    }
+  ],
+  "process_exit_code": 3221226505
+}

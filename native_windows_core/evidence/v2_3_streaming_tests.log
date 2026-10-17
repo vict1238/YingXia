@@ -1,0 +1,51 @@
+=== RUN   TestRelayCacheDedupCancellationAndIsolation
+--- PASS: TestRelayCacheDedupCancellationAndIsolation (0.00s)
+=== RUN   TestRelayCancelStopsUnusedFlight
+--- PASS: TestRelayCancelStopsUnusedFlight (0.00s)
+=== RUN   TestRelayRetriesWholeSegmentsBeforePublishing
+--- PASS: TestRelayRetriesWholeSegmentsBeforePublishing (0.36s)
+=== RUN   TestRelayCacheBudgetTTLAndNoStore
+--- PASS: TestRelayCacheBudgetTTLAndNoStore (0.02s)
+=== RUN   TestRelayRangeAndHeadResponses
+--- PASS: TestRelayRangeAndHeadResponses (0.00s)
+=== RUN   TestRelayPrefetchIsOnlyDemandDrivenWindow
+--- PASS: TestRelayPrefetchIsOnlyDemandDrivenWindow (0.00s)
+=== RUN   TestRelayOversizeSegmentDoesNotEnterCache
+--- PASS: TestRelayOversizeSegmentDoesNotEnterCache (0.00s)
+=== RUN   TestRelayProgressiveStreamingDoesNotTruncate512MiB
+--- PASS: TestRelayProgressiveStreamingDoesNotTruncate512MiB (0.01s)
+=== RUN   TestRelayTransientRetryCapAndShutdown
+--- PASS: TestRelayTransientRetryCapAndShutdown (0.36s)
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity/normal-short-segment
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity/paired-cue
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity/bounded-cue
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity/unbounded-cue-preserved
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity/live-sequence-preserved
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity/date-ad-class
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity/scte-out-daterange
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity/program-date-range
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity/interstitial-keeps-main-content
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity/partial-segment-not-removed
+--- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity (0.00s)
+    --- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity/normal-short-segment (0.00s)
+    --- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity/paired-cue (0.00s)
+    --- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity/bounded-cue (0.00s)
+    --- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity/unbounded-cue-preserved (0.00s)
+    --- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity/live-sequence-preserved (0.00s)
+    --- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity/date-ad-class (0.00s)
+    --- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity/scte-out-daterange (0.00s)
+    --- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity/program-date-range (0.00s)
+    --- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity/interstitial-keeps-main-content (0.00s)
+    --- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity/partial-segment-not-removed (0.00s)
+=== RUN   TestRelayAdPreferenceEncryptionAndByteRanges
+--- PASS: TestRelayAdPreferenceEncryptionAndByteRanges (0.00s)
+=== RUN   TestRelayAdMapsAndKeyRotation
+--- PASS: TestRelayAdMapsAndKeyRotation (0.00s)
+=== RUN   TestRelayPlaylistSecurityAndMaster
+--- PASS: TestRelayPlaylistSecurityAndMaster (0.00s)
+=== RUN   TestRelayLeadingAdsPreserveSequenceAndStartOffset
+--- PASS: TestRelayLeadingAdsPreserveSequenceAndStartOffset (0.00s)
+=== RUN   TestRelayLiveURLIsNotForwardCached
+--- PASS: TestRelayLiveURLIsNotForwardCached (0.00s)
+PASS

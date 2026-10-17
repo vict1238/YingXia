@@ -1,0 +1,1 @@
+tasks.register("probe") { doLast { println("KOTLIN_DSL_OK") } }

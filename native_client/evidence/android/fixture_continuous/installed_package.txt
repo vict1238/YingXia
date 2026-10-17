@@ -1,0 +1,132 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        ef89f89 com.yingxia.yingxia_native.fixture/com.yingxia.yingxia_native.MainActivity filter d6ddb8e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        e7fefaf com.yingxia.yingxia_native.fixture/androidx.profileinstaller.ProfileInstallReceiver filter 3f0229a
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        e7fefaf com.yingxia.yingxia_native.fixture/androidx.profileinstaller.ProfileInstallReceiver filter 7da8fbc
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      androidx.profileinstaller.action.SKIP_FILE:
+        e7fefaf com.yingxia.yingxia_native.fixture/androidx.profileinstaller.ProfileInstallReceiver filter 742ab45
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        e7fefaf com.yingxia.yingxia_native.fixture/androidx.profileinstaller.ProfileInstallReceiver filter 4e5d7cb
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.yingxia.yingxia_native.fixture.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (e93c7d9):
+    sourcePackage=com.yingxia.yingxia_native.fixture
+    uid=10149 gids=[] type=0 prot=signature
+    perm=PermissionInfo{6a6659e com.yingxia.yingxia_native.fixture.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Registered ContentProviders:
+  com.yingxia.yingxia_native.fixture/androidx.startup.InitializationProvider:
+    Provider{e03987f com.yingxia.yingxia_native.fixture/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [com.yingxia.yingxia_native.fixture.androidx-startup]:
+    Provider{e03987f com.yingxia.yingxia_native.fixture/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{138d04c com.yingxia.yingxia_native.fixture}
+
+Key Set Manager:
+  [com.yingxia.yingxia_native.fixture]
+      Signing KeySets: 20
+
+Packages:
+  Package [com.yingxia.yingxia_native.fixture] (b700895):
+    appId=10149
+    pkg=Package{98f3daa com.yingxia.yingxia_native.fixture}
+    codePath=/data/app/~~gnosx2Q-f4ZBDY1EXnAGxQ==/com.yingxia.yingxia_native.fixture-zhoDd1bq-ypykzDvnEtxUg==
+    resourcePath=/data/app/~~gnosx2Q-f4ZBDY1EXnAGxQ==/com.yingxia.yingxia_native.fixture-zhoDd1bq-ypykzDvnEtxUg==
+    legacyNativeLibraryDir=/data/app/~~gnosx2Q-f4ZBDY1EXnAGxQ==/com.yingxia.yingxia_native.fixture-zhoDd1bq-ypykzDvnEtxUg==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=20000 minSdk=26 targetSdk=36
+    minExtensionVersions=[]
+    versionName=2.0.0
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.PROCESS_TEXT dat=content://*/... typ=text/plain }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesLibraryFiles:
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2026-10-14 17:56:19
+    lastUpdateTime=2026-10-14 17:56:19
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{2433d9b version:2, signatures:[ab90c59b], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.yingxia.yingxia_native.fixture.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      android.permission.INTERNET
+      com.yingxia.yingxia_native.fixture.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+    install permissions:
+      android.permission.INTERNET: granted=true
+      com.yingxia.yingxia_native.fixture.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+    User 0: ceDataInode=557069 deDataInode=401544 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.yingxia.yingxia_native.fixture
+      firstInstallTime=2026-10-14 16:50:04
+      uninstallReason=0
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-2ogI.frro
+        /data/resource-cache/com.android.systemui-accent-Ajww.frro
+        /data/resource-cache/com.android.systemui-dynamic-fFQ3.frro
+      gids=[3003]
+      runtime permissions:
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    com.android.settings.intelligence:
+      com.yingxia.yingxia_native.fixture
+  queryable via interaction:
+    User 0:
+      [com.android.DeviceAsWebcam,com.android.keychain,com.android.inputdevices,com.android.location.fused,com.android.localtransport,com.android.providers.settings,com.android.settings,com.android.emulator.multidisplay,com.android.server.telecom,com.android.dynsystem,android]:
+        com.yingxia.yingxia_native.fixture
+      com.android.inputmethod.latin:
+        com.yingxia.yingxia_native.fixture
+  queryable via uses-library:
+
+Dexopt state:
+  [com.yingxia.yingxia_native.fixture]
+    path: /data/app/~~gnosx2Q-f4ZBDY1EXnAGxQ==/com.yingxia.yingxia_native.fixture-zhoDd1bq-ypykzDvnEtxUg==/base.apk
+      x86_64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~gnosx2Q-f4ZBDY1EXnAGxQ==/com.yingxia.yingxia_native.fixture-zhoDd1bq-ypykzDvnEtxUg==/oat/x86_64/base.odex]
+
+Compiler stats:
+  [com.yingxia.yingxia_native.fixture]
+     base.apk - 334

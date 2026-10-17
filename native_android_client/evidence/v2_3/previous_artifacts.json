@@ -1,0 +1,22 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "4E91A204A6BD868FD788938EFD34C01BCE263CD4C518F713A63FE605116203F6",
+    "Path": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\releases\\YingXia_v2.2.0_Native_Windows_x64.exe"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "8D44D87F02B4F5F47E9586032D565DFEE5D1DFEE16E3BA95C6A4D1147FCCD11D",
+    "Path": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\releases\\YingXia_v2.2.0_Native_Windows_Source.zip"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "423289FEEA2DCCB2D9EBD019E73D8A12D3B81B4BB9BA6B1253289EA4E6133E23",
+    "Path": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\releases\\YingXia_v2.2.0_Android.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "B1C48AE890DF6B6AF832D110DB4FB4D5567D30F6B2373F2DC8B2D852B2957274",
+    "Path": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\releases\\YingXia_v2.2.0_Android_Source.zip"
+  }
+]

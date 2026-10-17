@@ -1,0 +1,308 @@
+{
+  "project": "YingXia",
+  "version": "1.0.2-exe",
+  "date": "2026-10-12",
+  "payload_file_count": 60,
+  "files": [
+    {
+      "path": "YingXia_v1.0.2_Windows_x64.exe",
+      "size_bytes": 6821376,
+      "sha256": "12b9648f97f2fa463f4531ae0b565089de3e37f2d435132613de0e77927351ba"
+    },
+    {
+      "path": "README_zh.md",
+      "size_bytes": 1979,
+      "sha256": "8aaca4f2f603c67f88d1dec2624ca2366fc6bd7957bec75f4670c294a143f46c"
+    },
+    {
+      "path": "LICENSE.txt",
+      "size_bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "LICENSE_GO.txt",
+      "size_bytes": 1479,
+      "sha256": "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067"
+    },
+    {
+      "path": "GO_PATENTS.txt",
+      "size_bytes": 1303,
+      "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size_bytes": 977,
+      "sha256": "88ff4b58422f946275be9fece2106e5db9dd3b0831690e31cd39234b68842c60"
+    },
+    {
+      "path": "source/web/index.html",
+      "size_bytes": 7149,
+      "sha256": "4f44248f476b3e8ef71f4607f3366de0de6ed6a57fcec1cdd3656a908f801551"
+    },
+    {
+      "path": "source/web/app.js",
+      "size_bytes": 18982,
+      "sha256": "80c467ad8469527f3f22e43972f24c98345503a6350144c285f347510876a04c"
+    },
+    {
+      "path": "source/web/app.css",
+      "size_bytes": 13987,
+      "sha256": "9814b33589dc90cadf732c084efd066ffdd7ed49ce81312ab9dcc813716ef291"
+    },
+    {
+      "path": "source/ui_harness_test.go",
+      "size_bytes": 623,
+      "sha256": "f07a5a1e855c0fe116ae2026947a8373c07c2ac377542cf32d98857964b0c736"
+    },
+    {
+      "path": "source/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 977,
+      "sha256": "88ff4b58422f946275be9fece2106e5db9dd3b0831690e31cd39234b68842c60"
+    },
+    {
+      "path": "source/LICENSE_GO.txt",
+      "size_bytes": 1479,
+      "sha256": "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067"
+    },
+    {
+      "path": "source/LICENSE.txt",
+      "size_bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "source/http_test.go",
+      "size_bytes": 5474,
+      "sha256": "b309544ee9a6933973a544d0ab21c31ca332aa64eb0f2b4778c0ec9f7c276169"
+    },
+    {
+      "path": "source/GO_PATENTS.txt",
+      "size_bytes": 1303,
+      "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc"
+    },
+    {
+      "path": "source/go.mod",
+      "size_bytes": 38,
+      "sha256": "c3a284054b19eccaf4e704862fab9a3874a81380d7881ce1adf157308396182f"
+    },
+    {
+      "path": "source/testdata/demo/clip2.webm",
+      "size_bytes": 204370,
+      "sha256": "6271f5d123751d725416df8a90e71730c014253ef55cec5d9be02a52cc1496c4"
+    },
+    {
+      "path": "source/testdata/demo/clip1.webm",
+      "size_bytes": 198654,
+      "sha256": "c33f04d4b03ae986dab64230c6b07a22cee0a60f8397dd8806442d97a651a572"
+    },
+    {
+      "path": "source/storage.go",
+      "size_bytes": 5504,
+      "sha256": "5dabb0d6b85d740693147289d9c726fe09e43f9c4d7e75f1f1a58b4798322c65"
+    },
+    {
+      "path": "source/sources.json",
+      "size_bytes": 1378,
+      "sha256": "669332441d346816f65203a82b7660d306c640aaa60d0017e45bb62744dbf152"
+    },
+    {
+      "path": "source/service.go",
+      "size_bytes": 12633,
+      "sha256": "0b7f9876c47d8cb0b6c50f19fc210f028d4ffce0ae3fe73a8f30d92704bb558f"
+    },
+    {
+      "path": "source/server.go",
+      "size_bytes": 8778,
+      "sha256": "8e1695cb53ae64c48e8837d013ebe6342fbd5e21a5ae802420705c3d70a2a1dc"
+    },
+    {
+      "path": "source/security.go",
+      "size_bytes": 5409,
+      "sha256": "880be636dc557dbd377f3b1d989ceff927f0aefc2804cc82553c3e56779719f7"
+    },
+    {
+      "path": "source/README_zh.md",
+      "size_bytes": 1979,
+      "sha256": "8aaca4f2f603c67f88d1dec2624ca2366fc6bd7957bec75f4670c294a143f46c"
+    },
+    {
+      "path": "source/platform_windows.go",
+      "size_bytes": 3436,
+      "sha256": "c5d4469306888de5456d83df24986936e2da53a94daf5f86e2bdb54a648215a1"
+    },
+    {
+      "path": "source/platform_linux.go",
+      "size_bytes": 1116,
+      "sha256": "b0154716bf6ed973ce06817b6cd3d2c9c349c60ddc431043ff9386747c6d36f8"
+    },
+    {
+      "path": "source/network.go",
+      "size_bytes": 6004,
+      "sha256": "35c8572f54bcd6c1601c204b2d0561fde5d479aafbb450cf0cbf30b70659a154"
+    },
+    {
+      "path": "source/models.go",
+      "size_bytes": 8264,
+      "sha256": "b794c76d4196e961c7c9d61b91696c592ae7b242c9300da143a19a63b5a883b4"
+    },
+    {
+      "path": "source/main.go",
+      "size_bytes": 6235,
+      "sha256": "03f09f27d0213e40d38897bba09dece413319aaba9020dd4fae918d9e2124e59"
+    },
+    {
+      "path": "source/build_windows.sh",
+      "size_bytes": 210,
+      "sha256": "03b0ee30367e197297eb63fd6b7f148e1c0ccb16a1dae8dc8a13a5a29519080e"
+    },
+    {
+      "path": "source/BUILD_WINDOWS.bat",
+      "size_bytes": 455,
+      "sha256": "5b86ec4c6e561aad0d5133004f9ba5523f57699a01cb7ee210cc656cf4dc599b"
+    },
+    {
+      "path": "source/docs/browser_smoke.cjs",
+      "size_bytes": 10785,
+      "sha256": "c14fd6de3beb74d754fcf2e0cd10c38abb80a71ea42da968ab14aac064dc1a02"
+    },
+    {
+      "path": "source/core_test.go",
+      "size_bytes": 17061,
+      "sha256": "4ff12f1bacf839923faca54722e5aabc685126e8e2abda13841c30efc70398b4"
+    },
+    {
+      "path": "source/catalog.go",
+      "size_bytes": 6318,
+      "sha256": "3ad633be212cb2b545f6abf5e6b3092adb42f12f4c591f09fbfbb8a0592a1c2c"
+    },
+    {
+      "path": "source/docs/history_v1.0.1/VALIDATION.md",
+      "size_bytes": 2164,
+      "sha256": "f673b55d6e3049638c9cddc4a329094fde6d0f96b26c1be09471bc0ab84015d6"
+    },
+    {
+      "path": "source/docs/history_v1.0.1/production_cli_test.json",
+      "size_bytes": 468,
+      "sha256": "f2168020ef2a1b6564bd79fc1ac8aeedbefc76a65d795cb7008a05a3f4e74f01"
+    },
+    {
+      "path": "source/docs/history_v1.0.1/native_tests.txt",
+      "size_bytes": 10755,
+      "sha256": "1f5f4e35c875e7bcbafbce5ad36f57bdee799804287a5b41fd57939f62c7ae53"
+    },
+    {
+      "path": "source/docs/history_v1.0.1/go_vet_windows.txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source/docs/history_v1.0.1/go_vet.txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source/docs/history_v1.0.1/BUILD_INFO.json",
+      "size_bytes": 977,
+      "sha256": "b41efd48d476aa2e68d35387866fa1e331f0bf7bfa4ea7214ef22750aaf6200c"
+    },
+    {
+      "path": "source/docs/validation_v1.0.2/ui_settings.png",
+      "size_bytes": 77515,
+      "sha256": "5417eb639e902ad2d70be25ff37cb6d60b6946a32141e8eea5e7c5d115d021f8"
+    },
+    {
+      "path": "source/docs/validation_v1.0.2/ui_results.png",
+      "size_bytes": 75802,
+      "sha256": "fd5e27f4b5acfbc1fafd7fc94be123c68c8118d84190298e31efe76d26173a28"
+    },
+    {
+      "path": "source/docs/validation_v1.0.2/ui_player.png",
+      "size_bytes": 159534,
+      "sha256": "7cfd81bcc0ca8b1330fbfaa0c1568b727b99129137c7f7c53c5f1d4731fb2939"
+    },
+    {
+      "path": "source/docs/validation_v1.0.2/ui_library.png",
+      "size_bytes": 79983,
+      "sha256": "c46f580f04aea4a5226fddbdeb6bcdca303de6ba0aa8f27ef0eae3bc47755d05"
+    },
+    {
+      "path": "source/docs/validation_v1.0.2/ui_home.png",
+      "size_bytes": 26604,
+      "sha256": "9b26e91a0eb156c5b921da2bf67583d5128a8325c91ba5c939c3ad84842ce729"
+    },
+    {
+      "path": "source/docs/validation_v1.0.2/release_tests.json",
+      "size_bytes": 1049,
+      "sha256": "a2847a9c55860b2bd2eca2481278e77f60fb56a99c85797eb160d237c14ad8b3"
+    },
+    {
+      "path": "source/docs/validation_v1.0.2/release_smoke.txt",
+      "size_bytes": 471,
+      "sha256": "77e5d70cd4d234514e86eaa82242cea3e188cb9dcb53ffaf026a330bde945a64"
+    },
+    {
+      "path": "source/docs/validation_v1.0.2/release_home.png",
+      "size_bytes": 26604,
+      "sha256": "9b26e91a0eb156c5b921da2bf67583d5128a8325c91ba5c939c3ad84842ce729"
+    },
+    {
+      "path": "source/docs/validation_v1.0.2/rebuild_check.json",
+      "size_bytes": 296,
+      "sha256": "62f46ae491de16c0952e7d985f25974b93e3881f3cec255fb8aa187756ff4e31"
+    },
+    {
+      "path": "source/docs/validation_v1.0.2/go_test_windows.txt",
+      "size_bytes": 11028,
+      "sha256": "5ff2bece0b20a0521b743b33d81b3cc7db5e9b4e0a2bccafbc7c03165c03f2c7"
+    },
+    {
+      "path": "source/docs/validation_v1.0.2/browser_tests.json",
+      "size_bytes": 1858,
+      "sha256": "4a4ec77772507a742ab2e780660ecf62b8e83ab0dcd1a8dfc8e0f5b4fcbd74ba"
+    },
+    {
+      "path": "source/docs/validation_v1.0.2/browser_smoke.txt",
+      "size_bytes": 812,
+      "sha256": "c08ccee26736cf6e041883e558e5d65b4f103dcceb7d38639414df7f90a0e29f"
+    },
+    {
+      "path": "source/docs/VALIDATION.md",
+      "size_bytes": 1313,
+      "sha256": "2adf06c9b75f049ecd5a7cc0e0e5b050d6998c77a966851d5981e672f84bbe94"
+    },
+    {
+      "path": "source/docs/release_smoke.cjs",
+      "size_bytes": 6079,
+      "sha256": "c8e94dad9ad106e9bd62b722a505298c8a3f52cfd6facfc99e88870e399c3332"
+    },
+    {
+      "path": "source/docs/BUILD_INFO.json",
+      "size_bytes": 968,
+      "sha256": "3eb039818c6cb2dae4b5d0ec285c98eb70bb107aa3a0689642a73dcce4e87071"
+    },
+    {
+      "path": "source/docs/history_v1.0.1/browser/ui_settings.png",
+      "size_bytes": 211019,
+      "sha256": "d476b6eb9ad81639cbfb57570d63972eb72cfa8799d098876400a40a6ee3b855"
+    },
+    {
+      "path": "source/docs/history_v1.0.1/browser/ui_player.png",
+      "size_bytes": 212367,
+      "sha256": "550e2a30ded634b1f056d9adad12d08a9862bb808b83d7fff67aa0c8bc4bc7ca"
+    },
+    {
+      "path": "source/docs/history_v1.0.1/browser/ui_home.png",
+      "size_bytes": 157137,
+      "sha256": "f3e9a97b5381facece6b9875298e4a14a299da42d0d9c69c01e9565fe4daf522"
+    },
+    {
+      "path": "source/docs/history_v1.0.1/browser/ui_demo_results.png",
+      "size_bytes": 139331,
+      "sha256": "a0de94b913a6954262065084ab8c72c7f70d1b959aa310d2bc6c1bdd65d914cf"
+    },
+    {
+      "path": "source/docs/history_v1.0.1/browser/browser_tests.json",
+      "size_bytes": 2489,
+      "sha256": "f1ef60f7462e5b875a093112fb3e9fd8ff6b90d95a3d26fcfea72feeb11785f9"
+    }
+  ]
+}

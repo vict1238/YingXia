@@ -1,0 +1,67 @@
+{
+  "production_sha256": "423289feea2dccb2d9ebd019e73d8a12d3b81b4bb9ba6b1253289ea4e6133e23",
+  "fixture_sha256": "53d0ef1d0af8dec5e8d4ad47beaa63dbb9e15200fb953d06bf8255d080b24076",
+  "identical_native_frontend_decoder_libraries": 12,
+  "libraries": [
+    {
+      "file": "lib/arm64-v8a/libapp.so",
+      "sha256": "8c57ef6c477166c5cc1b3eebf815513876095668a8a029e927a6e0c047ebe444",
+      "identical": true
+    },
+    {
+      "file": "lib/arm64-v8a/libflutter.so",
+      "sha256": "34f4113ae93b2c7069030f0bcfede18e7c83ed548b71a75c9ebb749403d3a060",
+      "identical": true
+    },
+    {
+      "file": "lib/arm64-v8a/libmediakitandroidhelper.so",
+      "sha256": "ab55b1d34665dba8fa7a451e82c466ee71b9698e7da6c9a3cb68a7c0ee7610d4",
+      "identical": true
+    },
+    {
+      "file": "lib/arm64-v8a/libmpv.so",
+      "sha256": "adf83fde58a9f6751ce6e83b9b187f651425d53ec0e20da04deb8dfb4aa775e1",
+      "identical": true
+    },
+    {
+      "file": "lib/armeabi-v7a/libapp.so",
+      "sha256": "3ea76972c3eac80badd6d65ffc1e6f1cfa62b34e9374fd214a12c4a259455dfd",
+      "identical": true
+    },
+    {
+      "file": "lib/armeabi-v7a/libflutter.so",
+      "sha256": "c408a309f798148edc33993334e5636fc035dba2aac375066f691da8be4480f8",
+      "identical": true
+    },
+    {
+      "file": "lib/armeabi-v7a/libmediakitandroidhelper.so",
+      "sha256": "506d0bc7775fe9888be6b6e889d8556ca0574dba65813866e2158cbf52a8c8b1",
+      "identical": true
+    },
+    {
+      "file": "lib/armeabi-v7a/libmpv.so",
+      "sha256": "8aa2b23d16d941a8d685b8eb995b1cb31677ed3e28c55c776954eb1618ab1a2e",
+      "identical": true
+    },
+    {
+      "file": "lib/x86_64/libapp.so",
+      "sha256": "198ad13bc792f04d4accb6258af01a57fd8a7a8e2f04b901cee3b0583e20bddd",
+      "identical": true
+    },
+    {
+      "file": "lib/x86_64/libflutter.so",
+      "sha256": "207ff0aa7a5f6926cae6403a6f63c0b6ede457ae430546cbef8550845471abfc",
+      "identical": true
+    },
+    {
+      "file": "lib/x86_64/libmediakitandroidhelper.so",
+      "sha256": "6ca2d827a892b8ddd60df64fab81456ad6fd05180dd6c4a0974549858025abc9",
+      "identical": true
+    },
+    {
+      "file": "lib/x86_64/libmpv.so",
+      "sha256": "f030e9a1a4d4664e89d7160a3d4528cd5875ee023ff6262e16e95aac28ffaec5",
+      "identical": true
+    }
+  ]
+}

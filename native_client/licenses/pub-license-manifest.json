@@ -1,0 +1,463 @@
+{
+  "generator": "collect_licenses.ps1",
+  "flutter_version": "3.47.7",
+  "pubspec_lock_sha256": "5e0c4f885ea2659987e7844953cb832b74c9d03597534cba21db2713e939ca85",
+  "package_count": 63,
+  "notices": [
+    {
+      "package": "archive",
+      "version": "4.5.2",
+      "file": "licenses/pub/archive-4.5.2/LICENSE",
+      "sha256": "32f97d332eae7453ec4079858e6f1d74be85beeb6d3881068b47d02a379cccea",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "archive",
+      "version": "4.5.2",
+      "file": "licenses/pub/archive-4.5.2/LICENSE-other.md",
+      "sha256": "ebe5a199af245d7e3e761673fbf3db341427060407e50713861ab24bb2cb1552",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "args",
+      "version": "2.7.0",
+      "file": "licenses/pub/args-2.7.0/LICENSE",
+      "sha256": "dfb09c74e29386cd3e2719f32d4995d59526179753931d31840757c77fbf2791",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "async",
+      "version": "2.13.1",
+      "file": "licenses/pub/async-2.13.1/LICENSE",
+      "sha256": "ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "boolean_selector",
+      "version": "2.1.2",
+      "file": "licenses/pub/boolean_selector-2.1.2/LICENSE",
+      "sha256": "b71519245009a3b8f126196a5408ec031e216e8e0d985085958c6543f82a8a2a",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "characters",
+      "version": "1.4.1",
+      "file": "licenses/pub/characters-1.4.1/LICENSE",
+      "sha256": "0371d1da6a57fb791db29d29b95333429205f51f3cb2eb3a0c12d91838a38744",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "clock",
+      "version": "1.1.3",
+      "file": "licenses/pub/clock-1.1.3/LICENSE",
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "collection",
+      "version": "1.19.1",
+      "file": "licenses/pub/collection-1.19.1/LICENSE",
+      "sha256": "ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "crypto",
+      "version": "3.0.7",
+      "file": "licenses/pub/crypto-3.0.7/LICENSE",
+      "sha256": "ad6a71997da90924b2cfb1fb47ec46537f70faf469efe016168794ae45ed6888",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "dbus",
+      "version": "0.8.0",
+      "file": "licenses/pub/dbus-0.8.0/LICENSE",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "fake_async",
+      "version": "1.3.3",
+      "file": "licenses/pub/fake_async-1.3.3/LICENSE",
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "ffi",
+      "version": "2.2.0",
+      "file": "licenses/pub/ffi-2.2.0/LICENSE",
+      "sha256": "0371d1da6a57fb791db29d29b95333429205f51f3cb2eb3a0c12d91838a38744",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "ffi_leak_tracker",
+      "version": "0.1.2",
+      "file": "licenses/pub/ffi_leak_tracker-0.1.2/LICENSE",
+      "sha256": "332f290333e64ed007b4f59aeeebd8fd3ceaadfbfa226a6cf2a3ab1583281624",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "fixnum",
+      "version": "1.1.1",
+      "file": "licenses/pub/fixnum-1.1.1/LICENSE",
+      "sha256": "ff0b91d4f3c32b25cb6ec84985e8da89b0ba2a2b2f7eef353cda5e5423a20390",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "flutter",
+      "version": "0.0.0",
+      "file": "licenses/pub/flutter-0.0.0/LICENSE",
+      "sha256": "a3a9fd82f800a47377f7d3f60c60a5c91cae0495be8f329031e1448ce0f5dab9",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "flutter_lints",
+      "version": "5.0.0",
+      "file": "licenses/pub/flutter_lints-5.0.0/LICENSE",
+      "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "flutter_localizations",
+      "version": "0.0.0",
+      "file": "licenses/pub/flutter_localizations-0.0.0/LICENSE",
+      "sha256": "a3a9fd82f800a47377f7d3f60c60a5c91cae0495be8f329031e1448ce0f5dab9",
+      "inherited_from_flutter_framework": true
+    },
+    {
+      "package": "flutter_test",
+      "version": "0.0.0",
+      "file": "licenses/pub/flutter_test-0.0.0/LICENSE",
+      "sha256": "a3a9fd82f800a47377f7d3f60c60a5c91cae0495be8f329031e1448ce0f5dab9",
+      "inherited_from_flutter_framework": true
+    },
+    {
+      "package": "flutter_web_plugins",
+      "version": "0.0.0",
+      "file": "licenses/pub/flutter_web_plugins-0.0.0/LICENSE",
+      "sha256": "a3a9fd82f800a47377f7d3f60c60a5c91cae0495be8f329031e1448ce0f5dab9",
+      "inherited_from_flutter_framework": true
+    },
+    {
+      "package": "http",
+      "version": "1.6.0",
+      "file": "licenses/pub/http-1.6.0/LICENSE",
+      "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "http_parser",
+      "version": "4.1.2",
+      "file": "licenses/pub/http_parser-4.1.2/LICENSE",
+      "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "image",
+      "version": "4.12.0",
+      "file": "licenses/pub/image-4.12.0/LICENSE",
+      "sha256": "f3c17da84e0780e1c334325c73098257c32221d62498ed55ef3c1361904925aa",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "image",
+      "version": "4.12.0",
+      "file": "licenses/pub/image-4.12.0/LICENSE-other.md",
+      "sha256": "dea0e9e446e57c0987d241d5471e47e7b66796fb286706ec993c3fa6696cb08e",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "intl",
+      "version": "0.20.3",
+      "file": "licenses/pub/intl-0.20.3/LICENSE",
+      "sha256": "7e124af6a556f045cb3a20cafbdaa31602ac2c82cbcb3c3b15faaaf514b06028",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "leak_tracker",
+      "version": "11.0.2",
+      "file": "licenses/pub/leak_tracker-11.0.2/LICENSE",
+      "sha256": "08a004aa8956c3cf3b24f7f69c966247233953e18e6afaa61191ea47b7eb70f6",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "leak_tracker_flutter_testing",
+      "version": "3.0.10",
+      "file": "licenses/pub/leak_tracker_flutter_testing-3.0.10/LICENSE",
+      "sha256": "08a004aa8956c3cf3b24f7f69c966247233953e18e6afaa61191ea47b7eb70f6",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "leak_tracker_testing",
+      "version": "3.0.2",
+      "file": "licenses/pub/leak_tracker_testing-3.0.2/LICENSE",
+      "sha256": "08a004aa8956c3cf3b24f7f69c966247233953e18e6afaa61191ea47b7eb70f6",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "lints",
+      "version": "5.1.1",
+      "file": "licenses/pub/lints-5.1.1/LICENSE",
+      "sha256": "421fe78c3b5df297f8b4ab2c74f2450a274ee6d245a113091f6b9f90570af193",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "matcher",
+      "version": "0.12.20",
+      "file": "licenses/pub/matcher-0.12.20/LICENSE",
+      "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "material_color_utilities",
+      "version": "0.13.0",
+      "file": "licenses/pub/material_color_utilities-0.13.0/LICENSE",
+      "sha256": "d103f246ef4c18dab8af0c1dcf6a8af884e5cff554da7261a48ac43c17d98f2e",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "media_kit",
+      "version": "1.2.6",
+      "file": "licenses/pub/media_kit-1.2.6/LICENSE",
+      "sha256": "2e3000f38718f050869d57540c288c661a446f64df1ba4ea4764df552b04a331",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "media_kit_libs_android_video",
+      "version": "1.3.8",
+      "file": "licenses/pub/media_kit_libs_android_video-1.3.8/LICENSE",
+      "sha256": "2e3000f38718f050869d57540c288c661a446f64df1ba4ea4764df552b04a331",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "media_kit_libs_ios_video",
+      "version": "1.1.4",
+      "file": "licenses/pub/media_kit_libs_ios_video-1.1.4/LICENSE",
+      "sha256": "a78baa721ad6f5c0b2d8fb0c6cfff835ad8ed90393cac0087a90e8813490f2bd",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "media_kit_libs_linux",
+      "version": "1.2.1",
+      "file": "licenses/pub/media_kit_libs_linux-1.2.1/LICENSE",
+      "sha256": "2e3000f38718f050869d57540c288c661a446f64df1ba4ea4764df552b04a331",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "media_kit_libs_macos_video",
+      "version": "1.1.4",
+      "file": "licenses/pub/media_kit_libs_macos_video-1.1.4/LICENSE",
+      "sha256": "a78baa721ad6f5c0b2d8fb0c6cfff835ad8ed90393cac0087a90e8813490f2bd",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "media_kit_libs_video",
+      "version": "1.0.7",
+      "file": "licenses/pub/media_kit_libs_video-1.0.7/LICENSE",
+      "sha256": "2e3000f38718f050869d57540c288c661a446f64df1ba4ea4764df552b04a331",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "media_kit_libs_windows_video",
+      "version": "1.0.11",
+      "file": "licenses/pub/media_kit_libs_windows_video-1.0.11/LICENSE",
+      "sha256": "2e3000f38718f050869d57540c288c661a446f64df1ba4ea4764df552b04a331",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "media_kit_video",
+      "version": "2.0.1",
+      "file": "licenses/pub/media_kit_video-2.0.1/LICENSE",
+      "sha256": "2e3000f38718f050869d57540c288c661a446f64df1ba4ea4764df552b04a331",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "meta",
+      "version": "1.19.0",
+      "file": "licenses/pub/meta-1.19.0/LICENSE",
+      "sha256": "b71519245009a3b8f126196a5408ec031e216e8e0d985085958c6543f82a8a2a",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "package_info_plus",
+      "version": "10.2.2",
+      "file": "licenses/pub/package_info_plus-10.2.2/LICENSE",
+      "sha256": "3b38d48befd0af70b892e13d10c9e34679416c24a9277f962629951c64d71f4c",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "package_info_plus_platform_interface",
+      "version": "4.1.0",
+      "file": "licenses/pub/package_info_plus_platform_interface-4.1.0/LICENSE",
+      "sha256": "3b38d48befd0af70b892e13d10c9e34679416c24a9277f962629951c64d71f4c",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "path",
+      "version": "1.9.1",
+      "file": "licenses/pub/path-1.9.1/LICENSE",
+      "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "petitparser",
+      "version": "7.1.0",
+      "file": "licenses/pub/petitparser-7.1.0/LICENSE",
+      "sha256": "0be767174b97278f17da4923a74169e8645631f03ea3d8482ec3523c9b1a0dd3",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "plugin_platform_interface",
+      "version": "2.1.8",
+      "file": "licenses/pub/plugin_platform_interface-2.1.8/LICENSE",
+      "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "posix",
+      "version": "6.5.2",
+      "file": "licenses/pub/posix-6.5.2/LICENSE",
+      "sha256": "aaf6271abd048deb3125828613f1797b7556472de6c7acd7103bd43e9cb6a84b",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "safe_local_storage",
+      "version": "2.0.6",
+      "file": "licenses/pub/safe_local_storage-2.0.6/LICENSE",
+      "sha256": "d4cfdb498601b2872c7a09d06c62f92f5c751261bdb6fc4ce436940c7ccac78a",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "sky_engine",
+      "version": "0.0.0",
+      "file": "licenses/pub/sky_engine-0.0.0/license",
+      "sha256": "3c0040023a5789bf56d6bf41fd44f08b21758523d41f128fb7dd6beb398d1191",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "source_span",
+      "version": "1.10.2",
+      "file": "licenses/pub/source_span-1.10.2/LICENSE",
+      "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "stack_trace",
+      "version": "1.12.2",
+      "file": "licenses/pub/stack_trace-1.12.2/LICENSE",
+      "sha256": "ff0b91d4f3c32b25cb6ec84985e8da89b0ba2a2b2f7eef353cda5e5423a20390",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "stream_channel",
+      "version": "2.1.4",
+      "file": "licenses/pub/stream_channel-2.1.4/LICENSE",
+      "sha256": "ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "string_scanner",
+      "version": "1.4.1",
+      "file": "licenses/pub/string_scanner-1.4.1/LICENSE",
+      "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "synchronized",
+      "version": "3.5.0",
+      "file": "licenses/pub/synchronized-3.5.0/LICENSE",
+      "sha256": "6d07c6bb60afb906049d507e19fcc4c6b59e35c0dd0f8a7302e87b3fb0576900",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "term_glyph",
+      "version": "1.2.2",
+      "file": "licenses/pub/term_glyph-1.2.2/LICENSE",
+      "sha256": "ea97a7558a7bd7cee4e2355f7529e3cbebb0dcbb546ddb9a90f10c9eb6b08da5",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "test_api",
+      "version": "0.7.12",
+      "file": "licenses/pub/test_api-0.7.12/LICENSE",
+      "sha256": "ff1b9f0df9036c04be424b1e3ce12789bea880ad5ffc3a48e069ae2d40a087a4",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "typed_data",
+      "version": "1.4.0",
+      "file": "licenses/pub/typed_data-1.4.0/LICENSE",
+      "sha256": "ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "universal_platform",
+      "version": "1.1.0",
+      "file": "licenses/pub/universal_platform-1.1.0/LICENSE",
+      "sha256": "8a135e09d6288f03171b04f07f00eb5ee04e54f2f5e9c9b952f6adbd1de48c3f",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "uri_parser",
+      "version": "3.0.2",
+      "file": "licenses/pub/uri_parser-3.0.2/LICENSE",
+      "sha256": "2e3000f38718f050869d57540c288c661a446f64df1ba4ea4764df552b04a331",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "uuid",
+      "version": "4.6.0",
+      "file": "licenses/pub/uuid-4.6.0/LICENSE",
+      "sha256": "ad3e5523e51004e94ba9ce728805b1b4242dbccdb65e62b523800e35a8a7cfdc",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "vector_math",
+      "version": "2.4.3",
+      "file": "licenses/pub/vector_math-2.4.3/LICENSE",
+      "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "vm_service",
+      "version": "15.3.0",
+      "file": "licenses/pub/vm_service-15.3.0/LICENSE",
+      "sha256": "ad6a71997da90924b2cfb1fb47ec46537f70faf469efe016168794ae45ed6888",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "wakelock_plus",
+      "version": "1.8.1",
+      "file": "licenses/pub/wakelock_plus-1.8.1/LICENSE",
+      "sha256": "ebff92b2e4105e903605f70bac0030c20b7a1d9d43fd73f8b8aed08ab070fcb9",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "wakelock_plus_platform_interface",
+      "version": "1.7.0",
+      "file": "licenses/pub/wakelock_plus_platform_interface-1.7.0/LICENSE",
+      "sha256": "1a95201dd1f509289fbbf929f72be2a25fd73c799697e30f5e7782a9cabf5102",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "web",
+      "version": "1.1.1",
+      "file": "licenses/pub/web-1.1.1/LICENSE",
+      "sha256": "aa913ff50d7542eb8cc35b9f48a80928ac6819ba9057f85d424655e3e8dc271c",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "win32",
+      "version": "6.4.0",
+      "file": "licenses/pub/win32-6.4.0/LICENSE",
+      "sha256": "87ef8bccdd619f2345ba5b9026cf1d6cccb305e36ab83849a8a3af9293abde7e",
+      "inherited_from_flutter_framework": false
+    },
+    {
+      "package": "xml",
+      "version": "7.1.0",
+      "file": "licenses/pub/xml-7.1.0/LICENSE",
+      "sha256": "0be767174b97278f17da4923a74169e8645631f03ea3d8482ec3523c9b1a0dd3",
+      "inherited_from_flutter_framework": false
+    }
+  ]
+}

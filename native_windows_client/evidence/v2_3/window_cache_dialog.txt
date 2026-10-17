@@ -1,0 +1,27 @@
+Window: "映匣 · YingXia", App: yingxia_native.exe.
+	0 window 映匣 · YingXia Secondary Actions: Raise
+		1 pane
+			8780 group
+				8781 group
+					8782 group
+						8783 group
+							8784 group
+								8785 group
+									8786 group 提醒
+										8787 text 播放设置
+										8788 group
+											8789 group
+												8790 text 提前缓存
+												8791 button 标准 60 秒 · 最多 96 MB
+												8792 button 提前缓存 120 秒 · 最多 160 MB
+												8793 check box 跳过标记广告
+												8794 check box 卡顿时提示换源
+										8795 button 完成
+		17 title bar (settable, string) Value: 映匣 · YingXia
+			18 menu bar System ID: MenuBar
+				38 menu item System
+			20 button Minimize
+			21 button Maximize
+			22 button Close
+
+The focused UI element is 1 pane.

@@ -1,0 +1,14 @@
+{
+  "environment": "Linux x64 native executable, production backend; not Windows runtime",
+  "checks": [
+    "启动生产本机 HTTP 服务并取得会话",
+    "联网默认关闭",
+    "离线目录真实 API 返回两项",
+    "播放入口指向内置 WebM",
+    "视频分段请求返回206与正确长度",
+    "本地JSON收藏落盘",
+    "重复启动复用原进程",
+    "退出接口停止进程且清除会话文件",
+    "重启后收藏仍存在"
+  ]
+}

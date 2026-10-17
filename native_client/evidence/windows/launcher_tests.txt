@@ -1,0 +1,24 @@
+=== RUN   TestBundleCacheExtractionAndRepair
+--- PASS: TestBundleCacheExtractionAndRepair (0.06s)
+=== RUN   TestBundleRejectsTraversalDuplicateAndCorruption
+=== RUN   TestBundleRejectsTraversalDuplicateAndCorruption/../outside
+=== RUN   TestBundleRejectsTraversalDuplicateAndCorruption/a/../b
+=== RUN   TestBundleRejectsTraversalDuplicateAndCorruption/C:stream
+=== RUN   TestBundleRejectsTraversalDuplicateAndCorruption//absolute
+=== RUN   TestBundleRejectsTraversalDuplicateAndCorruption/..\outside
+=== RUN   TestBundleRejectsTraversalDuplicateAndCorruption/#00
+--- PASS: TestBundleRejectsTraversalDuplicateAndCorruption (0.01s)
+    --- PASS: TestBundleRejectsTraversalDuplicateAndCorruption/../outside (0.00s)
+    --- PASS: TestBundleRejectsTraversalDuplicateAndCorruption/a/../b (0.00s)
+    --- PASS: TestBundleRejectsTraversalDuplicateAndCorruption/C:stream (0.00s)
+    --- PASS: TestBundleRejectsTraversalDuplicateAndCorruption//absolute (0.00s)
+    --- PASS: TestBundleRejectsTraversalDuplicateAndCorruption/..\outside (0.00s)
+    --- PASS: TestBundleRejectsTraversalDuplicateAndCorruption/#00 (0.00s)
+=== RUN   TestRemoveOwnStageGuard
+--- PASS: TestRemoveOwnStageGuard (0.00s)
+=== RUN   TestChildJobTerminatesOwnedProcess
+--- PASS: TestChildJobTerminatesOwnedProcess (0.02s)
+=== RUN   TestJobChildHarness
+    job_windows_test.go:59: explicit launcher child fixture
+--- SKIP: TestJobChildHarness (0.00s)
+PASS

@@ -1,0 +1,15 @@
+{
+  "test_binary": "native_core/windows_launcher/build/YingXiaNativeRegression.exe",
+  "compiler": "go1.27.2",
+  "build_command": "CGO_ENABLED=0 GOTOOLCHAIN=local GOPROXY=off GOSUMDB=off go test -c -trimpath -ldflags=\"-H windowsgui -s -w\" -o build/YingXiaNativeRegression.exe .",
+  "execution_arguments": [
+    "-test.v",
+    "-test.count=1"
+  ],
+  "exit_code": 0,
+  "pass_records": 10,
+  "skipped_harnesses": 1,
+  "fail_records": 0,
+  "tested_shipping_exe_sha256": "dd2062a005e12626033ab5f4281be7a540c4616a2f9d0edae16654cbb6889f3b",
+  "reason_workspace_compiled_test": "Temporary debug test execution was blocked by Application Control; normal stripped GUI test artifact ran without policy changes."
+}

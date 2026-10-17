@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "version": "2.2.0-native-android",
+  "production_aar": {
+    "schema": 1,
+    "version": "2.2.0-native-android",
+    "aar": "native_android_core/build/yingxia_core.aar",
+    "bytes": 11819592,
+    "sha256": "1cc925bb13eb46fd5aeb8078504e24f579fc06bfe4941a568df8486f82a448b2",
+    "manifest": "<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" package=\"go.core.gojni\">\n<uses-sdk android:minSdkVersion=\"26\"/></manifest>",
+    "android_api": 26,
+    "abis": [
+      "jni/arm64-v8a/libgojni.so",
+      "jni/x86_64/libgojni.so",
+      "jni/armeabi-v7a/libgojni.so"
+    ],
+    "gomobile_version": "v0.0.0-20261011034528-197770444867",
+    "go_version": "go1.27.2",
+    "ndk": "28.2.13676358",
+    "native_fixture_tag": false,
+    "compiled_at": "2026-10-15T11:15:21.5225053Z"
+  },
+  "fixture_aar": {
+    "schema": 1,
+    "version": "2.2.0-native-android",
+    "aar": "native_android_core/build/yingxia_core_fixture.aar",
+    "bytes": 19385117,
+    "sha256": "8755f6274120e9ee6d234a50405412b4830bba2186ce47ec264d8e9c7cbcb297",
+    "manifest": "<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" package=\"go.core.gojni\">\n<uses-sdk android:minSdkVersion=\"26\"/></manifest>",
+    "android_api": 26,
+    "abis": [
+      "jni/arm64-v8a/libgojni.so",
+      "jni/x86_64/libgojni.so",
+      "jni/armeabi-v7a/libgojni.so"
+    ],
+    "gomobile_version": "v0.0.0-20261011034528-197770444867",
+    "go_version": "go1.27.2",
+    "ndk": "28.2.13676358",
+    "native_fixture_tag": true,
+    "intended_apk": "com.yingxia.yingxia_native.fixture",
+    "compiled_at": "2026-10-15T11:19:09.0533802Z"
+  },
+  "go_tests": {
+    "platform": "android/amd64",
+    "device": "emulator-5560",
+    "avd": "YingXia_QA_API35",
+    "api": 35,
+    "engine_top_level_pass": 14,
+    "engine_schema_subcases_pass": 5,
+    "core_lifecycle_pass": 1,
+    "engine_exit": 0,
+    "core_exit": 0,
+    "go_vet": "PASS",
+    "windows_test_exe_execution": "Application Control blocked; no system policy modification",
+    "isolated_temp_dir": "/data/local/tmp/yingxia_22_goqa_20261015/tmp",
+    "network": "controlled synthetic responses",
+    "apk_installed_by_backend_qa": false
+  },
+  "source_registry": {
+    "total": 47,
+    "legacy": 1,
+    "kazumi": 16,
+    "cms": 30,
+    "max_rule_api": 9.0,
+    "reviewed_cms_sha256": "fffc972f0408dfe22e3a87058cf183cd82ab60d90d88e077e1347aa977952aa2",
+    "kazumi_commit": "2fa4d28659f94e1eb52e7a38d79b7b9a5dcd605b"
+  },
+  "source_correspondence": "windows_source_correspondence.json",
+  "all_other_windows_sources_identical": true,
+  "production_ignored_fixture_files": [
+    "core_start_fixture.go",
+    "fixture.go",
+    "platform_windows.go"
+  ],
+  "production_embed_files": [
+    "LICENSE.txt",
+    "providers.json",
+    "reviewed_sources.json",
+    "sources.json"
+  ],
+  "fixture_tag_in_fixture_build_info": true,
+  "native_fixture_tag_in_production": false,
+  "scope": {
+    "real_external_source_reprobe": false,
+    "third_party_playback_verified": false,
+    "actual_apk_runtime": "separate client evidence",
+    "phone_arm_runtime": "not run",
+    "system_policy_changed": false
+  },
+  "verified_at": "2026-10-15T11:20:27.1098783Z",
+  "abi_fixture_tag_checks": [
+    {
+      "abi": "arm64-v8a",
+      "production_native_fixture_tag": false,
+      "fixture_native_fixture_tag": true
+    },
+    {
+      "abi": "armeabi-v7a",
+      "production_native_fixture_tag": false,
+      "fixture_native_fixture_tag": true
+    },
+    {
+      "abi": "x86_64",
+      "production_native_fixture_tag": false,
+      "fixture_native_fixture_tag": true
+    }
+  ],
+  "source_freeze": {
+    "path": "source_freeze.json",
+    "source_files": 249,
+    "archive": "native_android_core/build/yingxia_android_core_2.2.0_source.zip",
+    "bytes": 3796600,
+    "sha256": "81b662b0e76e50c7040d4d88254e9a3ede9f183ab43c58d2c835c2b38543f138",
+    "extracted_hashes_verified": true
+  },
+  "source_zip_static_audit": "source_zip_static_audit.json",
+  "test_logs": [
+    "android_engine_tests.log",
+    "android_core_tests.log",
+    "vet.log"
+  ]
+}

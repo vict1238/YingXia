@@ -1,0 +1,21 @@
+{
+  "artifact": "YingXia_v1.0_Windows_x64.exe",
+  "version": "1.0.1-exe",
+  "size_bytes": 7226368,
+  "sha256": "e7d47fe49c185c1d682c52713150f1098a19beda61e6e70128ddba21768a238b",
+  "format": "PE32+ Windows GUI x86-64",
+  "compiler": "go version go1.23.2 linux/amd64",
+  "external_go_modules": 0,
+  "requires_python": false,
+  "requires_installed_browser": true,
+  "windows_runtime_tested": false,
+  "authenticode_signed": false,
+  "real_third_party_playback_verified": false,
+  "native_linux_test_pass_records": 119,
+  "native_linux_subtests": 110,
+  "browser_checks_passed": 17,
+  "production_linux_cli_checks": 9,
+  "cross_platform_tests": "Linux native backend; Windows-specific API branches compile/vet only",
+  "browser_testing": "Linux Chromium; in-memory UI and real loopback API bridge to explicit synthetic test backend",
+  "build_command": "GOOS=windows GOARCH=amd64 CGO_ENABLED=0 go build -trimpath -ldflags='-H windowsgui -s -w' -o YingXia_v1.0_Windows_x64.exe ."
+}

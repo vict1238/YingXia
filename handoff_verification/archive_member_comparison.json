@@ -1,0 +1,21 @@
+{
+  "original_deliverables_preserved": 6,
+  "all_originals_byte_equal": true,
+  "extracted_sources": [
+    {
+      "destination": "current_source",
+      "members_verified": 39,
+      "all_byte_equal": true
+    },
+    {
+      "destination": "legacy_python",
+      "members_verified": 43,
+      "all_byte_equal": true
+    },
+    {
+      "destination": "source_audit",
+      "members_verified": 15,
+      "all_byte_equal": true
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+=== RUN   TestReviewClearDuringPendingResolve
+    review_clear_race_test.go:34: pre-clear resolve added 1 rows after successful clear
+--- FAIL: TestReviewClearDuringPendingResolve (0.02s)
+FAIL
+FAIL	yingxia.local/nativecore/internal/engine	4.723s
+FAIL

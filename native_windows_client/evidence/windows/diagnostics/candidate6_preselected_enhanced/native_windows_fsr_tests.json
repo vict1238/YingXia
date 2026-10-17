@@ -1,0 +1,113 @@
+{
+  "platform": "win32/x64",
+  "executable": "YingXia_candidate6.exe",
+  "sha256": "d826f45a89f9aa8bbed1ed578e666a724c6f984d15756bef0d90fd73af7bd106",
+  "shipping_gui_tested": true,
+  "production_backend_history_tested": false,
+  "media_backend": "separately compiled native_fixture Go child via explicit developer override",
+  "fixture_backend_sha256": "0f1803480545b72b01353071ac8a543f41d4dabb6c8eea824728ef13486f4a46",
+  "synthetic_media_only": true,
+  "real_third_party_playback_tested": false,
+  "checks": [
+    {
+      "name": "Bundled native runner synthetic 720p playback advances",
+      "passed": true
+    }
+  ],
+  "observations": [
+    {
+      "native_parent_exit": {
+        "code": 0,
+        "signal": null,
+        "time": "2026-10-14T11:58:52.335Z"
+      }
+    }
+  ],
+  "media_diagnostic_only": true,
+  "failure": "Error: actual 720p to 1080p shader render passes not verified in enhanced\n    at eventually (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:22:212)\n    at async main (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:95:580)",
+  "failure_processes": [
+    {
+      "ProcessId": 36564,
+      "ParentProcessId": 30356,
+      "Name": "YingXia_candidate6.exe"
+    },
+    {
+      "ProcessId": 3060,
+      "ParentProcessId": 36564,
+      "Name": "yingxia_native.exe"
+    },
+    {
+      "ProcessId": 37048,
+      "ParentProcessId": 3060,
+      "Name": "yingxia_backend_fsr_fixture.exe"
+    },
+    {
+      "ProcessId": 32264,
+      "ParentProcessId": 37048,
+      "Name": "conhost.exe"
+    }
+  ],
+  "failure_accessibility": [
+    {
+      "rect": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "role": 16,
+      "name": null,
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "role": 41,
+      "name": "",
+      "value": "",
+      "action": null
+    }
+  ],
+  "check_count": 1
+}

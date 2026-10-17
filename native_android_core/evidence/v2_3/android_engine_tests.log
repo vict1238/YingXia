@@ -1,0 +1,105 @@
+=== RUN   TestRelayCacheDedupCancellationAndIsolation
+--- PASS: TestRelayCacheDedupCancellationAndIsolation (0.02s)
+=== RUN   TestRelayCancelStopsUnusedFlight
+--- PASS: TestRelayCancelStopsUnusedFlight (0.01s)
+=== RUN   TestRelayRetriesWholeSegmentsBeforePublishing
+--- PASS: TestRelayRetriesWholeSegmentsBeforePublishing (0.38s)
+=== RUN   TestRelayCacheBudgetTTLAndNoStore
+--- PASS: TestRelayCacheBudgetTTLAndNoStore (0.54s)
+=== RUN   TestRelayRangeAndHeadResponses
+--- PASS: TestRelayRangeAndHeadResponses (0.01s)
+=== RUN   TestRelayPrefetchIsOnlyDemandDrivenWindow
+--- PASS: TestRelayPrefetchIsOnlyDemandDrivenWindow (0.02s)
+=== RUN   TestRelayOversizeSegmentDoesNotEnterCache
+--- PASS: TestRelayOversizeSegmentDoesNotEnterCache (0.00s)
+=== RUN   TestRelayProgressiveStreamingDoesNotTruncate512MiB
+--- PASS: TestRelayProgressiveStreamingDoesNotTruncate512MiB (5.12s)
+=== RUN   TestRelayTransientRetryCapAndShutdown
+--- PASS: TestRelayTransientRetryCapAndShutdown (0.39s)
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity/normal-short-segment
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity/paired-cue
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity/bounded-cue
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity/unbounded-cue-preserved
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity/live-sequence-preserved
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity/date-ad-class
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity/scte-out-daterange
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity/program-date-range
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity/interstitial-keeps-main-content
+=== RUN   TestRelayMarkedAdsAndOrdinaryDiscontinuity/partial-segment-not-removed
+--- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity (0.04s)
+    --- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity/normal-short-segment (0.00s)
+    --- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity/paired-cue (0.00s)
+    --- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity/bounded-cue (0.00s)
+    --- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity/unbounded-cue-preserved (0.00s)
+    --- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity/live-sequence-preserved (0.00s)
+    --- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity/date-ad-class (0.01s)
+    --- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity/scte-out-daterange (0.00s)
+    --- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity/program-date-range (0.00s)
+    --- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity/interstitial-keeps-main-content (0.01s)
+    --- PASS: TestRelayMarkedAdsAndOrdinaryDiscontinuity/partial-segment-not-removed (0.00s)
+=== RUN   TestRelayAdPreferenceEncryptionAndByteRanges
+--- PASS: TestRelayAdPreferenceEncryptionAndByteRanges (0.01s)
+=== RUN   TestRelayAdMapsAndKeyRotation
+--- PASS: TestRelayAdMapsAndKeyRotation (0.01s)
+=== RUN   TestRelayPlaylistSecurityAndMaster
+--- PASS: TestRelayPlaylistSecurityAndMaster (0.01s)
+=== RUN   TestRelayLeadingAdsPreserveSequenceAndStartOffset
+--- PASS: TestRelayLeadingAdsPreserveSequenceAndStartOffset (0.00s)
+=== RUN   TestRelayLiveURLIsNotForwardCached
+--- PASS: TestRelayLiveURLIsNotForwardCached (0.00s)
+=== RUN   TestNativePrivateAPIAndClearHistory
+--- PASS: TestNativePrivateAPIAndClearHistory (0.17s)
+=== RUN   TestNativeClearHistoryWriteFailureRollsBack
+--- PASS: TestNativeClearHistoryWriteFailureRollsBack (0.02s)
+=== RUN   TestNativeClearWhileResolveIsPending
+--- PASS: TestNativeClearWhileResolveIsPending (0.07s)
+=== RUN   TestNativeRetiredStoreCannotWrite
+--- PASS: TestNativeRetiredStoreCannotWrite (0.01s)
+=== RUN   TestNativeStaticPlaybackAndDynamicRanking
+--- PASS: TestNativeStaticPlaybackAndDynamicRanking (0.07s)
+=== RUN   TestSourceSpeedRejectsHTTP200WithoutUsableMetadata
+=== RUN   TestSourceSpeedRejectsHTTP200WithoutUsableMetadata/valid
+=== RUN   TestSourceSpeedRejectsHTTP200WithoutUsableMetadata/maintenance
+=== RUN   TestSourceSpeedRejectsHTTP200WithoutUsableMetadata/wrong_schema
+=== RUN   TestSourceSpeedRejectsHTTP200WithoutUsableMetadata/empty_list
+=== RUN   TestSourceSpeedRejectsHTTP200WithoutUsableMetadata/invalid_rows
+--- PASS: TestSourceSpeedRejectsHTTP200WithoutUsableMetadata (0.55s)
+    --- PASS: TestSourceSpeedRejectsHTTP200WithoutUsableMetadata/valid (0.08s)
+    --- PASS: TestSourceSpeedRejectsHTTP200WithoutUsableMetadata/maintenance (0.14s)
+    --- PASS: TestSourceSpeedRejectsHTTP200WithoutUsableMetadata/wrong_schema (0.13s)
+    --- PASS: TestSourceSpeedRejectsHTTP200WithoutUsableMetadata/empty_list (0.14s)
+    --- PASS: TestSourceSpeedRejectsHTTP200WithoutUsableMetadata/invalid_rows (0.08s)
+=== RUN   TestSourceSpeedUsesKazumiSearchRule
+--- PASS: TestSourceSpeedUsesKazumiSearchRule (0.09s)
+=== RUN   TestKazumiAPINineSourceTemplateAndSafety
+--- PASS: TestKazumiAPINineSourceTemplateAndSafety (0.00s)
+=== RUN   TestSourceSpeedAsyncProgressPersistenceAndOrdering
+--- PASS: TestSourceSpeedAsyncProgressPersistenceAndOrdering (0.43s)
+=== RUN   TestSourceSpeedCancelAndConsent
+--- PASS: TestSourceSpeedCancelAndConsent (0.16s)
+=== RUN   TestSourceManagementEditsSwitchesAndUpdatePreserveState
+--- PASS: TestSourceManagementEditsSwitchesAndUpdatePreserveState (0.65s)
+=== RUN   TestSourceSpeedPrivateAPIAndNetworkBoundary
+--- PASS: TestSourceSpeedPrivateAPIAndNetworkBoundary (0.31s)
+=== RUN   TestBundledSourcesMergePreservesExistingRegistry
+--- PASS: TestBundledSourcesMergePreservesExistingRegistry (0.32s)
+=== RUN   TestKazumiAPI9UpstreamUpdatePreservesCustomAndHealth
+--- PASS: TestKazumiAPI9UpstreamUpdatePreservesCustomAndHealth (0.29s)
+=== RUN   TestTitleIndexPinyinInitialsFuzzyAndAmbiguity
+--- PASS: TestTitleIndexPinyinInitialsFuzzyAndAmbiguity (0.04s)
+=== RUN   TestTitleIndexPersistentBoundAndClose
+--- PASS: TestTitleIndexPersistentBoundAndClose (1.44s)
+=== RUN   TestPublicSuggestionsConsentFilteringCacheAndAmbiguity
+--- PASS: TestPublicSuggestionsConsentFilteringCacheAndAmbiguity (0.09s)
+=== RUN   TestResumeLatestEpisodeEndPolicyAndClear
+--- PASS: TestResumeLatestEpisodeEndPolicyAndClear (0.10s)
+=== RUN   TestResumeLegacySelectionAndInvalidPosition
+--- PASS: TestResumeLegacySelectionAndInvalidPosition (0.17s)
+=== RUN   TestAlternativesIdentitySeasonAndEpisodeSafety
+--- PASS: TestAlternativesIdentitySeasonAndEpisodeSafety (0.00s)
+=== RUN   TestExactEpisodeProbeAndAlternativeJob
+--- PASS: TestExactEpisodeProbeAndAlternativeJob (0.13s)
+=== RUN   TestV23PrivateRoutesAndSettings
+--- PASS: TestV23PrivateRoutesAndSettings (0.16s)
+PASS

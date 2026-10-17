@@ -1,0 +1,13 @@
+{
+  "ads_filtered_duration_seconds": 26,
+  "ads_filtered_segments": 13,
+  "ads_original_segments": 15,
+  "alternative_candidates": 1,
+  "fixture_only": true,
+  "host_runtime_api_checks": true,
+  "installed_android_decode_test": false,
+  "real_ts_bytes": 135924,
+  "repeat_seconds": 0.0008645,
+  "same_film_groups": 2,
+  "stall_seconds": 8.0010385
+}

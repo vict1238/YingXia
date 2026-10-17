@@ -1,0 +1,1689 @@
+{
+  "schema": 1,
+  "started_at": "2026-10-15T04:06:41.3Z",
+  "executable": "YingXia_v2_2_candidate2.exe",
+  "sha256": "4e91a204a6bd868fd788938efd34c01bce263cd4c518f713a63fe605116203f6",
+  "shipping_sfx_tested": true,
+  "production_backend": true,
+  "isolated_data_and_cache": true,
+  "real_third_party_playback_tested": false,
+  "gpu_benchmark_repeated": false,
+  "input_scope": "Owned PID/HWND only; no global input, activation attempts or external window capture.",
+  "checks": [
+    {
+      "name": "Shipping SFX extracts and runs Flutter with its bundled production backend, without browser children",
+      "passed": true
+    },
+    {
+      "name": "Fresh startup has super resolution Off and the empty playback surface contains the text prompt",
+      "passed": true
+    },
+    {
+      "name": "Production source panel contains 47 providers, developer credits and startup default control",
+      "passed": true
+    },
+    {
+      "name": "Explicit default survives full EXE restarts while temporary playback selections never change it",
+      "passed": true
+    }
+  ],
+  "observations": [
+    {
+      "background_msaa_only": true,
+      "native_activation_calls_removed_for_all_used_actions": true
+    },
+    {
+      "launch": {
+        "foreground": false,
+        "action": "Snapshot",
+        "minimized": false,
+        "visible": true,
+        "foreground_activation_used_owned_pointer": false,
+        "rect": [
+          10,
+          10,
+          1350,
+          910
+        ],
+        "title": "映匣 · YingXia",
+        "pid": 21824,
+        "hwnd": 527442
+      }
+    },
+    {
+      "process_family": [
+        {
+          "ProcessId": 6832,
+          "ParentProcessId": 3576,
+          "Name": "YingXia_v2_2_candidate2.exe"
+        },
+        {
+          "ProcessId": 21824,
+          "ParentProcessId": 6832,
+          "Name": "yingxia_native.exe"
+        },
+        {
+          "ProcessId": 17568,
+          "ParentProcessId": 21824,
+          "Name": "yingxia_backend.exe"
+        }
+      ]
+    },
+    {
+      "empty_playback_elements": [
+        {
+          "name": null,
+          "role": 16,
+          "state": 0,
+          "rect": [
+            18,
+            41,
+            1324,
+            861
+          ]
+        },
+        {
+          "name": "",
+          "role": 20,
+          "state": 3145728,
+          "rect": [
+            18,
+            41,
+            1324,
+            861
+          ]
+        },
+        {
+          "name": "",
+          "role": 20,
+          "state": 3145728,
+          "rect": [
+            18,
+            41,
+            1324,
+            861
+          ]
+        },
+        {
+          "name": "",
+          "role": 20,
+          "state": 3145728,
+          "rect": [
+            18,
+            41,
+            1324,
+            861
+          ]
+        },
+        {
+          "name": "",
+          "role": 20,
+          "state": 3145728,
+          "rect": [
+            18,
+            41,
+            1324,
+            861
+          ]
+        },
+        {
+          "name": "映\n映匣\nYINGXIA",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            36,
+            74,
+            167,
+            44
+          ]
+        },
+        {
+          "name": "搜索影片",
+          "role": 43,
+          "state": 3145728,
+          "rect": [
+            36,
+            165,
+            167,
+            49
+          ]
+        },
+        {
+          "name": "播放工作台",
+          "role": 43,
+          "state": 3145730,
+          "rect": [
+            36,
+            221,
+            167,
+            49
+          ]
+        },
+        {
+          "name": "收藏与记录",
+          "role": 43,
+          "state": 3145728,
+          "rect": [
+            36,
+            277,
+            167,
+            49
+          ]
+        },
+        {
+          "name": "来源与诊断",
+          "role": 43,
+          "state": 3145728,
+          "rect": [
+            36,
+            333,
+            167,
+            49
+          ]
+        },
+        {
+          "name": "播放工作台",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            260,
+            67,
+            62,
+            20
+          ]
+        },
+        {
+          "name": "",
+          "role": 20,
+          "state": 3145728,
+          "rect": [
+            222,
+            114,
+            1120,
+            788
+          ]
+        },
+        {
+          "name": "播放工作台",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            260,
+            148,
+            127,
+            38
+          ]
+        },
+        {
+          "name": "＋ 收藏",
+          "role": 43,
+          "state": 3145728,
+          "rect": [
+            1230,
+            148,
+            74,
+            32
+          ]
+        },
+        {
+          "name": "选集",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            1055,
+            233,
+            35,
+            27
+          ]
+        },
+        {
+          "name": "0 集",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            1251,
+            238,
+            22,
+            17
+          ]
+        },
+        {
+          "name": "片源",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            1055,
+            277,
+            228,
+            19
+          ]
+        },
+        {
+          "name": "暂无来源",
+          "role": 43,
+          "state": 3146752,
+          "rect": [
+            1055,
+            303,
+            228,
+            44
+          ]
+        },
+        {
+          "name": "请选择集数",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            1055,
+            359,
+            228,
+            19
+          ]
+        },
+        {
+          "name": "选集之后请点击下方播放所选集",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            535,
+            412,
+            201,
+            23
+          ]
+        },
+        {
+          "name": "作品信息",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            1055,
+            446,
+            228,
+            19
+          ]
+        },
+        {
+          "name": "",
+          "role": 20,
+          "state": 3145728,
+          "rect": [
+            1055,
+            474,
+            228,
+            21
+          ]
+        },
+        {
+          "name": "待播放",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            274,
+            660,
+            34,
+            18
+          ]
+        },
+        {
+          "name": "超分",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            824,
+            660,
+            23,
+            18
+          ]
+        },
+        {
+          "name": "关闭",
+          "role": 43,
+          "state": 3146752,
+          "rect": [
+            854,
+            645,
+            95,
+            49
+          ]
+        },
+        {
+          "name": "全屏 ⛶",
+          "role": 43,
+          "state": 3145728,
+          "rect": [
+            948,
+            653,
+            63,
+            33
+          ]
+        },
+        {
+          "name": "上一集",
+          "role": 43,
+          "state": 3145728,
+          "rect": [
+            260,
+            705,
+            70,
+            33
+          ]
+        },
+        {
+          "name": "▷ 播放所选集",
+          "role": 43,
+          "state": 3145728,
+          "rect": [
+            338,
+            704,
+            118,
+            35
+          ]
+        },
+        {
+          "name": "下一集",
+          "role": 43,
+          "state": 3145728,
+          "rect": [
+            463,
+            705,
+            71,
+            33
+          ]
+        },
+        {
+          "name": "停止",
+          "role": 43,
+          "state": 3145728,
+          "rect": [
+            541,
+            705,
+            59,
+            33
+          ]
+        },
+        {
+          "name": "播放方式 / 解析线路",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            260,
+            780,
+            111,
+            20
+          ]
+        },
+        {
+          "name": "实际播放来源",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            645,
+            780,
+            74,
+            20
+          ]
+        },
+        {
+          "name": "内置播放",
+          "role": 43,
+          "state": 3146752,
+          "rect": [
+            260,
+            806,
+            366,
+            45
+          ]
+        },
+        {
+          "name": "尚未选择",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            645,
+            811,
+            50,
+            20
+          ]
+        },
+        {
+          "name": "绑定播放页",
+          "role": 41,
+          "state": 3145728,
+          "rect": [
+            260,
+            865,
+            751,
+            37
+          ]
+        }
+      ]
+    },
+    {
+      "normal_close_exit": 0,
+      "no_child_family_remaining": true
+    },
+    {
+      "launch": {
+        "foreground": false,
+        "action": "Snapshot",
+        "minimized": false,
+        "visible": true,
+        "foreground_activation_used_owned_pointer": false,
+        "rect": [
+          10,
+          10,
+          1350,
+          910
+        ],
+        "title": "映匣 · YingXia",
+        "pid": 32756,
+        "hwnd": 396316
+      }
+    },
+    {
+      "normal_close_exit": 0,
+      "no_child_family_remaining": true
+    },
+    {
+      "launch": {
+        "foreground": false,
+        "action": "Snapshot",
+        "minimized": false,
+        "visible": true,
+        "foreground_activation_used_owned_pointer": false,
+        "rect": [
+          10,
+          10,
+          1350,
+          910
+        ],
+        "title": "映匣 · YingXia",
+        "pid": 24516,
+        "hwnd": 461852
+      }
+    },
+    {
+      "normal_close_exit": 0,
+      "no_child_family_remaining": true
+    }
+  ],
+  "limitations": [],
+  "failure": {
+    "message": "Owned scroll did not reveal control: 下一页",
+    "stack": "Error: Owned scroll did not reveal control: 下一页\n    at scrollUntil (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_v2_2_smoke.cjs:124:9)\n    at async main (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_v2_2_smoke.cjs:168:3)"
+  },
+  "failure_owned_elements": [
+    {
+      "value": "",
+      "name": null,
+      "action": null,
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 16,
+      "state": 0
+    },
+    {
+      "value": "",
+      "name": "",
+      "action": null,
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "",
+      "action": null,
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "",
+      "action": null,
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "",
+      "action": null,
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "映\n映匣\nYINGXIA",
+      "action": null,
+      "rect": [
+        36,
+        74,
+        167,
+        44
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "搜索影片",
+      "action": null,
+      "rect": [
+        36,
+        165,
+        167,
+        49
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "播放工作台",
+      "action": null,
+      "rect": [
+        36,
+        221,
+        167,
+        49
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "收藏与记录",
+      "action": null,
+      "rect": [
+        36,
+        277,
+        167,
+        49
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "来源与诊断",
+      "action": null,
+      "rect": [
+        36,
+        333,
+        167,
+        49
+      ],
+      "role": 43,
+      "state": 3145730
+    },
+    {
+      "value": "",
+      "name": "来源与诊断",
+      "action": null,
+      "rect": [
+        260,
+        67,
+        62,
+        20
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "",
+      "action": null,
+      "rect": [
+        222,
+        114,
+        1120,
+        788
+      ],
+      "role": 20,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "来源与诊断",
+      "action": null,
+      "rect": [
+        260,
+        148,
+        1044,
+        50
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "开发人员",
+      "action": null,
+      "rect": [
+        283,
+        239,
+        69,
+        26
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "翻翻蓄小激光  cqh.vict1238@gmail.com",
+      "name": "",
+      "action": null,
+      "rect": [
+        283,
+        277,
+        253,
+        20
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "流风驻尘闲  yuchihaobo@gmail.com",
+      "name": "",
+      "action": null,
+      "rect": [
+        283,
+        302,
+        234,
+        20
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "设置",
+      "action": null,
+      "rect": [
+        283,
+        388,
+        467,
+        26
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "数据目录",
+      "action": null,
+      "rect": [
+        814,
+        388,
+        467,
+        26
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "",
+      "action": null,
+      "rect": [
+        283,
+        428,
+        26,
+        32
+      ],
+      "role": 44,
+      "state": 3145744
+    },
+    {
+      "value": "",
+      "name": "",
+      "action": null,
+      "rect": [
+        283,
+        467,
+        26,
+        32
+      ],
+      "role": 44,
+      "state": 3145744
+    },
+    {
+      "value": "",
+      "name": "联网搜索与播放",
+      "action": null,
+      "rect": [
+        317,
+        434,
+        433,
+        20
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "保存历史记录",
+      "action": null,
+      "rect": [
+        317,
+        473,
+        433,
+        20
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "C:\\Users\\vict1238\\AppData\\Local\\Temp\\yingxia-v22-window-kn4De1\\isolated-data",
+      "name": "",
+      "action": null,
+      "rect": [
+        825,
+        442,
+        445,
+        34
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "",
+      "action": null,
+      "rect": [
+        283,
+        506,
+        26,
+        32
+      ],
+      "role": 44,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "自动播放下一集",
+      "action": null,
+      "rect": [
+        317,
+        512,
+        433,
+        20
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "导出诊断",
+      "action": null,
+      "rect": [
+        814,
+        503,
+        82,
+        32
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "默认超分",
+      "action": null,
+      "rect": [
+        283,
+        569,
+        367,
+        20
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "关闭",
+      "action": null,
+      "rect": [
+        650,
+        555,
+        100,
+        48
+      ],
+      "role": 43,
+      "state": 3146752
+    },
+    {
+      "value": "",
+      "name": "下次启动时生效",
+      "action": null,
+      "rect": [
+        283,
+        603,
+        467,
+        17
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "来源管理（47）",
+      "action": null,
+      "rect": [
+        281,
+        692,
+        125,
+        26
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "更新来源",
+      "action": null,
+      "rect": [
+        1015,
+        688,
+        82,
+        32
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "添加来源",
+      "action": null,
+      "rect": [
+        1105,
+        688,
+        82,
+        32
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "全部测速",
+      "action": null,
+      "rect": [
+        1195,
+        688,
+        88,
+        34
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "自动更新来源",
+      "action": null,
+      "rect": [
+        281,
+        742,
+        942,
+        20
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "",
+      "action": null,
+      "rect": [
+        1223,
+        732,
+        60,
+        40
+      ],
+      "role": 44,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "更新详情",
+      "action": null,
+      "rect": [
+        281,
+        773,
+        1002,
+        48
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "查找来源",
+      "action": null,
+      "rect": [
+        281,
+        836,
+        245,
+        44
+      ],
+      "role": 42,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "全部",
+      "action": null,
+      "rect": [
+        536,
+        839,
+        130,
+        38
+      ],
+      "role": 43,
+      "state": 3146752
+    },
+    {
+      "value": "",
+      "name": "无损云\n影视 · 待测速. 无损云\nhttps://api.wsyzy.net/api.php/provide/vod/\n未测速",
+      "action": null,
+      "rect": [
+        281,
+        906,
+        890,
+        41
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "停用",
+      "action": null,
+      "rect": [
+        1183,
+        906,
+        40,
+        41
+      ],
+      "role": 44,
+      "state": 3145744
+    },
+    {
+      "value": "",
+      "name": "测速",
+      "action": null,
+      "rect": [
+        1227,
+        910,
+        56,
+        33
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "电影天堂资源\nCMS · 待测速. 电影天堂资源\nhttp://caiji.dyttzyapi.com/api.php/provide/vod\n未测速",
+      "action": null,
+      "rect": [
+        281,
+        970,
+        890,
+        41
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "停用",
+      "action": null,
+      "rect": [
+        1183,
+        970,
+        40,
+        41
+      ],
+      "role": 44,
+      "state": 3145744
+    },
+    {
+      "value": "",
+      "name": "测速",
+      "action": null,
+      "rect": [
+        1227,
+        974,
+        56,
+        33
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "如意资源\nCMS · 待测速. 如意资源\nhttps://cj.rycjapi.com/api.php/provide/vod\n未测速",
+      "action": null,
+      "rect": [
+        281,
+        1034,
+        890,
+        41
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "停用",
+      "action": null,
+      "rect": [
+        1183,
+        1034,
+        40,
+        41
+      ],
+      "role": 44,
+      "state": 3145744
+    },
+    {
+      "value": "",
+      "name": "测速",
+      "action": null,
+      "rect": [
+        1227,
+        1038,
+        56,
+        33
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "暴风资源\nCMS · 待测速. 暴风资源\nhttps://bfzyapi.com/api.php/provide/vod\n未测速",
+      "action": null,
+      "rect": [
+        281,
+        1098,
+        890,
+        41
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "停用",
+      "action": null,
+      "rect": [
+        1183,
+        1098,
+        40,
+        41
+      ],
+      "role": 44,
+      "state": 3145744
+    },
+    {
+      "value": "",
+      "name": "测速",
+      "action": null,
+      "rect": [
+        1227,
+        1102,
+        56,
+        33
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "非凡资源 ffzy5.tv\nCMS · 待测速. 非凡资源 ffzy5.tv\nhttp://ffzy5.tv/api.php/provide/vod\n未测速",
+      "action": null,
+      "rect": [
+        281,
+        1162,
+        890,
+        41
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "停用",
+      "action": null,
+      "rect": [
+        1183,
+        1162,
+        40,
+        41
+      ],
+      "role": 44,
+      "state": 3145744
+    },
+    {
+      "value": "",
+      "name": "测速",
+      "action": null,
+      "rect": [
+        1227,
+        1166,
+        56,
+        33
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "360资源\nCMS · 待测速. 360资源\nhttps://360zy.com/api.php/provide/vod\n未测速",
+      "action": null,
+      "rect": [
+        281,
+        1226,
+        890,
+        41
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "停用",
+      "action": null,
+      "rect": [
+        1183,
+        1226,
+        40,
+        41
+      ],
+      "role": 44,
+      "state": 3145744
+    },
+    {
+      "value": "",
+      "name": "测速",
+      "action": null,
+      "rect": [
+        1227,
+        1230,
+        56,
+        33
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "爱奇艺资源\nCMS · 待测速. 爱奇艺资源\nhttps://www.iqiyizyapi.com/api.php/provide/vod\n未测速",
+      "action": null,
+      "rect": [
+        281,
+        1290,
+        890,
+        41
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "停用",
+      "action": null,
+      "rect": [
+        1183,
+        1290,
+        40,
+        41
+      ],
+      "role": 44,
+      "state": 3145744
+    },
+    {
+      "value": "",
+      "name": "测速",
+      "action": null,
+      "rect": [
+        1227,
+        1294,
+        56,
+        33
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "极速资源\nCMS · 待测速. 极速资源\nhttps://jszyapi.com/api.php/provide/vod\n未测速",
+      "action": null,
+      "rect": [
+        281,
+        1354,
+        890,
+        41
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "停用",
+      "action": null,
+      "rect": [
+        1183,
+        1354,
+        40,
+        41
+      ],
+      "role": 44,
+      "state": 3145744
+    },
+    {
+      "value": "",
+      "name": "测速",
+      "action": null,
+      "rect": [
+        1227,
+        1358,
+        56,
+        33
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "魔都资源\nCMS · 待测速. 魔都资源\nhttps://www.mdzyapi.com/api.php/provide/vod\n未测速",
+      "action": null,
+      "rect": [
+        281,
+        1418,
+        890,
+        41
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "停用",
+      "action": null,
+      "rect": [
+        1183,
+        1418,
+        40,
+        41
+      ],
+      "role": 44,
+      "state": 3145744
+    },
+    {
+      "value": "",
+      "name": "测速",
+      "action": null,
+      "rect": [
+        1227,
+        1422,
+        56,
+        33
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "最大资源\nCMS · 待测速. 最大资源\nhttps://api.zuidapi.com/api.php/provide/vod\n未测速",
+      "action": null,
+      "rect": [
+        281,
+        1482,
+        890,
+        41
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "停用",
+      "action": null,
+      "rect": [
+        1183,
+        1482,
+        40,
+        41
+      ],
+      "role": 44,
+      "state": 3145744
+    },
+    {
+      "value": "",
+      "name": "测速",
+      "action": null,
+      "rect": [
+        1227,
+        1486,
+        56,
+        33
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "iKun资源\nCMS · 待测速. iKun资源\nhttps://ikunzyapi.com/api.php/provide/vod\n未测速",
+      "action": null,
+      "rect": [
+        281,
+        1546,
+        890,
+        41
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "停用",
+      "action": null,
+      "rect": [
+        1183,
+        1546,
+        40,
+        41
+      ],
+      "role": 44,
+      "state": 3145744
+    },
+    {
+      "value": "",
+      "name": "测速",
+      "action": null,
+      "rect": [
+        1227,
+        1550,
+        56,
+        33
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "猫眼资源\nCMS · 待测速. 猫眼资源\nhttps://api.maoyanapi.top/api.php/provide/vod\n未测速",
+      "action": null,
+      "rect": [
+        281,
+        1610,
+        890,
+        41
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "停用",
+      "action": null,
+      "rect": [
+        1183,
+        1610,
+        40,
+        41
+      ],
+      "role": 44,
+      "state": 3145744
+    },
+    {
+      "value": "",
+      "name": "测速",
+      "action": null,
+      "rect": [
+        1227,
+        1614,
+        56,
+        33
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "360资源 360zyzz.com\nCMS · 待测速. 360资源 360zyzz.com\nhttps://360zyzz.com/api.php/provide/vod\n未测速",
+      "action": null,
+      "rect": [
+        281,
+        1674,
+        890,
+        41
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "停用",
+      "action": null,
+      "rect": [
+        1183,
+        1674,
+        40,
+        41
+      ],
+      "role": 44,
+      "state": 3145744
+    },
+    {
+      "value": "",
+      "name": "测速",
+      "action": null,
+      "rect": [
+        1227,
+        1678,
+        56,
+        33
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "非凡资源 ffzyapi.com\nCMS · 待测速. 非凡资源 ffzyapi.com\nhttps://api.ffzyapi.com/api.php/provide/vod\n未测速",
+      "action": null,
+      "rect": [
+        281,
+        1738,
+        890,
+        41
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "停用",
+      "action": null,
+      "rect": [
+        1183,
+        1738,
+        40,
+        41
+      ],
+      "role": 44,
+      "state": 3145744
+    },
+    {
+      "value": "",
+      "name": "测速",
+      "action": null,
+      "rect": [
+        1227,
+        1742,
+        56,
+        33
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "新浪资源\nCMS · 待测速. 新浪资源\nhttps://api.xinlangapi.com/xinlangapi.php/provide/vod\n未测速",
+      "action": null,
+      "rect": [
+        281,
+        1802,
+        890,
+        41
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "停用",
+      "action": null,
+      "rect": [
+        1183,
+        1802,
+        40,
+        41
+      ],
+      "role": 44,
+      "state": 3145744
+    },
+    {
+      "value": "",
+      "name": "测速",
+      "action": null,
+      "rect": [
+        1227,
+        1806,
+        56,
+        33
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "1 / 4 页 · 47 个",
+      "action": null,
+      "rect": [
+        1118,
+        1876,
+        85,
+        20
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "上一页",
+      "action": null,
+      "rect": [
+        1203,
+        1866,
+        40,
+        40
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "下一页",
+      "action": null,
+      "rect": [
+        1243,
+        1866,
+        40,
+        40
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "解析线路",
+      "action": null,
+      "rect": [
+        260,
+        1952,
+        1044,
+        48
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "连接诊断",
+      "action": null,
+      "rect": [
+        260,
+        2038,
+        944,
+        26
+      ],
+      "role": 41,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "检测连接",
+      "action": null,
+      "rect": [
+        1216,
+        2034,
+        88,
+        34
+      ],
+      "role": 43,
+      "state": 3145728
+    },
+    {
+      "value": "",
+      "name": "尚未检测",
+      "action": null,
+      "rect": [
+        279,
+        2116,
+        1006,
+        20
+      ],
+      "role": 41,
+      "state": 3145728
+    }
+  ],
+  "finished_at": "2026-10-15T04:07:07.753Z",
+  "failure_scope_note": "Four successful actual shipping-window checks are preserved. The run stopped at a harness-only visibility requirement for an offscreen Next Page control: background WM_MOUSEWHEEL did not move the viewport. MSAA had already enumerated that control. The later source stage invoked the same owned MSAA control directly and verified paging; no product failure or external-window input occurred."
+}

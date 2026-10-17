@@ -1,0 +1,18 @@
+[
+  {
+    "sha256": "63ea2d697008c28b9d423c0a803ecc420760fb8d2f6de39e39e03724573ab84e",
+    "file": "YingXia_v1.3.2_Windows_x64.exe"
+  },
+  {
+    "sha256": "dd2062a005e12626033ab5f4281be7a540c4616a2f9d0edae16654cbb6889f3b",
+    "file": "YingXia_v2.0.0_Native_Windows_x64.exe"
+  },
+  {
+    "sha256": "b9d470913a117005b89006e137b7517e6bafafd717ba96b91efe934677a4f9a6",
+    "file": "YingXia_v2.0.0_Android.apk"
+  },
+  {
+    "sha256": "0e2febcd74110cda5547da784efaccfe7025e68ae65d6219173b2502acd24077",
+    "file": "yingxia_backend.exe"
+  }
+]

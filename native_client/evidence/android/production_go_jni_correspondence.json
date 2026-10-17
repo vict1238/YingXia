@@ -1,0 +1,41 @@
+{
+  "apk_sha256": "b9d470913a117005b89006e137b7517e6bafafd717ba96b91efe934677a4f9a6",
+  "production_aar_sha256": "354d27406d738a0c22d08e29d21828ac9c93d6b5e887039db1f597ad3dd343af",
+  "jni_correspondence": [
+    {
+      "abi": "arm64-v8a",
+      "apk_bytes": 9366704,
+      "aar_bytes": 9366712,
+      "apk_jni_sha256": "4eb8806d0e5679922367ef4b36ac60736f84ac5f28abdfd230771cd3ced55f34",
+      "aar_jni_sha256": "51e0c131220fdad5ef35dce27a2397ba5ca609a5a7db43217d462af3117c801e",
+      "same_bytes": false,
+      "normalized_aar_jni_sha256": "4eb8806d0e5679922367ef4b36ac60736f84ac5f28abdfd230771cd3ced55f34",
+      "matches_after_gradle_strip": true,
+      "fixture_build_tag_absent": true
+    },
+    {
+      "abi": "armeabi-v7a",
+      "apk_bytes": 9283764,
+      "aar_bytes": 9283772,
+      "apk_jni_sha256": "ec2d55ff1a340d93b86c1caee6acfd65ed164751003bb87fe88276cd5d4a6ae1",
+      "aar_jni_sha256": "410e3dfafcea1f2bfcd829aac9d3a5bbcbe54f6c461ede280b2231388bff11e7",
+      "same_bytes": false,
+      "normalized_aar_jni_sha256": "ec2d55ff1a340d93b86c1caee6acfd65ed164751003bb87fe88276cd5d4a6ae1",
+      "matches_after_gradle_strip": true,
+      "fixture_build_tag_absent": true
+    },
+    {
+      "abi": "x86_64",
+      "apk_bytes": 10089392,
+      "aar_bytes": 10089400,
+      "apk_jni_sha256": "51d4827c50b0daf3b1dd55c01b1fcfc6017dae8624dc52de91b8f455c40ab434",
+      "aar_jni_sha256": "d91c5c08192552af002d2af7c7d1b9c56857bca557078f4df6f4e496155b0a03",
+      "same_bytes": false,
+      "normalized_aar_jni_sha256": "51d4827c50b0daf3b1dd55c01b1fcfc6017dae8624dc52de91b8f455c40ab434",
+      "matches_after_gradle_strip": true,
+      "fixture_build_tag_absent": true
+    }
+  ],
+  "fixture_build_tag": false,
+  "release_source_exclusions": "native_core/evidence/production_exclusions.json"
+}

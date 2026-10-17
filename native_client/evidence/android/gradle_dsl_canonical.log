@@ -1,0 +1,50 @@
+Initialized native services in: C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\.tools\native\gradle_home_fresh\native
+Initialized jansi services in: C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\.tools\native\gradle_home_fresh\native
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.3.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Starting process 'Gradle build daemon'. Working directory: C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\.tools\native\gradle_home_fresh\daemon\9.3.1 Command: C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\.tools\native\jdk\jdk-17.0.20.1+1\bin\java.exe --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.xml/javax.xml.namespace=ALL-UNNAMED --add-opens=java.base/java.time=ALL-UNNAMED -XX:MaxMetaspaceSize=384m -XX:+HeapDumpOnOutOfMemoryError -Xms256m -Xmx512m -Dfile.encoding=windows-1252 -Duser.country=US -Duser.language=en -Duser.variant -cp C:\Users\vict1238\.gradle\wrapper\dists\gradle-9.3.1-bin\30eg2jcb8eqk5ro0gq9h8x6ef\gradle-9.3.1\lib\gradle-daemon-main-9.3.1.jar -javaagent:C:\Users\vict1238\.gradle\wrapper\dists\gradle-9.3.1-bin\30eg2jcb8eqk5ro0gq9h8x6ef\gradle-9.3.1\lib\agents\gradle-instrumentation-agent-9.3.1.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 9.3.1
+Successfully started process 'Gradle build daemon'
+An attempt to start the daemon took 1.356 secs.
+The client will now receive all logging from the daemon (pid: 38436). The daemon log file: C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\.tools\native\gradle_home_fresh\daemon\9.3.1\daemon-38436.out.log
+Daemon will be stopped at the end of the build 
+Using 24 worker leases.
+Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=false, configureOnDemand=false, configurationCache=false, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=false, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+Received JVM installation metadata from 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\.tools\native\jdk\jdk-17.0.20.1+1': {JAVA_HOME=C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\.tools\native\jdk\jdk-17.0.20.1+1, JAVA_VERSION=17.0.20.1, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=17.0.20.1+1, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=17.0.20.1+1, VM_VENDOR=Eclipse Adoptium, OS_ARCH=amd64}
+Watching the file system is configured to be enabled if available
+Now considering [C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_client\evidence\android\gradle_minimal] as hierarchies to watch
+File system watching is active
+Starting Build
+Caching disabled for Kotlin DSL script compilation (Settings/TopLevel/stage1) because:
+  Build cache is disabled
+Settings evaluated using settings file 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_client\evidence\android\gradle_minimal\settings.gradle.kts'.
+Projects loaded. Root project using build file 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_client\evidence\android\gradle_minimal\build.gradle.kts'.
+Included projects: [root project 'dsl-probe']
+
+> Configure project :
+Evaluating root project 'dsl-probe' using build file 'C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_client\evidence\android\gradle_minimal\build.gradle.kts'.
+Caching disabled for Kotlin DSL plugin specs accessors for classpath 'ab504525cdde3e6b9006c72ab4929236' because:
+  Build cache is disabled
+Caching disabled for Kotlin DSL script compilation (Project/TopLevel/stage1) because:
+  Build cache is disabled
+Caching disabled for Kotlin DSL accessors for root project 'dsl-probe' because:
+  Build cache is disabled
+Caching disabled for Kotlin DSL script compilation (Project/TopLevel/stage2) because:
+  Build cache is disabled
+All projects evaluated.
+Task name matched 'probe'
+Selected primary task 'probe' from project :
+Tasks to be executed: [task ':probe']
+Tasks that were excluded: []
+Resolve mutations for :probe (Thread[Execution worker,5,main]) started.
+:probe (Thread[Execution worker,5,main]) started.
+
+> Task :probe
+Caching disabled for task ':probe' because:
+  Build cache is disabled
+Task ':probe' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+KOTLIN_DSL_OK
+
+BUILD SUCCESSFUL in 12s
+1 actionable task: 1 executed
+Watched directory hierarchies: []
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.3.1/userguide/configuration_cache_enabling.html

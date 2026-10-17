@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-10-16T03:57:23.9563119Z",
+  "engine_test_compile": "passed",
+  "core_test_compile": "passed",
+  "go_vet": "passed",
+  "windows_test_execution": "blocked_by_application_control",
+  "windows_tests_executed": false,
+  "note": "Two direct engine test EXE launches rejected before execution; no system policy changed. Android actual execution required for final test claims."
+}

@@ -1,0 +1,16 @@
+{
+  "restart": {
+    "favorites": 1,
+    "history": 0
+  },
+  "cancel": {
+    "favorites": 1,
+    "history": 2
+  },
+  "confirm": {
+    "favorites": 1,
+    "history": 0
+  },
+  "emptyStateVisible": true,
+  "favoriteVisible": true
+}

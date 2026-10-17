@@ -1,0 +1,12 @@
+diff --git a/vendor/media_kit_video/lib/src/video_controller/android_video_controller/real.dart b/build/gpu_debug_client/vendor/media_kit_video/lib/src/video_controller/android_video_controller/real.dart
+index 6856e2a..18562f7 100644
+--- a/vendor/media_kit_video/lib/src/video_controller/android_video_controller/real.dart
++++ b/build/gpu_debug_client/vendor/media_kit_video/lib/src/video_controller/android_video_controller/real.dart
+@@ -241,6 +241,7 @@ class AndroidVideoController extends PlatformVideoController {
+     await controller.setProperties({
+       // It is necessary to set vo=null here to avoid SIGSEGV, --wid must be assigned before vo=gpu is set.
+       'vo': 'null',
++      'gpu-debug': 'yes',
+       'hwdec': configuration.hwdec!,
+       'vid': 'auto',
+       'opengl-es': 'yes',

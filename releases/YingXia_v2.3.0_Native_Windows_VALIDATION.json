@@ -1,0 +1,248 @@
+{
+  "schema": 1,
+  "version": "2.3.0",
+  "date": "2026-10-16",
+  "software": [
+    {
+      "file": "YingXia_v2.3.0_Native_Windows_x64.exe",
+      "size": 60843520,
+      "sha256": "17aac338a81ba012f5b30327be7194381e45eb6872262348dccd598545be3652"
+    }
+  ],
+  "build": {
+    "bundle_files": 245,
+    "reused_renderer": "exact unchanged published DLL, source correspondence verified",
+    "renderer_report": "native_windows_client/evidence/v2_3/renderer_compatibility.json"
+  },
+  "flutter": {
+    "tests_passed": 56,
+    "analysis": "No issues found",
+    "source_freeze": "native_windows_client/evidence/v2_3/source_freeze.json"
+  },
+  "backend": {
+    "schema": 1,
+    "go_tests": {
+      "platform": "android/amd64",
+      "device": "owned emulator-5560 API35 ranchu",
+      "engine_top_level_pass": 37,
+      "engine_subcase_pass": 15,
+      "core_lifecycle_pass": 1,
+      "exit_codes": [
+        0,
+        0
+      ],
+      "go_vet": "passed",
+      "source_latest_private_routes_test_included": true
+    },
+    "windows_launcher": {
+      "top_level_pass": 4,
+      "subcase_pass": 6,
+      "skip": 1,
+      "exit_code": 0
+    },
+    "unresolved_compatibility_limits": [
+      "AES128 EXT-X-VERSION:1 ad rewrites add explicit IVs preserving segment sequence without raising the version tag to2; version1-specific player acceptance was not separately tested. Standard version3+encrypted/keyrotation/byterange cases passed."
+    ],
+    "windows_full_fixture_attempt": {
+      "passed": 0,
+      "block": "WindowsApplicationControl4551 prevented newlybuiltfixturebackendlaunch; no policy changes."
+    }
+  },
+  "runtime": {
+    "sha256": "17aac338a81ba012f5b30327be7194381e45eb6872262348dccd598545be3652",
+    "tool": "computer-use @oai/sky",
+    "scope": "Installed native SFX launched with isolated application data and cache; no user library accessed",
+    "checks": [
+      {
+        "id": "native_start",
+        "status": "passed",
+        "assertion": "Final candidate starts its native Flutter window and bundled backend."
+      },
+      {
+        "id": "workspace_default_off",
+        "status": "passed",
+        "assertion": "Actual workspace shows Off, empty text prompt and episode/playback controls."
+      },
+      {
+        "id": "sources_settings",
+        "status": "passed",
+        "assertion": "Both exact developer credits,47 sources,marked-ad toggle,stall prompt toggle and Off default render in final native window."
+      },
+      {
+        "id": "cache_dialog",
+        "status": "passed",
+        "assertion": "Actual playback settings dialog shows standard60s/96MiB and ahead120s/160MiB with ad/switch toggles."
+      },
+      {
+        "id": "cache_switch",
+        "status": "passed",
+        "assertion": "Actual ahead-cache choice updates the selected radio and underlying settings summary."
+      },
+      {
+        "id": "native_close",
+        "status": "passed",
+        "assertion": "Closing the owned native window exits the SFX launcher without leaving that window or the owned launcher process."
+      }
+    ],
+    "limitations": [
+      "UIA indexed set_value returned element not available after one fresh-state retry; coordinate navigation works. Text-entry UI automation was not counted as a pass.",
+      "No GPU or integrated-GPU performance benchmark in this iteration."
+    ],
+    "failed_attempts": [
+      {
+        "candidate_sha256": "8a5f7cdfcec83f95417b37182316ca09599e32826921f40fb5874b617edd8f24",
+        "passed_checks": 0,
+        "message": "Candidate1 rejected mismatched launcher appVersion2.2 vs bundle2.3. FixedappVersion and added packaging guard; never published."
+      }
+    ]
+  },
+  "transport": {
+    "created_at": "2026-10-16T04:02:32.814392+00:00",
+    "backend_sha256": "538b24842c69192c10e144f382711802503f7ea242542b6c244466978dfceef4",
+    "isolated_data": true,
+    "real_third_party_media_playback_tested": false,
+    "live_network_scope": "Public Chinese title suggestions only",
+    "checks": [
+      {
+        "name": "Candidate is the production Windows v2.3 backend",
+        "passed": true
+      },
+      {
+        "name": "New playback switches default enabled",
+        "passed": true
+      },
+      {
+        "name": "Relay exposes numeric counters without URLs",
+        "passed": true
+      },
+      {
+        "name": "New private GET routes require a session",
+        "passed": true
+      },
+      {
+        "name": "New private write route retains CSRF",
+        "passed": true
+      },
+      {
+        "name": "Origin and Host checks remain enforced",
+        "passed": true
+      },
+      {
+        "name": "Known title resolves from local pinyin: qingyunian",
+        "passed": true
+      },
+      {
+        "name": "Known title resolves from local pinyin: qyn",
+        "passed": true
+      },
+      {
+        "name": "Known title resolves from local pinyin: qing yu nian",
+        "passed": true
+      },
+      {
+        "name": "Chinese typo offers the real cached title",
+        "passed": true
+      },
+      {
+        "name": "Resume returns the selected episode and saved position",
+        "passed": true
+      },
+      {
+        "name": "Completed episode explicitly restarts the same episode",
+        "passed": true
+      },
+      {
+        "name": "Native progress accepts duration and completed state",
+        "passed": true
+      },
+      {
+        "name": "Invalid progress is rejected",
+        "passed": true
+      },
+      {
+        "name": "Expanded source registry remains present",
+        "passed": true
+      },
+      {
+        "name": "Provider toggle patches retain unrelated switches",
+        "passed": true
+      },
+      {
+        "name": "Custom source editing keeps an omitted endpoint",
+        "passed": true
+      },
+      {
+        "name": "Private network source input remains rejected",
+        "passed": true
+      },
+      {
+        "name": "Custom source removal persists",
+        "passed": true
+      },
+      {
+        "name": "Disabled source-switch setting is enforced",
+        "passed": true
+      },
+      {
+        "name": "Bounded alternative lookup returns no mismatched episode",
+        "passed": true
+      },
+      {
+        "name": "Alternative cancellation route remains available",
+        "passed": true
+      },
+      {
+        "name": "Production client obtains unseen Chinese titles from public suggestions",
+        "passed": true
+      },
+      {
+        "name": "Clear increments generation and stale progress cannot restore resume",
+        "passed": true
+      },
+      {
+        "name": "First candidate backend exits normally",
+        "passed": true
+      },
+      {
+        "name": "Playback settings persist after a production restart",
+        "passed": true
+      },
+      {
+        "name": "History stays cleared and favorites survive restart",
+        "passed": true
+      },
+      {
+        "name": "Provider switches survive production restart",
+        "passed": true
+      },
+      {
+        "name": "Restarted candidate backend exits normally",
+        "passed": true
+      }
+    ],
+    "observations": [
+      {
+        "public_title_query": "xiaozhupeiqi",
+        "scope": "local_and_public_suggestions",
+        "titles": [
+          "小猪佩奇",
+          "小猪佩奇 第3季",
+          "小猪佩奇 第7季 英文版",
+          "小猪佩奇 英文版",
+          "小猪佩奇全集",
+          "小猪佩奇迷你剧"
+        ]
+      }
+    ],
+    "version": "2.3.0-native-windows",
+    "passed": 29,
+    "failed": 0
+  },
+  "preserved_previous_2_2_artifacts": true,
+  "scope_limits": [
+    "Owned API35 x86_64 Android emulator; MatePad Pro Android16 and physical ARM/TV sustained performance remain unmeasured.",
+    "FSR rendering code is preserved; this iteration adds controls but does not repeat integrated-GPU throughput benchmarks.",
+    "Only finite HLS explicit ad cues are removed; unmarked/burned-in advertising is not automatically recognized.",
+    "Windows fixture backend launch was blocked by ApplicationControl4551; no system policy was changed; no Windows new-decoder fixture pass is claimed."
+  ]
+}

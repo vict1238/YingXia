@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "origin": "frozen Windows 2.2 screening, 2026-10-15; not a new Android network probe",
+  "derivation": "whitelisted decisions and status/time/response hashes; no original workbook, response bodies, credentials or full upstream rule snapshot",
+  "originals": [
+    {
+      "path": "native_windows_client/evidence/v2_2/source_screening/screening_summary.json",
+      "size": 2439,
+      "sha256": "9ab46a61155014e740b8d608eddb232307eccb5c7ad480756017c5eb6236cf83",
+      "copied_verbatim": false
+    },
+    {
+      "path": "native_windows_client/evidence/v2_2/source_screening/cms_screening_report.json",
+      "size": 266687,
+      "sha256": "1bc987ad12f42051e6b58bcd26b960be258839471e51d10e0d41bb0ffd57e740",
+      "copied_verbatim": false
+    },
+    {
+      "path": "native_windows_client/evidence/v2_2/source_screening/search_detail_playlist_probes.json",
+      "size": 120308,
+      "sha256": "66cce6946f2e00e2fc4668bb979aea4aa4da0e8fe3fa397add2c09feeec889d4",
+      "copied_verbatim": false
+    },
+    {
+      "path": "native_windows_client/evidence/v2_2/source_screening/other_types_screening_report.json",
+      "size": 67063,
+      "sha256": "70fd31a54bdd5c1a4dc977c28845c17cce101e6662a42974d1849d4815ee938d",
+      "copied_verbatim": false
+    },
+    {
+      "path": "native_windows_client/evidence/v2_2/source_screening/kazumi_api9_primary_source.json",
+      "size": 11119,
+      "sha256": "602e3ef5b5035300e404aa547a0780a4c8a1c4e99342e38f3a11144c185f778d",
+      "copied_verbatim": false
+    },
+    {
+      "path": "native_windows_client/evidence/v2_2/source_screening/kazumi_rule_updates.json",
+      "size": 4116,
+      "sha256": "7c12a7d2ac37a4e0aa8f21a165cbb70af920a596ad0cd2fea85dd83249f70682",
+      "copied_verbatim": false
+    },
+    {
+      "path": "native_windows_client/evidence/v2_2/source_screening/workbook_extracted.json",
+      "size": 357479,
+      "sha256": "8ef22d106c154d16bf20c8795befd34bffd583c1ed651c340a1f45015497347c",
+      "copied_verbatim": false
+    },
+    {
+      "path": "native_windows_client/evidence/v2_2/source_screening/subscription_probes.json",
+      "size": 77429,
+      "sha256": "cd8c8f55a633014dadb610669ae7981d765720a29d7e6925bbde30c7a1588cb0",
+      "copied_verbatim": false
+    },
+    {
+      "path": "native_windows_client/evidence/v2_2/source_screening/kazumi_current_pinned_registry.json",
+      "size": 30510,
+      "sha256": "82ce8e217132a67b858e30ab91a086e89839ae9af3a4d260ac194fbc00882a3c",
+      "copied_verbatim": false
+    },
+    {
+      "path": "native_windows_client/evidence/v2_2/source_screening/accepted_providers.json",
+      "size": 6618,
+      "sha256": "fffc972f0408dfe22e3a87058cf183cd82ab60d90d88e077e1347aa977952aa2",
+      "copied_verbatim": true
+    },
+    {
+      "path": "native_windows_client/evidence/v2_2/source_screening/aliases.json",
+      "size": 338,
+      "sha256": "248c652566602427099a64f14a5140c4187600b1978b23d4f8408be4345b96ec",
+      "copied_verbatim": true
+    },
+    {
+      "path": "native_windows_client/evidence/v2_2/source_screening/standard_port_fallback_probes.json",
+      "size": 933,
+      "sha256": "71fcd00d11df7c8b735ccdc40e3810ab7262838b5cab03b6759a586a1be3ff5a",
+      "copied_verbatim": true
+    }
+  ]
+}

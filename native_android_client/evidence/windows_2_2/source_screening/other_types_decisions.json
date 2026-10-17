@@ -1,0 +1,677 @@
+{
+  "source_report_sha256": "70fd31a54bdd5c1a4dc977c28845c17cce101e6662a42974d1849d4815ee938d",
+  "checked_at": "2026-10-15T03:53:45.094695+00:00",
+  "groups": {
+    "anime_and_web_sites": [
+      {
+        "record_id": "A001",
+        "name": "7sefun",
+        "sheet": "02_动漫站点",
+        "row": 6,
+        "decision": "existing_kazumi",
+        "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+        "existing_provider_ids": [
+          "kazumi_7sefun"
+        ],
+        "endpoint": "https://www.7sefun.top/"
+      },
+      {
+        "record_id": "A002",
+        "name": "aafun / moonci",
+        "sheet": "02_动漫站点",
+        "row": 7,
+        "decision": "existing_kazumi",
+        "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+        "existing_provider_ids": [
+          "kazumi_aafun",
+          "kazumi_moonci"
+        ],
+        "endpoint": "https://www.moonci.com/"
+      },
+      {
+        "record_id": "A003",
+        "name": "AGE",
+        "sheet": "02_动漫站点",
+        "row": 8,
+        "decision": "existing_kazumi",
+        "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+        "existing_provider_ids": [
+          "kazumi_age"
+        ],
+        "endpoint": "https://www.agedm.io/"
+      },
+      {
+        "record_id": "A004",
+        "name": "akianime",
+        "sheet": "02_动漫站点",
+        "row": 9,
+        "decision": "existing_kazumi",
+        "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+        "existing_provider_ids": [
+          "kazumi_akianime"
+        ],
+        "endpoint": "https://www.akianime.cc/"
+      },
+      {
+        "record_id": "A005",
+        "name": "baimao",
+        "sheet": "02_动漫站点",
+        "row": 10,
+        "decision": "existing_kazumi",
+        "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+        "existing_provider_ids": [
+          "kazumi_baimao"
+        ],
+        "endpoint": "https://www.baimaodm.com/"
+      },
+      {
+        "record_id": "A006",
+        "name": "dalvdm",
+        "sheet": "02_动漫站点",
+        "row": 11,
+        "decision": "existing_kazumi",
+        "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+        "existing_provider_ids": [
+          "kazumi_dalvdm"
+        ],
+        "endpoint": "https://www.sbdl.cc/"
+      },
+      {
+        "record_id": "A007",
+        "name": "DM84",
+        "sheet": "02_动漫站点",
+        "row": 12,
+        "decision": "existing_kazumi",
+        "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+        "existing_provider_ids": [
+          "kazumi_dm84"
+        ],
+        "endpoint": "https://dmbus.cc/"
+      },
+      {
+        "record_id": "A008",
+        "name": "ezdmw",
+        "sheet": "02_动漫站点",
+        "row": 13,
+        "decision": "existing_kazumi",
+        "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+        "existing_provider_ids": [
+          "kazumi_ezdmw"
+        ],
+        "endpoint": "https://m.ezdmw.org/"
+      },
+      {
+        "record_id": "A009",
+        "name": "giriGiriLove",
+        "sheet": "02_动漫站点",
+        "row": 14,
+        "decision": "existing_kazumi",
+        "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+        "existing_provider_ids": [
+          "kazumi_girigirilove"
+        ],
+        "endpoint": "https://ani.girigirilove.com"
+      },
+      {
+        "record_id": "A010",
+        "name": "mgnacg",
+        "sheet": "02_动漫站点",
+        "row": 15,
+        "decision": "existing_kazumi",
+        "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+        "existing_provider_ids": [
+          "kazumi_mgnacg"
+        ],
+        "endpoint": "https://www.mgnacg.com"
+      },
+      {
+        "record_id": "A011",
+        "name": "mutefun",
+        "sheet": "02_动漫站点",
+        "row": 16,
+        "decision": "existing_kazumi",
+        "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+        "existing_provider_ids": [
+          "kazumi_mutefun"
+        ],
+        "endpoint": "https://www.2kdm.com/voddetail/"
+      },
+      {
+        "record_id": "A012",
+        "name": "MXdm",
+        "sheet": "02_动漫站点",
+        "row": 17,
+        "decision": "existing_kazumi",
+        "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+        "existing_provider_ids": [
+          "kazumi_mxdm"
+        ],
+        "endpoint": "https://www.dcc3.com"
+      },
+      {
+        "record_id": "A013",
+        "name": "sorani",
+        "sheet": "02_动漫站点",
+        "row": 18,
+        "decision": "existing_kazumi",
+        "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+        "existing_provider_ids": [
+          "kazumi_sorani"
+        ],
+        "endpoint": "https://www.sorani.net/"
+      },
+      {
+        "record_id": "A014",
+        "name": "xfdmneo",
+        "sheet": "02_动漫站点",
+        "row": 19,
+        "decision": "existing_kazumi",
+        "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+        "existing_provider_ids": [
+          "kazumi_xfdmneo"
+        ],
+        "endpoint": "https://dm1.xfdm.pro/"
+      },
+      {
+        "record_id": "A015",
+        "name": "xfdmnext",
+        "sheet": "02_动漫站点",
+        "row": 20,
+        "decision": "existing_kazumi",
+        "reason": "现有16条Kazumi规则已覆盖表内15个基础站；aafun/moonci相同站点保留旧ID兼容收藏记录",
+        "existing_provider_ids": [
+          "kazumi_xfdmnext"
+        ],
+        "endpoint": "https://next.xifanacg.com/"
+      },
+      {
+        "record_id": "W001",
+        "name": "玩偶哥哥",
+        "sheet": "04_网页网盘",
+        "row": 6,
+        "decision": "needs_site_or_cloud_adapter",
+        "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+        "endpoint": "https://www.wogg.net/"
+      },
+      {
+        "record_id": "W002",
+        "name": "在线之家",
+        "sheet": "04_网页网盘",
+        "row": 7,
+        "decision": "needs_site_or_cloud_adapter",
+        "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+        "endpoint": "https://www.zxzjhd.com/"
+      },
+      {
+        "record_id": "W003",
+        "name": "厂长",
+        "sheet": "04_网页网盘",
+        "row": 8,
+        "decision": "needs_site_or_cloud_adapter",
+        "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+        "endpoint": "https://www.czzy77.com/"
+      },
+      {
+        "record_id": "W004",
+        "name": "奥特/Auete",
+        "sheet": "04_网页网盘",
+        "row": 9,
+        "decision": "needs_site_or_cloud_adapter",
+        "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+        "endpoint": "https://auete.com/"
+      },
+      {
+        "record_id": "W005",
+        "name": "玩偶/live",
+        "sheet": "04_网页网盘",
+        "row": 10,
+        "decision": "needs_site_or_cloud_adapter",
+        "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+        "endpoint": "https://www.wogg.live"
+      },
+      {
+        "record_id": "W006",
+        "name": "玩偶/woggpan",
+        "sheet": "04_网页网盘",
+        "row": 11,
+        "decision": "needs_site_or_cloud_adapter",
+        "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+        "endpoint": "https://woggpan.888484.xyz"
+      },
+      {
+        "record_id": "W007",
+        "name": "玩偶/xxooo",
+        "sheet": "04_网页网盘",
+        "row": 12,
+        "decision": "needs_site_or_cloud_adapter",
+        "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+        "endpoint": "https://wogg.xxooo.cf"
+      },
+      {
+        "record_id": "W008",
+        "name": "玩偶/woggpan.xxooo",
+        "sheet": "04_网页网盘",
+        "row": 13,
+        "decision": "needs_site_or_cloud_adapter",
+        "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+        "endpoint": "https://woggpan.xxooo.cf"
+      },
+      {
+        "record_id": "W009",
+        "name": "快映",
+        "sheet": "04_网页网盘",
+        "row": 14,
+        "decision": "needs_site_or_cloud_adapter",
+        "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+        "endpoint": "http://xsayang.fun"
+      },
+      {
+        "record_id": "W010",
+        "name": "花卷/zhencai",
+        "sheet": "04_网页网盘",
+        "row": 15,
+        "decision": "needs_site_or_cloud_adapter",
+        "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+        "endpoint": "https://www.hjzhencai.top"
+      },
+      {
+        "record_id": "W011",
+        "name": "花卷/huanjuanwp",
+        "sheet": "04_网页网盘",
+        "row": 16,
+        "decision": "needs_site_or_cloud_adapter",
+        "reason": "提供网页/网盘索引，未提供当前MacCMS JSON接口或现有Kazumi规则；TVBox Spider/网盘授权不能直接作为原生搜索源",
+        "endpoint": "https://www.huanjuanwp.shop"
+      }
+    ],
+    "parsers_and_media_player": [
+      {
+        "record_id": "P001",
+        "name": "777解析",
+        "sheet": "03_解析服务",
+        "row": 6,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://jx.777jiexi.com/player/"
+      },
+      {
+        "record_id": "P002",
+        "name": "jsonplayer",
+        "sheet": "03_解析服务",
+        "row": 7,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://jx.jsonplayer.com/player/"
+      },
+      {
+        "record_id": "P003",
+        "name": "xmflv",
+        "sheet": "03_解析服务",
+        "row": 8,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://jx.xmflv.com/"
+      },
+      {
+        "record_id": "P004",
+        "name": "剖云",
+        "sheet": "03_解析服务",
+        "row": 9,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://www.pouyun.com/"
+      },
+      {
+        "record_id": "P005",
+        "name": "freejson",
+        "sheet": "03_解析服务",
+        "row": 10,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://h5.freejson.xyz/player/"
+      },
+      {
+        "record_id": "P006",
+        "name": "365",
+        "sheet": "03_解析服务",
+        "row": 11,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://chaxun.truechat365.com/"
+      },
+      {
+        "record_id": "P007",
+        "name": "parwix/bozrc",
+        "sheet": "03_解析服务",
+        "row": 12,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://jx.bozrc.com:4433/player/"
+      },
+      {
+        "record_id": "P008",
+        "name": "parwix/player",
+        "sheet": "03_解析服务",
+        "row": 13,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://jx.parwix.com:4433/player/"
+      },
+      {
+        "record_id": "P009",
+        "name": "parwix/analysis",
+        "sheet": "03_解析服务",
+        "row": 14,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://jx.parwix.com:4433/player/analysis.php"
+      },
+      {
+        "record_id": "P010",
+        "name": "夜幕/www",
+        "sheet": "03_解析服务",
+        "row": 15,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://www.yemu.xyz/"
+      },
+      {
+        "record_id": "P011",
+        "name": "8090g",
+        "sheet": "03_解析服务",
+        "row": 16,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://www.8090g.cn/"
+      },
+      {
+        "record_id": "P012",
+        "name": "油果",
+        "sheet": "03_解析服务",
+        "row": 17,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "http://json.youguo520.top/fufeng/"
+      },
+      {
+        "record_id": "P013",
+        "name": "EXO",
+        "sheet": "03_解析服务",
+        "row": 18,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://rx.69mj.com/"
+      },
+      {
+        "record_id": "P014",
+        "name": "懒懒",
+        "sheet": "03_解析服务",
+        "row": 19,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "http://lanlan.ckflv.cn/"
+      },
+      {
+        "record_id": "P015",
+        "name": "肥猫",
+        "sheet": "03_解析服务",
+        "row": 20,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "http://xn--ihqu10cn4c.xn--z7x900a.live/jx.php"
+      },
+      {
+        "record_id": "P016",
+        "name": "神秘的哥哥们",
+        "sheet": "03_解析服务",
+        "row": 21,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "http://api.888484.xyz/神秘哥哥/super.php"
+      },
+      {
+        "record_id": "P017",
+        "name": "VIP/789bh",
+        "sheet": "03_解析服务",
+        "row": 22,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://6.789bh.com/"
+      },
+      {
+        "record_id": "P018",
+        "name": "PM",
+        "sheet": "03_解析服务",
+        "row": 23,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://www.playm3u8.cn/jiexi.php"
+      },
+      {
+        "record_id": "P019",
+        "name": "全民",
+        "sheet": "03_解析服务",
+        "row": 24,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "http://api.wpsseo.cn/"
+      },
+      {
+        "record_id": "P020",
+        "name": "m3u8.tv",
+        "sheet": "03_解析服务",
+        "row": 25,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://jx.m3u8.tv/jiexi/"
+      },
+      {
+        "record_id": "P021",
+        "name": "8090.la",
+        "sheet": "03_解析服务",
+        "row": 26,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://www.8090.la/8090/"
+      },
+      {
+        "record_id": "P022",
+        "name": "看看",
+        "sheet": "03_解析服务",
+        "row": 27,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://jx.m3u8.pw/"
+      },
+      {
+        "record_id": "P023",
+        "name": "巧技/pandown",
+        "sheet": "03_解析服务",
+        "row": 28,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "http://pandown.pro/app/kkdy.php"
+      },
+      {
+        "record_id": "P024",
+        "name": "腾云",
+        "sheet": "03_解析服务",
+        "row": 29,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://api.tyun77.cn/api.php/provide/parseDicturl"
+      },
+      {
+        "record_id": "P025",
+        "name": "咸鱼/xyflv",
+        "sheet": "03_解析服务",
+        "row": 30,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://jx.xyflv.cc/"
+      },
+      {
+        "record_id": "P026",
+        "name": "云解析/yparse",
+        "sheet": "03_解析服务",
+        "row": 31,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://jx.yparse.com/index.php"
+      },
+      {
+        "record_id": "P027",
+        "name": "亮亮",
+        "sheet": "03_解析服务",
+        "row": 32,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "http://xiutan.shiyifacai.com/json/qingfeng.php"
+      },
+      {
+        "record_id": "P028",
+        "name": "爱豆",
+        "sheet": "03_解析服务",
+        "row": 33,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://jx.aidouer.net/"
+      },
+      {
+        "record_id": "P029",
+        "name": "云解/ik9",
+        "sheet": "03_解析服务",
+        "row": 34,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://yparse.ik9.cc/index.php"
+      },
+      {
+        "record_id": "P030",
+        "name": "咸鱼/xymp4",
+        "sheet": "03_解析服务",
+        "row": 35,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://jx.xymp4.cc/"
+      },
+      {
+        "record_id": "P031",
+        "name": "冰豆",
+        "sheet": "03_解析服务",
+        "row": 36,
+        "decision": "existing_parser_template",
+        "reason": "已在原配置，解析入口不增加搜索目录；原生播放不启动浏览器",
+        "endpoint": "https://bd.jx.cn/"
+      },
+      {
+        "record_id": "P032",
+        "name": "七七",
+        "sheet": "03_解析服务",
+        "row": 37,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://jx.77flv.cc/"
+      },
+      {
+        "record_id": "P033",
+        "name": "夜幕/无www",
+        "sheet": "03_解析服务",
+        "row": 38,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://yemu.xyz/"
+      },
+      {
+        "record_id": "P034",
+        "name": "zui解析",
+        "sheet": "03_解析服务",
+        "row": 39,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "https://jx.zui.cm/"
+      },
+      {
+        "record_id": "P035",
+        "name": "巧技二",
+        "sheet": "03_解析服务",
+        "row": 40,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "http://pan.qiaoji8.com/tvbox/gouzi.php"
+      },
+      {
+        "record_id": "P036",
+        "name": "84jia/附加playurl",
+        "sheet": "03_解析服务",
+        "row": 41,
+        "decision": "parser_not_catalog",
+        "reason": "接收已有播放页URL的解析服务，不提供片名目录；现有原生流程缺少已验证的媒体JSON契约，未作为CMS加入",
+        "endpoint": "http://jx.84jia.com/m3u8ts.php"
+      },
+      {
+        "record_id": "P037",
+        "name": "麒麟",
+        "sheet": "03_解析服务",
+        "row": 42,
+        "decision": "existing_parser_template",
+        "reason": "已在原配置，解析入口不增加搜索目录；原生播放不启动浏览器",
+        "endpoint": "https://free.maccms.xyz/"
+      },
+      {
+        "record_id": "P038",
+        "name": "TXNQ",
+        "sheet": "03_解析服务",
+        "row": 43,
+        "decision": "existing_parser_template",
+        "reason": "已在原配置，解析入口不增加搜索目录；原生播放不启动浏览器",
+        "endpoint": "https://bfq.txnp.cn/player"
+      },
+      {
+        "record_id": "P039",
+        "name": "七哥",
+        "sheet": "03_解析服务",
+        "row": 44,
+        "decision": "existing_parser_template",
+        "reason": "已在原配置，解析入口不增加搜索目录；原生播放不启动浏览器",
+        "endpoint": "https://jx.202617.xyz/tv.php"
+      },
+      {
+        "record_id": "P040",
+        "name": "fongmi",
+        "sheet": "03_解析服务",
+        "row": 45,
+        "decision": "existing_parser_template",
+        "reason": "已在原配置，解析入口不增加搜索目录；原生播放不启动浏览器",
+        "endpoint": "https://json.fongmi.cc/web"
+      },
+      {
+        "record_id": "P041",
+        "name": "HLS解析",
+        "sheet": "03_解析服务",
+        "row": 46,
+        "decision": "existing_parser_template",
+        "reason": "已在原配置，解析入口不增加搜索目录；原生播放不启动浏览器",
+        "endpoint": "https://jx.hls.one/"
+      },
+      {
+        "record_id": "P042",
+        "name": "Player-JY",
+        "sheet": "03_解析服务",
+        "row": 47,
+        "decision": "existing_parser_template",
+        "reason": "已在原配置，解析入口不增加搜索目录；原生播放不启动浏览器",
+        "endpoint": "https://jx.playerjy.com/"
+      },
+      {
+        "record_id": "V001",
+        "name": "无损云网页播放器",
+        "sheet": "05_媒体播放器",
+        "row": 6,
+        "decision": "existing_web_player_reference",
+        "reason": "已有无损云网页播放器配置，原生客户端直接交libmpv播放媒体，不增加目录",
+        "endpoint": "https://wsyzy.vip/m3u8/"
+      }
+    ]
+  }
+}

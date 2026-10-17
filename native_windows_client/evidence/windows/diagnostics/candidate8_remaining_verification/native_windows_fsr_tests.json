@@ -1,0 +1,2046 @@
+{
+  "platform": "win32/x64",
+  "executable": "YingXia_candidate8.exe",
+  "sha256": "6e799468cf8d4ca744b44d2fac915dfa5f58e9982585c8b80c2e2cd61909d08c",
+  "shipping_gui_tested": true,
+  "production_backend_history_tested": false,
+  "media_backend": "separately compiled native_fixture Go child via explicit developer override",
+  "fixture_backend_sha256": "0f1803480545b72b01353071ac8a543f41d4dabb6c8eea824728ef13486f4a46",
+  "synthetic_media_only": true,
+  "real_third_party_playback_tested": false,
+  "checks": [
+    {
+      "name": "Synthetic 720p24 and 720p60 inputs also render the enhanced 1080p texture and progress on the local GPU",
+      "passed": true
+    }
+  ],
+  "observations": [
+    {
+      "fixture_native_process_family": [
+        {
+          "ProcessId": 34520,
+          "ParentProcessId": 29928,
+          "Name": "YingXia_candidate8.exe"
+        },
+        {
+          "ProcessId": 14172,
+          "ParentProcessId": 34520,
+          "Name": "yingxia_native.exe"
+        },
+        {
+          "ProcessId": 1188,
+          "ParentProcessId": 14172,
+          "Name": "yingxia_backend_fsr_fixture.exe"
+        },
+        {
+          "ProcessId": 33468,
+          "ParentProcessId": 1188,
+          "Name": "conhost.exe"
+        }
+      ]
+    },
+    {
+      "fps_fixture": 24,
+      "sample": {
+        "time": "2026-10-14T12:43:52.268317Z",
+        "event": "sample",
+        "requested": "enhanced",
+        "effective": "enhanced",
+        "source": {
+          "width": 1280,
+          "height": 720
+        },
+        "viewport": {
+          "width": 2560,
+          "height": 1440
+        },
+        "target": {
+          "width": 1920,
+          "height": 1080
+        },
+        "output": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fallback": "",
+        "active": true,
+        "buffering": false,
+        "position": 5.708333,
+        "vo_drops": 0,
+        "vo_drop_delta": 0,
+        "decoder_drops": 0,
+        "fps": 24,
+        "rate": 1,
+        "render_ms": 0.446102,
+        "vo_passes": [
+          {
+            "desc": "upload frame (naive)",
+            "avg": 130503,
+            "last": 120832,
+            "count": 129
+          },
+          {
+            "desc": "combining planes + color conversion",
+            "avg": 40896,
+            "last": 18432,
+            "count": 15
+          },
+          {
+            "desc": "user shader: YingXia FSR1 EASU (rgb)",
+            "avg": 152371,
+            "last": 151552,
+            "count": 15
+          },
+          {
+            "desc": "(remainder pass)",
+            "avg": 23005,
+            "last": 22528,
+            "count": 15
+          },
+          {
+            "desc": "scale=bilinear (rgb)",
+            "avg": 23688,
+            "last": 22528,
+            "count": 15
+          },
+          {
+            "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+            "avg": 54613,
+            "last": 53248,
+            "count": 15
+          },
+          {
+            "desc": "(remainder pass) + output to screen",
+            "avg": 21026,
+            "last": 20480,
+            "count": 15
+          },
+          {
+            "desc": "drawing osd",
+            "avg": 0,
+            "last": 0,
+            "count": 0
+          }
+        ],
+        "vo_passes_status": "available",
+        "shader_verified": true,
+        "hwdec": "d3d11va-copy",
+        "renderer": "hardware",
+        "gamma": "bt.1886"
+      },
+      "continuous_samples": [
+        {
+          "time": "2026-10-14T12:43:52.268317Z",
+          "event": "sample",
+          "requested": "enhanced",
+          "effective": "enhanced",
+          "source": {
+            "width": 1280,
+            "height": 720
+          },
+          "viewport": {
+            "width": 2560,
+            "height": 1440
+          },
+          "target": {
+            "width": 1920,
+            "height": 1080
+          },
+          "output": {
+            "width": 1920,
+            "height": 1080
+          },
+          "fallback": "",
+          "active": true,
+          "buffering": false,
+          "position": 5.708333,
+          "vo_drops": 0,
+          "vo_drop_delta": 0,
+          "decoder_drops": 0,
+          "fps": 24,
+          "rate": 1,
+          "render_ms": 0.446102,
+          "vo_passes": [
+            {
+              "desc": "upload frame (naive)",
+              "avg": 130503,
+              "last": 120832,
+              "count": 129
+            },
+            {
+              "desc": "combining planes + color conversion",
+              "avg": 40896,
+              "last": 18432,
+              "count": 15
+            },
+            {
+              "desc": "user shader: YingXia FSR1 EASU (rgb)",
+              "avg": 152371,
+              "last": 151552,
+              "count": 15
+            },
+            {
+              "desc": "(remainder pass)",
+              "avg": 23005,
+              "last": 22528,
+              "count": 15
+            },
+            {
+              "desc": "scale=bilinear (rgb)",
+              "avg": 23688,
+              "last": 22528,
+              "count": 15
+            },
+            {
+              "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+              "avg": 54613,
+              "last": 53248,
+              "count": 15
+            },
+            {
+              "desc": "(remainder pass) + output to screen",
+              "avg": 21026,
+              "last": 20480,
+              "count": 15
+            },
+            {
+              "desc": "drawing osd",
+              "avg": 0,
+              "last": 0,
+              "count": 0
+            }
+          ],
+          "vo_passes_status": "available",
+          "shader_verified": true,
+          "hwdec": "d3d11va-copy",
+          "renderer": "hardware",
+          "gamma": "bt.1886"
+        },
+        {
+          "time": "2026-10-14T12:43:53.269227Z",
+          "event": "sample",
+          "requested": "enhanced",
+          "effective": "enhanced",
+          "source": {
+            "width": 1280,
+            "height": 720
+          },
+          "viewport": {
+            "width": 2560,
+            "height": 1440
+          },
+          "target": {
+            "width": 1920,
+            "height": 1080
+          },
+          "output": {
+            "width": 1920,
+            "height": 1080
+          },
+          "fallback": "",
+          "active": true,
+          "buffering": false,
+          "position": 6.708333,
+          "vo_drops": 0,
+          "vo_drop_delta": 0,
+          "decoder_drops": 0,
+          "fps": 24,
+          "rate": 1,
+          "render_ms": 0.432722,
+          "vo_passes": [
+            {
+              "desc": "upload frame (naive)",
+              "avg": 132697,
+              "last": 125280,
+              "count": 153
+            },
+            {
+              "desc": "combining planes + color conversion",
+              "avg": 27460,
+              "last": 15008,
+              "count": 39
+            },
+            {
+              "desc": "user shader: YingXia FSR1 EASU (rgb)",
+              "avg": 152103,
+              "last": 151552,
+              "count": 39
+            },
+            {
+              "desc": "(remainder pass)",
+              "avg": 22790,
+              "last": 23552,
+              "count": 39
+            },
+            {
+              "desc": "scale=bilinear (rgb)",
+              "avg": 23263,
+              "last": 22528,
+              "count": 39
+            },
+            {
+              "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+              "avg": 54245,
+              "last": 54272,
+              "count": 39
+            },
+            {
+              "desc": "(remainder pass) + output to screen",
+              "avg": 20164,
+              "last": 19456,
+              "count": 39
+            },
+            {
+              "desc": "drawing osd",
+              "avg": 0,
+              "last": 0,
+              "count": 0
+            }
+          ],
+          "vo_passes_status": "available",
+          "shader_verified": true,
+          "hwdec": "d3d11va-copy",
+          "renderer": "hardware",
+          "gamma": "bt.1886"
+        },
+        {
+          "time": "2026-10-14T12:43:54.268140Z",
+          "event": "sample",
+          "requested": "enhanced",
+          "effective": "enhanced",
+          "source": {
+            "width": 1280,
+            "height": 720
+          },
+          "viewport": {
+            "width": 2560,
+            "height": 1440
+          },
+          "target": {
+            "width": 1920,
+            "height": 1080
+          },
+          "output": {
+            "width": 1920,
+            "height": 1080
+          },
+          "fallback": "",
+          "active": true,
+          "buffering": false,
+          "position": 7.708333,
+          "vo_drops": 0,
+          "vo_drop_delta": 0,
+          "decoder_drops": 0,
+          "fps": 24,
+          "rate": 1,
+          "render_ms": 0.431157,
+          "vo_passes": [
+            {
+              "desc": "upload frame (naive)",
+              "avg": 133840,
+              "last": 120928,
+              "count": 177
+            },
+            {
+              "desc": "combining planes + color conversion",
+              "avg": 24090,
+              "last": 15264,
+              "count": 63
+            },
+            {
+              "desc": "user shader: YingXia FSR1 EASU (rgb)",
+              "avg": 152137,
+              "last": 152576,
+              "count": 63
+            },
+            {
+              "desc": "(remainder pass)",
+              "avg": 22755,
+              "last": 22528,
+              "count": 63
+            },
+            {
+              "desc": "scale=bilinear (rgb)",
+              "avg": 23129,
+              "last": 23552,
+              "count": 63
+            },
+            {
+              "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+              "avg": 54239,
+              "last": 54272,
+              "count": 63
+            },
+            {
+              "desc": "(remainder pass) + output to screen",
+              "avg": 19943,
+              "last": 19456,
+              "count": 63
+            },
+            {
+              "desc": "drawing osd",
+              "avg": 1024,
+              "last": 1024,
+              "count": 1
+            }
+          ],
+          "vo_passes_status": "available",
+          "shader_verified": true,
+          "hwdec": "d3d11va-copy",
+          "renderer": "hardware",
+          "gamma": "bt.1886"
+        },
+        {
+          "time": "2026-10-14T12:43:55.270026Z",
+          "event": "sample",
+          "requested": "enhanced",
+          "effective": "enhanced",
+          "source": {
+            "width": 1280,
+            "height": 720
+          },
+          "viewport": {
+            "width": 2560,
+            "height": 1440
+          },
+          "target": {
+            "width": 1920,
+            "height": 1080
+          },
+          "output": {
+            "width": 1920,
+            "height": 1080
+          },
+          "fallback": "",
+          "active": true,
+          "buffering": false,
+          "position": 8.708333,
+          "vo_drops": 0,
+          "vo_drop_delta": 0,
+          "decoder_drops": 0,
+          "fps": 24,
+          "rate": 1,
+          "render_ms": 0.445603,
+          "vo_passes": [
+            {
+              "desc": "upload frame (naive)",
+              "avg": 132925,
+              "last": 123904,
+              "count": 201
+            },
+            {
+              "desc": "combining planes + color conversion",
+              "avg": 23677,
+              "last": 28672,
+              "count": 87
+            },
+            {
+              "desc": "user shader: YingXia FSR1 EASU (rgb)",
+              "avg": 161262,
+              "last": 287744,
+              "count": 87
+            },
+            {
+              "desc": "(remainder pass)",
+              "avg": 23987,
+              "last": 40960,
+              "count": 87
+            },
+            {
+              "desc": "scale=bilinear (rgb)",
+              "avg": 24246,
+              "last": 40960,
+              "count": 87
+            },
+            {
+              "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+              "avg": 57414,
+              "last": 101376,
+              "count": 87
+            },
+            {
+              "desc": "(remainder pass) + output to screen",
+              "avg": 21068,
+              "last": 37888,
+              "count": 87
+            },
+            {
+              "desc": "drawing osd",
+              "avg": 1024,
+              "last": 1024,
+              "count": 1
+            }
+          ],
+          "vo_passes_status": "available",
+          "shader_verified": true,
+          "hwdec": "d3d11va-copy",
+          "renderer": "hardware",
+          "gamma": "bt.1886"
+        },
+        {
+          "time": "2026-10-14T12:43:56.270568Z",
+          "event": "sample",
+          "requested": "enhanced",
+          "effective": "enhanced",
+          "source": {
+            "width": 1280,
+            "height": 720
+          },
+          "viewport": {
+            "width": 2560,
+            "height": 1440
+          },
+          "target": {
+            "width": 1920,
+            "height": 1080
+          },
+          "output": {
+            "width": 1920,
+            "height": 1080
+          },
+          "fallback": "",
+          "active": true,
+          "buffering": false,
+          "position": 9.708333,
+          "vo_drops": 0,
+          "vo_drop_delta": 0,
+          "decoder_drops": 0,
+          "fps": 24,
+          "rate": 1,
+          "render_ms": 1.749664,
+          "vo_passes": [
+            {
+              "desc": "upload frame (naive)",
+              "avg": 165245,
+              "last": 447488,
+              "count": 225
+            },
+            {
+              "desc": "combining planes + color conversion",
+              "avg": 69547,
+              "last": 207872,
+              "count": 111
+            },
+            {
+              "desc": "user shader: YingXia FSR1 EASU (rgb)",
+              "avg": 795454,
+              "last": 1256448,
+              "count": 111
+            },
+            {
+              "desc": "(remainder pass)",
+              "avg": 195703,
+              "last": 1533952,
+              "count": 111
+            },
+            {
+              "desc": "scale=bilinear (rgb)",
+              "avg": 157299,
+              "last": 173056,
+              "count": 111
+            },
+            {
+              "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+              "avg": 201423,
+              "last": 438272,
+              "count": 111
+            },
+            {
+              "desc": "(remainder pass) + output to screen",
+              "avg": 163969,
+              "last": 161792,
+              "count": 111
+            },
+            {
+              "desc": "drawing osd",
+              "avg": 1024,
+              "last": 1024,
+              "count": 2
+            }
+          ],
+          "vo_passes_status": "available",
+          "shader_verified": true,
+          "hwdec": "d3d11va-copy",
+          "renderer": "hardware",
+          "gamma": "bt.1886"
+        },
+        {
+          "time": "2026-10-14T12:43:57.267734Z",
+          "event": "sample",
+          "requested": "enhanced",
+          "effective": "enhanced",
+          "source": {
+            "width": 1280,
+            "height": 720
+          },
+          "viewport": {
+            "width": 2560,
+            "height": 1440
+          },
+          "target": {
+            "width": 1920,
+            "height": 1080
+          },
+          "output": {
+            "width": 1920,
+            "height": 1080
+          },
+          "fallback": "",
+          "active": true,
+          "buffering": false,
+          "position": 10.708333,
+          "vo_drops": 0,
+          "vo_drop_delta": 0,
+          "decoder_drops": 0,
+          "fps": 24,
+          "rate": 1,
+          "render_ms": 2.401752,
+          "vo_passes": [
+            {
+              "desc": "upload frame (naive)",
+              "avg": 191183,
+              "last": 446464,
+              "count": 249
+            },
+            {
+              "desc": "combining planes + color conversion",
+              "avg": 88488,
+              "last": 126976,
+              "count": 135
+            },
+            {
+              "desc": "user shader: YingXia FSR1 EASU (rgb)",
+              "avg": 1213409,
+              "last": 3785728,
+              "count": 135
+            },
+            {
+              "desc": "(remainder pass)",
+              "avg": 215077,
+              "last": 158720,
+              "count": 135
+            },
+            {
+              "desc": "scale=bilinear (rgb)",
+              "avg": 159986,
+              "last": 159744,
+              "count": 135
+            },
+            {
+              "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+              "avg": 302087,
+              "last": 400384,
+              "count": 135
+            },
+            {
+              "desc": "(remainder pass) + output to screen",
+              "avg": 230498,
+              "last": 3554304,
+              "count": 135
+            },
+            {
+              "desc": "drawing osd",
+              "avg": 1024,
+              "last": 1024,
+              "count": 2
+            }
+          ],
+          "vo_passes_status": "available",
+          "shader_verified": true,
+          "hwdec": "d3d11va-copy",
+          "renderer": "hardware",
+          "gamma": "bt.1886"
+        }
+      ]
+    },
+    {
+      "fps_fixture": 60,
+      "sample": {
+        "time": "2026-10-14T12:44:04.267520Z",
+        "event": "sample",
+        "requested": "enhanced",
+        "effective": "enhanced",
+        "source": {
+          "width": 1280,
+          "height": 720
+        },
+        "viewport": {
+          "width": 2560,
+          "height": 1440
+        },
+        "target": {
+          "width": 1920,
+          "height": 1080
+        },
+        "output": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fallback": "",
+        "active": true,
+        "buffering": false,
+        "position": 4.283333,
+        "vo_drops": 0,
+        "vo_drop_delta": 0,
+        "decoder_drops": 0,
+        "fps": 60,
+        "rate": 1,
+        "render_ms": 2.443077,
+        "vo_passes": [
+          {
+            "desc": "upload frame (naive)",
+            "avg": 124802,
+            "last": 124928,
+            "count": 256
+          },
+          {
+            "desc": "combining planes + color conversion",
+            "avg": 96505,
+            "last": 26624,
+            "count": 183
+          },
+          {
+            "desc": "user shader: YingXia FSR1 EASU (rgb)",
+            "avg": 1261562,
+            "last": 283648,
+            "count": 183
+          },
+          {
+            "desc": "(remainder pass)",
+            "avg": 209097,
+            "last": 40960,
+            "count": 183
+          },
+          {
+            "desc": "scale=bilinear (rgb)",
+            "avg": 164601,
+            "last": 40960,
+            "count": 183
+          },
+          {
+            "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+            "avg": 325100,
+            "last": 99328,
+            "count": 183
+          },
+          {
+            "desc": "(remainder pass) + output to screen",
+            "avg": 260386,
+            "last": 36864,
+            "count": 183
+          },
+          {
+            "desc": "drawing osd",
+            "avg": 1024,
+            "last": 1024,
+            "count": 7
+          }
+        ],
+        "vo_passes_status": "available",
+        "shader_verified": true,
+        "hwdec": "d3d11va-copy",
+        "renderer": "hardware",
+        "gamma": "bt.1886"
+      },
+      "continuous_samples": [
+        {
+          "time": "2026-10-14T12:44:04.267520Z",
+          "event": "sample",
+          "requested": "enhanced",
+          "effective": "enhanced",
+          "source": {
+            "width": 1280,
+            "height": 720
+          },
+          "viewport": {
+            "width": 2560,
+            "height": 1440
+          },
+          "target": {
+            "width": 1920,
+            "height": 1080
+          },
+          "output": {
+            "width": 1920,
+            "height": 1080
+          },
+          "fallback": "",
+          "active": true,
+          "buffering": false,
+          "position": 4.283333,
+          "vo_drops": 0,
+          "vo_drop_delta": 0,
+          "decoder_drops": 0,
+          "fps": 60,
+          "rate": 1,
+          "render_ms": 2.443077,
+          "vo_passes": [
+            {
+              "desc": "upload frame (naive)",
+              "avg": 124802,
+              "last": 124928,
+              "count": 256
+            },
+            {
+              "desc": "combining planes + color conversion",
+              "avg": 96505,
+              "last": 26624,
+              "count": 183
+            },
+            {
+              "desc": "user shader: YingXia FSR1 EASU (rgb)",
+              "avg": 1261562,
+              "last": 283648,
+              "count": 183
+            },
+            {
+              "desc": "(remainder pass)",
+              "avg": 209097,
+              "last": 40960,
+              "count": 183
+            },
+            {
+              "desc": "scale=bilinear (rgb)",
+              "avg": 164601,
+              "last": 40960,
+              "count": 183
+            },
+            {
+              "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+              "avg": 325100,
+              "last": 99328,
+              "count": 183
+            },
+            {
+              "desc": "(remainder pass) + output to screen",
+              "avg": 260386,
+              "last": 36864,
+              "count": 183
+            },
+            {
+              "desc": "drawing osd",
+              "avg": 1024,
+              "last": 1024,
+              "count": 7
+            }
+          ],
+          "vo_passes_status": "available",
+          "shader_verified": true,
+          "hwdec": "d3d11va-copy",
+          "renderer": "hardware",
+          "gamma": "bt.1886"
+        },
+        {
+          "time": "2026-10-14T12:44:05.270364Z",
+          "event": "sample",
+          "requested": "enhanced",
+          "effective": "enhanced",
+          "source": {
+            "width": 1280,
+            "height": 720
+          },
+          "viewport": {
+            "width": 2560,
+            "height": 1440
+          },
+          "target": {
+            "width": 1920,
+            "height": 1080
+          },
+          "output": {
+            "width": 1920,
+            "height": 1080
+          },
+          "fallback": "",
+          "active": true,
+          "buffering": false,
+          "position": 5.283333,
+          "vo_drops": 0,
+          "vo_drop_delta": 0,
+          "decoder_drops": 0,
+          "fps": 60,
+          "rate": 1,
+          "render_ms": 1.995574,
+          "vo_passes": [
+            {
+              "desc": "upload frame (naive)",
+              "avg": 118118,
+              "last": 283648,
+              "count": 256
+            },
+            {
+              "desc": "combining planes + color conversion",
+              "avg": 80040,
+              "last": 30720,
+              "count": 243
+            },
+            {
+              "desc": "user shader: YingXia FSR1 EASU (rgb)",
+              "avg": 1020173,
+              "last": 284672,
+              "count": 243
+            },
+            {
+              "desc": "(remainder pass)",
+              "avg": 167539,
+              "last": 40960,
+              "count": 243
+            },
+            {
+              "desc": "scale=bilinear (rgb)",
+              "avg": 133924,
+              "last": 39936,
+              "count": 243
+            },
+            {
+              "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+              "avg": 269577,
+              "last": 100352,
+              "count": 243
+            },
+            {
+              "desc": "(remainder pass) + output to screen",
+              "avg": 205179,
+              "last": 36864,
+              "count": 243
+            },
+            {
+              "desc": "drawing osd",
+              "avg": 1024,
+              "last": 1024,
+              "count": 7
+            }
+          ],
+          "vo_passes_status": "available",
+          "shader_verified": true,
+          "hwdec": "d3d11va-copy",
+          "renderer": "hardware",
+          "gamma": "bt.1886"
+        },
+        {
+          "time": "2026-10-14T12:44:06.269432Z",
+          "event": "sample",
+          "requested": "enhanced",
+          "effective": "enhanced",
+          "source": {
+            "width": 1280,
+            "height": 720
+          },
+          "viewport": {
+            "width": 2560,
+            "height": 1440
+          },
+          "target": {
+            "width": 1920,
+            "height": 1080
+          },
+          "output": {
+            "width": 1920,
+            "height": 1080
+          },
+          "fallback": "",
+          "active": true,
+          "buffering": false,
+          "position": 6.283333,
+          "vo_drops": 0,
+          "vo_drop_delta": 0,
+          "decoder_drops": 0,
+          "fps": 60,
+          "rate": 1,
+          "render_ms": 2.151851,
+          "vo_passes": [
+            {
+              "desc": "upload frame (naive)",
+              "avg": 134010,
+              "last": 233472,
+              "count": 256
+            },
+            {
+              "desc": "combining planes + color conversion",
+              "avg": 80749,
+              "last": 44032,
+              "count": 256
+            },
+            {
+              "desc": "user shader: YingXia FSR1 EASU (rgb)",
+              "avg": 1040784,
+              "last": 538624,
+              "count": 256
+            },
+            {
+              "desc": "(remainder pass)",
+              "avg": 168940,
+              "last": 74752,
+              "count": 256
+            },
+            {
+              "desc": "scale=bilinear (rgb)",
+              "avg": 136872,
+              "last": 74752,
+              "count": 256
+            },
+            {
+              "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+              "avg": 375064,
+              "last": 865280,
+              "count": 256
+            },
+            {
+              "desc": "(remainder pass) + output to screen",
+              "avg": 214408,
+              "last": 69632,
+              "count": 256
+            },
+            {
+              "desc": "drawing osd",
+              "avg": 1024,
+              "last": 1024,
+              "count": 7
+            }
+          ],
+          "vo_passes_status": "available",
+          "shader_verified": true,
+          "hwdec": "d3d11va-copy",
+          "renderer": "hardware",
+          "gamma": "bt.1886"
+        },
+        {
+          "time": "2026-10-14T12:44:07.266834Z",
+          "event": "sample",
+          "requested": "enhanced",
+          "effective": "enhanced",
+          "source": {
+            "width": 1280,
+            "height": 720
+          },
+          "viewport": {
+            "width": 2560,
+            "height": 1440
+          },
+          "target": {
+            "width": 1920,
+            "height": 1080
+          },
+          "output": {
+            "width": 1920,
+            "height": 1080
+          },
+          "fallback": "",
+          "active": true,
+          "buffering": false,
+          "position": 7.283333,
+          "vo_drops": 0,
+          "vo_drop_delta": 0,
+          "decoder_drops": 0,
+          "fps": 60,
+          "rate": 1,
+          "render_ms": 1.837352,
+          "vo_passes": [
+            {
+              "desc": "upload frame (naive)",
+              "avg": 148570,
+              "last": 121152,
+              "count": 256
+            },
+            {
+              "desc": "combining planes + color conversion",
+              "avg": 68146,
+              "last": 19136,
+              "count": 256
+            },
+            {
+              "desc": "user shader: YingXia FSR1 EASU (rgb)",
+              "avg": 843200,
+              "last": 150528,
+              "count": 256
+            },
+            {
+              "desc": "(remainder pass)",
+              "avg": 107216,
+              "last": 21504,
+              "count": 256
+            },
+            {
+              "desc": "scale=bilinear (rgb)",
+              "avg": 86648,
+              "last": 21504,
+              "count": 256
+            },
+            {
+              "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+              "avg": 417452,
+              "last": 54272,
+              "count": 256
+            },
+            {
+              "desc": "(remainder pass) + output to screen",
+              "avg": 165096,
+              "last": 19456,
+              "count": 256
+            },
+            {
+              "desc": "drawing osd",
+              "avg": 1024,
+              "last": 1024,
+              "count": 8
+            }
+          ],
+          "vo_passes_status": "available",
+          "shader_verified": true,
+          "hwdec": "d3d11va-copy",
+          "renderer": "hardware",
+          "gamma": "bt.1886"
+        },
+        {
+          "time": "2026-10-14T12:44:08.267851Z",
+          "event": "sample",
+          "requested": "enhanced",
+          "effective": "enhanced",
+          "source": {
+            "width": 1280,
+            "height": 720
+          },
+          "viewport": {
+            "width": 2560,
+            "height": 1440
+          },
+          "target": {
+            "width": 1920,
+            "height": 1080
+          },
+          "output": {
+            "width": 1920,
+            "height": 1080
+          },
+          "fallback": "",
+          "active": true,
+          "buffering": false,
+          "position": 8.283333,
+          "vo_drops": 0,
+          "vo_drop_delta": 0,
+          "decoder_drops": 0,
+          "fps": 60,
+          "rate": 1,
+          "render_ms": 0.897092,
+          "vo_passes": [
+            {
+              "desc": "upload frame (naive)",
+              "avg": 152970,
+              "last": 175104,
+              "count": 256
+            },
+            {
+              "desc": "combining planes + color conversion",
+              "avg": 32546,
+              "last": 18432,
+              "count": 256
+            },
+            {
+              "desc": "user shader: YingXia FSR1 EASU (rgb)",
+              "avg": 298412,
+              "last": 151552,
+              "count": 256
+            },
+            {
+              "desc": "(remainder pass)",
+              "avg": 42160,
+              "last": 21504,
+              "count": 256
+            },
+            {
+              "desc": "scale=bilinear (rgb)",
+              "avg": 42100,
+              "last": 21504,
+              "count": 256
+            },
+            {
+              "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+              "avg": 271796,
+              "last": 53248,
+              "count": 256
+            },
+            {
+              "desc": "(remainder pass) + output to screen",
+              "avg": 56084,
+              "last": 19456,
+              "count": 256
+            },
+            {
+              "desc": "drawing osd",
+              "avg": 1024,
+              "last": 1024,
+              "count": 8
+            }
+          ],
+          "vo_passes_status": "available",
+          "shader_verified": true,
+          "hwdec": "d3d11va-copy",
+          "renderer": "hardware",
+          "gamma": "bt.1886"
+        },
+        {
+          "time": "2026-10-14T12:44:09.267758Z",
+          "event": "sample",
+          "requested": "enhanced",
+          "effective": "enhanced",
+          "source": {
+            "width": 1280,
+            "height": 720
+          },
+          "viewport": {
+            "width": 2560,
+            "height": 1440
+          },
+          "target": {
+            "width": 1920,
+            "height": 1080
+          },
+          "output": {
+            "width": 1920,
+            "height": 1080
+          },
+          "fallback": "",
+          "active": true,
+          "buffering": false,
+          "position": 9.283333,
+          "vo_drops": 0,
+          "vo_drop_delta": 0,
+          "decoder_drops": 0,
+          "fps": 60,
+          "rate": 1,
+          "render_ms": 0.837073,
+          "vo_passes": [
+            {
+              "desc": "upload frame (naive)",
+              "avg": 153281,
+              "last": 121152,
+              "count": 256
+            },
+            {
+              "desc": "combining planes + color conversion",
+              "avg": 28624,
+              "last": 18112,
+              "count": 256
+            },
+            {
+              "desc": "user shader: YingXia FSR1 EASU (rgb)",
+              "avg": 267332,
+              "last": 150528,
+              "count": 256
+            },
+            {
+              "desc": "(remainder pass)",
+              "avg": 37744,
+              "last": 21504,
+              "count": 256
+            },
+            {
+              "desc": "scale=bilinear (rgb)",
+              "avg": 37808,
+              "last": 22528,
+              "count": 256
+            },
+            {
+              "desc": "user shader: YingXia FSR1 RCAS Enhanced (rgb)",
+              "avg": 260936,
+              "last": 53248,
+              "count": 256
+            },
+            {
+              "desc": "(remainder pass) + output to screen",
+              "avg": 50324,
+              "last": 19456,
+              "count": 256
+            },
+            {
+              "desc": "drawing osd",
+              "avg": 1024,
+              "last": 1024,
+              "count": 9
+            }
+          ],
+          "vo_passes_status": "available",
+          "shader_verified": true,
+          "hwdec": "d3d11va-copy",
+          "renderer": "hardware",
+          "gamma": "bt.1886"
+        }
+      ]
+    },
+    {
+      "native_parent_exit": {
+        "code": 0,
+        "signal": null,
+        "time": "2026-10-14T12:44:47.146Z"
+      }
+    }
+  ],
+  "carried_forward_production_evidence": {
+    "executable": "YingXia_candidate8.exe",
+    "sha256": "6e799468cf8d4ca744b44d2fac915dfa5f58e9982585c8b80c2e2cd61909d08c",
+    "checks": [
+      {
+        "name": "Single release EXE extracts runtime and opens its own visible Flutter window with no browser/WebView children",
+        "passed": true
+      },
+      {
+        "name": "All four approved pages load in the production Flutter/Go app",
+        "passed": true
+      },
+      {
+        "name": "Exact two developer names and emails are shown at the top of sources and diagnostics",
+        "passed": true
+      },
+      {
+        "name": "Simple three-choice quality dropdown can change and persist the Windows-only preference",
+        "passed": true
+      },
+      {
+        "name": "Production in-app clear confirmation can cancel without changing persistent records",
+        "passed": true
+      },
+      {
+        "name": "Actual read-only library write failure retains rows and allows retry",
+        "passed": true
+      },
+      {
+        "name": "Actual production backend clears disk history while preserving favorites, bindings and settings",
+        "passed": true
+      },
+      {
+        "name": "Repeated single-file launch restores the existing native window",
+        "passed": true
+      },
+      {
+        "name": "Full release EXE restart keeps history empty and favorite available; window close ends child family",
+        "passed": true
+      }
+    ],
+    "scope": "These production checks were already run on this exact shipping EXE SHA. This subsequent run executes only the separately labelled fixture checks."
+  },
+  "observed_inputs": [
+    {
+      "label": "quality picker",
+      "method": "Owned Flutter view WM_MOUSE input at previously observed MSAA physical target; same window dimensions enforced",
+      "observed_rect": [
+        854,
+        664,
+        95,
+        49
+      ],
+      "current_window_rect": [
+        10,
+        10,
+        1350,
+        910
+      ],
+      "screen_point": [
+        902,
+        689
+      ],
+      "before_screenshot": "observed_input_0.png"
+    },
+    {
+      "label": "quality picker",
+      "method": "Owned Flutter view WM_MOUSE input at previously observed MSAA physical target; same window dimensions enforced",
+      "observed_rect": [
+        854,
+        664,
+        95,
+        49
+      ],
+      "current_window_rect": [
+        10,
+        10,
+        1350,
+        910
+      ],
+      "screen_point": [
+        902,
+        689
+      ],
+      "before_screenshot": "observed_input_1.png"
+    },
+    {
+      "label": "▷ 播放所选集",
+      "method": "Owned Flutter view WM_MOUSE input at previously observed MSAA physical target; same window dimensions enforced",
+      "observed_rect": [
+        338,
+        723,
+        118,
+        35
+      ],
+      "current_window_rect": [
+        10,
+        10,
+        1350,
+        910
+      ],
+      "screen_point": [
+        397,
+        741
+      ],
+      "before_screenshot": "observed_input_2.png"
+    },
+    {
+      "label": "quality picker",
+      "method": "Owned Flutter view WM_MOUSE input at previously observed MSAA physical target; same window dimensions enforced",
+      "observed_rect": [
+        854,
+        664,
+        95,
+        49
+      ],
+      "current_window_rect": [
+        10,
+        10,
+        1350,
+        910
+      ],
+      "screen_point": [
+        902,
+        689
+      ],
+      "before_screenshot": "observed_input_3.png"
+    },
+    {
+      "label": "quality picker",
+      "method": "Owned Flutter view WM_MOUSE input at previously observed MSAA physical target; same window dimensions enforced",
+      "observed_rect": [
+        854,
+        664,
+        95,
+        49
+      ],
+      "current_window_rect": [
+        10,
+        10,
+        1350,
+        910
+      ],
+      "screen_point": [
+        902,
+        689
+      ],
+      "before_screenshot": "observed_input_4.png"
+    },
+    {
+      "label": "▷ 播放所选集",
+      "method": "Owned Flutter view WM_MOUSE input at previously observed MSAA physical target; same window dimensions enforced",
+      "observed_rect": [
+        338,
+        728,
+        118,
+        35
+      ],
+      "current_window_rect": [
+        10,
+        10,
+        1350,
+        910
+      ],
+      "screen_point": [
+        397,
+        746
+      ],
+      "before_screenshot": "observed_input_5.png"
+    },
+    {
+      "label": "quality picker",
+      "method": "Owned Flutter view WM_MOUSE input at previously observed MSAA physical target; same window dimensions enforced",
+      "observed_rect": [
+        854,
+        664,
+        95,
+        49
+      ],
+      "current_window_rect": [
+        10,
+        10,
+        1350,
+        910
+      ],
+      "screen_point": [
+        902,
+        689
+      ],
+      "before_screenshot": "observed_input_6.png"
+    },
+    {
+      "label": "quality picker",
+      "method": "Owned Flutter view WM_MOUSE input at previously observed MSAA physical target; same window dimensions enforced",
+      "observed_rect": [
+        854,
+        664,
+        95,
+        49
+      ],
+      "current_window_rect": [
+        10,
+        10,
+        1350,
+        910
+      ],
+      "screen_point": [
+        902,
+        689
+      ],
+      "before_screenshot": "observed_input_7.png"
+    },
+    {
+      "label": "▷ 播放所选集",
+      "method": "Owned Flutter view WM_MOUSE input at previously observed MSAA physical target; same window dimensions enforced",
+      "observed_rect": [
+        338,
+        728,
+        118,
+        35
+      ],
+      "current_window_rect": [
+        10,
+        10,
+        1350,
+        910
+      ],
+      "screen_point": [
+        397,
+        746
+      ],
+      "before_screenshot": "observed_input_8.png"
+    }
+  ],
+  "failure": "Error: stress manual resume did not complete\n    at eventually (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:25:212)\n    at async main (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_fsr_smoke.cjs:158:68)",
+  "failure_window": {
+    "foreground": true,
+    "action": "Snapshot",
+    "minimized": false,
+    "visible": true,
+    "foreground_activation_used_owned_pointer": false,
+    "rect": [
+      10,
+      10,
+      1350,
+      910
+    ],
+    "title": "映匣 · YingXia",
+    "pid": 14172,
+    "hwnd": 983970
+  },
+  "failure_processes": [
+    {
+      "ProcessId": 34520,
+      "ParentProcessId": 29928,
+      "Name": "YingXia_candidate8.exe"
+    },
+    {
+      "ProcessId": 14172,
+      "ParentProcessId": 34520,
+      "Name": "yingxia_native.exe"
+    },
+    {
+      "ProcessId": 1188,
+      "ParentProcessId": 14172,
+      "Name": "yingxia_backend_fsr_fixture.exe"
+    },
+    {
+      "ProcessId": 33468,
+      "ParentProcessId": 1188,
+      "Name": "conhost.exe"
+    }
+  ],
+  "failure_accessibility": [
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 16,
+      "name": null,
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        18,
+        41,
+        1324,
+        861
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        74,
+        167,
+        44
+      ],
+      "role": 41,
+      "name": "映\n映匣\nYINGXIA",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        165,
+        167,
+        49
+      ],
+      "role": 43,
+      "name": "搜索影片",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        221,
+        167,
+        49
+      ],
+      "role": 43,
+      "name": "播放工作台",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        277,
+        167,
+        49
+      ],
+      "role": 43,
+      "name": "收藏与记录",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        36,
+        333,
+        167,
+        49
+      ],
+      "role": 43,
+      "name": "来源与诊断",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        67,
+        62,
+        20
+      ],
+      "role": 41,
+      "name": "播放工作台",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        222,
+        114,
+        1120,
+        788
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        148,
+        198,
+        38
+      ],
+      "role": 41,
+      "name": "FSR 720p 60fps",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1230,
+        148,
+        74,
+        32
+      ],
+      "role": 43,
+      "name": "＋ 收藏",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        186,
+        137,
+        19
+      ],
+      "role": 41,
+      "name": "2026 · 合成测试 · 无损云",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        232,
+        749,
+        421
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        261,
+        232,
+        749,
+        421
+      ],
+      "role": 41,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        252,
+        35,
+        27
+      ],
+      "role": 41,
+      "name": "选集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        296,
+        228,
+        19
+      ],
+      "role": 41,
+      "name": "片源",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        322,
+        228,
+        44
+      ],
+      "role": 43,
+      "name": "FSR 测试（2 项）",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1251,
+        257,
+        22,
+        17
+      ],
+      "role": 41,
+      "name": "2 集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        378,
+        228,
+        19
+      ],
+      "role": 41,
+      "name": "已选：第01集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        412,
+        228,
+        42
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        412,
+        72,
+        42
+      ],
+      "role": 41,
+      "name": "第01集. 第01集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1133,
+        412,
+        72,
+        42
+      ],
+      "role": 41,
+      "name": "第02集. 第02集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        507,
+        228,
+        19
+      ],
+      "role": 41,
+      "name": "作品信息",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        1055,
+        535,
+        228,
+        21
+      ],
+      "role": 20,
+      "name": "",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        274,
+        679,
+        34,
+        18
+      ],
+      "role": 41,
+      "name": "已暂停",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        824,
+        679,
+        23,
+        18
+      ],
+      "role": 41,
+      "name": "超分",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        854,
+        664,
+        95,
+        49
+      ],
+      "role": 43,
+      "name": "增强",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        948,
+        672,
+        63,
+        33
+      ],
+      "role": 43,
+      "name": "全屏 ⛶",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        729,
+        70,
+        33
+      ],
+      "role": 43,
+      "name": "上一集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        338,
+        728,
+        118,
+        35
+      ],
+      "role": 43,
+      "name": "▷ 播放所选集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        463,
+        729,
+        71,
+        33
+      ],
+      "role": 43,
+      "name": "下一集",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        541,
+        723,
+        93,
+        45
+      ],
+      "role": 43,
+      "name": "1×",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        641,
+        729,
+        59,
+        33
+      ],
+      "role": 43,
+      "name": "停止",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        809,
+        111,
+        20
+      ],
+      "role": 41,
+      "name": "播放方式 / 解析线路",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        645,
+        809,
+        74,
+        20
+      ],
+      "role": 41,
+      "name": "实际播放来源",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        835,
+        366,
+        45
+      ],
+      "role": 43,
+      "name": "内置播放",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        645,
+        840,
+        101,
+        20
+      ],
+      "role": 41,
+      "name": "无损云 / FSR 测试",
+      "value": "",
+      "action": null
+    },
+    {
+      "rect": [
+        260,
+        894,
+        751,
+        8
+      ],
+      "role": 41,
+      "name": "绑定播放页",
+      "value": "",
+      "action": null
+    }
+  ],
+  "check_count": 1
+}

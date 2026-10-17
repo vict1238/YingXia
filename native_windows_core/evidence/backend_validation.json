@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "version": "2.2.0-native-windows",
+  "software": {
+    "path": "native_windows_core/build/yingxia_backend.exe",
+    "size": 9272832,
+    "sha256": "014ead0e0ec4f7e4929d35361be07fbbaee8b8862a5e9a1dab9f1a63ceb20803"
+  },
+  "tests": {
+    "engine_top_level_pass": 14,
+    "engine_schema_subcases_pass": 5,
+    "core_lifecycle_pass": 1,
+    "go_vet": "PASS",
+    "execution": "go test -c outputs executed from project evidence directory; Application Control blocked the first temporary-directory test execution; no system policy change"
+  },
+  "source_registry": {
+    "total": 47,
+    "new_cms": 30,
+    "kazumi": 16,
+    "legacy": 1,
+    "cms_seed_sha256": "fffc972f0408dfe22e3a87058cf183cd82ab60d90d88e077e1347aa977952aa2",
+    "kazumi_commit": "2fa4d28659f94e1eb52e7a38d79b7b9a5dcd605b",
+    "max_rule_api": 9
+  },
+  "scope": {
+    "isolated_mock_metadata_tests": true,
+    "private_loopback_api_exercised": true,
+    "actual_external_metadata": "separate root transport validation",
+    "playback_verified": false,
+    "film_media_downloaded": false,
+    "cancel_partial_results_persisted": false,
+    "old_sources_unchanged": true
+  }
+}

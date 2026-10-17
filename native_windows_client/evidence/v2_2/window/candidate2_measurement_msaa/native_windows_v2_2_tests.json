@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "started_at": "2026-10-15T04:09:18.200Z",
+  "executable": "YingXia_v2_2_candidate2.exe",
+  "sha256": "4e91a204a6bd868fd788938efd34c01bce263cd4c518f713a63fe605116203f6",
+  "shipping_sfx_tested": true,
+  "production_backend": true,
+  "isolated_data_and_cache": true,
+  "real_third_party_playback_tested": false,
+  "gpu_benchmark_repeated": false,
+  "input_scope": "Owned PID/HWND only; no global input, activation attempts or external window capture.",
+  "checks": [
+    {
+      "name": "All-source measurement exposes progress and cancellation",
+      "passed": true
+    },
+    {
+      "name": "Custom source removal restores 47 providers and the filtered list updates",
+      "passed": true
+    },
+    {
+      "name": "Final native close exits normally with no owned orphan processes",
+      "passed": true
+    }
+  ],
+  "observations": [
+    {
+      "background_msaa_only": true,
+      "native_activation_calls_removed_for_all_used_actions": true
+    },
+    {
+      "launch": {
+        "foreground": false,
+        "action": "Snapshot",
+        "minimized": false,
+        "visible": true,
+        "foreground_activation_used_owned_pointer": false,
+        "rect": [
+          10,
+          10,
+          1350,
+          910
+        ],
+        "title": "映匣 · YingXia",
+        "pid": 32560,
+        "hwnd": 1313258
+      }
+    },
+    {
+      "normal_close_exit": 0,
+      "no_child_family_remaining": true
+    }
+  ],
+  "limitations": [],
+  "finished_at": "2026-10-15T04:09:28.457Z"
+}

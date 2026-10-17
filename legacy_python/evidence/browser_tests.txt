@@ -1,0 +1,101 @@
+PASS: Home loaded with offline-by-default configuration
+PASS: Offline search returns explicitly labelled local demo only
+PASS: Local synthetic video decodes frames and time advances
+PASS: Next-episode control selects and plays the second local clip
+PASS: Switch to source missing episode 2 does not silently play episode 1
+PASS: Favorites and observed playback evidence persist in local SQLite
+PASS: Saved favorites survive UI reinitialization; browser URL navigation not tested
+PASS: Online query blocked until consent
+PASS: Synthetic online catalogue search sorts full title and season
+PASS: All synthetic VOD source groups remain selectable
+PASS: A synthetic iframe load event does not mark media playback successful; remote embedding not tested
+PASS: Manual confirmation remains labelled as user-reported evidence
+PASS: A delayed playback response cannot restart the player after Stop
+PASS: Manual official-page import strips private query parameters and does not invent episode list
+PASS: Diagnostic UI displays HTTP-only results without claiming real playback
+PASS: Search UI has no horizontal page overflow at 1340, 1024, 720 and 390 px
+PASS: No uncaught browser JavaScript errors
+{
+  "environment": "Linux + system Chromium; HTML/CSS/JS injected in memory because managed browser blocks URL navigation; no policies changed; API bridge to actual loopback HTTP server; not Windows",
+  "catalogue": "synthetic test fixtures",
+  "media": "local synthetic WebM clips",
+  "real_source_playback_verified": false,
+  "checks": [
+    {
+      "name": "Home loaded with offline-by-default configuration",
+      "passed": true
+    },
+    {
+      "name": "Offline search returns explicitly labelled local demo only",
+      "passed": true
+    },
+    {
+      "name": "Local synthetic video decodes frames and time advances",
+      "passed": true
+    },
+    {
+      "name": "Next-episode control selects and plays the second local clip",
+      "passed": true
+    },
+    {
+      "name": "Switch to source missing episode 2 does not silently play episode 1",
+      "passed": true
+    },
+    {
+      "name": "Favorites and observed playback evidence persist in local SQLite",
+      "passed": true
+    },
+    {
+      "name": "Saved favorites survive UI reinitialization; browser URL navigation not tested",
+      "passed": true
+    },
+    {
+      "name": "Online query blocked until consent",
+      "passed": true
+    },
+    {
+      "name": "Synthetic online catalogue search sorts full title and season",
+      "passed": true
+    },
+    {
+      "name": "All synthetic VOD source groups remain selectable",
+      "passed": true
+    },
+    {
+      "name": "A synthetic iframe load event does not mark media playback successful; remote embedding not tested",
+      "passed": true
+    },
+    {
+      "name": "Manual confirmation remains labelled as user-reported evidence",
+      "passed": true
+    },
+    {
+      "name": "A delayed playback response cannot restart the player after Stop",
+      "passed": true
+    },
+    {
+      "name": "Manual official-page import strips private query parameters and does not invent episode list",
+      "passed": true
+    },
+    {
+      "name": "Diagnostic UI displays HTTP-only results without claiming real playback",
+      "passed": true
+    },
+    {
+      "name": "Search UI has no horizontal page overflow at 1340, 1024, 720 and 390 px",
+      "passed": true
+    },
+    {
+      "name": "No uncaught browser JavaScript errors",
+      "passed": true
+    }
+  ],
+  "console_errors": [],
+  "local_media_evidence": {
+    "time": 1.220097,
+    "frames": 34,
+    "width": 640,
+    "height": 360
+  },
+  "browser_version": "144.0.7559.96"
+}

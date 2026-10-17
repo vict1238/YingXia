@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://example.com/",
+    "error": "HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='example.com', port=443): Failed to resolve 'example.com' ([Errno -3] Temporary failure in name resolution)\"))"
+  },
+  {
+    "url": "https://www.python.org/",
+    "error": "HTTPSConnectionPool(host='www.python.org', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.python.org', port=443): Failed to resolve 'www.python.org' ([Errno -3] Temporary failure in name resolution)\"))"
+  }
+]

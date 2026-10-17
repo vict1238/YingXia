@@ -1,0 +1,35 @@
+{
+  "apk": "C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\releases\\YingXia_v2.0.0_Android.apk",
+  "bytes": 124097983,
+  "sha256": "63f2e806232a0d338d2151eb41b80a41dcddd20de5c903df4c79e2774c0e6bf4",
+  "package": "com.yingxia.yingxia_native",
+  "launchable_activity": "com.yingxia.yingxia_native.MainActivity",
+  "min_sdk": 26,
+  "debuggable": false,
+  "signature_verified": true,
+  "fixture": false,
+  "abis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64"
+  ],
+  "native_libraries": [
+    "lib/arm64-v8a/libapp.so",
+    "lib/arm64-v8a/libflutter.so",
+    "lib/arm64-v8a/libgojni.so",
+    "lib/arm64-v8a/libmediakitandroidhelper.so",
+    "lib/arm64-v8a/libmpv.so",
+    "lib/armeabi-v7a/libapp.so",
+    "lib/armeabi-v7a/libflutter.so",
+    "lib/armeabi-v7a/libgojni.so",
+    "lib/armeabi-v7a/libmediakitandroidhelper.so",
+    "lib/armeabi-v7a/libmpv.so",
+    "lib/x86_64/libapp.so",
+    "lib/x86_64/libflutter.so",
+    "lib/x86_64/libgojni.so",
+    "lib/x86_64/libmediakitandroidhelper.so",
+    "lib/x86_64/libmpv.so"
+  ],
+  "browser_libraries": [],
+  "verified_at": "2026-10-14T08:37:19.9810714Z"
+}

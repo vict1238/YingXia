@@ -1,0 +1,94 @@
+{
+  "environment": "win32/x64, native local HTTP navigation, isolated headless browser",
+  "catalogue": "synthetic fixtures",
+  "media": "test-only WebM and H264 HLS",
+  "real_third_party_playback_tested": false,
+  "checks": [
+    {
+      "name": "Minimal home loads without removed sections or JavaScript errors",
+      "passed": true
+    },
+    {
+      "name": "All four navigation pages open",
+      "passed": true
+    },
+    {
+      "name": "Network consent still gates queries; synthetic search and season ordering work",
+      "passed": true
+    },
+    {
+      "name": "Iframe page load stays distinct from observed video playback",
+      "passed": true
+    },
+    {
+      "name": "Stop discards delayed playback responses",
+      "passed": true
+    },
+    {
+      "name": "Test-only media decodes and advances time through the real player UI",
+      "passed": true
+    },
+    {
+      "name": "Next episode selects and plays the correct test clip",
+      "passed": true
+    },
+    {
+      "name": "A source missing the selected episode does not play another episode",
+      "passed": true
+    },
+    {
+      "name": "Favorites and playback history survive page reload",
+      "passed": true
+    },
+    {
+      "name": "Import, per-episode binding and source selection still work",
+      "passed": true
+    },
+    {
+      "name": "Source settings and HTTP diagnostics work",
+      "passed": true
+    },
+    {
+      "name": "Update UI checks all three tracked repositories and shows their state",
+      "passed": true
+    },
+    {
+      "name": "Custom CMS import, provider switch and removal update the search selector",
+      "passed": true
+    },
+    {
+      "name": "HLS master/segments decode through the relay, speed/quality controls work and ending advances to episode two",
+      "passed": true
+    },
+    {
+      "name": "Stop removes and destroys the HLS player",
+      "passed": true
+    },
+    {
+      "name": "Search layout fits desktop and narrow window widths",
+      "passed": true
+    },
+    {
+      "name": "No uncaught JavaScript errors throughout the run",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "external_requests": [
+    "https://wsyzy.vip/m3u8/",
+    "https://free.maccms.xyz/"
+  ],
+  "test_media_observation": {
+    "time": 1.206977,
+    "frames": 33,
+    "width": 640
+  },
+  "hls_observation": {
+    "time": 1.006322,
+    "frames": 32,
+    "width": 640,
+    "source": "blob:http://127.0.0.1:64070/80eb6ca9-0521-49ef-91af-a354fc95bc17"
+  },
+  "browser": "155.0.8059.39",
+  "check_count": 17
+}

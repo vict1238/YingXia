@@ -1,0 +1,45 @@
+Window: "映匣 · YingXia", App: yingxia_native.exe.
+	0 window 映匣 · YingXia Secondary Actions: Raise
+		1 pane
+			2394 group
+				2395 group
+					2396 group
+						2397 group
+							2398 text 映 映匣 YINGXIA
+							2399 button 搜索影片
+							2400 button 播放工作台
+							2401 button 收藏与记录
+							2402 button 来源与诊断
+							2403 text 播放工作台
+							2404 group
+								2405 text 播放工作台
+								2406 button ＋ 收藏
+								2407 text 选集
+								2408 text 0 集
+								2409 text 片源
+								2410 button 暂无来源
+								2411 text 请选择集数
+								2412 text 选集之后请点击下方播放所选集
+								2413 text 作品信息
+								2414 group
+								2415 text 待播放
+								2416 text 超分
+								2417 button 关闭
+								2418 button 全屏 ⛶
+								2419 button 上一集
+								2420 button ▷ 播放所选集
+								2421 button 下一集
+								2422 button 停止
+								2423 text 播放方式 / 解析线路
+								2424 text 实际播放来源
+								2425 button 内置播放
+								2426 text 尚未选择
+								2427 text 绑定播放页
+		17 title bar (settable, string) Value: 映匣 · YingXia
+			18 menu bar System ID: MenuBar
+				38 menu item System
+			20 button Minimize
+			21 button Maximize
+			22 button Close
+
+The focused UI element is 1 pane.

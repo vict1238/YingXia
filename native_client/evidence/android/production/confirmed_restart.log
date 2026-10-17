@@ -1,0 +1,7 @@
+Starting: Intent { cmp=com.yingxia.yingxia_native/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.yingxia.yingxia_native/.MainActivity
+TotalTime: 3296
+WaitTime: 3325
+Complete

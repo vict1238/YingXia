@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "source_zip": "native_android_core/build/yingxia_android_core_2.2.0_source.zip",
+  "source_files": 249,
+  "all_extracted_file_hashes_match": true,
+  "zip_entries_are_relative": true,
+  "excluded_paths": [
+    "build/",
+    "evidence/",
+    ".tools/",
+    ".git/"
+  ],
+  "forbidden_tool_or_signing_payload_count": 0,
+  "build_script_parser": "PASS",
+  "build_script_hardcoded_absolute_paths": 0,
+  "tool_resolution": "ToolsRoot parameter resolves external Go/JDK/SDK/NDK; default sibling .tools for project layout",
+  "outputs": "PSScriptRoot/build and PSScriptRoot/evidence/tools",
+  "fixed_mobile_version": "v0.0.0-20261011034528-197770444867",
+  "mobile_cache_directory_created": true,
+  "gomobile_init_invoked": false,
+  "rebuild_from_extraction_executed": false,
+  "reason": "Static relocation audit requested; shipping AAR bytes preserved",
+  "script_sha256": "98dd074c536ce203753c1b8c9c1a44dbcb0d6427a98f1b0d8d62c076f1feb00b",
+  "sdk_and_jdk_preinstalled_required": true,
+  "system_environment_modified": false,
+  "source_zip_sha256": "81b662b0e76e50c7040d4d88254e9a3ede9f183ab43c58d2c835c2b38543f138",
+  "environment_scope": "current process only; no persistent system environment writes"
+}

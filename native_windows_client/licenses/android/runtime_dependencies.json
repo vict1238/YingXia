@@ -1,0 +1,1264 @@
+{
+  "source_report": "native_client/evidence/android/release_runtime_classpath.txt",
+  "source_report_sha256": "dd401c2c92fee8f7a55c98ff5877286d5bbf0383f19d39c561b1cd961f5cfce9",
+  "gradle_dependency_task_successful": true,
+  "unresolved_failed_entries": false,
+  "resolved_maven_coordinates": 49,
+  "androidx_coordinates": 33,
+  "metadata_only_coordinates": [
+    "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.7.1"
+  ],
+  "scope": "Resolved releaseRuntimeClasspath modules include metadata/BOM entries; this is not an APK installation, R8 retention, or playback test. Project plugin licenses are separately retained under ../pub. Local Go AAR licensing is under ../go.",
+  "modules": [
+    {
+      "group": "androidx.activity",
+      "artifact": "activity",
+      "version": "1.8.1",
+      "requested_versions": [
+        "1.8.1"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.activity__activity__1.8.1.pom",
+          "sha256": "c0ccbb0f6bd3f3a4fe338811dd8aee19b4919f4197613ee801bf33dd6dd702d7"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.annotation",
+      "artifact": "annotation",
+      "version": "1.8.1",
+      "requested_versions": [
+        "1.0.0",
+        "1.1.0",
+        "1.2.0",
+        "1.3.0",
+        "1.6.0",
+        "1.8.1"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.annotation__annotation__1.8.1.pom",
+          "sha256": "b71225974ec087eb96c25ef6819f55b1c22f530e85ca446ba735fb66ed04ff5c"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.annotation",
+      "artifact": "annotation-experimental",
+      "version": "1.4.0",
+      "requested_versions": [
+        "1.4.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.annotation__annotation-experimental__1.4.0.pom",
+          "sha256": "41d2b9d879fc9221acda8e873ec7d26b153b9b8e04770ac79491e0576baef038"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.annotation",
+      "artifact": "annotation-jvm",
+      "version": "1.8.1",
+      "requested_versions": [
+        "1.8.1"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.annotation__annotation-jvm__1.8.1.pom",
+          "sha256": "d49203733aa6fae046c3a3de4e796eed347595755486a64273989844759750b4"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.arch.core",
+      "artifact": "core-common",
+      "version": "2.2.0",
+      "requested_versions": [
+        "2.1.0",
+        "2.2.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.arch.core__core-common__2.2.0.pom",
+          "sha256": "1e17d4af8d6425be2a69f8af4d654a87e0456259a9eef1542869bcb023547e28"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.arch.core",
+      "artifact": "core-runtime",
+      "version": "2.2.0",
+      "requested_versions": [
+        "2.2.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.arch.core__core-runtime__2.2.0.pom",
+          "sha256": "0f953706598140d9d8735cdd5aeb1fa35933f4e2f31c0bf3eb81a053a4c8c1a5"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.collection",
+      "artifact": "collection",
+      "version": "1.1.0",
+      "requested_versions": [
+        "1.0.0",
+        "1.1.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.collection__collection__1.1.0.pom",
+          "sha256": "67e9066ca4acfdc6e3cc508293c31ba0398057ff118e4f70b1e1813c9a3456d1"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.concurrent",
+      "artifact": "concurrent-futures",
+      "version": "1.1.0",
+      "requested_versions": [
+        "1.0.0",
+        "1.1.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.concurrent__concurrent-futures__1.1.0.pom",
+          "sha256": "748a34eb5d13d19d187adecaea82667fded5f1b0b98a655e13ed2e4a8b3d8ae6"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.core",
+      "artifact": "core",
+      "version": "1.13.1",
+      "requested_versions": [
+        "1.0.0",
+        "1.13.1",
+        "1.3.2",
+        "1.8.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.core__core__1.13.1.pom",
+          "sha256": "527abfa5a8d6af748b37e1c0162d1633a2d5ea4387b0205a8b436b6214ba1cf6"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.core",
+      "artifact": "core-ktx",
+      "version": "1.13.1",
+      "requested_versions": [
+        "1.13.1",
+        "1.2.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.core__core-ktx__1.13.1.pom",
+          "sha256": "31cc345b8c6cdd2046dcf67872df8a8cb4f44ea0cade4df80002caa7e3b71809"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.customview",
+      "artifact": "customview",
+      "version": "1.0.0",
+      "requested_versions": [
+        "1.0.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.customview__customview__1.0.0.pom",
+          "sha256": "ce9e47b87184f5bd5e139e9becd5b26476d42d78c31bf2fdedc37acb41b9ad49"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.exifinterface",
+      "artifact": "exifinterface",
+      "version": "1.4.1",
+      "requested_versions": [
+        "1.4.1"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.exifinterface__exifinterface__1.4.1.pom",
+          "sha256": "944e867584e20748613cc7610bd5fa10a968cc98cb59fdfdb863e9f0201df289"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.fragment",
+      "artifact": "fragment",
+      "version": "1.7.1",
+      "requested_versions": [
+        "1.7.1"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.fragment__fragment__1.7.1.pom",
+          "sha256": "18bbbd3a53f8c1f026be496a847d9607ae06da9cb0f85f47f702fd27e2bd3906"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.interpolator",
+      "artifact": "interpolator",
+      "version": "1.0.0",
+      "requested_versions": [
+        "1.0.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.interpolator__interpolator__1.0.0.pom",
+          "sha256": "0ddc07cc39699f48ecd9ec894b5830c0f09e22e82959294edf37217224c88b7b"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-common",
+      "version": "2.7.0",
+      "requested_versions": [
+        "2.6.1",
+        "2.7.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.lifecycle__lifecycle-common__2.7.0.pom",
+          "sha256": "8a7c2448917f84fa6793dfe8563b49c96562d6e86eed19c642ef300d5cd16bc0"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-common-java8",
+      "version": "2.7.0",
+      "requested_versions": [
+        "2.7.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.lifecycle__lifecycle-common-java8__2.7.0.pom",
+          "sha256": "c29de269fca03230d0fb5ebf9c9560950b9f9bcd540ed7fcf85c08beca1afddb"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-livedata",
+      "version": "2.7.0",
+      "requested_versions": [
+        "2.0.0",
+        "2.7.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.lifecycle__lifecycle-livedata__2.7.0.pom",
+          "sha256": "69885fd126b6866da760421636cb31cbf0fc5195f9962f45b9775c2d18496fc8"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-livedata-core",
+      "version": "2.7.0",
+      "requested_versions": [
+        "2.6.1",
+        "2.7.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.lifecycle__lifecycle-livedata-core__2.7.0.pom",
+          "sha256": "d8e8a0ccedc798db560c637df432159cb05ec3ad18f9b8f6648f59bd4580acd6"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-livedata-core-ktx",
+      "version": "2.7.0",
+      "requested_versions": [
+        "2.7.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.lifecycle__lifecycle-livedata-core-ktx__2.7.0.pom",
+          "sha256": "67502b56b0695b2c2a1c8ff2b93ebd23b6c3d0c214f1ea3b96211eca98960fc4"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-process",
+      "version": "2.7.0",
+      "requested_versions": [
+        "2.7.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.lifecycle__lifecycle-process__2.7.0.pom",
+          "sha256": "7b07a80cb709396b69b071ea1a9177846ed699b4b44bebb1f9bad8bbbf21a23d"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-runtime",
+      "version": "2.7.0",
+      "requested_versions": [
+        "2.6.1",
+        "2.6.2",
+        "2.7.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.lifecycle__lifecycle-runtime__2.7.0.pom",
+          "sha256": "fec5849eef5069ae19f0c6270d76421485f461f1025c90277b05ddd713c7e365"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-viewmodel",
+      "version": "2.7.0",
+      "requested_versions": [
+        "2.0.0",
+        "2.6.1",
+        "2.7.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.lifecycle__lifecycle-viewmodel__2.7.0.pom",
+          "sha256": "700f289173adcd0c6144da0c692c4e40b0a83af5a1392c544da982f4aabbd48e"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-viewmodel-savedstate",
+      "version": "2.7.0",
+      "requested_versions": [
+        "2.6.1",
+        "2.7.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.lifecycle__lifecycle-viewmodel-savedstate__2.7.0.pom",
+          "sha256": "df0107a734b53080a2847bfabbf8e127958b765f6d5a0d5e028281af3964623f"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.loader",
+      "artifact": "loader",
+      "version": "1.0.0",
+      "requested_versions": [
+        "1.0.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.loader__loader__1.0.0.pom",
+          "sha256": "c978d550808b47434aa49a63164110a50b55b0bcc6160a93a2e37d5110df8c5e"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.profileinstaller",
+      "artifact": "profileinstaller",
+      "version": "1.3.1",
+      "requested_versions": [
+        "1.3.0",
+        "1.3.1"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.profileinstaller__profileinstaller__1.3.1.pom",
+          "sha256": "08263eb70a814a7cb26d11d3a83825f84c29f3e4b59f9134724e0e02e2bbd768"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.savedstate",
+      "artifact": "savedstate",
+      "version": "1.2.1",
+      "requested_versions": [
+        "1.2.1"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.savedstate__savedstate__1.2.1.pom",
+          "sha256": "0d33bc285df1e12f22780f1624a6f0b38ea2a6181b0955ec6641caf620c50cbf"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.startup",
+      "artifact": "startup-runtime",
+      "version": "1.1.1",
+      "requested_versions": [
+        "1.1.1"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.startup__startup-runtime__1.1.1.pom",
+          "sha256": "f4114b5c6859bb1bc3caf281cb6d6f25998fa7f7292c64ceaea74a93210e746b"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.tracing",
+      "artifact": "tracing",
+      "version": "1.2.0",
+      "requested_versions": [
+        "1.0.0",
+        "1.2.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.tracing__tracing__1.2.0.pom",
+          "sha256": "f34bec4eb58871d31002901377108aaa1ebfe77fa6d882b8b86200b158e26ea1"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.versionedparcelable",
+      "artifact": "versionedparcelable",
+      "version": "1.1.1",
+      "requested_versions": [
+        "1.1.1"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.versionedparcelable__versionedparcelable__1.1.1.pom",
+          "sha256": "5f51e65873ca612de3838fa90d2ee95b8d040efd31b9c390a19bf94d615cdb2f"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.viewpager",
+      "artifact": "viewpager",
+      "version": "1.0.0",
+      "requested_versions": [
+        "1.0.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.viewpager__viewpager__1.0.0.pom",
+          "sha256": "1f72f836339d03c6eb013f65075e76ca87075a577578eb4f95f74a3a5d253128"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.window",
+      "artifact": "window",
+      "version": "1.2.0",
+      "requested_versions": [
+        "1.2.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.window__window__1.2.0.pom",
+          "sha256": "280c00e2495e1d5749b1c0ab59fc728a2964ccb33f5e11880857ee2efe4ec15b"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.window",
+      "artifact": "window-java",
+      "version": "1.2.0",
+      "requested_versions": [
+        "1.2.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.window__window-java__1.2.0.pom",
+          "sha256": "73570afdc9db596396a92beefe4de5d22afac7eab112c4ab30737bb7f884a1fd"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "androidx.window.extensions.core",
+      "artifact": "core",
+      "version": "1.0.0",
+      "requested_versions": [
+        "1.0.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/androidx.window.extensions.core__core__1.0.0.pom",
+          "sha256": "ec7573c61c1f9f510f6e5bcad2683b4dcb401fee75426c0f57b41490836791c8"
+        }
+      ],
+      "license_files": [
+        "LICENSE-AndroidX-reference.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "com.getkeepsafe.relinker",
+      "artifact": "relinker",
+      "version": "1.4.5",
+      "requested_versions": [
+        "1.4.5"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/com.getkeepsafe.relinker__relinker__1.4.5.pom",
+          "sha256": "099e4e007b80700c25190b81ac7b256f42b04f1e829dbd0673f0c415e9613426"
+        }
+      ],
+      "license_files": [
+        "LICENSE-ReLinker-1.4.5.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "com.google.guava",
+      "artifact": "listenablefuture",
+      "version": "1.0",
+      "requested_versions": [
+        "1.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/com.google.guava__listenablefuture__1.0.pom",
+          "sha256": "53873caf26bc1ed8a567ea6c939ab2aaa3f47a5e32d5cade95ddf5080d23238a"
+        },
+        {
+          "path": "poms/com.google.guava__guava-parent__26.0-android.pom",
+          "sha256": "f8698ab46ca996ce889c1afc8ca4f25eb8ac6b034dc898d4583742360016cc04"
+        }
+      ],
+      "license_files": [
+        "LICENSE-Guava-ListenableFuture-1.0.txt",
+        "COPYRIGHT-Guava-ListenableFuture-1.0.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "io.flutter",
+      "artifact": "arm64_v8a_release",
+      "version": "1.0.0-deb287481e3ce9468f3434937ced4240a70539ca",
+      "requested_versions": [
+        "1.0.0-deb287481e3ce9468f3434937ced4240a70539ca"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [],
+      "pom_files": [
+        {
+          "path": "poms/io.flutter__arm64_v8a_release__1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.pom",
+          "sha256": "8fc73533c6eabc9103a5a6d2d9e5cc9bc72eba554762f34d5d0f19610d831baa"
+        }
+      ],
+      "license_files": [
+        "../flutter/LICENSE-Flutter.txt",
+        "../flutter/NOTICES-Flutter-engine.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "io.flutter",
+      "artifact": "armeabi_v7a_release",
+      "version": "1.0.0-deb287481e3ce9468f3434937ced4240a70539ca",
+      "requested_versions": [
+        "1.0.0-deb287481e3ce9468f3434937ced4240a70539ca"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [],
+      "pom_files": [
+        {
+          "path": "poms/io.flutter__armeabi_v7a_release__1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.pom",
+          "sha256": "fe4fc9b98fe6e2ea361fe7bb7c5e257d4128ad42131b64b1d720946d8388b5eb"
+        }
+      ],
+      "license_files": [
+        "../flutter/LICENSE-Flutter.txt",
+        "../flutter/NOTICES-Flutter-engine.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "io.flutter",
+      "artifact": "flutter_embedding_release",
+      "version": "1.0.0-deb287481e3ce9468f3434937ced4240a70539ca",
+      "requested_versions": [
+        "1.0.0-deb287481e3ce9468f3434937ced4240a70539ca"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [],
+      "pom_files": [
+        {
+          "path": "poms/io.flutter__flutter_embedding_release__1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.pom",
+          "sha256": "97efb7667dd458b140f90c92c67aed92b05a69cfda412a8bace3623f252b1ea7"
+        }
+      ],
+      "license_files": [
+        "../flutter/LICENSE-Flutter.txt",
+        "../flutter/NOTICES-Flutter-engine.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "io.flutter",
+      "artifact": "x86_64_release",
+      "version": "1.0.0-deb287481e3ce9468f3434937ced4240a70539ca",
+      "requested_versions": [
+        "1.0.0-deb287481e3ce9468f3434937ced4240a70539ca"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [],
+      "pom_files": [
+        {
+          "path": "poms/io.flutter__x86_64_release__1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.pom",
+          "sha256": "5cd8300c4bd98caa5bc36bcfc8574d5b21cf27d0b694a5a698d0fd3e0e82b9d5"
+        }
+      ],
+      "license_files": [
+        "../flutter/LICENSE-Flutter.txt",
+        "../flutter/NOTICES-Flutter-engine.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "org.jetbrains",
+      "artifact": "annotations",
+      "version": "23.0.0",
+      "requested_versions": [
+        "13.0",
+        "23.0.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/org.jetbrains__annotations__23.0.0.pom",
+          "sha256": "c9490f655132328df2cfbcfdf743f53fc3916d6c1d10437175a6ca6e3a67771c"
+        }
+      ],
+      "license_files": [
+        "LICENSE-JetBrains-annotations-23.0.0.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "artifact": "kotlin-stdlib",
+      "version": "2.4.0",
+      "requested_versions": [
+        "1.7.10",
+        "1.8.10",
+        "1.8.20",
+        "1.8.22",
+        "2.4.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "Apache-2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/org.jetbrains.kotlin__kotlin-stdlib__2.4.0.pom",
+          "sha256": "8194ff79a9ee24a7fa3f74a6b179c04a1859de8b987a4f0983056e59451721de"
+        }
+      ],
+      "license_files": [
+        "LICENSE-Kotlin-2.4.0.txt",
+        "NOTICE-Kotlin-2.4.0.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "artifact": "kotlin-stdlib-common",
+      "version": "2.4.0",
+      "requested_versions": [
+        "1.8.20",
+        "2.4.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "Apache-2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/org.jetbrains.kotlin__kotlin-stdlib-common__2.4.0.pom",
+          "sha256": "fd1a658edbed7880ac3e0a0dbd20ae1a46c987e40af544e3a6b110825bbefcf5"
+        }
+      ],
+      "license_files": [
+        "LICENSE-Kotlin-2.4.0.txt",
+        "NOTICE-Kotlin-2.4.0.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "artifact": "kotlin-stdlib-jdk7",
+      "version": "1.8.20",
+      "requested_versions": [
+        "1.8.0",
+        "1.8.20"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/org.jetbrains.kotlin__kotlin-stdlib-jdk7__1.8.20.pom",
+          "sha256": "3622d106578cddcc0a9ec20f8ce815f7f49ff542f640228d2141fcaf80616b06"
+        }
+      ],
+      "license_files": [
+        "LICENSE-Kotlin-1.8.20.txt",
+        "NOTICE-Kotlin-1.8.20.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "artifact": "kotlin-stdlib-jdk8",
+      "version": "1.8.20",
+      "requested_versions": [
+        "1.8.0",
+        "1.8.20"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/org.jetbrains.kotlin__kotlin-stdlib-jdk8__1.8.20.pom",
+          "sha256": "3a462214a336e995687769531b1e37b0c81d8e10c9949cd5ea7ae1d7803a0232"
+        }
+      ],
+      "license_files": [
+        "LICENSE-Kotlin-1.8.20.txt",
+        "NOTICE-Kotlin-1.8.20.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "artifact": "kotlinx-coroutines-android",
+      "version": "1.7.1",
+      "requested_versions": [
+        "1.7.1"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/org.jetbrains.kotlinx__kotlinx-coroutines-android__1.7.1.pom",
+          "sha256": "80f47d014115258758d4e1c5e4c9238c9eed36d2249d1d25858a934b29aba5df"
+        }
+      ],
+      "license_files": [
+        "LICENSE-kotlinx-coroutines-1.7.1.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "artifact": "kotlinx-coroutines-bom",
+      "version": "1.7.1",
+      "requested_versions": [
+        "1.7.1"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/org.jetbrains.kotlinx__kotlinx-coroutines-bom__1.7.1.pom",
+          "sha256": "b925aa988c40a5c7aa0c77b21373feb18c39414926bd51c76ef44434f5bae9c2"
+        }
+      ],
+      "license_files": [
+        "LICENSE-kotlinx-coroutines-1.7.1.txt"
+      ],
+      "metadata_only": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "artifact": "kotlinx-coroutines-core",
+      "version": "1.7.1",
+      "requested_versions": [
+        "1.7.1"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/org.jetbrains.kotlinx__kotlinx-coroutines-core__1.7.1.pom",
+          "sha256": "046b010fc7a0e43d2bfc73a9de7675de5541006cbce96163121746034d69d723"
+        }
+      ],
+      "license_files": [
+        "LICENSE-kotlinx-coroutines-1.7.1.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "artifact": "kotlinx-coroutines-core-jvm",
+      "version": "1.7.1",
+      "requested_versions": [
+        "1.7.1"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/org.jetbrains.kotlinx__kotlinx-coroutines-core-jvm__1.7.1.pom",
+          "sha256": "85c19db10dbc448a04663cdfb478243eda0a8d6b127f108f19955b16d489b35d"
+        }
+      ],
+      "license_files": [
+        "LICENSE-kotlinx-coroutines-1.7.1.txt"
+      ],
+      "metadata_only": false
+    },
+    {
+      "group": "org.jspecify",
+      "artifact": "jspecify",
+      "version": "1.0.0",
+      "requested_versions": [
+        "1.0.0"
+      ],
+      "only_constraint": false,
+      "pom_declared_licenses": [
+        {
+          "name": "The Apache License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_files": [
+        {
+          "path": "poms/org.jspecify__jspecify__1.0.0.pom",
+          "sha256": "cdab929a3b95211f43d2090c5e2d0dfe8465960e378bc32b35841dab324433a6"
+        }
+      ],
+      "license_files": [
+        "LICENSE-JSpecify-1.0.0.txt",
+        "COPYRIGHT-JSpecify-1.0.0.txt"
+      ],
+      "metadata_only": false
+    }
+  ],
+  "all_listed_components_have_license_files": true
+}

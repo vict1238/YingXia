@@ -1,0 +1,105 @@
+Window: "映匣 · YingXia", App: yingxia_native.exe.
+	0 window 映匣 · YingXia Secondary Actions: Raise
+		1 pane
+			6186 group
+				6187 group
+					6188 group
+						6189 group
+							6190 text 映 映匣 YINGXIA
+							6191 button 搜索影片
+							6192 button 播放工作台
+							6193 button 收藏与记录
+							6194 button 来源与诊断
+							6195 text 来源与诊断
+							6196 group
+								6197 text 来源与诊断
+								6198 text 开发人员
+								6199 text (settable, string) Value: 翻翻蓄小激光 cqh.vict1238@gmail.com
+								6200 text (settable, string) Value: 流风驻尘闲 yuchihaobo@gmail.com
+								6201 text 设置
+								6202 text 数据目录
+								6203 check box
+								6204 check box
+								6205 text 联网搜索与播放
+								6206 text 保存历史记录
+								6207 text (settable, string) Value: C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\native_windows_client\build\qa_v23_r2\isolated-data
+								6208 check box
+								6209 text 自动播放下一集
+								6210 button 导出诊断
+								6211 check box
+								6212 text 跳过标记广告
+								6213 check box
+								6214 text 卡顿时提示换源
+								6215 button 播放与缓存 标准
+								6216 text 默认超分
+								6217 button 关闭
+								6218 text 下次启动时生效
+								6219 text 来源管理（47）
+								6220 button 更新来源
+								6221 button 添加来源
+								6222 button 全部测速
+								6223 text 自动更新来源
+								6224 check box
+								6225 text 更新详情
+								6226 edit (settable, string) 查找来源
+								6227 button 全部
+								6228 text 无损云 影视 · 待测速. 无损云 https://api.wsyzy.net/api.php/provide/vod/ 未测速
+								6229 check box 停用
+								6230 button 测速
+								6231 text 电影天堂资源 CMS · 待测速. 电影天堂资源 http://caiji.dyttzyapi.com/api.php/provide/vod 未测速
+								6232 check box 停用
+								6233 button 测速
+								6234 text 如意资源 CMS · 待测速. 如意资源 https://cj.rycjapi.com/api.php/provide/vod 未测速
+								6235 check box 停用
+								6236 button 测速
+								6237 text 暴风资源 CMS · 待测速. 暴风资源 https://bfzyapi.com/api.php/provide/vod 未测速
+								6238 check box 停用
+								6239 button 测速
+								6240 text 非凡资源 ffzy5.tv CMS · 待测速. 非凡资源 ffzy5.tv http://ffzy5.tv/api.php/provide/vod 未测速
+								6241 check box 停用
+								6242 button 测速
+								6243 text 360资源 CMS · 待测速. 360资源 https://360zy.com/api.php/provide/vod 未测速
+								6244 check box 停用
+								6245 button 测速
+								6246 text 爱奇艺资源 CMS · 待测速. 爱奇艺资源 https://www.iqiyizyapi.com/api.php/provide/vod 未测速
+								6247 check box 停用
+								6248 button 测速
+								6249 text 极速资源 CMS · 待测速. 极速资源 https://jszyapi.com/api.php/provide/vod 未测速
+								6250 check box 停用
+								6251 button 测速
+								6252 text 魔都资源 CMS · 待测速. 魔都资源 https://www.mdzyapi.com/api.php/provide/vod 未测速
+								6253 check box 停用
+								6254 button 测速
+								6255 text 最大资源 CMS · 待测速. 最大资源 https://api.zuidapi.com/api.php/provide/vod 未测速
+								6256 check box 停用
+								6257 button 测速
+								6258 text iKun资源 CMS · 待测速. iKun资源 https://ikunzyapi.com/api.php/provide/vod 未测速
+								6259 check box 停用
+								6260 button 测速
+								6261 text 猫眼资源 CMS · 待测速. 猫眼资源 https://api.maoyanapi.top/api.php/provide/vod 未测速
+								6262 check box 停用
+								6263 button 测速
+								6264 text 360资源 360zyzz.com CMS · 待测速. 360资源 360zyzz.com https://360zyzz.com/api.php/provide/vod 未测速
+								6265 check box 停用
+								6266 button 测速
+								6267 text 非凡资源 ffzyapi.com CMS · 待测速. 非凡资源 ffzyapi.com https://api.ffzyapi.com/api.php/provide/vod 未测速
+								6268 check box 停用
+								6269 button 测速
+								6270 text 新浪资源 CMS · 待测速. 新浪资源 https://api.xinlangapi.com/xinlangapi.php/provide/vod 未测速
+								6271 check box 停用
+								6272 button 测速
+								6273 text 1 / 4 页 · 47 个
+								6274 button 上一页
+								6275 button 下一页
+								6276 text 解析线路
+								6277 text 连接诊断
+								6278 button 检测连接
+								6279 text 尚未检测
+		17 title bar (settable, string) Value: 映匣 · YingXia
+			18 menu bar System ID: MenuBar
+				38 menu item System
+			20 button Minimize
+			21 button Maximize
+			22 button Close
+
+The focused UI element is 1 pane.

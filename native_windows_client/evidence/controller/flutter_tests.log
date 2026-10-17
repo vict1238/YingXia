@@ -1,0 +1,29 @@
+00:00 +0: loading C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/mpv_nodes_test.dart
+00:00 +0: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/mpv_nodes_test.dart: copies nested typed mpv VO map, pass list, names and 64-bit timings
+00:00 +1: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/mpv_nodes_test.dart: unavailable, null and invalid typed nodes stay absent instead of success
+00:00 +2: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/playback_evidence_test.dart: 16 ms native callbacks accumulate real playback evidence
+00:00 +3: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/playback_evidence_test.dart: stationary position never counts as playback
+00:00 +4: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/playback_evidence_test.dart: forward seek itself is not playback and resumes saving afterward
+00:00 +5: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/playback_evidence_test.dart: backward seek resets the save interval and new media resets anchor
+00:03 +6: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/video_quality_test.dart: pending renderer waits, software renderer disables shader and restores source
+00:03 +7: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/video_quality_test.dart: native seeking observer resets a short seek even between polling samples
+00:03 +8: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/video_quality_test.dart: physical render target is 1080p, aspect preserving and capped
+00:03 +9: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/video_quality_test.dart: sustained actual VO drops require warmup and two complete windows
+00:03 +10: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/video_quality_test.dart: pause, seek, buffer and counter reset clear accumulated bad windows
+00:03 +11: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/video_quality_test.dart: slow fresh-frame GPU passes degrade; sparse and missing metrics do not
+00:03 +12: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/video_quality_test.dart: controller applies Enhanced, Light and Off to the actual texture
+00:03 +13: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/video_quality_test.dart: actual controller automatically lowers Enhanced to Light to Off
+00:03 +14: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/video_quality_test.dart: decoder drops and unavailable metrics cannot lower controller mode
+00:03 +15: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/video_quality_test.dart: HDR and missing executing shader passes restore normal renderer
+00:03 +16: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/video_quality_test.dart: fullscreen target ignores stale window layout and returns on exit
+00:03 +17: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/video_quality_test.dart: preference persistence changes only the separate Windows preference
+00:04 +18: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/yingxia_widget_test.dart: clear history confirms in app, persists then refreshes rows
+00:05 +19: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/yingxia_widget_test.dart: cancel clear keeps rows and never sends clear API
+00:05 +20: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/yingxia_widget_test.dart: late library response cannot restore cleared history
+00:05 +21: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/yingxia_widget_test.dart: failed clear preserves history and reports failure
+00:05 +22: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/yingxia_widget_test.dart: search progress polls service and chooses tested episode
+00:05 +23: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/yingxia_widget_test.dart: phone navigation and all four pages avoid layout overflow
+00:06 +24: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/yingxia_widget_test.dart: selecting another episode invalidates pending playback resolution
+00:06 +25: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/yingxia_widget_test.dart: simple quality picker has three modes and restores user choice
+00:07 +26: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/yingxia_widget_test.dart: developers appear before source settings with exact names and addresses
+00:07 +27: All tests passed!

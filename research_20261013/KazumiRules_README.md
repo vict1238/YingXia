@@ -1,0 +1,51 @@
+# KazumiRules
+Kazumi的规则托管仓库，欢迎贡献 ^•ﻌ•^
+
+## Contributing Guidelines 贡献指南
+
+- 仅提交或更新规则文件（*.json）
+  > Only submit or update rule files (*.json)
+- 请勿手动修改 `index.json` 和 `README.md`
+  > DO NOT manually modify `index.json` or `README.md`
+- 这些文件会在您的 PR 被合并后自动更新
+  > These files will be automatically updated after your PR is merged
+
+| API Level | Kazumi Version   | Post Support*     | Referer Support | Legacy Parser Support†   | HLS Ad Filtering |
+|-----------|------------------|-------------------|-----------------|--------------------------|------------------|
+| 1         | >= 1.0.0         | ❌                |❌              | ❌                      | ❌               |
+| 2         | >= 1.3.0         | ✅                |❌              | ❌                      | ❌               |
+| 3         | >= 1.3.6         | ✅                |✅              | ✅                      | ❌               |
+| 4         | >= 1.6.8         | ✅                |✅              | ✅                      | ❌               |
+| 5         | >= 1.9.3         | ✅                |✅              | ✅                      | ✅               |
+
+### Feature Descriptions:
+
+**Post Support***: Available from API Level 2 and above.  
+  This feature allows the use of POST requests instead of GET for querying search results, enabling more flexible data transmission. For example, see the implementation in mandao.json.
+
+**Legacy Parser Support**†: Available from API Level 3 and above.  
+  This feature introduces a legacy parser using an iframe src-based approach, which can outperform the common JavaScript hook-based parser in certain scenarios. It’s particularly useful for cases like xfdm.json.
+
+**HLS Ad Filtering**: Available from API Level 5 and above.  
+  Filters advertisements in HLS manifests before playback, reducing ad segments without impacting main content delivery.
+
+## Available Rules
+
+| Name | Version | Last Update |
+|------|---------|-------------|
+| 7sefun | 1.3 | 2026-08-10 |
+| aafun | 1.2 | 2026-08-21 |
+| AGE | 1.5 | 2025-09-17 |
+| akianime | 1.4 | 2026-08-17 |
+| baimao | 1.0 | 2026-01-28 |
+| dalvdm | 1.1 | 2026-10-01 |
+| DM84 | 1.4 | 2026-02-02 |
+| ezdmw | 1.2 | 2026-08-16 |
+| giriGiriLove | 2.4 | 2026-08-09 |
+| mgnacg | 1.0 | 2026-06-08 |
+| moonci | 1.0 | 2026-08-29 |
+| mutefun | 1.3 | 2026-10-13 |
+| MXdm | 2.4 | 2026-10-01 |
+| sorani | 1.0 | 2026-07-13 |
+| xfdmneo | 1.1 | 2026-03-08 |
+| xfdmnext | 1.1 | 2026-10-01 |

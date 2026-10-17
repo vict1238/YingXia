@@ -1,0 +1,32 @@
+00:00 +0: loading C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/mpv_nodes_test.dart
+00:00 +0: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/mpv_nodes_test.dart: copies nested typed mpv VO map, pass list, names and 64-bit timings
+00:00 +1: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/mpv_nodes_test.dart: unavailable, null and invalid typed nodes stay absent instead of success
+00:00 +2: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/playback_evidence_test.dart: 16 ms native callbacks accumulate real playback evidence
+00:00 +3: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/playback_evidence_test.dart: stationary position never counts as playback
+00:00 +4: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/playback_evidence_test.dart: forward seek itself is not playback and resumes saving afterward
+00:00 +5: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/playback_evidence_test.dart: backward seek resets the save interval and new media resets anchor
+00:00 +6: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:00 +7: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:00 +8: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:00 +9: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:00 +10: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:00 +11: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:00 +12: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:00 +13: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:00 +14: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:00 +15: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:00 +16: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:00 +17: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:00 +18: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/source_manager_test.dart: large source list is bounded, searchable and filterable
+00:01 +19: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/yingxia_widget_test.dart: clear history confirms in app, persists then refreshes rows
+00:01 +20: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/source_manager_test.dart: all-source and single-source latency jobs show progress and can cancel
+00:01 +21: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/source_manager_test.dart: all-source and single-source latency jobs show progress and can cancel
+00:02 +22: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/source_manager_test.dart: all-source and single-source latency jobs show progress and can cancel
+00:02 +23: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/source_manager_test.dart: all-source and single-source latency jobs show progress and can cancel
+00:02 +24: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/yingxia_widget_test.dart: search progress polls service and chooses tested episode
+00:02 +25: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/source_manager_test.dart: custom source edit preserves redacted URL and switches remain manageable
+00:02 +26: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/yingxia_widget_test.dart: phone navigation and all four pages avoid layout overflow
+00:03 +27: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/yingxia_widget_test.dart: selecting another episode invalidates pending playback resolution
+00:03 +28: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/yingxia_widget_test.dart: startup default is off and temporary playback choices do not overwrite it
+00:03 +29: C:/Users/vict1238/Documents/ChatGPT/cqh/YingXia_Work_Handoff/native_windows_client/test/yingxia_widget_test.dart: developers appear before source settings with exact names and addresses
+00:03 +30: All tests passed!

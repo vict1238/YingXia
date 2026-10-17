@@ -1,0 +1,3 @@
+# Runtime: Python 3.10+, standard library only. No pip installation required.
+# Optional Windows EXE packaging uses PyInstaller 6.22.3 (BUILD_EXE.bat).
+# Optional developer browser tests require Playwright (not bundled or needed to use app).

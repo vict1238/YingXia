@@ -1,0 +1,39 @@
+{
+  "executable": "YingXia_v1.0.2_Windows_x64.exe",
+  "environment": "win32/x64",
+  "startup": "--no-browser, isolated data directory",
+  "checks": [
+    {
+      "name": "Actual Windows GUI EXE starts from a Chinese/space data directory and serves the new embedded UI",
+      "passed": true
+    },
+    {
+      "name": "Local API still requires a session",
+      "passed": true
+    },
+    {
+      "name": "Release has no demo search endpoint or embedded demo video",
+      "passed": true
+    },
+    {
+      "name": "Repeated launch reuses the running instance",
+      "passed": true
+    },
+    {
+      "name": "Production embedded UI loads in isolated headless Edge and all pages open",
+      "passed": true
+    },
+    {
+      "name": "Quit shuts down the backend and clears its session file",
+      "passed": true
+    },
+    {
+      "name": "Saved favorites persist after restarting the release EXE",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "real_third_party_playback_tested": false,
+  "browser": "155.0.4283.45",
+  "check_count": 7
+}

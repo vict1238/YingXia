@@ -1,0 +1,887 @@
+{
+  "schema": 1,
+  "version": "2.3.0",
+  "files": [
+    {
+      "file": "native_android_client/lib/backend.dart",
+      "bytes": 8813,
+      "sha256": "e1e0b558876ce3b5bc5b956889c1889bffedcfe26e60ea5bacc602fa1f2271f6"
+    },
+    {
+      "file": "native_android_client/lib/main.dart",
+      "bytes": 280,
+      "sha256": "cd312ff232144b06d228e21569fd4e5a5ca10096da1a8c3bc9f28c1a243113cb"
+    },
+    {
+      "file": "native_android_client/lib/mpv_nodes.dart",
+      "bytes": 2117,
+      "sha256": "a827f6e584e7bf493c6bcbe121791a7ed8c9cc95ddaa44a6851bcb8538db9f5b"
+    },
+    {
+      "file": "native_android_client/lib/playback_evidence.dart",
+      "bytes": 1135,
+      "sha256": "f73fb9008cce9d6b26eaad74da97f170893ada5d3defb88abbf31896ab77bd9f"
+    },
+    {
+      "file": "native_android_client/lib/playback_features.dart",
+      "bytes": 15329,
+      "sha256": "7d6c5ccb1d21197cd2942b5b4f4ca50dd991f91b75930a4b3d562d37d70978b9"
+    },
+    {
+      "file": "native_android_client/lib/playback_session.dart",
+      "bytes": 3608,
+      "sha256": "d4512d0968a9a1bed1e99c99a9ae888ad4f9af1dde79a45acfc74071c8dddcbf"
+    },
+    {
+      "file": "native_android_client/lib/player_controls.dart",
+      "bytes": 34080,
+      "sha256": "8c00862e1b196b6fc2e8e51c4fa1c829b3bb3d201b4fb0582165480d84316e1b"
+    },
+    {
+      "file": "native_android_client/lib/source_manager.dart",
+      "bytes": 26609,
+      "sha256": "428c167b4a87d42b2c3e452a37a22767603d2553ba41cebb3f36435b16d5c6d1"
+    },
+    {
+      "file": "native_android_client/lib/video_quality.dart",
+      "bytes": 30990,
+      "sha256": "d5b8d3e7d7f74a6dff81cfa82212783b23990a6b715005856fbe2a6edca24ad3"
+    },
+    {
+      "file": "native_android_client/lib/yingxia_app.dart",
+      "bytes": 104641,
+      "sha256": "3338874890aba491bc08cc16da2d44efe903b61c084de5e1511fcdcf1dededb2"
+    },
+    {
+      "file": "native_android_client/test/android_phone_widget_test.dart",
+      "bytes": 7343,
+      "sha256": "2e7ebeec2d6706e2028ab3bc08bfd281caa4140121365d3160ca11d22da710d0"
+    },
+    {
+      "file": "native_android_client/test/android_surface_lifecycle_test.dart",
+      "bytes": 3035,
+      "sha256": "dc5abba1950830ec9b6ab9c66db32cae5a19a9158f0e00c40b570269cb3710d9"
+    },
+    {
+      "file": "native_android_client/test/android_video_quality_test.dart",
+      "bytes": 4814,
+      "sha256": "b2fdcbb711c193e144fbdd3d38b371ea73eec2ac35196ca418a924b66d359888"
+    },
+    {
+      "file": "native_android_client/test/diagnostic_export_test.dart",
+      "bytes": 5262,
+      "sha256": "c82c58cdb3f272f5c407e2a7851d3308f40614fc5480b612bb01f5cfac7bcc27"
+    },
+    {
+      "file": "native_android_client/test/mpv_nodes_test.dart",
+      "bytes": 3257,
+      "sha256": "b0587a06b4dae10353b64dc07e6b3d85a1636b9a936a080c3ba3267024eb9d71"
+    },
+    {
+      "file": "native_android_client/test/playback_evidence_test.dart",
+      "bytes": 2261,
+      "sha256": "414ea665e1ba3b668949d2e3974f858d1abb666b1502918e2e81b4ea43064f04"
+    },
+    {
+      "file": "native_android_client/test/playback_features_test.dart",
+      "bytes": 5847,
+      "sha256": "36cd20c25d5cf6a950ae0d32a666b3ab16c6fb435287b26c625c254f477a8bb1"
+    },
+    {
+      "file": "native_android_client/test/playback_session_test.dart",
+      "bytes": 3684,
+      "sha256": "5ef67b6d03b6d604094783524de94767d59702b2dfdd13594b7de20b4b298e89"
+    },
+    {
+      "file": "native_android_client/test/player_controls_test.dart",
+      "bytes": 14822,
+      "sha256": "bdcb3ec22b33be487a7a54234259dca146c9acbb5bd3df88d860dbbf7017962f"
+    },
+    {
+      "file": "native_android_client/test/source_manager_test.dart",
+      "bytes": 15574,
+      "sha256": "941cacf92555c48dee4f3115c28627770576441f286f20e406b3339dcd94535d"
+    },
+    {
+      "file": "native_android_client/test/video_quality_test.dart",
+      "bytes": 16893,
+      "sha256": "164921bf7291d0f37615220d4f26f0e943cc2f19d64c9ed75aa864a4acf407d5"
+    },
+    {
+      "file": "native_android_client/test/yingxia_widget_test.dart",
+      "bytes": 15107,
+      "sha256": "1b325413cc5cd32792359937cde76292ef9853ee59c0bcfe306f602fff2cf8e2"
+    },
+    {
+      "file": "native_android_client/assets/shaders/fsr1_enhanced.glsl",
+      "bytes": 7470,
+      "sha256": "2b09775acb4a61baa343e9a6ab25f71f123be5e33b7db0b6089bfdcb4a090224"
+    },
+    {
+      "file": "native_android_client/assets/shaders/fsr1_light.glsl",
+      "bytes": 3078,
+      "sha256": "cf2fd095a8ab1a6f09cccba8ee67826414f1c381c805eb8fee0db15cde5161bd"
+    },
+    {
+      "file": "native_android_client/assets/shaders/LICENSE_AMD_FSR1.txt",
+      "bytes": 1094,
+      "sha256": "db089274ce766da70f5b7d791029c3486f9f9e27c8c79c652689603d3192e802"
+    },
+    {
+      "file": "native_android_client/assets/shaders/README_zh.md",
+      "bytes": 3734,
+      "sha256": "74fbc14030f664bbe778c0521236012ae2d461ed00278eeb31dd994757e5052e"
+    },
+    {
+      "file": "native_android_client/assets/shaders/upstream/ffx_a.h",
+      "bytes": 181915,
+      "sha256": "f60e2722fcd13989523b9164d776ab382b3692791767f3bf8bb19967f763f3fb"
+    },
+    {
+      "file": "native_android_client/assets/shaders/upstream/ffx_fsr1.h",
+      "bytes": 60310,
+      "sha256": "93c3922362ea7fc99cbcc698ca30c98de4f8c246d1fbb0b09e015ddef38ce3a5"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/analysis_options.yaml",
+      "bytes": 259,
+      "sha256": "de044e3e29358ec288faa2bec4c7d92e97935a537d58952a26eb5a0fcd78221f"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/CHANGELOG.md",
+      "bytes": 8468,
+      "sha256": "c4a6acbd2635c12f970c0572fdd377c4760f6803ad3a9fb3c0681d780bf772a7"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/LICENSE",
+      "bytes": 1112,
+      "sha256": "2e3000f38718f050869d57540c288c661a446f64df1ba4ea4764df552b04a331"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/pubspec.yaml",
+      "bytes": 965,
+      "sha256": "93c8b2624065e975f9b6ab984e063ac0b6d156b3ef4663bd32d1099cb4a30ef5"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/README.md",
+      "bytes": 694,
+      "sha256": "9e8d703387f281e822e4efbb6f14978723bd031c7e641b2f3eaa5299cbf497b2"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/android/build.gradle",
+      "bytes": 677,
+      "sha256": "20488922c167ad0a1373a80c3625290dc2bfb62edcc37862ff311ab68c89bd2b"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/android/proguard-rules.pro",
+      "bytes": 131,
+      "sha256": "ec6c868d268b033eaddb9fb1eb60d8ddb46d8d196566b2862ba04563d00af68f"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/android/settings.gradle",
+      "bytes": 37,
+      "sha256": "8c0eb5171b4c4840b0afcd9ddec23c8e5c78a0044c9e5408ff61769852e0d74f"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/analysis_options.yaml",
+      "bytes": 1453,
+      "sha256": "b51e122148d477516d45c68eb455a22dd0eacdde9c4979b16c656bb71215c99e"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/pubspec.yaml",
+      "bytes": 274,
+      "sha256": "d6be3a1d9a8f8ddbfeb35b22980bd12e609ff03ddd1f67bc353bd0571b7d024e"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/pubspec_overrides.yaml",
+      "bytes": 157,
+      "sha256": "3e6ac515e92d7ef6b2250b7541cee32a4877505c2df141d4d00d3064169bbb4e"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/README.md",
+      "bytes": 1643,
+      "sha256": "5adb980262be6cf6d7aa4a1e2f0fda298235e2b344bb12cac14074e7092ab110"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/ios/media_kit_video.podspec",
+      "bytes": 2362,
+      "sha256": "6cf86092148c291a292b0271fc9fce015eca654d6ae78d993569c57e2322ae8a"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/media_kit_video.dart",
+      "bytes": 723,
+      "sha256": "4ea6d06788b4b6f4ace41a489b4f92fed2b682e7e756a67c6814e03b10d7e3be"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/linux/CMakeLists.txt",
+      "bytes": 2270,
+      "sha256": "6d77316c0e3cbb17305aca645bc1895bba73a6ce282dd3399d08ffe9cd8b841d"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/linux/media_kit_video_plugin.cc",
+      "bytes": 8803,
+      "sha256": "83c03bedc68bdb2138f8fb2e2dcaae67a7b0bc0a9046142969cf29a0153c3bec"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/linux/texture_gl.cc",
+      "bytes": 10402,
+      "sha256": "c436fcf8d7aeff4b69a4c15875b6ab82dcf6ffe0aa3c308e268db75f2a33a59c"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/linux/texture_sw.cc",
+      "bytes": 2232,
+      "sha256": "d723dc52b49de263c56aef04b3c78fb467a40dfbdb69ea3d61d4594f7e22607b"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/linux/utils.cc",
+      "bytes": 560,
+      "sha256": "fa333038068398ac5c505a30281333416fbb39bc00b0bfffabbadcd3ac20dd8c"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/linux/video_output.cc",
+      "bytes": 18447,
+      "sha256": "703825b5d2fa293277c3af9597bfad07cd3822c6d0e470f18c77fc018589e327"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/linux/video_output_manager.cc",
+      "bytes": 3039,
+      "sha256": "30dc74a8b5c4ec2f4a1b25288285dc10326b300828bca7861f22cf4261d157b0"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/macos/media_kit_video.podspec",
+      "bytes": 1937,
+      "sha256": "7e44771393b5b8227634253ba7d745c91fe82087bccf925f6412718a02f558d6"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/windows/angle_surface_manager.cc",
+      "bytes": 13269,
+      "sha256": "adf40ed64ce91b68ce78004b4523a97adfc598e05b4ece536ce39ddf99fac79b"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/windows/angle_surface_manager.h",
+      "bytes": 4547,
+      "sha256": "fa109a5ef613a49653d84b99a9c5e576200d8446ce8d208b93409553d13517a4"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/windows/CMakeLists.txt",
+      "bytes": 2474,
+      "sha256": "b147d9ab05b1ede23a86f9b73d56f3ad244dfb97acd65ceb3bf1e818edd2ef40"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/windows/media_kit_video_plugin.cc",
+      "bytes": 9472,
+      "sha256": "ac55ec8b6d7320b79769ae44c2bc85a297f1a49ca8b6a17d6fd3d903e52d58d2"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/windows/media_kit_video_plugin.h",
+      "bytes": 1904,
+      "sha256": "bdda89b0d544eacd39be71c7bfcf21e1b47add28267f6cb0198c2c2567ac8526"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/windows/media_kit_video_plugin_c_api.cc",
+      "bytes": 999,
+      "sha256": "ec649f6f81c8d90c3c5c31382e641133cb44596129dc5f0cb902826efa828093"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/windows/thread_pool.h",
+      "bytes": 2382,
+      "sha256": "1c767f4ae025e8e6f9d4274cddd023744f0cabb8998cdbc89b4d75a6f19c0be1"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/windows/utils.cc",
+      "bytes": 3884,
+      "sha256": "e5161298b1c4c464e9171cd82368d579d177b185fab5fd558efaf5ea550f56da"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/windows/utils.h",
+      "bytes": 748,
+      "sha256": "ad314a7d96702e7dc3ede782b6953cfcfce4fdc87d952d8b16c032cae51e0770"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/windows/video_output.cc",
+      "bytes": 20119,
+      "sha256": "0f169ccb1af47f5a84bbc01380f3c77a2c1bdadeb5f2bcbb3cd5a0d9aa1da4ee"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/windows/video_output.h",
+      "bytes": 4593,
+      "sha256": "b13e125d0e97fd5849fc8db309550b56adcf5538271db0d5f40fdccb9fcbda77"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/windows/video_output_manager.cc",
+      "bytes": 3349,
+      "sha256": "786d23499f251eafd8671351866b2bd4de68d5b14fdbd0ab33ce40ba11af9967"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/windows/video_output_manager.h",
+      "bytes": 4382,
+      "sha256": "b5a160bbe8f4be420a4318c82f1eeccfd1c3d80d63fed2628fd481d2d1422321"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/android/src/main/AndroidManifest.xml",
+      "bytes": 66,
+      "sha256": "a441f1b7294168cd4d302efa65701a878fc2bbe4179625b3a817a1991deeac22"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/android/src/main/java/com/alexmercerind/media_kit_video/MediaKitVideoPlugin.java",
+      "bytes": 3355,
+      "sha256": "b218ffbe632029a4c273715f30b94b6f4e4c0401be2402a7a9fec876ae5d566b"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/android/src/main/java/com/alexmercerind/media_kit_video/TextureUpdateCallback.java",
+      "bytes": 155,
+      "sha256": "84a13bdc689fc9d441e1087e6fbf9debb3dfdc1b8b4476cae466bcb049989370"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/android/src/main/java/com/alexmercerind/media_kit_video/Utils.java",
+      "bytes": 1870,
+      "sha256": "6e372d9546ee3762a162867e156b23531be873e9036be2a34c1ec2710474eb3a"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/android/src/main/java/com/alexmercerind/media_kit_video/VideoOutput.java",
+      "bytes": 6402,
+      "sha256": "3744701e14caee9814a2d086819e6832b0f82b2c2d665495fed16dd013eb712c"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/android/src/main/java/com/alexmercerind/media_kit_video/VideoOutputManager.java",
+      "bytes": 2357,
+      "sha256": "7eb48bbce019231c5a54cd3dabec755258ddf38377ac5a397d56a3c9a403a4ce"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/common/darwin/Makefile",
+      "bytes": 1292,
+      "sha256": "98bf9c590efbc06dc0e4594ddb884ce96374a4211021abe4243d07924613461f"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/common/darwin/Podspec/media_kit_utils.rb",
+      "bytes": 2593,
+      "sha256": "22fad1610c8bc78b15b0d570fa8f42ea4beaa8f95b17e822d8f20aab8f339403"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/common/darwin/Classes/plugin/MediaKitVideoPlugin.swift",
+      "bytes": 4383,
+      "sha256": "81476ed85c92dba1f57b3cf0d40e7e1a27407300dadf9c423fd62b7d50ed1db0"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/common/darwin/Classes/plugin/MPVHelpers.swift",
+      "bytes": 709,
+      "sha256": "f3ea9b5feb291ab5ad69c80f75966a25f498d73a2f1861ce677c3d9b3e71d146"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/common/darwin/Classes/plugin/MPVVideoOutParams.swift",
+      "bytes": 1057,
+      "sha256": "41e8d0efdd24e5642faae5d1eb7f8b5ebf657d785928e35453b09d01fccbcc0f"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/common/darwin/Classes/plugin/ResizableTextureProtocol.swift",
+      "bytes": 233,
+      "sha256": "b85b1c45d407e3e812968f54bf41eaa156e681086a52e3d4aa45ec3a02da33bd"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/common/darwin/Classes/plugin/SafeResizableTexture.swift",
+      "bytes": 849,
+      "sha256": "77755bc324e2355cb08e1ec53ec1c7603bf946ce14507f812cb9d083da818ce7"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/common/darwin/Classes/plugin/SwappableObjectManager.swift",
+      "bytes": 2217,
+      "sha256": "1044253b742f71b2bdf654a2f752dbc5ab8a6021cc8c93109fab5aae0c751442"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/common/darwin/Classes/plugin/TextureSW.swift",
+      "bytes": 3989,
+      "sha256": "596b294cb206bf920271a26444841bcca009bf54ded6d3aad5545ac6e5e82f6b"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/common/darwin/Classes/plugin/TextureSWContext.swift",
+      "bytes": 906,
+      "sha256": "d5844702111d0414db6c1da6f827eed86f9c8c7a66b641caf0390499b6801bd3"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/common/darwin/Classes/plugin/UtilsProtocol.swift",
+      "bytes": 105,
+      "sha256": "2d0b33d2137d440b4d2f505e71c832e314932afd01a03a5ad6435d9bae0f9b44"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/common/darwin/Classes/plugin/VideoOutput.swift",
+      "bytes": 5334,
+      "sha256": "90d97eab2e282543a5f1d3927820d2bf93b530b37cbafad5daed8442c7af2c99"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/common/darwin/Classes/plugin/VideoOutputConfiguration.swift",
+      "bytes": 852,
+      "sha256": "9a45f4015cf6e0f0b646451b1f56542395e5325f0a274c53e71462cd0ab74866"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/common/darwin/Classes/plugin/VideoOutputManager.swift",
+      "bytes": 1162,
+      "sha256": "992a257cb37beb12eff97a7b9b64d831198404b6ce42579a441d768d88f29a5e"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/common/darwin/Classes/plugin/Worker.swift",
+      "bytes": 1233,
+      "sha256": "84afbdd47f2ed6e8e122ae22cfdd49622bdee67db4441a32d6c9fd639fb67fdb"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/common/darwin/Classes/stub/MediaKitVideoPlugin.swift",
+      "bytes": 229,
+      "sha256": "66da99c03b08883dd7de5de273cff22647b1ead4d71000f22e02781adf500d4a"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/android/build.gradle",
+      "bytes": 600,
+      "sha256": "a37a031023cb0d10278a3701a6e1e10f29812728c678281e857fbf2efbe52383"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/android/gradle.properties",
+      "bytes": 82,
+      "sha256": "b1e114bf6dc9c036895d0909014ffc9f6e8fe30cce98c109786f49bb3d29bcf4"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/android/settings.gradle",
+      "bytes": 462,
+      "sha256": "d477b869c688dc63c619e4cfcf094679e709b0ddebabb262c4594604772dcce6"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/android/app/build.gradle",
+      "bytes": 1998,
+      "sha256": "209da0a54bd6e38866dc7c6deff57e291d7268ecd5a04d17593d0b2db92900cf"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/android/app/src/debug/AndroidManifest.xml",
+      "bytes": 434,
+      "sha256": "43d79d28c9d81669dc13f2a8e55c05fedc195fc3d5a0c0c3b45b072d0fd9254a"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/android/app/src/main/AndroidManifest.xml",
+      "bytes": 1706,
+      "sha256": "60fb460685e0d9fc386a669e7981dc29470feefce3d74be47809e1e26b38b5d2"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/android/app/src/profile/AndroidManifest.xml",
+      "bytes": 434,
+      "sha256": "43d79d28c9d81669dc13f2a8e55c05fedc195fc3d5a0c0c3b45b072d0fd9254a"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/android/app/src/main/java/com/alexmercerind/media_kit_video_example/MainActivity.java",
+      "bytes": 160,
+      "sha256": "016f22dc7c745e36c3ac475f75f7e1040fff5a5bde863bde2d4286d33f75b551"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/android/app/src/main/res/drawable/launch_background.xml",
+      "bytes": 434,
+      "sha256": "94433756fe10005ddd6fc55cc5c0b1e9f3c10b66a08ceac795ece6713d34e28a"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/android/app/src/main/res/drawable-v21/launch_background.xml",
+      "bytes": 438,
+      "sha256": "7ca6d5cec2169c5a98661a119db23a6f3399c8fef2256ff04f3a642831282478"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "bytes": 544,
+      "sha256": "6a7c8f0d703e3682108f9662f813302236240d3f8f638bb391e32bfb96055fef"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "bytes": 442,
+      "sha256": "c7c0c0189145e4e32a401c61c9bdc615754b0264e7afae24e834bb81049eaf81"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "bytes": 721,
+      "sha256": "e14aa40904929bf313fded22cf7e7ffcbf1d1aac4263b5ef1be8bfce650397aa"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "bytes": 1031,
+      "sha256": "4d470bf22d5c17d84edc5f82516d1ba8a1c09559cd761cefb792f86d9f52b540"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "bytes": 1443,
+      "sha256": "3c34e1f298d0c9ea3455d46db6b7759c8211a49e9ec6e44b635fc5c87dfb4180"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/android/app/src/main/res/values/styles.xml",
+      "bytes": 996,
+      "sha256": "937d7c82f539c72eb94fd3a3773f29b3d3fef1997213c92cb632298cedf4bda9"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/android/app/src/main/res/values-night/styles.xml",
+      "bytes": 995,
+      "sha256": "8c5bad5152f217e837519f9c15211d19f39bd45f5f67faf6dd81cb4b299e518f"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/example/android/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 203,
+      "sha256": "488bc5d9f20be5c2d0f623769e3f4861d9358e44151a43be568827dc6a02f59f"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/ios/Classes/plugin/TextureHW.swift",
+      "bytes": 5359,
+      "sha256": "60bb251566d21c0d2045cab5db799ea8d6584b2360291f6aa176fed097be49fa"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/ios/Classes/plugin/common/MediaKitVideoPlugin.swift",
+      "bytes": 4383,
+      "sha256": "81476ed85c92dba1f57b3cf0d40e7e1a27407300dadf9c423fd62b7d50ed1db0"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/ios/Classes/plugin/common/MPVHelpers.swift",
+      "bytes": 709,
+      "sha256": "f3ea9b5feb291ab5ad69c80f75966a25f498d73a2f1861ce677c3d9b3e71d146"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/ios/Classes/plugin/common/MPVVideoOutParams.swift",
+      "bytes": 1057,
+      "sha256": "41e8d0efdd24e5642faae5d1eb7f8b5ebf657d785928e35453b09d01fccbcc0f"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/ios/Classes/plugin/common/ResizableTextureProtocol.swift",
+      "bytes": 233,
+      "sha256": "b85b1c45d407e3e812968f54bf41eaa156e681086a52e3d4aa45ec3a02da33bd"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/ios/Classes/plugin/common/SafeResizableTexture.swift",
+      "bytes": 849,
+      "sha256": "77755bc324e2355cb08e1ec53ec1c7603bf946ce14507f812cb9d083da818ce7"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/ios/Classes/plugin/common/SwappableObjectManager.swift",
+      "bytes": 2217,
+      "sha256": "1044253b742f71b2bdf654a2f752dbc5ab8a6021cc8c93109fab5aae0c751442"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/ios/Classes/plugin/common/TextureSW.swift",
+      "bytes": 3989,
+      "sha256": "596b294cb206bf920271a26444841bcca009bf54ded6d3aad5545ac6e5e82f6b"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/ios/Classes/plugin/common/TextureSWContext.swift",
+      "bytes": 906,
+      "sha256": "d5844702111d0414db6c1da6f827eed86f9c8c7a66b641caf0390499b6801bd3"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/ios/Classes/plugin/common/UtilsProtocol.swift",
+      "bytes": 105,
+      "sha256": "2d0b33d2137d440b4d2f505e71c832e314932afd01a03a5ad6435d9bae0f9b44"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/ios/Classes/plugin/common/VideoOutput.swift",
+      "bytes": 5334,
+      "sha256": "90d97eab2e282543a5f1d3927820d2bf93b530b37cbafad5daed8442c7af2c99"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/ios/Classes/plugin/common/VideoOutputConfiguration.swift",
+      "bytes": 852,
+      "sha256": "9a45f4015cf6e0f0b646451b1f56542395e5325f0a274c53e71462cd0ab74866"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/ios/Classes/plugin/common/VideoOutputManager.swift",
+      "bytes": 1162,
+      "sha256": "992a257cb37beb12eff97a7b9b64d831198404b6ce42579a441d768d88f29a5e"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/ios/Classes/plugin/common/Worker.swift",
+      "bytes": 1233,
+      "sha256": "84afbdd47f2ed6e8e122ae22cfdd49622bdee67db4441a32d6c9fd639fb67fdb"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/ios/Classes/plugin/gles/OpenGLESHelpers.swift",
+      "bytes": 4591,
+      "sha256": "680c1fda7835d2bc21a7ace5d060c1a7f76de532f9068bf451f125a0b1d6a569"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/ios/Classes/plugin/gles/TextureGLESContext.swift",
+      "bytes": 1653,
+      "sha256": "3469311cfbd10f85f537568ae9d2e37e58522a7edb52fae058b0cbe9f4c02f2b"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/ios/Classes/stub/common/MediaKitVideoPlugin.swift",
+      "bytes": 229,
+      "sha256": "66da99c03b08883dd7de5de273cff22647b1ead4d71000f22e02781adf500d4a"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/media_kit_video_controls/media_kit_video_controls.dart",
+      "bytes": 952,
+      "sha256": "4901d14792106c468c04b3d2d15dda597801a656b368dda90579d7e58702289e"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/src/video_view_parameters.dart",
+      "bytes": 3247,
+      "sha256": "6ef2a305b5c52f0a4ee9eb0d6039aaa869b4f860659617976af5459935bf2436"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/media_kit_video_controls/src/controls/adaptive.dart",
+      "bytes": 948,
+      "sha256": "e28dc90a2372db010a854180a8e1915e492f3e58769e2ddbc7f4a2ec53c84f94"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/media_kit_video_controls/src/controls/material.dart",
+      "bytes": 81965,
+      "sha256": "d5a85321c74fda473fe990f63928f769cf92d51e7132053038edadb354de6917"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/media_kit_video_controls/src/controls/material_desktop.dart",
+      "bytes": 59075,
+      "sha256": "df95cfb1befe513c42f79e45a08e95ab1118901dfe7899b54d19bd567ccf96bd"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/media_kit_video_controls/src/controls/no.dart",
+      "bytes": 506,
+      "sha256": "cf65a946fc93263e32b673709c5071d438962708aef8d7ba90f3472ad2e0040a"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/media_kit_video_controls/src/controls/extensions/duration.dart",
+      "bytes": 1679,
+      "sha256": "1af8a711442f244bce06351ab4c887ea3474a0d2e58b24a169204a02b50f8153"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/media_kit_video_controls/src/controls/methods/fullscreen.dart",
+      "bytes": 5584,
+      "sha256": "9ce478242e56e1f4cc9c89004db0dd061b4998bb0d19d45eb4bffea676087468"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/media_kit_video_controls/src/controls/methods/video_state.dart",
+      "bytes": 1848,
+      "sha256": "2cee29a9dcc7b36b040a9259f9d1d532a3538270484e4f640e6752033e03e388"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/media_kit_video_controls/src/controls/widgets/fullscreen_inherited_widget.dart",
+      "bytes": 2295,
+      "sha256": "72b5b61e02d4af30e8f87f779d69cd16fd711d3f8e925f53afa9d2adc520d423"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/media_kit_video_controls/src/controls/widgets/video_controls_theme_data_injector.dart",
+      "bytes": 2754,
+      "sha256": "00eb7df746abcf93fe0a04cf44769df62cd0489a8c5e0450893cae02f62e77bf"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/media_kit_video_controls/src/controls/widgets/video_state_inherited_widget.dart",
+      "bytes": 3947,
+      "sha256": "bc4eca3b14a6ae5f3d9bed2998c995fe32a0ca40bb7808e0453f8722bb009463"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/src/subtitle/subtitle_view.dart",
+      "bytes": 4696,
+      "sha256": "9cea28cd5ddacffcf7ee8a1adbdd6e01050987f6360eeb491be19e87066711d3"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/src/utils/dispose_safe_notifer.dart",
+      "bytes": 237,
+      "sha256": "f1ab18fc70b1021fd81c8964436deb437fa11ab8ff48eef645870f3d62e5b686"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/src/utils/query_decoders.dart",
+      "bytes": 2439,
+      "sha256": "517150e00cfb951617a086cb50f53f0bc77707b74dd689161eab876dc0182e20"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/src/utils/wakelock.dart",
+      "bytes": 1252,
+      "sha256": "7e5aeaa38de5a58672839efc9433e3d1088db1952263a41b5d2749011c4818f4"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/src/video/video.dart",
+      "bytes": 358,
+      "sha256": "71e7e33a98dc03a90faf61e4c1dcf41b89150e35aceaf15ae1e30589fefd743c"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/src/video/video_texture.dart",
+      "bytes": 18989,
+      "sha256": "aa6857facfb9c4695be1c7d11328bc81a3e2d459cbdce0a4b3c578df5a94c134"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/src/video/video_web.dart",
+      "bytes": 16112,
+      "sha256": "387bb0bfa916730c9cdf123fa048e74c8114fa078051d1dfe538efad91463eb3"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/src/video_controller/platform_video_controller.dart",
+      "bytes": 5179,
+      "sha256": "20879ee1e66eb35dcd742ce5e8f04e088bb0feee4272180b77057f00c0bfeac2"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/src/video_controller/video_controller.dart",
+      "bytes": 6870,
+      "sha256": "ebf6cc4aae5acbc15280ecac75afba4fae73625bcd2fbffe64b399e6cc6a77d7"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/src/video_controller/android_video_controller/android_surface_lifecycle.dart",
+      "bytes": 886,
+      "sha256": "1df74c4ac7cddd518ff07f9f2a1e4e76eda8a76143a2919458c9a4aa664a2edf"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/src/video_controller/android_video_controller/android_video_controller.dart",
+      "bytes": 343,
+      "sha256": "6f20c3f792fe44d6046f6c87c7e0183283b4e68ead85dd90de271b88770d2bb0"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/src/video_controller/android_video_controller/real.dart",
+      "bytes": 12584,
+      "sha256": "1774971a6c66643aa3df48e96ee482695afd4d6230c371d35e09e7c2763ecc62"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/src/video_controller/android_video_controller/stub.dart",
+      "bytes": 937,
+      "sha256": "581527fdc99bfc7fb637a9e04865ae46a94097be181bdceaff4d09ecf1d891cc"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/src/video_controller/native_video_controller/native_video_controller.dart",
+      "bytes": 343,
+      "sha256": "6f20c3f792fe44d6046f6c87c7e0183283b4e68ead85dd90de271b88770d2bb0"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/src/video_controller/native_video_controller/real.dart",
+      "bytes": 9738,
+      "sha256": "3959dde661ca9bdd8002b6a530a3d779bac4f12e71e1c508d7235ded6953d058"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/src/video_controller/native_video_controller/stub.dart",
+      "bytes": 935,
+      "sha256": "b6d251ca079f745bb2ea42e9dbe10aa0ee234eddb23061ef4bb9a60bb3a301e0"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/src/video_controller/web_video_controller/real.dart",
+      "bytes": 4652,
+      "sha256": "cad0db2985b177f61f66ac6ad6ef64dd6940f0113c48de690c41bbffdee39b9d"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/src/video_controller/web_video_controller/stub.dart",
+      "bytes": 933,
+      "sha256": "ba0300ce573f254b16a7c71dc64a78d41203a0e9d1cd7cad23389453cbba480e"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/lib/src/video_controller/web_video_controller/web_video_controller.dart",
+      "bytes": 343,
+      "sha256": "3d480e2682e16a617e50fa23a452bcb9863d380da6d0a800a5c2787aea1d065d"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/linux/include/media_kit_video/media_kit_video_plugin.h",
+      "bytes": 922,
+      "sha256": "0498937d4ecb640550d10ec9e7773fd0d14ccb44ca251068908c329de88b30a3"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/linux/include/media_kit_video/texture_gl.h",
+      "bytes": 1089,
+      "sha256": "a7dc482a3bccbbbd878cfb525b4c2f1f8241bd97b941e96b7c4ea4b77026b5c7"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/linux/include/media_kit_video/texture_sw.h",
+      "bytes": 1372,
+      "sha256": "bd2000f150afb949ae7e6504be694d6792f5a8c836e5684564cdc639ce600d6a"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/linux/include/media_kit_video/utils.h",
+      "bytes": 416,
+      "sha256": "8dcec9ebe20b080ae385e8798490c2e19f0cf720851d44f4568a06fccfc8d8b0"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/linux/include/media_kit_video/video_output.h",
+      "bytes": 3854,
+      "sha256": "2129858e940db1ecd93dabd527f9caf0e544311901dfa4dab61ddd5e482bedd1"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/linux/include/media_kit_video/video_output_manager.h",
+      "bytes": 2971,
+      "sha256": "fe1411411927447142fea8f176cfe595efd34f9ca98ab35764566e05170981ab"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/macos/Classes/plugin/TextureHW.swift",
+      "bytes": 5517,
+      "sha256": "98e1b95b0ba2f5ae0a438722e1e0028ebfb625a1a107d5b833a93cd7d4fb9081"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/macos/Classes/plugin/Utils.swift",
+      "bytes": 769,
+      "sha256": "9462e1b36853a1aceb9f276064ab8d28a44f13c0d4def6745312458bc388cba8"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/macos/Classes/plugin/common/MediaKitVideoPlugin.swift",
+      "bytes": 4383,
+      "sha256": "81476ed85c92dba1f57b3cf0d40e7e1a27407300dadf9c423fd62b7d50ed1db0"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/macos/Classes/plugin/common/MPVHelpers.swift",
+      "bytes": 709,
+      "sha256": "f3ea9b5feb291ab5ad69c80f75966a25f498d73a2f1861ce677c3d9b3e71d146"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/macos/Classes/plugin/common/MPVVideoOutParams.swift",
+      "bytes": 1057,
+      "sha256": "41e8d0efdd24e5642faae5d1eb7f8b5ebf657d785928e35453b09d01fccbcc0f"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/macos/Classes/plugin/common/ResizableTextureProtocol.swift",
+      "bytes": 233,
+      "sha256": "b85b1c45d407e3e812968f54bf41eaa156e681086a52e3d4aa45ec3a02da33bd"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/macos/Classes/plugin/common/SafeResizableTexture.swift",
+      "bytes": 849,
+      "sha256": "77755bc324e2355cb08e1ec53ec1c7603bf946ce14507f812cb9d083da818ce7"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/macos/Classes/plugin/common/SwappableObjectManager.swift",
+      "bytes": 2217,
+      "sha256": "1044253b742f71b2bdf654a2f752dbc5ab8a6021cc8c93109fab5aae0c751442"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/macos/Classes/plugin/common/TextureSW.swift",
+      "bytes": 3989,
+      "sha256": "596b294cb206bf920271a26444841bcca009bf54ded6d3aad5545ac6e5e82f6b"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/macos/Classes/plugin/common/TextureSWContext.swift",
+      "bytes": 906,
+      "sha256": "d5844702111d0414db6c1da6f827eed86f9c8c7a66b641caf0390499b6801bd3"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/macos/Classes/plugin/common/UtilsProtocol.swift",
+      "bytes": 105,
+      "sha256": "2d0b33d2137d440b4d2f505e71c832e314932afd01a03a5ad6435d9bae0f9b44"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/macos/Classes/plugin/common/VideoOutput.swift",
+      "bytes": 5334,
+      "sha256": "90d97eab2e282543a5f1d3927820d2bf93b530b37cbafad5daed8442c7af2c99"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/macos/Classes/plugin/common/VideoOutputConfiguration.swift",
+      "bytes": 852,
+      "sha256": "9a45f4015cf6e0f0b646451b1f56542395e5325f0a274c53e71462cd0ab74866"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/macos/Classes/plugin/common/VideoOutputManager.swift",
+      "bytes": 1162,
+      "sha256": "992a257cb37beb12eff97a7b9b64d831198404b6ce42579a441d768d88f29a5e"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/macos/Classes/plugin/common/Worker.swift",
+      "bytes": 1233,
+      "sha256": "84afbdd47f2ed6e8e122ae22cfdd49622bdee67db4441a32d6c9fd639fb67fdb"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/macos/Classes/plugin/gl/OpenGLHelpers.swift",
+      "bytes": 6608,
+      "sha256": "932e14ffdab38bf23440bd3e9cb5d75b0d7cb2a9e38666177ba22d84b829c8be"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/macos/Classes/plugin/gl/TextureGLContext.swift",
+      "bytes": 997,
+      "sha256": "d22e4db7350be299f96f04100462e519080e14bd4f30811b4973d9ee4a2a6fe2"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/macos/Classes/stub/common/MediaKitVideoPlugin.swift",
+      "bytes": 229,
+      "sha256": "66da99c03b08883dd7de5de273cff22647b1ead4d71000f22e02781adf500d4a"
+    },
+    {
+      "file": "native_android_client/vendor/media_kit_video/windows/include/media_kit_video/media_kit_video_plugin_c_api.h",
+      "bytes": 855,
+      "sha256": "3e77e3cf6dee4025f146a2f4e7b5e899805208b290e7f81870c5212aa34274b7"
+    }
+  ],
+  "scope": "Production UI, tests, shaders and vendored player source frozen after final Flutter checks; excludes generated native caches."
+}

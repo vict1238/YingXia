@@ -1,0 +1,14 @@
+package:media_kit_libs_windows_video registered.
+media_kit: ANGLESurfaceManager: Direct3D Feature Level: 11_0
+yingxia: ANGLESurfaceManager: Created ES 3 context.
+yingxia: ANGLESurfaceManager: GL_VERSION: OpenGL ES 3.0.0 (ANGLE 2.1.18844 git hash: 2693b03eba82)
+yingxia: ANGLESurfaceManager: GL_RENDERER: ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 Laptop GPU Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.16.1088)
+1 1
+media_kit: VideoOutput: Create Texture: 1820578787248
+media_kit: VideoOutput: Using H/W rendering.
+yingxia: VideoOutput: Advanced render control enabled.
+VideoOutput.Resize
+{handle: 1820570469664, id: 1820578787248, rect: {height: 1, left: 0, top: 0, width: 1}}
+NativeVideoController: Texture ID: 1820578787248
+1280 720
+media_kit: ANGLESurfaceManager: Direct3D Feature Level: 11_0

@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "started_at": "2026-10-15T04:01:27.146Z",
+  "executable": "YingXia_v2_2_candidate1.exe",
+  "sha256": "2d1b8d4d47e64b158f23d109901fcc5167db65bafcd4a7580462ea81dcd3ec0c",
+  "shipping_sfx_tested": true,
+  "production_backend": true,
+  "isolated_data_and_cache": true,
+  "real_third_party_playback_tested": false,
+  "gpu_benchmark_repeated": false,
+  "input_scope": "Owned PID/HWND only; no global input, activation attempts or external window capture.",
+  "checks": [],
+  "observations": [],
+  "limitations": [],
+  "failure": {
+    "message": "Owned native window not visible.: The isolated native app HWND was not found.",
+    "stack": "Error: Owned native window not visible.: The isolated native app HWND was not found.\n    at eventually (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_v2_2_smoke.cjs:42:9)\n    at async start (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_v2_2_smoke.cjs:128:17)\n    at async main (C:\\Users\\vict1238\\Documents\\ChatGPT\\cqh\\YingXia_Work_Handoff\\native_windows_client\\tools\\windows_v2_2_smoke.cjs:140:3)"
+  },
+  "close_error": "The isolated native app HWND was not found.",
+  "finished_at": "2026-10-15T04:01:59.106Z",
+  "owned_startup_dialog": {
+    "text": "映匣无法启动：原生窗口异常退出：exit status 0xc0e90002",
+    "read_method": "UI Automation descendants restricted to the isolated launcher ProcessId",
+    "owner_pid": 24168,
+    "class": "#32770",
+    "closed_using": "WindowPattern.Close on that owned error dialog"
+  },
+  "failure_scope_note": "Startup blocked by Windows Code Integrity for the newly linked media_kit_video_plugin.dll before a native HWND or any UI interaction. This diagnostic run has zero successful window checks. Root identified STATUS_SYSTEM_INTEGRITY_POLICY_VIOLATION (0xc0e90002) and an owned plugin path in CodeIntegrity event 3077; candidate2 will reuse the unchanged previously delivered 2.1 plugin dependency. No system policy or security setting is changed."
+}

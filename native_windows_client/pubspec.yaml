@@ -1,0 +1,28 @@
+name: yingxia_native
+description: 映匣 Windows 原生客户端
+publish_to: none
+version: 2.3.0+20300
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  ffi: 2.2.0
+  media_kit: 1.2.6
+  media_kit_video: 2.0.1
+  media_kit_libs_video: 1.0.7
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/shaders/fsr1_light.glsl
+    - assets/shaders/fsr1_enhanced.glsl
+
+dependency_overrides:
+  media_kit_video:
+    path: vendor/media_kit_video

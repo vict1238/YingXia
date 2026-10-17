@@ -1,0 +1,105 @@
+{
+  "platform": "win32/x64",
+  "executable": "YingXia_v2.0.0_Native_Windows_x64.exe",
+  "sha256": "dd2062a005e12626033ab5f4281be7a540c4616a2f9d0edae16654cbb6889f3b",
+  "shipping_gui_tested": true,
+  "production_backend_history_tested": true,
+  "media_backend": "separately compiled native_fixture Go child via explicit developer override",
+  "fixture_backend_sha256": "a235a38ade8ebde8edf32a14eb5100a89c0ed18b34e61c4342b834abe365ca5d",
+  "synthetic_media_only": true,
+  "real_third_party_playback_tested": false,
+  "checks": [
+    {
+      "name": "Single release EXE extracts runtime and opens its own visible Flutter window with no browser/WebView children",
+      "passed": true
+    },
+    {
+      "name": "All four approved pages load in the production Flutter/Go app",
+      "passed": true
+    },
+    {
+      "name": "Production in-app clear confirmation can cancel without changing persistent records",
+      "passed": true
+    },
+    {
+      "name": "Actual read-only library write failure retains rows and allows retry",
+      "passed": true
+    },
+    {
+      "name": "Actual production backend clears disk history while preserving favorites, bindings and settings",
+      "passed": true
+    },
+    {
+      "name": "Repeated single-file launch restores the existing native window",
+      "passed": true
+    },
+    {
+      "name": "Full release EXE restart keeps history empty and favorite available; window close ends child family",
+      "passed": true
+    },
+    {
+      "name": "Native libmpv WebM playback advances; leaving workspace pauses and manual resume reuses playback",
+      "passed": true
+    },
+    {
+      "name": "Native libmpv HLS playback decodes the synthetic authenticated relay and advances time",
+      "passed": true
+    },
+    {
+      "name": "Actual Windows minimize pauses the native player and restore remains paused",
+      "passed": true
+    }
+  ],
+  "observations": [
+    {
+      "initial_window": {
+        "action": "Snapshot",
+        "visible": true,
+        "pid": 4028,
+        "minimized": false,
+        "rect": [
+          10,
+          10,
+          1350,
+          910
+        ],
+        "title": "映匣 · YingXia",
+        "hwnd": 1639396
+      }
+    },
+    {
+      "production_process_family": [
+        {
+          "ProcessId": 33864,
+          "ParentProcessId": 11236,
+          "Name": "YingXia_v2.0.0_Native_Windows_x64.exe"
+        },
+        {
+          "ProcessId": 4028,
+          "ParentProcessId": 33864,
+          "Name": "yingxia_native.exe"
+        },
+        {
+          "ProcessId": 37952,
+          "ParentProcessId": 4028,
+          "Name": "yingxia_backend.exe"
+        }
+      ]
+    },
+    {
+      "hls_playback": {
+        "created_at": "2026-10-14T07:29:58Z",
+        "episode": "第01集",
+        "evidence": "browser_time_advanced",
+        "film_id": "vod:wsyzy:OTAwMDI",
+        "id": "32b273dbe54601ec65ae1336ee8fd9cc",
+        "mode": "media",
+        "position": 0.114,
+        "source": "无损云 / HLS 测试",
+        "title": "原生播放测试 HLS",
+        "updated_at": "2026-10-14T07:29:58Z"
+      }
+    }
+  ],
+  "check_count": 10
+}

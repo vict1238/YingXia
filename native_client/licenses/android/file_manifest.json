@@ -1,0 +1,367 @@
+[
+  {
+    "path": "COPYRIGHT-Guava-ListenableFuture-1.0.txt",
+    "size": 816,
+    "sha256": "7bf9a7d2286bd27ef07c1671c309ea0f4851db8481b5a56de56fb92ddcee17b4"
+  },
+  {
+    "path": "COPYRIGHT-JSpecify-1.0.0.txt",
+    "size": 750,
+    "sha256": "b335d120a9cd0295c0b968a09970f67f312f88620f19c3658ea63deffd88cd97"
+  },
+  {
+    "path": "flutter_embedding_release.pom",
+    "size": 2544,
+    "sha256": "97efb7667dd458b140f90c92c67aed92b05a69cfda412a8bace3623f252b1ea7"
+  },
+  {
+    "path": "Kotlin-2.4.0-license-reference.md",
+    "size": 20285,
+    "sha256": "fae7d348841a6af205dcc5a99ab4e466e1537c839e423501d469df0c4e85f23e"
+  },
+  {
+    "path": "kotlin-stdlib-2.4.0.pom",
+    "size": 2299,
+    "sha256": "8194ff79a9ee24a7fa3f74a6b179c04a1859de8b987a4f0983056e59451721de"
+  },
+  {
+    "path": "Kotlin-stdlib-Boost-license.txt",
+    "size": 1337,
+    "sha256": "8d8291caf1cee26d23acf3eb67c9f9a2d58f1c681b16a4fbe8cbfb9e3c0b5a9b"
+  },
+  {
+    "path": "Kotlin-stdlib-Guava-license.txt",
+    "size": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "Kotlin-stdlib-GWT-license.txt",
+    "size": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "Kotlin-stdlib-ThreeTenBP-license.txt",
+    "size": 1520,
+    "sha256": "d1bc53b493a3ab387b42717ed5c4b1976a5048996f81154278100bff86d39331"
+  },
+  {
+    "path": "LICENSE-AndroidX-reference.txt",
+    "size": 10175,
+    "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0"
+  },
+  {
+    "path": "LICENSE-Guava-ListenableFuture-1.0.txt",
+    "size": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "LICENSE-JetBrains-annotations-23.0.0.txt",
+    "size": 11352,
+    "sha256": "8c1e966c7855fb54027bcaf6ebe7a43abe4785791e8cf9148c363761d493d097"
+  },
+  {
+    "path": "LICENSE-JSpecify-1.0.0.txt",
+    "size": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "LICENSE-Kotlin-1.8.20.txt",
+    "size": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "LICENSE-Kotlin-2.4.0.txt",
+    "size": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "LICENSE-kotlinx-coroutines-1.7.1.txt",
+    "size": 11398,
+    "sha256": "b1febe6399dffb10d19d35e7663ab16300c93cb0476a94115df1cc0097a8ffd8"
+  },
+  {
+    "path": "LICENSE-kotlinx-coroutines-1.9.0.txt",
+    "size": 11398,
+    "sha256": "b1febe6399dffb10d19d35e7663ab16300c93cb0476a94115df1cc0097a8ffd8"
+  },
+  {
+    "path": "license-reference-manifest.json",
+    "size": 4498,
+    "sha256": "c2d9e4db182f93146feb6d5610ec191baf6f27c3474c12c686b33885a74ab291"
+  },
+  {
+    "path": "LICENSE-ReLinker-1.4.5.txt",
+    "size": 11353,
+    "sha256": "91a9b0c4e997e34a8ff7206807d2da9b69a4fb979d417d6cdde550e0cf52aac4"
+  },
+  {
+    "path": "NOTICE-Kotlin-1.8.20.txt",
+    "size": 482,
+    "sha256": "ea7099352103ade6a6918bc7efb00f8bcd43db0e76b2da2e83237c0bc0ff1b19"
+  },
+  {
+    "path": "NOTICE-Kotlin-2.4.0.txt",
+    "size": 482,
+    "sha256": "0b09a83d3ef7795c7dec65e815866597c066c53898f2852a76599b8f5552941a"
+  },
+  {
+    "path": "README.md",
+    "size": 2700,
+    "sha256": "0bc55ad71d9b610687293d6d0a1bf67eee4a43028d59b625747f511f8f8564cd"
+  },
+  {
+    "path": "runtime_dependencies.json",
+    "size": 37449,
+    "sha256": "8a4495c54517ca32475d4101e9ff60d4fd14629b65c5af4c52850482e9fe3ebd"
+  },
+  {
+    "path": "poms/androidx.activity__activity__1.8.1.pom",
+    "size": 4131,
+    "sha256": "c0ccbb0f6bd3f3a4fe338811dd8aee19b4919f4197613ee801bf33dd6dd702d7"
+  },
+  {
+    "path": "poms/androidx.annotation__annotation__1.8.1.pom",
+    "size": 2008,
+    "sha256": "b71225974ec087eb96c25ef6819f55b1c22f530e85ca446ba735fb66ed04ff5c"
+  },
+  {
+    "path": "poms/androidx.annotation__annotation-experimental__1.4.0.pom",
+    "size": 2031,
+    "sha256": "41d2b9d879fc9221acda8e873ec7d26b153b9b8e04770ac79491e0576baef038"
+  },
+  {
+    "path": "poms/androidx.annotation__annotation-jvm__1.8.1.pom",
+    "size": 1826,
+    "sha256": "d49203733aa6fae046c3a3de4e796eed347595755486a64273989844759750b4"
+  },
+  {
+    "path": "poms/androidx.arch.core__core-common__2.2.0.pom",
+    "size": 1704,
+    "sha256": "1e17d4af8d6425be2a69f8af4d654a87e0456259a9eef1542869bcb023547e28"
+  },
+  {
+    "path": "poms/androidx.arch.core__core-runtime__2.2.0.pom",
+    "size": 1920,
+    "sha256": "0f953706598140d9d8735cdd5aeb1fa35933f4e2f31c0bf3eb81a053a4c8c1a5"
+  },
+  {
+    "path": "poms/androidx.collection__collection__1.1.0.pom",
+    "size": 1338,
+    "sha256": "67e9066ca4acfdc6e3cc508293c31ba0398057ff118e4f70b1e1813c9a3456d1"
+  },
+  {
+    "path": "poms/androidx.concurrent__concurrent-futures__1.1.0.pom",
+    "size": 1888,
+    "sha256": "748a34eb5d13d19d187adecaea82667fded5f1b0b98a655e13ed2e4a8b3d8ae6"
+  },
+  {
+    "path": "poms/androidx.core__core__1.13.1.pom",
+    "size": 3654,
+    "sha256": "527abfa5a8d6af748b37e1c0162d1633a2d5ea4387b0205a8b436b6214ba1cf6"
+  },
+  {
+    "path": "poms/androidx.core__core-ktx__1.13.1.pom",
+    "size": 2450,
+    "sha256": "31cc345b8c6cdd2046dcf67872df8a8cb4f44ea0cade4df80002caa7e3b71809"
+  },
+  {
+    "path": "poms/androidx.customview__customview__1.0.0.pom",
+    "size": 1795,
+    "sha256": "ce9e47b87184f5bd5e139e9becd5b26476d42d78c31bf2fdedc37acb41b9ad49"
+  },
+  {
+    "path": "poms/androidx.exifinterface__exifinterface__1.4.1.pom",
+    "size": 2004,
+    "sha256": "944e867584e20748613cc7610bd5fa10a968cc98cb59fdfdb863e9f0201df289"
+  },
+  {
+    "path": "poms/androidx.fragment__fragment__1.7.1.pom",
+    "size": 5439,
+    "sha256": "18bbbd3a53f8c1f026be496a847d9607ae06da9cb0f85f47f702fd27e2bd3906"
+  },
+  {
+    "path": "poms/androidx.interpolator__interpolator__1.0.0.pom",
+    "size": 1608,
+    "sha256": "0ddc07cc39699f48ecd9ec894b5830c0f09e22e82959294edf37217224c88b7b"
+  },
+  {
+    "path": "poms/androidx.lifecycle__lifecycle-common__2.7.0.pom",
+    "size": 5939,
+    "sha256": "8a7c2448917f84fa6793dfe8563b49c96562d6e86eed19c642ef300d5cd16bc0"
+  },
+  {
+    "path": "poms/androidx.lifecycle__lifecycle-common-java8__2.7.0.pom",
+    "size": 5246,
+    "sha256": "c29de269fca03230d0fb5ebf9c9560950b9f9bcd540ed7fcf85c08beca1afddb"
+  },
+  {
+    "path": "poms/androidx.lifecycle__lifecycle-livedata__2.7.0.pom",
+    "size": 6091,
+    "sha256": "69885fd126b6866da760421636cb31cbf0fc5195f9962f45b9775c2d18496fc8"
+  },
+  {
+    "path": "poms/androidx.lifecycle__lifecycle-livedata-core__2.7.0.pom",
+    "size": 5651,
+    "sha256": "d8e8a0ccedc798db560c637df432159cb05ec3ad18f9b8f6648f59bd4580acd6"
+  },
+  {
+    "path": "poms/androidx.lifecycle__lifecycle-livedata-core-ktx__2.7.0.pom",
+    "size": 5316,
+    "sha256": "67502b56b0695b2c2a1c8ff2b93ebd23b6c3d0c214f1ea3b96211eca98960fc4"
+  },
+  {
+    "path": "poms/androidx.lifecycle__lifecycle-process__2.7.0.pom",
+    "size": 5664,
+    "sha256": "7b07a80cb709396b69b071ea1a9177846ed699b4b44bebb1f9bad8bbbf21a23d"
+  },
+  {
+    "path": "poms/androidx.lifecycle__lifecycle-runtime__2.7.0.pom",
+    "size": 6038,
+    "sha256": "fec5849eef5069ae19f0c6270d76421485f461f1025c90277b05ddd713c7e365"
+  },
+  {
+    "path": "poms/androidx.lifecycle__lifecycle-viewmodel__2.7.0.pom",
+    "size": 5248,
+    "sha256": "700f289173adcd0c6144da0c692c4e40b0a83af5a1392c544da982f4aabbd48e"
+  },
+  {
+    "path": "poms/androidx.lifecycle__lifecycle-viewmodel-savedstate__2.7.0.pom",
+    "size": 6300,
+    "sha256": "df0107a734b53080a2847bfabbf8e127958b765f6d5a0d5e028281af3964623f"
+  },
+  {
+    "path": "poms/androidx.loader__loader__1.0.0.pom",
+    "size": 2207,
+    "sha256": "c978d550808b47434aa49a63164110a50b55b0bcc6160a93a2e37d5110df8c5e"
+  },
+  {
+    "path": "poms/androidx.profileinstaller__profileinstaller__1.3.1.pom",
+    "size": 2418,
+    "sha256": "08263eb70a814a7cb26d11d3a83825f84c29f3e4b59f9134724e0e02e2bbd768"
+  },
+  {
+    "path": "poms/androidx.savedstate__savedstate__1.2.1.pom",
+    "size": 2549,
+    "sha256": "0d33bc285df1e12f22780f1624a6f0b38ea2a6181b0955ec6641caf620c50cbf"
+  },
+  {
+    "path": "poms/androidx.startup__startup-runtime__1.1.1.pom",
+    "size": 1949,
+    "sha256": "f4114b5c6859bb1bc3caf281cb6d6f25998fa7f7292c64ceaea74a93210e746b"
+  },
+  {
+    "path": "poms/androidx.tracing__tracing__1.2.0.pom",
+    "size": 1968,
+    "sha256": "f34bec4eb58871d31002901377108aaa1ebfe77fa6d882b8b86200b158e26ea1"
+  },
+  {
+    "path": "poms/androidx.versionedparcelable__versionedparcelable__1.1.1.pom",
+    "size": 1643,
+    "sha256": "5f51e65873ca612de3838fa90d2ee95b8d040efd31b9c390a19bf94d615cdb2f"
+  },
+  {
+    "path": "poms/androidx.viewpager__viewpager__1.0.0.pom",
+    "size": 1997,
+    "sha256": "1f72f836339d03c6eb013f65075e76ca87075a577578eb4f95f74a3a5d253128"
+  },
+  {
+    "path": "poms/androidx.window__window__1.2.0.pom",
+    "size": 3753,
+    "sha256": "280c00e2495e1d5749b1c0ab59fc728a2964ccb33f5e11880857ee2efe4ec15b"
+  },
+  {
+    "path": "poms/androidx.window__window-java__1.2.0.pom",
+    "size": 3305,
+    "sha256": "73570afdc9db596396a92beefe4de5d22afac7eab112c4ab30737bb7f884a1fd"
+  },
+  {
+    "path": "poms/androidx.window.extensions.core__core__1.0.0.pom",
+    "size": 1997,
+    "sha256": "ec7573c61c1f9f510f6e5bcad2683b4dcb401fee75426c0f57b41490836791c8"
+  },
+  {
+    "path": "poms/com.getkeepsafe.relinker__relinker__1.4.5.pom",
+    "size": 1615,
+    "sha256": "099e4e007b80700c25190b81ac7b256f42b04f1e829dbd0673f0c415e9613426"
+  },
+  {
+    "path": "poms/com.google.guava__guava-parent__26.0-android.pom",
+    "size": 10180,
+    "sha256": "f8698ab46ca996ce889c1afc8ca4f25eb8ac6b034dc898d4583742360016cc04"
+  },
+  {
+    "path": "poms/com.google.guava__listenablefuture__1.0.pom",
+    "size": 2226,
+    "sha256": "53873caf26bc1ed8a567ea6c939ab2aaa3f47a5e32d5cade95ddf5080d23238a"
+  },
+  {
+    "path": "poms/io.flutter__arm64_v8a_release__1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.pom",
+    "size": 510,
+    "sha256": "8fc73533c6eabc9103a5a6d2d9e5cc9bc72eba554762f34d5d0f19610d831baa"
+  },
+  {
+    "path": "poms/io.flutter__armeabi_v7a_release__1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.pom",
+    "size": 512,
+    "sha256": "fe4fc9b98fe6e2ea361fe7bb7c5e257d4128ad42131b64b1d720946d8388b5eb"
+  },
+  {
+    "path": "poms/io.flutter__flutter_embedding_release__1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.pom",
+    "size": 2544,
+    "sha256": "97efb7667dd458b140f90c92c67aed92b05a69cfda412a8bace3623f252b1ea7"
+  },
+  {
+    "path": "poms/io.flutter__x86_64_release__1.0.0-deb287481e3ce9468f3434937ced4240a70539ca.pom",
+    "size": 507,
+    "sha256": "5cd8300c4bd98caa5bc36bcfc8574d5b21cf27d0b694a5a698d0fd3e0e82b9d5"
+  },
+  {
+    "path": "poms/org.jetbrains__annotations__23.0.0.pom",
+    "size": 1354,
+    "sha256": "c9490f655132328df2cfbcfdf743f53fc3916d6c1d10437175a6ca6e3a67771c"
+  },
+  {
+    "path": "poms/org.jetbrains.kotlin__kotlin-stdlib__2.4.0.pom",
+    "size": 2299,
+    "sha256": "8194ff79a9ee24a7fa3f74a6b179c04a1859de8b987a4f0983056e59451721de"
+  },
+  {
+    "path": "poms/org.jetbrains.kotlin__kotlin-stdlib-common__2.4.0.pom",
+    "size": 1819,
+    "sha256": "fd1a658edbed7880ac3e0a0dbd20ae1a46c987e40af544e3a6b110825bbefcf5"
+  },
+  {
+    "path": "poms/org.jetbrains.kotlin__kotlin-stdlib-jdk7__1.8.20.pom",
+    "size": 1389,
+    "sha256": "3622d106578cddcc0a9ec20f8ce815f7f49ff542f640228d2141fcaf80616b06"
+  },
+  {
+    "path": "poms/org.jetbrains.kotlin__kotlin-stdlib-jdk8__1.8.20.pom",
+    "size": 1581,
+    "sha256": "3a462214a336e995687769531b1e37b0c81d8e10c9949cd5ea7ae1d7803a0232"
+  },
+  {
+    "path": "poms/org.jetbrains.kotlinx__kotlinx-coroutines-android__1.7.1.pom",
+    "size": 2226,
+    "sha256": "80f47d014115258758d4e1c5e4c9238c9eed36d2249d1d25858a934b29aba5df"
+  },
+  {
+    "path": "poms/org.jetbrains.kotlinx__kotlinx-coroutines-bom__1.7.1.pom",
+    "size": 4291,
+    "sha256": "b925aa988c40a5c7aa0c77b21373feb18c39414926bd51c76ef44434f5bae9c2"
+  },
+  {
+    "path": "poms/org.jetbrains.kotlinx__kotlinx-coroutines-core__1.7.1.pom",
+    "size": 2057,
+    "sha256": "046b010fc7a0e43d2bfc73a9de7675de5541006cbce96163121746034d69d723"
+  },
+  {
+    "path": "poms/org.jetbrains.kotlinx__kotlinx-coroutines-core-jvm__1.7.1.pom",
+    "size": 2395,
+    "sha256": "85c19db10dbc448a04663cdfb478243eda0a8d6b127f108f19955b16d489b35d"
+  },
+  {
+    "path": "poms/org.jspecify__jspecify__1.0.0.pom",
+    "size": 1511,
+    "sha256": "cdab929a3b95211f43d2090c5e2d0dfe8465960e378bc32b35841dab324433a6"
+  }
+]

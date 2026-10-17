@@ -1,0 +1,19 @@
+{
+  "config_version": 1,
+  "provenance": "88lin/video_vip 3.2.9, blob 30260d8fb3db47b4f14fcc1a3faf8efadf99a43a; verification snapshot 2026-10-10",
+  "catalog": {
+    "id": "wsyzy", "name": "无损云目录", "status": "未实播验证",
+    "suggest_url": "https://wsyzy.cc/index.php/ajax/suggest",
+    "api_url": "https://api.wsyzy.net/api.php/provide/vod/",
+    "player_url": "https://wsyzy.vip/m3u8/?url={url}"
+  },
+  "parsers": [
+    {"id":"qilin","name":"麒麟解析","template":"https://free.maccms.xyz/?url={url}","enabled":true,"status":"未实播验证"},
+    {"id":"txnq","name":"TXNQ解析","template":"https://bfq.txnp.cn/player?url={url}","enabled":true,"status":"未实播验证"},
+    {"id":"qige","name":"七哥解析","template":"https://jx.202617.xyz/tv.php?url={url}","enabled":true,"status":"未实播验证"},
+    {"id":"fongmi","name":"fongmi解析","template":"https://json.fongmi.cc/web?url={url}","enabled":true,"status":"未实播验证"},
+    {"id":"bingdou","name":"冰豆解析","template":"https://bd.jx.cn/?url={url}","enabled":true,"status":"仅入口页面证据"},
+    {"id":"hls","name":"HLS解析","template":"https://jx.hls.one/?url={url}","enabled":false,"status":"疑似入口异常，默认关闭"},
+    {"id":"playerjy","name":"Player-JY","template":"https://jx.playerjy.com/?url={url}","enabled":true,"status":"未实播验证"}
+  ]
+}

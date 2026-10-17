@@ -1,0 +1,29 @@
+{
+  "renderer_source_reuse": "153 source/shader files byte-identical; see renderer_reuse.json",
+  "files": [
+    {
+      "path": "media_kit_video_plugin.dll",
+      "previous_sha256": "d740f1a4c311827191e6a21957b41c7fb57d1778cf6a83037271a401b7ac8dc3",
+      "sha256": "ca544b41fe4457ccfb9f665ad3a8ad833c656d31e32c881a35a2c5f6bf754002",
+      "byte_identical_to_2_1": false
+    },
+    {
+      "path": "libmpv-2.dll",
+      "previous_sha256": "d5f0694b08c124e785d858d00082f3e3b158dd9138bfc48c0382bf1eb443a5fc",
+      "sha256": "d5f0694b08c124e785d858d00082f3e3b158dd9138bfc48c0382bf1eb443a5fc",
+      "byte_identical_to_2_1": true
+    },
+    {
+      "path": "libEGL.dll",
+      "previous_sha256": "b2590bd0692f0381fc45c20bf1c7f7f713c9ea19c7ea6bab62efdd1fadc4eaac",
+      "sha256": "b2590bd0692f0381fc45c20bf1c7f7f713c9ea19c7ea6bab62efdd1fadc4eaac",
+      "byte_identical_to_2_1": true
+    },
+    {
+      "path": "libGLESv2.dll",
+      "previous_sha256": "620bb6e38d7ed6c760a0cf4a8eb6a8f64b259b96ff286551cd32cefc6c35ca39",
+      "sha256": "620bb6e38d7ed6c760a0cf4a8eb6a8f64b259b96ff286551cd32cefc6c35ca39",
+      "byte_identical_to_2_1": true
+    }
+  ]
+}

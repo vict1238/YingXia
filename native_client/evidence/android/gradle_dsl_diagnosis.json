@@ -1,0 +1,23 @@
+{
+  "issue": "Gradle 9.3.1 Kotlin DSL script template is lost when distribution is invoked through a Windows wrapper Junction",
+  "failing_invocation": "native_client/android/gradlew.bat with task-local GRADLE_USER_HOME/wrapper Junction",
+  "passing_invocation": "canonical C:/Users/vict1238/.gradle/wrapper/dists/gradle-9.3.1-bin/30eg2jcb8eqk5ro0gq9h8x6ef/gradle-9.3.1/bin/gradle.bat",
+  "fixed_app_build": false,
+  "evidence": [
+    "gradle_dsl_fresh_tasks.log",
+    "gradle_dsl_fresh_stacktrace.log",
+    "gradle_dsl_minimal.log",
+    "gradle_dsl_canonical.log"
+  ],
+  "observed_compiled_class": "Settings_gradle is plain class with constructor(Settings) under failing invocation; generated Program expects constructor(KotlinScriptHost, Settings)",
+  "minimal_success": "KOTLIN_DSL_OK; BUILD SUCCESSFUL in 12s",
+  "same_environment": [
+    "JDK 17.0.20.1",
+    "Gradle 9.3.1",
+    "task-local fresh cache",
+    "same init script",
+    "same minimal project"
+  ],
+  "official_issue": "https://github.com/gradle/gradle/issues/36483",
+  "suggested_fix": "Use ordinary wrapper directory or canonical Gradle invocation; retain SDK source unchanged"
+}

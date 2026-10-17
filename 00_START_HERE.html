@@ -1,0 +1,38 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>映匣 · Work 交接</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#edf2ee;color:#203c2b;font:16px/1.85 system-ui,"Microsoft YaHei",sans-serif}main{max-width:980px;margin:30px auto;padding:34px 42px;background:#fff;border-radius:18px}small{letter-spacing:2px;color:#5b7865}h1{font-size:32px;line-height:1.35}h2{font-size:21px;margin-top:30px}p{margin:12px 0}.note{padding:16px 20px;background:#f7f0dd;border-left:4px solid #c39839;border-radius:5px}a{color:#216342}textarea{width:100%;height:450px;resize:vertical;padding:18px;border:1px solid #c9d9ce;border-radius:9px;color:#183424;font:14px/1.8 Consolas,"Microsoft YaHei",monospace}code{background:#edf3ef;padding:2px 6px;border-radius:4px}footer{font-size:12px;color:#697d70;margin-top:25px}@media(max-width:640px){main{margin:0;padding:24px 20px;border-radius:0}h1{font-size:27px}}</style>
+<main><small>YINGXIA / WORK HANDOFF / 2026-10-12</small><h1>映匣项目，接着做。<br>不用从头解释。</h1>
+<p>将整个交接 ZIP 提供给新对话，并粘贴下面的提示词。接手主线为 <b>Go 独立 EXE 版</b>；早期 Python、来源报告和所有原交付物都已归档。</p>
+<div class="note">最新版 EXE 不需要用户安装 Python，但 Windows 真机与第三方影视实播仍未验收。本次源码重建与原 EXE 字节相同，不能把这一结果说成实播通过。</div>
+<h2>直接复制的提示词</h2><p>点击文本框，按 Ctrl+A、Ctrl+C 复制；也可打开 <a href="01_PROMPT_FOR_WORK.txt">纯文本提示词</a>。</p><textarea readonly>请接手附件中的「映匣 / YingXia」桌面软件项目。这是已有项目的迁移与接续开发，不是从零设计，也不是让我重新安装 Python。
+
+【先读取附件】
+解压 YingXia_Work_Handoff_20261012.zip，进入 YingXia_Work_Handoff，按顺序阅读：
+1. 00_READ_ME_FIRST.md
+2. 02_PROJECT_CONTEXT.md
+3. 03_CURRENT_STATE_AND_LIMITATIONS.md
+4. 04_CODE_MAP_AND_BUILD.md
+5. 05_NEXT_STEPS_AND_ACCEPTANCE.md
+再查看 current_source/README_zh.md、current_source/docs/VALIDATION.md、handoff_verification/handoff_checks.json，并按需检查源码、历史测试记录和截图。project_state.json 是机器可读摘要。不要只看文件名或本提示词就声称已经理解全部实现。
+
+【已经确定，不要再问】
+我使用 Windows 电脑，主要用 Chrome / Edge，优先简单好用。电脑没有 Python 3.10；交付给我的软件必须不依赖我安装 Python、Go、Node 或开发工具，最好双击 EXE 即可运行。
+目标体验是：内置搜索片名 → 核对作品、年份和季数 → 选择平台/实际播放来源 → 选集 → 播放、切换线路、收藏和查看历史。平台与实际片源必须分开标注，不能把第三方播放器说成开通了官方会员。
+
+【务必认清当前版本】
+当前开发主线是 current_source/ 内的 Go 后台＋HTML/CSS/JavaScript 前端，使用电脑已有 Edge/Chrome 的应用窗口；不是 PySide6，也不是把 Python 临时下载到我电脑上。内部版本为 1.0.1-exe，对外交付文件名仍为 v1.0。
+最新版程序在 releases/YingXia_v1.0_Windows_x64.exe。legacy_python/ 只是早期参考版，original_deliverables/ 保留原交付包，source_audit/ 保存来源与匹配预检。
+不要改错版本，不要把早期 Python 版说明里的依赖要求重新加回最新版，不要无故推翻现有界面。
+
+【验证边界】
+交接时已重新运行 Go 离线回归和静态检查，并从当前源码重建出与原 EXE 逐字节一致的 Windows x64 文件。具体记录在 handoff_verification/。这些不代表 Windows 真机已运行成功，也不代表任何第三方影片已经实播通过。历史浏览器检查使用合成目录和演示视频。
+来源可访问、HTTP 200、iframe 加载、用户手动确认、实际解码与时间推进，要分开记录。当前只有一个在线目录和七条解析线路配置；平台自动检索仍是实验功能，不能承诺全网搜索或全部会员内容可用。
+
+【接手后先做什么】
+先核对文件、阅读关键代码，给出简明的“已接手状态”：主线架构、现有功能、已知缺口、验证边界和下一步最优先的工作。在当前环境支持时运行离线测试；无法执行 Windows 程序就明确写未验证，不编造结果。
+本轮先完成接手与必要检查，不要擅自重写、部署或大改。若我同时附了报错截图或新要求，直接以当前主线定位并处理，不重复询问已有答案。
+后续修改请保留源码、说明、许可、真实测试证据与可复现构建信息；交付 Windows x64 EXE 和完整 ZIP。不要要求我关闭杀毒、防火墙或证书校验，不读取我的日常浏览器账号数据，不加入破解 DRM、账号窃取或付费认证绕过模块。只接入我有权访问的内容，并诚实标注第三方依赖状态。
+
+请现在开始读取附件并完成项目接手，而不是只回复“收到”。</textarea>
+<h2>工程入口</h2><p><a href="00_READ_ME_FIRST.md">先读说明</a> · <a href="02_PROJECT_CONTEXT.md">项目背景</a> · <a href="03_CURRENT_STATE_AND_LIMITATIONS.md">当前状态</a> · <a href="04_CODE_MAP_AND_BUILD.md">代码与构建</a> · <a href="05_NEXT_STEPS_AND_ACCEPTANCE.md">下一步与验收</a></p>
+<p>源码：<code>current_source/</code>。原 EXE：<code>releases/</code>。测试核验：<code>handoff_verification/</code>。</p>
+<footer>本包是项目交接材料，不是完整聊天数据库。原交付文件与源码保留不变；未加入个人账号、字体或第三方影视素材。</footer></main></html>

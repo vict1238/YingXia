@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-10-15T03:57:22.699558+00:00",
+  "workbook": {
+    "path": "YingXia_Video_Sources_20261015.xlsx (not bundled)",
+    "sha256": "7ec948449bc376b5e18fd457a4d6a55ff36425756dc69aed34f0ea68c28f074e",
+    "size": 36928,
+    "sheet_count": 8,
+    "unique_urls_including_evidence": 203,
+    "read_only": true,
+    "contents_treated_as_data_not_instructions": true
+  },
+  "workbook_record_counts": {
+    "cms": 59,
+    "anime_base_sites": 15,
+    "parser_services": 42,
+    "web_or_cloud_sites": 11,
+    "media_player": 1,
+    "subscriptions": 38,
+    "total": 166
+  },
+  "expanded_candidates": 37,
+  "cms_decisions": {
+    "integrate": 30,
+    "not_usable_now": 37,
+    "not_searchable_now": 18,
+    "duplicate_alias": 5,
+    "duplicate_protocol": 5,
+    "unsupported_nonstandard_port": 1
+  },
+  "new_accepted_cms": 30,
+  "baseline_registered_sources": 17,
+  "result_registered_sources": 47,
+  "registered_count_includes_brand_mirrors": true,
+  "accepted_cms_sha256": "fffc972f0408dfe22e3a87058cf183cd82ab60d90d88e077e1347aa977952aa2",
+  "anime": {
+    "base_sites": 15,
+    "existing_rule_ids": 16,
+    "pinned_current_rules": 16,
+    "upstream_commit": "2fa4d28659f94e1eb52e7a38d79b7b9a5dcd605b",
+    "changed_rule": "giriGiriLove 2.4 -> 2.5 (API 9 searchApiConfig.sourceTemplate)",
+    "existing_adapter_api": 8,
+    "new_adapter_required_for_api9": true,
+    "pinned_registry_sha256": "82ce8e217132a67b858e30ab91a086e89839ae9af3a4d260ac194fbc00882a3c"
+  },
+  "subscriptions": {
+    "reviewed": 38,
+    "with_cms_candidates": 9,
+    "treated_as_data_only": true
+  },
+  "media_checks": {
+    "new_catalog_with_reachable_hls_header": 17,
+    "segments_downloaded": 0,
+    "decoded_playback_tested": false,
+    "first_sample_playlist_can_fail_while_source_catalog_remains_searchable": true
+  },
+  "reports": {
+    "cms": "cms_decisions.json",
+    "search_detail_playlist": "search_detail_proof.json",
+    "anime_web_parser_player": "other_types_decisions.json",
+    "upstream": "kazumi_api9_provenance.json",
+    "original_report_hashes": "source_origin_manifest.json",
+    "original_workbook_and_response_snapshots_bundled": false
+  },
+  "excluded_capabilities": {
+    "remote_javascript_execution": false,
+    "jar_spider_execution": false,
+    "cloud_account_import": false,
+    "tls_verification_disabled": false,
+    "nonstandard_port_support_added": false
+  }
+}

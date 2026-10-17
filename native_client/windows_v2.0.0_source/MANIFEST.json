@@ -1,0 +1,30 @@
+{
+  "purpose": "Exact Flutter source of frozen native Windows 2.0.0; preserved before any Android-only renderer iteration",
+  "windows_exe_sha256": "dd2062a005e12626033ab5f4281be7a540c4616a2f9d0edae16654cbb6889f3b",
+  "files": [
+    {
+      "path": "lib/backend.dart",
+      "sha256": "a1f2a0193d5d13e8339a9c172c687768d7cc57dc3c0c7e4986014bf98aee3bdb"
+    },
+    {
+      "path": "lib/main.dart",
+      "sha256": "cd312ff232144b06d228e21569fd4e5a5ca10096da1a8c3bc9f28c1a243113cb"
+    },
+    {
+      "path": "lib/playback_evidence.dart",
+      "sha256": "f73fb9008cce9d6b26eaad74da97f170893ada5d3defb88abbf31896ab77bd9f"
+    },
+    {
+      "path": "lib/yingxia_app.dart",
+      "sha256": "b5f8168ee538e9092ea2dd3c3c79f75d25c2ec0b68a9a0ef41438c5f1254e442"
+    },
+    {
+      "path": "pubspec.lock",
+      "sha256": "5e0c4f885ea2659987e7844953cb832b74c9d03597534cba21db2713e939ca85"
+    },
+    {
+      "path": "pubspec.yaml",
+      "sha256": "991d7ecbf7a8850041f014c7dd4e26135fdf42cb7c270fc1c9d538418c9228e1"
+    }
+  ]
+}

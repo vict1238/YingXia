@@ -1,0 +1,113 @@
+{
+  "schema": 1,
+  "revision": "20261015",
+  "upstream": {
+    "repository": "Predidit/KazumiRules",
+    "commit": "2fa4d28659f94e1eb52e7a38d79b7b9a5dcd605b",
+    "commit_probe": {
+      "url": "https://api.github.com/repos/Predidit/KazumiRules/commits/main",
+      "checked_at": "2026-10-15T03:55:24.099423+00:00",
+      "redirects": [],
+      "status": 200,
+      "final_url": "https://api.github.com/repos/Predidit/KazumiRules/commits/main",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 5428,
+      "sha256": "18aa121cdad6391674457966a522dbe7a6b32a0749b656b79c1ba083a604d65d",
+      "body_file": "http/kazumi_latest_commit.txt",
+      "json": true,
+      "elapsed_ms": 419
+    },
+    "rule_probe": {
+      "url": "https://raw.githubusercontent.com/Predidit/KazumiRules/2fa4d28659f94e1eb52e7a38d79b7b9a5dcd605b/giriGiriLove.json",
+      "checked_at": "2026-10-15T03:55:24.518786+00:00",
+      "redirects": [],
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/Predidit/KazumiRules/2fa4d28659f94e1eb52e7a38d79b7b9a5dcd605b/giriGiriLove.json",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 993,
+      "sha256": "4d7b4a32c68fcbf27ac1b2dd719408dd960067e5c40599ba90a33c05e2a8e01b",
+      "body_file": "http/kazumi_girigirilove_2_5.txt",
+      "json": true,
+      "elapsed_ms": 530
+    }
+  },
+  "providers": [
+    {
+      "id": "kazumi_girigirilove",
+      "name": "giriGiriLove",
+      "kind": "kazumi",
+      "origin": "kazumi",
+      "enabled": true,
+      "rule": {
+        "api": "9",
+        "type": "anime",
+        "name": "giriGiriLove",
+        "version": "2.5",
+        "muliSources": true,
+        "useWebview": true,
+        "useNativePlayer": true,
+        "usePost": false,
+        "useLegacyParser": false,
+        "adBlocker": false,
+        "userAgent": "",
+        "baseURL": "https://ani.girigirilove.com",
+        "searchMode": "api",
+        "chapterMode": "xpath",
+        "searchApiConfig": {
+          "request": {
+            "method": "GET",
+            "url": "https://ani.girigirilove.com/index.php/ajax/suggest",
+            "query": {
+              "mid": "1",
+              "wd": "@keyword"
+            }
+          },
+          "listPath": "$.list[*]",
+          "namePath": "$.name",
+          "sourcePath": "$.id",
+          "sourceTemplate": "https://ani.girigirilove.com/GV@source/"
+        },
+        "searchURL": "",
+        "searchList": "",
+        "searchName": "",
+        "searchResult": "",
+        "chapterRoads": "//ul[@class='anthology-list-play size']",
+        "chapterResult": "//li/a",
+        "referer": ""
+      }
+    }
+  ],
+  "validated_for_direct_import": false,
+  "requires_adapter_change": "Kazumi API 9 searchApiConfig.sourceTemplate is absent from baseline API 8 adapter",
+  "live_search_probe": {
+    "url": "https://ani.girigirilove.com/index.php/ajax/suggest?mid=1&wd=%E6%B5%B7%E8%B4%BC%E7%8E%8B",
+    "checked_at": "2026-10-15T03:55:25.048744+00:00",
+    "redirects": [],
+    "status": 200,
+    "final_url": "https://ani.girigirilove.com/index.php/ajax/suggest?mid=1&wd=%E6%B5%B7%E8%B4%BC%E7%8E%8B",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 251,
+    "sha256": "478848383d61d692785f40503ea20f208e2c754f431561b240f6a3710e0cf243",
+    "body_file": "http/kazumi_giri_2_5_search.txt",
+    "json": true,
+    "elapsed_ms": 837,
+    "valid_items": 1,
+    "query": "海贼王"
+  },
+  "live_detail_probe": {
+    "url": "https://ani.girigirilove.com/GV6547/",
+    "checked_at": "2026-10-15T03:55:25.885716+00:00",
+    "redirects": [],
+    "status": 200,
+    "final_url": "https://ani.girigirilove.com/GV6547/",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 58169,
+    "sha256": "5e23720e6dc3ad994b6a855998c9fb0ed05897e63003318602db9b01e04a6d7e",
+    "body_file": "http/kazumi_giri_2_5_detail.txt",
+    "json": false,
+    "elapsed_ms": 916,
+    "sample_id": "6547",
+    "has_chapter_list_class": true,
+    "decode_playback_tested": false
+  }
+}

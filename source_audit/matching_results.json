@@ -1,0 +1,104 @@
+{
+  "source_blob": "30260d8fb3db47b4f14fcc1a3faf8efadf99a43a",
+  "execution": "Node.js / isolated source excerpts / fixtures, NOT live catalog or video playback",
+  "total": 10,
+  "passed": 4,
+  "failed": 6,
+  "tests": [
+    {
+      "id": "T01",
+      "category": "control",
+      "input": "示例剧 第12集 - 腾讯视频",
+      "expected": "示例剧",
+      "actual": "示例剧",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "id": "T02",
+      "category": "title",
+      "input": "Example Journey - 腾讯视频",
+      "expected": "Example Journey",
+      "actual": "Example",
+      "pass": false,
+      "note": "Synthetic English title; meaningful words must not be dropped."
+    },
+    {
+      "id": "T03",
+      "category": "season",
+      "input": "示例剧 第二季 - 腾讯视频",
+      "expected": "示例剧 第二季",
+      "actual": "示例剧",
+      "pass": false,
+      "note": "Synthetic title; removing season loses matching information."
+    },
+    {
+      "id": "T04",
+      "category": "season",
+      "input": "示例剧第二季 - 腾讯视频",
+      "expected": "示例剧第二季",
+      "actual": "示例剧",
+      "pass": false,
+      "note": ""
+    },
+    {
+      "id": "T05",
+      "category": "episode",
+      "input": "https://www.bilibili.com/bangumi/play/ep15014",
+      "expected": 1,
+      "actual": 15014,
+      "pass": false,
+      "note": "Official page identifies this as episode 1; ep15014 is an identifier, not ordinal 15014."
+    },
+    {
+      "id": "T06",
+      "category": "control",
+      "input": "https://www.bilibili.com/bangumi/play/ep114737",
+      "expected": 1,
+      "actual": 1,
+      "pass": true,
+      "note": "Six-digit identifier is skipped by the regex; title fallback works for this fixture."
+    },
+    {
+      "id": "T07",
+      "category": "episode",
+      "input": "示例剧 第十二集",
+      "expected": 12,
+      "actual": 0,
+      "pass": false,
+      "note": "Chinese numerals are not recognized. Synthetic input."
+    },
+    {
+      "id": "T08",
+      "category": "sources",
+      "input": "two $$$-separated groups",
+      "expected": [
+        "https://first.example.invalid/e1.m3u8",
+        "https://second.example.invalid/e1.m3u8"
+      ],
+      "actual": [
+        "https://first.example.invalid/e1.m3u8"
+      ],
+      "pass": false,
+      "note": "Second source group is discarded; not an uptime assertion."
+    },
+    {
+      "id": "T09",
+      "category": "control",
+      "input": "one group / two episodes",
+      "expected": 2,
+      "actual": 2,
+      "pass": true,
+      "note": ""
+    },
+    {
+      "id": "T10",
+      "category": "control",
+      "input": "non-http media URL",
+      "expected": 0,
+      "actual": 0,
+      "pass": true,
+      "note": ""
+    }
+  ]
+}

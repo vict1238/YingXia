@@ -1,0 +1,351 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "verified_at": "2026-10-14T18:03:18.1795458+08:00",
+  "scope": "Actual installed release APKs on an owned API 35 x86_64 Android emulator; synthetic local media only for decoder tests. Shipping APK history tests used synthetic data in its own private directory.",
+  "production": {
+    "apk": "releases/YingXia_v2.0.0_Android.apk",
+    "sha256": "b9d470913a117005b89006e137b7517e6bafafd717ba96b91efe934677a4f9a6",
+    "bytes": 124097983,
+    "package": "com.yingxia.yingxia_native",
+    "activity": "com.yingxia.yingxia_native.MainActivity",
+    "version_name": "2.0.0",
+    "version_code": 20000,
+    "min_sdk": 26,
+    "debuggable": false,
+    "release_aot": true,
+    "shipping_native_core_contains_fixtures": false
+  },
+  "fixture": {
+    "apk": "native_client/build/test-fixture/YingXia_fixture_Android.apk",
+    "sha256": "f68ef1307aac1a433e292b1653eebb7434f0ef2aa3a63467cdb73cf92aefcb8a",
+    "bytes": 132060611,
+    "package": "com.yingxia.yingxia_native.fixture",
+    "debuggable": false,
+    "release_aot": true,
+    "test_only": true,
+    "native_frontend_renderer_decoder_libraries_identical_to_shipping": 12,
+    "comparison_report": "fixture_release_correspondence.json",
+    "media": "WebM VP9 synthetic clip and genuine continuous 30-second H264 Baseline HLS, 15 unique 2-second segments with monotonic timestamps.",
+    "prior_same_frontend_fixture_sha256": "a82bebb4b671742c6925cf28dad94a375c19ef66bd023ed14b791cf6ef6dee1e",
+    "prior_fixture_correspondence": "candidates/candidate3_discontinuous/fixture_release_correspondence.json",
+    "lineage": "The prior fixture has the same 12 release frontend/renderer/decoder libraries as shipping and the final fixture. Only its test-only embedded HLS assets differ. Its bounded pause/resume and valid WebM EOF tests are cited explicitly below."
+  },
+  "device": {
+    "serial": "emulator-5554",
+    "api": 35,
+    "abi": "x86_64",
+    "display_pixels": [
+      320,
+      640
+    ],
+    "density": 160,
+    "hardware": "ranchu",
+    "product": "sdk_phone64_x86_64",
+    "fingerprint": "Android/sdk_phone64_x86_64/emu64x:15/AE3A.240806.019/12368160:userdebug/test-keys",
+    "owned_test_device": true,
+    "render_mode": "Original swangle emulator mode; emulator-only MediaCodec surface output. Physical Android devices retain the normal libmpv GPU configuration."
+  },
+  "summary": {
+    "passed": 21,
+    "failed": 0,
+    "total": 21
+  },
+  "checks": [
+    {
+      "id": "production_startup",
+      "status": "passed",
+      "apk": "production",
+      "assertion": "Exact shipping APK starts its JNI Go backend and reaches the native search screen.",
+      "evidence": [
+        "production_final/install.log",
+        "production_final/installed_package.txt",
+        "production_final/clear_logcat.txt"
+      ]
+    },
+    {
+      "id": "production_four_pages",
+      "status": "passed",
+      "apk": "production",
+      "assertion": "Search, workspace, library and source pages render at 320x640 with readable Chinese controls; source inspection was read-only.",
+      "evidence": [
+        "production_final/search_candidate3.png",
+        "production_final/workspace_candidate3.png",
+        "production_final/restored_empty_library.png",
+        "production_final/sources_candidate3.png"
+      ]
+    },
+    {
+      "id": "production_back_navigation",
+      "status": "passed",
+      "apk": "production",
+      "assertion": "Android Back from another page returns to the search screen.",
+      "evidence": [
+        "production_final/back_to_search_candidate3.xml"
+      ]
+    },
+    {
+      "id": "production_clear_cancel",
+      "status": "passed",
+      "apk": "production",
+      "assertion": "Cancelling the in-app dialog retains both seeded history rows and the favorite on disk and in the visible list.",
+      "evidence": [
+        "production_final/clear_cancel_dialog.xml",
+        "production_final/clear_after_cancel.json",
+        "production_final/clear_after_cancel.xml",
+        "production_final/clear_summary.json"
+      ]
+    },
+    {
+      "id": "production_clear_confirm",
+      "status": "passed",
+      "apk": "production",
+      "assertion": "Confirming clear removes the two real stored synthetic rows and refreshes the visible list to 暂无记录.",
+      "evidence": [
+        "production_final/clear_after_confirm.json",
+        "production_final/clear_after_confirm.xml",
+        "production_final/clear_after_confirm.png"
+      ]
+    },
+    {
+      "id": "production_clear_persistence",
+      "status": "passed",
+      "apk": "production",
+      "assertion": "After a full process force-stop and relaunch, history remains empty.",
+      "evidence": [
+        "production_final/clear_after_restart.json",
+        "production_final/clear_after_restart_scrolled.xml",
+        "production_final/clear_after_restart_scrolled.png"
+      ]
+    },
+    {
+      "id": "production_clear_preserves_favorite",
+      "status": "passed",
+      "apk": "production",
+      "assertion": "Clearing history retains the independently stored favorite before and after process restart.",
+      "evidence": [
+        "production_final/clear_summary.json",
+        "production_final/clear_after_restart.png"
+      ]
+    },
+    {
+      "id": "production_rapid_activity_replacement",
+      "status": "passed",
+      "apk": "production",
+      "assertion": "Three Back-finish/immediate-reopen cycles retain PID 5011 and a usable search screen. New hosts start before old hosts retire; no fatal exception is recorded.",
+      "evidence": [
+        "production_final/rapid_candidate3_state.json",
+        "production_final/rapid_candidate3_logcat.txt"
+      ]
+    },
+    {
+      "id": "fixture_search_media_selection",
+      "status": "passed",
+      "apk": "fixture",
+      "assertion": "Actual search/API/ranking selects direct playable synthetic media, opens details and selects an episode.",
+      "evidence": [
+        "fixture_continuous/query.xml",
+        "fixture_continuous/cards.xml",
+        "fixture_continuous/selected.xml"
+      ]
+    },
+    {
+      "id": "fixture_hls_crosses_multiple_segments",
+      "status": "passed",
+      "apk": "fixture",
+      "assertion": "Colored decoded frames change across multiple continuous HLS segments. Encoded video clock reaches 9.300 seconds and stored position reaches 9.366 seconds.",
+      "evidence": [
+        "fixture_continuous/hls_first_frame.png",
+        "fixture_continuous/hls_after_boundary_frame.png",
+        "fixture_continuous/hls_after_boundary_progress.json",
+        "fixture_continuous/stop_replay_logcat.txt"
+      ]
+    },
+    {
+      "id": "fixture_active_hls_stop_replay",
+      "status": "passed",
+      "apk": "fixture",
+      "assertion": "Stopping active HLS completes, then replay creates a fresh played history ID and visibly changing frames.",
+      "evidence": [
+        "fixture_continuous/stopped.xml",
+        "fixture_continuous/stop_replay_summary.json",
+        "fixture_continuous/hls_replay_frame_1.png",
+        "fixture_continuous/hls_replay_frame_2.png"
+      ]
+    },
+    {
+      "id": "fixture_next_episode",
+      "status": "passed",
+      "apk": "fixture",
+      "assertion": "Next Episode changes to 第02集, opens a new stream/history and visibly decodes it.",
+      "evidence": [
+        "fixture_continuous/hls_episode2_frame.png",
+        "fixture_continuous/hls_episode2_progress.json",
+        "fixture_continuous/stop_replay_summary.json"
+      ]
+    },
+    {
+      "id": "fixture_repeated_stop_replay",
+      "status": "passed",
+      "apk": "fixture",
+      "assertion": "A second Stop and Replay in the same process complete and produce another played history and visible frame.",
+      "evidence": [
+        "fixture_continuous_switch/repeated_stop_after.xml",
+        "fixture_continuous_switch/repeated_replay_progress.json",
+        "fixture_continuous_switch/repeated_replay_frame.png"
+      ]
+    },
+    {
+      "id": "fixture_hls_to_webm",
+      "status": "passed",
+      "apk": "fixture",
+      "assertion": "Changing from HLS to WebM in the same process decodes changing VP9 video frames.",
+      "evidence": [
+        "fixture_continuous_switch/switch_WebM_progress.json",
+        "fixture_continuous_switch/switch_WebM_frame_1.png",
+        "fixture_continuous_switch/switch_WebM_frame_2.png"
+      ]
+    },
+    {
+      "id": "fixture_webm_to_hls",
+      "status": "passed",
+      "apk": "fixture",
+      "assertion": "Changing back from WebM to HLS in the same process decodes changing H264 frames with continuous encoded clocks.",
+      "evidence": [
+        "fixture_continuous_switch/switch_HLS_progress.json",
+        "fixture_continuous_switch/switch_HLS_frame_1.png",
+        "fixture_continuous_switch/switch_HLS_frame_2.png"
+      ]
+    },
+    {
+      "id": "fixture_hls_normal_eof_stop_replay",
+      "status": "passed",
+      "apk": "fixture",
+      "assertion": "The genuine 30-second HLS reaches 播放结束 with encoded clock 29.933 and saved position 27.766. Stop then replay succeeds with a fresh played history and changing decoded frames.",
+      "evidence": [
+        "fixture_continuous_switch/hls_eof_frame.png",
+        "fixture_continuous_switch/hls_eof_progress.json",
+        "fixture_continuous_switch/hls_eof_summary.json",
+        "fixture_continuous_switch/hls_eof_replay_frame_1.png",
+        "fixture_continuous_switch/hls_eof_replay_frame_2.png"
+      ]
+    },
+    {
+      "id": "fixture_webm_normal_eof_stop_replay",
+      "status": "passed",
+      "apk_sha256": "a82bebb4b671742c6925cf28dad94a375c19ef66bd023ed14b791cf6ef6dee1e",
+      "assertion": "Identical release frontend and unchanged WebM assets explicitly reach 播放结束, stop, replay changing visible frames, and play 第02集.",
+      "evidence": [
+        "fixture_candidate3_webm_eof/stop_controls.xml",
+        "fixture_candidate3_webm_eof/stop_replay_summary.json",
+        "fixture_candidate3_webm_eof/webm_replay_frame_1.png",
+        "fixture_candidate3_webm_eof/webm_replay_frame_2.png"
+      ]
+    },
+    {
+      "id": "fixture_navigation_pause",
+      "status": "passed",
+      "apk_sha256": "a82bebb4b671742c6925cf28dad94a375c19ef66bd023ed14b791cf6ef6dee1e",
+      "assertion": "Leaving active workspace pauses video. Returning shows 已暂停 and two byte-identical colored-frame screenshots separated by 2 seconds; stored history position is also stable.",
+      "evidence": [
+        "fixture_candidate3_pause/navigation_active_frame.png",
+        "fixture_candidate3_pause/navigation_active_return.xml",
+        "fixture_candidate3_pause/navigation_active_return_1.png",
+        "fixture_candidate3_pause/navigation_active_return_2.png",
+        "fixture_candidate3_pause/navigation_active_pause_before.json",
+        "fixture_candidate3_pause/navigation_active_pause_after.json"
+      ]
+    },
+    {
+      "id": "fixture_manual_resume",
+      "status": "passed",
+      "apk_sha256": "a82bebb4b671742c6925cf28dad94a375c19ef66bd023ed14b791cf6ef6dee1e",
+      "assertion": "Manual Play after navigation pause changes the colored decoded frame and returns to 播放中.",
+      "evidence": [
+        "fixture_candidate3_pause/navigation_active_return_1.png",
+        "fixture_candidate3_pause/manual_resume_frame.png"
+      ]
+    },
+    {
+      "id": "fixture_background_pause",
+      "status": "passed",
+      "apk_sha256": "a82bebb4b671742c6925cf28dad94a375c19ef66bd023ed14b791cf6ef6dee1e",
+      "assertion": "Android Home pauses active video. Returning shows 已暂停 and two byte-identical colored-frame screenshots separated by 2 seconds; history position is stable.",
+      "evidence": [
+        "fixture_candidate3_pause/home_return.xml",
+        "fixture_candidate3_pause/home_return_1.png",
+        "fixture_candidate3_pause/home_return_2.png",
+        "fixture_candidate3_pause/home_pause_before.json",
+        "fixture_candidate3_pause/home_pause_after.json"
+      ]
+    },
+    {
+      "id": "fixture_finish_reopen_after_player",
+      "status": "passed",
+      "apk": "fixture",
+      "assertion": "Finishing and immediately reopening after actual decoded playback succeeds in the same PID 5236, creates a replacement Activity before the previous one retires, and reaches usable search without a fatal JNI/FFI exception.",
+      "evidence": [
+        "fixture_continuous_switch/post_player_reopen.json",
+        "fixture_continuous_switch/post_player_reopen.xml",
+        "fixture_continuous_switch/post_player_reopen_logcat.txt"
+      ]
+    }
+  ],
+  "setup_integrity": {
+    "production_seed_preserved_uid_mode_selinux": true,
+    "seed_owner_mode": "10148:10148:600",
+    "seed_selinux_context": "u:object_r:app_data_file:s0:c148,c256,c512,c768",
+    "evidence": [
+      "production_final/seed_permissions_before.txt",
+      "production_final/seed_permissions_after.txt",
+      "production_final/seed_context_before.txt",
+      "production_final/seed_context_after.txt"
+    ]
+  },
+  "cleanup": {
+    "production_library_restored_to_original_empty_baseline": true,
+    "always_finish_activities_restored": "null",
+    "adb_root_restored": true,
+    "adb_identity": "uid=2000(shell)",
+    "test_apps_force_stopped": true,
+    "emulator_shutdown": "Owned emulator-5554 stopped; no other emulator or device was stopped.",
+    "evidence": [
+      "production_final/restored_library_baseline.json",
+      "production_final/restored_permissions.txt",
+      "restored_always_finish_activities.txt",
+      "adb_unroot.log",
+      "restored_adb_identity.txt",
+      "owned_emulator_shutdown.log",
+      "devices_after_shutdown.txt"
+    ]
+  },
+  "diagnostic_observations": [
+    {
+      "scope": "Superseded initial candidate",
+      "observation": "Default emulator GPU context produced black frames and EGL_BAD_ATTRIBUTE despite advancing clocks. Visible decoding was not counted as passing. Emulator-only MediaCodec configuration fixed real colored frame output.",
+      "evidence": [
+        "fixture/webm_logcat.txt",
+        "fixture/webm_frame_1.png",
+        "fixture_final/hls_frame_1.png"
+      ]
+    },
+    {
+      "scope": "Prior test-only discontinuous HLS assets on emulator MediaCodec",
+      "observation": "Reusing six TS segments across synthetic discontinuities stalled after the first six-second boundary and then Stop waited. The UI still said 播放中; this was not evidence of normal EOF. The asset set was replaced by genuine continuous 30-second HLS. Normal HLS multi-segment decoding, Stop/replay and actual EOF now pass. The discontinuity-specific emulator observation remains unresolved and preserved separately.",
+      "evidence": [
+        "fixture_candidate3/repeated_stop_before.xml",
+        "fixture_candidate3/repeated_stop_after.png",
+        "fixture_candidate3/repeated_stop_logcat.txt",
+        "fixture_candidate3/repeated_stop_progress.json",
+        "candidates/candidate3_discontinuous/fixture_release_correspondence.json"
+      ]
+    }
+  ],
+  "limits": [
+    "Runtime validation used an owned API35 x86_64 emulator, not a physical ARM Android phone. ARM ABI packaging and native binary correspondence were verified separately.",
+    "Decoder tests use synthetic local WebM/HLS through the same private API/relay/storage/lifecycle code. They do not prove availability of every third-party media source.",
+    "The emulator ran without audible audio output; this report asserts visible video decoding and playback state, not audible sound quality.",
+    "The attempted always_finish_activities setting did not establish recreation; only observed actual Back-finish/reopen Activity replacement is counted.",
+    "The repeated-timeline discontinuity fixture stall on emulator MediaCodec is retained as a diagnostic limitation; it is not relabeled as a passed EOF test."
+  ]
+}

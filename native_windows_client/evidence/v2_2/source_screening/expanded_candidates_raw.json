@@ -1,0 +1,335 @@
+[
+  {
+    "name": "订阅目录 xh1.xn--yetu07f.icu",
+    "url": "http://xh1.xn--yetu07f.icu/api.php/provide/vod/",
+    "origin_subscription": "http://xhztv.top/4k.json",
+    "origin_subscription_record": "S011",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E001",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 video.adminqt.cn",
+    "url": "https://video.adminqt.cn/api.php/provide/vod/",
+    "origin_subscription": "http://xhztv.top/4k.json",
+    "origin_subscription_record": "S011",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E002",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 xzcjz.com",
+    "url": "https://xzcjz.com/api.php/provide/vod",
+    "origin_subscription": "http://xhztv.top/4k.json",
+    "origin_subscription_record": "S011",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E003",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 app.bfzyapi.com",
+    "url": "https://app.bfzyapi.com/api.php/provide/vod/",
+    "origin_subscription": "https://raw.liucn.cc/box/m.json",
+    "origin_subscription_record": "S023",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E004",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "影视 • 天涯",
+    "url": "http://tyyszy.com/api.php/provide/vod",
+    "origin_subscription": "https://g.33445500.xyz/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/jsm.json",
+    "origin_subscription_record": "S034",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E005",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "影视 • 非凡[直连]",
+    "url": "http://ffzy.tv/api.php/provide/vod/",
+    "origin_subscription": "https://g.33445500.xyz/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/jsm.json",
+    "origin_subscription_record": "S034",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E006",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "影视 • 索尼[直连]",
+    "url": "https://suoniapi.com/api.php/provide/vod/at/xml/",
+    "origin_subscription": "https://g.33445500.xyz/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/jsm.json",
+    "origin_subscription_record": "S034",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E007",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "影视 • 尤酷[直连]",
+    "url": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
+    "origin_subscription": "https://g.33445500.xyz/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/jsm.json",
+    "origin_subscription_record": "S034",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E008",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "影视 • 建安",
+    "url": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
+    "origin_subscription": "https://g.33445500.xyz/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/jsm.json",
+    "origin_subscription_record": "S034",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E009",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "影视 • 金蝉",
+    "url": "https://zy.jinchancaiji.com/api.php/provide/vod",
+    "origin_subscription": "https://g.33445500.xyz/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/jsm.json",
+    "origin_subscription_record": "S034",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E010",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "影视 • 小绵阳",
+    "url": "https://vs.okcdn100.top/api.php/provide/vod",
+    "origin_subscription": "https://g.33445500.xyz/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/jsm.json",
+    "origin_subscription_record": "S034",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E011",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 6.qqqtv.top",
+    "url": "http://6.qqqtv.top/api.php/provide/vod/",
+    "origin_subscription": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+    "origin_subscription_record": "S033",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E012",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 api.guangsuapi.com",
+    "url": "http://api.guangsuapi.com/api.php/provide/vod/",
+    "origin_subscription": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+    "origin_subscription_record": "S033",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E013",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 api.niuniuzy.me",
+    "url": "https://api.niuniuzy.me/api.php/provide/vod/",
+    "origin_subscription": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+    "origin_subscription_record": "S033",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E014",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 caiji.kuaichezy.org",
+    "url": "https://caiji.kuaichezy.org/api.php/provide/vod/",
+    "origin_subscription": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+    "origin_subscription_record": "S033",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E015",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 collect.wolongzy.cc",
+    "url": "https://collect.wolongzy.cc/api.php/provide/vod/",
+    "origin_subscription": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+    "origin_subscription_record": "S033",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E016",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 huawei8.live",
+    "url": "https://huawei8.live/api.php/provide/vod/",
+    "origin_subscription": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+    "origin_subscription_record": "S033",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E017",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 cj.rycjapi.com",
+    "url": "https://cj.rycjapi.com/api.php/provide/vod/at/json/",
+    "origin_subscription": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+    "origin_subscription_record": "S033",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E018",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 oknnews.com",
+    "url": "https://oknnews.com/api.php/provide/vod/",
+    "origin_subscription": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+    "origin_subscription_record": "S033",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E019",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 pg.fenwe078.cf",
+    "url": "https://pg.fenwe078.cf/api.php/provide/vod/",
+    "origin_subscription": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+    "origin_subscription_record": "S033",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E020",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 okzyw9.com",
+    "url": "https://okzyw9.com/api.php/provide/vod/",
+    "origin_subscription": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+    "origin_subscription_record": "S033",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E021",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 yayazy2.com",
+    "url": "https://yayazy2.com/api.php/provide/vod/",
+    "origin_subscription": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+    "origin_subscription_record": "S033",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E022",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 zuida.xyz",
+    "url": "https://zuida.xyz/api.php/provide/vod/",
+    "origin_subscription": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+    "origin_subscription_record": "S033",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E023",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 tyyszyapi.com",
+    "url": "https://tyyszyapi.com/api.php/provide/vod/",
+    "origin_subscription": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+    "origin_subscription_record": "S033",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E024",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 sdzyapi.com",
+    "url": "https://sdzyapi.com/api.php/provide/vod/",
+    "origin_subscription": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+    "origin_subscription_record": "S033",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E025",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 api.wujinapi.net",
+    "url": "https://api.wujinapi.net/api.php/provide/vod/",
+    "origin_subscription": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+    "origin_subscription_record": "S033",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E026",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 www.911ysw.top",
+    "url": "https://www.911ysw.top/tianyi.php/provide/vod/",
+    "origin_subscription": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+    "origin_subscription_record": "S033",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E027",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 caiji.dyttzyapi.com",
+    "url": "http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml/",
+    "origin_subscription": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+    "origin_subscription_record": "S033",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E028",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 caiji.maotaizy.cc",
+    "url": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml/",
+    "origin_subscription": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+    "origin_subscription_record": "S033",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E029",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "订阅目录 api.wuxianzy.net",
+    "url": "https://api.wuxianzy.net/api.php/provide/vod/",
+    "origin_subscription": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+    "origin_subscription_record": "S033",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E030",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "🔰金鹰┃影视",
+    "url": "https://jyzyapi.com/provide/vod/",
+    "origin_subscription": "http://550.3vcn.work/wdjyys.json",
+    "origin_subscription_record": "S038",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E031",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "🍎高清┃2K",
+    "url": "https://api.1080zyku.com/inc/apijson.php",
+    "origin_subscription": "http://550.3vcn.work/wdjyys.json",
+    "origin_subscription_record": "S038",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E032",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "🥣爱坤┃影视",
+    "url": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json",
+    "origin_subscription": "http://550.3vcn.work/wdjyys.json",
+    "origin_subscription_record": "S038",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E033",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "🔃量子┃资源",
+    "url": "http://cj.lziapi.com/api.php/provide/vod/",
+    "origin_subscription": "http://550.3vcn.work/wdjyys.json",
+    "origin_subscription_record": "S038",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E034",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "🎊索尼┃资源",
+    "url": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
+    "origin_subscription": "http://550.3vcn.work/wdjyys.json",
+    "origin_subscription_record": "S038",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E035",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "🚄快车┃影视",
+    "url": "https://caiji.kczyapi.com/api.php/provide/vod/",
+    "origin_subscription": "http://550.3vcn.work/wdjyys.json",
+    "origin_subscription_record": "S038",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E036",
+    "sheet": "subscription_expansion"
+  },
+  {
+    "name": "🔮星空┃影视",
+    "url": "https://api.tiankongapi.com/api.php/provide/vod/",
+    "origin_subscription": "http://550.3vcn.work/wdjyys.json",
+    "origin_subscription_record": "S038",
+    "evidence_url": "https://github.com/TVboxorg/TVbox/blob/main/sources.yaml",
+    "record_id": "E037",
+    "sheet": "subscription_expansion"
+  }
+]

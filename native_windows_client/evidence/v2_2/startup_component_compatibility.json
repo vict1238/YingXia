@@ -1,0 +1,9 @@
+{
+  "cause": "Windows Code Integrity blocked the newly linked media_kit_video_plugin.dll before window creation",
+  "status": "0xc0e90002 STATUS_SYSTEM_INTEGRITY_POLICY_VIOLATION",
+  "basis": "Windows SDK ntstatus.h and CodeIntegrity/Operational event 3077 for isolated candidate1 process",
+  "component_choice": "Reuse the exact unmodified published Windows 2.1 renderer binary; renderer/shader source bytes match 2.1",
+  "reused_sha256": "d740f1a4c311827191e6a21957b41c7fb57d1778cf6a83037271a401b7ac8dc3",
+  "timestamp_comparison": "renderer_timestamp_comparison.json",
+  "system_policy_changes": false
+}

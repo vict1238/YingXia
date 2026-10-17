@@ -1,0 +1,3 @@
+=== RUN   TestStopThenConcurrentStartWaitsForRuntimeRetirement
+--- PASS: TestStopThenConcurrentStartWaitsForRuntimeRetirement (0.35s)
+PASS

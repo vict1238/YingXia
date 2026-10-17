@@ -1,0 +1,12 @@
+{
+  "backend_test_exit": 0,
+  "go_vet_exit": 0,
+  "javascript_syntax_exit": 0,
+  "offline_vendor": true,
+  "race_detector_run": false,
+  "test_pass_records": 191,
+  "ui_checks": 17,
+  "search_filter_checks": 10,
+  "pause_checks": 12,
+  "production_exe_checks": 8
+}

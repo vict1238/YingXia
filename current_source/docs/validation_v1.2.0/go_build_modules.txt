@@ -1,0 +1,19 @@
+C:\Users\vict1238\Documents\ChatGPT\cqh\YingXia_Work_Handoff\releases\YingXia_v1.2.0_Windows_x64.exe: go1.27.2
+	path	yingxia.local/desktop
+	mod	yingxia.local/desktop	(devel)	
+	dep	github.com/antchfx/htmlquery	v1.3.7	
+	dep	github.com/antchfx/xpath	v1.3.9	
+	dep	github.com/chromedp/cdproto	v0.157.8	
+	dep	github.com/chromedp/chromedp	v0.21.0	
+	dep	github.com/golang/groupcache	v0.0.0-20210331224755-41bb18bfe9da	
+	dep	github.com/ohler55/ojg	v1.28.7	
+	dep	golang.org/x/net	v0.61.0	
+	dep	golang.org/x/text	v0.43.0	
+	build	-buildmode=exe
+	build	-compiler=gc
+	build	-trimpath=true
+	build	DefaultGODEBUG=tracebacklabels=0,x509sslcertoverrideplatform=0
+	build	CGO_ENABLED=0
+	build	GOARCH=amd64
+	build	GOOS=windows
+	build	GOAMD64=v1

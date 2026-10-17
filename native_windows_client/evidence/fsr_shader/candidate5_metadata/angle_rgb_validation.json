@@ -1,0 +1,159 @@
+{
+  "scope": "Synthetic 1280x720 SDR RGBA8 texture -> 1920x1080 private ANGLE pbuffer. Compiler, pixel algorithm and isolated draw/finish timing only; not video playback or integrated-GPU throughput.",
+  "upstream_commit": "a21ffb8f6c13233ba336352bdff293894c706575",
+  "assets": {
+    "fsr1_enhanced.glsl": "e1c4271f8fd90b3f05c2d7dcfad635231b211a3c3b16750c111df010c899b9f7",
+    "fsr1_light.glsl": "17255b60fbd28b663b5c93f95899fa04362398e8f7c09fe6df8cc5b2fc90fb76"
+  },
+  "angle_libraries": {
+    "libEGL.dll": "b2590bd0692f0381fc45c20bf1c7f7f713c9ea19c7ea6bab62efdd1fadc4eaac",
+    "libGLESv2.dll": "620bb6e38d7ed6c760a0cf4a8eb6a8f64b259b96ff286551cd32cefc6c35ca39"
+  },
+  "contexts": [
+    {
+      "requested_es_version": 2,
+      "actual_gl_version": "OpenGL ES 3.0.0 (ANGLE 2.1.18844 git hash: 2693b03eba82)",
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 Laptop GPU Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.16.1088)",
+      "passes": [
+        {
+          "description": "YingXia FSR1 EASU",
+          "compiled_and_linked": true,
+          "draw_finish_ms": [
+            20.76909999959753,
+            0.24669999766047113,
+            0.17970000044442713,
+            0.1933999992616009,
+            0.17859999934444204,
+            0.17389999993611127,
+            0.20530000256258063,
+            0.17860000298242085
+          ],
+          "rgb": {
+            "sampled_pixels": 8210,
+            "max_absolute_rgb_error": 0.0022979960123956644,
+            "mean_absolute_rgb_error": 0.00029215694310341216,
+            "tolerance": 0.00784313725490196,
+            "passed": true
+          }
+        },
+        {
+          "description": "YingXia FSR1 RCAS Enhanced",
+          "compiled_and_linked": true,
+          "draw_finish_ms": [
+            3.2299999984388705,
+            0.16260000120382756,
+            0.07170000026235357,
+            0.0703999976394698,
+            0.0698000003467314,
+            0.06909999865456484,
+            0.0689999978931155,
+            0.06880000000819564
+          ],
+          "rgb": {
+            "sampled_pixels": 8210,
+            "max_absolute_rgb_error": 0.0021925247444223306,
+            "mean_absolute_rgb_error": 0.00028039274824998,
+            "tolerance": 0.00784313725490196,
+            "passed": true
+          }
+        },
+        {
+          "description": "YingXia FSR1 RCAS Light",
+          "compiled_and_linked": true,
+          "draw_finish_ms": [
+            2.816500000335509,
+            0.17970000044442713,
+            0.07170000026235357,
+            0.0698000003467314,
+            0.06990000110818073,
+            0.06930000017746352,
+            0.06940000093891285,
+            0.06929999653948471
+          ],
+          "rgb": {
+            "sampled_pixels": 8210,
+            "max_absolute_rgb_error": 0.002191400242517072,
+            "mean_absolute_rgb_error": 0.0003113408273597765,
+            "tolerance": 0.00784313725490196,
+            "passed": true
+          }
+        }
+      ],
+      "enhanced_differs_from_bilinear": true,
+      "flat_black_white_gray_regions_stable": true
+    },
+    {
+      "requested_es_version": 3,
+      "actual_gl_version": "OpenGL ES 3.0.0 (ANGLE 2.1.18844 git hash: 2693b03eba82)",
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 Laptop GPU Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.16.1088)",
+      "passes": [
+        {
+          "description": "YingXia FSR1 EASU",
+          "compiled_and_linked": true,
+          "draw_finish_ms": [
+            4.473199998756172,
+            0.3104999996139668,
+            0.24159999884432182,
+            0.20330000188550912,
+            0.19660000180010684,
+            0.20880000010947697,
+            0.42640000174287707,
+            0.21039999774075113
+          ],
+          "rgb": {
+            "sampled_pixels": 8210,
+            "max_absolute_rgb_error": 0.0022979960123956644,
+            "mean_absolute_rgb_error": 0.00029215694310341216,
+            "tolerance": 0.00784313725490196,
+            "passed": true
+          }
+        },
+        {
+          "description": "YingXia FSR1 RCAS Enhanced",
+          "compiled_and_linked": true,
+          "draw_finish_ms": [
+            3.280699998867931,
+            0.12490000153775327,
+            0.07209999967017211,
+            0.0698000003467314,
+            0.06939999730093405,
+            0.06950000170036219,
+            0.06850000136182643,
+            0.06909999865456484
+          ],
+          "rgb": {
+            "sampled_pixels": 8210,
+            "max_absolute_rgb_error": 0.0021925247444223306,
+            "mean_absolute_rgb_error": 0.00028039274824998,
+            "tolerance": 0.00784313725490196,
+            "passed": true
+          }
+        },
+        {
+          "description": "YingXia FSR1 RCAS Light",
+          "compiled_and_linked": true,
+          "draw_finish_ms": [
+            2.7501000004122034,
+            0.10639999891282059,
+            0.07130000085453503,
+            0.06930000017746352,
+            0.06930000017746352,
+            0.06969999958528206,
+            0.06849999772384763,
+            0.0686999992467463
+          ],
+          "rgb": {
+            "sampled_pixels": 8210,
+            "max_absolute_rgb_error": 0.002191400242517072,
+            "mean_absolute_rgb_error": 0.0003113408273597765,
+            "tolerance": 0.00784313725490196,
+            "passed": true
+          }
+        }
+      ],
+      "enhanced_differs_from_bilinear": true,
+      "flat_black_white_gray_regions_stable": true
+    }
+  ],
+  "passed": true
+}

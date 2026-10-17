@@ -1,0 +1,35 @@
+{
+  "candidate": "YingXia_candidate6.exe",
+  "executable_sha256": "d826f45a89f9aa8bbed1ed578e666a724c6f984d15756bef0d90fd73af7bd106",
+  "reviewer": "Independent read-only subagent native_readonly_audit",
+  "scope": "Windows advanced render worker, hardware texture callback publication/retirement, resource leases, teardown, controller mutation ordering and mpv node copying",
+  "read_only": true,
+  "gui_control_performed": false,
+  "blocking_hardware_lifecycle_finding": false,
+  "verified": [
+    "Hardware registration ID and maps are published together under textures_mutex.",
+    "Flutter texture callbacks use their own stable registration ID and map find, rather than a changing global ID with throwing at.",
+    "Old exported Direct3D resources retain a ComPtr lease through UnregisterTexture completion.",
+    "Matching local Flutter engine source places unregister and completion on the same raster runner; render-worker drain plus final unregister covers prior retirements.",
+    "Native Dispose completes the channel result after renderer cleanup; render worker contains no ordinary synchronous mpv Core API.",
+    "ThreadPool conditional waiting uses a predicate protected by the same mutex.",
+    "No concrete mpv_nodes.dart copying or layout defect found."
+  ],
+  "findings": [
+    {
+      "priority": "P2",
+      "title": "Detached SetSize request workers can enqueue in reverse receipt order",
+      "locations": [
+        "vendor/media_kit_video/windows/video_output_manager.cc:60-65",
+        "vendor/media_kit_video/windows/media_kit_video_plugin.cc:205-206",
+        "vendor/media_kit_video/windows/video_output.cc:279",
+        "vendor/media_kit_video/lib/src/video_controller/native_video_controller/real.dart:211-213"
+      ],
+      "impact": "An older render size may arrive after a newer Off/source-reset/viewport target and remain until another different size change. Dart awaits cannot prevent this because the channel succeeds before native enqueue, and repeated desired dimensions may be skipped by the Dart early return.",
+      "recommendation": "Use a separate FIFO control queue or stamp channel-received requests and discard stale size updates; do not introduce a blocking manager mutex wait on the UI or render worker.",
+      "status_at_review": "open"
+    }
+  ],
+  "integrated_gpu_benchmarked": false,
+  "software_renderer_runtime_tested": false
+}

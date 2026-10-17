@@ -1,0 +1,10 @@
+{
+  "serial": "emulator-5560",
+  "owned_avd": "YingXia_QA_API35",
+  "production_and_fixture_force_stopped": true,
+  "display_restored": "Physical size: 320x640",
+  "only_owned_export_test_file_removed": true,
+  "adbd_unroot": "restarting adbd as non root",
+  "adbd_uid": "2000",
+  "owned_emulator_shutdown": "OK: killing emulator, bye bye\r\r\nOK"
+}
