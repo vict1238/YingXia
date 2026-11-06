@@ -46,6 +46,13 @@ void main() {
       'TV ${960 * dpr} keeps rail and editor through keyboard insets',
       (tester) async {
         await _open(tester, _TvBackend(), dpr);
+        final remote = find.byKey(const Key('search-remote-entry'));
+        expect(
+          tester.widget<FilledButton>(remote).focusNode!.hasPrimaryFocus,
+          true,
+        );
+        await tester.sendKeyEvent(LogicalKeyboardKey.arrowDown);
+        await tester.pumpAndSettle();
         final entry = find.byKey(const Key('search-tv-entry'));
         expect(
           tester.widget<OutlinedButton>(entry).focusNode!.hasPrimaryFocus,
@@ -87,6 +94,8 @@ void main() {
     (tester) async {
       final backend = _TvBackend();
       await _open(tester, backend, 4);
+      await tester.sendKeyEvent(LogicalKeyboardKey.arrowDown);
+      await tester.pumpAndSettle();
       await tester.sendKeyEvent(LogicalKeyboardKey.select);
       await tester.pumpAndSettle();
       await tester.enterText(find.byKey(const Key('search-query')), '测试电影');

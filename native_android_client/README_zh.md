@@ -1,6 +1,8 @@
-# 映匣 Android 原生版 2.3.0
+# 映匣 Android 原生版 2.3.2
 
-安装 `YingXia_v2.3.0_Android.apk` 后可在手机、平板或 Android TV 独立运行。界面使用 Flutter 原生控件，Go 后台通过 JNI 在应用内启动，视频由 media_kit / libmpv 解码播放。最低 Android 8.0（API 26），通用 APK 包含 `arm64-v8a`、`armeabi-v7a`、`x86_64` 三种 ABI；沿用既有包名和发布签名更新可保留应用数据。
+安装 `YingXia_v2.3.2_Android.apk` 后可在手机、平板或 Android TV 独立运行。界面使用 Flutter 原生控件，Go 后台通过 JNI 在应用内启动，视频由 media_kit / libmpv 解码播放。最低 Android 8.0（API 26），通用 APK 包含 `arm64-v8a`、`armeabi-v7a`、`x86_64` 三种 ABI。沿用既有包名和发布签名更新可保留应用数据。
+
+电视上可在「搜索影片」选择「遥控器输入」，用方向键和确定键输入拼音、选汉字或直接搜索拼音与首字母。词库可离线使用。验证范围见 [Android 2.3.2 发布说明](../releases/YingXia_v2.3.2_Android_README_zh.md)。
 
 2.3 在播放区域与全屏采用一致的控制条。按住播放区域可临时 2 倍速，松开恢复原倍速；也可选择固定倍速。播放设置提供“标准／提前缓存”，显示已缓冲进度并限制内存占用；接力缓存按需预取后续分片，关闭磁盘缓存。HLS 广告跳过按清单的明确标记处理，可在设置关闭。播放卡顿时可检查版本、季数和集数一致的其他来源，用户确认后保留当前集数与播放位置切换。
 

@@ -1,6 +1,24 @@
 # 更新日志
 
-当前版本：[2.3.0](https://github.com/vict1238/YingXia/releases/tag/v2.3.0)。历史日期沿用原交付或验证记录，GitHub 发布日期为本次归档日期。
+当前版本为 [Windows 2.3.0](https://github.com/vict1238/YingXia/releases/tag/v2.3.0) 和 [Android 2.3.2](https://github.com/vict1238/YingXia/releases/tag/v2.3.2)。历史日期沿用原交付或验证记录，GitHub 发布日期为归档日期。
+
+## 映匣 v2.3.2 · Android TV 内置遥控键盘
+
+- 搜索页新增「遥控器输入」，无需系统输入法即可用方向键输入拼音、选择汉字和提交搜索。
+- 支持字母、数字与候选翻页，也可直接搜索拼音或首字母。
+- 4K Android TV 模拟器停用系统输入法后，覆盖安装及遥控器选字、提交搜索通过。小米 S75 仍需真机验证。
+
+[安装与验证说明](releases/YingXia_v2.3.2_Android_README_zh.md)
+
+## 映匣 v2.3.1 · Android TV 适配测试版
+
+- 加入电视系统键盘入口、4K 横屏安全边距和焦点样式。
+- 调整搜索、选集、播放及全屏返回的遥控器焦点。
+- 系统键盘在 Android TV 模拟器通过验证。小米 S75 的用户反馈推动了 2.3.2 的内置键盘更新。
+
+[安装与验证说明](releases/YingXia_v2.3.1_Android_README_zh.md)
+
+---
 
 # 映匣 v2.3.0 · 断点续播、缓存与播放区控件
 

@@ -4,25 +4,25 @@
 
 ## 下载
 
-当前版本：**2.3.0**。
+当前版本为 **Windows 2.3.0** 和 **Android 2.3.2**。
 
 | 平台 | 下载 | 运行要求 |
 |---|---|---|
 | Windows 原生版 | [YingXia_v2.3.0_Native_Windows_x64.exe](https://github.com/vict1238/YingXia/releases/download/v2.3.0/YingXia_v2.3.0_Native_Windows_x64.exe) | Windows x64；双击运行 |
-| Android | [YingXia_v2.3.0_Android.apk](https://github.com/vict1238/YingXia/releases/download/v2.3.0/YingXia_v2.3.0_Android.apk) | Android 8.0 / API 26 及以上；ARM64、ARMv7、x86_64 |
+| Android | [YingXia_v2.3.2_Android.apk](https://github.com/vict1238/YingXia/releases/download/v2.3.2/YingXia_v2.3.2_Android.apk) | Android 8.0 / API 26 及以上，支持 ARM64、ARMv7、x86_64 |
 
-[版本说明与校验文件](https://github.com/vict1238/YingXia/releases/tag/v2.3.0) · [全部版本](https://github.com/vict1238/YingXia/releases) · [更新日志](CHANGELOG.md)
+[Windows 发布说明](https://github.com/vict1238/YingXia/releases/tag/v2.3.0) · [Android 发布说明](https://github.com/vict1238/YingXia/releases/tag/v2.3.2) · [全部版本](https://github.com/vict1238/YingXia/releases) · [更新日志](CHANGELOG.md)
 
 Windows 原生版首次启动会释放并校验随包运行文件，无需安装 Python、Go、Node 或 WebView2。升级前先退出旧版映匣；Windows 原生版与 WebView 版共用 `%LOCALAPPDATA%\YingXia\standalone` 中的收藏、历史与来源设置。Android 官方 APK 沿用原包名和签名，可覆盖安装；其数据保存在应用私有目录，与电脑数据分别保存。
 
-## 2.3.0 的主要功能
+## 主要功能
 
 - **检索与来源管理**：中文近似片名、完整拼音和首字母联想；搜索显示来源与媒体检查进度，可取消，并优先展示可访问结果。来源可启停、测速和更新，也可增删改自定义 CMS 接口。
 - **播放与续播**：播放区和全屏共用音量、倍速、画面比例、快进快退、缓存与超分控件；收藏和历史记住最近集数与有效断点。清空历史同时清除断点，保留收藏。
 - **缓存与换源**：“标准／提前缓存”限制内存占用，按需预取分片；卡顿时提示检查同一作品、年份、季数与集数的其他来源，确认后从当前位置继续。
 - **HLS 标记广告跳过**：依据清单中的明确广告标记处理，可在播放设置中关闭。未标记广告与画面内嵌广告不在此识别范围内。
 - **可选 FSR1 超分**：关闭、轻量、增强三档，启动默认关闭；可单独设置下次启动的默认档位，输出最高 1920×1080，持续渲染压力下自动降档。实际可用档位取决于设备输出与图形驱动。
-- **Android 操作**：长按画面临时 2 倍速、松开恢复；提供 Android TV 启动入口、方向键焦点和大屏控制条。
+- **Android 操作**：长按画面临时 2 倍速，松开恢复。Android TV 支持方向键操作和大屏控制条。搜索页的「遥控器输入」支持离线拼音选字，也可以直接搜索拼音或首字母。
 
 原生版播放媒体直连或可静态提取的媒体地址；仅提供动态网页的来源会提示更换片源。来源响应、影片访问检查与实际完整播放是不同状态，列表中的测速表示目录接口响应速度。
 
@@ -31,7 +31,7 @@ Windows 原生版首次启动会释放并校验随包运行文件，无需安装
 | 版本 | 状态 | 界面与播放方式 | 源码 |
 |---|---|---|---|
 | Windows 原生 2.3.0 | 当前主线 | Flutter、libmpv | `native_windows_client/` + `native_windows_core/` |
-| Android 2.3.0 | 当前主线 | Flutter、JNI Go 后台、libmpv | `native_android_client/` + `native_android_core/` |
+| Android 2.3.2 | 当前主线 | Flutter、JNI Go 后台、libmpv | `native_android_client/` + `native_android_core/` |
 | Windows WebView 1.3.2 | 历史版本 | Win32 窗口、WebView2、网页播放器；需 Microsoft WebView2 Runtime | `current_source/` |
 | 原生 2.0.0 | 历史版本 | Flutter 与共享 Go 后台；含 Windows 2.0 冻结快照 | `native_client/` + `native_core/` |
 | Python 1.0 原型 | 历史源码 | Python 3.10+ 与已安装的 Edge / Chrome | `legacy_python/` |
@@ -52,7 +52,7 @@ docs/BUILD.md            工具要求、构建命令与自有 Android 签名
 
 从源码构建请阅读 [构建说明](docs/BUILD.md)。当前发布使用 Flutter 3.47.7、Dart 3.13.5、Go 1.27.2；Windows 还需 MSVC / Windows SDK，Android 还需 JDK 17、SDK 36 和 NDK 28.2。依赖版本记录在各项目的锁文件及第三方说明中。
 
-发布源码归档：[Windows](https://github.com/vict1238/YingXia/releases/download/v2.3.0/YingXia_v2.3.0_Native_Windows_Source.zip) · [Android](https://github.com/vict1238/YingXia/releases/download/v2.3.0/YingXia_v2.3.0_Android_Source.zip)。实际验证范围见 [Windows 2.3 记录](releases/YingXia_v2.3.0_Native_Windows_VALIDATION.json) 和 [Android 2.3 记录](releases/YingXia_v2.3.0_Android_VALIDATION.json)；其中模拟器验证不代表 Android ARM 真机、电视或特定 GPU 的持续性能。
+发布源码归档可从 [Windows 2.3.0](https://github.com/vict1238/YingXia/releases/download/v2.3.0/YingXia_v2.3.0_Native_Windows_Source.zip) 与 [Android 2.3.2](https://github.com/vict1238/YingXia/releases/tag/v2.3.2) 下载。验证范围见 [Windows 2.3.0 记录](releases/YingXia_v2.3.0_Native_Windows_VALIDATION.json) 和 [Android 2.3.2 说明](releases/YingXia_v2.3.2_Android_README_zh.md)。
 
 ## 来源配置更新
 

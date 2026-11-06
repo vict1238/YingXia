@@ -195,7 +195,12 @@ extension _PlaybackFeatures on _YingXiaHomeState {
   void _focusTvPage(int page) => _requestTvFocus(page, () {
     final previous = _tvAnchors[_tvReturnFilmAnchor];
     return switch (page) {
-      0 => [previous, _tvSearchFocus, _tvAnchors['nav-0']],
+      0 => [
+        previous,
+        _tvRemoteSearchFocus,
+        _tvSearchFocus,
+        _tvAnchors['nav-0'],
+      ],
       1 => [_selectedTvEpisode(), _tvAnchors['nav-1']],
       2 => [previous, _tvAnchors['nav-2']],
       _ => [_tvAnchors['nav-3']],

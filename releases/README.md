@@ -4,6 +4,8 @@
 
 | 版本 | 更新说明 | 下载 |
 |---|---|---|
+| v2.3.2 Android | [说明](YingXia_v2.3.2_Android_README_zh.md) | [附件](https://github.com/vict1238/YingXia/releases/tag/v2.3.2) |
+| v2.3.1 Android 电视测试版 | [说明](YingXia_v2.3.1_Android_README_zh.md) | [附件](https://github.com/vict1238/YingXia/releases/tag/v2.3.1) |
 | v2.3.0 | [说明](../docs/releases/v2.3.0.md) | [附件](https://github.com/vict1238/YingXia/releases/tag/v2.3.0) |
 | v2.2.0 | [说明](../docs/releases/v2.2.0.md) | [附件](https://github.com/vict1238/YingXia/releases/tag/v2.2.0) |
 | v2.1.0 | [说明](../docs/releases/v2.1.0.md) | [附件](https://github.com/vict1238/YingXia/releases/tag/v2.1.0) |

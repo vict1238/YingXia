@@ -1,6 +1,6 @@
 # 从源码构建映匣
 
-以下步骤对应当前 Windows 原生版和 Android 2.3.0。各客户端目录的 README 保留更详细的组件说明与历史记录，版本号和输出文件名以当前脚本为准。SDK、依赖缓存和 Android 签名材料由构建者在仓库外准备。
+以下步骤对应 Windows 原生版 2.3.0 和 Android 2.3.2。各客户端目录的 README 保留更详细的组件说明与历史记录，版本号和输出文件名以当前脚本为准。SDK、依赖缓存和 Android 签名材料由构建者在仓库外准备。
 
 ## 工具与依赖
 
@@ -110,7 +110,7 @@ Push-Location native_android_client
 Pop-Location
 ```
 
-脚本复制正式 AAR，并调用 `apksigner` 验证签名。候选输出为 `native_android_client/build/candidates/YingXia_v2.3.0_Android.apk`。示例采用脚本的 `-Online` 入口；首次构建需网络，离线构建须另行准备完整缓存并设置对应工具的离线选项。`-Fixture` 与 `-QaGpu` 供独立测试包使用，不用于正式交付。
+脚本复制正式 AAR，并调用 `apksigner` 验证签名。候选输出为 `native_android_client/build/candidates/YingXia_v2.3.2_Android.apk`，版本号取自 `pubspec.yaml`。示例采用脚本的 `-Online` 入口；首次构建需网络，离线构建须另行准备完整缓存并设置对应工具的离线选项。`-Fixture` 与 `-QaGpu` 供独立测试包使用，不用于正式交付。
 
 ## 检查与历史版本
 

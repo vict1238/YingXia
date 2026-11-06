@@ -1,0 +1,28 @@
+映匣：电视遥控器拼音字典 / YingXia TV Pinyin lookup data
+
+The bundled pinyin.json is modified and generated from these inputs:
+
+1. Rime pinyin-simp, Apache License 2.0, 0c6861ef7420ee780270ca6d993d18d4101049d0
+   https://github.com/rime/rime-pinyin-simp/tree/0c6861ef7420ee780270ca6d993d18d4101049d0
+   pinyin_simp.dict.yaml SHA-256: e341598343a0f0f2035bb1aafc34a7f3bb7887deeecb3f60796262aaa2983e6b
+   Upstream AUTHORS:
+Gong Chen <chen.sst@gmail.com> : (Apache License version 2.0)
+  pinyin_simp.schema.yaml
+
+Derived from Android Pinyin IME : (Apache License version 2.0)
+  pinyin_simp.dict.yaml
+
+2. go-pinyin v0.21.0, MIT, Copyright (c) 2016 mozillazg
+   https://github.com/mozillazg/go-pinyin/tree/v0.21.0
+   Input: native_android_core/vendor/github.com/mozillazg/go-pinyin/pinyin_dict.go
+   Input SHA-256 (as checked out): da42fc81436fa060084dc7d72b51f843854f1430c8d1b0afa8b0406b658b87e7
+
+Changes: invert character readings, remove tone marks, normalize ü to v,
+combine and rank pinyin lookup entries, and add a small project-maintained set
+of film-title spellings. The upstream source files are unmodified.
+
+To regenerate this asset, run native_android_client/tools/generate_tv_pinyin.py
+from the project checkout with Python 3. The script uses pinned, hash-verified
+upstream files; --rime-source supplies those same files for an offline build.
+
+Output pinyin.json SHA-256: 60af0ffb4b9342c1be218b7fe5cc09834fb4a95f4e3db7ae9c1b3aeafc204bfe

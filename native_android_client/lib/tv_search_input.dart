@@ -232,7 +232,7 @@ class _TvSearchInputState extends State<_TvSearchInput>
                   const SizedBox(width: 10),
                   Expanded(
                     child: Text(
-                      value.text.isEmpty ? '输入片名 / 拼音 / 首字母' : value.text,
+                      value.text.isEmpty ? '系统键盘' : value.text,
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                     ),

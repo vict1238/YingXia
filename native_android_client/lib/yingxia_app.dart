@@ -16,9 +16,11 @@ import 'playback_evidence.dart';
 import 'playback_session.dart';
 import 'player_controls.dart';
 import 'source_manager.dart';
+import 'tv_pinyin_dictionary.dart';
 import 'video_quality.dart';
 
 part 'playback_features.dart';
+part 'tv_fallback_keyboard.dart';
 part 'tv_search_input.dart';
 
 typedef Json = Map<String, dynamic>;
@@ -172,6 +174,8 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
   final GlobalKey<YingXiaPlayerControlsState> _inlinePlayerControlsKey =
       GlobalKey<YingXiaPlayerControlsState>();
   final FocusNode _tvSearchFocus = FocusNode(debugLabel: '电视搜索入口');
+  final FocusNode _tvRemoteSearchFocus = FocusNode(debugLabel: '遥控器输入');
+  bool _remoteSearchOpen = false;
   final FocusNode _tvPlayFocus = FocusNode(debugLabel: '电视播放所选集');
   final Map<String, FocusNode> _tvAnchors = {};
   int _tvFocusEpoch = 0;
@@ -282,6 +286,7 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
     _cancelAlternative();
     _query.removeListener(_scheduleSuggestions);
     _tvSearchFocus.dispose();
+    _tvRemoteSearchFocus.dispose();
     _tvPlayFocus.dispose();
     _controlsRevision.dispose();
     _query.dispose();
@@ -541,7 +546,14 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
             _page == 0 &&
             tvPageEpoch == _tvFocusEpoch &&
             valueText(_searchResult?['phase']) == 'done') {
-          _requestTvFocus(0, () => [_firstTvSearchResult(), _tvSearchFocus]);
+          _requestTvFocus(
+            0,
+            () => [
+              _firstTvSearchResult(),
+              _tvRemoteSearchFocus,
+              _tvSearchFocus,
+            ],
+          );
         }
       }
     }
@@ -1590,10 +1602,66 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
     ),
   );
 
+  Future<void> _openRemoteSearch() async {
+    if (_remoteSearchOpen) return;
+    _remoteSearchOpen = true;
+    final insets = MediaQuery.viewInsetsOf(context);
+    if (insets != EdgeInsets.zero) {
+      FocusManager.instance.primaryFocus?.unfocus();
+      unawaited(
+        SystemChannels.textInput
+            .invokeMethod<void>('TextInput.hide')
+            .catchError((_) {}),
+      );
+    }
+    String? text;
+    try {
+      text = await showTvFallbackKeyboard(context, initialText: _query.text);
+    } finally {
+      _remoteSearchOpen = false;
+    }
+    if (!mounted || _page != 0) return;
+    if (_tvEnabled) {
+      _requestTvFocus(0, () => [_tvRemoteSearchFocus]);
+    } else if (_tvRemoteSearchFocus.context?.mounted == true) {
+      _tvRemoteSearchFocus.requestFocus();
+    }
+    if (text != null) {
+      _query.value = TextEditingValue(
+        text: text,
+        selection: TextSelection.collapsed(offset: text.length),
+      );
+      await _search();
+    }
+  }
+
+  Widget _remoteSearchEntry({required bool landscape}) => Shortcuts(
+    shortcuts: const {
+      SingleActivator(LogicalKeyboardKey.select, includeRepeats: false):
+          ActivateIntent(),
+      SingleActivator(LogicalKeyboardKey.enter, includeRepeats: false):
+          ActivateIntent(),
+      SingleActivator(LogicalKeyboardKey.numpadEnter, includeRepeats: false):
+          ActivateIntent(),
+      SingleActivator(LogicalKeyboardKey.gameButtonA, includeRepeats: false):
+          ActivateIntent(),
+    },
+    child: FilledButton.tonalIcon(
+      key: const Key('search-remote-entry'),
+      focusNode: _tvRemoteSearchFocus,
+      autofocus: !_tvEnabled && landscape,
+      onPressed: _searching ? null : _openRemoteSearch,
+      icon: const Icon(Icons.keyboard_outlined),
+      label: const Text('遥控器输入'),
+    ),
+  );
+
   Widget _searchPage(bool desktop) {
     final result = _searchResult;
     final items = asRows(result?['items']);
     final phase = valueText(result?['phase']);
+    final landscape =
+        MediaQuery.orientationOf(context) == Orientation.landscape;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
@@ -1614,6 +1682,13 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
               fontWeight: FontWeight.w600,
               letterSpacing: 1,
             ),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 10),
+          child: Align(
+            alignment: Alignment.centerLeft,
+            child: _remoteSearchEntry(landscape: landscape),
           ),
         ),
         Container(
