@@ -1,35 +1,214 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 part of 'yingxia_app.dart';
 
+class _TvFocusAnchor extends StatefulWidget {
+  const _TvFocusAnchor({
+    super.key,
+    required this.name,
+    required this.anchors,
+    required this.builder,
+  });
+
+  final String name;
+  final Map<String, FocusNode> anchors;
+  final Widget Function(FocusNode) builder;
+
+  @override
+  State<_TvFocusAnchor> createState() => _TvFocusAnchorState();
+}
+
+class _TvFocusAnchorState extends State<_TvFocusAnchor> {
+  late final FocusNode _node = FocusNode(debugLabel: widget.name);
+
+  @override
+  void initState() {
+    super.initState();
+    widget.anchors[widget.name] = _node;
+  }
+
+  @override
+  void dispose() {
+    if (identical(widget.anchors[widget.name], _node)) {
+      widget.anchors.remove(widget.name);
+    }
+    _node.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) => ListenableBuilder(
+    listenable: _node,
+    child: widget.builder(_node),
+    builder:
+        (_, child) => DecoratedBox(
+          position: DecorationPosition.foreground,
+          decoration: BoxDecoration(
+            border: Border.all(
+              color:
+                  _node.hasPrimaryFocus
+                      ? const Color(0xffd5fff0)
+                      : Colors.transparent,
+              width: 2,
+            ),
+            borderRadius: BorderRadius.circular(10),
+          ),
+          child: child,
+        ),
+  );
+}
+
 extension _PlaybackFeatures on _YingXiaHomeState {
   Widget _displayShell(Widget child) {
-    if (!_backend.isAndroidTv) return FocusTraversalGroup(child: child);
+    if (!_tvEnabled) return FocusTraversalGroup(child: child);
     final theme = Theme.of(context);
+    final focusFill = WidgetStateProperty.resolveWith<Color?>(
+      (states) =>
+          states.contains(WidgetState.focused) ? const Color(0x5489ddbd) : null,
+    );
+    final focusSide = WidgetStateProperty.resolveWith<BorderSide?>(
+      (states) =>
+          states.contains(WidgetState.focused)
+              ? const BorderSide(color: Color(0xffd5fff0), width: 2)
+              : null,
+    );
     return MediaQuery(
       data: MediaQuery.of(
         context,
       ).copyWith(textScaler: const TextScaler.linear(1.25)),
       child: Theme(
         data: theme.copyWith(
+          focusColor: const Color(0x5489ddbd),
           filledButtonTheme: FilledButtonThemeData(
             style: theme.filledButtonTheme.style?.copyWith(
-              minimumSize: const WidgetStatePropertyAll(Size(88, 52)),
+              minimumSize: const WidgetStatePropertyAll(Size(88, 48)),
+              overlayColor: focusFill,
+              side: focusSide,
             ),
           ),
           outlinedButtonTheme: OutlinedButtonThemeData(
             style: theme.outlinedButtonTheme.style?.copyWith(
-              minimumSize: const WidgetStatePropertyAll(Size(80, 52)),
+              minimumSize: const WidgetStatePropertyAll(Size(80, 48)),
+              overlayColor: focusFill,
+              side: WidgetStateProperty.resolveWith(
+                (states) =>
+                    focusSide.resolve(states) ??
+                    theme.outlinedButtonTheme.style?.side?.resolve(states),
+              ),
             ),
           ),
-          iconButtonTheme: const IconButtonThemeData(
+          textButtonTheme: TextButtonThemeData(
             style: ButtonStyle(
-              minimumSize: WidgetStatePropertyAll(Size(48, 48)),
+              minimumSize: const WidgetStatePropertyAll(Size(48, 48)),
+              overlayColor: focusFill,
+              side: focusSide,
+            ),
+          ),
+          iconButtonTheme: IconButtonThemeData(
+            style: ButtonStyle(
+              minimumSize: const WidgetStatePropertyAll(Size(48, 48)),
+              overlayColor: focusFill,
+              side: focusSide,
             ),
           ),
         ),
         child: FocusTraversalGroup(child: child),
       ),
     );
+  }
+
+  EdgeInsets _tvSafeEdges(Size viewport) => EdgeInsets.symmetric(
+    horizontal: viewport.width * .05,
+    vertical: viewport.height * .05,
+  );
+
+  Widget _tvAnchor(String name, Widget Function(FocusNode?) build) =>
+      _tvEnabled
+          ? _TvFocusAnchor(
+            key: ValueKey('tv-anchor:$name'),
+            name: name,
+            anchors: _tvAnchors,
+            builder: build,
+          )
+          : build(null);
+
+  String _tvFilmAnchor(Json film, {required bool library}) =>
+      '${library ? 'favorite' : 'result'}:${valueText(film['id'])}';
+
+  String _tvHistoryAnchor(Json entry) =>
+      'history:${valueText(entry['id'] ?? entry['film_id'])}';
+
+  String _tvEpisodeAnchor(Json episode) =>
+      'episode:${valueText(episode['key'])}';
+
+  FocusNode? _firstTvSearchResult() {
+    for (final film in asRows(_searchResult?['items'])) {
+      if (asJson(film['availability'])['state'] != 'pending') {
+        return _tvAnchors[_tvFilmAnchor(film, library: false)];
+      }
+    }
+    return null;
+  }
+
+  FocusNode? _selectedTvEpisode() =>
+      _episode == null ? null : _tvAnchors[_tvEpisodeAnchor(_episode!)];
+
+  void _requestTvFocus(int page, List<FocusNode?> Function() options) {
+    final epoch = ++_tvFocusEpoch;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted ||
+          !_tvEnabled ||
+          _page != page ||
+          epoch != _tvFocusEpoch ||
+          ModalRoute.of(context)?.isCurrent == false) {
+        return;
+      }
+      for (final node in options()) {
+        final target = node?.context;
+        if (node == null ||
+            target == null ||
+            !target.mounted ||
+            !node.canRequestFocus) {
+          continue;
+        }
+        node.requestFocus();
+        // Reveal an off-screen item without recentering items that are already
+        // visible. Recentring an episode can unnecessarily scroll the video
+        // above the toolbar on a 960×540 logical TV viewport.
+        unawaited(
+          Scrollable.ensureVisible(
+            target,
+            alignmentPolicy: ScrollPositionAlignmentPolicy.keepVisibleAtEnd,
+          ),
+        );
+        unawaited(
+          Scrollable.ensureVisible(
+            target,
+            alignmentPolicy: ScrollPositionAlignmentPolicy.keepVisibleAtStart,
+          ),
+        );
+        return;
+      }
+    });
+    WidgetsBinding.instance.ensureVisualUpdate();
+  }
+
+  void _focusTvPage(int page) => _requestTvFocus(page, () {
+    final previous = _tvAnchors[_tvReturnFilmAnchor];
+    return switch (page) {
+      0 => [previous, _tvSearchFocus, _tvAnchors['nav-0']],
+      1 => [_selectedTvEpisode(), _tvAnchors['nav-1']],
+      2 => [previous, _tvAnchors['nav-2']],
+      _ => [_tvAnchors['nav-3']],
+    };
+  });
+
+  void _backFromTvPage() {
+    if (!mounted || !_tvEnabled || _page == 0) return;
+    if (_page == 1 &&
+        _inlinePlayerControlsKey.currentState?.closeSettings() == true) {
+      return;
+    }
+    _navigate(_page == 1 ? _tvPlaybackReturnPage : 0);
   }
 
   String _clockLabel(dynamic seconds) {

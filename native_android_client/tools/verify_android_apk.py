@@ -20,7 +20,7 @@ def sha(data): return hashlib.sha256(data).hexdigest()
 def run(*args):
     return subprocess.run([str(x) for x in args], capture_output=True, check=True).stdout.decode('utf-8', 'replace')
 
-def verify(apk: Path, fixture=False):
+def verify(apk: Path, fixture=False, version_name='2.3.0', version_code=20300):
     sdk = Path(os.environ.get('ANDROID_HOME', ROOT / '.tools/native/android_sdk'))
     jdk = Path(os.environ.get('JAVA_HOME', ROOT / '.tools/native/jdk/jdk-17.0.20.1+1'))
     badging = run(sdk/'build-tools/36.0.0/aapt2.exe', 'dump', 'badging', apk)
@@ -29,11 +29,11 @@ def verify(apk: Path, fixture=False):
     assert certificate == CERTIFICATE, 'APK has a different signing certificate from Android 2.0'
     assert 'Verified using v2 scheme (APK Signature Scheme v2): true' in certs
     package = 'com.yingxia.yingxia_native' + ('.fixture' if fixture else '')
-    assert f"name='{package}' versionCode='20300' versionName='2.3.0'" in badging
+    assert f"name='{package}' versionCode='{version_code}' versionName='{version_name}'" in badging
     assert "minSdkVersion:'26'" in badging and "targetSdkVersion:'36'" in badging
     assert 'application-debuggable' not in badging
     aar = ROOT/'native_android_core/build'/('yingxia_core_fixture.aar' if fixture else 'yingxia_core.aar')
-    record = {'apk': apk.relative_to(ROOT).as_posix(), 'bytes': apk.stat().st_size, 'sha256': sha(apk.read_bytes()), 'package': package, 'version_name': '2.3.0', 'version_code': 20300, 'min_sdk': 26, 'target_sdk': 36, 'release_aot': True, 'debuggable': False, 'certificate_sha256': certificate, 'fixture': fixture, 'aar_sha256': sha(aar.read_bytes()), 'go_jni_matches_aar_after_ndk_strip': True, 'jni_normalization': 'NDK 28.2.13676358 llvm-strip --strip-unneeded', 'permissions': re.findall(r"uses-permission: name='([^']+)'", badging), 'libraries': []}
+    record = {'apk': apk.relative_to(ROOT).as_posix() if apk.is_relative_to(ROOT) else apk.name, 'bytes': apk.stat().st_size, 'sha256': sha(apk.read_bytes()), 'package': package, 'version_name': version_name, 'version_code': version_code, 'min_sdk': 26, 'target_sdk': 36, 'release_aot': True, 'debuggable': False, 'certificate_sha256': certificate, 'fixture': fixture, 'aar_sha256': sha(aar.read_bytes()), 'go_jni_matches_aar_after_ndk_strip': True, 'jni_normalization': 'NDK 28.2.13676358 llvm-strip --strip-unneeded', 'permissions': re.findall(r"uses-permission: name='([^']+)'", badging), 'libraries': []}
     with zipfile.ZipFile(apk) as archive, zipfile.ZipFile(aar) as backend:
         assert archive.testzip() is None
         assert {p.split('/')[1] for p in archive.namelist() if p.startswith('lib/')} == ABIS
@@ -64,9 +64,11 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('apk', type=Path)
     parser.add_argument('--fixture', action='store_true')
+    parser.add_argument('--version-name', default='2.3.0')
+    parser.add_argument('--version-code', type=int, default=20300)
     parser.add_argument('--output', type=Path, required=True)
     args = parser.parse_args()
-    record = verify(args.apk.resolve(), args.fixture)
+    record = verify(args.apk.resolve(), args.fixture, args.version_name, args.version_code)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(record, ensure_ascii=False, indent=2), encoding='utf-8')
     print(json.dumps({k: v for k, v in record.items() if k != 'libraries'}, ensure_ascii=False))

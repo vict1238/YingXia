@@ -19,6 +19,7 @@ import 'source_manager.dart';
 import 'video_quality.dart';
 
 part 'playback_features.dart';
+part 'tv_search_input.dart';
 
 typedef Json = Map<String, dynamic>;
 
@@ -168,6 +169,14 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
   final TextEditingController _query = TextEditingController();
   final TextEditingController _bindingUrl = TextEditingController();
   final GlobalKey<VideoState> _videoKey = GlobalKey<VideoState>();
+  final GlobalKey<YingXiaPlayerControlsState> _inlinePlayerControlsKey =
+      GlobalKey<YingXiaPlayerControlsState>();
+  final FocusNode _tvSearchFocus = FocusNode(debugLabel: '电视搜索入口');
+  final FocusNode _tvPlayFocus = FocusNode(debugLabel: '电视播放所选集');
+  final Map<String, FocusNode> _tvAnchors = {};
+  int _tvFocusEpoch = 0;
+  int _tvPlaybackReturnPage = 0;
+  String? _tvReturnFilmAnchor;
   final ValueNotifier<int> _controlsRevision = ValueNotifier(0);
   final List<StreamSubscription<dynamic>> _playerSubscriptions = [];
   Timer? _ping;
@@ -177,6 +186,7 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
   bool _starting = false;
   bool _consentOpen = false;
   int _page = 0;
+  bool get _tvEnabled => _backend.isAndroidTv;
   String _searchMode = 'all';
   Json? _searchResult;
   bool _searching = false;
@@ -271,6 +281,8 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
     ++_suggestSequence;
     _cancelAlternative();
     _query.removeListener(_scheduleSuggestions);
+    _tvSearchFocus.dispose();
+    _tvPlayFocus.dispose();
     _controlsRevision.dispose();
     _query.dispose();
     _bindingUrl.dispose();
@@ -341,6 +353,7 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
       final config = asJson(await _backend.get('state'));
       if (!mounted) return;
       _applyConfig(config);
+      if (_tvEnabled) _focusTvPage(_page);
       _qualityPreferences ??=
           widget.qualityPreferences ??
           VideoQualityPreferences(valueText(config['data_dir']));
@@ -453,6 +466,7 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
     _changed(() => _page = page);
     if (page == 2) unawaited(_loadLibrary());
     if (page == 3) unawaited(_refreshConfig());
+    if (_tvEnabled) _focusTvPage(page);
   }
 
   Future<void> _search() async {
@@ -466,6 +480,8 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
     }
     if (!await _ensureNetwork() || !mounted) return;
     final sequence = ++_searchSequence;
+    final tvPageEpoch = _tvFocusEpoch;
+    if (_tvEnabled) _tvReturnFilmAnchor = null;
     final mode = _searchMode;
     _changed(() {
       _searching = true;
@@ -521,6 +537,12 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
           _searching = false;
           _searchId = null;
         });
+        if (_tvEnabled &&
+            _page == 0 &&
+            tvPageEpoch == _tvFocusEpoch &&
+            valueText(_searchResult?['phase']) == 'done') {
+          _requestTvFocus(0, () => [_firstTvSearchResult(), _tvSearchFocus]);
+        }
       }
     }
   }
@@ -547,7 +569,15 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
     bool resumeLast = false,
   }) async {
     final sequence = ++_detailSequence;
+    if (_tvEnabled && _page != 1) {
+      _tvPlaybackReturnPage = _page;
+      _tvReturnFilmAnchor =
+          history != null
+              ? _tvHistoryAnchor(history)
+              : _tvFilmAnchor(item, library: _page == 2);
+    }
     _navigate(1);
+    final tvPageEpoch = _tvFocusEpoch;
     await _stopPlayer();
     await _progressTail;
     if (!mounted || sequence != _detailSequence) return;
@@ -622,6 +652,12 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
                 ? '未找到原记录中的集数，请重新选择'
                 : '';
       });
+      if (_tvEnabled &&
+          _page == 1 &&
+          tvPageEpoch == _tvFocusEpoch &&
+          (history == null && !resumeLast)) {
+        _requestTvFocus(1, () => [_selectedTvEpisode(), _tvPlayFocus]);
+      }
       await _loadBinding();
       if ((history != null || resumeLast) &&
           mounted &&
@@ -1103,23 +1139,47 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
             return Stack(
               children: [
                 Positioned.fill(
-                  child: YingXiaPlayerControls(
-                    player: _player!,
-                    videoState: state,
-                    requestedQuality: _qualityRequested,
-                    effectiveQuality: _quality?.effective ?? _qualityRequested,
-                    onQualityChanged: _selectQuality,
-                    onRateChanged: _setPlaybackRate,
-                    onPlayOrPause: _explicitPlayOrPause,
-                    onTemporaryRateChanged: _setTemporaryFastForward,
-                    enableLongPress: Platform.isAndroid,
-                    autofocus: _backend.isAndroidTv,
-                    cacheDescription: _cacheMode.label,
-                    onCacheSettings: _showPlaybackSettings,
+                  child: Padding(
+                    padding:
+                        _tvEnabled && fullscreen
+                            ? _tvSafeEdges(constraints.biggest)
+                            : EdgeInsets.zero,
+                    child: YingXiaPlayerControls(
+                      key: fullscreen ? null : _inlinePlayerControlsKey,
+                      player: _player!,
+                      videoState: state,
+                      requestedQuality: _qualityRequested,
+                      effectiveQuality:
+                          _quality?.effective ?? _qualityRequested,
+                      onQualityChanged: _selectQuality,
+                      onRateChanged: _setPlaybackRate,
+                      onPlayOrPause: _explicitPlayOrPause,
+                      onTemporaryRateChanged: _setTemporaryFastForward,
+                      enableLongPress: Platform.isAndroid,
+                      autofocus: _tvEnabled,
+                      tvMode: _tvEnabled,
+                      onTvBack: _backFromTvPage,
+                      cacheDescription: _cacheMode.label,
+                      onCacheSettings: _showPlaybackSettings,
+                    ),
                   ),
                 ),
                 if (_showStallPrompt)
-                  Positioned(left: 8, right: 8, top: 8, child: _stallBanner()),
+                  Positioned(
+                    left:
+                        _tvEnabled && fullscreen
+                            ? constraints.maxWidth * .05
+                            : 8,
+                    right:
+                        _tvEnabled && fullscreen
+                            ? constraints.maxWidth * .05
+                            : 8,
+                    top:
+                        _tvEnabled && fullscreen
+                            ? constraints.maxHeight * .05
+                            : 8,
+                    child: _stallBanner(),
+                  ),
               ],
             );
           },
@@ -1285,31 +1345,60 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
   Widget build(BuildContext context) => _displayShell(
     LayoutBuilder(
       builder: (context, constraints) {
+        // The TV rail stays mounted while an input method changes insets.
         final desktop =
-            constraints.maxWidth >= 800 && constraints.maxHeight >= 500;
+            _tvEnabled ||
+            (constraints.maxWidth >= 800 && constraints.maxHeight >= 500);
+        final tvEdges =
+            _tvEnabled
+                ? _tvSafeEdges(MediaQuery.sizeOf(context))
+                : EdgeInsets.zero;
+        final editing = MediaQuery.viewInsetsOf(context).bottom > 0;
         return PopScope(
           canPop: _page == 0,
           onPopInvokedWithResult: (didPop, result) {
-            if (!didPop) _navigate(0);
+            if (didPop || _page == 0) return;
+            if (_tvEnabled) {
+              _backFromTvPage();
+            } else {
+              _navigate(0);
+            }
           },
           child: Scaffold(
             body: SafeArea(
-              child: Row(
-                children: [
-                  if (desktop)
-                    _sidebar(constraints.maxWidth > 1100 ? 204 : 170),
-                  Expanded(
-                    child: Column(
-                      children: [
-                        _topbar(desktop),
-                        Expanded(
-                          child:
-                              _config == null ? _startup() : _content(desktop),
-                        ),
-                      ],
+              child: Padding(
+                key: _tvEnabled ? const ValueKey('tv-safe-content') : null,
+                padding:
+                    editing && _tvEnabled
+                        ? EdgeInsets.fromLTRB(tvEdges.left, 0, tvEdges.right, 0)
+                        : tvEdges,
+                child: Row(
+                  children: [
+                    if (desktop)
+                      _sidebar(
+                        _tvEnabled
+                            ? constraints.maxWidth >= 1200
+                                ? 214
+                                : 188
+                            : constraints.maxWidth > 1100
+                            ? 204
+                            : 170,
+                      ),
+                    Expanded(
+                      child: Column(
+                        children: [
+                          _topbar(desktop),
+                          Expanded(
+                            child:
+                                _config == null
+                                    ? _startup()
+                                    : _content(desktop),
+                          ),
+                        ],
+                      ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
             bottomNavigationBar:
@@ -1338,73 +1427,93 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
 
   Widget _sidebar(double width) => Container(
     width: width,
+    height: double.infinity,
     decoration: const BoxDecoration(
       color: sidebar,
       border: Border(right: BorderSide(color: border)),
     ),
-    padding: const EdgeInsets.fromLTRB(18, 33, 18, 24),
-    child: Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: [
-        InkWell(
-          onTap: () => _navigate(0),
-          child: const Padding(
-            padding: EdgeInsets.symmetric(horizontal: 10),
-            child: _Brand(),
+    padding:
+        _tvEnabled
+            ? const EdgeInsets.fromLTRB(13, 18, 13, 14)
+            : const EdgeInsets.fromLTRB(18, 33, 18, 24),
+    child: SingleChildScrollView(
+      primary: false,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          ExcludeFocus(
+            excluding: _tvEnabled,
+            child: InkWell(
+              onTap: () => _navigate(0),
+              child: const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 10),
+                child: _Brand(),
+              ),
+            ),
           ),
-        ),
-        const SizedBox(height: 47),
-        for (var i = 0; i < pageNames.length; i++)
-          Padding(
-            padding: const EdgeInsets.only(bottom: 7),
-            child: Material(
-              color: _page == i ? const Color(0xff1d342c) : Colors.transparent,
-              borderRadius: BorderRadius.circular(10),
-              child: Semantics(
-                label: pageNames[i],
-                button: true,
-                selected: _page == i,
-                excludeSemantics: true,
-                onTap: () => _navigate(i),
-                child: InkWell(
-                  key: Key('nav-$i'),
-                  borderRadius: BorderRadius.circular(10),
+          SizedBox(height: _tvEnabled ? 26 : 47),
+          for (var i = 0; i < pageNames.length; i++)
+            Padding(
+              padding: const EdgeInsets.only(bottom: 7),
+              child: Material(
+                color:
+                    _page == i ? const Color(0xff1d342c) : Colors.transparent,
+                borderRadius: BorderRadius.circular(10),
+                child: Semantics(
+                  label: pageNames[i],
+                  button: true,
+                  selected: _page == i,
+                  excludeSemantics: true,
                   onTap: () => _navigate(i),
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 13,
-                      vertical: 13,
-                    ),
-                    child: Row(
-                      children: [
-                        Icon(
-                          pageIcons[i],
-                          size: 23,
-                          color: _page == i ? accent : muted,
+                  child: _tvAnchor(
+                    'nav-$i',
+                    (focus) => InkWell(
+                      key: Key('nav-$i'),
+                      focusNode: focus,
+                      borderRadius: BorderRadius.circular(10),
+                      onTap: () => _navigate(i),
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 13,
+                          vertical: 13,
                         ),
-                        const SizedBox(width: 12),
-                        Flexible(
-                          child: Text(
-                            pageNames[i],
-                            style: TextStyle(
-                              fontSize: 13,
+                        child: Row(
+                          children: [
+                            Icon(
+                              pageIcons[i],
+                              size: 23,
                               color: _page == i ? accent : muted,
                             ),
-                          ),
+                            const SizedBox(width: 12),
+                            Flexible(
+                              child: Text(
+                                pageNames[i],
+                                style: TextStyle(
+                                  fontSize: _tvEnabled ? 15 : 13,
+                                  color: _page == i ? accent : muted,
+                                ),
+                              ),
+                            ),
+                          ],
                         ),
-                      ],
+                      ),
                     ),
                   ),
                 ),
               ),
             ),
-          ),
-      ],
+        ],
+      ),
     ),
   );
 
   Widget _topbar(bool desktop) => Container(
-    height: desktop ? 73 : 58,
+    height:
+        _tvEnabled
+            ? 55
+            : desktop
+            ? 73
+            : 58,
     decoration: const BoxDecoration(
       border: Border(bottom: BorderSide(color: border)),
     ),
@@ -1420,7 +1529,7 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
         ],
         Text(
           pageNames[_page],
-          style: const TextStyle(fontSize: 12, color: muted),
+          style: TextStyle(fontSize: _tvEnabled ? 15 : 12, color: muted),
         ),
       ],
     ),
@@ -1447,12 +1556,25 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
   );
 
   Widget _content(bool desktop) => SingleChildScrollView(
-    key: ValueKey('page-$_page'),
+    key:
+        _tvEnabled ? PageStorageKey('tv-page-$_page') : ValueKey('page-$_page'),
     padding: EdgeInsets.fromLTRB(
-      desktop ? 38 : 16,
-      desktop ? 34 : 24,
-      desktop ? 38 : 16,
-      36,
+      _tvEnabled
+          ? 20
+          : desktop
+          ? 38
+          : 16,
+      _tvEnabled
+          ? 16
+          : desktop
+          ? 34
+          : 24,
+      _tvEnabled
+          ? 20
+          : desktop
+          ? 38
+          : 16,
+      _tvEnabled ? 20 : 36,
     ),
     child: Align(
       alignment: Alignment.topCenter,
@@ -1476,11 +1598,19 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         Padding(
-          padding: const EdgeInsets.only(top: 16, bottom: 30),
+          padding: EdgeInsets.only(
+            top: _tvEnabled ? 5 : 16,
+            bottom: _tvEnabled ? 16 : 30,
+          ),
           child: Text(
             '想看什么？',
             style: TextStyle(
-              fontSize: desktop ? 40 : 32,
+              fontSize:
+                  _tvEnabled
+                      ? 32
+                      : desktop
+                      ? 40
+                      : 32,
               fontWeight: FontWeight.w600,
               letterSpacing: 1,
             ),
@@ -1496,32 +1626,41 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
           child: LayoutBuilder(
             builder: (_, constraints) {
               final narrow = constraints.maxWidth < 560;
-              final query = Semantics(
-                label: '搜索片名',
-                child: TextField(
-                  key: const Key('search-query'),
-                  controller: _query,
-                  maxLength: 120,
-                  textInputAction: TextInputAction.search,
-                  onSubmitted: (_) {
-                    if (!_searching) _search();
-                  },
-                  style: const TextStyle(fontSize: 15),
-                  decoration: const InputDecoration(
-                    hintText: '片名 / 拼音 / 首字母',
-                    prefixIcon: Icon(
-                      Icons.search_rounded,
-                      color: accent,
-                      size: 25,
-                    ),
-                    counterText: '',
-                    filled: false,
-                    border: InputBorder.none,
-                    enabledBorder: InputBorder.none,
-                    focusedBorder: InputBorder.none,
-                  ),
-                ),
-              );
+              final query =
+                  _tvEnabled
+                      ? _TvSearchInput(
+                        controller: _query,
+                        focusNode: _tvSearchFocus,
+                        onSubmitted: (_) {
+                          if (!_searching) _search();
+                        },
+                      )
+                      : Semantics(
+                        label: '搜索片名',
+                        child: TextField(
+                          key: const Key('search-query'),
+                          controller: _query,
+                          maxLength: 120,
+                          textInputAction: TextInputAction.search,
+                          onSubmitted: (_) {
+                            if (!_searching) _search();
+                          },
+                          style: const TextStyle(fontSize: 15),
+                          decoration: const InputDecoration(
+                            hintText: '片名 / 拼音 / 首字母',
+                            prefixIcon: Icon(
+                              Icons.search_rounded,
+                              color: accent,
+                              size: 25,
+                            ),
+                            counterText: '',
+                            filled: false,
+                            border: InputBorder.none,
+                            enabledBorder: InputBorder.none,
+                            focusedBorder: InputBorder.none,
+                          ),
+                        ),
+                      );
               final mode = Semantics(
                 label: '搜索来源',
                 child: _dropdown(
@@ -1530,10 +1669,14 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
                   (value) => _changed(() => _searchMode = value),
                 ),
               );
-              final button = FilledButton(
-                key: const Key('search-submit'),
-                onPressed: _searching ? null : _search,
-                child: Text(_searching ? '搜索中…' : '搜索'),
+              final button = _tvAnchor(
+                'search-submit',
+                (focus) => FilledButton(
+                  key: const Key('search-submit'),
+                  focusNode: focus,
+                  onPressed: _searching ? null : _search,
+                  child: Text(_searching ? '搜索中…' : '搜索'),
+                ),
               );
               if (narrow) {
                 return Column(
@@ -1690,7 +1833,11 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
       LayoutBuilder(
         builder: (_, constraints) {
           final count =
-              desktop ? (constraints.maxWidth / 218).floor().clamp(2, 6) : 2;
+              _tvEnabled
+                  ? (constraints.maxWidth / 195).floor().clamp(2, 4)
+                  : desktop
+                  ? (constraints.maxWidth / 218).floor().clamp(2, 6)
+                  : 2;
           final width = (constraints.maxWidth - (count - 1) * 18) / count;
           return Wrap(
             spacing: 18,
@@ -1698,11 +1845,22 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
             children: [
               for (var i = 0; i < items.length; i++)
                 SizedBox(
+                  key:
+                      _tvEnabled
+                          ? ValueKey(
+                            _tvFilmAnchor(items[i], library: resumeLast),
+                          )
+                          : null,
                   width: width,
-                  child: _FilmCard(
-                    film: items[i],
-                    index: i,
-                    onOpen: () => _openFilm(items[i], resumeLast: resumeLast),
+                  child: _tvAnchor(
+                    _tvFilmAnchor(items[i], library: resumeLast),
+                    (focus) => _FilmCard(
+                      film: items[i],
+                      index: i,
+                      focusNode: focus,
+                      tvMode: _tvEnabled,
+                      onOpen: () => _openFilm(items[i], resumeLast: resumeLast),
+                    ),
                   ),
                 ),
             ],
@@ -1761,7 +1919,7 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
           ),
         LayoutBuilder(
           builder: (_, constraints) {
-            final wide = constraints.maxWidth >= 710;
+            final wide = constraints.maxWidth >= (_tvEnabled ? 585 : 710);
             if (wide) {
               return Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -1769,7 +1927,12 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
                   Expanded(child: _playerColumn()),
                   const SizedBox(width: 23),
                   SizedBox(
-                    width: constraints.maxWidth >= 900 ? 270 : 220,
+                    width:
+                        _tvEnabled
+                            ? (constraints.maxWidth * .35).clamp(200.0, 325.0)
+                            : constraints.maxWidth >= 900
+                            ? 270
+                            : 220,
                     child: _episodePanel(),
                   ),
                 ],
@@ -1954,11 +2117,12 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
                 onPressed: index <= 0 ? null : () => _stepEpisode(-1),
                 child: const Text('上一集'),
               ),
-              FilledButton(
-                key: const Key('play-selected'),
-                onPressed: _episode == null || _playLoading ? null : _play,
-                child: Text(_playLoading ? '加载中…' : '▷ 播放所选集'),
-              ),
+              if (!_tvEnabled)
+                FilledButton(
+                  key: const Key('play-selected'),
+                  onPressed: _episode == null || _playLoading ? null : _play,
+                  child: Text(_playLoading ? '加载中…' : '▷ 播放所选集'),
+                ),
               OutlinedButton(
                 onPressed:
                     index < 0 || index >= episodes.length - 1
@@ -2134,8 +2298,17 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
         const SizedBox(height: 12),
         Text(
           _episode == null ? '请选择集数' : '已选：${episodeName(_episode!['name'])}',
-          style: const TextStyle(fontSize: 12, color: muted),
+          style: TextStyle(fontSize: _tvEnabled ? 15 : 12, color: muted),
         ),
+        if (_tvEnabled) ...[
+          const SizedBox(height: 10),
+          FilledButton(
+            key: const Key('play-selected'),
+            focusNode: _tvPlayFocus,
+            onPressed: _episode == null || _playLoading ? null : _play,
+            child: Text(_playLoading ? '加载中…' : '▷ 播放所选集'),
+          ),
+        ],
         const SizedBox(height: 15),
         ConstrainedBox(
           constraints: const BoxConstraints(maxHeight: 290),
@@ -2143,7 +2316,9 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
             child: LayoutBuilder(
               builder: (_, constraints) {
                 final columns =
-                    constraints.maxWidth > 450
+                    _tvEnabled
+                        ? (constraints.maxWidth >= 252 ? 3 : 2)
+                        : constraints.maxWidth > 450
                         ? 6
                         : constraints.maxWidth > 260
                         ? 4
@@ -2156,18 +2331,30 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
                   children: [
                     for (final episode in _episodes)
                       SizedBox(
+                        key:
+                            _tvEnabled
+                                ? ValueKey(_tvEpisodeAnchor(episode))
+                                : null,
                         width: width,
-                        child: _EpisodeButton(
-                          name: episodeName(episode['name']),
-                          selected: _episode?['key'] == episode['key'],
-                          onPressed: () {
-                            _pausePlayer();
-                            _changed(() {
-                              _episode = episode;
-                              _resumePosition = Duration.zero;
-                            });
-                            _loadBinding();
-                          },
+                        child: _tvAnchor(
+                          _tvEpisodeAnchor(episode),
+                          (focus) => _EpisodeButton(
+                            name: episodeName(episode['name']),
+                            selected: _episode?['key'] == episode['key'],
+                            focusNode: focus,
+                            tvMode: _tvEnabled,
+                            onPressed: () {
+                              _pausePlayer();
+                              _changed(() {
+                                _episode = episode;
+                                _resumePosition = Duration.zero;
+                              });
+                              _loadBinding();
+                              if (_tvEnabled) {
+                                _requestTvFocus(1, () => [_tvPlayFocus]);
+                              }
+                            },
+                          ),
                         ),
                       ),
                   ],
@@ -2244,6 +2431,8 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
       ),
       if (_history.isEmpty)
         _empty('暂无记录', key: const Key('empty-history'))
+      else if (_tvEnabled)
+        _tvHistoryRows()
       else
         _table(
           ['作品 / 集数', '实际来源', '状态 / 时间', '操作'],
@@ -2301,6 +2490,55 @@ class _YingXiaHomeState extends State<YingXiaHome> with WidgetsBindingObserver {
               ),
             ];
           }).toList(),
+        ),
+    ],
+  );
+
+  Widget _tvHistoryRows() => Column(
+    crossAxisAlignment: CrossAxisAlignment.stretch,
+    children: [
+      for (final entry in _history)
+        Padding(
+          key: ValueKey(_tvHistoryAnchor(entry)),
+          padding: const EdgeInsets.only(bottom: 8),
+          child: _tvAnchor(
+            _tvHistoryAnchor(entry),
+            (focus) => OutlinedButton(
+              focusNode: focus,
+              onPressed: () => _openFilm({}, history: entry),
+              child: Padding(
+                padding: const EdgeInsets.symmetric(vertical: 10),
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            valueText(entry['title']),
+                            maxLines: 2,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                          Text(
+                            joined([
+                              episodeName(entry['episode']),
+                              _clockLabel(entry['position']),
+                              cleanedSource(entry['source']),
+                            ]),
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                            style: const TextStyle(fontSize: 12, color: muted),
+                          ),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(width: 16),
+                    const Text('继续观看'),
+                  ],
+                ),
+              ),
+            ),
+          ),
         ),
     ],
   );
@@ -2831,10 +3069,14 @@ class _FilmCard extends StatelessWidget {
     required this.film,
     required this.index,
     required this.onOpen,
+    this.focusNode,
+    this.tvMode = false,
   });
   final Json film;
   final int index;
   final VoidCallback onOpen;
+  final FocusNode? focusNode;
+  final bool tvMode;
   @override
   Widget build(BuildContext context) {
     final availability = asJson(film['availability']);
@@ -2856,12 +3098,13 @@ class _FilmCard extends StatelessWidget {
         ),
         clipBehavior: Clip.antiAlias,
         child: InkWell(
+          focusNode: focusNode,
           onTap: pending ? null : onOpen,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Container(
-                height: 145,
+                height: tvMode ? 104 : 145,
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
                     begin: Alignment.topLeft,
@@ -2933,8 +3176,8 @@ class _FilmCard extends StatelessWidget {
                       title,
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
-                      style: const TextStyle(
-                        fontSize: 15,
+                      style: TextStyle(
+                        fontSize: tvMode ? 17 : 15,
                         fontWeight: FontWeight.w600,
                       ),
                     ),
@@ -3008,10 +3251,14 @@ class _EpisodeButton extends StatelessWidget {
     required this.name,
     required this.selected,
     required this.onPressed,
+    this.focusNode,
+    this.tvMode = false,
   });
   final String name;
   final bool selected;
   final VoidCallback onPressed;
+  final FocusNode? focusNode;
+  final bool tvMode;
   @override
   Widget build(BuildContext context) => Tooltip(
     message: name,
@@ -3024,10 +3271,11 @@ class _EpisodeButton extends StatelessWidget {
         borderRadius: BorderRadius.circular(6),
       ),
       child: InkWell(
+        focusNode: focusNode,
         onTap: onPressed,
         borderRadius: BorderRadius.circular(6),
         child: ConstrainedBox(
-          constraints: const BoxConstraints(minHeight: 42),
+          constraints: BoxConstraints(minHeight: tvMode ? 50 : 42),
           child: Padding(
             padding: const EdgeInsets.symmetric(vertical: 9, horizontal: 3),
             child: Center(
@@ -3037,7 +3285,7 @@ class _EpisodeButton extends StatelessWidget {
                 overflow: TextOverflow.ellipsis,
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  fontSize: 11,
+                  fontSize: tvMode ? 14 : 11,
                   color:
                       selected
                           ? const Color(0xff133526)

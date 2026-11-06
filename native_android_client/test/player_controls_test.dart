@@ -4,6 +4,9 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:media_kit_video/media_kit_video.dart';
+// ignore: implementation_imports
+import 'package:media_kit_video/src/utils/dispose_safe_notifer.dart';
 import 'package:yingxia_native/player_controls.dart';
 import 'package:yingxia_native/video_quality.dart';
 
@@ -70,6 +73,34 @@ class FakeControlsAdapter extends PlayerControlsAdapter {
   }
 }
 
+class _ExitCallbackVideo implements Video {
+  _ExitCallbackVideo(this.onExitFullscreen);
+
+  @override
+  final Future<void> Function() onExitFullscreen;
+
+  @override
+  dynamic noSuchMethod(Invocation invocation) => super.noSuchMethod(invocation);
+
+  @override
+  String toString({DiagnosticLevel minLevel = DiagnosticLevel.info}) =>
+      super.toString();
+}
+
+class _ExitCallbackVideoState implements VideoState {
+  _ExitCallbackVideoState(this.widget);
+
+  @override
+  final Video widget;
+
+  @override
+  dynamic noSuchMethod(Invocation invocation) => super.noSuchMethod(invocation);
+
+  @override
+  String toString({DiagnosticLevel minLevel = DiagnosticLevel.info}) =>
+      super.toString();
+}
+
 Future<void> mountControls(
   WidgetTester tester,
   FakeControlsAdapter adapter, {
@@ -80,6 +111,8 @@ Future<void> mountControls(
   Future<void> Function()? onPlayOrPause,
   ValueChanged<VideoQuality>? onQualityChanged,
   VoidCallback? onCacheSettings,
+  bool tvMode = false,
+  VoidCallback? onTvBack,
   Duration hideAfter = const Duration(seconds: 3),
 }) async {
   tester.view.physicalSize = size;
@@ -104,6 +137,8 @@ Future<void> mountControls(
             cacheDescription: '内存缓存 · 25 秒',
             enableLongPress: true,
             autofocus: true,
+            tvMode: tvMode,
+            onTvBack: onTvBack,
             hideAfter: hideAfter,
           ),
         ),
@@ -449,6 +484,205 @@ void main() {
           .opacity,
       1,
     );
+  });
+
+  testWidgets('TV OK restores hidden controls without an accidental pause', (
+    tester,
+  ) async {
+    final adapter = FakeControlsAdapter();
+    await mountControls(
+      tester,
+      adapter,
+      tvMode: true,
+      hideAfter: const Duration(milliseconds: 350),
+    );
+    await tester.pump(const Duration(milliseconds: 500));
+    expect(
+      tester
+          .widget<AnimatedOpacity>(
+            find
+                .ancestor(
+                  of: control('bar'),
+                  matching: find.byType(AnimatedOpacity),
+                )
+                .first,
+          )
+          .opacity,
+      0,
+    );
+    await tester.sendKeyDownEvent(LogicalKeyboardKey.select);
+    await tester.pump();
+    expect(
+      tester.widget<IconButton>(control('play')).focusNode!.hasFocus,
+      isTrue,
+    );
+    await tester.sendKeyRepeatEvent(LogicalKeyboardKey.select);
+    await tester.sendKeyUpEvent(LogicalKeyboardKey.select);
+    await tester.pump();
+    expect(adapter.playCalls, 0);
+
+    await tester.sendKeyEvent(LogicalKeyboardKey.select);
+    await tester.pump();
+    expect(adapter.playCalls, 1);
+    expect(adapter.playing, isFalse);
+
+    await tester.sendKeyEvent(LogicalKeyboardKey.audioVolumeUp);
+    await tester.pump();
+    expect(adapter.volume, 75);
+  });
+
+  testWidgets('TV down reaches controls and opens settings with volume focus', (
+    tester,
+  ) async {
+    final adapter = FakeControlsAdapter();
+    await mountControls(tester, adapter, tvMode: true);
+    await tester.sendKeyEvent(LogicalKeyboardKey.arrowDown);
+    await tester.pump();
+    expect(
+      tester.widget<IconButton>(control('play')).focusNode!.hasFocus,
+      isTrue,
+    );
+    await tester.sendKeyEvent(LogicalKeyboardKey.arrowRight);
+    await tester.pump();
+    await tester.sendKeyEvent(LogicalKeyboardKey.arrowRight);
+    await tester.pump();
+    await tester.sendKeyEvent(LogicalKeyboardKey.arrowRight);
+    await tester.pump();
+    expect(
+      tester.widget<IconButton>(control('settings')).focusNode!.hasFocus,
+      isTrue,
+    );
+    await tester.sendKeyEvent(LogicalKeyboardKey.select);
+    await tester.pumpAndSettle();
+    expect(control('panel'), findsOneWidget);
+    expect(
+      tester.widget<Slider>(control('volume')).focusNode!.hasFocus,
+      isTrue,
+    );
+    await tester.sendKeyEvent(LogicalKeyboardKey.arrowRight);
+    await tester.pump();
+    expect(adapter.volume, greaterThan(75));
+    expect(adapter.seeks, isEmpty);
+  });
+
+  testWidgets('TV remote Back closes settings, fullscreen, then delegates', (
+    tester,
+  ) async {
+    final adapter = FakeControlsAdapter()..fullscreen = true;
+    var appBacks = 0;
+    await mountControls(
+      tester,
+      adapter,
+      tvMode: true,
+      onTvBack: () => appBacks++,
+    );
+    await tester.tap(control('settings'));
+    await tester.pumpAndSettle();
+    expect(control('panel'), findsOneWidget);
+
+    await tester.sendKeyDownEvent(
+      LogicalKeyboardKey.goBack,
+      physicalKey: PhysicalKeyboardKey.escape,
+    );
+    await tester.pump();
+    expect(control('panel'), findsOneWidget);
+    await tester.sendKeyUpEvent(
+      LogicalKeyboardKey.goBack,
+      physicalKey: PhysicalKeyboardKey.escape,
+    );
+    await tester.sendKeyDownEvent(LogicalKeyboardKey.escape);
+    await tester.pump();
+    expect(control('panel'), findsNothing);
+    await tester.sendKeyRepeatEvent(LogicalKeyboardKey.escape);
+    await tester.sendKeyUpEvent(LogicalKeyboardKey.escape);
+    await tester.pump();
+    expect(adapter.fullscreen, isTrue);
+    expect(appBacks, 0);
+
+    await tester.sendKeyEvent(LogicalKeyboardKey.escape);
+    await tester.pump();
+    expect(adapter.fullscreen, isFalse);
+    expect(appBacks, 0);
+
+    await tester.sendKeyEvent(
+      LogicalKeyboardKey.browserBack,
+      platform: 'windows',
+    );
+    await tester.pump();
+    expect(appBacks, 1);
+    expect(adapter.playCalls, 0);
+  });
+
+  testWidgets('TV system Back does not pop fullscreen while settings is open', (
+    tester,
+  ) async {
+    final navigator = GlobalKey<NavigatorState>();
+    await mountControls(tester, FakeControlsAdapter(), navigatorKey: navigator);
+    final fullscreen = FakeControlsAdapter()..fullscreen = true;
+    var exits = 0;
+    final videoState = _ExitCallbackVideoState(
+      _ExitCallbackVideo(() async {
+        exits++;
+      }),
+    );
+    final contextNotifier = DisposeSafeNotifier<BuildContext?>(null);
+    final viewParameters = ValueNotifier(
+      VideoViewParameters(
+        width: null,
+        height: null,
+        fit: BoxFit.contain,
+        fill: Colors.black,
+        alignment: Alignment.center,
+        aspectRatio: null,
+        filterQuality: FilterQuality.low,
+        controls: null,
+        subtitleViewConfiguration: const SubtitleViewConfiguration(),
+      ),
+    );
+    addTearDown(fullscreen.dispose);
+    addTearDown(contextNotifier.dispose);
+    addTearDown(viewParameters.dispose);
+    unawaited(
+      navigator.currentState!.push(
+        MaterialPageRoute<void>(
+          builder:
+              (_) => Scaffold(
+                body: VideoStateInheritedWidget(
+                  state: videoState,
+                  contextNotifier: contextNotifier,
+                  videoViewParametersNotifier: viewParameters,
+                  disposeNotifiers: false,
+                  child: FullscreenInheritedWidget(
+                    parent: videoState,
+                    child: YingXiaPlayerControls.withAdapter(
+                      adapter: fullscreen,
+                      requestedQuality: VideoQuality.off,
+                      effectiveQuality: VideoQuality.off,
+                      onQualityChanged: (_) {},
+                      autofocus: true,
+                      tvMode: true,
+                    ),
+                  ),
+                ),
+              ),
+        ),
+      ),
+    );
+    await tester.pumpAndSettle();
+    await tester.tap(control('settings'));
+    await tester.pumpAndSettle();
+    expect(control('panel'), findsOneWidget);
+
+    await tester.binding.handlePopRoute();
+    await tester.pumpAndSettle();
+    expect(control('panel'), findsNothing);
+    expect(navigator.currentState!.canPop(), isTrue);
+    expect(exits, 0);
+
+    await tester.binding.handlePopRoute();
+    await tester.pumpAndSettle();
+    expect(navigator.currentState!.canPop(), isFalse);
+    expect(exits, 1);
   });
 
   for (final size in const [Size(320, 180), Size(3840, 2160)]) {

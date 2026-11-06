@@ -1,7 +1,7 @@
 name: yingxia_native
 description: 映匣 Android 原生客户端
 publish_to: none
-version: 2.3.0+20300
+version: 2.3.1+20301
 environment:
   sdk: '>=3.7.0 <4.0.0'
 dependencies:

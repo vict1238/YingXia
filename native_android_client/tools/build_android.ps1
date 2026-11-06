@@ -24,7 +24,11 @@ New-Item -ItemType Directory -Path (Split-Path -Parent $clientAar) -Force | Out-
 Copy-Item -LiteralPath $selectedAar -Destination $clientAar -Force
 $candidateDirectory = Join-Path $clientRoot 'build/candidates'
 New-Item -ItemType Directory -Path $candidateDirectory -Force | Out-Null
-$candidateName = if ($QaGpu) { 'YingXia_v2.3.0_Android_fixture_gpu.apk' } elseif ($Fixture) { 'YingXia_v2.3.0_Android_fixture.apk' } else { 'YingXia_v2.3.0_Android.apk' }
+$versionLine = Select-String -LiteralPath (Join-Path $clientRoot 'pubspec.yaml') -Pattern '^version:\s*(\d+\.\d+\.\d+)\+\d+\s*$'
+if (-not $versionLine -or @($versionLine).Count -ne 1) { throw 'Expected one Android version in pubspec.yaml.' }
+$versionName = $versionLine.Matches[0].Groups[1].Value
+$variant = if ($QaGpu) { '_fixture_gpu' } elseif ($Fixture) { '_fixture' } else { '' }
+$candidateName = "YingXia_v${versionName}_Android${variant}.apk"
 $candidate = Join-Path $candidateDirectory $candidateName
 Push-Location $clientRoot
 try {

@@ -149,7 +149,7 @@ void main() {
       await tester.pumpAndSettle();
       expect(
         MediaQuery.textScalerOf(
-          tester.element(find.byKey(const Key('search-query'))),
+          tester.element(find.byKey(const Key('search-tv-entry'))),
         ).scale(16),
         20,
       );

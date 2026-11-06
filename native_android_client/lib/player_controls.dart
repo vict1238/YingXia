@@ -2,10 +2,13 @@
 import 'dart:async';
 import 'dart:math' as math;
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:media_kit/media_kit.dart';
 import 'package:media_kit_video/media_kit_video.dart';
+import 'package:media_kit_video/media_kit_video_controls/media_kit_video_controls.dart'
+    as video_controls;
 
 import 'video_quality.dart';
 
@@ -155,6 +158,8 @@ class YingXiaPlayerControls extends StatefulWidget {
     this.onCacheSettings,
     this.enableLongPress = false,
     this.autofocus = false,
+    this.tvMode = false,
+    this.onTvBack,
     this.hideAfter = const Duration(seconds: 3),
   }) : adapter = null;
 
@@ -172,6 +177,8 @@ class YingXiaPlayerControls extends StatefulWidget {
     this.onCacheSettings,
     this.enableLongPress = false,
     this.autofocus = false,
+    this.tvMode = false,
+    this.onTvBack,
     this.hideAfter = const Duration(seconds: 3),
   }) : player = null,
        videoState = null;
@@ -189,23 +196,32 @@ class YingXiaPlayerControls extends StatefulWidget {
   final FutureOr<void> Function()? onCacheSettings;
   final bool enableLongPress;
   final bool autofocus;
+  final bool tvMode;
+  final VoidCallback? onTvBack;
   final Duration hideAfter;
 
   @override
-  State<YingXiaPlayerControls> createState() => _YingXiaPlayerControlsState();
+  State<YingXiaPlayerControls> createState() => YingXiaPlayerControlsState();
 }
 
-class _YingXiaPlayerControlsState extends State<YingXiaPlayerControls>
+class YingXiaPlayerControlsState extends State<YingXiaPlayerControls>
     with WidgetsBindingObserver {
   late PlayerControlsAdapter _adapter;
   late TemporaryPlaybackRate _temporary;
   final _surfaceFocus = FocusNode(debugLabel: '映匣视频快捷键');
+  final _playFocus = FocusNode(debugLabel: '映匣播放暂停');
+  final _seekFocus = FocusNode(debugLabel: '映匣播放进度');
+  final _rewindFocus = FocusNode(debugLabel: '映匣后退十秒');
+  final _forwardFocus = FocusNode(debugLabel: '映匣快进十秒');
   final _settingsFocus = FocusNode(debugLabel: '映匣播放设置');
+  final _fullscreenFocus = FocusNode(debugLabel: '映匣全屏');
   final _volumeFocus = FocusNode(debugLabel: '映匣音量');
+  final _panelFocus = FocusScopeNode(debugLabel: '映匣播放设置区域');
   Timer? _hideTimer;
   bool _visible = true;
   bool _panelOpen = false;
   bool _scrubbing = false;
+  bool _fullscreenChanging = false;
   double? _dragPosition;
   double _lastVolume = 100;
   Offset _doubleTapPosition = Offset.zero;
@@ -272,8 +288,14 @@ class _YingXiaPlayerControlsState extends State<YingXiaPlayerControls>
     WidgetsBinding.instance.removeObserver(this);
     _detach();
     _surfaceFocus.dispose();
+    _playFocus.dispose();
+    _seekFocus.dispose();
+    _rewindFocus.dispose();
+    _forwardFocus.dispose();
     _settingsFocus.dispose();
+    _fullscreenFocus.dispose();
     _volumeFocus.dispose();
+    _panelFocus.dispose();
     super.dispose();
   }
 
@@ -346,14 +368,71 @@ class _YingXiaPlayerControlsState extends State<YingXiaPlayerControls>
     _show();
   }
 
+  // Fullscreen and embedded controls share VideoState's context notifier, so
+  // only the route containing this widget can own a fullscreen Back press.
+  bool get _inFullscreen =>
+      widget.adapter != null
+          ? _adapter.fullscreen
+          : video_controls.isFullscreen(context);
+
+  void _focusAfterLayout(FocusNode node, {bool inPanel = false}) {
+    if (node.context != null && node.canRequestFocus) {
+      node.requestFocus();
+      return;
+    }
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted ||
+          !_visible ||
+          _panelOpen != inPanel ||
+          ModalRoute.of(context)?.isCurrent == false) {
+        return;
+      }
+      node.requestFocus();
+    });
+    WidgetsBinding.instance.ensureVisualUpdate();
+  }
+
+  /// Lets the workbench consume system Back before navigating away.
+  bool closeSettings() {
+    if (!_panelOpen || ModalRoute.of(context)?.isCurrent == false) return false;
+    _togglePanel();
+    if (!widget.tvMode) _settingsFocus.requestFocus();
+    return true;
+  }
+
   void _togglePanel() {
     _endHold();
     setState(() {
       _visible = true;
       _panelOpen = !_panelOpen;
     });
+    if (widget.tvMode) {
+      if (_panelOpen) {
+        _focusAfterLayout(_volumeFocus, inPanel: true);
+      } else {
+        _settingsFocus.requestFocus();
+      }
+    }
     _hideTimer?.cancel();
     _scheduleHide();
+  }
+
+  void _toggleFullscreen() {
+    if (_fullscreenChanging) return;
+    _endHold();
+    _fullscreenChanging = true;
+    _run(() async {
+      try {
+        if (widget.tvMode && closeSettings()) {
+          // Rebuild the PopScope before a deliberate fullscreen button exit.
+          await WidgetsBinding.instance.endOfFrame;
+          if (!mounted) return;
+        }
+        await _adapter.toggleFullscreen();
+      } finally {
+        _fullscreenChanging = false;
+      }
+    }());
   }
 
   bool get _editing {
@@ -368,21 +447,79 @@ class _YingXiaPlayerControlsState extends State<YingXiaPlayerControls>
     }
     if (_editing) return KeyEventResult.ignored;
     final key = event.logicalKey;
-    if (key == LogicalKeyboardKey.audioVolumeUp ||
-        key == LogicalKeyboardKey.audioVolumeDown) {
+    // Android KEYCODE_BACK is also delivered as a native route-pop request.
+    // Handling its logical key here would consume two layers for one press.
+    if (widget.tvMode &&
+        defaultTargetPlatform == TargetPlatform.android &&
+        key == LogicalKeyboardKey.goBack) {
+      return KeyEventResult.ignored;
+    }
+    final repeat = event is KeyRepeatEvent;
+    final select =
+        key == LogicalKeyboardKey.space ||
+        key == LogicalKeyboardKey.select ||
+        key == LogicalKeyboardKey.enter ||
+        key == LogicalKeyboardKey.numpadEnter ||
+        key == LogicalKeyboardKey.gameButtonA;
+    final back =
+        key == LogicalKeyboardKey.escape ||
+        key == LogicalKeyboardKey.goBack ||
+        key == LogicalKeyboardKey.browserBack ||
+        key == LogicalKeyboardKey.gameButtonB;
+    if (widget.tvMode && back) {
+      if (repeat || closeSettings()) return KeyEventResult.handled;
+      if (_inFullscreen) {
+        _toggleFullscreen();
+      } else if (widget.onTvBack case final onBack?) {
+        onBack();
+      } else {
+        return KeyEventResult.ignored;
+      }
+      return KeyEventResult.handled;
+    }
+    if (!widget.tvMode &&
+        (key == LogicalKeyboardKey.audioVolumeUp ||
+            key == LogicalKeyboardKey.audioVolumeDown)) {
       _volume(
         _adapter.volume + (key == LogicalKeyboardKey.audioVolumeUp ? 5 : -5),
       );
       return KeyEventResult.handled;
     }
-    if (key == LogicalKeyboardKey.mediaPlayPause) {
-      _playOrPause();
+    if (key == LogicalKeyboardKey.mediaPlayPause ||
+        (widget.tvMode &&
+            (key == LogicalKeyboardKey.mediaPlay ||
+                key == LogicalKeyboardKey.mediaPause))) {
+      if ((!widget.tvMode || !repeat) &&
+          (key == LogicalKeyboardKey.mediaPlayPause ||
+              (key == LogicalKeyboardKey.mediaPlay && !_adapter.playing) ||
+              (key == LogicalKeyboardKey.mediaPause && _adapter.playing))) {
+        _playOrPause();
+      }
       return KeyEventResult.handled;
     }
-    if (key == LogicalKeyboardKey.escape && _panelOpen) {
-      _togglePanel();
-      _settingsFocus.requestFocus();
+    if (widget.tvMode && repeat && select) return KeyEventResult.handled;
+    if (key == LogicalKeyboardKey.escape && closeSettings()) {
       return KeyEventResult.handled;
+    }
+    if (widget.tvMode &&
+        !_panelOpen &&
+        (key == LogicalKeyboardKey.arrowLeft ||
+            key == LogicalKeyboardKey.arrowRight)) {
+      // Keep the five buttons in a fixed left/right order; the slider above
+      // the row can otherwise win geometric focus traversal.
+      final buttons = [
+        _playFocus,
+        _rewindFocus,
+        _forwardFocus,
+        _settingsFocus,
+        _fullscreenFocus,
+      ];
+      final current = buttons.indexWhere((button) => button.hasPrimaryFocus);
+      final next = current + (key == LogicalKeyboardKey.arrowLeft ? -1 : 1);
+      if (current >= 0 && next >= 0 && next < buttons.length) {
+        buttons[next].requestFocus();
+        return KeyEventResult.handled;
+      }
     }
     // Let focused buttons, menus and sliders handle their own keys.
     if (!_surfaceFocus.hasPrimaryFocus) return KeyEventResult.ignored;
@@ -392,18 +529,25 @@ class _YingXiaPlayerControlsState extends State<YingXiaPlayerControls>
     } else if (key == LogicalKeyboardKey.arrowDown ||
         key == LogicalKeyboardKey.arrowUp) {
       _show();
-      _settingsFocus.requestFocus();
-    } else if (key == LogicalKeyboardKey.space ||
-        key == LogicalKeyboardKey.select ||
-        key == LogicalKeyboardKey.enter ||
-        key == LogicalKeyboardKey.gameButtonA) {
-      _playOrPause();
+      _focusAfterLayout(
+        widget.tvMode
+            ? (key == LogicalKeyboardKey.arrowUp &&
+                    _adapter.duration > Duration.zero
+                ? _seekFocus
+                : _playFocus)
+            : _settingsFocus,
+      );
+    } else if (select) {
+      if (widget.tvMode && !_visible) {
+        _show();
+        _focusAfterLayout(_playFocus);
+      } else {
+        _playOrPause();
+      }
     } else if (key == LogicalKeyboardKey.keyF) {
-      _endHold();
-      _run(_adapter.toggleFullscreen());
-    } else if (key == LogicalKeyboardKey.escape && _adapter.fullscreen) {
-      _endHold();
-      _run(_adapter.toggleFullscreen());
+      if (!widget.tvMode || !repeat) _toggleFullscreen();
+    } else if (key == LogicalKeyboardKey.escape && _inFullscreen) {
+      _toggleFullscreen();
     } else {
       return KeyEventResult.ignored;
     }
@@ -650,7 +794,7 @@ class _YingXiaPlayerControlsState extends State<YingXiaPlayerControls>
               _adapter.position.inMilliseconds.toDouble())
           .clamp(0.0, duration);
       final controlsHeight = 82 * scale;
-      return FocusTraversalGroup(
+      final controls = FocusTraversalGroup(
         child: Focus(
           focusNode: _surfaceFocus,
           autofocus: widget.autofocus,
@@ -768,6 +912,7 @@ class _YingXiaPlayerControlsState extends State<YingXiaPlayerControls>
                                             key: const ValueKey(
                                               'player-controls-seek',
                                             ),
+                                            focusNode: _seekFocus,
                                             value: position,
                                             max: duration,
                                             secondaryTrackValue: _adapter
@@ -829,18 +974,21 @@ class _YingXiaPlayerControlsState extends State<YingXiaPlayerControls>
                                             : Icons.play_arrow_rounded,
                                         _playOrPause,
                                         scale,
+                                        focusNode: _playFocus,
                                       ),
                                       _button(
                                         'back',
                                         Icons.replay_10_rounded,
                                         () => _seekBy(-10),
                                         scale,
+                                        focusNode: _rewindFocus,
                                       ),
                                       _button(
                                         'forward',
                                         Icons.forward_10_rounded,
                                         () => _seekBy(10),
                                         scale,
+                                        focusNode: _forwardFocus,
                                       ),
                                       const Spacer(),
                                       if (bounds.maxWidth >= 540 * scale)
@@ -863,11 +1011,9 @@ class _YingXiaPlayerControlsState extends State<YingXiaPlayerControls>
                                         _adapter.fullscreen
                                             ? Icons.fullscreen_exit_rounded
                                             : Icons.fullscreen_rounded,
-                                        () {
-                                          _endHold();
-                                          _run(_adapter.toggleFullscreen());
-                                        },
+                                        _toggleFullscreen,
                                         scale,
+                                        focusNode: _fullscreenFocus,
                                       ),
                                     ],
                                   ),
@@ -904,7 +1050,13 @@ class _YingXiaPlayerControlsState extends State<YingXiaPlayerControls>
                           ),
                           canvasColor: const Color(0xff202b30),
                         ),
-                        child: _panel(scale),
+                        child:
+                            widget.tvMode
+                                ? FocusScope(
+                                  node: _panelFocus,
+                                  child: _panel(scale),
+                                )
+                                : _panel(scale),
                       ),
                     ),
                 ],
@@ -912,6 +1064,14 @@ class _YingXiaPlayerControlsState extends State<YingXiaPlayerControls>
             ),
           ),
         ),
+      );
+      if (!widget.tvMode || !_inFullscreen) return controls;
+      return PopScope(
+        canPop: !_panelOpen,
+        onPopInvokedWithResult: (didPop, _) {
+          if (!didPop) closeSettings();
+        },
+        child: controls,
       );
     },
   );

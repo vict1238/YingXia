@@ -4,6 +4,7 @@ package com.yingxia.yingxia_native
 import android.app.Activity
 import android.app.UiModeManager
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.content.res.Configuration
 import android.os.Handler
 import android.os.Looper
@@ -44,6 +45,16 @@ class MainActivity : FlutterActivity() {
         super.onCreate(savedInstanceState)
     }
 
+    @Suppress("DEPRECATION") // Some older vendor TV builds expose only FEATURE_TELEVISION.
+    private fun isTelevision(): Boolean {
+        val reportedMode = getSystemService(UiModeManager::class.java)?.currentModeType
+        val configurationMode = resources.configuration.uiMode and Configuration.UI_MODE_TYPE_MASK
+        return reportedMode == Configuration.UI_MODE_TYPE_TELEVISION ||
+            configurationMode == Configuration.UI_MODE_TYPE_TELEVISION ||
+            packageManager.hasSystemFeature(PackageManager.FEATURE_LEANBACK) ||
+            packageManager.hasSystemFeature(PackageManager.FEATURE_TELEVISION)
+    }
+
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
         Seq.setContext(applicationContext)
@@ -57,10 +68,9 @@ class MainActivity : FlutterActivity() {
                             val emulator = Build.HARDWARE == "ranchu" || Build.HARDWARE == "goldfish" ||
                                 (Build.PRODUCT.startsWith("sdk_gphone") && Build.FINGERPRINT.startsWith("google/sdk_gphone"))
                             descriptor.put("emulator", emulator)
-                            val television = getSystemService(UiModeManager::class.java)
-                                ?.currentModeType == Configuration.UI_MODE_TYPE_TELEVISION
+                            val television = isTelevision()
                             descriptor.put("android_tv", television)
-                            Log.i("YingXiaCore", "core_start_completed host=$hostId emulator=$emulator")
+                            Log.i("YingXiaCore", "core_start_completed host=$hostId emulator=$emulator television=$television")
                             mainHandler.post { if (!destroyed) result.success(descriptor.toString()) }
                         } catch (error: Throwable) {
                             mainHandler.post { if (!destroyed) result.error("startup", "映匣后台未能启动", null) }
